@@ -26,6 +26,10 @@ interface Lobby {
   round: number;
   secretWord: string;
   secretCategory: string;
+  secretClues?: { easy: string; medium: string; hard: string };
+  enableClues?: boolean;
+  clueDifficulty?: 'easy' | 'medium' | 'hard';
+  giveHardClueIfFirst?: boolean;
   imposterIds: string[];
   firstSpeakerId: string;
   players: Player[];
@@ -61,7 +65,18 @@ setInterval(() => {
   }
 }, 10 * 60 * 1000);
 
-function pickRandomWord(langCode: string, categoryFilter: string | string[]): { category: string; word: string; hint: string } {
+// English URLs canonicalize to paths without the /en prefix. Invite links put the
+// room code in the query string, so that redirect has to keep it.
+function redirectPreservingQuery(req: Request, res: Response, targetPath: string) {
+  const queryIndex = req.originalUrl.indexOf('?');
+  const search = queryIndex >= 0 ? req.originalUrl.slice(queryIndex) : '';
+  if (search) {
+    res.set('Cache-Control', 'no-store');
+  }
+  res.redirect(search ? 302 : 301, `${targetPath}${search}`);
+}
+
+function pickRandomWord(langCode: string, categoryFilter: string | string[]): { category: string; word: string; clues: { easy: string; medium: string; hard: string } } {
   const lang = LANGUAGES[langCode] || LANGUAGES[DEFAULT_LANGUAGE];
   const catKeys = Object.keys(lang.words);
   let availableCategories: string[] = [];
@@ -80,10 +95,25 @@ function pickRandomWord(langCode: string, categoryFilter: string | string[]): { 
   const wordList = lang.words[chosenCategoryKey] || (lang.words as any)[catKeys[0]];
   const item = wordList[Math.floor(Math.random() * wordList.length)];
   const word = typeof item === 'string' ? item : item.word;
-  const hint = typeof item === 'string' ? '' : (item.hint || '');
+  const clues = typeof item !== 'string' && item.clues
+    ? item.clues
+    : {
+        easy: '',
+        medium: typeof item === 'string' ? '' : (item.hint || ''),
+        hard: typeof item === 'string' ? '' : (item.hint || ''),
+      };
   const categoryName = (lang.categories as any)[chosenCategoryKey] || chosenCategoryKey;
 
-  return { category: categoryName, word, hint };
+  return { category: categoryName, word, clues };
+}
+
+function clueForPlayer(lobby: Lobby, playerId: string | undefined, isImposter: boolean): string | undefined {
+  if (!isImposter || !lobby.secretClues) return undefined;
+  const isFirst = Boolean(playerId) && lobby.firstSpeakerId === playerId;
+  const show = lobby.enableClues !== false || (lobby.giveHardClueIfFirst !== false && isFirst);
+  if (!show) return undefined;
+  const level = lobby.enableClues === false ? 'hard' : (lobby.clueDifficulty || 'medium');
+  return lobby.secretClues[level] || lobby.secretClues.medium || lobby.secretClues.easy;
 }
 
 function sanitizeLobbyForPlayer(lobby: Lobby, playerId?: string) {
@@ -102,6 +132,7 @@ function sanitizeLobbyForPlayer(lobby: Lobby, playerId?: string) {
     secretCategory: lobby.secretCategory,
     // Mask secret word for imposter during active game
     secretWord: isReveal ? lobby.secretWord : (isImposter ? '' : lobby.secretWord),
+    clue: clueForPlayer(lobby, playerId, isImposter),
     // Mask imposter identity during active game unless player is imposter or game is revealed
     imposterIds: isReveal ? lobby.imposterIds : (isImposter ? lobby.imposterIds : []),
     isYouImposter: isImposter,
@@ -234,7 +265,7 @@ async function startServer() {
 
   app.post('/api/lobby/:code/start', (req: Request, res: Response) => {
     const code = req.params.code.toUpperCase();
-    const { playerId } = req.body;
+    const { playerId, clueDifficulty, enableClues, giveHardClueIfFirst } = req.body;
     const lobby = lobbies.get(code);
 
     if (!lobby || lobby.hostId !== playerId) {
@@ -245,10 +276,15 @@ async function startServer() {
       return res.status(400).json({ error: 'Need at least 3 players to start' });
     }
 
-    // Pick random word
-    const { category, word } = pickRandomWord(lobby.language, lobby.category);
+    const { category, word, clues } = pickRandomWord(lobby.language, lobby.category);
     lobby.secretCategory = category;
     lobby.secretWord = word;
+    lobby.secretClues = clues;
+    lobby.enableClues = enableClues !== false;
+    lobby.clueDifficulty = clueDifficulty === 'easy' || clueDifficulty === 'hard' || clueDifficulty === 'medium'
+      ? clueDifficulty
+      : 'medium';
+    lobby.giveHardClueIfFirst = giveHardClueIfFirst !== false;
 
     // Pick imposter(s)
     const shuffledPlayerIds = [...lobby.players.map((p) => p.id)].sort(() => Math.random() - 0.5);
@@ -485,7 +521,7 @@ async function startServer() {
       if (howToPlayMatch && LANGUAGES[howToPlayMatch[1].toLowerCase()]) {
         const langCode = howToPlayMatch[1].toLowerCase();
         if (langCode === 'en') {
-          return res.redirect(301, '/how-to-play-imposter');
+          return redirectPreservingQuery(req, res, '/how-to-play-imposter');
         }
         const finalHtml = injectLocalizedSeoIntoHtml(template, langCode, true, baseUrl);
         return res.status(200).set({ 'Content-Type': 'text/html' }).send(finalHtml);
@@ -493,7 +529,7 @@ async function startServer() {
 
       // 2. Generic /how-to-play redirect
       if (req.path === '/how-to-play' || req.path === '/how-to-play/') {
-        return res.redirect(301, '/how-to-play-imposter');
+        return redirectPreservingQuery(req, res, '/how-to-play-imposter');
       }
 
       // 3. Localized root: /:lang
@@ -501,7 +537,7 @@ async function startServer() {
       if (langRootMatch && LANGUAGES[langRootMatch[1].toLowerCase()]) {
         const langCode = langRootMatch[1].toLowerCase();
         if (langCode === 'en') {
-          return res.redirect(301, '/');
+          return redirectPreservingQuery(req, res, '/');
         }
         const finalHtml = injectLocalizedSeoIntoHtml(template, langCode, false, baseUrl);
         return res.status(200).set({ 'Content-Type': 'text/html' }).send(finalHtml);
@@ -525,7 +561,7 @@ async function startServer() {
     app.get([`/${slug}`, `/blog/${slug}`], renderHtmlResponse);
   });
   app.get(['/how-to-play', '/how-to-play/'], (req: Request, res: Response) => {
-    res.redirect(301, '/how-to-play-imposter');
+    redirectPreservingQuery(req, res, '/how-to-play-imposter');
   });
 
   // Explicit handlers for all 29 localized roots and localized how-to-play guides

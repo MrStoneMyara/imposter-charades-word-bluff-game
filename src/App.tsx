@@ -25,6 +25,16 @@ import { playSound } from './utils/audio.ts';
 
 type PlayMode = 'PASS_PHONE' | 'PLAY_ONLINE';
 
+function readRoomCodeFromLocation(): string {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const raw = params.get('code') || params.get('join') || '';
+    return raw.trim().toUpperCase();
+  } catch {
+    return '';
+  }
+}
+
 export default function App() {
   // Theme state: dark / light
   const [isDark, setIsDark] = useState<boolean>(() => {
@@ -101,7 +111,7 @@ export default function App() {
   const [rulesOpen, setRulesOpen] = useState(false);
 
   // Mode Selection: 'PASS_PHONE' vs 'PLAY_ONLINE' (Screenshot 2)
-  const [playMode, setPlayMode] = useState<PlayMode>('PASS_PHONE');
+  const [playMode, setPlayMode] = useState<PlayMode>(() => (readRoomCodeFromLocation() ? 'PLAY_ONLINE' : 'PASS_PHONE'));
 
   // Active game view for Pass & Play: 'SETUP' | 'PLAYING'
   const [passPlayState, setPassPlayState] = useState<'SETUP' | 'PLAYING'>('SETUP');
@@ -137,7 +147,7 @@ export default function App() {
       return '';
     }
   });
-  const [joinCode, setJoinCode] = useState('');
+  const [joinCode, setJoinCode] = useState(readRoomCodeFromLocation);
   const [joinName, setJoinName] = useState(() => {
     try {
       return localStorage.getItem('imposter_player_name') || '';
@@ -316,7 +326,7 @@ export default function App() {
   useEffect(() => {
     try {
       const params = new URLSearchParams(window.location.search);
-      const codeParam = params.get('code');
+      const codeParam = params.get('code') || params.get('join');
       if (!codeParam) return;
 
       const cleanCode = codeParam.trim().toUpperCase();
@@ -332,6 +342,7 @@ export default function App() {
 
       // URL Cleanup: clean up the query param using replaceState so a page refresh doesn't trigger duplicate joins
       params.delete('code');
+      params.delete('join');
       const remainingSearch = params.toString();
       const cleanUrl = window.location.pathname + (remainingSearch ? `?${remainingSearch}` : '');
       window.history.replaceState({}, '', cleanUrl);
@@ -364,7 +375,9 @@ export default function App() {
 
   const handleShareInvite = async () => {
     if (!lobbyState?.code) return;
-    const inviteUrl = `${window.location.origin}${window.location.pathname}?code=${lobbyState.code}`;
+    const path = window.location.pathname;
+    const invitePath = path === '/en' || path === '/en/' ? '/' : path;
+    const inviteUrl = `${window.location.origin}${invitePath}?code=${lobbyState.code}`;
     const shareData = {
       title: 'Join my Imposter game!',
       text: `Join my lobby using code ${lobbyState.code}`,
@@ -398,7 +411,12 @@ export default function App() {
       const res = await fetch(`/api/lobby/${lobbyCode}/start`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ playerId: currentPlayer.id }),
+        body: JSON.stringify({
+          playerId: currentPlayer.id,
+          clueDifficulty,
+          enableClues,
+          giveHardClueIfFirst,
+        }),
       });
       const data = await res.json();
       if (data.error) setErrorMessage(data.error);
@@ -967,6 +985,11 @@ export default function App() {
                           <p className="text-xs text-slate-600 dark:text-slate-300 max-w-xs leading-relaxed">
                             {lang.strings.imposterInstructions}
                           </p>
+                          {lobbyState.clue && (
+                            <p className="text-sm font-semibold text-rose-700 dark:text-rose-200 max-w-xs leading-relaxed">
+                              {lang.strings.clue}: {lobbyState.clue}
+                            </p>
+                          )}
                         </>
                       ) : (
                         <>
