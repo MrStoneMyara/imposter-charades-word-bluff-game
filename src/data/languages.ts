@@ -1,0 +1,10098 @@
+export interface CategoryItem {
+  id: string;
+  name: string;
+  emoji: string;
+}
+
+export interface WordItem {
+  word: string;
+  hint?: string;
+  clues?: {
+    easy: string;
+    medium: string;
+    hard: string;
+  };
+}
+
+export interface LanguageData {
+  code: string;
+  name: string;
+  nativeName: string;
+  shortLabel: string;
+  menuLabel: string;
+  dir: 'ltr' | 'rtl';
+  flag: string;
+  defaultPlayerNames: [string, string, string];
+  strings: {
+    appTitle: string;
+    appTagline: string;
+    language: string;
+    themeToggle: string;
+    darkMode: string;
+    lightMode: string;
+    startLobby: string;
+    joinLobby: string;
+    enterCode: string;
+    enterName: string;
+    joinBtn: string;
+    passAndPlay: string;
+    passAndPlayDesc: string;
+    onlineRooms: string;
+    onlineRoomsDesc: string;
+    passThePhone: string;
+    passThePhoneDesc: string;
+    playOnline: string;
+    playOnlineDesc: string;
+    lobbyCode: string;
+    copied: string;
+    shareLink: string;
+    linkCopied: string;
+    players: string;
+    reorderNotice: string;
+    waitingForHost: string;
+    startGame: string;
+    chooseCategory: string;
+    allCategories: string;
+    deselectAll: string;
+    selectAll: string;
+    selectedCount: string;
+    chaosMode: string;
+    chaosModeDesc: string;
+    howManyImposters: string;
+    imposterMajorityRule: string;
+    cluesSettings: string;
+    enableClues: string;
+    enableCluesDesc: string;
+    clueDifficulty: string;
+    easy: string;
+    medium: string;
+    hard: string;
+    easyClueDesc: string;
+    mediumClueDesc: string;
+    hardClueDesc: string;
+    giveHardClueIfFirst: string;
+    giveHardClueIfFirstDesc: string;
+    showHints: string;
+    showHintsDesc: string;
+    category: string;
+    categoriesAll: string;
+    impostersCount: string;
+    imposter: string;
+    innocent: string;
+    yourRole: string;
+    secretWord: string;
+    unknownWord: string;
+    clue: string;
+    firstSpeakerWarning: string;
+    tapToReveal: string;
+    tapToHide: string;
+    holdToReveal: string;
+    innocentInstructions: string;
+    imposterInstructions: string;
+    firstSpeaker: string;
+    turnNotice: string;
+    nextPlayer: string;
+    readyToVote: string;
+    revealImposter: string;
+    votingTitle: string;
+    votingSubtitle: string;
+    voteBtn: string;
+    imposterCaught: string;
+    imposterEscaped: string;
+    imposterGuessTitle: string;
+    imposterGuessSubtitle: string;
+    submitGuess: string;
+    correctGuess: string;
+    wrongGuess: string;
+    innocentsWin: string;
+    impostersWin: string;
+    nextRound: string;
+    leaveLobby: string;
+    howToPlayTitle: string;
+    rule1: string;
+    rule2: string;
+    rule3: string;
+    selectLanguage: string;
+    playerList: string;
+    addPlayer: string;
+    minPlayersWarning: string;
+    cardPassed: string;
+    passPhoneTo: string;
+    allRevealed: string;
+    startDebate: string;
+    round: string;
+    suspect: string;
+    score: string;
+    discreetlyPassNotice: string;
+    peekSecretCardNotice: string;
+    clueDiscussionRound: string;
+    theImposter: string;
+    theImposters: string;
+    whoWonRound: string;
+    innocentsWonBtn: string;
+    imposterWonBtn: string;
+    scoreboard: string;
+    startLobbyDesc: string;
+    joinLobbyDesc: string;
+    copyCode: string;
+    hostBadge: string;
+    youSuffix: string;
+    releaseToHide: string;
+    firstSpeakerPrefix: string;
+    backToSettings: string;
+  };
+  categories: Record<string, string>;
+  categoryIcons: Record<string, string>;
+  words: Record<string, WordItem[]>;
+}
+
+export const CATEGORY_KEYS = [
+  'objects',
+  'food',
+  'countries',
+  'professions',
+  'sports',
+  'animals',
+  'logos',
+  'transport',
+  'nature',
+  'music',
+  'hobbies',
+] as const;
+
+export const CATEGORY_EMOJIS: Record<string, string> = {
+  objects: '🏠',
+  food: '🍕',
+  countries: '🌍',
+  professions: '👨‍⚕️',
+  sports: '⚽',
+  animals: '🐾',
+  logos: '🏷️',
+  transport: '✈️',
+  nature: '🌈',
+  music: '🎵',
+  hobbies: '🎨',
+};
+
+export const DEFAULT_LANGUAGE = 'en';
+
+export const LANGUAGES: Record<string, LanguageData> = {
+  "en": {
+    code: "en",
+    name: "English",
+    nativeName: "English",
+    shortLabel: "EN",
+    menuLabel: "Language",
+    dir: "ltr",
+    flag: "🇺🇸",
+    defaultPlayerNames: ["Emma", "Liam", "Noah"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Language",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Start Game ▷",
+      "joinLobby": "Join with Code",
+      "enterCode": "4-letter code",
+      "enterName": "Your name",
+      "joinBtn": "Join Game",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Pass the phone",
+      "passThePhoneDesc": "Single device pass-and-play",
+      "playOnline": "Play Online",
+      "playOnlineDesc": "Multi-device online rooms",
+      "lobbyCode": "LOBBY CODE",
+      "copied": "Copied to clipboard!",
+      "shareLink": "Share",
+      "linkCopied": "Link Copied!",
+      "players": "Players",
+      "reorderNotice": "Drag names to match seating circle order",
+      "waitingForHost": "Waiting for host to start...",
+      "startGame": "Start Game",
+      "chooseCategory": "Choose Category",
+      "allCategories": "All Categories",
+      "deselectAll": "Deselect All",
+      "selectAll": "Select All",
+      "selectedCount": "Selected",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "How many imposters?",
+      "imposterMajorityRule": "Max {max} imposters for {players} players (must never be majority)",
+      "cluesSettings": "Clues & Assistance",
+      "enableClues": "Give Clues to Imposter",
+      "enableCluesDesc": "Provides the imposter a clue to help them blend in",
+      "clueDifficulty": "Clue Level",
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Hard clue if imposter is 1st",
+      "giveHardClueIfFirstDesc": "If imposter speaks 1st, they get a hard clue to survive",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Imposter",
+      "innocent": "Innocent",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Secret Word",
+      "unknownWord": "??? (You are the Imposter)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Press & hold to reveal your secret card",
+      "innocentInstructions": "You know the secret word. Give ONE smart clue related to it without giving it away to the imposter!",
+      "imposterInstructions": "YOU ARE THE IMPOSTER! You do NOT know the word. Listen carefully, bluff, and do not get caught!",
+      "firstSpeaker": "First to speak",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Next Player",
+      "readyToVote": "Start Voting & Discussion",
+      "revealImposter": "Reveal the Imposter",
+      "votingTitle": "Who is the Imposter?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Vote",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Innocents Win!",
+      "impostersWin": "Imposter Wins!",
+      "nextRound": "Next Round",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Language",
+      "playerList": "Player Roster",
+      "addPlayer": "Add Player",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Now displaying for:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Start Clue Round",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Make sure no one else is looking at your screen, then press and hold to view!",
+      "peekSecretCardNotice": "Press and hold to peek at your secret card",
+      "clueDiscussionRound": "Clue & Discussion Round",
+      "theImposter": "The Imposter",
+      "theImposters": "The Imposters",
+      "whoWonRound": "Who won the round?",
+      "innocentsWonBtn": "Innocents (+1)",
+      "imposterWonBtn": "Imposter (+2)",
+      "scoreboard": "Scoreboard",
+      "backToSettings": "Back to Settings",
+      "startLobbyDesc": "Create an online room and invite friends with a 4-letter code.",
+      "joinLobbyDesc": "Enter the 4-letter code shared by your friend.",
+      "copyCode": "Copy Code",
+      "hostBadge": "Host",
+      "youSuffix": "(You)",
+      "releaseToHide": "Release to hide card",
+      "firstSpeakerPrefix": "First"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Umbrella",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Sunglasses",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Smartphone",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Wristwatch",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Chocolate",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Coffee",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japan",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "France",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Italy",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Doctor",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Firefighter",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Soccer",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Basketball",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Elephant",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Lion",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Airplane",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Volcano",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Guitar",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Photography",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "ja": {
+    code: "ja",
+    name: "Japanese",
+    nativeName: "日本語",
+    shortLabel: "JA",
+    menuLabel: "言語",
+    dir: "ltr",
+    flag: "🇯🇵",
+    defaultPlayerNames: ["レン", "ユイ", "ハルト"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "言語",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "ルームを作成 ▷",
+      "joinLobby": "コードで参加",
+      "enterCode": "4文字のコード",
+      "enterName": "あなたの名前",
+      "joinBtn": "ゲームに参加",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "スマホを回す",
+      "passThePhoneDesc": "1台のスマホを円になって回して遊ぶ",
+      "playOnline": "オンライン対戦",
+      "playOnlineDesc": "各自のスマホからルームに参加",
+      "lobbyCode": "ルームコード",
+      "copied": "クリップボードにコピーしました！",
+      "shareLink": "共有",
+      "linkCopied": "リンクをコピーしました！",
+      "players": "プレイヤー",
+      "reorderNotice": "円の座り順に合わせて名前をドラッグしてください",
+      "waitingForHost": "ホストの開始を待っています...",
+      "startGame": "ゲーム開始",
+      "chooseCategory": "カテゴリーを選択",
+      "allCategories": "すべてのカテゴリー",
+      "deselectAll": "すべて解除",
+      "selectAll": "すべて選択",
+      "selectedCount": "選択中",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "インポスターの人数",
+      "imposterMajorityRule": "{players}人のプレイヤーに対しインポスターは最大{max}人（過半数不可）",
+      "cluesSettings": "ヒントとサポート",
+      "enableClues": "インポスターにヒントを与える",
+      "enableCluesDesc": "紛れ込みやすいようにヒントを提供します",
+      "clueDifficulty": "ヒントの難易度",
+      "easy": "簡単",
+      "medium": "普通",
+      "hard": "難しい",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "インポスターが最初の時に難問ヒント",
+      "giveHardClueIfFirstDesc": "最初の手番のインポスターに助けを与えます",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "インポスター",
+      "innocent": "市民",
+      "yourRole": "Your Secret Role",
+      "secretWord": "秘密の言葉",
+      "unknownWord": "??? (あなたはインポスターです)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "長押ししてカードを確認",
+      "innocentInstructions": "あなたはお題の言葉を知っています。インポスターに気付かれないよう、うまく関連するヒントを1つ出してください！",
+      "imposterInstructions": "あなたはインポスターです！お題の言葉を知りません。他の人の話を注意深く聞き、うまく紛れ込んで見つからないようにしてください！",
+      "firstSpeaker": "最初の発言者",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "次のプレイヤー",
+      "readyToVote": "投票とディスカッションを開始",
+      "revealImposter": "インポスターを暴く",
+      "votingTitle": "インポスターは誰ですか？",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "投票する",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "市民の勝利！",
+      "impostersWin": "インポスターの勝利！",
+      "nextRound": "次のラウンド",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "言語",
+      "playerList": "プレイヤー一覧",
+      "addPlayer": "プレイヤーを追加",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "現在表示中：",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "ヒントラウンドを開始",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "他の人に見られないように注意して、長押しして確認してください！",
+      "peekSecretCardNotice": "長押しして秘密の言葉を覗く",
+      "clueDiscussionRound": "ヒントとディスカッションのラウンド",
+      "theImposter": "インポスター",
+      "theImposters": "インポスターたち",
+      "whoWonRound": "誰が勝ちましたか？",
+      "innocentsWonBtn": "市民の勝利 (+1)",
+      "imposterWonBtn": "インポスター勝利 (+2)",
+      "scoreboard": "スコアボード",
+      "backToSettings": "設定に戻る",
+      "startLobbyDesc": "オンラインルームを作成し、4文字のコードで友達を招待します。",
+      "joinLobbyDesc": "友達から共有された4文字のコードを入力してください。",
+      "copyCode": "コードをコピー",
+      "hostBadge": "ホスト",
+      "youSuffix": "(あなた)",
+      "releaseToHide": "離すとカードを隠します",
+      "firstSpeakerPrefix": "最初"
+    },
+    categories: {
+      "objects": "日用品",
+      "food": "食べ物",
+      "countries": "国・地域",
+      "professions": "職業",
+      "sports": "スポーツ",
+      "animals": "動物",
+      "logos": "有名ブランド",
+      "transport": "乗り物",
+      "nature": "自然",
+      "music": "音楽",
+      "hobbies": "趣味"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "傘",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "サングラス",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "スマホ",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "腕時計",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "ピザ",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "寿司",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "チョコレート",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "コーヒー",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "日本",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "フランス",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "イタリア",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "医者",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "消防士",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "サッカー",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "バスケットボール",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "ゾウ",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "ライオン",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "アップル",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "飛行機",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "火山",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "ギター",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "写真",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "zh": {
+    code: "zh",
+    name: "Chinese",
+    nativeName: "中文",
+    shortLabel: "ZH",
+    menuLabel: "语言",
+    dir: "ltr",
+    flag: "🇨🇳",
+    defaultPlayerNames: ["小明", "小红", "李华"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "语言",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "创建房间 ▷",
+      "joinLobby": "输入代码加入",
+      "enterCode": "4位代码",
+      "enterName": "你的名字",
+      "joinBtn": "加入游戏",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "传递手机模式",
+      "passThePhoneDesc": "一台手机轮流传递游戏",
+      "playOnline": "联机对战",
+      "playOnlineDesc": "每位玩家用自己的手机加入",
+      "lobbyCode": "房间代码",
+      "copied": "已复制到剪贴板！",
+      "shareLink": "分享",
+      "linkCopied": "链接已复制！",
+      "players": "玩家",
+      "reorderNotice": "拖动名字以匹配围圈就坐顺序",
+      "waitingForHost": "等待房主开始游戏...",
+      "startGame": "开始游戏",
+      "chooseCategory": "选择分类",
+      "allCategories": "所有分类",
+      "deselectAll": "取消全选",
+      "selectAll": "全选",
+      "selectedCount": "已选择",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "卧底人数",
+      "imposterMajorityRule": "{players}名玩家最多可有{max}名卧底（不能占多数）",
+      "cluesSettings": "提示与辅助",
+      "enableClues": "为卧底提供线索",
+      "enableCluesDesc": "给卧底提示以协助隐藏身份",
+      "clueDifficulty": "提示难度",
+      "easy": "简单",
+      "medium": "普通",
+      "hard": "困难",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "若卧底首发则给困难提示",
+      "giveHardClueIfFirstDesc": "当卧底第一个发言时提供线索保命",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "卧底",
+      "innocent": "平民",
+      "yourRole": "Your Secret Role",
+      "secretWord": "秘密词",
+      "unknownWord": "??? (你是卧底)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "长按查看你的身份牌",
+      "innocentInstructions": "你知道秘密词。给出一个相关的巧妙提示，但不要泄露给卧底！",
+      "imposterInstructions": "你是卧底！你不知道秘密词。仔细倾听，巧妙伪装，不要被抓！",
+      "firstSpeaker": "第一位发言者",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "下一位玩家",
+      "readyToVote": "开始投票与讨论",
+      "revealImposter": "揭晓卧底身份",
+      "votingTitle": "谁是卧底？",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "投票",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "平民获胜！",
+      "impostersWin": "卧底获胜！",
+      "nextRound": "下一轮游戏",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "语言",
+      "playerList": "玩家名单",
+      "addPlayer": "添加玩家",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "当前显示给：",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "开始线索发言",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "确保周围没有其他人偷看，然后长按查看卡片！",
+      "peekSecretCardNotice": "长按查看秘密词语",
+      "clueDiscussionRound": "线索描述与讨论环节",
+      "theImposter": "卧底",
+      "theImposters": "卧底们",
+      "whoWonRound": "本轮谁赢了？",
+      "innocentsWonBtn": "平民胜 (+1)",
+      "imposterWonBtn": "卧底胜 (+2)",
+      "scoreboard": "积分榜",
+      "backToSettings": "返回设置",
+      "startLobbyDesc": "创建在线房间，并通过4位代码邀请朋友。",
+      "joinLobbyDesc": "输入朋友分享的4位代码。",
+      "copyCode": "复制房间代码",
+      "hostBadge": "房主",
+      "youSuffix": "(你)",
+      "releaseToHide": "松开以隐藏身份牌",
+      "firstSpeakerPrefix": "第一位"
+    },
+    categories: {
+      "objects": "日常物品",
+      "food": "美食佳肴",
+      "countries": "世界国家",
+      "professions": "职业身份",
+      "sports": "体育运动",
+      "animals": "可爱动物",
+      "logos": "知名品牌",
+      "transport": "交通工具",
+      "nature": "自然风光",
+      "music": "音乐艺术",
+      "hobbies": "休闲爱好"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "雨伞",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "太阳镜",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "智能手机",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "手表",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "比萨饼",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "寿司",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "巧克力",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "咖啡",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "日本",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "法国",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "意大利",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "医生",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "消防员",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "足球",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "篮球",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "大象",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "狮子",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "苹果公司",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "飞机",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "火山",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "吉他",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "摄影",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "he": {
+    code: "he",
+    name: "Hebrew",
+    nativeName: "עברית",
+    shortLabel: "HE",
+    menuLabel: "שפה",
+    dir: "rtl",
+    flag: "🇮🇱",
+    defaultPlayerNames: ["דניאל", "נועה", "איתי"],
+    strings: {
+      "appTitle": "המתחזה 🕵️‍♂️",
+      "appTagline": "משחק מילים ומסתורין",
+      "language": "שפה",
+      "themeToggle": "החלף ערכת נושא",
+      "darkMode": "מצב כהה",
+      "lightMode": "מצב בהיר",
+      "startLobby": "התחל משחק ▷",
+      "joinLobby": "הצטרף עם קוד",
+      "enterCode": "קוד בן 4 אותיות",
+      "enterName": "השם שלך",
+      "joinBtn": "הצטרף לחדר",
+      "passAndPlay": "העברת טלפון",
+      "passAndPlayDesc": "משחקים יחד על טלפון אחד במעגל",
+      "onlineRooms": "משחק אונליין",
+      "onlineRoomsDesc": "כל שחקן מתחבר מהטלפון שלו",
+      "passThePhone": "העברת טלפון",
+      "passThePhoneDesc": "טלפון אחד עובר במעגל",
+      "playOnline": "משחק אונליין",
+      "playOnlineDesc": "חדרי משחק מרובי מכשירים",
+      "lobbyCode": "קוד חדר",
+      "copied": "הועתק ללוח!",
+      "shareLink": "שתף",
+      "linkCopied": "הקישור הועתק!",
+      "players": "שחקנים",
+      "reorderNotice": "גרור שחקנים לפי סדר הישיבה במעגל",
+      "waitingForHost": "ממתין למנהל החדר שיתחיל...",
+      "startGame": "התחל משחק",
+      "chooseCategory": "בחר קטגוריה",
+      "allCategories": "כל הקטגוריות",
+      "deselectAll": "בטל הכל",
+      "selectAll": "בחר הכל",
+      "selectedCount": "נבחרו",
+      "chaosMode": "מצב כאוס",
+      "chaosModeDesc": "הפתעות אקראיות בכל סיבוב",
+      "howManyImposters": "כמה מתחזים?",
+      "imposterMajorityRule": "מקסימום {max} מתחזים עבור {players} שחקנים (אסור שיהיו רוב)",
+      "cluesSettings": "רמזים ועזרה",
+      "enableClues": "תן רמז למתחזה",
+      "enableCluesDesc": "מעניק למתחזה רמז כדי לעזור לו להשתלב",
+      "clueDifficulty": "רמת רמז",
+      "easy": "קל",
+      "medium": "בינוני",
+      "hard": "קשה",
+      "easyClueDesc": "רמז ישיר על המילה",
+      "mediumClueDesc": "רמז מושגי מועיל",
+      "hardClueDesc": "רמז מופשט ומסתורי",
+      "giveHardClueIfFirst": "רמז קשה אם ראשון",
+      "giveHardClueIfFirstDesc": "אם המתחזה מתחיל, יקבל רמז קשה לשרוד",
+      "showHints": "רמזים מסייעים",
+      "showHintsDesc": "הצג רמזים בדיון",
+      "category": "קטגוריה",
+      "categoriesAll": "כל הקטגוריות",
+      "impostersCount": "מתחזים",
+      "imposter": "מתחזה",
+      "innocent": "תמים",
+      "yourRole": "התפקיד הסודי שלך",
+      "secretWord": "המילה הסודית",
+      "unknownWord": "??? (אתה המתחזה)",
+      "clue": "רמז",
+      "firstSpeakerWarning": "אתה מדבר ראשון במעגל! הנה רמז קשה:",
+      "tapToReveal": "לחץ להצגת המילה",
+      "tapToHide": "שחרר להסתרת הכרטיס",
+      "holdToReveal": "לחץ והחזק כדי לחשוף את הכרטיס",
+      "innocentInstructions": "אתה יודע את המילה הסודית! תן רמז חכם אחד מבלי לחשוף אותה למתחזה.",
+      "imposterInstructions": "אתה המתחזה! אתה לא יודע את המילה. הקשב היטב, בלף, ואל תיתפס!",
+      "firstSpeaker": "מתחיל לדבר",
+      "turnNotice": "עוברים במעגל. כל אחד אומר מילת רמז אחת.",
+      "nextPlayer": "לשחקן הבא",
+      "readyToVote": "מעבר להצבעה ודיון",
+      "revealImposter": "חשוף את המתחזה",
+      "votingTitle": "מי המתחזה?",
+      "votingSubtitle": "דנו ברמזים והצביעו על החשוד.",
+      "voteBtn": "הצבע",
+      "imposterCaught": "המתחזה נתפס!",
+      "imposterEscaped": "המתחזה לא התגלה!",
+      "imposterGuessTitle": "הזדמנות אחרונה למתחזה!",
+      "imposterGuessSubtitle": "למתחזה יש ניחוש אחד לגנוב את הניצחון על ידי ניחוש המילה הסודית.",
+      "submitGuess": "שלח ניחוש מילה",
+      "correctGuess": "המתחזה ניחש נכון וניצח!",
+      "wrongGuess": "ניחוש שגוי! התמימים ניצחו בסיבוב!",
+      "innocentsWin": "התמימים ניצחו!",
+      "impostersWin": "המתחזה ניצח!",
+      "nextRound": "סיבוב הבא",
+      "leaveLobby": "יציאה מהחדר",
+      "howToPlayTitle": "איך משחקים",
+      "rule1": "כולם מקבלים את אותה המילה הסודית — חוץ מהמתחזה.",
+      "rule2": "כל שחקן אומר בתורו רמז אחד הקשור למילה.",
+      "rule3": "בסוף הסיבוב חושפים את המתחזה!",
+      "selectLanguage": "שפה",
+      "playerList": "רשימת שחקנים",
+      "addPlayer": "הוסף שחקן",
+      "minPlayersWarning": "דרושים לפחות 3 שחקנים.",
+      "cardPassed": "הכרטיס נצפה",
+      "passPhoneTo": "מוצג כעת עבור:",
+      "allRevealed": "כל השחקנים ראו את הכרטיס שלהם!",
+      "startDebate": "התחל סיבוב רמזים",
+      "round": "סיבוב",
+      "suspect": "חשוד",
+      "score": "ניקוד",
+      "discreetlyPassNotice": "ודא שאף אחד אחר לא רואה את המסך, ולחץ ממושכות על הכרטיס!",
+      "peekSecretCardNotice": "החזק כדי להציץ במילה הסודית",
+      "clueDiscussionRound": "סיבוב רמזים ודיון",
+      "theImposter": "המתחזה",
+      "theImposters": "המתחזים",
+      "whoWonRound": "מי ניצח בשיחה?",
+      "innocentsWonBtn": "תמימים (+1)",
+      "imposterWonBtn": "מתחזה (+2)",
+      "scoreboard": "לוח תוצאות",
+      "backToSettings": "חזור להגדרות",
+      "startLobbyDesc": "צור חדר מקוון והזמן חברים עם קוד בן 4 אותיות.",
+      "joinLobbyDesc": "הזן את הקוד בן 4 האותיות שחברך שיתף.",
+      "copyCode": "העתק קוד",
+      "hostBadge": "מנהל",
+      "youSuffix": "(אתה)",
+      "releaseToHide": "שחרר כדי להסתיר את הכרטיס",
+      "firstSpeakerPrefix": "ראשון"
+    },
+    categories: {
+      "objects": "חפצי יומיום",
+      "food": "אוכל",
+      "countries": "מדינות",
+      "professions": "מקצועות",
+      "sports": "ספורט",
+      "animals": "חיות",
+      "logos": "לוגואים",
+      "transport": "תחבורה",
+      "nature": "טבע",
+      "music": "מוזיקה",
+      "hobbies": "תחביבים"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "מטריה",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "משקפי שמש",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "סמארטפון",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "שעון יד",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "פיצה",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "סושי",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "שוקולד",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "קפה",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "יפן",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "צרפת",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "איטליה",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "רופא",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "כבאי",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "כדורגל",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "כדורסל",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "פיל",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "אריה",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "אפל",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "מטוס",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "הר געש",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "גיטרה",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "צילום",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "ar": {
+    code: "ar",
+    name: "Arabic",
+    nativeName: "العربية",
+    shortLabel: "AR",
+    menuLabel: "اللغة",
+    dir: "rtl",
+    flag: "🇸🇦",
+    defaultPlayerNames: ["عمر", "فاطمة", "يوسف"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "اللغة",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "بدء اللعبة ▷",
+      "joinLobby": "الانضمام برمز",
+      "enterCode": "رمز من 4 أحرف",
+      "enterName": "اسمك",
+      "joinBtn": "الانضمام للعبة",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "تمرير الهاتف",
+      "passThePhoneDesc": "اللعب بجهاز واحد يمرر في حلقة",
+      "playOnline": "لعب أونلاين",
+      "playOnlineDesc": "يتصل كل لاعب بهاتفه الخاص",
+      "lobbyCode": "رمز الغرفة",
+      "copied": "تم النسخ إلى الحافظة!",
+      "shareLink": "مشاركة",
+      "linkCopied": "تم نسخ الرابط!",
+      "players": "اللاعبون",
+      "reorderNotice": "اسحب الأسماء لمطابقة ترتيب الجلوس في الدائرة",
+      "waitingForHost": "في انتظار المضيف للبدء...",
+      "startGame": "ابدأ اللعبة",
+      "chooseCategory": "اختر الفئة",
+      "allCategories": "جميع الفئات",
+      "deselectAll": "إلغاء تحديد الكل",
+      "selectAll": "تحديد الكل",
+      "selectedCount": "المحدد",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "كم عدد المحتالين؟",
+      "imposterMajorityRule": "الحد الأقصى {max} محتالين لـ {players} لاعبين (لا يجب أن يكونوا الأغلبية)",
+      "cluesSettings": "التلميحات والمساعدة",
+      "enableClues": "إعطاء تلميحات للمحتال",
+      "enableCluesDesc": "يقدم للمحتال تلميحاً ليساعده على الاندماج",
+      "clueDifficulty": "مستوى التلميح",
+      "easy": "سهل",
+      "medium": "متوسط",
+      "hard": "صعب",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "تلميح صعب إذا كان المحتال أولاً",
+      "giveHardClueIfFirstDesc": "يحصل المحتال على تلميح إذا بدأ بالحديث أولاً",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "المحتال",
+      "innocent": "بريء",
+      "yourRole": "Your Secret Role",
+      "secretWord": "الكلمة السرية",
+      "unknownWord": "??? (أنت المحتال)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "اضغط مطولاً لكشف بطاقتك السرية",
+      "innocentInstructions": "أنت تعرف الكلمة السرية. أعطِ تلميحاً ذكياً دون أن تكشفها للمحتال!",
+      "imposterInstructions": "أنت المحتال! لا تعرف الكلمة. استمع جيداً وراوغ ولا تدعهم يكتشفونك!",
+      "firstSpeaker": "أول المتحدثين",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "اللاعب التالي",
+      "readyToVote": "بدء التصويت والمناقشة",
+      "revealImposter": "كشف المحتال",
+      "votingTitle": "من هو المحتال؟",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "تصويت",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "فاز الأبرياء!",
+      "impostersWin": "فاز المحتال!",
+      "nextRound": "الجولة التالية",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "اللغة",
+      "playerList": "قائمة اللاعبين",
+      "addPlayer": "إضافة لاعب",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "يُعرض الآن لـ:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "بدء جولة التلميحات",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "تأكد من عدم رؤية أي شخص لشاشتك، ثم اضغط مطولاً للعرض!",
+      "peekSecretCardNotice": "اضغط مطولاً لإلقاء نظرة على الكلمة السرية",
+      "clueDiscussionRound": "جولة التلميحات والنقاش",
+      "theImposter": "المحتال",
+      "theImposters": "المحتالون",
+      "whoWonRound": "من الفائز بالجولة؟",
+      "innocentsWonBtn": "الأبرياء (+1)",
+      "imposterWonBtn": "المحتال (+2)",
+      "scoreboard": "لوحة النتائج",
+      "backToSettings": "العودة للإعدادات",
+      "startLobbyDesc": "أنشئ غرفة عبر الإنترنت وادعُ أصدقاءك برمز مكون من 4 أحرف.",
+      "joinLobbyDesc": "أدخل الرمز المكون من 4 أحرف الذي شاركه صديقك.",
+      "copyCode": "نسخ الرمز",
+      "hostBadge": "المضيف",
+      "youSuffix": "(أنت)",
+      "releaseToHide": "أفلت لإخفاء البطاقة",
+      "firstSpeakerPrefix": "الأول"
+    },
+    categories: {
+      "objects": "أدوات يومية",
+      "food": "طعام",
+      "countries": "دول",
+      "professions": "مهن",
+      "sports": "رياضة",
+      "animals": "حيوانات",
+      "logos": "علامات تجارية",
+      "transport": "مواصلات",
+      "nature": "طبيعة",
+      "music": "موسيقى",
+      "hobbies": "هوايات"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "مظلة",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "نظارة شمسية",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "هاتف ذكي",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "ساعة يد",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "بيتزا",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "سوشي",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "شوكولاتة",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "قهوة",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "اليابان",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "فرنسا",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "إيطاليا",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "طبيب",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "إطفائي",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "كرة القدم",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "كرة السلة",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "فيل",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "أسد",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "أبل",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "طائرة",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "بركان",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "غيتار",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "تصوير",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "de": {
+    code: "de",
+    name: "German",
+    nativeName: "Deutsch",
+    shortLabel: "DE",
+    menuLabel: "Sprache",
+    dir: "ltr",
+    flag: "🇩🇪",
+    defaultPlayerNames: ["Lukas", "Mia", "Felix"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Sprache",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Raum erstellen ▷",
+      "joinLobby": "Mit Code beitreten",
+      "enterCode": "4-stelliger Code",
+      "enterName": "Dein Name",
+      "joinBtn": "Spiel beitreten",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Handy weitergeben",
+      "passThePhoneDesc": "Ein einzelnes Smartphone im Kreis weiterreichen",
+      "playOnline": "Online spielen",
+      "playOnlineDesc": "Jeder Spieler verbindet sich am eigenen Handy",
+      "lobbyCode": "RAUM-CODE",
+      "copied": "In Zwischenablage kopiert!",
+      "shareLink": "Teilen",
+      "linkCopied": "Link kopiert!",
+      "players": "Spieler",
+      "reorderNotice": "Namen ziehen, um Sitzordnung im Kreis anzupassen",
+      "waitingForHost": "Warte auf Host...",
+      "startGame": "Spiel starten",
+      "chooseCategory": "Kategorie wählen",
+      "allCategories": "Alle Kategorien",
+      "deselectAll": "Alle abwählen",
+      "selectAll": "Alle auswählen",
+      "selectedCount": "Ausgewählt",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Wie viele Imposter?",
+      "imposterMajorityRule": "Max. {max} Imposter für {players} Spieler (dürfen keine Mehrheit sein)",
+      "cluesSettings": "Hinweise & Hilfen",
+      "enableClues": "Hinweise für Imposter",
+      "enableCluesDesc": "Gibt dem Imposter einen Hinweis zum Untertauchen",
+      "clueDifficulty": "Hinweis-Stufe",
+      "easy": "Leicht",
+      "medium": "Mittel",
+      "hard": "Schwer",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Schwerer Hinweis, wenn Imposter beginnt",
+      "giveHardClueIfFirstDesc": "Hilft dem Imposter, wenn er als Erster spricht",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Imposter",
+      "innocent": "Unschuldig",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Geheimwort",
+      "unknownWord": "??? (Du bist der Imposter)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Gedrückt halten zum Aufdecken",
+      "innocentInstructions": "Du kennst das Geheimwort. Gib EINEN klugen Hinweis, ohne es dem Imposter zu verraten!",
+      "imposterInstructions": "DU BIST DER IMPOSTER! Du kennst das Wort nicht. Höre aufmerksam zu, blöffe und lass dich nicht erwischen!",
+      "firstSpeaker": "Erster Sprecher",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Nächster Spieler",
+      "readyToVote": "Abstimmung & Diskussion starten",
+      "revealImposter": "Imposter enttarnen",
+      "votingTitle": "Wer ist der Imposter?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Abstimmen",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Unschuldige gewinnen!",
+      "impostersWin": "Imposter gewinnt!",
+      "nextRound": "Nächste Runde",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Sprache",
+      "playerList": "Spielerliste",
+      "addPlayer": "Spieler hinzufügen",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Wird jetzt angezeigt für:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Hinweisrunde starten",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Achte darauf, dass niemand zusieht, und halte die Karte gedrückt!",
+      "peekSecretCardNotice": "Gedrückt halten, um das Geheimwort zu sehen",
+      "clueDiscussionRound": "Hinweis- & Diskussionsrunde",
+      "theImposter": "Der Imposter",
+      "theImposters": "Die Imposter",
+      "whoWonRound": "Wer hat gewonnen?",
+      "innocentsWonBtn": "Unschuldige (+1)",
+      "imposterWonBtn": "Imposter (+2)",
+      "scoreboard": "Bestenliste",
+      "backToSettings": "Zurück zu den Einstellungen",
+      "startLobbyDesc": "Erstelle einen Online-Raum und lade Freunde mit einem 4-stelligen Code ein.",
+      "joinLobbyDesc": "Gib den 4-stelligen Code ein, den dein Freund geteilt hat.",
+      "copyCode": "Code kopieren",
+      "hostBadge": "Host",
+      "youSuffix": "(Du)",
+      "releaseToHide": "Loslassen, um Karte zu verbergen",
+      "firstSpeakerPrefix": "Erster"
+    },
+    categories: {
+      "objects": "Alltagsgegenstände",
+      "food": "Essen & Trinken",
+      "countries": "Länder",
+      "professions": "Berufe",
+      "sports": "Sport",
+      "animals": "Tiere",
+      "logos": "Marken",
+      "transport": "Verkehrsmittel",
+      "nature": "Natur",
+      "music": "Musik",
+      "hobbies": "Hobbys"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Regenschirm",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Sonnenbrille",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Smartphone",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Armbanduhr",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Schokolade",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Kaffee",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japan",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Frankreich",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Italien",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Arzt",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Feuerwehrmann",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Fußball",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Basketball",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Elefant",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Löwe",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Flugzeug",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Vulkan",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Gitarre",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotografie",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "es": {
+    code: "es",
+    name: "Spanish",
+    nativeName: "Español",
+    shortLabel: "ES",
+    menuLabel: "Idioma",
+    dir: "ltr",
+    flag: "🇪🇸",
+    defaultPlayerNames: ["Mateo", "Sofía", "Lucas"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Idioma",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Crear sala ▷",
+      "joinLobby": "Unirse con código",
+      "enterCode": "Código de 4 letras",
+      "enterName": "Tu nombre",
+      "joinBtn": "Unirse a la partida",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Pasar el teléfono",
+      "passThePhoneDesc": "Un solo móvil pasando en círculo",
+      "playOnline": "Jugar online",
+      "playOnlineDesc": "Cada jugador se conecta desde su móvil",
+      "lobbyCode": "CÓDIGO DE SALA",
+      "copied": "¡Copiado al portapapeles!",
+      "shareLink": "Compartir",
+      "linkCopied": "¡Enlace copiado!",
+      "players": "Jugadores",
+      "reorderNotice": "Arrastra los nombres para que coincidan con el círculo",
+      "waitingForHost": "Esperando a que el anfitrión empiece...",
+      "startGame": "Empezar partida",
+      "chooseCategory": "Elegir categoría",
+      "allCategories": "Todas las categorías",
+      "deselectAll": "Deseleccionar todo",
+      "selectAll": "Seleccionar todo",
+      "selectedCount": "Seleccionados",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "¿Cuántos impostores?",
+      "imposterMajorityRule": "Máx. {max} impostores para {players} jugadores (nunca mayoría)",
+      "cluesSettings": "Pistas y asistencia",
+      "enableClues": "Dar pistas al impostor",
+      "enableCluesDesc": "Le da una pista al impostor para ayudarle a disimular",
+      "clueDifficulty": "Nivel de pista",
+      "easy": "Fácil",
+      "medium": "Medio",
+      "hard": "Difícil",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Pista difícil si el impostor es 1.º",
+      "giveHardClueIfFirstDesc": "Si habla primero, recibe una pista para sobrevivir",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Impostor",
+      "innocent": "Inocente",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Palabra secreta",
+      "unknownWord": "??? (Eres el impostor)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Mantén presionado para ver tu carta",
+      "innocentInstructions": "Conoces la palabra secreta. ¡Da UNA pista ingeniosa sin revelársela al impostor!",
+      "imposterInstructions": "¡ERES EL IMPOSTOR! No conoces la palabra. ¡Escucha con atención, disimula y que no te pillen!",
+      "firstSpeaker": "Primer orador",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Siguiente jugador",
+      "readyToVote": "Iniciar votación y debate",
+      "revealImposter": "Revelar al impostor",
+      "votingTitle": "¿Quién es el impostor?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Votar",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "¡Ganan los inocentes!",
+      "impostersWin": "¡Gana el impostor!",
+      "nextRound": "Siguiente ronda",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Idioma",
+      "playerList": "Lista de jugadores",
+      "addPlayer": "Añadir jugador",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Mostrando ahora para:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Empezar ronda de pistas",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "¡Asegúrate de que nadie mire y mantén presionado para ver!",
+      "peekSecretCardNotice": "Mantén pulsado para ver la palabra secreta",
+      "clueDiscussionRound": "Ronda de pistas y debate",
+      "theImposter": "El Impostor",
+      "theImposters": "Los Impostores",
+      "whoWonRound": "¿Quién ganó la ronda?",
+      "innocentsWonBtn": "Inocentes (+1)",
+      "imposterWonBtn": "Impostor (+2)",
+      "scoreboard": "Tabla de puntuación",
+      "backToSettings": "Volver a ajustes",
+      "startLobbyDesc": "Crea una sala online e invita a tus amigos con un código de 4 letras.",
+      "joinLobbyDesc": "Introduce el código de 4 letras compartido por tu amigo.",
+      "copyCode": "Copiar código",
+      "hostBadge": "Anfitrión",
+      "youSuffix": "(Tú)",
+      "releaseToHide": "Suelta para ocultar la carta",
+      "firstSpeakerPrefix": "Primero"
+    },
+    categories: {
+      "objects": "Objetos Cotidianos",
+      "food": "Comida",
+      "countries": "Países",
+      "professions": "Profesiones",
+      "sports": "Deportes",
+      "animals": "Animales",
+      "logos": "Marcas",
+      "transport": "Transporte",
+      "nature": "Naturaleza",
+      "music": "Música",
+      "hobbies": "Aficiones"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Paraguas",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Gafas de sol",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Teléfono inteligente",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Reloj de pulsera",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Chocolate",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Café",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japón",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Francia",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Italia",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Médico",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Bombero",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Fútbol",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Baloncesto",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Elefante",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "León",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Avión",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Volcán",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Guitarra",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotografía",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "fr": {
+    code: "fr",
+    name: "French",
+    nativeName: "Français",
+    shortLabel: "FR",
+    menuLabel: "Langue",
+    dir: "ltr",
+    flag: "🇫🇷",
+    defaultPlayerNames: ["Lucas", "Camille", "Thomas"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Langue",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Créer une salle ▷",
+      "joinLobby": "Rejoindre avec un code",
+      "enterCode": "Code à 4 lettres",
+      "enterName": "Votre nom",
+      "joinBtn": "Rejoindre la partie",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Passer le téléphone",
+      "passThePhoneDesc": "Un seul téléphone à faire tourner en cercle",
+      "playOnline": "Jouer en ligne",
+      "playOnlineDesc": "Chaque joueur se connecte sur son téléphone",
+      "lobbyCode": "CODE DE SALLE",
+      "copied": "Copié dans le presse-papiers !",
+      "shareLink": "Partager",
+      "linkCopied": "Lien copié !",
+      "players": "Joueurs",
+      "reorderNotice": "Glissez les noms pour correspondre au cercle assis",
+      "waitingForHost": "En attente de l'hôte pour démarrer...",
+      "startGame": "Lancer la partie",
+      "chooseCategory": "Choisir une catégorie",
+      "allCategories": "Toutes les catégories",
+      "deselectAll": "Tout désélectionner",
+      "selectAll": "Tout sélectionner",
+      "selectedCount": "Sélectionnés",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Combien d'imposteurs ?",
+      "imposterMajorityRule": "Max {max} imposteurs pour {players} joueurs (jamais la majorité)",
+      "cluesSettings": "Indices et assistance",
+      "enableClues": "Donner des indices à l'imposteur",
+      "enableCluesDesc": "Donne un indice à l'imposteur pour l'aider à bluffer",
+      "clueDifficulty": "Niveau de l'indice",
+      "easy": "Facile",
+      "medium": "Moyen",
+      "hard": "Difficile",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Indice difficile si l'imposteur commence",
+      "giveHardClueIfFirstDesc": "S'il parle en premier, il reçoit un indice difficile",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Imposteur",
+      "innocent": "Innocent",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Mot secret",
+      "unknownWord": "??? (Vous êtes l'imposteur)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Maintiens appuyé pour révéler ta carte",
+      "innocentInstructions": "Vous connaissez le mot secret. Donnez UN indice habile sans le révéler à l'imposteur !",
+      "imposterInstructions": "VOUS ÊTES L'IMPOSTEUR ! Vous ne connaissez pas le mot. Écoutez attentivement, bluffez et ne vous faites pas démasquer !",
+      "firstSpeaker": "Premier à parler",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Joueur suivant",
+      "readyToVote": "Commencer le vote et le débat",
+      "revealImposter": "Révéler l'imposteur",
+      "votingTitle": "Qui est l'imposteur ?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Voter",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Victoire des innocents !",
+      "impostersWin": "Victoire de l'imposteur !",
+      "nextRound": "Manche suivante",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Langue",
+      "playerList": "Liste des joueurs",
+      "addPlayer": "Ajouter un joueur",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Affichage pour :",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Commencer les indices",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Assure-toi que personne ne regarde, puis maintiens appuyé !",
+      "peekSecretCardNotice": "Maintiens enfoncé pour voir le mot secret",
+      "clueDiscussionRound": "Tour d'indices et débat",
+      "theImposter": "L'Imposteur",
+      "theImposters": "Les Imposteurs",
+      "whoWonRound": "Qui a remporté la manche ?",
+      "innocentsWonBtn": "Innocents (+1)",
+      "imposterWonBtn": "Imposteur (+2)",
+      "scoreboard": "Tableau des scores",
+      "backToSettings": "Retour aux paramètres",
+      "startLobbyDesc": "Créez une salle en ligne et invitez des amis avec un code à 4 lettres.",
+      "joinLobbyDesc": "Entrez le code à 4 lettres partagé par votre ami.",
+      "copyCode": "Copier le code",
+      "hostBadge": "Hôte",
+      "youSuffix": "(Vous)",
+      "releaseToHide": "Relâchez pour masquer la carte",
+      "firstSpeakerPrefix": "Premier"
+    },
+    categories: {
+      "objects": "Objets du Quotidien",
+      "food": "Nourriture",
+      "countries": "Pays",
+      "professions": "Métiers",
+      "sports": "Sports",
+      "animals": "Animaux",
+      "logos": "Marques",
+      "transport": "Transports",
+      "nature": "Nature",
+      "music": "Musique",
+      "hobbies": "Loisirs"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Parapluie",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Lunettes de soleil",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Smartphone",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Montre",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Chocolat",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Café",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japon",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "France",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Italie",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Médecin",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Pompier",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Football",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Basket-ball",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Éléphant",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Lion",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Avion",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Volcan",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Guitare",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Photographie",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "it": {
+    code: "it",
+    name: "Italian",
+    nativeName: "Italiano",
+    shortLabel: "IT",
+    menuLabel: "Lingua",
+    dir: "ltr",
+    flag: "🇮🇹",
+    defaultPlayerNames: ["Marco", "Giulia", "Leonardo"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Lingua",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Crea stanza ▷",
+      "joinLobby": "Entra con codice",
+      "enterCode": "Codice di 4 lettere",
+      "enterName": "Il tuo nome",
+      "joinBtn": "Partecipa al gioco",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Passa il telefono",
+      "passThePhoneDesc": "Un solo telefono che passa in cerchio",
+      "playOnline": "Gioca online",
+      "playOnlineDesc": "Ogni giocatore si connette dal suo telefono",
+      "lobbyCode": "CODICE STANZA",
+      "copied": "Copiato negli appunti!",
+      "shareLink": "Condividi",
+      "linkCopied": "Link copiato!",
+      "players": "Giocatori",
+      "reorderNotice": "Trascina i nomi per allinearli all'ordine in cerchio",
+      "waitingForHost": "In attesa dell'host...",
+      "startGame": "Inizia partita",
+      "chooseCategory": "Scegli categoria",
+      "allCategories": "Tutte le categorie",
+      "deselectAll": "Deseleziona tutto",
+      "selectAll": "Seleziona tutto",
+      "selectedCount": "Selezionati",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Quanti impostori?",
+      "imposterMajorityRule": "Max {max} impostori per {players} giocatori (mai la maggioranza)",
+      "cluesSettings": "Indizi e assistenza",
+      "enableClues": "Dai indizi all'impostore",
+      "enableCluesDesc": "Fornisce un indizio all'impostore per confondersi",
+      "clueDifficulty": "Livello indizio",
+      "easy": "Facile",
+      "medium": "Medio",
+      "hard": "Difficile",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Indizio difficile se parla per primo",
+      "giveHardClueIfFirstDesc": "Se l'impostore inizia, riceve un indizio per salvarsi",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Impostore",
+      "innocent": "Innocente",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Parola segreta",
+      "unknownWord": "??? (Sei l'impostore)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Tieni premuto per scoprire la carta",
+      "innocentInstructions": "Conosci la parola segreta. Dai UN indizio intelligente senza rivelarlo all'impostore!",
+      "imposterInstructions": "SEI L'IMPOSTORE! Non conosci la parola. Ascolta con attenzione, bluffa e non farti scoprire!",
+      "firstSpeaker": "Primo a parlare",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Giocatore successivo",
+      "readyToVote": "Avvia votazione e discussione",
+      "revealImposter": "Rivela l'impostore",
+      "votingTitle": "Chi è l'impostore?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Vota",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Vincono gli innocenti!",
+      "impostersWin": "Vince l'impostore!",
+      "nextRound": "Prossimo round",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Lingua",
+      "playerList": "Elenco giocatori",
+      "addPlayer": "Aggiungi giocatore",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "In visualizzazione per:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Inizia il giro di indizi",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Assicurati che nessuno guardi lo schermo e tieni premuto!",
+      "peekSecretCardNotice": "Tieni premuto per sbirciare la parola segreta",
+      "clueDiscussionRound": "Giro di indizi e discussione",
+      "theImposter": "L'Impostore",
+      "theImposters": "Gli Impostori",
+      "whoWonRound": "Chi ha vinto il round?",
+      "innocentsWonBtn": "Innocenti (+1)",
+      "imposterWonBtn": "Impostore (+2)",
+      "scoreboard": "Classifica",
+      "backToSettings": "Torna alle impostazioni",
+      "startLobbyDesc": "Crea una stanza online e invita gli amici con un codice di 4 lettere.",
+      "joinLobbyDesc": "Inserisci il codice di 4 lettere condiviso dal tuo amico.",
+      "copyCode": "Copia codice",
+      "hostBadge": "Host",
+      "youSuffix": "(Tu)",
+      "releaseToHide": "Rilascia per nascondere la carta",
+      "firstSpeakerPrefix": "Primo"
+    },
+    categories: {
+      "objects": "Oggetti Quotidiani",
+      "food": "Cibo",
+      "countries": "Paesi",
+      "professions": "Professioni",
+      "sports": "Sport",
+      "animals": "Animali",
+      "logos": "Marchi",
+      "transport": "Trasporti",
+      "nature": "Natura",
+      "music": "Musica",
+      "hobbies": "Hobby"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Ombrello",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Occhiali da sole",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Smartphone",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Orologio da polso",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Cioccolato",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Caffè",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Giappone",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Francia",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Italia",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Medico",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Vigile del fuoco",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Calcio",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Pallacanestro",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Elefante",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Leone",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Aereo",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Vulcano",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Chitarra",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotografia",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "nl": {
+    code: "nl",
+    name: "Dutch",
+    nativeName: "Nederlands",
+    shortLabel: "NL",
+    menuLabel: "Taal",
+    dir: "ltr",
+    flag: "🇳🇱",
+    defaultPlayerNames: ["Daan", "Emma", "Sem"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Taal",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Kamer aanmaken ▷",
+      "joinLobby": "Deelnemen met code",
+      "enterCode": "4-lettercode",
+      "enterName": "Jouw naam",
+      "joinBtn": "Deelnemen aan spel",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Telefoon doorgeven",
+      "passThePhoneDesc": "Eén telefoon die rondgaat in de kring",
+      "playOnline": "Online spelen",
+      "playOnlineDesc": "Iedereen doet mee op zijn eigen telefoon",
+      "lobbyCode": "KAMERCODE",
+      "copied": "Gekopieerd naar klembord!",
+      "shareLink": "Delen",
+      "linkCopied": "Link gekopieerd!",
+      "players": "Spelers",
+      "reorderNotice": "Sleep namen om zitvolgorde in de cirkel aan te passen",
+      "waitingForHost": "Wachten op de host om te starten...",
+      "startGame": "Start spel",
+      "chooseCategory": "Kies categorie",
+      "allCategories": "Alle categorieën",
+      "deselectAll": "Alles deselecteren",
+      "selectAll": "Alles selecteren",
+      "selectedCount": "Geselecteerd",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Hoeveel bedriegers?",
+      "imposterMajorityRule": "Max {max} imposters voor {players} spelers (nooit de meerderheid)",
+      "cluesSettings": "Hints & assistentie",
+      "enableClues": "Geef hints aan bedrieger",
+      "enableCluesDesc": "Helpt de bedrieger ongezien op te gaan in de groep",
+      "clueDifficulty": "Hintniveau",
+      "easy": "Makkelijk",
+      "medium": "Gemiddeld",
+      "hard": "Moeilijk",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Moeilijke hint als bedrieger 1e is",
+      "giveHardClueIfFirstDesc": "Krijgt een moeilijke hint wanneer hij als eerste spreekt",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Imposter",
+      "innocent": "Onschuldig",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Geheim woord",
+      "unknownWord": "??? (Jij bent de imposter)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Ingedrukt houden om kaart te bekijken",
+      "innocentInstructions": "Je kent het geheime woord. Geef ÉÉN slimme hint zonder het te verraden aan de imposter!",
+      "imposterInstructions": "JIJ BENT DE IMPOSTER! Je kent het woord niet. Luister goed, bluf en word niet ontmaskerd!",
+      "firstSpeaker": "Eerste spreker",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Volgende speler",
+      "readyToVote": "Start stemmen & discussie",
+      "revealImposter": "Onthul de bedrieger",
+      "votingTitle": "Wie is de imposter?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Stemmen",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Onschuldigen winnen!",
+      "impostersWin": "Imposter wint!",
+      "nextRound": "Volgende ronde",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Taal",
+      "playerList": "Spelerslijst",
+      "addPlayer": "Speler toevoegen",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Nu weergegeven voor:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Start hintronde",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Zorg dat niemand meekijkt en houd ingedrukt om te bekijken!",
+      "peekSecretCardNotice": "Houd ingedrukt om het geheime woord te spieken",
+      "clueDiscussionRound": "Hints- & discussieronde",
+      "theImposter": "De Bedrieger",
+      "theImposters": "De Bedriegers",
+      "whoWonRound": "Wie heeft er gewonnen?",
+      "innocentsWonBtn": "Onschuldigen (+1)",
+      "imposterWonBtn": "Bedrieger (+2)",
+      "scoreboard": "Scorebord",
+      "backToSettings": "Terug naar instellingen",
+      "startLobbyDesc": "Maak een online kamer aan en nodig vrienden uit met een 4-lettercode.",
+      "joinLobbyDesc": "Voer de 4-lettercode in die je vriend heeft gedeeld.",
+      "copyCode": "Kopieer code",
+      "hostBadge": "Host",
+      "youSuffix": "(Jij)",
+      "releaseToHide": "Laat los om de kaart te verbergen",
+      "firstSpeakerPrefix": "Eerste"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Paraplu",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Zonnebril",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Smartphone",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Horloge",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Chocolade",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Koffie",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japan",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Frankrijk",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Italië",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Dokter",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Brandweerman",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Voetbal",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Basketbal",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Olifant",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Leeuw",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Vliegtuig",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Vulkaan",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Gitaar",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotografie",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "pl": {
+    code: "pl",
+    name: "Polish",
+    nativeName: "Polski",
+    shortLabel: "PL",
+    menuLabel: "Język",
+    dir: "ltr",
+    flag: "🇵🇱",
+    defaultPlayerNames: ["Jan", "Zuzanna", "Antoni"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Język",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Stwórz pokój ▷",
+      "joinLobby": "Dołącz z kodem",
+      "enterCode": "Kod 4-literowy",
+      "enterName": "Twoje imię",
+      "joinBtn": "Dołącz do gry",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Podaj telefon",
+      "passThePhoneDesc": "Jeden telefon przekazywany w kółku",
+      "playOnline": "Graj online",
+      "playOnlineDesc": "Każdy gracz łączy się na swoim telefonie",
+      "lobbyCode": "KOD POKOJU",
+      "copied": "Skopiowano do schowka!",
+      "shareLink": "Udostępnij",
+      "linkCopied": "Skopiowano link!",
+      "players": "Gracze",
+      "reorderNotice": "Przeciągnij imiona, aby dopasować kolejność w kręgu",
+      "waitingForHost": "Oczekiwanie na rozpoczęcie przez hosta...",
+      "startGame": "Rozpocznij grę",
+      "chooseCategory": "Wybierz kategorię",
+      "allCategories": "Wszystkie kategorie",
+      "deselectAll": "Odznacz wszystko",
+      "selectAll": "Zaznacz wszystko",
+      "selectedCount": "Wybrano",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Ilu oszustów?",
+      "imposterMajorityRule": "Maks. {max} oszustów na {players} graczy (nigdy większość)",
+      "cluesSettings": "Wskazówki i pomoc",
+      "enableClues": "Podpowiedzi dla oszusta",
+      "enableCluesDesc": "Daje oszustowi wskazówkę, by mógł się wtopić w tłum",
+      "clueDifficulty": "Poziom wskazówki",
+      "easy": "Łatwy",
+      "medium": "Średni",
+      "hard": "Trudny",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Trudna wskazówka, gdy oszust mówi 1.",
+      "giveHardClueIfFirstDesc": "Jeśli zaczyna, otrzymuje trudną podpowiedź",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Oszust",
+      "innocent": "Niewinny",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Sekretne słowo",
+      "unknownWord": "??? (Jesteś oszustem)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Przytrzymaj, aby odkryć kartę",
+      "innocentInstructions": "Znasz sekretne słowo. Podaj JEDNĄ sprytną wskazówkę, nie zdradzając słowa oszustowi!",
+      "imposterInstructions": "JESTEŚ OSZUSTEM! Nie znasz słowa. Słuchaj uważnie, blefuj i nie daj się złapać!",
+      "firstSpeaker": "Pierwszy mówca",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Następny gracz",
+      "readyToVote": "Rozpocznij głosowanie i dyskusję",
+      "revealImposter": "Ujawnij oszusta",
+      "votingTitle": "Kto jest oszustem?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Głosuj",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Niewinni wygrywają!",
+      "impostersWin": "Oszust wygrywa!",
+      "nextRound": "Następna runda",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Język",
+      "playerList": "Lista graczy",
+      "addPlayer": "Dodaj gracza",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Teraz wyświetlane dla:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Rozpocznij rundę podpowiedzi",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Upewnij się, że nikt nie patrzy, i przytrzymaj, aby zobaczyć!",
+      "peekSecretCardNotice": "Przytrzymaj, aby podejrzeć tajne słowo",
+      "clueDiscussionRound": "Runda podpowiedzi i dyskusji",
+      "theImposter": "Oszust",
+      "theImposters": "Oszuści",
+      "whoWonRound": "Kto wygrał rundę?",
+      "innocentsWonBtn": "Niewinni (+1)",
+      "imposterWonBtn": "Oszust (+2)",
+      "scoreboard": "Tabela wyników",
+      "backToSettings": "Wróć do ustawień",
+      "startLobbyDesc": "Stwórz pokój online i zaproś znajomych za pomocą 4-literowego kodu.",
+      "joinLobbyDesc": "Wpisz 4-literowy kod udostępniony przez znajomego.",
+      "copyCode": "Kopiuj kod",
+      "hostBadge": "Host",
+      "youSuffix": "(Ty)",
+      "releaseToHide": "Puść, aby ukryć kartę",
+      "firstSpeakerPrefix": "Pierwszy"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Parasol",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Okulary przeciwsłoneczne",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Smartfon",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Zegarek",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Czekolada",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Kawa",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japonia",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Francja",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Włochy",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Lekarz",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Strażak",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Piłka nożna",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Koszykówka",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Słoń",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Lew",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Samolot",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Wulkan",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Gitara",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotografia",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "pt": {
+    code: "pt",
+    name: "Portuguese",
+    nativeName: "Português",
+    shortLabel: "PT",
+    menuLabel: "Idioma",
+    dir: "ltr",
+    flag: "🇧🇷",
+    defaultPlayerNames: ["Gabriel", "Alice", "Lucas"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Idioma",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Criar sala ▷",
+      "joinLobby": "Entrar com código",
+      "enterCode": "Código de 4 letras",
+      "enterName": "Seu nome",
+      "joinBtn": "Entrar no jogo",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Passar o telefone",
+      "passThePhoneDesc": "Um único celular passando em círculo",
+      "playOnline": "Jogar online",
+      "playOnlineDesc": "Cada jogador conecta no seu próprio celular",
+      "lobbyCode": "CÓDIGO DA SALA",
+      "copied": "Copiado para a área de transferência!",
+      "shareLink": "Compartilhar",
+      "linkCopied": "Link copiado!",
+      "players": "Jogadores",
+      "reorderNotice": "Arraste os nomes para coincidir com a roda",
+      "waitingForHost": "Aguardando o anfitrião iniciar...",
+      "startGame": "Começar jogo",
+      "chooseCategory": "Escolher categoria",
+      "allCategories": "Todas as categorias",
+      "deselectAll": "Desmarcar tudo",
+      "selectAll": "Selecionar tudo",
+      "selectedCount": "Selecionados",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Quantos impostores?",
+      "imposterMajorityRule": "Máx. {max} impostores para {players} jogadores (nunca maioria)",
+      "cluesSettings": "Pistas e assistência",
+      "enableClues": "Dar pistas ao impostor",
+      "enableCluesDesc": "Dá uma pista ao impostor para ajudá-lo a disfarçar",
+      "clueDifficulty": "Nível da pista",
+      "easy": "Fácil",
+      "medium": "Médio",
+      "hard": "Difícil",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Pista difícil se o impostor for o 1.º",
+      "giveHardClueIfFirstDesc": "Se falar primeiro, recebe uma pista difícil",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Impostor",
+      "innocent": "Inocente",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Palavra secreta",
+      "unknownWord": "??? (Você é o impostor)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Segure para revelar sua carta",
+      "innocentInstructions": "Você conhece a palavra secreta. Dê UMA pista inteligente sem revelá-la ao impostor!",
+      "imposterInstructions": "VOCÊ É O IMPOSTOR! Você não sabe a palavra. Ouça com atenção, blefe e não seja pego!",
+      "firstSpeaker": "Primeiro a falar",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Próximo jogador",
+      "readyToVote": "Iniciar votação e debate",
+      "revealImposter": "Revelar o impostor",
+      "votingTitle": "Quem é o impostor?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Votar",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Inocentes venceram!",
+      "impostersWin": "Impostor venceu!",
+      "nextRound": "Próxima rodada",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Idioma",
+      "playerList": "Lista de jogadores",
+      "addPlayer": "Adicionar jogador",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Exibindo agora para:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Iniciar rodada de pistas",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Garanta que ninguém está olhando e segure para ver!",
+      "peekSecretCardNotice": "Segure para espiar a palavra secreta",
+      "clueDiscussionRound": "Rodada de pistas e debate",
+      "theImposter": "O Impostor",
+      "theImposters": "Os Impostores",
+      "whoWonRound": "Quem venceu a rodada?",
+      "innocentsWonBtn": "Inocentes (+1)",
+      "imposterWonBtn": "Impostor (+2)",
+      "scoreboard": "Placar",
+      "backToSettings": "Voltar às configurações",
+      "startLobbyDesc": "Crie uma sala online e convide amigos com um código de 4 letras.",
+      "joinLobbyDesc": "Digite o código de 4 letras compartilhado pelo seu amigo.",
+      "copyCode": "Copiar código",
+      "hostBadge": "Anfitrião",
+      "youSuffix": "(Você)",
+      "releaseToHide": "Solte para ocultar a carta",
+      "firstSpeakerPrefix": "Primeiro"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Guarda-chuva",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Óculos de sol",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Smartphone",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Relógio de pulso",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Chocolate",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Café",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japão",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "França",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Itália",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Médico",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Bombeiro",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Futebol",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Basquetebol",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Elefante",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Leão",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Avião",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Vulcão",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Guitarra",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotografia",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "no": {
+    code: "no",
+    name: "Norwegian",
+    nativeName: "Norsk Bokmål",
+    shortLabel: "NO",
+    menuLabel: "Språk",
+    dir: "ltr",
+    flag: "🇳🇴",
+    defaultPlayerNames: ["Jakob", "Nora", "Emil"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Språk",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Opprett rom ▷",
+      "joinLobby": "Bli med med kode",
+      "enterCode": "4-bokstavers kode",
+      "enterName": "Ditt navn",
+      "joinBtn": "Bli med i spillet",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Send telefonen rundt",
+      "passThePhoneDesc": "Én telefon sendes rundt i sirkelen",
+      "playOnline": "Spill på nett",
+      "playOnlineDesc": "Hver spiller kobler til på egen telefon",
+      "lobbyCode": "ROMKODE",
+      "copied": "Kopiert til utklippstavlen!",
+      "shareLink": "Del",
+      "linkCopied": "Lenke kopiert!",
+      "players": "Spillere",
+      "reorderNotice": "Dra navnene for å matche sirkelrekkefølgen",
+      "waitingForHost": "Venter på at verten skal starte...",
+      "startGame": "Start spill",
+      "chooseCategory": "Velg kategori",
+      "allCategories": "Alle kategorier",
+      "deselectAll": "Fjern alle",
+      "selectAll": "Velg alle",
+      "selectedCount": "Valgt",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Hvor mange bedragere?",
+      "imposterMajorityRule": "Maks {max} bedragere for {players} spillere (aldri flertall)",
+      "cluesSettings": "Hint og hjelp",
+      "enableClues": "Gi hint til bedrager",
+      "enableCluesDesc": "Gir bedrageren et hint for å gli inn",
+      "clueDifficulty": "Hintnivå",
+      "easy": "Lett",
+      "medium": "Middels",
+      "hard": "Vanskelig",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Vanskelig hint hvis bedrager er først",
+      "giveHardClueIfFirstDesc": "Hjelper bedrageren om han må snakke først",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Bedrager",
+      "innocent": "Uskyldig",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Hemmelig ord",
+      "unknownWord": "??? (Du er bedrageren)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Hold inne for å se kortet ditt",
+      "innocentInstructions": "Du vet det hemmelige ordet. Gi ETT smart hint uten å avsløre det til bedrageren!",
+      "imposterInstructions": "DU ER BEDRAGEREN! Du vet ikke ordet. Lytt nøye, bløff og ikke bli tatt!",
+      "firstSpeaker": "Første taler",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Neste spiller",
+      "readyToVote": "Start avstemning og diskusjon",
+      "revealImposter": "Avslør bedrageren",
+      "votingTitle": "Hvem er bedrageren?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Stem",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "De uskyldige vinner!",
+      "impostersWin": "Bedrageren vinner!",
+      "nextRound": "Neste runde",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Språk",
+      "playerList": "Spillerliste",
+      "addPlayer": "Legg til spiller",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Viser nå for:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Start hintrunde",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Pass på at ingen andre ser, og hold inne for å titte!",
+      "peekSecretCardNotice": "Hold inne for å se det hemmelige ordet",
+      "clueDiscussionRound": "Hint- og diskusjonsrunde",
+      "theImposter": "Bedrageren",
+      "theImposters": "Bedragerne",
+      "whoWonRound": "Hvem vant runden?",
+      "innocentsWonBtn": "Uskyldige (+1)",
+      "imposterWonBtn": "Bedrager (+2)",
+      "scoreboard": "Resultattavle",
+      "backToSettings": "Tilbake til innstillinger",
+      "startLobbyDesc": "Opprett et online-rom og inviter venner med en 4-bokstavers kode.",
+      "joinLobbyDesc": "Skriv inn den 4-bokstavers koden vennen din delte.",
+      "copyCode": "Kopier kode",
+      "hostBadge": "Vert",
+      "youSuffix": "(Deg)",
+      "releaseToHide": "Slipp for å skjule kortet",
+      "firstSpeakerPrefix": "Første"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Paraply",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Solbriller",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Smarttelefon",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Armbåndsur",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Sjokolade",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Kaffe",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japan",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Frankrike",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Italia",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Lege",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Brannmann",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Fotball",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Basketball",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Elefant",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Løve",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Fly",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Vulkan",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Gitar",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotografering",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "ru": {
+    code: "ru",
+    name: "Russian",
+    nativeName: "Русский",
+    shortLabel: "RU",
+    menuLabel: "Язык",
+    dir: "ltr",
+    flag: "🇷🇺",
+    defaultPlayerNames: ["Александр", "Анна", "Максим"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Язык",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Создать комнату ▷",
+      "joinLobby": "Войти по коду",
+      "enterCode": "4-значный код",
+      "enterName": "Ваше имя",
+      "joinBtn": "Присоединиться",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Передавать телефон",
+      "passThePhoneDesc": "Один телефон передаётся по кругу",
+      "playOnline": "Играть онлайн",
+      "playOnlineDesc": "Каждый игрок подключается со своего телефона",
+      "lobbyCode": "КОД КОМНАТЫ",
+      "copied": "Скопировано в буфер!",
+      "shareLink": "Поделиться",
+      "linkCopied": "Ссылка скопирована!",
+      "players": "Игроки",
+      "reorderNotice": "Перетащите имена по порядку рассадки в кругу",
+      "waitingForHost": "Ожидание начала от хоста...",
+      "startGame": "Начать игру",
+      "chooseCategory": "Выберите категорию",
+      "allCategories": "Все категории",
+      "deselectAll": "Снять выбор",
+      "selectAll": "Выбрать все",
+      "selectedCount": "Выбрано",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Сколько самозванцев?",
+      "imposterMajorityRule": "Макс. {max} самозванцев для {players} игроков (не большинство)",
+      "cluesSettings": "Подсказки и помощь",
+      "enableClues": "Давать подсказки самозванцу",
+      "enableCluesDesc": "Даёт самозванцу намёк, чтобы он не выдал себя",
+      "clueDifficulty": "Уровень подсказки",
+      "easy": "Легко",
+      "medium": "Средне",
+      "hard": "Сложно",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Сложная подсказка, если ходит 1-м",
+      "giveHardClueIfFirstDesc": "Помогает самозванцу, если он начинает круг",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Самозванец",
+      "innocent": "Мирный",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Секретное слово",
+      "unknownWord": "??? (Вы самозванец)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Удерживайте, чтобы увидеть карту",
+      "innocentInstructions": "Вы знаете секретное слово. Дайте ОДНУ умную подсказку, не раскрыв слово самозванцу!",
+      "imposterInstructions": "ВЫ САМОЗВАНЕЦ! Вы не знаете тайное слово. Слушайте внимательно, блефуйте и не попадитесь!",
+      "firstSpeaker": "Первый выступающий",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Следующий игрок",
+      "readyToVote": "Начать голосование и обсуждение",
+      "revealImposter": "Раскрыть самозванца",
+      "votingTitle": "Кто самозванец?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Голосовать",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Мирные победили!",
+      "impostersWin": "Самозванец победил!",
+      "nextRound": "Следующий раунд",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Язык",
+      "playerList": "Список игроков",
+      "addPlayer": "Добавить игрока",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Сейчас отображается для:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Начать раунд подсказок",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Убедитесь, что никто не подглядывает, и удерживайте экран!",
+      "peekSecretCardNotice": "Удерживайте, чтобы подсмотреть секретное слово",
+      "clueDiscussionRound": "Раунд подсказок и обсуждения",
+      "theImposter": "Самозванец",
+      "theImposters": "Самозванцы",
+      "whoWonRound": "Кто выиграл раунд?",
+      "innocentsWonBtn": "Мирные (+1)",
+      "imposterWonBtn": "Самозванец (+2)",
+      "scoreboard": "Таблица счёта",
+      "backToSettings": "Назад к настройкам",
+      "startLobbyDesc": "Создайте онлайн-комнату и пригласите друзей по 4-значному коду.",
+      "joinLobbyDesc": "Введите 4-значный код, полученный от друга.",
+      "copyCode": "Скопировать код",
+      "hostBadge": "Хост",
+      "youSuffix": "(Вы)",
+      "releaseToHide": "Отпустите, чтобы скрыть карту",
+      "firstSpeakerPrefix": "Первый"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Зонт",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Солнцезащитные очки",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Смартфон",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Наручные часы",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Пицца",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Суши",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Шоколад",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Кофе",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Япония",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Франция",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Италия",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Врач",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Пожарный",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Футбол",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Баскетбол",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Слон",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Лев",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Самолёт",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Вулкан",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Гитара",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Фотография",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "da": {
+    code: "da",
+    name: "Danish",
+    nativeName: "Dansk",
+    shortLabel: "DA",
+    menuLabel: "Sprog",
+    dir: "ltr",
+    flag: "🇩🇰",
+    defaultPlayerNames: ["William", "Ida", "Oliver"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Sprog",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Opret rum ▷",
+      "joinLobby": "Deltag med kode",
+      "enterCode": "4-bogstavs kode",
+      "enterName": "Dit navn",
+      "joinBtn": "Deltag i spillet",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Send telefonen rundt",
+      "passThePhoneDesc": "Én telefon sendes rundt i cirklen",
+      "playOnline": "Spil online",
+      "playOnlineDesc": "Hver spiller tilslutter på sin egen mobil",
+      "lobbyCode": "RUMKODE",
+      "copied": "Kopieret til udklipsholder!",
+      "shareLink": "Del",
+      "linkCopied": "Link kopieret!",
+      "players": "Spillere",
+      "reorderNotice": "Træk navne for at matche rækkefølgen i cirklen",
+      "waitingForHost": "Venter på, at værten starter...",
+      "startGame": "Start spil",
+      "chooseCategory": "Vælg kategori",
+      "allCategories": "Alle kategorier",
+      "deselectAll": "Fravælg alle",
+      "selectAll": "Vælg alle",
+      "selectedCount": "Valgt",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Hvor mange bedragere?",
+      "imposterMajorityRule": "Maks {max} bedragere for {players} spillere (aldrig flertal)",
+      "cluesSettings": "Hint og hjælp",
+      "enableClues": "Giv hints til bedrager",
+      "enableCluesDesc": "Giver bedrageren et hint for at blende ind",
+      "clueDifficulty": "Hintniveau",
+      "easy": "Let",
+      "medium": "Middel",
+      "hard": "Svær",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Svært hint hvis bedrager er 1.",
+      "giveHardClueIfFirstDesc": "Hjælper hvis bedrageren skal tale først",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Bedrager",
+      "innocent": "Uskyldig",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Hemmeligt ord",
+      "unknownWord": "??? (Du er bedrageren)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Hold nede for at se dit kort",
+      "innocentInstructions": "Du kender det hemmelige ord. Giv ÉT klogt hint uden at afsløre det til bedrageren!",
+      "imposterInstructions": "DU ER BEDRAGEREN! Du kender ikke ordet. Lyt opmærksomt, bluff og bliv ikke afsløret!",
+      "firstSpeaker": "Første taler",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Næste spiller",
+      "readyToVote": "Start afstemning og diskussion",
+      "revealImposter": "Afslør bedrageren",
+      "votingTitle": "Hvem er bedrageren?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Stem",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "De uskyldige vinder!",
+      "impostersWin": "Bedrageren vinder!",
+      "nextRound": "Næste runde",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Sprog",
+      "playerList": "Spillerliste",
+      "addPlayer": "Tilføj spiller",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Viser nu for:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Start ledetrådsrunde",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Sørg for ingen kigger med, og hold nede for at se!",
+      "peekSecretCardNotice": "Hold nede for at se det hemmelige ord",
+      "clueDiscussionRound": "Ledetråds- og diskussionsrunde",
+      "theImposter": "Bedrageren",
+      "theImposters": "Bedragerne",
+      "whoWonRound": "Hvem vandt runden?",
+      "innocentsWonBtn": "Uskyldige (+1)",
+      "imposterWonBtn": "Bedrager (+2)",
+      "scoreboard": "Pointtavle",
+      "backToSettings": "Tilbage til indstillinger",
+      "startLobbyDesc": "Opret et onlinerum, og inviter venner med en 4-bogstavs kode.",
+      "joinLobbyDesc": "Indtast den 4-bogstavs kode, som din ven har delt.",
+      "copyCode": "Kopier kode",
+      "hostBadge": "Vært",
+      "youSuffix": "(Dig)",
+      "releaseToHide": "Giv slip for at skjule kortet",
+      "firstSpeakerPrefix": "Første"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Paraply",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Solbriller",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Smartphone",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Armbåndsur",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Chokolade",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Kaffe",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japan",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Frankrig",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Italien",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Læge",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Brandmand",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Fodbold",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Basketball",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Elefant",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Løve",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Fly",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Vulkan",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Guitar",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotografi",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "fi": {
+    code: "fi",
+    name: "Finnish",
+    nativeName: "Suomi",
+    shortLabel: "FI",
+    menuLabel: "Kieli",
+    dir: "ltr",
+    flag: "🇫🇮",
+    defaultPlayerNames: ["Eetu", "Sofia", "Onni"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Kieli",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Luo huone ▷",
+      "joinLobby": "Liity koodilla",
+      "enterCode": "4-kirjaiminen koodi",
+      "enterName": "Nimesi",
+      "joinBtn": "Liity peliin",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Kierrätä puhelinta",
+      "passThePhoneDesc": "Yksi puhelin kiertää piirissä",
+      "playOnline": "Pelaa verkossa",
+      "playOnlineDesc": "Kukin pelaaja liittyy omalla puhelimellaan",
+      "lobbyCode": "HUONEEN KOODI",
+      "copied": "Kopioitu leikepöydälle!",
+      "shareLink": "Jaa",
+      "linkCopied": "Linkki kopioitu!",
+      "players": "Pelaajat",
+      "reorderNotice": "Vedä nimiä vastataksesi istumajärjestystä",
+      "waitingForHost": "Odotetaan isännän aloittamista...",
+      "startGame": "Aloita peli",
+      "chooseCategory": "Valitse kategoria",
+      "allCategories": "Kaikki kategoriat",
+      "deselectAll": "Poista valinnat",
+      "selectAll": "Valitse kaikki",
+      "selectedCount": "Valittu",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Kuinka monta huijaria?",
+      "imposterMajorityRule": "Enintään {max} huijaria {players} pelaajalle (ei enemmistöä)",
+      "cluesSettings": "Vihjeet ja apu",
+      "enableClues": "Anna vihjeitä huijarille",
+      "enableCluesDesc": "Auttaa huijaria sulautumaan joukkoon",
+      "clueDifficulty": "Vihjetaso",
+      "easy": "Helppo",
+      "medium": "Keskivaikea",
+      "hard": "Vaikea",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Vaikea vihje jos huijari on 1.",
+      "giveHardClueIfFirstDesc": "Auttaa huijaria jos hän puhuu ensimmäisenä",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Huijari",
+      "innocent": "Syyton",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Salainen sana",
+      "unknownWord": "??? (Olet huijari)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Paina ja pidä pohjassa nähdäksesi korttisi",
+      "innocentInstructions": "Tiedät salaisen sanan. Anna YKSI ovela vihje paljastamatta sitä huijarille!",
+      "imposterInstructions": "OLET HUIJARI! Et tiedä sanaa. Kuuntele tarkasti, bluffaa äläkä jää kiinni!",
+      "firstSpeaker": "Ensimmäinen puhuja",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Seuraava pelaaja",
+      "readyToVote": "Aloita äänestys ja keskustelu",
+      "revealImposter": "Paljasta huijari",
+      "votingTitle": "Kuka on huijari?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Äänestä",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Syyttömät voittivat!",
+      "impostersWin": "Huijari voitti!",
+      "nextRound": "Seuraava kierros",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Kieli",
+      "playerList": "Pelaajalista",
+      "addPlayer": "Lisää pelaaja",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Näytetään nyt pelaajalle:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Aloita vihjekierros",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Varmista ettei kukaan näe, ja paina nähdäksesi!",
+      "peekSecretCardNotice": "Pidä pohjassa kurkataksesi salasanaa",
+      "clueDiscussionRound": "Vihje- ja keskustelukierros",
+      "theImposter": "Huijari",
+      "theImposters": "Huijarit",
+      "whoWonRound": "Kuka voitti kierroksen?",
+      "innocentsWonBtn": "Syyttömät (+1)",
+      "imposterWonBtn": "Huijari (+2)",
+      "scoreboard": "Tulostaulukko",
+      "backToSettings": "Takaisin asetuksiin",
+      "startLobbyDesc": "Luo online-huone ja kutsu ystäviä 4-kirjaimisella koodilla.",
+      "joinLobbyDesc": "Syötä ystäväsi jakama 4-kirjaiminen koodi.",
+      "copyCode": "Kopioi koodi",
+      "hostBadge": "Isäntä",
+      "youSuffix": "(Sinä)",
+      "releaseToHide": "Vapauta piilottaaksesi kortin",
+      "firstSpeakerPrefix": "Ensimmäinen"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Sateenvarjo",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Aurinkolasit",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Älypuhelin",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Rannekello",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Suklaa",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Kahvi",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japani",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Ranska",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Italia",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Lääkäri",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Palomies",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Jalkapallo",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Koripallo",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Norsu",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Leijona",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Lentokone",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Tulivuori",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Kitara",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Valokuvaus",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "sv": {
+    code: "sv",
+    name: "Swedish",
+    nativeName: "Svenska",
+    shortLabel: "SV",
+    menuLabel: "Språk",
+    dir: "ltr",
+    flag: "🇸🇪",
+    defaultPlayerNames: ["Liam", "Alice", "Lucas"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Språk",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Skapa rum ▷",
+      "joinLobby": "Gå med med kod",
+      "enterCode": "4-bokstävers kod",
+      "enterName": "Ditt namn",
+      "joinBtn": "Gå med i spelet",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Skicka mobilen",
+      "passThePhoneDesc": "En enda mobil skickas runt i ringen",
+      "playOnline": "Spela online",
+      "playOnlineDesc": "Varje spelare ansluter på sin egen mobil",
+      "lobbyCode": "RUMSKOD",
+      "copied": "Kopierat till urklipp!",
+      "shareLink": "Dela",
+      "linkCopied": "Länk kopierad!",
+      "players": "Spelare",
+      "reorderNotice": "Dra namnen för att matcha sittordningen i cirkeln",
+      "waitingForHost": "Väntar på att värden ska starta...",
+      "startGame": "Starta spel",
+      "chooseCategory": "Välj kategori",
+      "allCategories": "Alla kategorier",
+      "deselectAll": "Avmarkera alla",
+      "selectAll": "Välj alla",
+      "selectedCount": "Valda",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Hur många bedragare?",
+      "imposterMajorityRule": "Max {max} bedragare för {players} spelare (aldrig majoritet)",
+      "cluesSettings": "Tips och hjälp",
+      "enableClues": "Ge ledtrådar till bedragare",
+      "enableCluesDesc": "Ger bedragaren en ledtråd för att smälta in",
+      "clueDifficulty": "Tipsnivå",
+      "easy": "Lätt",
+      "medium": "Medel",
+      "hard": "Svår",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Svår ledtråd om bedragare är 1:a",
+      "giveHardClueIfFirstDesc": "Hjälper bedragaren om denne börjar tala",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Bedragare",
+      "innocent": "Oskyldig",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Hemligt ord",
+      "unknownWord": "??? (Du är bedragaren)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Håll intryckt för att visa ditt kort",
+      "innocentInstructions": "Du vet det hemliga ordet. Ge ETT smart tips utan att avslöja det för bedragaren!",
+      "imposterInstructions": "DU ÄR BEDRAGAREN! Du vet inte ordet. Lyssna noga, bluffa och bli inte tagen!",
+      "firstSpeaker": "Första talare",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Nästa spelare",
+      "readyToVote": "Starta röstning och diskussion",
+      "revealImposter": "Avslöja bedragaren",
+      "votingTitle": "Vem är bedragaren?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Rösta",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "De oskyldiga vinner!",
+      "impostersWin": "Bedragaren vinner!",
+      "nextRound": "Nästa runda",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Språk",
+      "playerList": "Spelarlista",
+      "addPlayer": "Lägg till spelare",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Visas nu för:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Starta ledtrådsrunda",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Se till att ingen kikar, och håll intryckt för att titta!",
+      "peekSecretCardNotice": "Håll intryckt för att kika på hemliga ordet",
+      "clueDiscussionRound": "Ledtråds- och diskussionsrunda",
+      "theImposter": "Bedragaren",
+      "theImposters": "Bedragarna",
+      "whoWonRound": "Vem vann rundan?",
+      "innocentsWonBtn": "Oskyldiga (+1)",
+      "imposterWonBtn": "Bedragare (+2)",
+      "scoreboard": "Poängtavla",
+      "backToSettings": "Tillbaka till inställningar",
+      "startLobbyDesc": "Skapa ett online-rum och bjud in vänner med en 4-bokstävers kod.",
+      "joinLobbyDesc": "Ange den 4-bokstävers kod som din vän delade.",
+      "copyCode": "Kopiera kod",
+      "hostBadge": "Värd",
+      "youSuffix": "(Du)",
+      "releaseToHide": "Släpp för att dölja kortet",
+      "firstSpeakerPrefix": "Första"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Paraply",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Solglasögon",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Smarttelefon",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Armbandsur",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Choklad",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Kaffe",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japan",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Frankrike",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Italien",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Läkare",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Brandman",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Fotboll",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Basket",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Elefant",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Lejon",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Flygplan",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Vulkan",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Gitarr",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotografering",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "tr": {
+    code: "tr",
+    name: "Turkish",
+    nativeName: "Türkçe",
+    shortLabel: "TR",
+    menuLabel: "Dil",
+    dir: "ltr",
+    flag: "🇹🇷",
+    defaultPlayerNames: ["Yusuf", "Zeynep", "Emir"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Dil",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Oda Kur ▷",
+      "joinLobby": "Kodla Katıl",
+      "enterCode": "4 harfli kod",
+      "enterName": "Adınız",
+      "joinBtn": "Oyuna Katıl",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Telefonu Devret",
+      "passThePhoneDesc": "Tek telefonu çemberde elden ele geçirin",
+      "playOnline": "Çevrimiçi Oyna",
+      "playOnlineDesc": "Herkes kendi telefonundan bağlansın",
+      "lobbyCode": "ODA KODU",
+      "copied": "Panoya kopyalandı!",
+      "shareLink": "Paylaş",
+      "linkCopied": "Bağlantı kopyalandı!",
+      "players": "Oyuncular",
+      "reorderNotice": "Oturma sırasına göre isimleri sürükleyin",
+      "waitingForHost": "Oda sahibinin başlatması bekleniyor...",
+      "startGame": "Oyunu Başlat",
+      "chooseCategory": "Kategori Seç",
+      "allCategories": "Tüm Kategoriler",
+      "deselectAll": "Tümünü Kaldır",
+      "selectAll": "Tümünü Seç",
+      "selectedCount": "Seçildi",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Kaç Hain?",
+      "imposterMajorityRule": "{players} oyuncu için en fazla {max} hain (çoğunluk olamaz)",
+      "cluesSettings": "İpuçları ve Yardım",
+      "enableClues": "Haine İpucu Ver",
+      "enableCluesDesc": "Hainin araya karışmasını kolaylaştıracak ipucu verir",
+      "clueDifficulty": "İpucu Seviyesi",
+      "easy": "Kolay",
+      "medium": "Orta",
+      "hard": "Zor",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Hain ilkse zor ipucu ver",
+      "giveHardClueIfFirstDesc": "Hain ilk konuşan olursa hayatta kalması için ipucu alır",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Hain",
+      "innocent": "Masum",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Gizli Kelime",
+      "unknownWord": "??? (Sen Hainsin)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Kartını görmek için basılı tut",
+      "innocentInstructions": "Gizli kelimeyi biliyorsun. Haine açık etmeden kelimeyle ilgili BİR akıllıca ipucu ver!",
+      "imposterInstructions": "SEN HAİNSİN! Kelimeyi bilmiyorsun. Dikkatle dinle, blöf yap ve yakalanma!",
+      "firstSpeaker": "İlk Konuşan",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Sonraki Oyuncu",
+      "readyToVote": "Oylama ve Tartışmayı Başlat",
+      "revealImposter": "Haini Açığa Çıkar",
+      "votingTitle": "Hain Kim?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Oy Ver",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Masumlar Kazandı!",
+      "impostersWin": "Hain Kazandı!",
+      "nextRound": "Sonraki Tur",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Dil",
+      "playerList": "Oyuncu Listesi",
+      "addPlayer": "Oyuncu Ekle",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Şimdi gösteriliyor:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "İpucu Turunu Başlat",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Kimsenin ekrana bakmadığından emin ol ve basılı tut!",
+      "peekSecretCardNotice": "Gizli kelimeye göz atmak için basılı tut",
+      "clueDiscussionRound": "İpucu ve Tartışma Turu",
+      "theImposter": "Hain",
+      "theImposters": "Hainler",
+      "whoWonRound": "Turu kim kazandı?",
+      "innocentsWonBtn": "Masumlar (+1)",
+      "imposterWonBtn": "Hain (+2)",
+      "scoreboard": "Skor Tablosu",
+      "backToSettings": "Ayarlara Dön",
+      "startLobbyDesc": "Çevrimiçi bir oda kurun ve 4 harfli kod ile arkadaşlarınızı davet edin.",
+      "joinLobbyDesc": "Arkadaşınızın paylaştığı 4 harfli kodu girin.",
+      "copyCode": "Kodu Kopyala",
+      "hostBadge": "Oda Sahibi",
+      "youSuffix": "(Sen)",
+      "releaseToHide": "Kartı gizlemek için bırakın",
+      "firstSpeakerPrefix": "İlk"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Şemsiye",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Güneş gözlüğü",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Akıllı telefon",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Kol saati",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Suşi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Çikolata",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Kahve",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japonya",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Fransa",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "İtalya",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Doktor",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "İtfaiyeci",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Futbol",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Basketbol",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Fil",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Aslan",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Uçak",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Yanardağ",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Gitar",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotoğrafçılık",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "hu": {
+    code: "hu",
+    name: "Hungarian",
+    nativeName: "Magyar",
+    shortLabel: "HU",
+    menuLabel: "Nyelv",
+    dir: "ltr",
+    flag: "🇭🇺",
+    defaultPlayerNames: ["Bence", "Hanna", "Máté"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Nyelv",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Szoba létrehozása ▷",
+      "joinLobby": "Csatlakozás kóddal",
+      "enterCode": "4 betűs kód",
+      "enterName": "A neved",
+      "joinBtn": "Csatlakozás a játékhoz",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Telefon átadása",
+      "passThePhoneDesc": "Egyetlen telefon körbeadása a körben",
+      "playOnline": "Online játék",
+      "playOnlineDesc": "Mindenki a saját telefonjával csatlakozik",
+      "lobbyCode": "SZOBAKÓD",
+      "copied": "Vágólapra másolva!",
+      "shareLink": "Megosztás",
+      "linkCopied": "Hivatkozás másolva!",
+      "players": "Játékosok",
+      "reorderNotice": "Húzd a neveket az ülésrendnek megfelelően",
+      "waitingForHost": "Várakozás a házigazda indítására...",
+      "startGame": "Játék indítása",
+      "chooseCategory": "Kategória választása",
+      "allCategories": "Minden kategória",
+      "deselectAll": "Kijelölés törlése",
+      "selectAll": "Mindet kijelöl",
+      "selectedCount": "Kiválasztva",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Hány hűtlen legyen?",
+      "imposterMajorityRule": "Max. {max} áruló {players} játékoshoz (nem lehet többség)",
+      "cluesSettings": "Utalások és segítség",
+      "enableClues": "Utalások a hűtlennek",
+      "enableCluesDesc": "Segít a hűtlennek beolvadni a társaságba",
+      "clueDifficulty": "Utalás szintje",
+      "easy": "Könnyű",
+      "medium": "Közepes",
+      "hard": "Nehéz",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Nehéz utalás, ha a hűtlen kezd",
+      "giveHardClueIfFirstDesc": "Ha elsőként beszél, kap egy nehéz utalást",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Áruló",
+      "innocent": "Ártatlan",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Titkos szó",
+      "unknownWord": "??? (Te vagy az áruló)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Tartsd lenyomva a kártya felfedéséhez",
+      "innocentInstructions": "Tudod a titkos szót. Adj EGY okos utalást anélkül, hogy elárulnád az árulónak!",
+      "imposterInstructions": "TE VAGY AZ ÁRULÓ! Nem tudod a szót. Figyelj jól, blöffölj és ne bukj le!",
+      "firstSpeaker": "Első beszélő",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Következő játékos",
+      "readyToVote": "Szavazás és megbeszélés indítása",
+      "revealImposter": "Hűtlen leleplezése",
+      "votingTitle": "Ki az áruló?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Szavazás",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Az ártatlanok nyertek!",
+      "impostersWin": "Az áruló nyert!",
+      "nextRound": "Következő kör",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Nyelv",
+      "playerList": "Játékoslista",
+      "addPlayer": "Játékos hozzáadása",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Jelenleg megjelenítve:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Nyomkör indítása",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Győződj meg róla, hogy senki sem lesi el, majd tartsd lenyomva!",
+      "peekSecretCardNotice": "Tartsd lenyomva a titkos szó megtekintéséhez",
+      "clueDiscussionRound": "Nyomok és beszélgetés köre",
+      "theImposter": "A Hűtlen",
+      "theImposters": "A Hűtlenek",
+      "whoWonRound": "Ki nyerte a kört?",
+      "innocentsWonBtn": "Ártatlanok (+1)",
+      "imposterWonBtn": "Hűtlen (+2)",
+      "scoreboard": "Eredménytábla",
+      "backToSettings": "Vissza a beállításokhoz",
+      "startLobbyDesc": "Hozz létre egy online szobát, és hívd meg a barátaidat egy 4 betűs kóddal.",
+      "joinLobbyDesc": "Add meg a barátod által megosztott 4 betűs kódot.",
+      "copyCode": "Kód másolása",
+      "hostBadge": "Házigazda",
+      "youSuffix": "(Te)",
+      "releaseToHide": "Engedd el a kártya elrejtéséhez",
+      "firstSpeakerPrefix": "Első"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Esernyő",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Napszemüveg",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Okostelefon",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Karóra",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Csokoládé",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Kávé",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japán",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Franciaország",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Olaszország",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Orvos",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Tűzoltó",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Foci",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Kosárlabda",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Elefánt",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Oroszlán",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Repülőgép",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Vulkán",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Gitár",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotózás",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "el": {
+    code: "el",
+    name: "Greek",
+    nativeName: "Ελληνικά",
+    shortLabel: "EL",
+    menuLabel: "Γλώσσα",
+    dir: "ltr",
+    flag: "🇬🇷",
+    defaultPlayerNames: ["Γιώργος", "Μαρία", "Νίκος"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Γλώσσα",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Δημιουργία δωματίου ▷",
+      "joinLobby": "Είσοδος με κωδικό",
+      "enterCode": "4ψήφιος κωδικός",
+      "enterName": "Το όνομά σας",
+      "joinBtn": "Συμμετοχή στο παιχνίδι",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Πέρασμα τηλεφώνου",
+      "passThePhoneDesc": "Μία συσκευή που περνάει από χέρι σε χέρι στον κύκλο",
+      "playOnline": "Online παιχνίδι",
+      "playOnlineDesc": "Κάθε παίκτης συνδέεται από το κινητό του",
+      "lobbyCode": "ΚΩΔΙΚΟΣ ΔΩΜΑΤΙΟΥ",
+      "copied": "Αντιγράφηκε στο πρόχειρο!",
+      "shareLink": "Κοινοποίηση",
+      "linkCopied": "Ο σύνδεσμος αντιγράφηκε!",
+      "players": "Παίκτες",
+      "reorderNotice": "Σύρετε τα ονόματα για να αντιστοιχούν στον κύκλο",
+      "waitingForHost": "Αναμονή για έναρξη από τον διοργανωτή...",
+      "startGame": "Έναρξη παιχνιδιού",
+      "chooseCategory": "Επιλογή κατηγορίας",
+      "allCategories": "Όλες οι κατηγορίες",
+      "deselectAll": "Αποεπιλογή όλων",
+      "selectAll": "Επιλογή όλων",
+      "selectedCount": "Επιλεγμένα",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Πόσοι απατεώνες;",
+      "imposterMajorityRule": "Μέγιστο {max} απατεώνες για {players} παίκτες (ποτέ πλειοψηφία)",
+      "cluesSettings": "Στοιχεία & βοήθεια",
+      "enableClues": "Στοιχεία στον απατεώνα",
+      "enableCluesDesc": "Δίνει βοήθεια στον απατεώνα για να κρυφτεί",
+      "clueDifficulty": "Επίπεδο στοιχείου",
+      "easy": "Εύκολο",
+      "medium": "Μέτριο",
+      "hard": "Δύσκολο",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Δύσκολο στοιχείο αν είναι 1ος",
+      "giveHardClueIfFirstDesc": "Βοηθά αν ο απατεώνας ξεκινάει πρώτος",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Απατεώνας",
+      "innocent": "Αθώος",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Μυστική λέξη",
+      "unknownWord": "??? (Είστε ο απατεώνας)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Πατήστε παρατεταμένα για εμφάνιση κάρτας",
+      "innocentInstructions": "Γνωρίζετε τη μυστική λέξη. Δώστε ΕΝΑ έξυπνο στοιχείο χωρίς να το αποκαλύψετε στον απατεώνα!",
+      "imposterInstructions": "ΕΙΣΤΕ Ο ΑΠΑΤΕΩΝΑΣ! Δεν γνωρίζετε τη λέξη. Ακούστε προσεκτικά, μπλοφάρετε και μην πιαστείτε!",
+      "firstSpeaker": "Πρώτος ομιλητής",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Επόμενος παίκτης",
+      "readyToVote": "Έναρξη ψηφοφορίας & συζήτησης",
+      "revealImposter": "Αποκάλυψη απατεώνα",
+      "votingTitle": "Ποιος είναι ο απατεώνας;",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Ψηφίστε",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Κέρδισαν οι αθώοι!",
+      "impostersWin": "Κέρδισε ο απατεώνας!",
+      "nextRound": "Επόμενος γύρος",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Γλώσσα",
+      "playerList": "Λίστα παικτών",
+      "addPlayer": "Προσθήκη παίκτη",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Προβολή τώρα για:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Έναρξη γύρου στοιχείων",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Βεβαιωθείτε ότι δεν κοιτάζει κανείς και πατήστε παρατεταμένα!",
+      "peekSecretCardNotice": "Κρατήστε πατημένο για να δείτε τη μυστική λέξη",
+      "clueDiscussionRound": "Γύρος στοιχείων και συζήτησης",
+      "theImposter": "Ο Απατεώνας",
+      "theImposters": "Οι Απατεώνες",
+      "whoWonRound": "Ποιος κέρδισε τον γύρο;",
+      "innocentsWonBtn": "Αθώοι (+1)",
+      "imposterWonBtn": "Απατεώνας (+2)",
+      "scoreboard": "Πίνακας αποτελεσμάτων",
+      "backToSettings": "Επιστροφή στις ρυθμίσεις",
+      "startLobbyDesc": "Δημιουργήστε ένα διαδικτυακό δωμάτιο και προσκαλέστε φίλους με 4ψήφιο κωδικό.",
+      "joinLobbyDesc": "Εισαγάγετε τον 4ψήφιο κωδικό που μοιράστηκε ο φίλος σας.",
+      "copyCode": "Αντιγραφή κωδικού",
+      "hostBadge": "Διοργανωτής",
+      "youSuffix": "(Εσείς)",
+      "releaseToHide": "Αφήστε για να κρύψετε την κάρτα",
+      "firstSpeakerPrefix": "Πρώτος"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Ομπρέλα",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Γυαλιά ηλίου",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Smartphone",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Ρολόι χειρός",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Πίτσα",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Σούσι",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Σοκολάτα",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Καφές",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Ιαπωνία",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Γαλλία",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Ιταλία",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Γιατρός",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Πυροσβέστης",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Ποδόσφαιρο",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Μπάσκετ",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Ελέφαντας",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Λιοντάρι",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Αεροπλάνο",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Ηφαίστειο",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Κιθάρα",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Φωτογραφία",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "ro": {
+    code: "ro",
+    name: "Romanian",
+    nativeName: "Română",
+    shortLabel: "RO",
+    menuLabel: "Limbă",
+    dir: "ltr",
+    flag: "🇷🇴",
+    defaultPlayerNames: ["Andrei", "Maria", "Alexandru"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Limbă",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Creează cameră ▷",
+      "joinLobby": "Alătură-te cu cod",
+      "enterCode": "Cod de 4 litere",
+      "enterName": "Numele tău",
+      "joinBtn": "Intră în joc",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Pasează telefonul",
+      "passThePhoneDesc": "Un singur telefon pasat în cerc",
+      "playOnline": "Joacă online",
+      "playOnlineDesc": "Fiecare jucător se conectează de pe telefonul lui",
+      "lobbyCode": "COD CAMERĂ",
+      "copied": "Copiat în clipboard!",
+      "shareLink": "Distribuie",
+      "linkCopied": "Link copiat!",
+      "players": "Jucători",
+      "reorderNotice": "Trage numele pentru a se potrivi cu ordinea în cerc",
+      "waitingForHost": "Se așteaptă începerea de către gazdă...",
+      "startGame": "Începe jocul",
+      "chooseCategory": "Alege categoria",
+      "allCategories": "Toate categoriile",
+      "deselectAll": "Deselectează tot",
+      "selectAll": "Selectează tot",
+      "selectedCount": "Selectat",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Câți impostori?",
+      "imposterMajorityRule": "Max {max} impostori pentru {players} jucători (niciodată majoritate)",
+      "cluesSettings": "Indicii și asistență",
+      "enableClues": "Oferă indicii impostorului",
+      "enableCluesDesc": "Îi dă impostorului un indiciu pentru a se camufla",
+      "clueDifficulty": "Nivelul indiciului",
+      "easy": "Ușor",
+      "medium": "Mediu",
+      "hard": "Greu",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Indiciu greu dacă impostorul începe",
+      "giveHardClueIfFirstDesc": "Îl ajută să supraviețuiască dacă vorbește primul",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Impostor",
+      "innocent": "Inocent",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Cuvânt secret",
+      "unknownWord": "??? (Ești impostorul)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Ține apăsat pentru a vedea cartea",
+      "innocentInstructions": "Știi cuvântul secret. Oferă UN indiciu inteligent fără a-l divulga impostorului!",
+      "imposterInstructions": "EȘTI IMPOSTORUL! Nu știi cuvântul. Ascultă cu atenție, blufează și nu fi prins!",
+      "firstSpeaker": "Primul vorbitor",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Următorul jucător",
+      "readyToVote": "Începe votarea și discuția",
+      "revealImposter": "Dezvăluie impostorul",
+      "votingTitle": "Cine este impostorul?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Votează",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Inocenții au câștigat!",
+      "impostersWin": "Impostorul a câștigat!",
+      "nextRound": "Runda următoare",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Limbă",
+      "playerList": "Lista jucătorilor",
+      "addPlayer": "Adaugă jucător",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Se afișează acum pentru:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Începe runda de indicii",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Asigură-te că nu vede nimeni, apoi ține apăsat!",
+      "peekSecretCardNotice": "Ține apăsat pentru a trage cu ochiul la cuvântul secret",
+      "clueDiscussionRound": "Rundă de indicii și discuții",
+      "theImposter": "Impostorul",
+      "theImposters": "Impostorii",
+      "whoWonRound": "Cine a câștigat runda?",
+      "innocentsWonBtn": "Inocenți (+1)",
+      "imposterWonBtn": "Impostor (+2)",
+      "scoreboard": "Clasament",
+      "backToSettings": "Înapoi la setări",
+      "startLobbyDesc": "Creează o cameră online și invită-ți prietenii cu un cod de 4 litere.",
+      "joinLobbyDesc": "Introdu codul de 4 litere primit de la prietenul tău.",
+      "copyCode": "Copiază codul",
+      "hostBadge": "Gazdă",
+      "youSuffix": "(Tu)",
+      "releaseToHide": "Eliberează pentru a ascunde cartea",
+      "firstSpeakerPrefix": "Primul"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Umbrelă",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Ochelari de soare",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Smartphone",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Ceas de mână",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Ciocolată",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Cafea",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japonia",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Franța",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Italia",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Doctor",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Pompier",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Fotbal",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Baschet",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Elefant",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Leu",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Avion",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Vulcan",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Chitară",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotografie",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "cs": {
+    code: "cs",
+    name: "Czech",
+    nativeName: "Čeština",
+    shortLabel: "CS",
+    menuLabel: "Jazyk",
+    dir: "ltr",
+    flag: "🇨🇿",
+    defaultPlayerNames: ["Jakub", "Eliška", "Jan"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Jazyk",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Vytvořit místnost ▷",
+      "joinLobby": "Připojit se kódem",
+      "enterCode": "4místný kód",
+      "enterName": "Vaše jméno",
+      "joinBtn": "Připojit se ke hře",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Posílat telefon",
+      "passThePhoneDesc": "Jeden telefon kolující v kruhu",
+      "playOnline": "Hrát online",
+      "playOnlineDesc": "Každý hráč se připojí na svém mobilu",
+      "lobbyCode": "KÓD MÍSTNOSTI",
+      "copied": "Zkopírováno do schránky!",
+      "shareLink": "Sdílet",
+      "linkCopied": "Odkaz zkopírován!",
+      "players": "Hráči",
+      "reorderNotice": "Přetáhněte jména podle pořadí v kruhu",
+      "waitingForHost": "Čekání na spuštění hostitelem...",
+      "startGame": "Spustit hru",
+      "chooseCategory": "Vybrat kategorii",
+      "allCategories": "Všechny kategorie",
+      "deselectAll": "Odznačit vše",
+      "selectAll": "Vybrat vše",
+      "selectedCount": "Vybráno",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Kolik podvodníků?",
+      "imposterMajorityRule": "Max. {max} podvodníků pro {players} hráčů (nesmí mít většinu)",
+      "cluesSettings": "Nápovědy a pomoc",
+      "enableClues": "Dávat nápovědy podvodníkovi",
+      "enableCluesDesc": "Poskytne podvodníkovi nápovědu pro splynutí s davem",
+      "clueDifficulty": "Úroveň nápovědy",
+      "easy": "Lehké",
+      "medium": "Střední",
+      "hard": "Těžké",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Těžká nápověda, pokud je podvodník 1.",
+      "giveHardClueIfFirstDesc": "Pokud mluví první, dostane těžkou nápovědu",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Podvodník",
+      "innocent": "Nevinný",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Tajné slovo",
+      "unknownWord": "??? (Jste podvodník)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Podržte pro odhalení karty",
+      "innocentInstructions": "Znáte tajné slovo. Dejte JEDNU chytrou nápovědu, aniž byste ji prozradili podvodníkovi!",
+      "imposterInstructions": "JSTE PODVODNÍK! Neznáte slovo. Poslouchejte pozorně, blafujte a nenechte se chytit!",
+      "firstSpeaker": "První mluvčí",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Další hráč",
+      "readyToVote": "Zahájit hlasování a debatu",
+      "revealImposter": "Odhalit podvodníka",
+      "votingTitle": "Kdo je podvodník?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Hlasovat",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Nevinní vyhrávají!",
+      "impostersWin": "Podvodník vyhrává!",
+      "nextRound": "Další kolo",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Jazyk",
+      "playerList": "Seznam hráčů",
+      "addPlayer": "Přidat hráče",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Nyní se zobrazuje pro:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Zahájit kolo nápověd",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Ujistěte se, že nikdo nekouká, a podržte pro zobrazení!",
+      "peekSecretCardNotice": "Podržte pro nahlédnutí na tajné slovo",
+      "clueDiscussionRound": "Kolo nápověd a diskuze",
+      "theImposter": "Podvodník",
+      "theImposters": "Podvodníci",
+      "whoWonRound": "Kdo vyhrál kolo?",
+      "innocentsWonBtn": "Nevinní (+1)",
+      "imposterWonBtn": "Podvodník (+2)",
+      "scoreboard": "Tabulka bodů",
+      "backToSettings": "Zpět do nastavení",
+      "startLobbyDesc": "Vytvořte online místnost a pozvěte přátele pomocí 4místného kódu.",
+      "joinLobbyDesc": "Zadejte 4místný kód, který vám sdělil přítel.",
+      "copyCode": "Kopírovat kód",
+      "hostBadge": "Hostitel",
+      "youSuffix": "(Ty)",
+      "releaseToHide": "Uvolněte pro skrytí karty",
+      "firstSpeakerPrefix": "První"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Deštník",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Sluneční brýle",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Chytrý telefon",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Náramkové hodinky",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Suši",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Čokoláda",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Káva",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japonsko",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Francie",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Itálie",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Lékař",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Hasič",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Fotbal",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Basketbal",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Slon",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Lev",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Letadlo",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Sopka",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Kytara",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotografování",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "hr": {
+    code: "hr",
+    name: "Croatian",
+    nativeName: "Hrvatski",
+    shortLabel: "HR",
+    menuLabel: "Jezik",
+    dir: "ltr",
+    flag: "🇭🇷",
+    defaultPlayerNames: ["Luka", "Mia", "Ivan"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Jezik",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Stvori sobu ▷",
+      "joinLobby": "Pridruži se kodom",
+      "enterCode": "Kod od 4 slova",
+      "enterName": "Vaše ime",
+      "joinBtn": "Pridruži se igri",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Dodavanje mobitela",
+      "passThePhoneDesc": "Jedan mobitel koji ide u krug",
+      "playOnline": "Igraj online",
+      "playOnlineDesc": "Svaki igrač se spaja na svom mobitelu",
+      "lobbyCode": "KOD SOBE",
+      "copied": "Kopirano u međuspremnik!",
+      "shareLink": "Podijeli",
+      "linkCopied": "Poveznica kopirana!",
+      "players": "Igrači",
+      "reorderNotice": "Povuci imena prema redoslijedu sjedenja u krugu",
+      "waitingForHost": "Čeka se domaćin da započne...",
+      "startGame": "Pokreni igru",
+      "chooseCategory": "Odaberi kategoriju",
+      "allCategories": "Sve kategorije",
+      "deselectAll": "Odznači sve",
+      "selectAll": "Odaberi sve",
+      "selectedCount": "Odabrano",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Koliko varalica?",
+      "imposterMajorityRule": "Maks. {max} varalica za {players} igrača (nikad većina)",
+      "cluesSettings": "Tragovi i pomoć",
+      "enableClues": "Daj tragove varalici",
+      "enableCluesDesc": "Pomaže varalici da se lakše uklopi",
+      "clueDifficulty": "Razina traga",
+      "easy": "Lako",
+      "medium": "Srednje",
+      "hard": "Teško",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Težak trag ako je varalica 1.",
+      "giveHardClueIfFirstDesc": "Pomaže varalici ako mora govoriti prvi",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Varalica",
+      "innocent": "Nevini",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Tajna riječ",
+      "unknownWord": "??? (Ti si varalica)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Drži pritisnuto za prikaz kartice",
+      "innocentInstructions": "Znaš tajnu riječ. Daj JEDAN pametan trag bez da ga odaš varalici!",
+      "imposterInstructions": "TI SI VARALICA! Ne znaš riječ. Pažljivo slušaj, blefiraj i nemoj biti uhvaćen!",
+      "firstSpeaker": "Prvi govori",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Sljedeći igrač",
+      "readyToVote": "Započni glasanje i raspravu",
+      "revealImposter": "Otkrij varalicu",
+      "votingTitle": "Tko je varalica?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Glasaj",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Nevini su pobijedili!",
+      "impostersWin": "Varalica je pobijedio!",
+      "nextRound": "Sljedeća runda",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Jezik",
+      "playerList": "Popis igrača",
+      "addPlayer": "Dodaj igrača",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Trenutno se prikazuje za:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Započni krug tragova",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Pazi da nitko ne gleda i drži pritisnuto!",
+      "peekSecretCardNotice": "Drži pritisnuto za pogled na tajnu riječ",
+      "clueDiscussionRound": "Krug tragova i rasprave",
+      "theImposter": "Varalica",
+      "theImposters": "Varalice",
+      "whoWonRound": "Tko je osvojio rundu?",
+      "innocentsWonBtn": "Nedužni (+1)",
+      "imposterWonBtn": "Varalica (+2)",
+      "scoreboard": "Poredak",
+      "backToSettings": "Natrag na postavke",
+      "startLobbyDesc": "Stvorite online sobu i pozovite prijatelje s kodom od 4 slova.",
+      "joinLobbyDesc": "Unesite kod od 4 slova koji je podijelio vaš prijatelj.",
+      "copyCode": "Kopiraj kod",
+      "hostBadge": "Domaćin",
+      "youSuffix": "(Ti)",
+      "releaseToHide": "Otpustite za skrivanje kartice",
+      "firstSpeakerPrefix": "Prvi"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Kišobran",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Sunčane naočale",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Pametni telefon",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Ručni sat",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Čokolada",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Kava",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Japan",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Francuska",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Italija",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Liječnik",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Vatrogasac",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Nogomet",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Košarka",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Slon",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Lav",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Avion",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Vulkan",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Gitara",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotografija",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "uk": {
+    code: "uk",
+    name: "Ukrainian",
+    nativeName: "Українська",
+    shortLabel: "UK",
+    menuLabel: "Мова",
+    dir: "ltr",
+    flag: "🇺🇦",
+    defaultPlayerNames: ["Максим", "Софія", "Олександр"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Мова",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Створити кімнату ▷",
+      "joinLobby": "Приєднатися за кодом",
+      "enterCode": "4-значний код",
+      "enterName": "Ваше ім’я",
+      "joinBtn": "Приєднатися до гри",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Передавати телефон",
+      "passThePhoneDesc": "Один смартфон передається по колу",
+      "playOnline": "Грати онлайн",
+      "playOnlineDesc": "Кожен гравець підключається зі свого телефону",
+      "lobbyCode": "КОД КІМНАТИ",
+      "copied": "Скопійовано в буфер обміну!",
+      "shareLink": "Поділитися",
+      "linkCopied": "Посилання скопійовано!",
+      "players": "Гравці",
+      "reorderNotice": "Перетягніть імена за порядком у колі",
+      "waitingForHost": "Очікування початку від організатора...",
+      "startGame": "Почати гру",
+      "chooseCategory": "Виберіть категорію",
+      "allCategories": "Усі категорії",
+      "deselectAll": "Зняти все",
+      "selectAll": "Вибрати все",
+      "selectedCount": "Вибрано",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Скільки самозванців?",
+      "imposterMajorityRule": "Макс. {max} самозванців для {players} гравців (не більшість)",
+      "cluesSettings": "Підказки та допомога",
+      "enableClues": "Давати підказки самозванцю",
+      "enableCluesDesc": "Дає підказку самозванцю, щоб допомогти йому замаскуватися",
+      "clueDifficulty": "Рівень підказки",
+      "easy": "Легко",
+      "medium": "Середньо",
+      "hard": "Складно",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Складна підказка, якщо ходить 1-м",
+      "giveHardClueIfFirstDesc": "Допомагає самозванцю, якщо він починає коло",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Самозванець",
+      "innocent": "Мирний",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Секретне слово",
+      "unknownWord": "??? (Ви самозванець)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Утримуйте, щоб побачити карту",
+      "innocentInstructions": "Ви знаєте секретне слово. Дайте ОДНУ розумну підказку, не видавши її самозванцю!",
+      "imposterInstructions": "ВИ САМОЗВАНЕЦЬ! Ви не знаєте слова. Слухайте уважно, блефуйте та не попадіться!",
+      "firstSpeaker": "Перший доповідач",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Наступний гравець",
+      "readyToVote": "Почати голосування та обговорення",
+      "revealImposter": "Розкрити самозванця",
+      "votingTitle": "Хто самозванець?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Голосувати",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Мирні перемогли!",
+      "impostersWin": "Самозванець переміг!",
+      "nextRound": "Наступний раунд",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Мова",
+      "playerList": "Список гравців",
+      "addPlayer": "Додати гравця",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Зараз відображається для:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Почати раунд підказок",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Переконайтеся, що ніхто не підглядає, та утримуйте екран!",
+      "peekSecretCardNotice": "Утримуйте, щоб підглянути таємне слово",
+      "clueDiscussionRound": "Раунд підказок та обговорення",
+      "theImposter": "Самозванець",
+      "theImposters": "Самозванці",
+      "whoWonRound": "Хто переміг у раунді?",
+      "innocentsWonBtn": "Мирні (+1)",
+      "imposterWonBtn": "Самозванець (+2)",
+      "scoreboard": "Таблиця рахунку",
+      "backToSettings": "Назад до налаштувань",
+      "startLobbyDesc": "Створіть онлайн-кімнату та запросіть друзів за 4-значним кодом.",
+      "joinLobbyDesc": "Введіть 4-значний код, яким поділився ваш друг.",
+      "copyCode": "Скопіювати код",
+      "hostBadge": "Організатор",
+      "youSuffix": "(Ви)",
+      "releaseToHide": "Відпустіть, щоб сховати картку",
+      "firstSpeakerPrefix": "Перший"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Парасолька",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Сонцезахисні окуляри",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Смартфон",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Наручний годинник",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Піца",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Суші",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Шоколад",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Кава",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Японія",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Франція",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Італія",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Лікар",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Пожежник",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Футбол",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Баскетбол",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Слон",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Лев",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Літак",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Вулкан",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Гітара",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Фотографія",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "id": {
+    code: "id",
+    name: "Indonesian",
+    nativeName: "Bahasa Indonesia",
+    shortLabel: "ID",
+    menuLabel: "Bahasa",
+    dir: "ltr",
+    flag: "🇮🇩",
+    defaultPlayerNames: ["Budi", "Siti", "Rizky"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Bahasa",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Buat Ruangan ▷",
+      "joinLobby": "Gabung dengan Kode",
+      "enterCode": "Kode 4 huruf",
+      "enterName": "Nama Anda",
+      "joinBtn": "Gabung Permainan",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Oper Ponsel",
+      "passThePhoneDesc": "Satu ponsel dioper melingkar",
+      "playOnline": "Main Online",
+      "playOnlineDesc": "Tiap pemain gabung dari HP masing-masing",
+      "lobbyCode": "KODE RUANGAN",
+      "copied": "Disalin ke papan klip!",
+      "shareLink": "Bagikan",
+      "linkCopied": "Tautan disalin!",
+      "players": "Pemain",
+      "reorderNotice": "Tarik nama sesuai urutan duduk melingkar",
+      "waitingForHost": "Menunggu tuan rumah memulai...",
+      "startGame": "Mulai Permainan",
+      "chooseCategory": "Pilih Kategori",
+      "allCategories": "Semua Kategori",
+      "deselectAll": "Hapus Semua Pilihan",
+      "selectAll": "Pilih Semua",
+      "selectedCount": "Dipilih",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Berapa banyak imposter?",
+      "imposterMajorityRule": "Maks {max} penyusup untuk {players} pemain (tidak boleh mayoritas)",
+      "cluesSettings": "Petunjuk & Bantuan",
+      "enableClues": "Beri Petunjuk ke Imposter",
+      "enableCluesDesc": "Memberi petunjuk agar imposter bisa membaur",
+      "clueDifficulty": "Tingkat Petunjuk",
+      "easy": "Mudah",
+      "medium": "Sedang",
+      "hard": "Sulit",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Petunjuk sulit jika imposter bicara ke-1",
+      "giveHardClueIfFirstDesc": "Membantu imposter bertahan jika harus bicara pertama",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Penyusup",
+      "innocent": "Warga",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Kata Rahasia",
+      "unknownWord": "??? (Kamu adalah penyusup)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Tahan untuk melihat kartu rahasiamu",
+      "innocentInstructions": "Kamu tahu kata rahasianya. Berikan SATU petunjuk cerdas tanpa membocorkannya ke penyusup!",
+      "imposterInstructions": "KAMU ADALAH PENYUSUP! Kamu tidak tahu katanya. Dengarkan baik-baik, menggertak, dan jangan sampai ketahuan!",
+      "firstSpeaker": "Pembicara pertama",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Pemain Berikutnya",
+      "readyToVote": "Mulai Voting & Diskusi",
+      "revealImposter": "Bongkar Siapa Imposter",
+      "votingTitle": "Siapa penyusupnya?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Pilih",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Warga Menang!",
+      "impostersWin": "Penyusup Menang!",
+      "nextRound": "Babak Berikutnya",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Bahasa",
+      "playerList": "Daftar Pemain",
+      "addPlayer": "Tambah Pemain",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Menampilkan sekarang untuk:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Mulai Babak Petunjuk",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Pastikan tak ada yang melihat, lalu tahan untuk mengintip!",
+      "peekSecretCardNotice": "Tahan untuk mengintip kata rahasia",
+      "clueDiscussionRound": "Babak Petunjuk & Diskusi",
+      "theImposter": "Sang Imposter",
+      "theImposters": "Para Imposter",
+      "whoWonRound": "Siapa yang menang?",
+      "innocentsWonBtn": "Warga (+1)",
+      "imposterWonBtn": "Imposter (+2)",
+      "scoreboard": "Papan Skor",
+      "backToSettings": "Kembali ke Pengaturan",
+      "startLobbyDesc": "Buat ruangan online dan undang teman dengan kode 4 huruf.",
+      "joinLobbyDesc": "Masukkan kode 4 huruf yang dibagikan temanmu.",
+      "copyCode": "Salin Kode",
+      "hostBadge": "Tuan Rumah",
+      "youSuffix": "(Anda)",
+      "releaseToHide": "Lepaskan untuk menyembunyikan kartu",
+      "firstSpeakerPrefix": "Pertama"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Payung",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Kacamata hitam",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Ponsel pintar",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Jam tangan",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Cokelat",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Kopi",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Jepang",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Prancis",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Italia",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Dokter",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Pemadam kebakaran",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Sepak bola",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Bola basket",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Gajah",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Singa",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Pesawat",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Gunung berapi",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Gitar",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Fotografi",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "ko": {
+    code: "ko",
+    name: "Korean",
+    nativeName: "한국어",
+    shortLabel: "KO",
+    menuLabel: "언어",
+    dir: "ltr",
+    flag: "🇰🇷",
+    defaultPlayerNames: ["민준", "서연", "지호"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "언어",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "방 만들기 ▷",
+      "joinLobby": "코드로 참가",
+      "enterCode": "4자리 코드",
+      "enterName": "이름 입력",
+      "joinBtn": "게임 참가",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "폰 넘기기 모드",
+      "passThePhoneDesc": "스마트폰 한 대를 둥글게 둘러앉아 넘기며 플레이",
+      "playOnline": "온라인 대전",
+      "playOnlineDesc": "각자 자신의 스마트폰으로 방에 참여",
+      "lobbyCode": "방 코드",
+      "copied": "클립보드에 복사되었습니다!",
+      "shareLink": "공유",
+      "linkCopied": "링크가 복사되었습니다!",
+      "players": "플레이어",
+      "reorderNotice": "원형 앉은 순서에 맞춰 이름을 드래그하세요",
+      "waitingForHost": "방장이 시작하기를 기다리는 중...",
+      "startGame": "게임 시작",
+      "chooseCategory": "카테고리 선택",
+      "allCategories": "모든 카테고리",
+      "deselectAll": "모두 선택 해제",
+      "selectAll": "모두 선택",
+      "selectedCount": "선택됨",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "라이어 수",
+      "imposterMajorityRule": "{players}명 중 임포스터는 최대 {max}명 (과반수 불가)",
+      "cluesSettings": "힌트 및 지원",
+      "enableClues": "라이어에게 힌트 제공",
+      "enableCluesDesc": "라이어가 눈치채지 못하게 섞여들도록 힌트를 줍니다",
+      "clueDifficulty": "힌트 난이도",
+      "easy": "쉬움",
+      "medium": "보통",
+      "hard": "어려움",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "라이어가 1번일 때 어려운 힌트",
+      "giveHardClueIfFirstDesc": "라이어가 첫 발언자일 때 생존 힌트를 줍니다",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "임포스터",
+      "innocent": "시민",
+      "yourRole": "Your Secret Role",
+      "secretWord": "비밀 단어",
+      "unknownWord": "??? (당신은 임포스터입니다)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "길게 눌러 비밀 카드 확인",
+      "innocentInstructions": "당신은 비밀 단어를 알고 있습니다. 임포스터에게 들키지 않도록 관련된 영利한 힌트 하나를 제시하세요!",
+      "imposterInstructions": "당신은 임포스터입니다! 비밀 단어를 모릅니다. 주의 깊게 듣고 능숙하게 블러핑하여 들키지 마세요!",
+      "firstSpeaker": "첫 번째 발언자",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "다음 플레이어",
+      "readyToVote": "투표 및 토론 시작",
+      "revealImposter": "라이어 정체 공개",
+      "votingTitle": "누가 임포스터인가요?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "투표하기",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "시민 승리!",
+      "impostersWin": "임포스터 승리!",
+      "nextRound": "다음 라운드",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "언어",
+      "playerList": "플레이어 명단",
+      "addPlayer": "플레이어 추가",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "현재 표시 대상:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "힌트 라운드 시작",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "다른 사람이 보지 못하게 조심하고 길게 눌러 확인하세요!",
+      "peekSecretCardNotice": "길게 눌러 제시어 확인하기",
+      "clueDiscussionRound": "힌트 발언 및 토론 라운드",
+      "theImposter": "라이어",
+      "theImposters": "라이어들",
+      "whoWonRound": "이번 라운드 승자는?",
+      "innocentsWonBtn": "시민 승리 (+1)",
+      "imposterWonBtn": "라이어 승리 (+2)",
+      "scoreboard": "점수판",
+      "backToSettings": "설정으로 돌아가기",
+      "startLobbyDesc": "온라인 방을 만들고 4자리 코드로 친구들을 초대하세요.",
+      "joinLobbyDesc": "친구가 공유한 4자리 코드를 입력하세요.",
+      "copyCode": "코드 복사",
+      "hostBadge": "방장",
+      "youSuffix": "(나)",
+      "releaseToHide": "손을 떼면 카드가 숨겨집니다",
+      "firstSpeakerPrefix": "첫 번째"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "우산",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "선글라스",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "스마트폰",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "손목시계",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "피자",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "초밥",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "초콜릿",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "커피",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "일본",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "프랑스",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "이탈리아",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "의사",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "소방관",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "축구",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "농구",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "코끼리",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "사자",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "애플",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "비행기",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "화산",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "기타",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "사진 촬영",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "vi": {
+    code: "vi",
+    name: "Vietnamese",
+    nativeName: "Tiếng Việt",
+    shortLabel: "VI",
+    menuLabel: "Ngôn ngữ",
+    dir: "ltr",
+    flag: "🇻🇳",
+    defaultPlayerNames: ["Minh", "Linh", "Nam"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "Ngôn ngữ",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "Tạo phòng ▷",
+      "joinLobby": "Tham gia bằng mã",
+      "enterCode": "Mã 4 chữ cái",
+      "enterName": "Tên của bạn",
+      "joinBtn": "Vào trò chơi",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "Chuyền điện thoại",
+      "passThePhoneDesc": "Một chiếc điện thoại chuyền quanh vòng tròn",
+      "playOnline": "Chơi trực tuyến",
+      "playOnlineDesc": "Mỗi người kết nối bằng điện thoại riêng",
+      "lobbyCode": "MÃ PHÒNG",
+      "copied": "Đã sao chép vào khay nhớ tạm!",
+      "shareLink": "Chia sẻ",
+      "linkCopied": "Đã sao chép liên kết!",
+      "players": "Người chơi",
+      "reorderNotice": "Kéo tên để khớp với thứ tự ngồi vòng tròn",
+      "waitingForHost": "Đang chờ chủ phòng bắt đầu...",
+      "startGame": "Bắt đầu chơi",
+      "chooseCategory": "Chọn danh mục",
+      "allCategories": "Tất cả danh mục",
+      "deselectAll": "Bỏ chọn tất cả",
+      "selectAll": "Chọn tất cả",
+      "selectedCount": "Đã chọn",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "Bao nhiêu kẻ giả mạo?",
+      "imposterMajorityRule": "Tối đa {max} kẻ giả mạo cho {players} người chơi (không được chiếm đa số)",
+      "cluesSettings": "Manh mối & trợ giúp",
+      "enableClues": "Cung cấp manh mối cho kẻ giả mạo",
+      "enableCluesDesc": "Giúp kẻ giả mạo hòa nhập không bị lộ",
+      "clueDifficulty": "Độ khó manh mối",
+      "easy": "Dễ",
+      "medium": "Vừa",
+      "hard": "Khó",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "Manh mối khó nếu kẻ giả mạo nói đầu",
+      "giveHardClueIfFirstDesc": "Giúp kẻ giả mạo sống sót nếu phải nói trước",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "Kẻ giả mạo",
+      "innocent": "Dân làng",
+      "yourRole": "Your Secret Role",
+      "secretWord": "Từ bí mật",
+      "unknownWord": "??? (Bạn là kẻ giả mạo)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "Nhấn giữ để xem thẻ bài bí mật",
+      "innocentInstructions": "Bạn biết từ bí mật. Hãy đưa ra MỘT manh mối thông minh mà không để kẻ giả mạo nhận ra!",
+      "imposterInstructions": "BẠN LÀ KẺ GIẢ MẠO! Bạn không biết từ khóa. Hãy lắng nghe kỹ, nói khéo và đừng để bị bắt!",
+      "firstSpeaker": "Người nói đầu tiên",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "Người chơi tiếp theo",
+      "readyToVote": "Bắt đầu bỏ phiếu & thảo luận",
+      "revealImposter": "Vạch trần Kẻ Giả Mạo",
+      "votingTitle": "Ai là kẻ giả mạo?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "Bỏ phiếu",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "Dân làng thắng!",
+      "impostersWin": "Kẻ giả mạo thắng!",
+      "nextRound": "Vòng tiếp theo",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "Ngôn ngữ",
+      "playerList": "Danh sách người chơi",
+      "addPlayer": "Thêm người chơi",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "Đang hiển thị cho:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "Bắt đầu vòng manh mối",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "Hãy chắc chắn không ai nhìn lén, rồi nhấn giữ để xem!",
+      "peekSecretCardNotice": "Nhấn giữ để hé xem từ khóa bí mật",
+      "clueDiscussionRound": "Vòng manh mối & Thảo luận",
+      "theImposter": "Kẻ Giả Mạo",
+      "theImposters": "Những Kẻ Giả Mạo",
+      "whoWonRound": "Ai đã chiến thắng?",
+      "innocentsWonBtn": "Dân làng (+1)",
+      "imposterWonBtn": "Kẻ giả mạo (+2)",
+      "scoreboard": "Bảng điểm",
+      "backToSettings": "Quay lại cài đặt",
+      "startLobbyDesc": "Tạo phòng trực tuyến và mời bạn bè bằng mã 4 chữ cái.",
+      "joinLobbyDesc": "Nhập mã 4 chữ cái do bạn bè chia sẻ.",
+      "copyCode": "Sao chép mã",
+      "hostBadge": "Chủ phòng",
+      "youSuffix": "(Bạn)",
+      "releaseToHide": "Thả ra để ẩn thẻ",
+      "firstSpeakerPrefix": "Đầu tiên"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "Cái ô",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "Kính râm",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "Điện thoại thông minh",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "Đồng hồ đeo tay",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "Pizza",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "Sushi",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "Sô-cô-la",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "Cà phê",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "Nhật Bản",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "Pháp",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "Ý",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "Bác sĩ",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "Lính cứu hỏa",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "Bóng đá",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "Bóng rổ",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "Con voi",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "Sư tử",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "Apple",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "Máy bay",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "Núi lửa",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "Đàn ghi-ta",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "Nhiếp ảnh",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "th": {
+    code: "th",
+    name: "Thai",
+    nativeName: "ภาษาไทย",
+    shortLabel: "TH",
+    menuLabel: "ภาษา",
+    dir: "ltr",
+    flag: "🇹🇭",
+    defaultPlayerNames: ["ก้อง", "ฟ้า", "บอส"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "ภาษา",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "สร้างห้อง ▷",
+      "joinLobby": "เข้าร่วมด้วยรหัส",
+      "enterCode": "รหัส 4 ตัวอักษร",
+      "enterName": "ชื่อของคุณ",
+      "joinBtn": "เข้าร่วมเกม",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "ส่งต่อโทรศัพท์",
+      "passThePhoneDesc": "ใช้โทรศัพท์เครื่องเดียวส่งต่อวนในวง",
+      "playOnline": "เล่นออนไลน์",
+      "playOnlineDesc": "ผู้เล่นทุกคนเชื่อมต่อจากมือถือของตัวเอง",
+      "lobbyCode": "รหัสห้อง",
+      "copied": "คัดลอกไปยังคลิปบอร์ดแล้ว!",
+      "shareLink": "แชร์",
+      "linkCopied": "คัดลอกลิงก์แล้ว!",
+      "players": "ผู้เล่น",
+      "reorderNotice": "ลากชื่อเพื่อให้ตรงกับลำดับการนั่งในวง",
+      "waitingForHost": "กำลังรอหัวหน้าห้องเริ่มเกม...",
+      "startGame": "เริ่มเกม",
+      "chooseCategory": "เลือกหมวดหมู่",
+      "allCategories": "ทุกหมวดหมู่",
+      "deselectAll": "ยกเลิกการเลือกทั้งหมด",
+      "selectAll": "เลือกทั้งหมด",
+      "selectedCount": "เลือกแล้ว",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "จำนวนคนเนียนกี่คน?",
+      "imposterMajorityRule": "คนทรยศสูงสุด {max} คนสำหรับผู้เล่น {players} คน (ห้ามเป็นเสียงส่วนใหญ่)",
+      "cluesSettings": "คำใบ้และความช่วยเหลือ",
+      "enableClues": "ให้คำใบ้แก่คนเนียน",
+      "enableCluesDesc": "ช่วยให้คนเนียนกลมกลืนไปกับวงได้ง่ายขึ้น",
+      "clueDifficulty": "ระดับคำใบ้",
+      "easy": "ง่าย",
+      "medium": "ปานกลาง",
+      "hard": "ยาก",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "คำใบ้ยากหากคนเนียนพูดคนแรก",
+      "giveHardClueIfFirstDesc": "ช่วยคนเนียนเอาตัวรอดหากต้องพูดเปิดวง",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "คนทรยศ",
+      "innocent": "ผู้บริสุทธิ์",
+      "yourRole": "Your Secret Role",
+      "secretWord": "คำลับ",
+      "unknownWord": "??? (คุณคือคนทรยศ)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "กดค้างไว้เพื่อดูการ์ดลับของคุณ",
+      "innocentInstructions": "คุณรู้คำลับ ให้คำใบ้ที่ฉลาดหนึ่งคำโดยไม่ทำให้คนทรยศรู้ตัว!",
+      "imposterInstructions": "คุณคือคนทรยศ! คุณไม่รู้คำศัพท์ จงฟังอย่างระมัดระวัง เอาตัวรอด และอย่าให้ถูกจับได้!",
+      "firstSpeaker": "ผู้พูดคนแรก",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "ผู้เล่นคนถัดไป",
+      "readyToVote": "เริ่มการโหวตและอภิปราย",
+      "revealImposter": "เปิดเผยคนเนียน",
+      "votingTitle": "ใครคือคนทรยศ?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "โหวต",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "ผู้บริสุทธิ์ชนะ!",
+      "impostersWin": "คนทรยศชนะ!",
+      "nextRound": "รอบถัดไป",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "ภาษา",
+      "playerList": "รายชื่อผู้เล่น",
+      "addPlayer": "เพิ่มผู้เล่น",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "กำลังแสดงสำหรับ:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "เริ่มรอบใบ้คำ",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "ตรวจดูให้แน่ใจว่าไม่มีใครแอบดู แล้วกดค้างไว้เพื่อดู!",
+      "peekSecretCardNotice": "กดค้างไว้เพื่อแอบดูคำลับ",
+      "clueDiscussionRound": "รอบบอกคำใบ้และร่วมกันอภิปราย",
+      "theImposter": "คนเนียน",
+      "theImposters": "เหล่าคนเนียน",
+      "whoWonRound": "ใครชนะในรอบนี้?",
+      "innocentsWonBtn": "คนบริสุทธิ์ (+1)",
+      "imposterWonBtn": "คนเนียน (+2)",
+      "scoreboard": "กระดานคะแนน",
+      "backToSettings": "กลับสู่การตั้งค่า",
+      "startLobbyDesc": "สร้างห้องออนไลน์และเชิญเพื่อนด้วยรหัส 4 ตัวอักษร",
+      "joinLobbyDesc": "ป้อนรหัส 4 ตัวอักษรที่เพื่อนของคุณแชร์",
+      "copyCode": "คัดลอกรหัส",
+      "hostBadge": "หัวหน้าห้อง",
+      "youSuffix": "(คุณ)",
+      "releaseToHide": "ปล่อยมือเพื่อซ่อนการ์ด",
+      "firstSpeakerPrefix": "คนแรก"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "ร่ม",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "แว่นกันแดด",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "สมาร์ทโฟน",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "นาฬิกาข้อมือ",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "พิซซ่า",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "ซูชิ",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "ช็อกโกแลต",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "กาแฟ",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "ญี่ปุ่น",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "ฝรั่งเศส",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "อิตาลี",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "หมอ",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "นักดับเพลิง",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "ฟุตบอล",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "บาสเกตบอล",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "ช้าง",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "สิงโต",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "แอปเปิ้ล",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "เครื่องบิน",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "ภูเขาไฟ",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "กีตาร์",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "การถ่ายภาพ",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+  "hi": {
+    code: "hi",
+    name: "Hindi",
+    nativeName: "हिन्दी",
+    shortLabel: "HI",
+    menuLabel: "भाषा",
+    dir: "ltr",
+    flag: "🇮🇳",
+    defaultPlayerNames: ["Aarav", "Ananya", "Vivaan"],
+    strings: {
+      "appTitle": "The Imposter 🕵️‍♂️",
+      "appTagline": "Word guessing party game",
+      "language": "भाषा",
+      "themeToggle": "Toggle Theme",
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode",
+      "startLobby": "कमरा बनाएं ▷",
+      "joinLobby": "कोड के साथ जुड़ें",
+      "enterCode": "4 अक्षरों का कोड",
+      "enterName": "आपका नाम",
+      "joinBtn": "खेल में शामिल हों",
+      "passAndPlay": "Pass the phone",
+      "passAndPlayDesc": "Single phone mode for groups in a circle",
+      "onlineRooms": "Play Online",
+      "onlineRoomsDesc": "Each player connects on their phone",
+      "passThePhone": "फ़ोन आगे बढ़ाएं",
+      "passThePhoneDesc": "एक ही फ़ोन घेरे में एक-दूसरे को दें",
+      "playOnline": "ऑनलाइन खेलें",
+      "playOnlineDesc": "हर खिलाड़ी अपने फ़ोन से जुड़े",
+      "lobbyCode": "कमरा कोड",
+      "copied": "क्लिपबोर्ड पर कॉपी किया गया!",
+      "shareLink": "साझा करें",
+      "linkCopied": "लिंक कॉपी किया गया!",
+      "players": "खिलाड़ी",
+      "reorderNotice": "बैठने के क्रम के अनुसार नाम खींचें",
+      "waitingForHost": "होस्ट के शुरू करने की प्रतीक्षा है...",
+      "startGame": "खेल शुरू करें",
+      "chooseCategory": "श्रेणी चुनें",
+      "allCategories": "सभी श्रेणियां",
+      "deselectAll": "सभी अचयनित करें",
+      "selectAll": "सभी चुनें",
+      "selectedCount": "चयनित",
+      "chaosMode": "Chaos Mode",
+      "chaosModeDesc": "Random surprises each round",
+      "howManyImposters": "कितने ढोंगी?",
+      "imposterMajorityRule": "{players} खिलाड़ियों के लिए अधिकतम {max} ढोंगी (बहुमत नहीं हो सकते)",
+      "cluesSettings": "संकेत और सहायता",
+      "enableClues": "ढोंगी को संकेत दें",
+      "enableCluesDesc": "ढोंगी को घुलने-मिलने में मदद करने के लिए संकेत देता है",
+      "clueDifficulty": "संकेत स्तर",
+      "easy": "आसान",
+      "medium": "मध्यम",
+      "hard": "कठिन",
+      "easyClueDesc": "Direct hint about the word",
+      "mediumClueDesc": "Helpful conceptual hint",
+      "hardClueDesc": "Cryptic abstract hint",
+      "giveHardClueIfFirst": "यदि ढोंगी पहला हो तो कठिन संकेत",
+      "giveHardClueIfFirstDesc": "पहले बोलने पर ढोंगी को बचने के लिए संकेत मिलता है",
+      "showHints": "Helpful hints",
+      "showHintsDesc": "Show hints during debate",
+      "category": "Category",
+      "categoriesAll": "All Categories",
+      "impostersCount": "Imposters",
+      "imposter": "ढोंगी",
+      "innocent": "मासूम",
+      "yourRole": "Your Secret Role",
+      "secretWord": "गुप्त शब्द",
+      "unknownWord": "??? (आप ढोंगी हैं)",
+      "clue": "Clue",
+      "firstSpeakerWarning": "You speak FIRST in the circle! Here is a hard clue:",
+      "tapToReveal": "Hold to peek at your word",
+      "tapToHide": "Release to hide card",
+      "holdToReveal": "अपना गुप्त कार्ड देखने के लिए दबाकर रखें",
+      "innocentInstructions": "आप गुप्त शब्द जानते हैं। ढोंगी को बताए बिना इससे जुड़ा एक चतुर संकेत दें!",
+      "imposterInstructions": "आप ढोंगी हैं! आप गुप्त शब्द नहीं जानते। ध्यान से सुनें, झांसा दें और पकड़े न जाएं!",
+      "firstSpeaker": "पहला वक्ता",
+      "turnNotice": "Go around in a circle. Each person says ONE clue word.",
+      "nextPlayer": "अगला खिलाड़ी",
+      "readyToVote": "मतदान और चर्चा शुरू करें",
+      "revealImposter": "ढोंगी का पर्दाफाश करें",
+      "votingTitle": "ढोंगी कौन है?",
+      "votingSubtitle": "Discuss clues and cast your vote on who seems suspicious.",
+      "voteBtn": "वोट दें",
+      "imposterCaught": "Imposter was caught!",
+      "imposterEscaped": "The Imposter was not found!",
+      "imposterGuessTitle": "Imposter’s Last Chance!",
+      "imposterGuessSubtitle": "The imposter gets 1 guess to steal the win by naming the secret word.",
+      "submitGuess": "Submit Word Guess",
+      "correctGuess": "The imposter guessed correctly! Imposter wins!",
+      "wrongGuess": "Wrong guess! Innocents win the round!",
+      "innocentsWin": "मासूम जीत गए!",
+      "impostersWin": "ढोंगी जीत गया!",
+      "nextRound": "अगला दौर",
+      "leaveLobby": "Leave Lobby",
+      "howToPlayTitle": "How to Play",
+      "rule1": "Everyone gets the same secret word — except the imposter.",
+      "rule2": "Each player gives ONE word clue related to the secret word.",
+      "rule3": "Discuss clues and reveal who the imposter is!",
+      "selectLanguage": "भाषा",
+      "playerList": "खिलाड़ी सूची",
+      "addPlayer": "खिलाड़ी जोड़ें",
+      "minPlayersWarning": "At least 3 players required.",
+      "cardPassed": "Card Seen",
+      "passPhoneTo": "अब इनके लिए प्रदर्शित:",
+      "allRevealed": "All players have seen their cards!",
+      "startDebate": "संकेत दौर शुरू करें",
+      "round": "Round",
+      "suspect": "Suspect",
+      "score": "Score",
+      "discreetlyPassNotice": "ध्यान रखें कि कोई और न देख रहा हो, फिर देखने के लिए दबाए रखें!",
+      "peekSecretCardNotice": "गुप्त शब्द देखने के लिए दबाकर रखें",
+      "clueDiscussionRound": "संकेत और चर्चा का दौर",
+      "theImposter": "ढोंगी",
+      "theImposters": "ढोंगी",
+      "whoWonRound": "यह दौर किसने जीता?",
+      "innocentsWonBtn": "निर्दोष (+1)",
+      "imposterWonBtn": "ढोंगी (+2)",
+      "scoreboard": "स्कोरबोर्ड",
+      "backToSettings": "सेटिंग्स पर वापस जाएं",
+      "startLobbyDesc": "एक ऑनलाइन कमरा बनाएं और 4 अक्षरों के कोड के साथ दोस्तों को आमंत्रित करें।",
+      "joinLobbyDesc": "अपने दोस्त द्वारा साझा किया गया 4 अक्षरों का कोड दर्ज करें।",
+      "copyCode": "कोड कॉपी करें",
+      "hostBadge": "होस्ट",
+      "youSuffix": "(आप)",
+      "releaseToHide": "कार्ड छिपाने के लिए छोड़ें",
+      "firstSpeakerPrefix": "पहला"
+    },
+    categories: {
+      "objects": "Everyday Objects",
+      "food": "Food",
+      "countries": "Countries",
+      "professions": "Professions",
+      "sports": "Sports",
+      "animals": "Animals",
+      "logos": "Logos & Brands",
+      "transport": "Transport",
+      "nature": "Nature",
+      "music": "Music",
+      "hobbies": "Hobbies"
+},
+    categoryIcons: CATEGORY_EMOJIS,
+    words: {
+      "objects": [
+            {
+                  "word": "छाता",
+                  "clues": {
+                        "easy": "Protects you from rain",
+                        "medium": "Opens up with canopy and handle",
+                        "hard": "Shield against precipitation"
+                  }
+            },
+            {
+                  "word": "धूप का चश्मा",
+                  "clues": {
+                        "easy": "Worn on sunny days",
+                        "medium": "Dark lenses over eyes",
+                        "hard": "UV protection eyewear"
+                  }
+            },
+            {
+                  "word": "स्मार्टफोन",
+                  "clues": {
+                        "easy": "Touchscreen in your pocket",
+                        "medium": "Calls, messages and camera",
+                        "hard": "Handheld digital device"
+                  }
+            },
+            {
+                  "word": "कलाई घड़ी",
+                  "clues": {
+                        "easy": "Worn on wrist to tell time",
+                        "medium": "Has hands or digital display",
+                        "hard": "Horological accessory"
+                  }
+            }
+      ],
+      "food": [
+            {
+                  "word": "पिज़्ज़ा",
+                  "clues": {
+                        "easy": "Round baked dough with cheese",
+                        "medium": "Italian flatbread with toppings",
+                        "hard": "Neapolitan wood oven specialty"
+                  }
+            },
+            {
+                  "word": "सुशी",
+                  "clues": {
+                        "easy": "Rolled rice with raw fish",
+                        "medium": "Japanese specialty with nori",
+                        "hard": "Edomae culinary specialty"
+                  }
+            },
+            {
+                  "word": "चॉकलेट",
+                  "clues": {
+                        "easy": "Sweet brown treat from cocoa",
+                        "medium": "Confection made from cacao beans",
+                        "hard": "Theobroma cacao sweets"
+                  }
+            },
+            {
+                  "word": "कॉफ़ी",
+                  "clues": {
+                        "easy": "Hot morning roasted brew",
+                        "medium": "Caffeinated beverage",
+                        "hard": "Infusion of roasted beans"
+                  }
+            }
+      ],
+      "countries": [
+            {
+                  "word": "जापान",
+                  "clues": {
+                        "easy": "Tokyo, cherry blossoms and Mount Fuji",
+                        "medium": "East Asian island nation",
+                        "hard": "Land of the rising sun"
+                  }
+            },
+            {
+                  "word": "फ़्रांस",
+                  "clues": {
+                        "easy": "Paris and Eiffel Tower",
+                        "medium": "Western European republic with tricolor",
+                        "hard": "Hexagon nation"
+                  }
+            },
+            {
+                  "word": "इटली",
+                  "clues": {
+                        "easy": "Rome, Colosseum and boot shape",
+                        "medium": "Mediterranean nation famous for pizza",
+                        "hard": "Apennine peninsula"
+                  }
+            }
+      ],
+      "professions": [
+            {
+                  "word": "डॉक्टर",
+                  "clues": {
+                        "easy": "Wears white coat and heals sick people",
+                        "medium": "Works in hospital with stethoscope",
+                        "hard": "Medical practitioner"
+                  }
+            },
+            {
+                  "word": "दमकलकर्मी",
+                  "clues": {
+                        "easy": "Extinguishes fires with water hose",
+                        "medium": "Emergency responder with sirens and ladder",
+                        "hard": "Thermal suppression specialist"
+                  }
+            }
+      ],
+      "sports": [
+            {
+                  "word": "फ़ुटबॉल",
+                  "clues": {
+                        "easy": "Kicking black and white ball into goal",
+                        "medium": "Eleven players per team on pitch",
+                        "hard": "World's most popular sport"
+                  }
+            },
+            {
+                  "word": "बास्केटबॉल",
+                  "clues": {
+                        "easy": "Dribbling orange ball through hoop",
+                        "medium": "Court game with 3-pointers and dunks",
+                        "hard": "Five-a-side hardwood game"
+                  }
+            }
+      ],
+      "animals": [
+            {
+                  "word": "हाथी",
+                  "clues": {
+                        "easy": "Huge mammal with long trunk and tusks",
+                        "medium": "Largest living land animal",
+                        "hard": "Savanna pachyderm"
+                  }
+            },
+            {
+                  "word": "शेर",
+                  "clues": {
+                        "easy": "King of the jungle with big mane",
+                        "medium": "Apex predator living in prides",
+                        "hard": "Panthera leo carnivore"
+                  }
+            }
+      ],
+      "logos": [
+            {
+                  "word": "एप्पल",
+                  "clues": {
+                        "easy": "Fruit logo with a bite taken out",
+                        "medium": "Tech giant making iPhones",
+                        "hard": "Cupertino corporate emblem"
+                  }
+            }
+      ],
+      "transport": [
+            {
+                  "word": "हवाई जहाज",
+                  "clues": {
+                        "easy": "Flies high in the sky with wings",
+                        "medium": "Transports passengers through clouds",
+                        "hard": "Fixed-wing aerodyne"
+                  }
+            }
+      ],
+      "nature": [
+            {
+                  "word": "ज्वालामुखी",
+                  "clues": {
+                        "easy": "Mountain erupting hot lava and smoke",
+                        "medium": "Geological vent releasing magma",
+                        "hard": "Igneous geological structure"
+                  }
+            }
+      ],
+      "music": [
+            {
+                  "word": "गिटार",
+                  "clues": {
+                        "easy": "Six strings instrument played by strumming",
+                        "medium": "Acoustic or electric music instrument",
+                        "hard": "Fretted chordophone"
+                  }
+            }
+      ],
+      "hobbies": [
+            {
+                  "word": "फ़ोटोग्राफ़ी",
+                  "clues": {
+                        "easy": "Taking pictures with a camera",
+                        "medium": "Capturing moments with lens and shutter",
+                        "hard": "Optical exposure craft"
+                  }
+            }
+      ]
+}
+  },
+};

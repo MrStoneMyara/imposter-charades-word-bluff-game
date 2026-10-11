@@ -1,0 +1,6 @@
+{
+  "name": "Imposter Charades - Word Bluff Game",
+  "description": "Fast-paced party word game where everyone knows the secret word except the imposter. Multi-language support and instant join lobbies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
