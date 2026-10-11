@@ -54,19 +54,21 @@ export const PassAndPlayGame: React.FC<PassAndPlayGameProps> = ({
     const pickedItem: WordItem = wordList[Math.floor(Math.random() * wordList.length)];
     const word = typeof pickedItem === 'string' ? pickedItem : pickedItem.word;
 
+    const catName = lang.categories[chosenCatKey] || chosenCatKey;
+
     // Determine the clue text based on settings
     let clueText = '';
     const clues = pickedItem.clues;
-    if (clues) {
-      clueText = clues[clueDifficulty] || clues.medium || clues.easy || '';
+    if (clueDifficulty === 'hard') {
+      clueText = clues?.hard || catName;
+    } else if (clues) {
+      clueText = clues[clueDifficulty] || clues.medium || clues.easy || catName;
     } else if (pickedItem.hint) {
       clueText = pickedItem.hint;
     }
 
     // Hard clue fallback for "give hard clue if first"
-    const hardClueText = clues?.hard || clues?.medium || pickedItem.hint || clueText;
-
-    const catName = lang.categories[chosenCatKey] || chosenCatKey;
+    const hardClueText = clues?.hard || catName;
 
     // Imposters (cannot be majority)
     const maxAllowed = Math.max(1, Math.floor((players.length - 1) / 2));

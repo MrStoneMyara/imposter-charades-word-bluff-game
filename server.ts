@@ -95,14 +95,18 @@ function pickRandomWord(langCode: string, categoryFilter: string | string[]): { 
   const wordList = lang.words[chosenCategoryKey] || (lang.words as any)[catKeys[0]];
   const item = wordList[Math.floor(Math.random() * wordList.length)];
   const word = typeof item === 'string' ? item : item.word;
+  const categoryName = (lang.categories as any)[chosenCategoryKey] || chosenCategoryKey;
   const clues = typeof item !== 'string' && item.clues
-    ? item.clues
+    ? {
+        easy: item.clues.easy,
+        medium: item.clues.medium,
+        hard: item.clues.hard || categoryName,
+      }
     : {
         easy: '',
         medium: typeof item === 'string' ? '' : (item.hint || ''),
-        hard: typeof item === 'string' ? '' : (item.hint || ''),
+        hard: categoryName,
       };
-  const categoryName = (lang.categories as any)[chosenCategoryKey] || chosenCategoryKey;
 
   return { category: categoryName, word, clues };
 }
@@ -113,7 +117,10 @@ function clueForPlayer(lobby: Lobby, playerId: string | undefined, isImposter: b
   const show = lobby.enableClues !== false || (lobby.giveHardClueIfFirst !== false && isFirst);
   if (!show) return undefined;
   const level = lobby.enableClues === false ? 'hard' : (lobby.clueDifficulty || 'medium');
-  return lobby.secretClues[level] || lobby.secretClues.medium || lobby.secretClues.easy;
+  if (level === 'hard') {
+    return lobby.secretClues.hard || lobby.secretCategory;
+  }
+  return lobby.secretClues[level] || lobby.secretClues.medium || lobby.secretClues.easy || lobby.secretCategory;
 }
 
 function sanitizeLobbyForPlayer(lobby: Lobby, playerId?: string) {

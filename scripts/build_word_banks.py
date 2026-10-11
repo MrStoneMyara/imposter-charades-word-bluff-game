@@ -174,9 +174,14 @@ def strings_for_lang(bank):
     return unique
 
 
+CATEGORIES_BY_LANG = json.loads((SRC / "categories_by_lang.json").read_text()) if (SRC / "categories_by_lang.json").exists() else {}
+
+
 def fill_language(bank, translated, code):
     out = {}
+    lang_cats = CATEGORIES_BY_LANG.get(code, {})
     for cat, items in bank.items():
+        cat_hard_label = lang_cats.get(cat) or translated.get(items[0]["clues"]["hard"], items[0]["clues"]["hard"])
         rows = []
         for item in items:
             word = item["word"] if cat in LOCK_WORD else translated.get(item["word"], item["word"])
@@ -185,7 +190,7 @@ def fill_language(bank, translated, code):
                 "clues": {
                     "easy": translated.get(item["clues"]["easy"], item["clues"]["easy"]),
                     "medium": translated.get(item["clues"]["medium"], item["clues"]["medium"]),
-                    "hard": translated.get(item["clues"]["hard"], item["clues"]["hard"]),
+                    "hard": cat_hard_label,
                 },
             })
         out[cat] = rows
