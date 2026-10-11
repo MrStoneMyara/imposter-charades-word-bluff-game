@@ -29,7 +29,7 @@
       "clues": {
         "easy": "Tells time on your arm",
         "medium": "Small strapped timepiece",
-        "hard": "Personal wrist dial"
+        "hard": "Ticking strap dial"
       }
     },
     {
@@ -37,7 +37,7 @@
       "clues": {
         "easy": "Heats and browns bread",
         "medium": "Pop-up breakfast slot machine",
-        "hard": "Electric browning coils"
+        "hard": "Spring-loaded browning slot"
       }
     },
     {
@@ -45,7 +45,7 @@
       "clues": {
         "easy": "Cleans teeth with paste",
         "medium": "Small bristled dental handle",
-        "hard": "Twice-daily mouth bristles"
+        "hard": "Twice-daily bristled wand"
       }
     },
     {
@@ -53,7 +53,7 @@
       "clues": {
         "easy": "Fastens sheets of paper",
         "medium": "Desktop device pressing metal clips",
-        "hard": "Bent wire paper binder"
+        "hard": "Hinged wire puncher"
       }
     },
     {
@@ -85,7 +85,7 @@
       "clues": {
         "easy": "Cushion for your head in bed",
         "medium": "Soft stuffed sleeping pad",
-        "hard": "Bedtime neck support"
+        "hard": "Feathered head cushion"
       }
     },
     {
@@ -93,7 +93,7 @@
       "clues": {
         "easy": "Keeps you warm in bed",
         "medium": "Large woven warmth cover",
-        "hard": "Heavy fabric bedtime layer"
+        "hard": "Tucked woolen warmth layer"
       }
     },
     {
@@ -101,7 +101,7 @@
       "clues": {
         "easy": "Cuts paper and cloth",
         "medium": "Two pivoted crossing blades",
-        "hard": "Handheld shearing tool"
+        "hard": "Twin-loop pivoting blades"
       }
     },
     {
@@ -109,7 +109,7 @@
       "clues": {
         "easy": "Drives nails into surfaces",
         "medium": "Weighted metal striking head",
-        "hard": "Percussive carpentry tool"
+        "hard": "Claw-backed striking iron"
       }
     },
     {
@@ -117,7 +117,7 @@
       "clues": {
         "easy": "Climbed to reach high places",
         "medium": "Steps between two upright rails",
-        "hard": "Portable climbing rungs"
+        "hard": "Ascending parallel rungs"
       }
     },
     {
@@ -125,7 +125,7 @@
       "clues": {
         "easy": "Boils water for hot drinks",
         "medium": "Spouted pot with boiling element",
-        "hard": "Steaming countertop boiler"
+        "hard": "Whistling water vessel"
       }
     },
     {
@@ -133,7 +133,7 @@
       "clues": {
         "easy": "Sucks dust off carpets",
         "medium": "Motorized suction hose and filter",
-        "hard": "Noisy floor dust collector"
+        "hard": "Wheeled suction intake"
       }
     },
     {
@@ -141,7 +141,7 @@
       "clues": {
         "easy": "Presses wrinkles from shirts",
         "medium": "Hot smooth metal smoothing plate",
-        "hard": "Countertop steam glide"
+        "hard": "Wrinkle-smoothing heated plate"
       }
     },
     {
@@ -149,7 +149,7 @@
       "clues": {
         "easy": "Reflects what is in front",
         "medium": "Silvered glass surface showing you",
-        "hard": "Polished reflective panel"
+        "hard": "Silvered surface of yourself"
       }
     },
     {
@@ -157,7 +157,7 @@
       "clues": {
         "easy": "Wax column with a flame",
         "medium": "Melting cylinder with lit wick",
-        "hard": "Flickering scented wick"
+        "hard": "Melting scented tallow column"
       }
     },
     {
@@ -165,7 +165,7 @@
       "clues": {
         "easy": "Handheld beam of light",
         "medium": "Battery powered portable torch",
-        "hard": "Focused dark-beam cylinder"
+        "hard": "Handheld dark beam"
       }
     },
     {
@@ -173,7 +173,7 @@
       "clues": {
         "easy": "Changes television channels",
         "medium": "Handheld button panel for screens",
-        "hard": "Wireless living room controller"
+        "hard": "Infrared sofa commander"
       }
     },
     {
@@ -181,7 +181,7 @@
       "clues": {
         "easy": "Board with alphabet buttons",
         "medium": "Rows of typing keys for screens",
-        "hard": "Desktop fingertip input board"
+        "hard": "QWERTY typing grid"
       }
     },
     {
@@ -189,7 +189,7 @@
       "clues": {
         "easy": "Worn over ears for sound",
         "medium": "Padded personal listening cups",
-        "hard": "Dual audio ear cups"
+        "hard": "Padded audio headband"
       }
     },
     {
@@ -197,7 +197,7 @@
       "clues": {
         "easy": "Takes photos and videos",
         "medium": "Lens and shutter optical box",
-        "hard": "Image sensor with viewfinder"
+        "hard": "Optical aperture shutter box"
       }
     },
     {
@@ -205,7 +205,7 @@
       "clues": {
         "easy": "Holds cards and cash",
         "medium": "Folded pocket money holder",
-        "hard": "Pocket leather card organizer"
+        "hard": "Folded leather bill carrier"
       }
     },
     {
@@ -213,7 +213,7 @@
       "clues": {
         "easy": "Unlocks doors and padlocks",
         "medium": "Notched metal turning piece",
-        "hard": "Precision tumbler turner"
+        "hard": "Notched brass cylinder turner"
       }
     },
     {
@@ -221,7 +221,7 @@
       "clues": {
         "easy": "Portable metal security lock",
         "medium": "Heavy metal latch with curved shackle",
-        "hard": "U-bar security hardware"
+        "hard": "Detachable shackle latch"
       }
     },
     {
@@ -229,7 +229,7 @@
       "clues": {
         "easy": "Luggage packed for journeys",
         "medium": "Rolling wheeled travel luggage",
-        "hard": "Airport terminal wardrobe box"
+        "hard": "Wheeled luggage trunk"
       }
     },
     {
@@ -237,7 +237,7 @@
       "clues": {
         "easy": "Holds shirts in closet",
         "medium": "Shaped shoulder hook in wardrobe",
-        "hard": "Triangular closet hook"
+        "hard": "Shoulder-contoured wardrobe wire"
       }
     },
     {
@@ -245,7 +245,7 @@
       "clues": {
         "easy": "Fabric hanging across windows",
         "medium": "Draped cloth blocking window light",
-        "hard": "Drawn fabric privacy screen"
+        "hard": "Pleated window fabric drape"
       }
     },
     {
@@ -253,7 +253,7 @@
       "clues": {
         "easy": "Fabric covering floor area",
         "medium": "Thick woven floor covering",
-        "hard": "Wall-to-wall foot pile"
+        "hard": "Woven textile underfoot"
       }
     },
     {
@@ -437,7 +437,7 @@
       "clues": {
         "easy": "Soaks up liquid spills",
         "medium": "Porous block for washing dishes",
-        "hard": "Cellular dish-cleaning pad"
+        "hard": "Porous absorbent block"
       }
     },
     {
@@ -453,7 +453,7 @@
       "clues": {
         "easy": "Dries body after shower",
         "medium": "Large absorbent bathroom terrycloth",
-        "hard": "Post-shower drying cloth"
+        "hard": "Looped cotton moisture wrap"
       }
     },
     {
@@ -461,7 +461,7 @@
       "clues": {
         "easy": "Smooths and styles hair",
         "medium": "Paddle with pins for combing",
-        "hard": "Tangle-smoothing bristles"
+        "hard": "Paddle of pin bristles"
       }
     },
     {
@@ -469,7 +469,7 @@
       "clues": {
         "easy": "Blows warm air on wet head",
         "medium": "Handheld hot air blower nozzle",
-        "hard": "Motorized bathroom heat nozzle"
+        "hard": "Forced warm airflow nozzle"
       }
     },
     {
@@ -525,7 +525,7 @@
       "clues": {
         "easy": "Tied through sneaker eyelets",
         "medium": "Woven cords knotted on footwear",
-        "hard": "Grommet-threaded knot cord"
+        "hard": "Aglet-tipped braided cord"
       }
     },
     {
@@ -597,7 +597,7 @@
       "clues": {
         "easy": "Surface for slicing food",
         "medium": "Flat wooden slab protecting counters",
-        "hard": "Kitchen slicing platform"
+        "hard": "Knife-scarred prep block"
       }
     },
     {
@@ -605,7 +605,7 @@
       "clues": {
         "easy": "Shallow cookware on stove",
         "medium": "Flat-bottomed metal cooking skillet",
-        "hard": "Handled stovetop skillet"
+        "hard": "Sizzling flat-bottomed metal"
       }
     },
     {
@@ -613,7 +613,7 @@
       "clues": {
         "easy": "Flips burgers in skillet",
         "medium": "Flat broad blade for turning food",
-        "hard": "Flexible cookware flipper"
+        "hard": "Offset flat turning tool"
       }
     },
     {
@@ -621,7 +621,7 @@
       "clues": {
         "easy": "Beats eggs and batter",
         "medium": "Balloon wire loops for aerating",
-        "hard": "Balloon-loop mixing tool"
+        "hard": "Wire balloon aerating loops"
       }
     },
     {
@@ -629,7 +629,7 @@
       "clues": {
         "easy": "Perforated bowl draining pasta",
         "medium": "Bowl with holes draining liquid",
-        "hard": "Sinkside straining basin"
+        "hard": "Punched-hole draining basin"
       }
     },
     {
@@ -637,7 +637,7 @@
       "clues": {
         "easy": "Padded glove for hot pans",
         "medium": "Insulated cloth kitchen glove",
-        "hard": "Thermal baking protection mitt"
+        "hard": "Quilted heat-resistant glove"
       }
     },
     {
@@ -645,7 +645,7 @@
       "clues": {
         "easy": "Protects clothes during cooking",
         "medium": "Tied garment worn while baking",
-        "hard": "Front-covering kitchen wrap"
+        "hard": "Tied bib protecting clothing"
       }
     },
     {
@@ -653,7 +653,7 @@
       "clues": {
         "easy": "Purees fruit with fast blades",
         "medium": "Glass jug on motorized spin base",
-        "hard": "High-speed spinning jar"
+        "hard": "Vortex jug with base blades"
       }
     },
     {
@@ -661,7 +661,7 @@
       "clues": {
         "easy": "Brews morning dark beverage",
         "medium": "Countertop appliance dripping grounds",
-        "hard": "Filtered morning drip station"
+        "hard": "Percolating morning carafe appliance"
       }
     },
     {
@@ -749,7 +749,7 @@
       "clues": {
         "easy": "Freezes water into squares",
         "medium": "Compartment freezer mold for cubes",
-        "hard": "Freezer chilling compartment grid"
+        "hard": "Partitioned sub-zero mold"
       }
     },
     {
@@ -757,7 +757,7 @@
       "clues": {
         "easy": "Peg on wall for jackets",
         "medium": "Wall mounted hanger for coats",
-        "hard": "Entryway wall peg"
+        "hard": "Curved wall prong for jackets"
       }
     },
     {
@@ -773,7 +773,7 @@
       "clues": {
         "easy": "Protects table from wet cups",
         "medium": "Small pad placed under drinks",
-        "hard": "Tabletop condensation mat"
+        "hard": "Surface ring barrier"
       }
     },
     {
@@ -781,7 +781,7 @@
       "clues": {
         "easy": "Sets table area for dinner",
         "medium": "Dining mat laid beneath plate",
-        "hard": "Table setting protective mat"
+        "hard": "Protective boundary under dinnerware"
       }
     },
     {
@@ -789,7 +789,7 @@
       "clues": {
         "easy": "Wipes mouth during meal",
         "medium": "Folded paper or cloth for dining",
-        "hard": "Lap cloth for dining spills"
+        "hard": "Folded fabric for crumbs and lips"
       }
     },
     {
@@ -797,7 +797,7 @@
       "clues": {
         "easy": "Mint paste cleaning teeth",
         "medium": "Foaming paste from a tube",
-        "hard": "Fluoride brushing paste"
+        "hard": "Fluoride lather for morning bristles"
       }
     }
   ],
@@ -807,7 +807,7 @@
       "clues": {
         "easy": "Cheesy baked slices",
         "medium": "Round dough with tomato sauce",
-        "hard": "Wood-fired crust with melted toppings"
+        "hard": "Topped dough cut into wedges"
       }
     },
     {
@@ -815,7 +815,7 @@
       "clues": {
         "easy": "Vinegared rice with raw fish",
         "medium": "Rolled seafood with seaweed wrap",
-        "hard": "Nori-wrapped coastal bite"
+        "hard": "Chopstick roll paired with wasabi"
       }
     },
     {
@@ -863,7 +863,7 @@
       "clues": {
         "easy": "Beef patty inside a bun",
         "medium": "Grilled meat sandwich with toppings",
-        "hard": "Round sesame bun beef stack"
+        "hard": "Two-handed diner patty stack"
       }
     },
     {
@@ -887,7 +887,7 @@
       "clues": {
         "easy": "Fried glazed sweet ring",
         "medium": "Round dough with center hole",
-        "hard": "Deep-fried frosted dough loop"
+        "hard": "Glazed circular pastry with void"
       }
     },
     {
@@ -903,7 +903,7 @@
       "clues": {
         "easy": "Grid-patterned breakfast cake",
         "medium": "Crisp batter with square pockets",
-        "hard": "Iron-pressed pocketed batter"
+        "hard": "Syrup-holding grid indentations"
       }
     },
     {
@@ -911,7 +911,7 @@
       "clues": {
         "easy": "Puffed salty cinema snack",
         "medium": "Heated corn kernels that burst",
-        "hard": "Fluffy white movie theater snack"
+        "hard": "Exploded buttery salted kernels"
       }
     },
     {
@@ -1143,7 +1143,7 @@
       "clues": {
         "easy": "Cooked frankfurter in split bun",
         "medium": "Cured sausage with mustard in bread",
-        "hard": "Stadium sausage in soft bun"
+        "hard": "Split bun with mustard stripe"
       }
     },
     {
@@ -1151,7 +1151,7 @@
       "clues": {
         "easy": "Crispy deep-fried potato sticks",
         "medium": "Golden salted potato batons",
-        "hard": "Fast-food salted potato sticks"
+        "hard": "Salted paper-sleeve batons"
       }
     },
     {
@@ -1159,7 +1159,7 @@
       "clues": {
         "easy": "Battered and fried onion circles",
         "medium": "Crispy deep-fried vegetable loops",
-        "hard": "Breaded circular allium bites"
+        "hard": "Battered concentric vegetable hoops"
       }
     },
     {
@@ -1399,7 +1399,7 @@
       "clues": {
         "easy": "Sweet red tomato condiment",
         "medium": "Bottled red sauce for fries and burgers",
-        "hard": "Tangy tomato and vinegar squirt"
+        "hard": "Tangy red dipping squirt"
       }
     },
     {
@@ -1407,7 +1407,7 @@
       "clues": {
         "easy": "Sharp yellow seed condiment",
         "medium": "Spicy yellow sauce for sausages and pretzels",
-        "hard": "Ground seed paste with sharp bite"
+        "hard": "Sharp yellow sandwich smear"
       }
     },
     {
@@ -4031,7 +4031,7 @@
       "clues": {
         "easy": "Racket hitting ball over net",
         "medium": "Court match scored with love and deuce",
-        "hard": "Baseline rallies on grass or clay"
+        "hard": "Deuce and advantage baseline rallies"
       }
     },
     {
@@ -4039,7 +4039,7 @@
       "clues": {
         "easy": "Hitting pitched ball with wooden bat",
         "medium": "Nine innings around four dirt bases",
-        "hard": "Diamond bases with pitcher mound"
+        "hard": "Walk-off homer around the diamond"
       }
     },
     {
@@ -4071,7 +4071,7 @@
       "clues": {
         "easy": "Swinging clubs to sink ball in hole",
         "medium": "Eighteen holes across fairways and greens",
-        "hard": "Tee box to fairway pin placement"
+        "hard": "Birdie putts on groomed green"
       }
     },
     {
@@ -4479,7 +4479,7 @@
       "clues": {
         "easy": "Rolling heavy three-holed ball at ten pins",
         "medium": "Alley lane knocking down wooden pins for strikes",
-        "hard": "Ten-pin lane rolling for strike score"
+        "hard": "Heavy drilled sphere chasing pins"
       }
     },
     {
@@ -4487,7 +4487,7 @@
       "clues": {
         "easy": "Throwing pointed winged shafts at board",
         "medium": "Aiming for treble twenty on circular sisal board",
-        "hard": "Circular sisal board aiming for treble twenty"
+        "hard": "Treble twenty on sisal ring"
       }
     },
     {
@@ -4817,7 +4817,7 @@
       "clues": {
         "easy": "Curved swoosh checkmark on sneakers",
         "medium": "Athletic apparel with just do it slogan",
-        "hard": "Dynamic upward swoosh emblem"
+        "hard": "Curved athletic motion tick"
       }
     },
     {
@@ -5537,7 +5537,7 @@
       "clues": {
         "easy": "Red and white concentric bullseye rings",
         "medium": "Retail department store with bullseye logo",
-        "hard": "Concentric red circle archery mark"
+        "hard": "Concentric red retail rings"
       }
     },
     {
@@ -6139,7 +6139,7 @@
       "clues": {
         "easy": "Vertical transport cabin moving between building floors",
         "medium": "Counterweight cable hoist carrying passengers inside shaft",
-        "hard": "Vertical hoist compartment inside building shaft"
+        "hard": "Counterweighted vertical passenger box"
       }
     },
     {
@@ -6147,7 +6147,7 @@
       "clues": {
         "easy": "Continuous moving staircase transporting people between floors",
         "medium": "Endless circulating steps with synchronized handrails",
-        "hard": "Continuous circulating motorized pedestrian staircase"
+        "hard": "Circulating motorized stepped incline"
       }
     },
     {
@@ -6155,7 +6155,7 @@
       "clues": {
         "easy": "Slow moving conveyor belt flat surface for pedestrians",
         "medium": "Airport corridor horizontal travelator floor",
-        "hard": "Horizontal motorized pedestrian transit conveyor"
+        "hard": "Horizontal motorized pedestrian conveyor"
       }
     },
     {

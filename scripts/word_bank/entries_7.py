@@ -1,5 +1,5 @@
 LOGOS = [
-("Nike", "Curved swoosh checkmark on sneakers", "Athletic apparel with just do it slogan", "Dynamic upward swoosh emblem"),
+("Nike", "Curved swoosh checkmark on sneakers", "Athletic apparel with just do it slogan", "Curved athletic motion tick"),
 ("Adidas", "Three parallel angled stripes on footwear", "Sportswear brand with trefoil and stripes", "Three parallel diagonal athletic bars"),
 ("Puma", "Leaping wild cat on sportswear", "Athletic shoes featuring jumping feline", "Silhouetted leaping predator emblem"),
 ("Reebok", "Vector delta logo on athletic sneakers", "Classic cross-training sneaker brand", "Tri-panel intersecting athletic vector"),
@@ -89,7 +89,7 @@ LOGOS = [
 ("Guinness", "Golden Irish harp on black stout pint", "Dark Irish stout with creamy foam and harp", "Golden medieval Brian Boru harp crest"),
 ("7-Eleven", "Green and red numeral seven with clover leaf", "Corner convenience store open morning to night", "Large orange numeral seven cut by green ribbon"),
 ("Walmart", "Six yellow spark petals beside blue retailer name", "Supercenter retail store with yellow burst emblem", "Six-pointed yellow sunburst asterisk beside blue text"),
-("Target", "Red and white concentric bullseye rings", "Retail department store with bullseye logo", "Concentric red circle archery mark"),
+("Target", "Red and white concentric bullseye rings", "Retail department store with bullseye logo", "Concentric red retail rings"),
 ("Costco", "Red and blue wholesale warehouse club logo", "Bulk shopping club with membership card and pallets", "Red warehouse font with blue underline bars"),
 ("Zara", "Close-set high-fashion black serif typography", "Spanish fast-fashion clothing store with sleek letters", "Overlapping high-contrast serif fashion wordmark"),
 ("H&M", "Slanted red brushstroke letters with ampersand", "Swedish budget fashion retailer with red initials", "Expressive slanted red brush initials"),
