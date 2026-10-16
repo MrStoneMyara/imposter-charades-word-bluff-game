@@ -27,7 +27,7 @@
     {
       "word": "Náramkové hodinky",
       "clues": {
-        "easy": "Malé páskové hodinky",
+        "easy": "Malé páskové nástroj",
         "medium": "Tikající páskový ciferník",
         "hard": "Everyday Objects"
       }
@@ -163,7 +163,7 @@
     {
       "word": "Svítilna",
       "clues": {
-        "easy": "Přenosná svítilna na baterie",
+        "easy": "Přenosná nástroj na baterie",
         "medium": "Ruční tmavý paprsek",
         "hard": "Everyday Objects"
       }
@@ -179,7 +179,7 @@
     {
       "word": "klávesnice",
       "clues": {
-        "easy": "Řady kláves pro psaní na obrazovkách",
+        "easy": "Řady nástroj pro psaní na obrazovkách",
         "medium": "QWERTY mřížka pro psaní",
         "hard": "Everyday Objects"
       }
@@ -228,7 +228,7 @@
       "word": "Kufr",
       "clues": {
         "easy": "Cestovní zavazadlo na kolečkách",
-        "medium": "Kufr na kolečkách",
+        "medium": "nástroj na kolečkách",
         "hard": "Everyday Objects"
       }
     },
@@ -339,8 +339,8 @@
     {
       "word": "Lepicí tyčinka",
       "clues": {
-        "easy": "Pevný lepicí válec na papír",
-        "medium": "Lepicí válec z papíru",
+        "easy": "Pevný nástroj válec na papír",
+        "medium": "Twist-up papírový nástroj válec",
         "hard": "Everyday Objects"
       }
     },
@@ -444,14 +444,14 @@
       "word": "Kus mýdla",
       "clues": {
         "easy": "Kluzký blok vytvářející pěnu",
-        "medium": "Vonná pěnová tyčinka",
+        "medium": "Vonný pěnivý koupelnový blok",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Osuška",
       "clues": {
-        "easy": "Velké savé koupelnové froté",
+        "easy": "Velké savé sprchové froté",
         "medium": "Smyčkový bavlněný zábal proti vlhkosti",
         "hard": "Everyday Objects"
       }
@@ -579,8 +579,8 @@
     {
       "word": "Koš na prádlo",
       "clues": {
-        "easy": "Odvětrávaný koš na oděvy",
-        "medium": "Tkaný koš na špinavé prádlo",
+        "easy": "Odvětrávaný nástroj na oděvy",
+        "medium": "Tkaný nástroj na špinavé nástroj",
         "hard": "Everyday Objects"
       }
     },
@@ -603,7 +603,7 @@
     {
       "word": "Pánev na smažení",
       "clues": {
-        "easy": "Kovová varná pánev s plochým dnem",
+        "easy": "Kovová varná nástroj s plochým dnem",
         "medium": "Šumivý kov s plochým dnem",
         "hard": "Everyday Objects"
       }
@@ -635,8 +635,8 @@
     {
       "word": "Rukavice do trouby",
       "clues": {
-        "easy": "Izolovaná látková kuchyňská rukavice",
-        "medium": "Prošívaná žáruvzdorná rukavice",
+        "easy": "Izolovaná látková kuchyňská nástroj",
+        "medium": "Prošívaná žáruvzdorná nástroj",
         "hard": "Everyday Objects"
       }
     },
@@ -732,7 +732,7 @@
       "word": "Váleček",
       "clues": {
         "easy": "Těžký válec hladící pečivo",
-        "medium": "Váleček na rovnání těsta s rukojetí",
+        "medium": "nástroj na rovnání těsta s rukojetí",
         "hard": "Everyday Objects"
       }
     },
@@ -740,14 +740,14 @@
       "word": "Odměrka",
       "clues": {
         "easy": "Označený objem džbánu na pečení",
-        "medium": "Odměrka na objem kuchyně",
+        "medium": "nástroj na objem kuchyně",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Zásobník na ledové kostky",
       "clues": {
-        "easy": "Přihrádková mrazicí forma na kostky",
+        "easy": "Přihrádková mrazicí forma na chladicí bloky",
         "medium": "Dělená forma pod nulou",
         "hard": "Everyday Objects"
       }
@@ -755,7 +755,7 @@
     {
       "word": "Háček na kabát",
       "clues": {
-        "easy": "Nástěnný věšák na kabáty",
+        "easy": "Nástěnný věšák na svrchní oděvy",
         "medium": "Zakřivený nástěnný hrot na bundy",
         "hard": "Everyday Objects"
       }
@@ -795,7 +795,7 @@
     {
       "word": "Zubní pasta",
       "clues": {
-        "easy": "Pěnová pasta z tuby",
+        "easy": "Pěnová nástroj z tuby",
         "medium": "Fluoridová pěna pro ranní štětiny",
         "hard": "Everyday Objects"
       }
@@ -878,7 +878,7 @@
       "word": "Zmrzlina",
       "clues": {
         "easy": "Vychlazená mléčná pochoutka",
-        "medium": "Rozpouštění sladké mléčné smetany",
+        "medium": "Tání sladké mražené mléčné lžíce",
         "hard": "Food"
       }
     },
@@ -1005,8 +1005,8 @@
     {
       "word": "Jarní závitek",
       "clues": {
-        "easy": "Tenký obal rolovaný kolem náplní",
-        "medium": "Průhledná smažená roláda",
+        "easy": "Tenký obal obalený kolem křupavých náplní",
+        "medium": "Průsvitný válec na smažené pečivo",
         "hard": "Food"
       }
     },
@@ -1053,7 +1053,7 @@
     {
       "word": "Miso polévka",
       "clues": {
-        "easy": "Polévka z fermentované sójové pasty s dashi",
+        "easy": "Fermentovaný vývar ze sójové pasty s dashi",
         "medium": "Zakalený snídaňový vývar s jarní cibulkou",
         "hard": "Food"
       }
@@ -1086,7 +1086,7 @@
       "word": "javorový sirup",
       "clues": {
         "easy": "Vařená míza ze stromů k snídani",
-        "medium": "Jantarový vařený sirup z listnatých stromů",
+        "medium": "Jantarový vařený listnatý strom redukce",
         "hard": "Food"
       }
     },
@@ -1165,7 +1165,7 @@
     {
       "word": "Bramborová kaše",
       "clues": {
-        "easy": "Šlehaná ochucená bramborová příloha",
+        "easy": "Šlehaná ochucená příloha pudink",
         "medium": "Rozklepané pudinky s rozpuštěnou smetanou",
         "hard": "Food"
       }
@@ -1173,8 +1173,8 @@
     {
       "word": "Pečený brambor",
       "clues": {
-        "easy": "Brambory zabalené ve fólii se zakysanou smetanou",
-        "medium": "Rozdělte dušenou bramborovou slupku",
+        "easy": "Celý pudink zabalený ve fólii se zakysanou smetanou",
+        "medium": "Rozdělte napařenou spud kůži",
         "hard": "Food"
       }
     },
@@ -1197,7 +1197,7 @@
     {
       "word": "Rajčatová polévka",
       "clues": {
-        "easy": "Krémová červená polévka spárovaná s toastem",
+        "easy": "Krémový červený pyré vývar spárovaný s toastem",
         "medium": "Teplá mísa s ovocem z červené révy",
         "hard": "Food"
       }
@@ -1221,7 +1221,7 @@
     {
       "word": "Míchaná vejce",
       "clues": {
-        "easy": "Míchaná snídaňová pánev vejce",
+        "easy": "pokrm snídaňová pánev žloutkový tvaroh",
         "medium": "Nadýchané tvarohové tvarohy na toastu",
         "hard": "Food"
       }
@@ -1245,8 +1245,8 @@
     {
       "word": "Masová koule",
       "clues": {
-        "easy": "Kořeněná masová koule spařená v omáčce",
-        "medium": "Dušené hovězí koule v marinádě",
+        "easy": "Kořeněná mletá slaná pokrm spařená v omáčce",
+        "medium": "Dušené hovězí pokrm v marinádě",
         "hard": "Food"
       }
     },
@@ -1269,7 +1269,7 @@
     {
       "word": "Ryby a hranolky",
       "clues": {
-        "easy": "Křupavé mořské plody s hranolky a octem",
+        "easy": "Křupavé mořské plody s pokrm a octem",
         "medium": "V novinách zabalené přímořské potěr",
         "hard": "Food"
       }
@@ -1278,7 +1278,7 @@
       "word": "Grilovaný sýr",
       "clues": {
         "easy": "Smažený chléb s mazlavým mléčným středem",
-        "medium": "Sendvič na másle se sýrem",
+        "medium": "Sendvič na másle s taveným mlékem",
         "hard": "Food"
       }
     },
@@ -1349,8 +1349,8 @@
     {
       "word": "Tvarohový koláč",
       "clues": {
-        "easy": "Zapečený sladký smetanový sýr na strouhankovém základu",
-        "medium": "Hustý chlazený mléčný koláč",
+        "easy": "Pečený sladký mléčný pudink na strouhankovém základu",
+        "medium": "Hustý chlazený mléčný pokrm",
         "hard": "Food"
       }
     },
@@ -1373,7 +1373,7 @@
     {
       "word": "Skořicový váleček",
       "clues": {
-        "easy": "Upečené vyválené těsto víříme sladkou polevou",
+        "easy": "Upečené spirálové těsto víří sladkou polevou",
         "medium": "Spirálové sladké těsto s krémovou polevou",
         "hard": "Food"
       }
@@ -1381,7 +1381,7 @@
     {
       "word": "Česnekový chléb",
       "clues": {
-        "easy": "Křupavý chléb pečený s bylinkovým máslem",
+        "easy": "Křupavý nakrájený bochník pečený s bylinkovým máslem",
         "medium": "Máslový bylinkový bochník opečený v troubě",
         "hard": "Food"
       }
@@ -1430,7 +1430,7 @@
       "word": "Olivový olej",
       "clues": {
         "easy": "Zlatý salátový dresink a tekutina na vaření",
-        "medium": "Středomoří za studena lisovaný zelený olej",
+        "medium": "Středomoří ovocný tuk lisovaný za studena",
         "hard": "Food"
       }
     },
@@ -1672,7 +1672,7 @@
       "word": "Kohout",
       "clues": {
         "easy": "Ptačí samec chocholatý s jasným hřebenem",
-        "medium": "Svítání volající chlévský kohout",
+        "medium": "Svítání volající chlévský tvor",
         "hard": "Animals"
       }
     },
@@ -1760,7 +1760,7 @@
       "word": "Slon",
       "clues": {
         "easy": "Obr s kly a mávajícíma ušima",
-        "medium": "Masivní matriarcha s kly ze slonoviny",
+        "medium": "Masivní matriarcha s kly ze tvoroviny",
         "hard": "Animals"
       }
     },
@@ -1912,7 +1912,7 @@
       "word": "Had",
       "clues": {
         "easy": "Švihající jazyk a šupinatá opadaná kůže",
-        "medium": "Jedovatý nebo stahující had",
+        "medium": "Jedovatý nebo stahující tvor",
         "hard": "Animals"
       }
     },
@@ -2015,7 +2015,7 @@
     {
       "word": "Medvěd grizzly",
       "clues": {
-        "easy": "Ramenný medvěd chytající říčního lososa",
+        "easy": "Ramenní vrcholová bestie lovící říčního lososa",
         "medium": "Výkonný hibernující vnitrozemský všežravec",
         "hard": "Animals"
       }
@@ -2151,7 +2151,7 @@
     {
       "word": "Holub",
       "clues": {
-        "easy": "Houpající se městská holubice jíst strouhanku",
+        "easy": "Houpající se městská tvorice jíst strouhanku",
         "medium": "Městské hejno ptáků s instinktem navádění",
         "hard": "Animals"
       }
@@ -2255,7 +2255,7 @@
     {
       "word": "Hvězdice",
       "clues": {
-        "easy": "Regenerující mořská hvězda na korálech",
+        "easy": "Regenerační pětiruký mořský tvor na korálech",
         "medium": "Radiální bentický pásový pás",
         "hard": "Animals"
       }
@@ -2673,7 +2673,7 @@
     {
       "word": "Jižní Afrika",
       "clues": {
-        "easy": "Duhový národ na jižním cípu kontinentu",
+        "easy": "Duhový národ na mysu Dobré naděje",
         "medium": "Dvouoceánský mys se zlatem a diamanty",
         "hard": "Countries"
       }
@@ -2745,8 +2745,8 @@
     {
       "word": "Saúdská Arábie",
       "clues": {
-        "easy": "Srdce Arabského poloostrova s historickou poutí",
-        "medium": "Království zabírající většinu Arabského poloostrova",
+        "easy": "Srdce rozlehlého pouštního poloostrova s historickou poutí Mekka",
+        "medium": "Království zabírající většinu rozlehlého poloostrova v pouštním zálivu",
         "hard": "Countries"
       }
     },
@@ -2866,7 +2866,7 @@
       "word": "Filipíny",
       "clues": {
         "easy": "Tichomořské souostroví stát sedmi tisíc ostrovů",
-        "medium": "Řetězec ostrovů mezi Jihočínským mořem a Filipínským mořem",
+        "medium": "Tropické souostroví mezi Luzonským průlivem a Celebeským mořem",
         "hard": "Countries"
       }
     },
@@ -2874,7 +2874,7 @@
       "word": "Jižní Korea",
       "clues": {
         "easy": "High-tech poloostrovní národ s živou kulturou",
-        "medium": "Východoasijská republika jižně od 38. rovnoběžky",
+        "medium": "Východoasijská republika pod 38. rovnoběžkou",
         "hard": "Countries"
       }
     },
@@ -3267,7 +3267,7 @@
     {
       "word": "Porodní asistentka",
       "clues": {
-        "easy": "Vede přirozený porod a péči o kojence",
+        "easy": "Vede přirozený odborník a péči o kojence",
         "medium": "Průvodce porodem mateřství a novorozence",
         "hard": "Professions"
       }
@@ -3307,7 +3307,7 @@
     {
       "word": "Knihovník",
       "clues": {
-        "easy": "Udržuje knihovní zásobníky a pomáhá výzkumníkům",
+        "easy": "Udržuje odborník zásobníky a pomáhá výzkumníkům",
         "medium": "Kurátor katalogizovaných tiskových zdrojů",
         "hard": "Professions"
       }
@@ -3396,7 +3396,7 @@
       "word": "Letuška",
       "clues": {
         "easy": "Ukazuje nouzové východy a bezpečnost kabiny",
-        "medium": "Stevard kabiny cestujících za letu",
+        "medium": "Palubní palubní stevard pro cestující",
         "hard": "Professions"
       }
     },
@@ -3412,7 +3412,7 @@
       "word": "námořník",
       "clues": {
         "easy": "Zvládá takeláž plavidla, kotvení a navigaci",
-        "medium": "Člen posádky námořní lodi",
+        "medium": "Člen posádky odborník lodi",
         "hard": "Professions"
       }
     },
@@ -3420,7 +3420,7 @@
       "word": "Hasič",
       "clues": {
         "easy": "Přilba, těžká hadice a žebřík",
-        "medium": "Specialista na hašení havárie",
+        "medium": "Specialista na havarijní hašení požárů",
         "hard": "Professions"
       }
     },
@@ -3428,7 +3428,7 @@
       "word": "Policejní důstojník",
       "clues": {
         "easy": "Odznak, uniforma a nouzová hlídka komunity",
-        "medium": "Strážce zákona",
+        "medium": "odborník uniformovaný hlídkový agent",
         "hard": "Professions"
       }
     },
@@ -3444,15 +3444,15 @@
       "word": "soudce",
       "clues": {
         "easy": "Černý hábit, kladívko a soudní rozhodnutí",
-        "medium": "Právní soudce v soudní síni",
+        "medium": "Právní odborník v soudní síni",
         "hard": "Professions"
       }
     },
     {
       "word": "právník",
       "clues": {
-        "easy": "Podává soudní návrhy a vykládá právní předpisy",
-        "medium": "Licencovaný právní zástupce",
+        "easy": "Podává soudní návrhy a vykládá odborník předpisy",
+        "medium": "Licencovaný odborník zástupce",
         "hard": "Professions"
       }
     },
@@ -3491,7 +3491,7 @@
     {
       "word": "rybář",
       "clues": {
-        "easy": "Trawler, rybářské vlasce a oceánský úlovek",
+        "easy": "Trawler, odborníkské vlasce a oceánský úlovek",
         "medium": "Komerční námořní kombajn",
         "hard": "Professions"
       }
@@ -3539,7 +3539,7 @@
     {
       "word": "Malíř",
       "clues": {
-        "easy": "Válečky, podnosy na barvy a hadříky",
+        "easy": "Válečky, podnosy s pigmentem a utěrky",
         "medium": "Obchodník s povrchovou úpravou a povrchovou úpravou",
         "hard": "Professions"
       }
@@ -3572,14 +3572,14 @@
       "word": "květinářství",
       "clues": {
         "easy": "Nůžky, stuha a chlazené květinové displeje",
-        "medium": "Návrhář aranžování botanických květin",
+        "medium": "Návrhář aranžování botanických odborník",
         "hard": "Professions"
       }
     },
     {
       "word": "Zahradník",
       "clues": {
-        "easy": "Zahradní nůžky, hladítko, zemina a mulč",
+        "easy": "odborník nůžky, hladítko, zemina a mulč",
         "medium": "Správce zahradnické krajiny",
         "hard": "Professions"
       }
@@ -3619,7 +3619,7 @@
     {
       "word": "Hudebník",
       "clues": {
-        "easy": "Noty, rytmus a akustický nástroj",
+        "easy": "Partitury, rytmus a akustický nástroj",
         "medium": "Instrumentální performerka",
         "hard": "Professions"
       }
@@ -3643,7 +3643,7 @@
     {
       "word": "Překladatel",
       "clues": {
-        "easy": "Dvojjazyčný překlad písemných dokumentů",
+        "easy": "Dvojjazyčný odborník písemných dokumentů",
         "medium": "Převaděč mezijazykového textu",
         "hard": "Professions"
       }
@@ -3667,15 +3667,15 @@
     {
       "word": "Bankéř",
       "clues": {
-        "easy": "Dohlíží na finanční kapitál a bankovní úvěry",
-        "medium": "Komerční bankovnictví a úvěrový pracovník",
+        "easy": "Dohlíží na finanční kapitál a komerční úvěry",
+        "medium": "Referent pro komerční financování a úvěry",
         "hard": "Professions"
       }
     },
     {
       "word": "Pokladník",
       "clues": {
-        "easy": "Skener čárových kódů, pokladna a tiskárna účtenek",
+        "easy": "Skener čárových kódů, odborník zásuvka a tiskárna účtenek",
         "medium": "Operátor maloobchodního pokladního místa prodeje",
         "hard": "Professions"
       }
@@ -3699,7 +3699,7 @@
     {
       "word": "Turistický průvodce",
       "clues": {
-        "easy": "Poskytuje komentář a průvodce procházky",
+        "easy": "Poskytuje historický komentář pro návštěvníky pamětihodnosti",
         "medium": "Vedoucí kulturní poznávací výpravy",
         "hard": "Professions"
       }
@@ -3707,15 +3707,15 @@
     {
       "word": "Taxikář",
       "clues": {
-        "easy": "Naviguje pouliční provoz pomocí taxametru na palubní desce",
-        "medium": "Městský pouliční řidič taxislužby",
+        "easy": "Naviguje pouliční provoz pomocí počítadla jízdného na palubní desce",
+        "medium": "Operátor žlutého taxíku pro cestující na městské ulici",
         "hard": "Professions"
       }
     },
     {
       "word": "Řidič autobusu",
       "clues": {
-        "easy": "Provozuje velký tranzitní autobus podél plánovaných zastávek",
+        "easy": "Provozuje velký tranzitní odborník podél plánovaných zastávek",
         "medium": "Provozovatel městské dopravy",
         "hard": "Professions"
       }
@@ -3724,15 +3724,15 @@
       "word": "Poštovní dopravce",
       "clues": {
         "easy": "Nosí brašnu dopisů po ulici",
-        "medium": "Doručovatel poštovních zásilek a balíků",
+        "medium": "odborník zásilkový a balíkový kurýr",
         "hard": "Professions"
       }
     },
     {
       "word": "Doručovací kurýr",
       "clues": {
-        "easy": "Řídí dodávku a skenuje čárové kódy balíků",
-        "medium": "Zásilkový kurýr na poslední míli",
+        "easy": "Řídí expediční dodávku a skenuje čárové kódy balíků",
+        "medium": "Převozník balíků na poslední míli",
         "hard": "Professions"
       }
     },
@@ -3748,7 +3748,7 @@
       "word": "Grafický designér",
       "clues": {
         "easy": "Digitální ilustrační software a typografie",
-        "medium": "Návrhář komerční vizuální značky",
+        "medium": "Umělec pro komerční vizuální branding",
         "hard": "Professions"
       }
     },
@@ -3756,7 +3756,7 @@
       "word": "Filmový režisér",
       "clues": {
         "easy": "Vyvolává akci, vede kinematografii a provádí recenze",
-        "medium": "Filmový režisér",
+        "medium": "Autor kinematografického filmu",
         "hard": "Professions"
       }
     },
@@ -3828,7 +3828,7 @@
       "word": "Zámečník",
       "clues": {
         "easy": "Vybírá stavítka, polotovary klíčů a instaluje závory",
-        "medium": "Specialista na řezání klíčů a cylindrické zámky",
+        "medium": "Specialista na řezání klíčů a stavítek válců",
         "hard": "Professions"
       }
     },
@@ -3843,7 +3843,7 @@
     {
       "word": "Řidič kamionu",
       "clues": {
-        "easy": "Řídí osmnáctikolový náklaďák přes dálnici",
+        "easy": "Řídí návěs pro osmnáctistovku přes dálnici",
         "medium": "Provozovatel dálkové mezistátní nákladní dopravy",
         "hard": "Professions"
       }
@@ -3883,7 +3883,7 @@
     {
       "word": "Kouzelník",
       "clues": {
-        "easy": "Hrací karty, kouzelná hůlka a klamné triky",
+        "easy": "Hrací karty, naleštěná hůlka a klamavý trik",
         "medium": "Jevištní iluzionista a lstivý umělec",
         "hard": "Professions"
       }
@@ -3900,14 +3900,14 @@
       "word": "Realitní makléř",
       "clues": {
         "easy": "Ukazuje domy klientům a uzavírá obchody s nemovitostmi",
-        "medium": "Licencovaný makléř rezidenčních nemovitostí",
+        "medium": "Licencovaný odborník rezidenčních nemovitostí",
         "hard": "Professions"
       }
     },
     {
       "word": "Obchodník",
       "clues": {
-        "easy": "Skladuje regály, pomáhá nakupujícím a řídí obchod",
+        "easy": "Skladuje regály, pomáhá zákazníkům a spravuje výlohy",
         "medium": "Nezávislý majitel maloobchodní prodejny",
         "hard": "Professions"
       }
@@ -3931,15 +3931,15 @@
     {
       "word": "Odborník na výživu",
       "clues": {
-        "easy": "Počítá kalorický příjem a vyváženou výživu",
-        "medium": "Dietní wellness a výživový poradce",
+        "easy": "Počítá kalorický příjem a vyvážený jídelníček",
+        "medium": "Poradce v oblasti zdravé výživy a zdravé výživy",
         "hard": "Professions"
       }
     },
     {
       "word": "Sociální pracovnice",
       "clues": {
-        "easy": "Řídí případy sociální péče a rodinnou pomoc",
+        "easy": "Řídí případy odborník péče a rodinnou pomoc",
         "medium": "Zranitelný obhájce rodinného blahobytu",
         "hard": "Professions"
       }
@@ -3972,7 +3972,7 @@
       "word": "Řídící letového provozu",
       "clues": {
         "easy": "Radarová obrazovka, náhlavní souprava a odbavení letištní dráhy",
-        "medium": "Radarový ovladač vzdušného prostoru letištní věže",
+        "medium": "Radarový monitor vzdušného prostoru letištní věže",
         "hard": "Professions"
       }
     },
@@ -3980,7 +3980,7 @@
       "word": "Jeřábník",
       "clues": {
         "easy": "Vysoké páky kabiny, zvedací lana a protizávaží",
-        "medium": "Operátor kabiny pro stavbu těžkého zvedáku",
+        "medium": "Specialista na stavbu kabin s těžkými zvedáky",
         "hard": "Professions"
       }
     },
@@ -4101,8 +4101,8 @@
     {
       "word": "Table tennis",
       "clues": {
-        "easy": "Miniaturní pádla sbíhající se přes síť stolu",
-        "medium": "Ping-pongový stůl gumové pádlo zápas",
+        "easy": "Miniaturní pádla sbíhající se po zelené síti",
+        "medium": "Ping-pongový vnitřní gumový zápas s pádly",
         "hard": "Sports"
       }
     },
@@ -4141,8 +4141,8 @@
     {
       "word": "Snowboarding",
       "clues": {
-        "easy": "Obě boty připoutány k jedné sněhové palubě",
-        "medium": "Single alpine paluba carving prachový sníh",
+        "easy": "Obě boty připoutané k jedné zimní palubě",
+        "medium": "Single alpine deck carving powdery frost",
         "hard": "Sports"
       }
     },
@@ -4254,7 +4254,7 @@
       "word": "Horská cyklistika",
       "clues": {
         "easy": "Odpružené vidlice poskakující přes kameny a hlínu",
-        "medium": "Sjezdová terénní cyklistika",
+        "medium": "Sjezdová terénní disciplína",
         "hard": "Sports"
       }
     },
@@ -4334,7 +4334,7 @@
       "word": "Překážky",
       "clues": {
         "easy": "Rytmický sprint čistící rozmístěné dřevěné brány",
-        "medium": "Dráhový sprint odstraňující vzpřímené překážky",
+        "medium": "Dráhový sprint odstraňující vzpřímené disciplína",
         "hard": "Sports"
       }
     },
@@ -4357,8 +4357,8 @@
     {
       "word": "Skok o tyči",
       "clues": {
-        "easy": "Výsadba ohebné sklolaminátové tyče na průhlednou tyč",
-        "medium": "Vertikální skok podporovaný ohebnou sklolaminátovou tyčí",
+        "easy": "Výsadba ohebného sklolaminátového nosníku na čirou tyč",
+        "medium": "Vertikální disciplína podporovaný ohebnou sklolaminátovou tyčí",
         "hard": "Sports"
       }
     },
@@ -4381,8 +4381,8 @@
     {
       "word": "Oštěp",
       "clues": {
-        "easy": "Nadzemní hod štíhlým špičatým oštěpem",
-        "medium": "Aerodynamický vrh oštěpem na dráhu",
+        "easy": "Nadzemní hod štíhlým špičatým disciplínaem",
+        "medium": "Aerodynamický vrh disciplínaem na dráhu",
         "hard": "Sports"
       }
     },
@@ -4398,7 +4398,7 @@
       "word": "Horolezectví",
       "clues": {
         "easy": "Postroj, karabiny, vak na křídu a bezpečnostní lana",
-        "medium": "Vzestup po vertikálních skalních stěnách pomocí chytů prstů",
+        "medium": "Vzestup svislých skalních stěn pomocí chytů prstů",
         "hard": "Sports"
       }
     },
@@ -4446,7 +4446,7 @@
       "word": "vodní pólo",
       "clues": {
         "easy": "Plavecké čepice s chrániči sluchu a plovoucími brankami",
-        "medium": "Deep-water aquatic ball scrimmage",
+        "medium": "Hluboké disciplína chlorované koule",
         "hard": "Sports"
       }
     },
@@ -4509,7 +4509,7 @@
     {
       "word": "Umělecké plavání",
       "clues": {
-        "easy": "Nos klip rutiny vzhůru nohama v bazénu",
+        "easy": "Rutiny na klipování nosu hlavou dolů v chlorovaném bazénu",
         "medium": "Vodní synchronizovaná choreografie s hudbou",
         "hard": "Sports"
       }
@@ -4518,7 +4518,7 @@
       "word": "Vodní lyžování",
       "clues": {
         "easy": "Držící tažné lano klouzající po brázdě lodi",
-        "medium": "Hoblování tažené lodí nad otevřenou vodou",
+        "medium": "Člun tažený brázdou skimming na dvojitých běžcích",
         "hard": "Sports"
       }
     },
@@ -4582,7 +4582,7 @@
       "word": "Discgolf",
       "clues": {
         "easy": "Kurz řetězových košových cílů napříč parkem",
-        "medium": "Kurz přesnosti létajícího kotouče tee-to-basket",
+        "medium": "Kurz přesnosti létajícího talíře od Tee-to-basket",
         "hard": "Sports"
       }
     },
@@ -4614,7 +4614,7 @@
       "word": "Moderní pětiboj",
       "clues": {
         "easy": "Šerm, plavání, jezdecké skákání, laserová pistole a běh",
-        "medium": "Víceúčelová atletická soutěž v pěti disciplínách",
+        "medium": "Víceúčelová atletická soutěž v disciplína disciplínách",
         "hard": "Sports"
       }
     },
@@ -4630,7 +4630,7 @@
       "word": "Běh na lyžích",
       "clues": {
         "easy": "Kick-and-glide diagonální krok zasněženou divočinou",
-        "medium": "Vytrvalostní trailové klouzání na úzkých severských lyžích",
+        "medium": "Vytrvalostní trailové klouzání na úzkých severských disciplína",
         "hard": "Sports"
       }
     },
@@ -4645,8 +4645,8 @@
     {
       "word": "Tanec na ledě",
       "clues": {
-        "easy": "Složitá synchronizovaná práce nohou a twizzly na ledě",
-        "medium": "Partnerská choreografie divadelního sálu na ledě",
+        "easy": "Složitá synchronizovaná práce nohou a twizzly na zamrzlém kluzišti",
+        "medium": "Partnerská choreografie divadelního tanečního sálu na zamrzlém kluzišti",
         "hard": "Sports"
       }
     },
@@ -4685,7 +4685,7 @@
     {
       "word": "Kulečník",
       "clues": {
-        "easy": "Karambolové výstřely narážející kulečníkové koule bez kapes",
+        "easy": "Karamboly narážející barevné koule bez kapes",
         "medium": "Baize table cue shots pomocí kolejnicových polštářů",
         "hard": "Sports"
       }
@@ -4717,7 +4717,7 @@
     {
       "word": "Parkurové skákání",
       "clues": {
-        "easy": "Navigace přes ploty stadionu v časovém limitu",
+        "easy": "Procházení překážkových plotů stadionu v časovém limitu",
         "medium": "Jezdecký kurz čištění barevných zábradlí stadionu",
         "hard": "Sports"
       }
@@ -4725,16 +4725,16 @@
     {
       "word": "Dračí loď",
       "clues": {
-        "easy": "Vodáci v synchronizaci s bubnem a zdobeným dračím lukem",
-        "medium": "Synchronizované skupinové pádlování s dračí přídí",
+        "easy": "Vodáci v synchronizaci s bubnováním a mýtickým hadím lukem",
+        "medium": "Synchronizované skupinové pádlování s přídí mýtické bestie",
         "hard": "Sports"
       }
     },
     {
       "word": "Sportovní lezení",
       "clues": {
-        "easy": "Ořezávání expresek při šplhání po tělocvičně",
-        "medium": "Lezení na stěně tělocvičny připnuté ke kotvám",
+        "easy": "Ořezávání expresek při zmenšování umělé tělocvičny",
+        "medium": "Výstup na vnitřní stěnu tělocvičny připnutý ke kotvám",
         "hard": "Sports"
       }
     },
@@ -4991,7 +4991,7 @@
     {
       "word": "Burger King",
       "clues": {
-        "easy": "Řetězec rychlého občerstvení s králem s korunou",
+        "easy": "Řetězec rychlého občerstvení s panovníkem s korunou",
         "medium": "Text sevřený mezi žluté půlky drdolu",
         "hard": "Logos & Brands"
       }
@@ -5023,7 +5023,7 @@
     {
       "word": "Pizza Hut",
       "clues": {
-        "easy": "Pizza restaurace s logem červené střechy",
+        "easy": "Italský rychlo ležérní řetízek s logem červené střechy",
         "medium": "Silueta šikmého klobouku s červenou krempou",
         "hard": "Logos & Brands"
       }
@@ -5192,7 +5192,7 @@
       "word": "Red Bull",
       "clues": {
         "easy": "Plechovka energetického nápoje se střetávajícími se bestiemi",
-        "medium": "Dvě rudé rohaté bestie proti sobě",
+        "medium": "Dvě karmínové rohaté bestie proti sobě",
         "hard": "Logos & Brands"
       }
     },
@@ -5617,7 +5617,7 @@
     {
       "word": "Auto",
       "clues": {
-        "easy": "Osobní osobní automobil s volantem",
+        "easy": "Osobní osobní osobní vůz s volantem",
         "medium": "Spalovací nebo elektrický podvozek",
         "hard": "Transport"
       }
@@ -5625,7 +5625,7 @@
     {
       "word": "Autobus",
       "clues": {
-        "easy": "Pravidelný autobus veřejné dopravy se zastávkami",
+        "easy": "Pravidelný vůz veřejné dopravy se zastávkami",
         "medium": "Městská silniční doprava pro více cestujících",
         "hard": "Transport"
       }
@@ -5641,7 +5641,7 @@
     {
       "word": "letadlo",
       "clues": {
-        "easy": "Osobní letadlo vzlétající z dráhy",
+        "easy": "Osobní vůz vzlétající z dráhy",
         "medium": "Přetlakový trup s pohonem proudovou turbínou",
         "hard": "Transport"
       }
@@ -5697,7 +5697,7 @@
     {
       "word": "Taxi",
       "clues": {
-        "easy": "Pouliční taxi volalo pro přímou cestu do cíle",
+        "easy": "Pouliční vůz volalo pro přímou cestu do cíle",
         "medium": "Komerční měřené pouliční osobní vozidlo",
         "hard": "Transport"
       }
@@ -5729,7 +5729,7 @@
     {
       "word": "Plachetnice",
       "clues": {
-        "easy": "Tahování přes mořské proudy pomocí plátěných plachet",
+        "easy": "Tahování přes mořské proudy pomocí plátěných vůz",
         "medium": "Větrem poháněná kýlová loď s takeláží",
         "hard": "Transport"
       }
@@ -5770,14 +5770,14 @@
       "word": "Výletní loď",
       "clues": {
         "easy": "Plovoucí rekreační hotel s bazény, palubami a kajutami",
-        "medium": "Vícepatrový zaoceánský výletní parník",
+        "medium": "Vícepatrový zaoceánský vůz parník",
         "hard": "Transport"
       }
     },
     {
       "word": "Nákladní loď",
       "clues": {
-        "easy": "Hromady barevných kovových přepravních kontejnerů přes moře",
+        "easy": "Hromady barevných kovových vůzch kontejnerů přes oceány",
         "medium": "Hromadný námořní kontejnerový přepravce",
         "hard": "Transport"
       }
@@ -5794,14 +5794,14 @@
       "word": "Raketa",
       "clues": {
         "easy": "Vícestupňový booster unikající zemské gravitaci na oběžnou dráhu",
-        "medium": "Vertikální orbitální nosná raketa pro chemickou reakci",
+        "medium": "Vertikální orbitální nosná vůz pro chemickou reakci",
         "hard": "Transport"
       }
     },
     {
       "word": "Horkovzdušný balón",
       "clues": {
-        "easy": "Hořák ohřívá vzduch uvnitř obalu nahoře",
+        "easy": "Hořák topný plyn uvnitř pláště nahoře",
         "medium": "Termální vztlakový proutěný let pasažérů",
         "hard": "Transport"
       }
@@ -5849,8 +5849,8 @@
     {
       "word": "Hasičský vůz",
       "clues": {
-        "easy": "Hasičský vůz reaguje na požáry budovy sirénou",
-        "medium": "Hydraulický vzdušný žebřík a vozík na čerpání vody",
+        "easy": "Záchranné vozidlo reagující na požáry budovy sirénou",
+        "medium": "Hydraulický vzdušný žebřík a vysokotlaké čerpací zařízení",
         "hard": "Transport"
       }
     },
@@ -5889,7 +5889,7 @@
     {
       "word": "Sklápěč",
       "clues": {
-        "easy": "Přepravuje a vysypává štěrk, písek a suť",
+        "easy": "Přepravuje a vykládá štěrk, písek a suť",
         "medium": "Hydraulický sklápěcí velkoobjemový přepravník s otevřeným boxem",
         "hard": "Transport"
       }
@@ -5905,24 +5905,24 @@
     {
       "word": "Sněžný pluh",
       "clues": {
-        "easy": "Odklízení zledovatělých silnic a hromadění sněhu podél krajnice",
-        "medium": "Přední úhlové klínové vozidlo na odklízení sněhu",
+        "easy": "Čištění zledovatělých silnic a tlačení rozbředlého sněhu podél obrubníku",
+        "medium": "Přední úhlové klínové zimní odklízecí vozidlo",
         "hard": "Transport"
       }
     },
     {
       "word": "Sněžný skútr",
       "clues": {
-        "easy": "Stroj řízený řidítky klouže po zimních závějích",
-        "medium": "Zimní sněhový pojezd se zadním pásem",
+        "easy": "Šlape v prašanu s dvojitým řízením lyží",
+        "medium": "Zadní pásový zimní tundrový traverzační stroj",
         "hard": "Transport"
       }
     },
     {
       "word": "Vodní skútr",
       "clues": {
-        "easy": "Vodní skútr poháněný vodním paprskem",
-        "medium": "Osobní vodní proudový člun s řízenými řídítky",
+        "easy": "vůz sedací koloběžka s kapalinovým pohonem",
+        "medium": "Osobní vůz přítlačné plavidlo s řízenými řídítky",
         "hard": "Transport"
       }
     },
@@ -5937,8 +5937,8 @@
     {
       "word": "Lanovka",
       "clues": {
-        "easy": "Letecká tranzitní gondola stoupající po strmých vrcholcích hor",
-        "medium": "Vzdušná kabina pro cestující zavěšená na tažném laně",
+        "easy": "Závěsná kabina tramvaje jedoucí na trolejovém vedení",
+        "medium": "Kabina pro cestující zavěšená na trakčním lanku",
         "hard": "Transport"
       }
     },
@@ -5969,8 +5969,8 @@
     {
       "word": "Koňský povoz",
       "clues": {
-        "easy": "Historický dřevěný kočár s koňským postrojem a řidičem",
-        "medium": "Kolová osobní přeprava tažená koňmi",
+        "easy": "Historický dřevěný kočár s hřebcovým postrojem a řidičem",
+        "medium": "Jezdecký kočárek pro cestující s železnými koly",
         "hard": "Transport"
       }
     },
@@ -5985,24 +5985,24 @@
     {
       "word": "Kulový vlak",
       "clues": {
-        "easy": "Elektrický vlak střílí mezi městy velkou rychlostí",
-        "medium": "Aerodynamický vysokorychlostní nos na vyhrazených kolejnicích",
+        "easy": "Aerodynamická expresní lokomotiva střílí mezi městy vysokou rychlostí",
+        "medium": "Aerodynamická vysokorychlostní osobní železnice",
         "hard": "Transport"
       }
     },
     {
       "word": "Nákladní vlak",
       "clues": {
-        "easy": "Dieselová lokomotiva tahání násypky a skříňové vozy",
-        "medium": "Vícelokomotivní těžká železniční nákladní doprava se skládá",
+        "easy": "Dlouhá řada vagónů tažených dieselovými lokomotivami",
+        "medium": "Vícelokomotivní těžký železniční vůz se skládá",
         "hard": "Transport"
       }
     },
     {
       "word": "Dvoupatrový autobus",
       "clues": {
-        "easy": "Ikonický červený vysoký autobus s točitým schodištěm",
-        "medium": "Dvoupatrový osobní pouliční autobus",
+        "easy": "Ikonický červený vysoký kočár s točitým schodištěm",
+        "medium": "Dvouúrovňová městská příměstská osobní doprava",
         "hard": "Transport"
       }
     },
@@ -6025,8 +6025,8 @@
     {
       "word": "Pickup",
       "clues": {
-        "easy": "Zadní dveře, uzavřená kabina a užitkový nákladový prostor",
-        "medium": "Otevřený užitkový osobní motorový nákladní automobil",
+        "easy": "Přední kabina spolujezdce s otevřeným zadním užitkovým nákladovým prostorem",
+        "medium": "Otevřený užitkový osobní motorový přepravník",
         "hard": "Transport"
       }
     },
@@ -6049,7 +6049,7 @@
     {
       "word": "Závodní auto",
       "clues": {
-        "easy": "Spoilery, ochranná klec a hladké závodní pneumatiky",
+        "easy": "Spoilery, ochranná klec a hladké vůz pneumatiky",
         "medium": "Pásově vyladěný vysoce výkonný stroj pro motoristický sport",
         "hard": "Transport"
       }
@@ -6057,7 +6057,7 @@
     {
       "word": "Motokára",
       "clues": {
-        "easy": "Čtyřkolová motokára s nízkou světlou výškou na klikatých halových tratích",
+        "easy": "Čtyřkolový závoďák s nízkou světlou výškou na klikatých halových tratích",
         "medium": "Miniaturní závodní podvozek s otevřenými koly s nízkým středem",
         "hard": "Transport"
       }
@@ -6066,14 +6066,14 @@
       "word": "Terénní vozidlo",
       "clues": {
         "easy": "Sedadlo a řídítka rozkročené na blátivých stezkách",
-        "medium": "Čtyřkolová terénní čtyřkolka se spřaženým sezením",
+        "medium": "Čtyřkolová vůz čtyřkolka se spřaženým sezením",
         "hard": "Transport"
       }
     },
     {
       "word": "Dirt bike",
       "clues": {
-        "easy": "Vyboulená pneumatika na dvoukolce skáče po kopcích",
+        "easy": "Vyboulená pneumatika dvoukolky přeskakující bahnité kopce",
         "medium": "Terénní motocykl s vysokou světlostí s klikatými pneumatikami",
         "hard": "Transport"
       }
@@ -6089,15 +6089,15 @@
     {
       "word": "Elektrický skútr",
       "clues": {
-        "easy": "Skládací dvoukolový městský skútr pro dojíždění",
-        "medium": "Bateriový vzpřímený stojící skútr pro dojíždění do práce",
+        "easy": "Skládací dvoukolové městské mikrovozidlo",
+        "medium": "Baterií napájená vzpřímená paluba pro dojíždění",
         "hard": "Transport"
       }
     },
     {
       "word": "Jednokolka",
       "clues": {
-        "easy": "Jedno sedlo namontované přes jedno pedálem poháněné kolo",
+        "easy": "vůz sedlo namontované přes vůz pedálem poháněné kolo",
         "medium": "Jednokolové vyvažovací vozidlo s přímým pohonem",
         "hard": "Transport"
       }
@@ -6113,8 +6113,8 @@
     {
       "word": "Nákladní kolo",
       "clues": {
-        "easy": "Dvou nebo tříkolové šlapací kolo s nákladním zásobníkem",
-        "medium": "Pedálový transportér s těžkým rámem a předním nákladovým prostorem",
+        "easy": "Dvou nebo tříkolové šlapací vozidlo s objemným předním zásobníkem",
+        "medium": "Pedálový transportér s těžkým rámem s předním úložným prostorem",
         "hard": "Transport"
       }
     },
@@ -6129,8 +6129,8 @@
     {
       "word": "Kočárek",
       "clues": {
-        "easy": "Skládací čtyřkolový kočár tlačen rodičem",
-        "medium": "Skládací kočárek pro kojence se sluneční stříškou",
+        "easy": "Skládací čtyřkolový vůz tlačen rodičem",
+        "medium": "Skládací vůz pro kojence se sluneční stříškou",
         "hard": "Transport"
       }
     },
@@ -6257,8 +6257,8 @@
     {
       "word": "vzducholoď",
       "clues": {
-        "easy": "Reklamní vzducholoď naplněná heliem plovoucí nad stadiony",
-        "medium": "Tlakově odolný netuhý obal lehčí než vzduch",
+        "easy": "Reklamní vůz naplněná heliem plovoucí nad stadiony",
+        "medium": "Tlakově odolný netuhý obal lehčí než vůz",
         "hard": "Transport"
       }
     },
@@ -6298,7 +6298,7 @@
       "word": "Psí spřežení",
       "clues": {
         "easy": "Zapřažený husky pack táhnoucí dřevěné běžecké saně",
-        "medium": "Pracovní psí týmový postroj běžec spřežení",
+        "medium": "Pracovní vůz týmový postroj běžec vůz",
         "hard": "Transport"
       }
     },
@@ -6314,14 +6314,14 @@
       "word": "Parník",
       "clues": {
         "easy": "Komíny a stloukaná voda na historických řekách",
-        "medium": "Parní říční loď s lopatkovými koly",
+        "medium": "Poříční plavidlo s lopatkovými koly na uhlí",
         "hard": "Transport"
       }
     },
     {
       "word": "Vlak Maglev",
       "clues": {
-        "easy": "Elektromagnetický levitační vlak eliminující tření kolejnice",
+        "easy": "Elektromagnetická levitace eliminující tření kolejí",
         "medium": "Magnetická levitační vodicí kulka pro cestující",
         "hard": "Transport"
       }
@@ -6329,8 +6329,8 @@
     {
       "word": "Golfový vozík",
       "clues": {
-        "easy": "Tichý bateriový vozík převážející golfové vaky mezi jamkami",
-        "medium": "Nízkonapěťový užitkový vozík pro přepravu spojů",
+        "easy": "Tichý bateriový kočárek převážející klubové tašky mezi otvory",
+        "medium": "Nízkonapěťová užitková bugina pro průjezd po fairway",
         "hard": "Transport"
       }
     },
@@ -6361,8 +6361,8 @@
     {
       "word": "Raketoplán",
       "clues": {
-        "easy": "Orbiter s deltakřídlými křídly se vrací z vesmíru na ranvej",
-        "medium": "Raketou posílený orbitální kosmický kluzák",
+        "easy": "Orbiter s deltakřídlými křídly se vrací z oběžné dráhy na ranvej",
+        "medium": "Kosmický kluzák s raketovým pohonem",
         "hard": "Transport"
       }
     },
@@ -6385,7 +6385,7 @@
     {
       "word": "Výložníková kánoe",
       "clues": {
-        "easy": "Námořní kánoe pro tichomořský ostrovan s balančním nosníkem",
+        "easy": "Námořní dlabanec tichomořského ostrovana s balančním nosníkem",
         "medium": "Polynéské plavidlo stabilizované příčným plovákem",
         "hard": "Transport"
       }
@@ -6409,8 +6409,8 @@
     {
       "word": "Kolesový parník",
       "clues": {
-        "easy": "Říční plavidlo poháněné lopatkovými koly vířící vodu",
-        "medium": "Parní pohonná nádoba kormového nebo bočního kola",
+        "easy": "Říční plavidlo poháněné obřími koly",
+        "medium": "Nádoba na pohon páry záďového nebo bočního kola",
         "hard": "Transport"
       }
     }
@@ -6467,7 +6467,7 @@
     {
       "word": "mlha",
       "clues": {
-        "easy": "Hustá mlha v nízkých nadmořských výškách snižuje viditelnost",
+        "easy": "Hustá přírodní prvek v nízkých nadmořských výškách snižuje viditelnost",
         "medium": "Přízemní kondenzace vodní páry",
         "hard": "Nature"
       }
@@ -6532,7 +6532,7 @@
       "word": "ledovec",
       "clues": {
         "easy": "Masivní alpské ledovcové údolí",
-        "medium": "Zhutněný celoroční alpský ledovec",
+        "medium": "Zhutněný celoroční alpský přírodní prvek",
         "hard": "Nature"
       }
     },
@@ -6603,7 +6603,7 @@
     {
       "word": "jeskyně",
       "clues": {
-        "easy": "Tmavá podzemní jeskyně s kamennými komorami",
+        "easy": "Tmavá podzemní přírodní prvek s kamennými komorami",
         "medium": "Podzemní komora pro rozpouštění vápence",
         "hard": "Nature"
       }
@@ -6643,8 +6643,8 @@
     {
       "word": "Písečná duna",
       "clues": {
-        "easy": "Posunující se srpek kopce pouštního písku",
-        "medium": "Liparské větrem tvarované ložisko písku",
+        "easy": "Posouvající se půlměsíc pouštního oxidu křemičitého",
+        "medium": "Liparské větrem vytvarované pouštní usazeniny",
         "hard": "Nature"
       }
     },
@@ -6732,7 +6732,7 @@
       "word": "Zatmění Slunce",
       "clues": {
         "easy": "Denní tma jako měsíc blokuje sluneční světlo",
-        "medium": "Nebeský zákryt slunečního disku",
+        "medium": "Nebeský zákryt denního hvězdného disku",
         "hard": "Nature"
       }
     },
@@ -6755,7 +6755,7 @@
     {
       "word": "Východ slunce",
       "clues": {
-        "easy": "Svítání zlatá záře prorážející východ",
+        "easy": "Svítání zlatá záře prorážející přírodní prvek",
         "medium": "Denní horizont sluneční vzhled",
         "hard": "Nature"
       }
@@ -6804,7 +6804,7 @@
       "word": "mech",
       "clues": {
         "easy": "Necévná rostlina rostoucí na stinných skalách",
-        "medium": "Necévní mechorostový přízemní koberec",
+        "medium": "Necévní přírodní prvekorostový přízemní koberec",
         "hard": "Nature"
       }
     },
@@ -6843,7 +6843,7 @@
     {
       "word": "Borovice",
       "clues": {
-        "easy": "Kuželový trám zůstává zelený po celý rok",
+        "easy": "Kuželové voňavé dřevo zůstává zelené po celý rok",
         "medium": "Jehličnatý pryskyřičný jehličnan",
         "hard": "Nature"
       }
@@ -6907,7 +6907,7 @@
     {
       "word": "Rychlý písek",
       "clues": {
-        "easy": "Vodou nasycený písek se chová jako viskózní kapalina",
+        "easy": "Vodou nasycený přírodní prvek se chová jako viskózní kapalina",
         "medium": "Hydrodynamická zkapalňovací pískovna",
         "hard": "Nature"
       }
@@ -6923,7 +6923,7 @@
     {
       "word": "Horký pramen",
       "clues": {
-        "easy": "Pramen bohaté na minerály bublající sopečným žárem",
+        "easy": "Fontána bohatá na minerály bublající sopečným žárem",
         "medium": "Geotermálně vyhřívaný bazén s podzemní vodou",
         "hard": "Nature"
       }
@@ -6931,7 +6931,7 @@
     {
       "word": "Přílivový bazén",
       "clues": {
-        "easy": "Miniaturní přílivové stanoviště vystavené při odlivu",
+        "easy": "Miniaturní mořské stanoviště vystavené na nízkém mořském výklenku",
         "medium": "Přílivová skalnatá pobřežní pánev",
         "hard": "Nature"
       }
@@ -7147,8 +7147,8 @@
     {
       "word": "Vodní chrlič",
       "clues": {
-        "easy": "Tornádo vír rozvíří vodní hladinu do pěny",
-        "medium": "Intenzivní sloupcový oceánský vodní vír",
+        "easy": "Tornádo vír víří mořskou hladinu do pěny",
+        "medium": "Intenzivní sloupcový vír oceánské tekutiny",
         "hard": "Nature"
       }
     },
@@ -7203,8 +7203,8 @@
     {
       "word": "Přílivový vývrt",
       "clues": {
-        "easy": "Skutečná přílivová vlna postupující do vnitrozemí zužuje ústí řeky",
-        "medium": "Proti proudu přílivová vlna v zužující se řece",
+        "easy": "Skutečný přírodní prvek oceánu postupuje do vnitrozemí a zužuje ústí",
+        "medium": "Proti proudu vlnová stěna v zužující se pobřežní řece",
         "hard": "Nature"
       }
     },
@@ -7350,7 +7350,7 @@
       "word": "Fagot",
       "clues": {
         "easy": "Hluboké dřevité tóny přes zakřivený bocal crook",
-        "medium": "Dvouplátkové skládané tenorovo-basové dřevěné dechové nástroje",
+        "medium": "Dvouplátkový skládaný nízkoregistrový dřevěný dechový nástroj",
         "hard": "Music"
       }
     },
@@ -7366,7 +7366,7 @@
       "word": "lesní roh",
       "clues": {
         "easy": "Pravá ruka umístěna uvnitř širokého mosazného zvonu",
-        "medium": "Pevně stočený mosazný roh s rotačním ventilem",
+        "medium": "Pevně stočený žesťový dechový nástroj s rotačním ventilem",
         "hard": "Music"
       }
     },
@@ -7437,7 +7437,7 @@
     {
       "word": "Baskytara",
       "clues": {
-        "easy": "Drnkání tlustých basových strun prsty",
+        "easy": "Drnkat prsty na tlusté těžké struny",
         "medium": "Nízkofrekvenční čtyřstrunný rytmický základ",
         "hard": "Music"
       }
@@ -7510,7 +7510,7 @@
       "word": "Kontrabas",
       "clues": {
         "easy": "Nejvyšší orchestrální struna stojící na kolíku podlahy",
-        "medium": "Nejnižší smyčcový orchestrální kontrabas",
+        "medium": "Nejnižší smyčcový orchestrální skladba",
         "hard": "Music"
       }
     },
@@ -7526,7 +7526,7 @@
       "word": "Snare bubínek",
       "clues": {
         "easy": "Ostrý pochodový kotoul a rimshot backbeat",
-        "medium": "Napnuté kovové smyčky pod spodním bubnem",
+        "medium": "Napnuté stočené dráty pod spodní hlavou těsta",
         "hard": "Music"
       }
     },
@@ -7558,7 +7558,7 @@
       "word": "Ocelový buben",
       "clues": {
         "easy": "Zatlučená konkávní kovová pánev zvonící ostrůvkovými tóny",
-        "medium": "Konkávně tepaná ocelová pánvová perkuse",
+        "medium": "Perkuse konkávně tepané slitiny",
         "hard": "Music"
       }
     },
@@ -7621,8 +7621,8 @@
     {
       "word": "Sbor",
       "clues": {
-        "easy": "Soprán, alt, tenor a basový vokální sbor",
-        "medium": "Polyfonní sborový sbor",
+        "easy": "Soprán, alt, tenor a basový vokální skladba",
+        "medium": "Polyfonní skladbaový skladba",
         "hard": "Music"
       }
     },
@@ -7654,7 +7654,7 @@
       "word": "Rocková hudba",
       "clues": {
         "easy": "Power akordy, backbeat bicí soupravy a syrové vokály",
-        "medium": "Zesílený žánr populární hudby na kytaru",
+        "medium": "Zesílený žánr stadionového zvuku na kytaru",
         "hard": "Music"
       }
     },
@@ -7678,7 +7678,7 @@
       "word": "Country hudba",
       "clues": {
         "easy": "Pohádkové texty venkovského života a zármutku",
-        "medium": "Venkovská americká kořenová hudba s akustickým twangem",
+        "medium": "Tradice balady z venkovských amerických kořenů s akustickým twangem",
         "hard": "Music"
       }
     },
@@ -7686,7 +7686,7 @@
       "word": "klasická hudba",
       "clues": {
         "easy": "Sonáty, symfonie a koncerty z minulých období",
-        "medium": "Formální evropská umělecká hudební tradice",
+        "medium": "Formální evropská tradice orchestrálního umění",
         "hard": "Music"
       }
     },
@@ -7702,7 +7702,7 @@
       "word": "Lidová hudba",
       "clues": {
         "easy": "Akustické kytary, banja a vypravěčské balady",
-        "medium": "Tradiční komunitní akustické hudební dědictví",
+        "medium": "Tradiční komunitní akustické dědictví",
         "hard": "Music"
       }
     },
@@ -7718,7 +7718,7 @@
       "word": "Punk rock",
       "clues": {
         "easy": "Zkreslené kytary, energické výkřiky a texty proti establishmentu",
-        "medium": "Zkrocený rock v rychlém tempu",
+        "medium": "Rychlý tempem zbavený zkreslených rebelských akordů",
         "hard": "Music"
       }
     },
@@ -7742,7 +7742,7 @@
       "word": "Salsa hudba",
       "clues": {
         "easy": "Výbuchy trombonů, konga a synkopické údery clave",
-        "medium": "Synkopická afro-karibská taneční hudba ve vysokém tempu",
+        "medium": "Synkopovaný afro-karibský taneční groove ve vysokém tempu",
         "hard": "Music"
       }
     },
@@ -7885,15 +7885,15 @@
     {
       "word": "Hudební stojan",
       "clues": {
-        "easy": "Nastavitelný stativ podporující hudební partitury pro hráče",
-        "medium": "Nastavitelný stojan na stativ podporující hudební notaci",
+        "easy": "Nastavitelný stativ podporující listy písní pro hráče orchestru",
+        "medium": "Nastavitelná přihrádka na stativ podporující ručně psaný notový zápis",
         "hard": "Music"
       }
     },
     {
       "word": "Noty",
       "clues": {
-        "easy": "Černé tóny, klíče a takty čtené hudebníky",
+        "easy": "Černé tóny, klíče a takty čtené umělci",
         "medium": "Ryté tištěné notace personálu pro výkon",
         "hard": "Music"
       }
@@ -8031,7 +8031,7 @@
     {
       "word": "Malování",
       "clues": {
-        "easy": "Stojan, paleta barev a barevné pigmenty",
+        "easy": "Stojan, dřevěná paleta a barevné pigmenty",
         "medium": "Aplikace pigmentu na natažené plátno",
         "hard": "Hobbies"
       }
@@ -8047,7 +8047,7 @@
     {
       "word": "Pletení",
       "clues": {
-        "easy": "Odlévání oček k pletení svetrů",
+        "easy": "Odlévání stehů pro výrobu vlněných svetrů",
         "medium": "Propletená očka z příze s dvojitými jehlami",
         "hard": "Hobbies"
       }
@@ -8064,7 +8064,7 @@
       "word": "Zahradnictví",
       "clues": {
         "easy": "Lopatka, semena, konev a mulč",
-        "medium": "Zahradnické pěstování záhonů",
+        "medium": "Zahradnické obdělávání záhonů na dvorcích",
         "hard": "Hobbies"
       }
     },
@@ -8088,7 +8088,7 @@
       "word": "Rybaření",
       "clues": {
         "easy": "Návnadový háček, vrhací vlasec a naviják",
-        "medium": "Rybaření pomocí háčku a vlasce s návnadou",
+        "medium": "činnost pomocí háčku a vlasce s návnadou",
         "hard": "Hobbies"
       }
     },
@@ -8103,7 +8103,7 @@
     {
       "word": "Kempování",
       "clues": {
-        "easy": "Ohniště, spacáky a lesní kemp",
+        "easy": "Ohniště, spacáky a lesní činnost",
         "medium": "Noční pobyt v přírodě v přírodě",
         "hard": "Hobbies"
       }
@@ -8112,7 +8112,7 @@
       "word": "Pozorování ptáků",
       "clues": {
         "easy": "Identifikace opeření a písní v polním průvodci",
-        "medium": "Binokulární identifikace ptáků v terénu",
+        "medium": "Binokulární identifikace činnost v terénu",
         "hard": "Hobbies"
       }
     },
@@ -8120,7 +8120,7 @@
       "word": "Pozorování hvězd",
       "clues": {
         "easy": "Identifikace souhvězdí a planet ve tmě",
-        "medium": "Noční pozorování nebeské oblohy",
+        "medium": "Noční činnost nebeské oblohy",
         "hard": "Hobbies"
       }
     },
@@ -8159,7 +8159,7 @@
     {
       "word": "Dřevoobrábění",
       "clues": {
-        "easy": "Dláta, pily, lepidlo na dřevo a broušení",
+        "easy": "Dláta, pily, tesařské lepidlo a broušení",
         "medium": "Truhlářství a řezbářství ze dřeva",
         "hard": "Hobbies"
       }
@@ -8239,8 +8239,8 @@
     {
       "word": "Karetní hry",
       "clues": {
-        "easy": "Míchání, rozdávání barev a triky s kartami",
-        "medium": "Hraní karet v sázce nebo příležitostně",
+        "easy": "Míchání, rozdávání obleků a získávání vítězných triků",
+        "medium": "Sázková nebo příležitostná tištěná hra na palubě",
         "hard": "Hobbies"
       }
     },
@@ -8327,7 +8327,7 @@
     {
       "word": "Swimming",
       "clues": {
-        "easy": "Brýle, plavecká čepice a vodní tahy",
+        "easy": "Brýle, gumová čepice a vodní tahy",
         "medium": "Vodní bazén lap cvičení tahy",
         "hard": "Hobbies"
       }
@@ -8344,14 +8344,14 @@
       "word": "Skateboarding",
       "clues": {
         "easy": "Cvičení ollies a kickflipů na chodníku",
-        "medium": "Manévrování na čtyřkolovém skateboardu",
+        "medium": "Manévrování na čtyřkolovém grip-tape decku",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Surfování",
       "clues": {
-        "easy": "Pádlování na vlnách oceánu a carvingový příboj",
+        "easy": "Pádlování na vlnách oceánu a jízda na vlnách",
         "medium": "Jízda na vlně oceánu na vznášející se desce",
         "hard": "Hobbies"
       }
@@ -8367,8 +8367,8 @@
     {
       "word": "Snowboarding",
       "clues": {
-        "easy": "Vyřezávání zasněžených horských zatáček s obutým prknem",
-        "medium": "Jednoprkenný alpský snow carving",
+        "easy": "Vyřezávání zamrzlých horských zatáček s botovanou palubou",
+        "medium": "Jednoprkenná alpská prášková řezba",
         "hard": "Hobbies"
       }
     },
@@ -8392,7 +8392,7 @@
       "word": "Jízda na koni",
       "clues": {
         "easy": "Sedí v sedle a drží otěže kožené uzdy",
-        "medium": "Vyvážení jezdeckého sedla a trailové ježdění",
+        "medium": "Rovnováha v jezdeckém sedle a túry v přírodě",
         "hard": "Hobbies"
       }
     },
@@ -8416,7 +8416,7 @@
       "word": "Silový trénink",
       "clues": {
         "easy": "Provádění svalových sestav, bench press a dřepy",
-        "medium": "Progresivní trénink odolnosti proti přetížení",
+        "medium": "Progresivní sady odporu proti přetížení",
         "hard": "Hobbies"
       }
     },
@@ -8447,7 +8447,7 @@
     {
       "word": "Tanec salsy",
       "clues": {
-        "easy": "Kroky k pozitivním rytmům afrokubánské salsy",
+        "easy": "Krokování k pozitivním afrokubánským rytmickým beatům",
         "medium": "Rychlý synkopovaný latinský partner se točí",
         "hard": "Hobbies"
       }
@@ -8464,7 +8464,7 @@
       "word": "Domácí vaření piva",
       "clues": {
         "easy": "Vařící sladový ječmen, chmel a kvasné kvasnice",
-        "medium": "Malosériové vaření a fermentace obilí",
+        "medium": "Malosériová fermentace craft ale mladiny",
         "hard": "Hobbies"
       }
     },
@@ -8479,8 +8479,8 @@
     {
       "word": "Pražení kávy",
       "clues": {
-        "easy": "Monitorování pražení, zvuků praskání a aroma",
-        "medium": "Termální pyrolýza semen zelené kávy",
+        "easy": "Monitorování tepla bubnu, zvuků praskání a hnědnutí",
+        "medium": "Tepelná pyrolýza surových java fazolí",
         "hard": "Hobbies"
       }
     },
@@ -8512,7 +8512,7 @@
       "word": "Detekce kovů",
       "clues": {
         "easy": "Poslouchání pípnutí k odkrytí zakopaných mincí",
-        "medium": "Elektromagnetické skenování půdy na kovy",
+        "medium": "Elektromagnetické skenování půdy pro zakopané relikvie",
         "hard": "Hobbies"
       }
     },
@@ -8527,7 +8527,7 @@
     {
       "word": "pouštění draků",
       "clues": {
-        "easy": "Chytání přímořského větru k udržení draka ve vzduchu",
+        "easy": "Chytá mořský vítr a udržuje nylonový diamant ve vzduchu",
         "medium": "Aerodynamický let upoutaný větrem",
         "hard": "Hobbies"
       }
@@ -8535,7 +8535,7 @@
     {
       "word": "Létání s dronem",
       "clues": {
-        "easy": "Navigační vzdušný dron s dvojitou pákou",
+        "easy": "Dvoupákový ovladač pro navigaci vzdušného multirotoru",
         "medium": "Dálkově řízený let kvadrokoptérou",
         "hard": "Hobbies"
       }
@@ -8543,7 +8543,7 @@
     {
       "word": "Hry na hraní rolí",
       "clues": {
-        "easy": "Herní mistr popisující fantasy quest s listy postav",
+        "easy": "Vypravěč dungeonů popisující fantasy quest s listy postav",
         "medium": "Kolaborativní fantasy příběh řízený kostkami",
         "hard": "Hobbies"
       }
@@ -8552,7 +8552,7 @@
       "word": "Únikové místnosti",
       "clues": {
         "easy": "Rozluštění skrytých hádanek k odemknutí dveří",
-        "medium": "Tématický útěk z kooperativní místnosti",
+        "medium": "Tématická kooperativní záhada s uzavřenou komorou",
         "hard": "Hobbies"
       }
     },
@@ -8575,8 +8575,8 @@
     {
       "word": "Filmová tvorba",
       "clues": {
-        "easy": "Psaní scénářů, rámování záběrů kamery a střih filmu",
-        "medium": "Filmová produkce řemesla",
+        "easy": "Psaní scénářů, rámování záběrů kamery a řezání pohybových kotoučů",
+        "medium": "činnost produkce řemesla",
         "hard": "Hobbies"
       }
     },
@@ -8608,7 +8608,7 @@
       "word": "Ham rádio",
       "clues": {
         "easy": "Vysílání volacích značek na vysokofrekvenčním transceiveru",
-        "medium": "Amatérský radiofrekvenční přenos",
+        "medium": "Amatérský bezdrátový frekvenční přenos",
         "hard": "Hobbies"
       }
     },
@@ -8639,7 +8639,7 @@
     {
       "word": "Výcvik psů",
       "clues": {
-        "easy": "Cvičení klikr, pamlsky a povely paty na vodítku",
+        "easy": "Clicker trénování, pamlsky a povely k patě na vodítku",
         "medium": "Psí operant podmiňování a poslušnost",
         "hard": "Hobbies"
       }
@@ -8671,8 +8671,8 @@
     {
       "word": "Prošívání",
       "clues": {
-        "easy": "Patchworková přikrývka, vatelín a vzorované stehy",
-        "medium": "Vícevrstvé patchworkové textilní prošívání",
+        "easy": "Patchwork vzorovaný top, vatelín a ozdobné stehy",
+        "medium": "Vícevrstvé patchworkové textilní činnost",
         "hard": "Hobbies"
       }
     },
@@ -8711,8 +8711,8 @@
     {
       "word": "Aranžování květin",
       "clues": {
-        "easy": "Prořezávání stonků květin a vyvážení barev květin",
-        "medium": "Květinářství a květinová rovnováha stonků",
+        "easy": "Prořezávání stonků kytic a vyvážení zářivých barev květů",
+        "medium": "činnostářský design a vyvážení stonků květů",
         "hard": "Hobbies"
       }
     },
@@ -8728,14 +8728,14 @@
       "word": "Výuka jazyků",
       "clues": {
         "easy": "Kartičky, zvuk výslovnosti a procvičování gramatiky",
-        "medium": "Lexikální osvojování druhého jazyka",
+        "medium": "Slovní zásoba cizí řeči a osvojování gramatiky",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Sběratelství vinylů",
       "clues": {
-        "easy": "Bedny vykopávací dvanáctipalcová vinylová alba v rukávech",
+        "easy": "Dvanáctipalcová drážková alba na vykopávání bedny v lepenkových obalech",
         "medium": "Archivace analogových gramofonových disků",
         "hard": "Hobbies"
       }
@@ -8775,24 +8775,24 @@
     {
       "word": "Výroba šperků",
       "clues": {
-        "easy": "Kleště na šperky, nůžky na drát, korálky a spony",
-        "medium": "Ruční výroba nositelných ozdob",
+        "easy": "činnost kleští, drátů, korálků a spon",
+        "medium": "Ruční činnost nositelných ozdob",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Foukání skla",
       "clues": {
-        "easy": "Sběr žhavého roztaveného skla z horké pece",
-        "medium": "Tepelná manipulace s bublinou roztaveného skla",
+        "easy": "Shromažďování žhavého roztaveného oxidu křemičitého z horké pece",
+        "medium": "Tepelná manipulace s roztavenou žhavou bublinou oxidu křemičitého",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Vitráže",
       "clues": {
-        "easy": "Řezání barevných skel a pájení spojů",
-        "medium": "Sestava barevného uměleckého skla pájená olovem",
+        "easy": "Řezání barevných dekoračních tabulí a pájení spojů",
+        "medium": "Sestava dekorativního panelu pájená olovem",
         "hard": "Hobbies"
       }
     },
@@ -8807,16 +8807,16 @@
     {
       "word": "Psaní dopisů",
       "clues": {
-        "easy": "Kancelářský papír, plnicí pero a vosková pečeť",
-        "medium": "Složení dopisního dopisu",
+        "easy": "Papírnictví pergamen, plnicí pero a vosková pečeť",
+        "medium": "Epistolární kompozice poštovního pergamenu",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Urban skicování",
       "clues": {
-        "easy": "Akvarely a inkoustové pero v přenosném skicáku",
-        "medium": "Pozorovací architektonické skicování v plenéru",
+        "easy": "Akvarely a inkoustové pero v přenosné kreslící podložce",
+        "medium": "Observační architektonické kreslení v plenéru",
         "hard": "Hobbies"
       }
     }

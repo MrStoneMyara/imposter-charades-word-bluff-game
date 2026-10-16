@@ -67,7 +67,7 @@
     {
       "word": "Kjøleskap",
       "clues": {
-        "easy": "Kjøleskap for kjøkken",
+        "easy": "gjenstand for kjøkken",
         "medium": "Kontinuerlig brummende kjøkkenboks",
         "hard": "Everyday Objects"
       }
@@ -84,7 +84,7 @@
       "word": "Pute",
       "clues": {
         "easy": "Myk fylt liggeunderlag",
-        "medium": "Fjærbelagt hodepute",
+        "medium": "Fjærbelagt hodegjenstand",
         "hard": "Everyday Objects"
       }
     },
@@ -116,7 +116,7 @@
       "word": "Stige",
       "clues": {
         "easy": "Trinn mellom to stående skinner",
-        "medium": "Stigende parallelle trinn",
+        "medium": "gjenstandnde parallelle trinn",
         "hard": "Everyday Objects"
       }
     },
@@ -163,7 +163,7 @@
     {
       "word": "Lommelykt",
       "clues": {
-        "easy": "Batteridrevet bærbar lommelykt",
+        "easy": "Batteridrevet bærbar gjenstand",
         "medium": "Håndholdt mørk stråle",
         "hard": "Everyday Objects"
       }
@@ -340,7 +340,7 @@
       "word": "Limstift",
       "clues": {
         "easy": "Solid limsylinder for papir",
-        "medium": "Selvklebende papirsylinder",
+        "medium": "Twist-up papirlimsylinder",
         "hard": "Everyday Objects"
       }
     },
@@ -427,8 +427,8 @@
     {
       "word": "Bøtte",
       "clues": {
-        "easy": "Åpen bøtte med stålhåndtak",
-        "medium": "Vanntrekkende rund bøtte",
+        "easy": "Åpen gjenstand med stålhåndtak",
+        "medium": "Vanntrekkende rund gjenstand",
         "hard": "Everyday Objects"
       }
     },
@@ -444,14 +444,14 @@
       "word": "såpestykke",
       "clues": {
         "easy": "Glatt blokk som produserer skum",
-        "medium": "Duftende skummende bar",
+        "medium": "Duftende skummende baderomsblokk",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Badehåndkle",
       "clues": {
-        "easy": "Stort absorberende baderomsfrotté",
+        "easy": "Stor absorberende dusjfrotté",
         "medium": "Looped bomullsfuktighetsinnpakning",
         "hard": "Everyday Objects"
       }
@@ -747,7 +747,7 @@
     {
       "word": "Isbitbrett",
       "clues": {
-        "easy": "Rom fryseform for terninger",
+        "easy": "Rom fryseform for kjøleblokker",
         "medium": "Oppdelt mold under null",
         "hard": "Everyday Objects"
       }
@@ -755,7 +755,7 @@
     {
       "word": "Frakkkrok",
       "clues": {
-        "easy": "Vegghengt oppheng for kåper",
+        "easy": "Vegghengt oppheng for yttertøy",
         "medium": "Buet veggstift for jakker",
         "hard": "Everyday Objects"
       }
@@ -878,7 +878,7 @@
       "word": "Iskrem",
       "clues": {
         "easy": "Kjernet avkjølt meierigodbit",
-        "medium": "Smeltende søt meierikrem",
+        "medium": "Smeltende søt frossen meieri øse",
         "hard": "Food"
       }
     },
@@ -1005,8 +1005,8 @@
     {
       "word": "Vårrull",
       "clues": {
-        "easy": "Tynn omslag rullet rundt fyllinger",
-        "medium": "Gjennomsiktig stekt konditorrull",
+        "easy": "Tynn omslag pakket rundt sprø fyll",
+        "medium": "Gjennomsiktig stekt deigsylinder",
         "hard": "Food"
       }
     },
@@ -1053,7 +1053,7 @@
     {
       "word": "Misosuppe",
       "clues": {
-        "easy": "Fermentert soyapastasuppe med dashi",
+        "easy": "Fermentert soyapastabuljong med dashi",
         "medium": "Overskyet frokostbuljong med løk",
         "hard": "Food"
       }
@@ -1086,7 +1086,7 @@
       "word": "Lønnesirup",
       "clues": {
         "easy": "Kokt tresaft til frokost",
-        "medium": "Ravkokt løvtresirup",
+        "medium": "Ravkokt løvtre reduksjon",
         "hard": "Food"
       }
     },
@@ -1141,7 +1141,7 @@
     {
       "word": "Pølse",
       "clues": {
-        "easy": "Spekepølse med sennep i brød",
+        "easy": "Spekeanretning med sennep i brød",
         "medium": "Delt bolle med sennepsstripe",
         "hard": "Food"
       }
@@ -1165,7 +1165,7 @@
     {
       "word": "Potetmos",
       "clues": {
-        "easy": "Pisket krydret potet tilbehør",
+        "easy": "Pisket krydret spud siderett",
         "medium": "Pounded spuds med smeltet krem",
         "hard": "Food"
       }
@@ -1173,8 +1173,8 @@
     {
       "word": "Bakt potet",
       "clues": {
-        "easy": "Foliepakket potet med rømme",
-        "medium": "Del dampende potetskall",
+        "easy": "Foliepakket hel spud med rømme",
+        "medium": "Splitt dampende spud hud",
         "hard": "Food"
       }
     },
@@ -1197,7 +1197,7 @@
     {
       "word": "Tomatsuppe",
       "clues": {
-        "easy": "Kremet rød suppe sammen med toast",
+        "easy": "Kremet rød purert buljong sammen med toast",
         "medium": "Varm purert rødvinskål",
         "hard": "Food"
       }
@@ -1221,7 +1221,7 @@
     {
       "word": "Eggerøre",
       "clues": {
-        "easy": "Rørte egg fra en stekepanne til frokost",
+        "easy": "Rørt frokostgryte eggeplomme",
         "medium": "Luftig stekepanne på toast",
         "hard": "Food"
       }
@@ -1245,7 +1245,7 @@
     {
       "word": "Kjøttkaker",
       "clues": {
-        "easy": "Krydret kjøttkule putret i saus",
+        "easy": "Krydret malt velsmakende kule putret i saus",
         "medium": "Braisert oksekule i marinara",
         "hard": "Food"
       }
@@ -1278,7 +1278,7 @@
       "word": "Grillet ost",
       "clues": {
         "easy": "Pannestekt brød med klebrig meierisenter",
-        "medium": "Smørgriddet smørbrød med ostepull",
+        "medium": "Smørgriddet sandwich med smeltet meieristretch",
         "hard": "Food"
       }
     },
@@ -1349,7 +1349,7 @@
     {
       "word": "Ostekake",
       "clues": {
-        "easy": "Bakt søt kremost på smulebunn",
+        "easy": "Bakt søt melkekrem på smulebunn",
         "medium": "Tett avkjølt meierikakeskive",
         "hard": "Food"
       }
@@ -1373,7 +1373,7 @@
     {
       "word": "Kanelsnurr",
       "clues": {
-        "easy": "Bakt rullet deigvirvel med søt glasur",
+        "easy": "Bakt spiralformet deigvirvel med søt glasur",
         "medium": "Spiralformet søt deig med kremglasur",
         "hard": "Food"
       }
@@ -1381,7 +1381,7 @@
     {
       "word": "Hvitløksbrød",
       "clues": {
-        "easy": "Sprøbrød bakt med urtesmør",
+        "easy": "Sprø oppskåret brød bakt med urtesmør",
         "medium": "Ovnsbrunt smøraktig urtebrød",
         "hard": "Food"
       }
@@ -1430,7 +1430,7 @@
       "word": "Olivenolje",
       "clues": {
         "easy": "Gylden salatdressing og kokevæske",
-        "medium": "Middelhavs kaldpresset grønn olje",
+        "medium": "Middelhavs kaldpresset fruktig fett",
         "hard": "Food"
       }
     },
@@ -1438,7 +1438,7 @@
       "word": "Eddik",
       "clues": {
         "easy": "Fermentert væske til sylteagurk og dressinger",
-        "medium": "Skarp gjæret eddikvæske",
+        "medium": "Skarp gjæret anretningvæske",
         "hard": "Food"
       }
     },
@@ -1493,7 +1493,7 @@
     {
       "word": "Kornblanding",
       "clues": {
-        "easy": "Boksede korn helles i morgenbolle",
+        "easy": "Boksede anretning helles i morgenbolle",
         "medium": "Ristede kornflak i meieribolle",
         "hard": "Food"
       }
@@ -1623,8 +1623,8 @@
     {
       "word": "Hest",
       "clues": {
-        "easy": "Hestedyr med flytende manke",
-        "medium": "Hestegaloper i paddock",
+        "easy": "vesenedyr med flytende manke",
+        "medium": "vesenegaloper i paddock",
         "hard": "Animals"
       }
     },
@@ -1672,7 +1672,7 @@
       "word": "Hane",
       "clues": {
         "easy": "Crested hannfugl med lys kam",
-        "medium": "Dawn-kaller barnyard hane",
+        "medium": "Dawn-kaller barnyard vesen",
         "hard": "Animals"
       }
     },
@@ -1912,7 +1912,7 @@
       "word": "Slange",
       "clues": {
         "easy": "Snurrende tunge og skjellende hud",
-        "medium": "Giftig eller sammentrekkende slange",
+        "medium": "Giftig eller sammentrekkende vesen",
         "hard": "Animals"
       }
     },
@@ -2015,7 +2015,7 @@
     {
       "word": "Grizzlybjørn",
       "clues": {
-        "easy": "Skulderpukkel bjørn som fanger elvelaks",
+        "easy": "Skulderpuklet toppdyr som fanger elvelaks",
         "medium": "Kraftig dvaledyr i innlandet",
         "hard": "Animals"
       }
@@ -2151,7 +2151,7 @@
     {
       "word": "Due",
       "clues": {
-        "easy": "Guppende urban due spiser brødsmuler",
+        "easy": "Guppende urban vesen spiser brødsmuler",
         "medium": "Urban flokkfugl med målsøkingsinstinkt",
         "hard": "Animals"
       }
@@ -2207,15 +2207,15 @@
     {
       "word": "Blekksprut",
       "clues": {
-        "easy": "Kamuflerende blekksprut som klemmer seg inn i sprekker",
-        "medium": "Intelligent blekksprut med flere lemmer",
+        "easy": "Kamuflerende vesen som klemmer seg inn i sprekker",
+        "medium": "Intelligent vesen med flere lemmer",
         "hard": "Animals"
       }
     },
     {
       "word": "Blekksprut",
       "clues": {
-        "easy": "Torpedoformet blekksprut spruter bakover",
+        "easy": "Torpedoformet vesen spruter bakover",
         "medium": "Dyphavsjetsvømmer med blekkpose",
         "hard": "Animals"
       }
@@ -2255,7 +2255,7 @@
     {
       "word": "sjøstjerne",
       "clues": {
-        "easy": "Regenererende marin stjerne på koraller",
+        "easy": "Regenererende femarmet marine skapning på koraller",
         "medium": "Radial bunndyrkryp",
         "hard": "Animals"
       }
@@ -2673,7 +2673,7 @@
     {
       "word": "Sør-Afrika",
       "clues": {
-        "easy": "Regnbuenasjon på sørspissen av kontinentet",
+        "easy": "Regnbuenasjonen ved Kapp det gode håp",
         "medium": "To-ocean Cape Nation med gull og diamanter",
         "hard": "Countries"
       }
@@ -2745,8 +2745,8 @@
     {
       "word": "Saudi-Arabia",
       "clues": {
-        "easy": "Hjertet av den arabiske halvøy med historisk pilegrimsreise",
-        "medium": "Kongeriket okkuperer det meste av den arabiske halvøy",
+        "easy": "Hjertet av en stor ørkenhalvøy med historisk pilegrimsreise til Mekka",
+        "medium": "Kongeriket okkuperer det meste av den enorme ørkengulfhalvøya",
         "hard": "Countries"
       }
     },
@@ -2866,7 +2866,7 @@
       "word": "Filippinene",
       "clues": {
         "easy": "Stillehavsskjærgårdsnasjonen på syv tusen øyer",
-        "medium": "Øykjede mellom Sør-Kinahavet og det filippinske hav",
+        "medium": "Tropisk skjærgård mellom Luzonstredet og Celebeshavet",
         "hard": "Countries"
       }
     },
@@ -2874,7 +2874,7 @@
       "word": "Sør-Korea",
       "clues": {
         "easy": "Høyteknologisk halvøynasjon med levende kultur",
-        "medium": "Østasiatisk republikk sør for 38. breddegrad",
+        "medium": "Østasiatisk republikk under 38. breddegrad",
         "hard": "Countries"
       }
     },
@@ -3316,7 +3316,7 @@
       "word": "Forsker",
       "clues": {
         "easy": "Gjennomfører eksperimenter og publiserer funn",
-        "medium": "Empirisk laboratorieforsker",
+        "medium": "Empirisk laboratoriefagperson",
         "hard": "Professions"
       }
     },
@@ -3396,7 +3396,7 @@
       "word": "Flyvertinne",
       "clues": {
         "easy": "Demonstrerer nødutganger og kabinsikkerhet",
-        "medium": "Inflight passasjerkabinesjef",
+        "medium": "Luftbåren passasjerkabin steward",
         "hard": "Professions"
       }
     },
@@ -3420,7 +3420,7 @@
       "word": "Brannmann",
       "clues": {
         "easy": "Hjelm, tung slange og stigebil",
-        "medium": "Spesialist for brannslukking i nødstilfelle",
+        "medium": "Spesialist for brannbekjempelse i nødstilfelle",
         "hard": "Professions"
       }
     },
@@ -3428,7 +3428,7 @@
       "word": "Politibetjent",
       "clues": {
         "easy": "Merke, uniform og nødpatrulje",
-        "medium": "Rettshåndhevende patruljeoffiser",
+        "medium": "Politiet uniformert patruljeagent",
         "hard": "Professions"
       }
     },
@@ -3444,7 +3444,7 @@
       "word": "Dommer",
       "clues": {
         "easy": "Svart kappe, klubbe og juridiske kjennelser",
-        "medium": "Rettssalsdommer",
+        "medium": "Rettssalsfagperson",
         "hard": "Professions"
       }
     },
@@ -3452,7 +3452,7 @@
       "word": "Advokat",
       "clues": {
         "easy": "Sender inn rettssaker og tolker lover",
-        "medium": "Lisensiert juridisk advokat",
+        "medium": "Lisensiert juridisk fagperson",
         "hard": "Professions"
       }
     },
@@ -3500,7 +3500,7 @@
       "word": "Snekker",
       "clues": {
         "easy": "Sag, målebånd og trefuger",
-        "medium": "Treverks- og snekkerhåndverker",
+        "medium": "Treverks- og fagpersonhåndverker",
         "hard": "Professions"
       }
     },
@@ -3539,7 +3539,7 @@
     {
       "word": "Maler",
       "clues": {
-        "easy": "Ruller, malingsbrett og slippkluter",
+        "easy": "Ruller, pigmentbrett og dråpekluter",
         "medium": "Overflatebelegg og etterbehandling håndverker",
         "hard": "Professions"
       }
@@ -3619,7 +3619,7 @@
     {
       "word": "Musiker",
       "clues": {
-        "easy": "Noter, rytme og akustisk instrument",
+        "easy": "Partiturark, rytme og akustisk instrument",
         "medium": "Instrumental performancekunstner",
         "hard": "Professions"
       }
@@ -3636,7 +3636,7 @@
       "word": "Forfatter",
       "clues": {
         "easy": "Utkast til manuskripter, kapitler og kreativ prosa",
-        "medium": "Litterær forfatter og prosaskaper",
+        "medium": "Litterær fagperson og prosaskaper",
         "hard": "Professions"
       }
     },
@@ -3667,15 +3667,15 @@
     {
       "word": "Bankmann",
       "clues": {
-        "easy": "Overvåker finansiell kapital og bankkreditt",
-        "medium": "Forretningsbank og låneansvarlig",
+        "easy": "Overvåker finansiell kapital og kommersiell kreditt",
+        "medium": "Kommersiell finansierings- og låneansvarlig",
         "hard": "Professions"
       }
     },
     {
       "word": "Kasserer",
       "clues": {
-        "easy": "Strekkodeskanner, kasseapparat og kvitteringsskriver",
+        "easy": "Strekkodeskanner, kassaskuff og kvitteringsskriver",
         "medium": "Utsalgsstedoperatør for detaljhandel",
         "hard": "Professions"
       }
@@ -3699,7 +3699,7 @@
     {
       "word": "Reiseleder",
       "clues": {
-        "easy": "Gir kommentarer og guider fotturer",
+        "easy": "Gir historiske kommentarer for besøkende sightseere",
         "medium": "Leder for kulturell sightseeing ekspedisjon",
         "hard": "Professions"
       }
@@ -3707,15 +3707,15 @@
     {
       "word": "Taxisjåfør",
       "clues": {
-        "easy": "Navigerer gatetrafikk med dashbordtaksameter",
-        "medium": "Urban street passasjer drosjesjåfør",
+        "easy": "Navigerer gatetrafikk med dashbordprismåler",
+        "medium": "Urban street passasjer gul drosjeoperatør",
         "hard": "Professions"
       }
     },
     {
       "word": "Bussjåfør",
       "clues": {
-        "easy": "Driver stor buss langs planlagte stopp",
+        "easy": "Driver stor fagperson langs planlagte stopp",
         "medium": "Kommunal transittruteoperatør",
         "hard": "Professions"
       }
@@ -3724,7 +3724,7 @@
       "word": "Postbærer",
       "clues": {
         "easy": "Bærer veske med brev langs gateveien",
-        "medium": "Postbrev- og pakkeformidler",
+        "medium": "Postbrev og pakkebud",
         "hard": "Professions"
       }
     },
@@ -3732,7 +3732,7 @@
       "word": "Leveringsbud",
       "clues": {
         "easy": "Kjører varebil og skanner pakkestrekkoder",
-        "medium": "Last-mile dørstokken pakkebud",
+        "medium": "Last-mile doorstep pakkeløper",
         "hard": "Professions"
       }
     },
@@ -3748,7 +3748,7 @@
       "word": "Grafisk designer",
       "clues": {
         "easy": "Digital illustrasjonsprogramvare og typografi",
-        "medium": "Kommersiell visuell merkevaredesigner",
+        "medium": "Kommersiell visuell merkevarekunstner",
         "hard": "Professions"
       }
     },
@@ -3756,7 +3756,7 @@
       "word": "Filmregissør",
       "clues": {
         "easy": "Kaller action, veileder kinematografi og anmelder tar",
-        "medium": "Kinematisk filmregissør",
+        "medium": "Kinematisk filmforfatter",
         "hard": "Professions"
       }
     },
@@ -3828,7 +3828,7 @@
       "word": "Låsesmed",
       "clues": {
         "easy": "Plukker tumblere, nøkkelemner og installerer deadbolts",
-        "medium": "Spesialist på nøkkelskjæring og sylinderlås",
+        "medium": "Spesialist på nøkkelskjæring og sylinderglass",
         "hard": "Professions"
       }
     },
@@ -3843,7 +3843,7 @@
     {
       "word": "Lastebilsjåfør",
       "clues": {
-        "easy": "Kjører attenhjuls semi-lastebil over interstate",
+        "easy": "Kjører attenhjuls semi over interstate",
         "medium": "Langdistanse mellomstatlig godsoperatør",
         "hard": "Professions"
       }
@@ -3859,7 +3859,7 @@
     {
       "word": "Diplomat",
       "clues": {
-        "easy": "Forhandler traktater og internasjonalt diplomati",
+        "easy": "Forhandler traktater og internasjonalt fagpersoni",
         "medium": "Forhandler for utenlandsk ambassade",
         "hard": "Professions"
       }
@@ -3883,7 +3883,7 @@
     {
       "word": "Magiker",
       "clues": {
-        "easy": "Spillekort, tryllestav og villedende triks",
+        "easy": "Spillekort, polert tryllestav og villedende håndgrep",
         "medium": "Sceneillusjonist og slengkunstner",
         "hard": "Professions"
       }
@@ -3907,7 +3907,7 @@
     {
       "word": "Butikkmann",
       "clues": {
-        "easy": "Lagrer hyller, hjelper kunder og administrerer butikk",
+        "easy": "Lagrer hyller, assisterer kunder og administrerer butikkfronten",
         "medium": "Uavhengig butikkeier",
         "hard": "Professions"
       }
@@ -3931,8 +3931,8 @@
     {
       "word": "Ernæringsfysiolog",
       "clues": {
-        "easy": "Beregner kaloriinntak og balansert ernæring",
-        "medium": "Kostholds- og ernæringsrådgiver",
+        "easy": "Beregner kaloriinntak og balanserte måltidsplaner",
+        "medium": "Kostholds- og helserådgiver",
         "hard": "Professions"
       }
     },
@@ -3972,7 +3972,7 @@
       "word": "Flygeleder",
       "clues": {
         "easy": "Radarskjerm, headset og rullebaneklarering på flyplassen",
-        "medium": "Flyplasstårn luftromsradarkontroller",
+        "medium": "Flyplasstårn luftromsradarmonitor",
         "hard": "Professions"
       }
     },
@@ -3980,7 +3980,7 @@
       "word": "Kranfører",
       "clues": {
         "easy": "Høye førerhusspaker, heisekabler og motvekter",
-        "medium": "Førerhusfører for tung heisekonstruksjon",
+        "medium": "Hyttespesialist for tunge heisekonstruksjoner",
         "hard": "Professions"
       }
     },
@@ -4101,8 +4101,8 @@
     {
       "word": "Bordtennis",
       "clues": {
-        "easy": "Miniatyrårer som samler seg over bordnettet",
-        "medium": "Ping-pong bord gummipadle match",
+        "easy": "Miniatyrårer samles over grønt garn",
+        "medium": "Ping-pong innendørs gummipadlekamp",
         "hard": "Sports"
       }
     },
@@ -4141,8 +4141,8 @@
     {
       "word": "Snowboardkjøring",
       "clues": {
-        "easy": "Begge støvlene festet til enkelt snødekk",
-        "medium": "Enkelt alpine dekk carving puddersnø",
+        "easy": "Begge støvlene festet til enkelt vinterdekk",
+        "medium": "Enkelt alpine dekk carving pulveraktig frost",
         "hard": "Sports"
       }
     },
@@ -4357,8 +4357,8 @@
     {
       "word": "Stangsprang",
       "clues": {
-        "easy": "Planting av fleksibel glassfiberstang til klar stang",
-        "medium": "Vertikalt sprang hjulpet av bøyende glassfiberstang",
+        "easy": "Planting av fleksibel glassfibersparkel til klar disiplin",
+        "medium": "Vertikalt sprang hjulpet av bøyelig glassfiberstang",
         "hard": "Sports"
       }
     },
@@ -4381,8 +4381,8 @@
     {
       "word": "Spyd",
       "clues": {
-        "easy": "Overhead rullebanekast av slankt spissspyd",
-        "medium": "Aerodynamisk rullebanekast med spisse spyd",
+        "easy": "Overhead rullebanekast av slankt spissdisiplin",
+        "medium": "Aerodynamisk rullebanekast med spisse disiplin",
         "hard": "Sports"
       }
     },
@@ -4398,7 +4398,7 @@
       "word": "Fjellklatring",
       "clues": {
         "easy": "Sele, karabinkroker, krittpose og sikkerhetstau",
-        "medium": "Stigende vertikale fjellflater ved hjelp av fingergrep",
+        "medium": "Stigende vertikale klipper ved hjelp av fingergrep",
         "hard": "Sports"
       }
     },
@@ -4446,7 +4446,7 @@
       "word": "Vannpolo",
       "clues": {
         "easy": "Svømmehetter med ørebeskyttere og flytende mål",
-        "medium": "Dypvann akvatisk ball scrimmage",
+        "medium": "Dyp akvatisk klorert ball-scrimmage",
         "hard": "Sports"
       }
     },
@@ -4509,7 +4509,7 @@
     {
       "word": "Kunstnerisk svømming",
       "clues": {
-        "easy": "Neseklips rutiner opp ned i svømmebasseng",
+        "easy": "Neseklemmerutiner opp ned i klorbasseng",
         "medium": "Akvatisk synkronisert koreografi til musikk",
         "hard": "Sports"
       }
@@ -4518,7 +4518,7 @@
       "word": "Vannski",
       "clues": {
         "easy": "Holder slepetau som glir over båtens kjølvann",
-        "medium": "Båtslepet høvling over åpent vann",
+        "medium": "Båtslepet kjølvannsskimming på doble løpere",
         "hard": "Sports"
       }
     },
@@ -4549,8 +4549,8 @@
     {
       "word": "Blandet kampsport",
       "clues": {
-        "easy": "Octagon-kamp som kombinerer boksing, bryting og jiu-jitsu",
-        "medium": "Buret multi-disiplin full kontakt kamp",
+        "easy": "Octagon-disiplin som kombinerer boksing, bryting og jiu-jitsu",
+        "medium": "Buret multi-disiplin full kontakt disiplin",
         "hard": "Sports"
       }
     },
@@ -4582,7 +4582,7 @@
       "word": "Diskgolf",
       "clues": {
         "easy": "Forløp med kjede-lenke kurvmål over parken",
-        "medium": "Tee-to-basket flyvende skive nøyaktighetskurs",
+        "medium": "Tee-to-basket flygende tallerken nøyaktighetskurs",
         "hard": "Sports"
       }
     },
@@ -4645,8 +4645,8 @@
     {
       "word": "Isdans",
       "clues": {
-        "easy": "Intrikat synkronisert fotarbeid og svingninger på is",
-        "medium": "Teaterballsalens partnerkoreografi på is",
+        "easy": "Intrikat synkronisert fotarbeid og svingninger på frossen bane",
+        "medium": "Teatralsk ballsal partnerkoreografi på frossen bane",
         "hard": "Sports"
       }
     },
@@ -4685,7 +4685,7 @@
     {
       "word": "Biljard",
       "clues": {
-        "easy": "Carom skudd støtende biljardballer uten lommer",
+        "easy": "Carom skudd støtende fargede kuler uten lommer",
         "medium": "Baize bordkøskudd med skinneputer",
         "hard": "Sports"
       }
@@ -4717,7 +4717,7 @@
     {
       "word": "Sprangridning",
       "clues": {
-        "easy": "Navigering av stadionhoppgjerder innen tidsfristen",
+        "easy": "Navigering av stadionhindergjerder innen tidsfristen",
         "medium": "Ridebane som rydder fargerike stadionskinner",
         "hard": "Sports"
       }
@@ -4725,16 +4725,16 @@
     {
       "word": "Dragebåt",
       "clues": {
-        "easy": "Padlere synkronisert med trommeslag og utsmykket dragesløyfe",
-        "medium": "Synkronisert gruppepadling med dragestav",
+        "easy": "Padlere synkronisert med trommeslag og mytisk slangebue",
+        "medium": "Synkronisert gruppepadling med mytisk beiststav",
         "hard": "Sports"
       }
     },
     {
       "word": "Sportsklatring",
       "clues": {
-        "easy": "Klipper hurtigtrekk mens du skalerer klatreruten på treningssenteret",
-        "medium": "Veggklatring på gymsalen klippet til ankre",
+        "easy": "Klipp av hurtigtrekk mens du skalerer den kunstige treningsruten",
+        "medium": "Gymsal innendørs veggstigning klipt til ankre",
         "hard": "Sports"
       }
     },
@@ -4991,7 +4991,7 @@
     {
       "word": "Burger King",
       "clues": {
-        "easy": "Hurtigmatkjede med kronekledd konge",
+        "easy": "Hurtigmatkjede med kronebærende monark",
         "medium": "Tekst klemt mellom gule bollehalvdeler",
         "hard": "Logos & Brands"
       }
@@ -5023,7 +5023,7 @@
     {
       "word": "Pizza Hut",
       "clues": {
-        "easy": "Pizzarestaurant med rød taklogo",
+        "easy": "Italiensk fast-casual kjede med rød taklogo",
         "medium": "Skrå silhuett med rød brem",
         "hard": "Logos & Brands"
       }
@@ -5192,7 +5192,7 @@
       "word": "Red Bull",
       "clues": {
         "easy": "Energidrikkboks med sammenstøtende beist",
-        "medium": "To rødhornede beist mot hverandre",
+        "medium": "To karmosinrøde hornbeist mot hverandre",
         "hard": "Logos & Brands"
       }
     },
@@ -5625,7 +5625,7 @@
     {
       "word": "Buss",
       "clues": {
-        "easy": "Rutebuss med kollektivtransport med stopp",
+        "easy": "Rutefartøy med kollektivtransport med stopp",
         "medium": "Kommunal veitransport med flere passasjerer",
         "hard": "Transport"
       }
@@ -5665,7 +5665,7 @@
     {
       "word": "Motorsykkel",
       "clues": {
-        "easy": "Twist-throttle motor på to hjul med hjelm",
+        "easy": "Twist-throttle fartøy på to hjul med hjelm",
         "medium": "Motorisert tohjuls salmaskin",
         "hard": "Transport"
       }
@@ -5682,7 +5682,7 @@
       "word": "Lastebil",
       "clues": {
         "easy": "Lukket førerhus med stor nyttelast bak",
-        "medium": "Lastebil med høy kapasitet",
+        "medium": "fartøy med høy kapasitet",
         "hard": "Transport"
       }
     },
@@ -5777,7 +5777,7 @@
     {
       "word": "Lasteskip",
       "clues": {
-        "easy": "Stabler av fargerike metallfraktcontainere over hav",
+        "easy": "Stabler av fargerike metallgodscontainere over hav",
         "medium": "Bulk maritim containerfraktskip",
         "hard": "Transport"
       }
@@ -5794,14 +5794,14 @@
       "word": "Rakett",
       "clues": {
         "easy": "Flertrinns booster som slipper jordens tyngdekraft inn i bane",
-        "medium": "Kjemisk reaksjon vertikal orbital bærerakett",
+        "medium": "Kjemisk reaksjon vertikal orbital bærefartøy",
         "hard": "Transport"
       }
     },
     {
       "word": "Varmluftsballong",
       "clues": {
-        "easy": "Brenner varmer luft inne i konvolutten høyt",
+        "easy": "Brenner oppvarmingsgass inne i konvolutten høyt",
         "medium": "Termisk oppdrift flettet passasjerfly",
         "hard": "Transport"
       }
@@ -5849,8 +5849,8 @@
     {
       "word": "Brannbil",
       "clues": {
-        "easy": "Brannbil reagerer på bygningsflammer med sirene",
-        "medium": "Hydraulisk luftstige og vannpumpebil",
+        "easy": "Utrykningskjøretøy som reagerer på bygningsflammer med sirene",
+        "medium": "Hydraulisk luftstige og høytrykkspumperigg",
         "hard": "Transport"
       }
     },
@@ -5889,7 +5889,7 @@
     {
       "word": "Dumper",
       "clues": {
-        "easy": "Transporterer og dumper grus, sand og steinsprut",
+        "easy": "Transporterer og losser grus, sand og steinsprut",
         "medium": "Hydraulisk tippvogn med åpen boks",
         "hard": "Transport"
       }
@@ -5905,24 +5905,24 @@
     {
       "word": "Snøplog",
       "clues": {
-        "easy": "Rydding av isete veier og snøhaug langs kantstein",
-        "medium": "Frontmontert vinklet kile snøryddingskjøretøy",
+        "easy": "Rydder isete veier og skyver slaps langs fortauskanten",
+        "medium": "Frontmontert vinklet kile vinterryddebil",
         "hard": "Transport"
       }
     },
     {
       "word": "Snøscooter",
       "clues": {
-        "easy": "Styrstyrt maskin skummer over vinterdrift",
-        "medium": "Baksporet vintersnøtraverseringsmaskin",
+        "easy": "Tråkker på pudder med doble styreski",
+        "medium": "Baksporet vintertundra-traversalmaskin",
         "hard": "Transport"
       }
     },
     {
       "word": "Jetski",
       "clues": {
-        "easy": "Vannjetdrevet vannscooter",
-        "medium": "Håndstyrt personlig vannjetfarkost",
+        "easy": "Vanndrevet akvatisk sit-down scooter",
+        "medium": "Styrstyrt personlig akvatisk skyvebåt",
         "hard": "Transport"
       }
     },
@@ -5937,8 +5937,8 @@
     {
       "word": "Taubane",
       "clues": {
-        "easy": "Luftfartsgondol som går oppover bratte fjelltopper",
-        "medium": "Lufttrekk-kabel opphengt passasjerkabin",
+        "easy": "Opphengt trikkehytte som kjører over wire",
+        "medium": "Luftopphengt passasjerkabin",
         "hard": "Transport"
       }
     },
@@ -5969,8 +5969,8 @@
     {
       "word": "Hestevogn",
       "clues": {
-        "easy": "Historisk trevogn med hestesele og fører",
-        "medium": "Hestetrukket passasjertransport med hjul",
+        "easy": "Historisk trevogn med hingstesele og fører",
+        "medium": "Ryttertrukket passasjervogn med jernhjul",
         "hard": "Transport"
       }
     },
@@ -5985,24 +5985,24 @@
     {
       "word": "Kuletog",
       "clues": {
-        "easy": "Elektrisk togskyting mellom byer i store hastigheter",
-        "medium": "Aerodynamisk høyhastighetsnese på dedikerte skinner",
+        "easy": "Aerodynamisk ekspresslokomotivskyting mellom byer i høye hastigheter",
+        "medium": "Aerodynamisk høyhastighets passasjerskinne",
         "hard": "Transport"
       }
     },
     {
       "word": "Godstog",
       "clues": {
-        "easy": "Diesellokomotiv trekkvogner og kassevogner",
-        "medium": "Multi-lokomotiv tung jernbane gods består",
+        "easy": "Lang rekke kassevogner trukket av diesellokomotiver",
+        "medium": "Multi-lokomotiv tung jernbane last består",
         "hard": "Transport"
       }
     },
     {
       "word": "Toetasjes buss",
       "clues": {
-        "easy": "Ikonisk rød høy buss med spiraltrapp",
-        "medium": "To-etasjes passasjergatebuss",
+        "easy": "Ikonisk rød høy fartøy med spiraltrapp",
+        "medium": "To-nivå bypendlerpassasjerpassasjer",
         "hard": "Transport"
       }
     },
@@ -6025,8 +6025,8 @@
     {
       "word": "Pickup lastebil",
       "clues": {
-        "easy": "Bakluke, lukket førerhus og nyttelasteplass",
-        "medium": "Åpen lastebil for personbiler",
+        "easy": "Førerhus foran med åpent lasterom bak",
+        "medium": "Åpen seng, nyttevogn for passasjermotor",
         "hard": "Transport"
       }
     },
@@ -6057,7 +6057,7 @@
     {
       "word": "Gokart",
       "clues": {
-        "easy": "Firehjuls kart med lav klaring på svingete innendørsbaner",
+        "easy": "Firehjuls racer med lav klaring på svingete innendørsbaner",
         "medium": "Lavt senter miniatyr racingchassis med åpent hjul",
         "hard": "Transport"
       }
@@ -6073,7 +6073,7 @@
     {
       "word": "Dirt bike",
       "clues": {
-        "easy": "Knobby dekk to-hjuling hopper skitt hauger",
+        "easy": "Knobby dekk to-hjuling hoppe gjørme hauger",
         "medium": "Terrengmotorsykkel med knudrete dekk med høy klaring",
         "hard": "Transport"
       }
@@ -6089,8 +6089,8 @@
     {
       "word": "Elektrisk scooter",
       "clues": {
-        "easy": "Sammenleggbar tohjuls urban pendlerscooter",
-        "medium": "Batteridrevet oppreist stående pendlerscooter",
+        "easy": "Sammenleggbar tohjuls bypendlermikrokjøretøy",
+        "medium": "Batteridrevet oppreist stående pendlerdekk",
         "hard": "Transport"
       }
     },
@@ -6113,8 +6113,8 @@
     {
       "word": "Lastesykkel",
       "clues": {
-        "easy": "To- eller trehjuls pedalsykkel med lastebeholder",
-        "medium": "Heavy-frame pedaltransporter med lasterom foran",
+        "easy": "To- eller trehjulet pedalkjøretøy med klumpete frontbeholder",
+        "medium": "Tungramme pedaltransporter med fremre oppbevaringsrom",
         "hard": "Transport"
       }
     },
@@ -6169,8 +6169,8 @@
     {
       "word": "Kabelbane",
       "clues": {
-        "easy": "Bratt skråning skrånende spor jernbane trukket av kabel",
-        "medium": "Motbalansert skråningskabelbane i bratt skråning",
+        "easy": "Bratt skråning skrånende spor jernbane trukket av fartøy",
+        "medium": "Motbalansert skråningsfartøy i bratt skråning",
         "hard": "Transport"
       }
     },
@@ -6273,7 +6273,7 @@
     {
       "word": "Inline skøyter",
       "clues": {
-        "easy": "Blader av polyuretanhjul for hurtigløp på skøyter",
+        "easy": "Blader av polyuretanhjul for hurtigløp på fartøy",
         "medium": "Single-line hjularrangement støvler",
         "hard": "Transport"
       }
@@ -6314,14 +6314,14 @@
       "word": "Dampbåt",
       "clues": {
         "easy": "Røykestenger og kjernet vann på historiske elver",
-        "medium": "Dampdrevet elvefartøy med padlehjul",
+        "medium": "Kullfyrt elvefartøy med padlehjul",
         "hard": "Transport"
       }
     },
     {
       "word": "Maglev tog",
       "clues": {
-        "easy": "Elektromagnetisk levitasjonstog eliminerer skinnefriksjon",
+        "easy": "Elektromagnetisk levitasjonspassasje som eliminerer sporfriksjon",
         "medium": "Magnetisk levitasjonsføringspassasjerkule",
         "hard": "Transport"
       }
@@ -6329,8 +6329,8 @@
     {
       "word": "Golfbil",
       "clues": {
-        "easy": "Stillegående batterivogn som frakter golfbager mellom hullene",
-        "medium": "Lavspent verktøyvogn for koblinger",
+        "easy": "Stillegående batteribuggy som bærer klubbvesker mellom hullene",
+        "medium": "Lavspenningsbuggy for fairway-transport",
         "hard": "Transport"
       }
     },
@@ -6361,8 +6361,8 @@
     {
       "word": "Romferge",
       "clues": {
-        "easy": "Deltavinget orbiter som vender tilbake fra verdensrommet til rullebanen",
-        "medium": "Rakettforsterket orbital romflyglider",
+        "easy": "Deltavinget orbiter som returnerer fra bane til rullebane",
+        "medium": "Rakettforsterket kosmisk glider",
         "hard": "Transport"
       }
     },
@@ -6377,7 +6377,7 @@
     {
       "word": "Gondol",
       "clues": {
-        "easy": "Dyttet langs Venezia-kanalene ved å stå åregondolier",
+        "easy": "Dyttet langs Venezia-kanalene ved å stå årefartøyier",
         "medium": "Asymmetrisk venetiansk kanal robåt",
         "hard": "Transport"
       }
@@ -6385,7 +6385,7 @@
     {
       "word": "Utrigger kano",
       "clues": {
-        "easy": "Stillehavsøyer-sjøfartskano med balansekant",
+        "easy": "Stillehavsøyboer sjøfartsgrav med balansekant",
         "medium": "Sideflytende stabilisert polynesisk reisefartøy",
         "hard": "Transport"
       }
@@ -6409,8 +6409,8 @@
     {
       "word": "Rådamper",
       "clues": {
-        "easy": "Elvefartøy drevet av skovlhjul som karrer vann",
-        "medium": "Hekkhjul eller sidehjul dampfremdriftsfartøy",
+        "easy": "Elvefartøy drevet av gigantiske kjernehjul",
+        "medium": "Hekkhjul eller sidehjuls dampfremdriftsfartøy",
         "hard": "Transport"
       }
     }
@@ -6467,7 +6467,7 @@
     {
       "word": "Tåke",
       "clues": {
-        "easy": "Tykk tåke i lav høyde reduserer sikten",
+        "easy": "Tykk naturelement i lav høyde reduserer sikten",
         "medium": "Vanndampkondensering på bakkenivå",
         "hard": "Nature"
       }
@@ -6643,8 +6643,8 @@
     {
       "word": "Sanddyne",
       "clues": {
-        "easy": "Skiftende halvmånebakke av ørkensand",
-        "medium": "Eolisk vindskulpturert sandavsetning",
+        "easy": "Skiftende halvmånebakke av ørkensilika",
+        "medium": "Eolisk vindskulpturert ørkensedimentrygg",
         "hard": "Nature"
       }
     },
@@ -6732,7 +6732,7 @@
       "word": "Solformørkelse",
       "clues": {
         "easy": "Mørke på dagtid når månen blokkerer sollys",
-        "medium": "Himmelsk okkultasjon av solskiven",
+        "medium": "Himmelsk okkultasjon av stjerneskive på dagtid",
         "hard": "Nature"
       }
     },
@@ -6843,7 +6843,7 @@
     {
       "word": "Furu",
       "clues": {
-        "easy": "Kjeglebærende tømmer holder seg grønt hele året",
+        "easy": "Kjeglebærende duftende tømmer som holder seg grønt hele året",
         "medium": "Nålebærende harpiksholdig bartrær",
         "hard": "Nature"
       }
@@ -6867,8 +6867,8 @@
     {
       "word": "Sopp",
       "clues": {
-        "easy": "Paraplyformet soppsporeproduserende fruktlegeme",
-        "medium": "Sporebærende soppfruktkropp",
+        "easy": "Paraplyformet naturelementsporeproduserende fruktlegeme",
+        "medium": "Sporebærende naturelementfruktkropp",
         "hard": "Nature"
       }
     },
@@ -6923,7 +6923,7 @@
     {
       "word": "Varm kilde",
       "clues": {
-        "easy": "Mineralrik vår som bobler av vulkansk varme",
+        "easy": "Mineralrik fontene som bobler av vulkansk naturelemente",
         "medium": "Geotermisk oppvarmet grunnvannsbasseng",
         "hard": "Nature"
       }
@@ -6931,7 +6931,7 @@
     {
       "word": "Tidevannsbasseng",
       "clues": {
-        "easy": "Miniatyr tidevannshabitat eksponert ved lavvann",
+        "easy": "Miniatyr marine habitat eksponert ved lav sjøfordypning",
         "medium": "Mellomtidevann steinete kystbasseng",
         "hard": "Nature"
       }
@@ -7147,8 +7147,8 @@
     {
       "word": "Vannsprut",
       "clues": {
-        "easy": "Tornadovirvel som kjerner vannoverflaten til skum",
-        "medium": "Intens søyleformet oseanisk vannvirvel",
+        "easy": "Tornadovirvel som kjerner havoverflaten til skum",
+        "medium": "Intens søyleformet oseanisk væskevirvel",
         "hard": "Nature"
       }
     },
@@ -7203,8 +7203,8 @@
     {
       "word": "Tidevannsboring",
       "clues": {
-        "easy": "Ekte flodbølge som går innover i landet oppover smalende elvemunning",
-        "medium": "Oppstrøms tidevannsbølge i avsmalnende elv",
+        "easy": "Ekte havbølge som beveger seg innover i landet oppover smalende elvemunning",
+        "medium": "Oppstrøms bølgevegg i innsnevrende kyst-elv",
         "hard": "Nature"
       }
     },
@@ -7350,7 +7350,7 @@
       "word": "Fagott",
       "clues": {
         "easy": "Dype tretoner gjennom buet bocal krok",
-        "medium": "Dobbelsiv brettet tenor-bass treblås",
+        "medium": "Dobbelsiv brettet lavregistrert treblås",
         "hard": "Music"
       }
     },
@@ -7366,7 +7366,7 @@
       "word": "Fransk horn",
       "clues": {
         "easy": "Høyre hånd plassert inne i bred messingklokke",
-        "medium": "Tett opprullet messinghorn med roterende ventil",
+        "medium": "Tettkveilet roterende ventil blåseinstrument i messing",
         "hard": "Music"
       }
     },
@@ -7437,7 +7437,7 @@
     {
       "word": "Bassgitar",
       "clues": {
-        "easy": "Plukker tykke bassstrenger med fingrene",
+        "easy": "Plukker tykke, tunge strenger med fingrene",
         "medium": "Lavfrekvent firestrengs rytmefundament",
         "hard": "Music"
       }
@@ -7510,7 +7510,7 @@
       "word": "Kontrabass",
       "clues": {
         "easy": "Høyeste orkesterstreng som står på gulvnål",
-        "medium": "Lavest tonebøyd orkesterkontrabass",
+        "medium": "Lavest tonebøyd orkesterlydstykke",
         "hard": "Music"
       }
     },
@@ -7526,7 +7526,7 @@
       "word": "Snaretromme",
       "clues": {
         "easy": "Skarp marsjerull og rimshot backbeat",
-        "medium": "Spenne metallsnarer under trommeskinnet nederst",
+        "medium": "Oppstrakte kveilede ledninger under bunnen av rørehodet",
         "hard": "Music"
       }
     },
@@ -7558,7 +7558,7 @@
       "word": "Ståltrommel",
       "clues": {
         "easy": "Hamret konkav metallpanne ringing med øytoner",
-        "medium": "Konkavhamret stålpanneslagverk",
+        "medium": "Konkav-hamret legering pan perkusjon",
         "hard": "Music"
       }
     },
@@ -7654,7 +7654,7 @@
       "word": "Rockemusikk",
       "clues": {
         "easy": "Power-akkorder, trommesett backbeat og rå vokal",
-        "medium": "Gitardrevet forsterket populærmusikksjanger",
+        "medium": "Gitardrevet forsterket stadion sonisk sjanger",
         "hard": "Music"
       }
     },
@@ -7678,7 +7678,7 @@
       "word": "Countrymusikk",
       "clues": {
         "easy": "Historiefortellende tekster om livet på landsbygda og hjertesorg",
-        "medium": "Landlig amerikansk rootsmusikk med akustisk twang",
+        "medium": "Landlig amerikansk roots-balladetradisjon med akustisk twang",
         "hard": "Music"
       }
     },
@@ -7686,7 +7686,7 @@
       "word": "Klassisk musikk",
       "clues": {
         "easy": "Sonater, symfonier og konserter fra tidligere tider",
-        "medium": "Formell europeisk kunstmusikktradisjon",
+        "medium": "Formell europeisk orkesterkunsttradisjon",
         "hard": "Music"
       }
     },
@@ -7702,7 +7702,7 @@
       "word": "Folkemusikk",
       "clues": {
         "easy": "Akustiske gitarer, banjoer og fortellerballader",
-        "medium": "Tradisjonell lokalsamfunnsbasert akustisk musikkarv",
+        "medium": "Tradisjonell lokalsamfunnsbasert akustisk arv",
         "hard": "Music"
       }
     },
@@ -7718,7 +7718,7 @@
       "word": "Punk rock",
       "clues": {
         "easy": "Forvrengte gitarer, energiske rop og anti-etablissementstekster",
-        "medium": "Rask-tempo nedstrippet forvrengt rock",
+        "medium": "Rask-tempo nedstrippede forvrengte opprørsakkorder",
         "hard": "Music"
       }
     },
@@ -7742,7 +7742,7 @@
       "word": "Salsa musikk",
       "clues": {
         "easy": "Trombonestøt, congaer og synkopert clave-beat",
-        "medium": "Høytempo synkopert afro-karibisk dansemusikk",
+        "medium": "Høytempo synkopert afro-karibisk dansegroove",
         "hard": "Music"
       }
     },
@@ -7797,7 +7797,7 @@
     {
       "word": "Vuggesang",
       "clues": {
-        "easy": "Stille melodisk melodi sunget for å roe en vugge",
+        "easy": "Stille melodisk melodi sunget for å roe en lydstykke",
         "medium": "Cradle-sang komponert for å indusere søvn",
         "hard": "Music"
       }
@@ -7885,15 +7885,15 @@
     {
       "word": "Musikkstativ",
       "clues": {
-        "easy": "Justerbart stativ som støtter noter for spillere",
-        "medium": "Justerbart stativbrett som støtter musikalsk notasjon",
+        "easy": "Justerbart stativ som støtter sangark for orkesterspillere",
+        "medium": "Justerbart stativbrett som støtter håndskrevet notasjon",
         "hard": "Music"
       }
     },
     {
       "word": "Noter",
       "clues": {
-        "easy": "Svarte noter, nøkler og takter lest av musikere",
+        "easy": "Svarte lydstykke, nøkler og mål lest av utøvere",
         "medium": "Gravert trykt notasjon for ytelse",
         "hard": "Music"
       }
@@ -8031,7 +8031,7 @@
     {
       "word": "Maleri",
       "clues": {
-        "easy": "Staffeli, malingspalett og fargede pigmenter",
+        "easy": "Staffeli, trepalett og fargede pigmenter",
         "medium": "Pigmentpåføring på strukket lerret",
         "hard": "Hobbies"
       }
@@ -8047,7 +8047,7 @@
     {
       "word": "Strikking",
       "clues": {
-        "easy": "Legge opp masker for å strikke gensere",
+        "easy": "Legge opp masker for å lage ullgensere",
         "medium": "Sammenlåsende garnløkker med tvillingnåler",
         "hard": "Hobbies"
       }
@@ -8064,7 +8064,7 @@
       "word": "Hagearbeid",
       "clues": {
         "easy": "Murskje, frø, vannkanne og mulch",
-        "medium": "Hagebruksdyrking av hagebed",
+        "medium": "Hagebruksdyrking av bakgårdsjordbed",
         "hard": "Hobbies"
       }
     },
@@ -8072,7 +8072,7 @@
       "word": "Matlaging",
       "clues": {
         "easy": "Å kutte grønnsaker, krydde og steke panner",
-        "medium": "Kulinarisk matlaging og krydder",
+        "medium": "Kulinarisk aktivitet og krydder",
         "hard": "Hobbies"
       }
     },
@@ -8088,7 +8088,7 @@
       "word": "Fiske",
       "clues": {
         "easy": "Agnkrok, kasteline og snelle",
-        "medium": "Fiske med agnet krok og line",
+        "medium": "aktivitet med agnet krok og line",
         "hard": "Hobbies"
       }
     },
@@ -8103,7 +8103,7 @@
     {
       "word": "Camping",
       "clues": {
-        "easy": "Bålplass, soveposer og skogscamping",
+        "easy": "Bålplass, soveposer og skogsaktivitet",
         "medium": "Overnatting utendørs villmarksskjul",
         "hard": "Hobbies"
       }
@@ -8159,7 +8159,7 @@
     {
       "word": "Trebearbeiding",
       "clues": {
-        "easy": "Meisler, sager, trelim og sliping",
+        "easy": "Meisler, sager, snekkerlim og sliping",
         "medium": "Snekker- og møbelskjæring i tre",
         "hard": "Hobbies"
       }
@@ -8192,7 +8192,7 @@
       "word": "Sjakk",
       "clues": {
         "easy": "Riddere i bevegelse, biskoper, bønder og konger",
-        "medium": "Sjakkmattkonge på rutenett",
+        "medium": "aktivitetmattkonge på rutenett",
         "hard": "Hobbies"
       }
     },
@@ -8239,8 +8239,8 @@
     {
       "word": "Kortspill",
       "clues": {
-        "easy": "Blande, dele ut farger og ta korttriks",
-        "medium": "Spill med veddemål eller tilfeldig spillkort",
+        "easy": "Blande, dele ut dresser og ta vinnende triks",
+        "medium": "Spill med veddemål eller tilfeldig trykt kortstokk",
         "hard": "Hobbies"
       }
     },
@@ -8327,7 +8327,7 @@
     {
       "word": "Svømming",
       "clues": {
-        "easy": "Vernebriller, badehette og vannstrøk",
+        "easy": "Vernebriller, gummihette og akvatiske strøk",
         "medium": "Vannbasseng runde trening slag",
         "hard": "Hobbies"
       }
@@ -8344,14 +8344,14 @@
       "word": "Skateboarding",
       "clues": {
         "easy": "Trener ollies og kickflips på fortau",
-        "medium": "Firehjuls skateboardmanøvrering",
+        "medium": "Firehjuls grip-tape-dekkmanøvrering",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Surfing",
       "clues": {
-        "easy": "Padling ut til havdønninger og carving surfe",
+        "easy": "Padling ut til havdønninger og ri brytende bølger",
         "medium": "Ridende havdønning på flytende brett",
         "hard": "Hobbies"
       }
@@ -8367,8 +8367,8 @@
     {
       "word": "Snowboardkjøring",
       "clues": {
-        "easy": "Carving snødekte fjellsvinger med oppstartet brett",
-        "medium": "Enkeltplanke alpin snøskjæring",
+        "easy": "Carving frosne fjellsvinger med oppstartet dekk",
+        "medium": "Enkelt planke alpin pudderutskjæring",
         "hard": "Hobbies"
       }
     },
@@ -8392,7 +8392,7 @@
       "word": "Ridning",
       "clues": {
         "easy": "Sitter i sal og holder tøyler i skinn",
-        "medium": "Hestesport salbalanse og stikjøring",
+        "medium": "Ryttersalbalanse og stiturer på landsbygda",
         "hard": "Hobbies"
       }
     },
@@ -8416,7 +8416,7 @@
       "word": "Vekttrening",
       "clues": {
         "easy": "Gjør muskelsett, benkpress og knebøy",
-        "medium": "Progressiv overbelastningstrening",
+        "medium": "Progressive overbelastning vektstang motstand sett",
         "hard": "Hobbies"
       }
     },
@@ -8447,7 +8447,7 @@
     {
       "word": "Salsa dans",
       "clues": {
-        "easy": "Trapper til positive afro-cubanske salsarytmer",
+        "easy": "Stepping til positive afro-cubanske rytmiske beats",
         "medium": "Raske synkoperte latinske partnerspinn",
         "hard": "Hobbies"
       }
@@ -8464,7 +8464,7 @@
       "word": "Hjemmebrygging",
       "clues": {
         "easy": "Kokende maltet bygg, humle og gjærende gjær",
-        "medium": "Små batch kornbrygging og gjæring",
+        "medium": "Små batch craft ale vørtgjæring",
         "hard": "Hobbies"
       }
     },
@@ -8479,8 +8479,8 @@
     {
       "word": "Kaffebrenning",
       "clues": {
-        "easy": "Overvåking av stekevarme, sprekklyder og aroma",
-        "medium": "Termisk pyrolyse av grønne kaffefrø",
+        "easy": "Overvåker trommelvarme, sprekklyder og brunende aroma",
+        "medium": "Termisk pyrolyse av rå javabønner",
         "hard": "Hobbies"
       }
     },
@@ -8512,7 +8512,7 @@
       "word": "Metalldeteksjon",
       "clues": {
         "easy": "Lytter etter pip for å finne nedgravde mynter",
-        "medium": "Elektromagnetisk jordskanning for metaller",
+        "medium": "Elektromagnetisk jordskanning for nedgravde relikvier",
         "hard": "Hobbies"
       }
     },
@@ -8527,7 +8527,7 @@
     {
       "word": "Drageflyging",
       "clues": {
-        "easy": "Fanger havvind for å holde kiten oppe",
+        "easy": "Fanger havvind for å holde nylondiamant oppe",
         "medium": "Aerodynamisk flukt med bundet vind",
         "hard": "Hobbies"
       }
@@ -8535,7 +8535,7 @@
     {
       "word": "Drone som flyr",
       "clues": {
-        "easy": "Dual-stick kontroller som navigerer luftbåren drone",
+        "easy": "Dual-stick kontroller aktivitet navigerer luftbåren multirotor",
         "medium": "Fjernstyrt quadcopter-flyging",
         "hard": "Hobbies"
       }
@@ -8543,7 +8543,7 @@
     {
       "word": "Rollespill",
       "clues": {
-        "easy": "Spillmester som beskriver fantasy-oppdrag med karakterark",
+        "easy": "Dungeon-historieforteller som beskriver fantasy-oppdrag med karakterark",
         "medium": "Samarbeidende terningdrevet fantasyfortelling",
         "hard": "Hobbies"
       }
@@ -8552,7 +8552,7 @@
       "word": "Rømningsrom",
       "clues": {
         "easy": "Dechiffrere skjulte gåter for å låse opp døren",
-        "medium": "Kooperativt rompuslespill med tema",
+        "medium": "Samarbeidsmysterium med forseglet kammer med tema",
         "hard": "Hobbies"
       }
     },
@@ -8575,8 +8575,8 @@
     {
       "word": "Filmskaping",
       "clues": {
-        "easy": "Manusskriving, innramming av kamerabilder og redigering av film",
-        "medium": "Filmproduksjonshåndverk for film",
+        "easy": "Manusskriving, innramming av kamerabilder og klipping av bevegelsesruller",
+        "medium": "aktivitetproduksjonshåndverk for aktivitet",
         "hard": "Hobbies"
       }
     },
@@ -8608,7 +8608,7 @@
       "word": "Skinke radio",
       "clues": {
         "easy": "Kringkaster kallesignaler på høyfrekvente transceiver",
-        "medium": "Amatørradiofrekvensoverføring",
+        "medium": "Amatør trådløs frekvensoverføring",
         "hard": "Hobbies"
       }
     },
@@ -8639,7 +8639,7 @@
     {
       "word": "Hundetrening",
       "clues": {
-        "easy": "Klikkertrening, godbiter og kommandoer for båndhæl",
+        "easy": "Klikker-coaching, godbiter og båndhælkommandoer",
         "medium": "Hundeoperant kondisjonering og lydighet",
         "hard": "Hobbies"
       }
@@ -8671,7 +8671,7 @@
     {
       "word": "Quilting",
       "clues": {
-        "easy": "Patchwork quilt topp, vatt og mønstrede sømmer",
+        "easy": "Patchwork-mønstret topp, batting og dekorative sømmer",
         "medium": "Flerlags patchwork tekstilsøm",
         "hard": "Hobbies"
       }
@@ -8711,8 +8711,8 @@
     {
       "word": "Blomsterarrangement",
       "clues": {
-        "easy": "Beskjæring av blomsterstengler og balansering av blomsterfarger",
-        "medium": "Blomsterdekorasjon og floral stammebalanse",
+        "easy": "Beskjæring av bukettstengler og balansering av livlige blomsterfarger",
+        "medium": "Blomsterdesign og blomstrende stilkbalanse",
         "hard": "Hobbies"
       }
     },
@@ -8728,14 +8728,14 @@
       "word": "Språkopplæring",
       "clues": {
         "easy": "Flashcards, uttalelyd og grammatikkøvelse",
-        "medium": "Andrespråklig leksikalsk tilegnelse",
+        "medium": "Utenlandsk talevokabular og grammatikkinnsamling",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Vinylsamling",
       "clues": {
-        "easy": "Kassegravende tolv-tommers vinylalbum i ermer",
+        "easy": "Kassegravende tolvtommers rillealbum i papphylser",
         "medium": "Arkivering av analoge fonografplater",
         "hard": "Hobbies"
       }
@@ -8775,7 +8775,7 @@
     {
       "word": "Smykkefremstilling",
       "clues": {
-        "easy": "Smykketang, trådkutter, perler og låser",
+        "easy": "Lage tang, trådkuttere, perler og spenner",
         "medium": "Håndlaget konstruksjon av bærbare ornamenter",
         "hard": "Hobbies"
       }
@@ -8783,16 +8783,16 @@
     {
       "word": "Glassblåsing",
       "clues": {
-        "easy": "Samler glødende smeltet glass fra varm ovn",
-        "medium": "Termisk manipulering av smeltet glassboble",
+        "easy": "Samler glødende smeltet silika fra varm ovn",
+        "medium": "Termisk manipulering av smeltet glødende silikaboble",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Farget glass",
       "clues": {
-        "easy": "Skjæring av fargede glassbiter og loddeskjøter",
-        "medium": "Blyloddet farget kunstglassmontasje",
+        "easy": "Kutting av fargede dekorative ruter og loddeskjøter",
+        "medium": "Blyloddet aktivitet dekorativ panelmontering",
         "hard": "Hobbies"
       }
     },
@@ -8807,16 +8807,16 @@
     {
       "word": "Brevskriving",
       "clues": {
-        "easy": "Brevpapir, fyllepenn og voksforsegling",
-        "medium": "Epistolær postbrevsammensetning",
+        "easy": "Papirpapir, pergament, fyllepenn og voksforsegling",
+        "medium": "Epistolær postpergamentsammensetning",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Urban skissering",
       "clues": {
-        "easy": "Akvareller og blekkpenn i bærbar skissebok",
-        "medium": "Plein-air observasjonsarkitektonisk skisse",
+        "easy": "Akvareller og blekkpenn i bærbar tegneblokk",
+        "medium": "Plein-air observerende arkitektonisk tegning",
         "hard": "Hobbies"
       }
     }

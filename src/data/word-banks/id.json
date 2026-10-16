@@ -43,7 +43,7 @@
     {
       "word": "Sikat gigi",
       "clues": {
-        "easy": "Pegangan gigi berbulu kecil",
+        "easy": "Pegangan peranti berbulu kecil",
         "medium": "Tongkat berbulu dua kali sehari",
         "hard": "Everyday Objects"
       }
@@ -84,7 +84,7 @@
       "word": "Bantal",
       "clues": {
         "easy": "Alas tidur empuk",
-        "medium": "Bantalan kepala berbulu",
+        "medium": "perantian kepala berbulu",
         "hard": "Everyday Objects"
       }
     },
@@ -116,7 +116,7 @@
       "word": "Tangga",
       "clues": {
         "easy": "Melangkah di antara dua rel tegak",
-        "medium": "Anak tangga paralel menaik",
+        "medium": "Anak peranti paralel menaik",
         "hard": "Everyday Objects"
       }
     },
@@ -163,7 +163,7 @@
     {
       "word": "Senter",
       "clues": {
-        "easy": "Senter portabel bertenaga baterai",
+        "easy": "peranti portabel bertenaga baterai",
         "medium": "Sinar gelap genggam",
         "hard": "Everyday Objects"
       }
@@ -244,7 +244,7 @@
       "word": "Tirai",
       "clues": {
         "easy": "Kain terbungkus menghalangi cahaya jendela",
-        "medium": "Tirai kain jendela lipit",
+        "medium": "peranti kain jendela lipit",
         "hard": "Everyday Objects"
       }
     },
@@ -275,8 +275,8 @@
     {
       "word": "Lampu meja",
       "clues": {
-        "easy": "Bola lampu berbayang dengan alas",
-        "medium": "Silinder pijar meja",
+        "easy": "Bola peranti berbayang dengan alas",
+        "medium": "Silinder pijar peranti",
         "hard": "Everyday Objects"
       }
     },
@@ -284,7 +284,7 @@
       "word": "Kipas angin listrik",
       "clues": {
         "easy": "Bilah pendingin yang dilindungi berputar",
-        "medium": "Angin sepoi-sepoi yang berosilasi",
+        "medium": "peranti sepoi-sepoi yang berosilasi",
         "hard": "Everyday Objects"
       }
     },
@@ -340,14 +340,14 @@
       "word": "Lem tongkat",
       "clues": {
         "easy": "Silinder perekat padat untuk kertas",
-        "medium": "Silinder perekat kertas lengket",
+        "medium": "Silinder perekat kertas yang dapat dipilin",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Pita perekat",
       "clues": {
-        "easy": "Gulungan pita perekat bening",
+        "easy": "Gulungan peranti bening",
         "medium": "Kumparan lengket yang dipotong dispenser",
         "hard": "Everyday Objects"
       }
@@ -395,7 +395,7 @@
     {
       "word": "Bola lampu",
       "clues": {
-        "easy": "Bola kaca bersinar karena arus",
+        "easy": "peranti kaca bersinar karena arus",
         "medium": "Soket penerangan filamen atau LED",
         "hard": "Everyday Objects"
       }
@@ -427,8 +427,8 @@
     {
       "word": "ember",
       "clues": {
-        "easy": "Buka ember dengan pegangan kawat",
-        "medium": "Ember bundar pengangkut air",
+        "easy": "Buka peranti dengan pegangan kawat",
+        "medium": "peranti bundar pengangkut air",
         "hard": "Everyday Objects"
       }
     },
@@ -444,14 +444,14 @@
       "word": "Sabun batangan",
       "clues": {
         "easy": "Balok licin yang menghasilkan busa",
-        "medium": "Batangan berbusa beraroma",
+        "medium": "Blok kamar mandi berbusa beraroma",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Handuk mandi",
       "clues": {
-        "easy": "Kain terry kamar mandi dengan daya serap besar",
+        "easy": "Terrycloth shower penyerap besar",
         "medium": "Bungkus kelembapan kapas yang dilingkarkan",
         "hard": "Everyday Objects"
       }
@@ -475,7 +475,7 @@
     {
       "word": "Pisau cukur",
       "clues": {
-        "easy": "Pegangan genggam dengan pisau tajam",
+        "easy": "Pegangan genggam dengan peranti tajam",
         "medium": "Kartrid pencukur perawatan",
         "hard": "Everyday Objects"
       }
@@ -523,8 +523,8 @@
     {
       "word": "tali sepatu",
       "clues": {
-        "easy": "Tali tenun diikatkan pada alas kaki",
-        "medium": "Tali jalinan berujung aglet",
+        "easy": "peranti tenun diikatkan pada alas kaki",
+        "medium": "peranti jalinan berujung aglet",
         "hard": "Everyday Objects"
       }
     },
@@ -571,15 +571,15 @@
     {
       "word": "Tempat sampah",
       "clues": {
-        "easy": "Tempat sampah berlapis",
-        "medium": "Wadah sampah dapur",
+        "easy": "peranti berlapis",
+        "medium": "Wadah peranti dapur",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Keranjang cucian",
       "clues": {
-        "easy": "Keranjang berventilasi untuk pakaian",
+        "easy": "peranti berventilasi untuk pakaian",
         "medium": "Tempat pakaian kotor berbahan anyaman",
         "hard": "Everyday Objects"
       }
@@ -603,7 +603,7 @@
     {
       "word": "Wajan penggorengan",
       "clues": {
-        "easy": "Wajan masak logam dengan dasar datar",
+        "easy": "peranti masak logam dengan dasar datar",
         "medium": "Logam dengan dasar datar yang mendesis",
         "hard": "Everyday Objects"
       }
@@ -635,8 +635,8 @@
     {
       "word": "Sarung tangan oven",
       "clues": {
-        "easy": "Sarung tangan dapur kain terisolasi",
-        "medium": "Sarung tangan berlapis tahan panas",
+        "easy": "peranti peranti dapur kain terisolasi",
+        "medium": "peranti peranti berlapis tahan panas",
         "hard": "Everyday Objects"
       }
     },
@@ -684,7 +684,7 @@
       "word": "Kotak makan siang",
       "clues": {
         "easy": "Wadah portabel untuk sandwich",
-        "medium": "Paket makan tengah hari kompartemen",
+        "medium": "Paket peranti tengah hari kompartemen",
         "hard": "Everyday Objects"
       }
     },
@@ -732,7 +732,7 @@
       "word": "penggilas adonan",
       "clues": {
         "easy": "Kue penghalus silinder berat",
-        "medium": "Rol perata adonan yang ditangani",
+        "medium": "Rol perata peranti yang ditangani",
         "hard": "Everyday Objects"
       }
     },
@@ -747,7 +747,7 @@
     {
       "word": "Nampan es batu",
       "clues": {
-        "easy": "Cetakan freezer kompartemen untuk kubus",
+        "easy": "Cetakan freezer kompartemen untuk blok pendingin",
         "medium": "Cetakan di bawah nol yang dipartisi",
         "hard": "Everyday Objects"
       }
@@ -755,7 +755,7 @@
     {
       "word": "Kait mantel",
       "clues": {
-        "easy": "Gantungan yang dipasang di dinding untuk mantel",
+        "easy": "Gantungan dinding untuk pakaian luar",
         "medium": "Cabang dinding melengkung untuk jaket",
         "hard": "Everyday Objects"
       }
@@ -795,7 +795,7 @@
     {
       "word": "pasta gigi",
       "clues": {
-        "easy": "Pasta berbusa dari tabung",
+        "easy": "peranti berbusa dari tabung",
         "medium": "Busa fluoride untuk bulu pagi hari",
         "hard": "Everyday Objects"
       }
@@ -822,7 +822,7 @@
       "word": "coklat",
       "clues": {
         "easy": "Penganan kaya dari biji kakao",
-        "medium": "Kue coklat hitam yang meleleh",
+        "medium": "Kue sajian hitam yang meleleh",
         "hard": "Food"
       }
     },
@@ -878,7 +878,7 @@
       "word": "Es krim",
       "clues": {
         "easy": "Camilan susu dingin yang diaduk",
-        "medium": "Krim susu manis yang meleleh",
+        "medium": "Sendok susu beku manis yang meleleh",
         "hard": "Food"
       }
     },
@@ -909,7 +909,7 @@
     {
       "word": "jagung popcorn",
       "clues": {
-        "easy": "Biji jagung yang dipanaskan pecah",
+        "easy": "Biji sajian yang dipanaskan pecah",
         "medium": "Biji asin mentega yang meledak",
         "hard": "Food"
       }
@@ -1005,8 +1005,8 @@
     {
       "word": "lumpia",
       "clues": {
-        "easy": "Pembungkus tipis digulung di sekeliling isian",
-        "medium": "Kue gulung goreng bening",
+        "easy": "Bungkus tipis membungkus isian yang renyah",
+        "medium": "Silinder kue goreng tembus pandang",
         "hard": "Food"
       }
     },
@@ -1053,7 +1053,7 @@
     {
       "word": "Sup miso",
       "clues": {
-        "easy": "Sup pasta kedelai yang difermentasi dengan dashi",
+        "easy": "Kaldu pasta kedelai yang difermentasi dengan dashi",
         "medium": "Kaldu sarapan keruh dengan daun bawang",
         "hard": "Food"
       }
@@ -1086,15 +1086,15 @@
       "word": "Sirup maple",
       "clues": {
         "easy": "Getah pohon yang direbus untuk sarapan",
-        "medium": "Sirup pohon daun rebus kuning",
+        "medium": "Pengurangan pohon gugur yang direbus dengan amber",
         "hard": "Food"
       }
     },
     {
       "word": "Selai kacang",
       "clues": {
-        "easy": "Pasta kacang-kacangan untuk sandwich",
-        "medium": "Selai kacang polong panggang yang lengket",
+        "easy": "Pasta sajian-polong-polongan untuk sandwich",
+        "medium": "sajian polong panggang yang lengket",
         "hard": "Food"
       }
     },
@@ -1118,7 +1118,7 @@
       "word": "Susu",
       "clues": {
         "easy": "Minuman putih bergizi dalam karton",
-        "medium": "Cairan susu kaya kalsium",
+        "medium": "Cairan sajian kaya kalsium",
         "hard": "Food"
       }
     },
@@ -1149,7 +1149,7 @@
     {
       "word": "kentang goreng",
       "clues": {
-        "easy": "Tongkat kentang asin emas",
+        "easy": "Tongkat sajian asin emas",
         "medium": "Tongkat berlengan kertas asin",
         "hard": "Food"
       }
@@ -1165,16 +1165,16 @@
     {
       "word": "Kentang tumbuk",
       "clues": {
-        "easy": "Lauk kentang berbumbu kocok",
-        "medium": "Kentang tumbuk dengan krim leleh",
+        "easy": "Lauk sajian kocok yang sudah dibumbui",
+        "medium": "sajian dengan krim leleh",
         "hard": "Food"
       }
     },
     {
       "word": "kentang panggang",
       "clues": {
-        "easy": "Kentang yang dibungkus kertas timah dengan krim asam",
-        "medium": "Belah kulit kentang yang masih mengepul",
+        "easy": "sajian utuh yang dibungkus foil dengan krim asam",
+        "medium": "Belah kulit sajian yang masih mengepul",
         "hard": "Food"
       }
     },
@@ -1197,7 +1197,7 @@
     {
       "word": "Sup tomat",
       "clues": {
-        "easy": "Sup merah krim dipadukan dengan roti panggang",
+        "easy": "Kaldu kental merah yang dihaluskan dipadukan dengan roti panggang",
         "medium": "Mangkuk buah anggur merah yang dihaluskan hangat",
         "hard": "Food"
       }
@@ -1213,15 +1213,15 @@
     {
       "word": "telur dadar",
       "clues": {
-        "easy": "Telur yang dimasak dalam wajan dilipat mengelilingi isian",
-        "medium": "Amplop telur wajan terselip",
+        "easy": "sajian yang dimasak dalam wajan dilipat mengelilingi isian",
+        "medium": "Amplop sajian wajan terselip",
         "hard": "Food"
       }
     },
     {
       "word": "Telur orak-arik",
       "clues": {
-        "easy": "Telur wajan sarapan diaduk",
+        "easy": "Dadih kuning sajian yang diaduk untuk sarapan",
         "medium": "Dadih wajan lembut di atas roti panggang",
         "hard": "Food"
       }
@@ -1229,8 +1229,8 @@
     {
       "word": "daging babi asap",
       "clues": {
-        "easy": "Potongan perut babi untuk sarapan yang mendesis",
-        "medium": "Strip asap sarapan bergaris yang diawetkan",
+        "easy": "Potongan perut sajian untuk sarapan yang mendesis",
+        "medium": "Strip sajian sarapan bergaris yang diawetkan",
         "hard": "Food"
       }
     },
@@ -1245,7 +1245,7 @@
     {
       "word": "bakso",
       "clues": {
-        "easy": "Bola daging berbumbu direbus dalam saus",
+        "easy": "Bola gurih yang dibumbui direbus dalam saus",
         "medium": "Bola daging sapi direbus di marinara",
         "hard": "Food"
       }
@@ -1253,8 +1253,8 @@
     {
       "word": "daging panggang",
       "clues": {
-        "easy": "Potongan daging merah panggang dengan kerak",
-        "medium": "Potongan daging pinggang sapi yang diukir",
+        "easy": "Potongan sajian merah sajian dengan kerak",
+        "medium": "Potongan sajian pinggang sapi yang diukir",
         "hard": "Food"
       }
     },
@@ -1269,8 +1269,8 @@
     {
       "word": "Ikan dan keripik",
       "clues": {
-        "easy": "Makanan laut renyah dengan kentang goreng dan cuka",
-        "medium": "Ikan goreng tepi laut yang dibungkus koran",
+        "easy": "Makanan laut renyah dengan kentang goreng sajian cuka",
+        "medium": "sajian goreng tepi laut yang dibungkus koran",
         "hard": "Food"
       }
     },
@@ -1278,7 +1278,7 @@
       "word": "Keju panggang",
       "clues": {
         "easy": "Roti goreng dengan bagian tengah produk susu yang lengket",
-        "medium": "Sandwich yang diolesi mentega dengan tarikan keju",
+        "medium": "Sandwich yang diolesi mentega dengan potongan susu yang meleleh",
         "hard": "Food"
       }
     },
@@ -1325,7 +1325,7 @@
     {
       "word": "kue muffin",
       "clues": {
-        "easy": "Cangkir kue panggang satu porsi",
+        "easy": "Cangkir sajian panggang satu porsi",
         "medium": "Cangkir sarapan panggang bertabur buah beri",
         "hard": "Food"
       }
@@ -1333,8 +1333,8 @@
     {
       "word": "kue mangkuk",
       "clues": {
-        "easy": "Kue mini dengan pusaran lapisan gula manis",
-        "medium": "Kue yang dipanggang dalam liner dengan mahkota krim mentega",
+        "easy": "sajian mini dengan pusaran lapisan gula manis",
+        "medium": "sajian yang dipanggang dalam liner dengan mahkota krim mentega",
         "hard": "Food"
       }
     },
@@ -1349,8 +1349,8 @@
     {
       "word": "kue keju",
       "clues": {
-        "easy": "Keju krim manis panggang di atas dasar remah",
-        "medium": "Sepotong kue susu dingin yang padat",
+        "easy": "Puding susu manis panggang di atas dasar remah",
+        "medium": "Sepotong sajian susu dingin yang padat",
         "hard": "Food"
       }
     },
@@ -1373,16 +1373,16 @@
     {
       "word": "Gulungan kayu manis",
       "clues": {
-        "easy": "Adonan gulung panggang diaduk dengan lapisan gula manis",
-        "medium": "Adonan manis berbentuk spiral dengan glasir krim",
+        "easy": "Adonan spiral panggang diaduk dengan lapisan gula sajian",
+        "medium": "Adonan sajian berbentuk spiral dengan glasir krim",
         "hard": "Food"
       }
     },
     {
       "word": "Roti bawang putih",
       "clues": {
-        "easy": "Roti kering yang dipanggang dengan mentega herba",
-        "medium": "Roti herba mentega berwarna kecokelatan di oven",
+        "easy": "sajian irisan berkerak yang dipanggang dengan mentega herba",
+        "medium": "sajian herba mentega berwarna kecokelatan di oven",
         "hard": "Food"
       }
     },
@@ -1397,7 +1397,7 @@
     {
       "word": "saus tomat",
       "clues": {
-        "easy": "Saus merah botolan untuk kentang goreng dan burger",
+        "easy": "sajian merah botolan untuk kentang goreng dan burger",
         "medium": "Semprotan celup berwarna merah tajam",
         "hard": "Food"
       }
@@ -1430,7 +1430,7 @@
       "word": "Minyak zaitun",
       "clues": {
         "easy": "Saus salad emas dan cairan masak",
-        "medium": "Minyak hijau perasan dingin Mediterania",
+        "medium": "Lemak buah mediterania yang diperas dingin",
         "hard": "Food"
       }
     },
@@ -1454,7 +1454,7 @@
       "word": "kayu manis",
       "clues": {
         "easy": "Bubuk coklat bubuk untuk suguhan roti",
-        "medium": "Gulung serutan kulit kayu harum",
+        "medium": "Gulung serutan kulit sajian harum",
         "hard": "Food"
       }
     },
@@ -1502,7 +1502,7 @@
       "word": "gandum",
       "clues": {
         "easy": "Sereal pagi panas dimasak dengan susu",
-        "medium": "Bubur gandum gulung utuh yang direbus",
+        "medium": "Bubur sajian gulung utuh yang direbus",
         "hard": "Food"
       }
     },
@@ -1533,8 +1533,8 @@
     {
       "word": "minuman kocok susu",
       "clues": {
-        "easy": "Minuman air mancur soda dingin yang kental",
-        "medium": "Susu es krim campuran kaca buram",
+        "easy": "sajian air mancur soda dingin yang kental",
+        "medium": "sajian es krim campuran kaca buram",
         "hard": "Food"
       }
     },
@@ -1581,7 +1581,7 @@
     {
       "word": "kue serabi",
       "clues": {
-        "easy": "Kue sandwich Paris bulat dengan ganache",
+        "easy": "sajian sandwich Paris bulat dengan ganache",
         "medium": "Cakram ganda tepung almond dengan ganache",
         "hard": "Food"
       }
@@ -1608,14 +1608,14 @@
       "word": "Anjing",
       "clues": {
         "easy": "Mengibaskan ekor dan mengambil bola",
-        "medium": "Teman domestik anjing",
+        "medium": "Teman domestik makhluk",
         "hard": "Animals"
       }
     },
     {
       "word": "Kucing",
       "clues": {
-        "easy": "Cakar yang bisa ditarik dan keanggunan kucing",
+        "easy": "Cakar yang bisa ditarik dan keanggunan makhluk",
         "medium": "Tikus domestik yang mandiri",
         "hard": "Animals"
       }
@@ -1623,16 +1623,16 @@
     {
       "word": "Kuda",
       "clues": {
-        "easy": "Makhluk kuda dengan surai mengalir",
-        "medium": "Kuda berlari kencang di paddock",
+        "easy": "Makhluk makhluk dengan surai mengalir",
+        "medium": "makhluk berlari kencang di paddock",
         "hard": "Animals"
       }
     },
     {
       "word": "Sapi",
       "clues": {
-        "easy": "Merumput sapi mengunyah makanan",
-        "medium": "Kawanan sapi di padang rumput",
+        "easy": "Merumput makhluk mengunyah makanan",
+        "medium": "Kawanan makhluk di padang rumput",
         "hard": "Animals"
       }
     },
@@ -1640,7 +1640,7 @@
       "word": "Babi",
       "clues": {
         "easy": "Ternak cerdas dengan ekor keriting",
-        "medium": "Babi peternakan yang suka berkubang lumpur",
+        "medium": "makhluk peternakan yang suka berkubang lumpur",
         "hard": "Animals"
       }
     },
@@ -1672,7 +1672,7 @@
       "word": "Ayam jago",
       "clues": {
         "easy": "Burung jantan jambul dengan sisir cerah",
-        "medium": "Ayam lumbung yang memanggil fajar",
+        "medium": "makhluk lumbung yang memanggil fajar",
         "hard": "Animals"
       }
     },
@@ -1735,7 +1735,7 @@
     {
       "word": "Ikan mas",
       "clues": {
-        "easy": "Ikan mangkuk hias air dingin",
+        "easy": "makhluk mangkuk hias air dingin",
         "medium": "Hewan peliharaan tangki air tawar bersisik",
         "hard": "Animals"
       }
@@ -1743,7 +1743,7 @@
     {
       "word": "burung beo",
       "clues": {
-        "easy": "Burung tropis yang bisa berbicara dengan paruh bengkok",
+        "easy": "makhluk tropis yang bisa berbicara dengan paruh bengkok",
         "medium": "Mimik vokal berbulu yang cerah",
         "hard": "Animals"
       }
@@ -1912,7 +1912,7 @@
       "word": "Ular",
       "clues": {
         "easy": "Lidah menjentikkan dan kulit mengelupas bersisik",
-        "medium": "Ular berbisa atau ular yang menyempit",
+        "medium": "makhluk berbisa atau makhluk yang menyempit",
         "hard": "Animals"
       }
     },
@@ -2015,7 +2015,7 @@
     {
       "word": "Beruang grizzly",
       "clues": {
-        "easy": "Beruang berpunuk bahu sedang menangkap salmon sungai",
+        "easy": "Binatang buas berpunuk bahu menangkap salmon sungai",
         "medium": "Omnivora pedalaman yang berhibernasi dan kuat",
         "hard": "Animals"
       }
@@ -2048,7 +2048,7 @@
       "word": "rusa besar",
       "clues": {
         "easy": "Peramban hutan yang menjulang tinggi mengarungi rawa",
-        "medium": "Herbivora lahan basah utara yang besar",
+        "medium": "Herbivora lahan basah utara yang makhluk",
         "hard": "Animals"
       }
     },
@@ -2144,14 +2144,14 @@
       "word": "burung unta",
       "clues": {
         "easy": "Raksasa berlari berjari dua bertelur dalam jumlah besar",
-        "medium": "Burung darat tertinggi dengan tendangan kuat",
+        "medium": "makhluk darat tertinggi dengan tendangan kuat",
         "hard": "Animals"
       }
     },
     {
       "word": "Merpati",
       "clues": {
-        "easy": "Merpati kota yang terombang-ambing memakan remah roti",
+        "easy": "makhluk kota yang terombang-ambing memakan remah roti",
         "medium": "Burung kawanan perkotaan dengan naluri pulang ke rumah",
         "hard": "Animals"
       }
@@ -2167,8 +2167,8 @@
     {
       "word": "burung pipit",
       "clues": {
-        "easy": "Burung lingkungan pemakan biji sehari-hari",
-        "medium": "Burung pengicau kecil berwarna coklat yang suka berteman",
+        "easy": "makhluk lingkungan pemakan biji sehari-hari",
+        "medium": "makhluk pengicau kecil berwarna coklat yang suka berteman",
         "hard": "Animals"
       }
     },
@@ -2255,7 +2255,7 @@
     {
       "word": "bintang laut",
       "clues": {
-        "easy": "Meregenerasi bintang laut di karang",
+        "easy": "Meregenerasi makhluk makhluk berlengan lima di karang",
         "medium": "Perayap bentik radial",
         "hard": "Animals"
       }
@@ -2263,7 +2263,7 @@
     {
       "word": "kuda laut",
       "clues": {
-        "easy": "Makhluk ekor melengkung dengan kepala kuda",
+        "easy": "Makhluk ekor melengkung dengan kepala makhluk",
         "medium": "Perenang tegak lapis baja dengan kantong",
         "hard": "Animals"
       }
@@ -2271,7 +2271,7 @@
     {
       "word": "Ikan badut",
       "clues": {
-        "easy": "Ikan karang belang kebal terhadap sengatan",
+        "easy": "makhluk karang belang kebal terhadap sengatan",
         "medium": "Penghuni karang belang dengan inang simbiosis",
         "hard": "Animals"
       }
@@ -2279,7 +2279,7 @@
     {
       "word": "ikan salmon",
       "clues": {
-        "easy": "Ikan yang bermigrasi melompati jeram sungai",
+        "easy": "makhluk yang bermigrasi melompati jeram sungai",
         "medium": "Perenang anadromous lompat hulu",
         "hard": "Animals"
       }
@@ -2481,8 +2481,8 @@
     {
       "word": "Inggris Raya",
       "clues": {
-        "easy": "Negara kepulauan Inggris dan Skotlandia",
-        "medium": "Monarki konstitusional Kepulauan Inggris",
+        "easy": "Negara kepulauan wilayah dan Skotlandia",
+        "medium": "Monarki konstitusional Kepulauan wilayah",
         "hard": "Countries"
       }
     },
@@ -2673,7 +2673,7 @@
     {
       "word": "Afrika Selatan",
       "clues": {
-        "easy": "Negara pelangi di ujung selatan benua",
+        "easy": "Negara pelangi di Tanjung Harapan",
         "medium": "Negara tanjung dua samudera dengan emas dan berlian",
         "hard": "Countries"
       }
@@ -2745,8 +2745,8 @@
     {
       "word": "Arab Saudi",
       "clues": {
-        "easy": "Jantung Semenanjung Arab dengan ziarah bersejarah",
-        "medium": "Kerajaan menduduki sebagian besar Semenanjung Arab",
+        "easy": "Jantung semenanjung gurun yang luas dengan ziarah Mekah yang bersejarah",
+        "medium": "Kerajaan menduduki sebagian besar semenanjung teluk gurun yang luas",
         "hard": "Countries"
       }
     },
@@ -2866,7 +2866,7 @@
       "word": "Filipina",
       "clues": {
         "easy": "Negara kepulauan Pasifik dengan tujuh ribu pulau",
-        "medium": "Rangkaian pulau antara Laut Cina Selatan dan Laut Filipina",
+        "medium": "Kepulauan tropis antara Selat Luzon dan Laut Sulawesi",
         "hard": "Countries"
       }
     },
@@ -2874,7 +2874,7 @@
       "word": "Korea Selatan",
       "clues": {
         "easy": "Negara semenanjung berteknologi tinggi dengan budaya yang dinamis",
-        "medium": "Republik Asia Timur di selatan paralel ke-38",
+        "medium": "Republik Asia Timur di bawah garis paralel ke-38",
         "hard": "Countries"
       }
     },
@@ -3202,7 +3202,7 @@
       "word": "Kota Vatikan",
       "clues": {
         "easy": "Negara merdeka terkecil di dunia di dalam Roma",
-        "medium": "Daerah kantong kepausan di ibu kota Italia",
+        "medium": "Daerah kantong kepausan di ibu wilayah Italia",
         "hard": "Countries"
       }
     }
@@ -3220,14 +3220,14 @@
       "word": "Perawat",
       "clues": {
         "easy": "Memantau tanda-tanda vital dan memberikan obat-obatan",
-        "medium": "Perawat bangsal layanan kesehatan",
+        "medium": "pakar bangsal layanan kesehatan",
         "hard": "Professions"
       }
     },
     {
       "word": "Dokter gigi",
       "clues": {
-        "easy": "Cermin mulut, probe, dan bor gigi",
+        "easy": "Cermin mulut, probe, dan bor pakar",
         "medium": "Spesialis kesehatan mulut",
         "hard": "Professions"
       }
@@ -3235,7 +3235,7 @@
     {
       "word": "Ahli Bedah",
       "clues": {
-        "easy": "Scrub, pisau bedah, dan ruang operasi steril",
+        "easy": "Scrub, pisau pakar, dan ruang operasi steril",
         "medium": "Spesialis prosedur klinis invasif",
         "hard": "Professions"
       }
@@ -3243,8 +3243,8 @@
     {
       "word": "Dokter hewan",
       "clues": {
-        "easy": "Memeriksa hewan peliharaan dan ternak di klinik",
-        "medium": "Dokter kesehatan hewan",
+        "easy": "Memeriksa pakar peliharaan dan ternak di klinik",
+        "medium": "pakar kesehatan pakar",
         "hard": "Professions"
       }
     },
@@ -3323,7 +3323,7 @@
     {
       "word": "Ahli kimia",
       "clues": {
-        "easy": "Tabung reaksi, gelas kimia, dan reaksi kimia",
+        "easy": "Tabung reaksi, gelas pakar, dan reaksi pakar",
         "medium": "Spesialis sintesis molekul",
         "hard": "Professions"
       }
@@ -3396,7 +3396,7 @@
       "word": "Pramugari",
       "clues": {
         "easy": "Menunjukkan pintu keluar darurat dan keamanan kabin",
-        "medium": "Pramugari kabin penumpang dalam penerbangan",
+        "medium": "pakar kabin penumpang lintas udara",
         "hard": "Professions"
       }
     },
@@ -3420,7 +3420,7 @@
       "word": "Pemadam kebakaran",
       "clues": {
         "easy": "Helm, selang berat, dan truk tangga",
-        "medium": "Spesialis pemadaman kebakaran darurat",
+        "medium": "Spesialis pakaran api darurat",
         "hard": "Professions"
       }
     },
@@ -3428,7 +3428,7 @@
       "word": "Petugas polisi",
       "clues": {
         "easy": "Lencana, seragam, dan patroli darurat komunitas",
-        "medium": "Petugas patroli penegakan hukum",
+        "medium": "Agen patroli berseragam penegak hukum",
         "hard": "Professions"
       }
     },
@@ -3444,7 +3444,7 @@
       "word": "Hakim",
       "clues": {
         "easy": "Jubah hitam, palu, dan keputusan hukum",
-        "medium": "Hakim hukum ruang sidang",
+        "medium": "pakar hukum ruang sidang",
         "hard": "Professions"
       }
     },
@@ -3476,7 +3476,7 @@
       "word": "tukang daging",
       "clues": {
         "easy": "Parang, pisau ukir, dan loker dingin",
-        "medium": "Pembagian daging ternak",
+        "medium": "Pembagian pakar ternak",
         "hard": "Professions"
       }
     },
@@ -3499,8 +3499,8 @@
     {
       "word": "tukang kayu",
       "clues": {
-        "easy": "Gergaji, pita pengukur, dan sambungan kayu",
-        "medium": "Pengrajin rangka dan tukang kayu",
+        "easy": "Gergaji, pita pengukur, dan sambungan pakar",
+        "medium": "Pengrajin rangka dan pakar",
         "hard": "Professions"
       }
     },
@@ -3516,7 +3516,7 @@
       "word": "tukang listrik",
       "clues": {
         "easy": "Tang terisolasi, pemutus sirkuit, dan kabel",
-        "medium": "Pemasang kabel listrik tegangan tinggi",
+        "medium": "Pemasang kabel pakar tegangan tinggi",
         "hard": "Professions"
       }
     },
@@ -3539,7 +3539,7 @@
     {
       "word": "Pelukis",
       "clues": {
-        "easy": "Rol, baki cat, dan kain pelapis",
+        "easy": "Rol, baki pigmen, dan kain pelapis",
         "medium": "Pedagang pelapis permukaan dan finishing",
         "hard": "Professions"
       }
@@ -3548,14 +3548,14 @@
       "word": "Penjahit",
       "clues": {
         "easy": "Pita pengukur, mesin jahit, dan kain custom",
-        "medium": "Tukang dan penjahit pakaian khusus",
+        "medium": "Tukang dan pakar pakaian khusus",
         "hard": "Professions"
       }
     },
     {
       "word": "tukang cukur",
       "clues": {
-        "easy": "Gunting, pisau cukur lurus, dan kursi putar",
+        "easy": "Gunting, pisau pakar lurus, dan kursi putar",
         "medium": "Penata gaya dandanan pria",
         "hard": "Professions"
       }
@@ -3563,16 +3563,16 @@
     {
       "word": "Penata rambut",
       "clues": {
-        "easy": "Kursi salon, gunting, foil, dan pengering rambut",
-        "medium": "Penata salon tata rias",
+        "easy": "Kursi salon, gunting, foil, dan pengering pakar",
+        "medium": "pakar salon tata rias",
         "hard": "Professions"
       }
     },
     {
       "word": "Toko Bunga",
       "clues": {
-        "easy": "Gunting, pita, dan pajangan bunga dingin",
-        "medium": "Perancang rangkaian bunga botani",
+        "easy": "Gunting, pita, dan pajangan pakar dingin",
+        "medium": "Perancang rangkaian pakar botani",
         "hard": "Professions"
       }
     },
@@ -3619,7 +3619,7 @@
     {
       "word": "Musisi",
       "clues": {
-        "easy": "Lembaran musik, ritme, dan instrumen akustik",
+        "easy": "Lembar skor, ritme, dan instrumen akustik",
         "medium": "Artis pertunjukan instrumental",
         "hard": "Professions"
       }
@@ -3636,7 +3636,7 @@
       "word": "Penulis",
       "clues": {
         "easy": "Draf naskah, bab, dan prosa kreatif",
-        "medium": "Penulis sastra dan pencipta prosa",
+        "medium": "pakar sastra dan pencipta prosa",
         "hard": "Professions"
       }
     },
@@ -3652,7 +3652,7 @@
       "word": "Penerjemah",
       "clues": {
         "easy": "Terjemahan headset langsung di pertemuan puncak",
-        "medium": "Penerjemah pidato verbal waktu nyata",
+        "medium": "pakar pidato verbal waktu nyata",
         "hard": "Professions"
       }
     },
@@ -3667,16 +3667,16 @@
     {
       "word": "Bankir",
       "clues": {
-        "easy": "Mengawasi permodalan keuangan dan kredit bank",
-        "medium": "Perbankan komersial dan petugas pinjaman",
+        "easy": "Mengawasi modal keuangan dan kredit komersial",
+        "medium": "Pembiayaan komersial dan petugas pinjaman",
         "hard": "Professions"
       }
     },
     {
       "word": "Kasir",
       "clues": {
-        "easy": "Pemindai kode batang, mesin kasir, dan printer tanda terima",
-        "medium": "Operator tempat penjualan kasir ritel",
+        "easy": "Pemindai kode batang, laci pakar, dan printer tanda terima",
+        "medium": "Operator tempat penjualan pakar ritel",
         "hard": "Professions"
       }
     },
@@ -3691,7 +3691,7 @@
     {
       "word": "pelayan bar",
       "clues": {
-        "easy": "Pengocok koktail, keran bir, dan meja bar",
+        "easy": "Pengocok koktail, keran bir, dan meja pakar",
         "medium": "Ahli mixologi koktail minuman berlisensi",
         "hard": "Professions"
       }
@@ -3699,23 +3699,23 @@
     {
       "word": "Pemandu wisata",
       "clues": {
-        "easy": "Memberikan komentar dan memandu tur jalan kaki",
-        "medium": "Pemimpin ekspedisi wisata budaya",
+        "easy": "Memberikan komentar sejarah untuk pakarwan yang berkunjung",
+        "medium": "Pemimpin ekspedisi pakar budaya",
         "hard": "Professions"
       }
     },
     {
       "word": "Sopir taksi",
       "clues": {
-        "easy": "Menavigasi lalu lintas jalan dengan Argometer dasbor",
-        "medium": "Sopir taksi penumpang jalanan perkotaan",
+        "easy": "Menavigasi lalu lintas jalan dengan pengukur tarif dasbor",
+        "medium": "Operator pakar kuning penumpang jalanan perkotaan",
         "hard": "Professions"
       }
     },
     {
       "word": "Sopir bus",
       "clues": {
-        "easy": "Mengoperasikan bus transit besar di sepanjang pemberhentian terjadwal",
+        "easy": "Mengoperasikan pakar transit besar di sepanjang pemberhentian terjadwal",
         "medium": "Operator rute transit kota",
         "hard": "Professions"
       }
@@ -3723,16 +3723,16 @@
     {
       "word": "Pembawa surat",
       "clues": {
-        "easy": "Membawa tas surat di sepanjang rute jalan",
-        "medium": "Operator pengiriman surat pos dan parsel",
+        "easy": "Membawa tas pakar di sepanjang rute jalan",
+        "medium": "Kurir pengiriman pakar pos dan parsel",
         "hard": "Professions"
       }
     },
     {
       "word": "Kurir pengiriman",
       "clues": {
-        "easy": "Mengendarai van pengiriman dan memindai kode batang paket",
-        "medium": "Kurir parsel di depan pintu mil terakhir",
+        "easy": "Mengendarai van pakar dan memindai kode batang paket",
+        "medium": "Pelari parsel di depan pintu mil terakhir",
         "hard": "Professions"
       }
     },
@@ -3748,7 +3748,7 @@
       "word": "Desainer grafis",
       "clues": {
         "easy": "Perangkat lunak ilustrasi digital dan tipografi",
-        "medium": "Desainer pencitraan merek visual komersial",
+        "medium": "Artis pencitraan merek visual komersial",
         "hard": "Professions"
       }
     },
@@ -3756,7 +3756,7 @@
       "word": "Sutradara film",
       "clues": {
         "easy": "Menyebutkan tindakan, memandu sinematografi, dan pengambilan ulasan",
-        "medium": "Sutradara film sinematik",
+        "medium": "Pengarang pakar sinematik",
         "hard": "Professions"
       }
     },
@@ -3772,7 +3772,7 @@
       "word": "Pelatih",
       "clues": {
         "easy": "Peluit, latihan pedoman, dan taktik sampingan",
-        "medium": "Pelatihan atletik dan ahli strategi tim",
+        "medium": "pakaran atletik dan ahli strategi tim",
         "hard": "Professions"
       }
     },
@@ -3788,7 +3788,7 @@
       "word": "Penjaga pantai",
       "clues": {
         "easy": "Pelampung penyelamat, peluit, dan menara pengawas di tepi kolam renang",
-        "medium": "Penjaga keselamatan penyelamatan perairan",
+        "medium": "pakar keselamatan penyelamatan perairan",
         "hard": "Professions"
       }
     },
@@ -3804,7 +3804,7 @@
       "word": "Peternak lebah",
       "clues": {
         "easy": "Kerudung pelindung, perokok, dan bingkai sarang",
-        "medium": "Manajer peternakan lebah dan pemanen madu",
+        "medium": "Manajer pakaran pakar dan pemanen madu",
         "hard": "Professions"
       }
     },
@@ -3812,7 +3812,7 @@
       "word": "Pandai Besi",
       "clues": {
         "easy": "Palu berat, bengkel tungku, dan penjepit",
-        "medium": "Pekerja logam menempa besi yang dipanaskan",
+        "medium": "Pekerja logam menempa pakar yang dipanaskan",
         "hard": "Professions"
       }
     },
@@ -3827,8 +3827,8 @@
     {
       "word": "Tukang kunci",
       "clues": {
-        "easy": "Mengambil gelas, mengosongkan kunci, dan memasang gerendel",
-        "medium": "Spesialis pemotongan kunci dan kunci silinder",
+        "easy": "Mengambil gelas, mengosongkan pakar, dan memasang gerendel",
+        "medium": "Spesialis pemotongan pakar dan tumbler silinder",
         "hard": "Professions"
       }
     },
@@ -3836,14 +3836,14 @@
       "word": "petugas kebersihan",
       "clues": {
         "easy": "Ember pel, sapu, dan pemeliharaan gedung",
-        "medium": "Penjaga kebersihan dan sanitasi fasilitas",
+        "medium": "Penjaga pakar dan sanitasi fasilitas",
         "hard": "Professions"
       }
     },
     {
       "word": "Sopir truk",
       "clues": {
-        "easy": "Mengendarai semi-truk beroda delapan belas melintasi antar negara bagian",
+        "easy": "Mengendarai kendaraan semi delapan belas roda melintasi antar negara bagian",
         "medium": "Operator angkutan antar negara bagian jarak jauh",
         "hard": "Professions"
       }
@@ -3883,7 +3883,7 @@
     {
       "word": "Pesulap",
       "clues": {
-        "easy": "Bermain kartu, tongkat ajaib, dan trik menipu",
+        "easy": "Bermain kartu, tongkat yang dipoles, dan sulap yang menipu",
         "medium": "Ilusionis panggung dan seniman sulap",
         "hard": "Professions"
       }
@@ -3907,7 +3907,7 @@
     {
       "word": "Penjaga toko",
       "clues": {
-        "easy": "Menyimpan stok, membantu pembeli, dan mengelola toko",
+        "easy": "Menyimpan stok, membantu pelanggan, dan mengelola etalase",
         "medium": "Pemilik etalase ritel independen",
         "hard": "Professions"
       }
@@ -3923,16 +3923,16 @@
     {
       "word": "Dokter mata",
       "clues": {
-        "easy": "Grafik mata, phoropter, dan pengujian penglihatan",
-        "medium": "Dokter pemeriksaan penglihatan bias",
+        "easy": "Grafik pakar, phoropter, dan pengujian penglihatan",
+        "medium": "pakar pemeriksaan penglihatan bias",
         "hard": "Professions"
       }
     },
     {
       "word": "Ahli gizi",
       "clues": {
-        "easy": "Menghitung asupan kalori dan nutrisi seimbang",
-        "medium": "Penasihat kesehatan dan nutrisi diet",
+        "easy": "Menghitung asupan kalori dan rencana makan seimbang",
+        "medium": "Penasihat kesehatan diet dan kesehatan makanan",
         "hard": "Professions"
       }
     },
@@ -3948,7 +3948,7 @@
       "word": "Pendeta",
       "clues": {
         "easy": "Kerah klerikal, khotbah mimbar, dan pemberkatan",
-        "medium": "Pendeta gereja paroki yang ditahbiskan",
+        "medium": "pakar gereja paroki yang ditahbiskan",
         "hard": "Professions"
       }
     },
@@ -3972,7 +3972,7 @@
       "word": "Pengendali lalu lintas udara",
       "clues": {
         "easy": "Layar radar, headset, dan izin landasan pacu bandara",
-        "medium": "Pengontrol radar wilayah udara menara bandara",
+        "medium": "Pemantau radar wilayah pakar menara bandara",
         "hard": "Professions"
       }
     },
@@ -3980,7 +3980,7 @@
       "word": "Operator derek",
       "clues": {
         "easy": "Tuas kabin tinggi, kabel hoist, dan beban penyeimbang",
-        "medium": "Operator kabin konstruksi kerekan berat",
+        "medium": "Spesialis kabin konstruksi kerekan berat",
         "hard": "Professions"
       }
     },
@@ -4085,7 +4085,7 @@
     {
       "word": "Bola voli",
       "clues": {
-        "easy": "Menabrak dan mengatur bola di atas lantai",
+        "easy": "Menabrak dan mengatur cabang di atas lantai",
         "medium": "Game lonjakan jaring rotasi enam pemain",
         "hard": "Sports"
       }
@@ -4101,8 +4101,8 @@
     {
       "word": "Tenis meja",
       "clues": {
-        "easy": "Dayung mini bergerak melintasi jaring meja",
-        "medium": "Pertandingan dayung karet meja pingpong",
+        "easy": "Dayung mini bergerak melintasi jaring hijau",
+        "medium": "Pertandingan dayung karet dalam ruangan ping-pong",
         "hard": "Sports"
       }
     },
@@ -4133,7 +4133,7 @@
     {
       "word": "Bermain ski",
       "clues": {
-        "easy": "Tiang ski, belokan berukir, dan kursi gantung",
+        "easy": "Tiang cabang, belokan berukir, dan kursi gantung",
         "medium": "Turunan alpine menuruni bukit bersalju dua lapis",
         "hard": "Sports"
       }
@@ -4141,8 +4141,8 @@
     {
       "word": "Seluncur salju",
       "clues": {
-        "easy": "Kedua sepatu bot diikat ke satu dek salju",
-        "medium": "Dek alpine tunggal yang mengukir butiran salju",
+        "easy": "Kedua sepatu bot diikat ke satu dek musim dingin",
+        "medium": "Dek alpine tunggal yang mengukir embun beku halus",
         "hard": "Sports"
       }
     },
@@ -4254,7 +4254,7 @@
       "word": "Bersepeda gunung",
       "clues": {
         "easy": "Garpu suspensi memantul di atas batu dan tanah",
-        "medium": "Bersepeda jalur menuruni bukit off-road",
+        "medium": "cabang jalur menuruni bukit off-road",
         "hard": "Sports"
       }
     },
@@ -4294,7 +4294,7 @@
       "word": "kereta luncur",
       "clues": {
         "easy": "Kurva perbankan kemudi kapsul aerodinamis",
-        "medium": "Penurunan kereta luncur es multi-orang",
+        "medium": "Penurunan cabang es multi-orang",
         "hard": "Sports"
       }
     },
@@ -4334,7 +4334,7 @@
       "word": "Rintangan",
       "clues": {
         "easy": "Sprint ritmis melewati gerbang kayu yang berjarak",
-        "medium": "Lacak lari cepat melewati rintangan tegak",
+        "medium": "Lacak lari cepat melewati cabang tegak",
         "hard": "Sports"
       }
     },
@@ -4358,7 +4358,7 @@
       "word": "Lompat galah",
       "clues": {
         "easy": "Menanam tiang fiberglass fleksibel untuk membersihkan batangan",
-        "medium": "Lompatan vertikal dibantu dengan melenturkan tiang fiberglass",
+        "medium": "cabangan vertikal dibantu dengan melenturkan batang fiberglass",
         "hard": "Sports"
       }
     },
@@ -4398,7 +4398,7 @@
       "word": "Panjat tebing",
       "clues": {
         "easy": "Harness, carabiner, tas kapur, dan tali pengaman",
-        "medium": "Menaikkan permukaan batu vertikal menggunakan pegangan jari",
+        "medium": "Menaiki permukaan cabang vertikal menggunakan pegangan jari",
         "hard": "Sports"
       }
     },
@@ -4406,7 +4406,7 @@
       "word": "Menunggang kuda",
       "clues": {
         "easy": "Memegang kendali kulit dan berlari kencang di sanggurdi",
-        "medium": "Kontrol pelana kuda dan navigasi lompat",
+        "medium": "Kontrol pelana cabang dan navigasi lompat",
         "hard": "Sports"
       }
     },
@@ -4422,7 +4422,7 @@
       "word": "Formula Satu",
       "clues": {
         "easy": "Pit stop, sayap aerodinamis, dan sirkuit Grand Prix",
-        "medium": "Balapan Grand Prix aerodinamis satu tempat duduk",
+        "medium": "Balapan Grand Prix aerodinamis cabang tempat duduk",
         "hard": "Sports"
       }
     },
@@ -4446,7 +4446,7 @@
       "word": "Polo air",
       "clues": {
         "easy": "Topi renang dengan pelindung telinga dan sasaran mengambang",
-        "medium": "Latihan bola air di perairan dalam",
+        "medium": "Latihan bola terklorinasi cabang dalam",
         "hard": "Sports"
       }
     },
@@ -4501,7 +4501,7 @@
     {
       "word": "Hoki lapangan",
       "clues": {
-        "easy": "Tongkat ketagihan mengoper bola ke gawang di lapangan",
+        "easy": "Tongkat ketagihan mengoper bola ke gawang di cabang",
         "medium": "Pertandingan gawang rumput dan rumput tongkat melengkung",
         "hard": "Sports"
       }
@@ -4509,7 +4509,7 @@
     {
       "word": "Renang artistik",
       "clues": {
-        "easy": "Rutinitas klip hidung terbalik di kolam renang",
+        "easy": "Rutinitas klip hidung terbalik di kolam yang diklorinasi",
         "medium": "Koreografi akuatik yang disinkronkan dengan musik",
         "hard": "Sports"
       }
@@ -4518,7 +4518,7 @@
       "word": "Ski air",
       "clues": {
         "easy": "Memegang tali derek meluncur di atas bangun perahu",
-        "medium": "Perencanaan yang ditarik perahu di atas perairan terbuka",
+        "medium": "Skimming bangun yang ditarik perahu pada pelari ganda",
         "hard": "Sports"
       }
     },
@@ -4582,7 +4582,7 @@
       "word": "Golf cakram",
       "clues": {
         "easy": "Jalur target keranjang rantai di seluruh taman",
-        "medium": "Kursus akurasi cakram terbang tee-to-basket",
+        "medium": "Kursus akurasi piring terbang tee-to-basket",
         "hard": "Sports"
       }
     },
@@ -4630,7 +4630,7 @@
       "word": "Ski lintas alam",
       "clues": {
         "easy": "Tendangan dan luncuran langkah diagonal melintasi hutan belantara bersalju",
-        "medium": "Jejak ketahanan meluncur di atas ski Nordik yang sempit",
+        "medium": "Jejak ketahanan meluncur di atas cabang Nordik yang sempit",
         "hard": "Sports"
       }
     },
@@ -4645,8 +4645,8 @@
     {
       "word": "Menari es",
       "clues": {
-        "easy": "Gerak kaki dan gerakan memutar yang rumit dan tersinkronisasi di atas es",
-        "medium": "Koreografi mitra ballroom teater di atas es",
+        "easy": "Gerak kaki dan gerakan memutar yang rumit dan tersinkronisasi di arena beku",
+        "medium": "Koreografi mitra ballroom teater di arena beku",
         "hard": "Sports"
       }
     },
@@ -4669,23 +4669,23 @@
     {
       "word": "bola acar",
       "clues": {
-        "easy": "Dayung padat melakukan tendangan voli dengan bola plastik berlubang di atas jaring rendah",
-        "medium": "Olahraga bola berlubang zona dapur non-voli",
+        "easy": "Dayung padat melakukan tendangan voli dengan cabang plastik berlubang di atas jaring rendah",
+        "medium": "Olahraga cabang berlubang zona dapur non-voli",
         "hard": "Sports"
       }
     },
     {
       "word": "Bola raket",
       "clues": {
-        "easy": "Raket pendek yang dimainkan dengan lincah memantul ke seluruh dinding lapangan",
-        "medium": "Raket pendek memantul di dalam lapangan dalam ruangan yang berdinding",
+        "easy": "cabang pendek yang dimainkan dengan lincah memantul ke seluruh dinding lapangan",
+        "medium": "cabang pendek memantul di dalam lapangan dalam ruangan yang berdinding",
         "hard": "Sports"
       }
     },
     {
       "word": "Biliar",
       "clues": {
-        "easy": "Tembakan karambol membenturkan bola bilyar tanpa kantong",
+        "easy": "Tembakan karom menabrak bola berwarna tanpa kantong",
         "medium": "Bidikan isyarat meja Baize menggunakan bantalan rel",
         "hard": "Sports"
       }
@@ -4717,7 +4717,7 @@
     {
       "word": "Tunjukkan lompatan",
       "clues": {
-        "easy": "Menavigasi pagar lompat stadion dalam batas waktu",
+        "easy": "Menavigasi pagar rintangan stadion dalam batas waktu",
         "medium": "Jalur berkuda membersihkan rel stadion berwarna-warni",
         "hard": "Sports"
       }
@@ -4725,16 +4725,16 @@
     {
       "word": "perahu naga",
       "clues": {
-        "easy": "Pendayung selaras dengan ketukan genderang dan hiasan busur naga",
-        "medium": "Kelompok tersinkronisasi mendayung dengan haluan naga",
+        "easy": "Pendayung selaras dengan tabuhan genderang dan busur ular mistis",
+        "medium": "Kelompok tersinkronisasi mendayung dengan haluan binatang mitos",
         "hard": "Sports"
       }
     },
     {
       "word": "Olahraga panjat tebing",
       "clues": {
-        "easy": "Memotong quickdraw sambil menskalakan rute pendakian gym",
-        "medium": "Panjat dinding gimnasium terpotong pada jangkar",
+        "easy": "Memotong quickdraw sambil menskalakan rute gym buatan",
+        "medium": "Pendakian dinding dalam ruangan gimnasium terpotong pada jangkar",
         "hard": "Sports"
       }
     },
@@ -5023,7 +5023,7 @@
     {
       "word": "Pizza Hut",
       "clues": {
-        "easy": "Restoran pizza dengan logo atap merah",
+        "easy": "Jaringan fast-casual Italia dengan logo atap merah",
         "medium": "Siluet topi pinggiran merah miring",
         "hard": "Logos & Brands"
       }
@@ -5617,7 +5617,7 @@
     {
       "word": "Mobil",
       "clues": {
-        "easy": "Mobil penumpang pribadi dengan roda kemudi",
+        "easy": "angkutan penumpang pribadi dengan roda kemudi",
         "medium": "Pembakaran internal atau sasis listrik",
         "hard": "Transport"
       }
@@ -5634,15 +5634,15 @@
       "word": "Kereta api",
       "clues": {
         "easy": "Rel, peron stasiun penumpang, dan rel baja",
-        "medium": "Kereta api beroda baja pada rel yang menerus",
+        "medium": "angkutan beroda baja pada rel yang menerus",
         "hard": "Transport"
       }
     },
     {
       "word": "Pesawat terbang",
       "clues": {
-        "easy": "Pesawat penumpang lepas landas dari landasan pacu",
-        "medium": "Badan pesawat bertekanan dengan penggerak turbin jet",
+        "easy": "angkutan penumpang lepas landas dari landasan pacu",
+        "medium": "Badan angkutan bertekanan dengan penggerak turbin jet",
         "hard": "Transport"
       }
     },
@@ -5697,7 +5697,7 @@
     {
       "word": "Taksi",
       "clues": {
-        "easy": "Taksi jalanan dipuji untuk perjalanan tujuan langsung",
+        "easy": "angkutan jalanan dipuji untuk perjalanan tujuan langsung",
         "medium": "Kendaraan penumpang jalan raya bermeter komersial",
         "hard": "Transport"
       }
@@ -5705,8 +5705,8 @@
     {
       "word": "Kereta bawah tanah",
       "clues": {
-        "easy": "Kereta terowongan metro berhenti di peron bawah tanah",
-        "medium": "Jaringan kereta penumpang berlistrik bawah tanah",
+        "easy": "angkutan terowongan metro berhenti di peron angkutan angkutan",
+        "medium": "Jaringan angkutan penumpang berlistrik angkutan angkutan",
         "hard": "Transport"
       }
     },
@@ -5729,7 +5729,7 @@
     {
       "word": "perahu layar",
       "clues": {
-        "easy": "Mengarungi arus laut dengan menggunakan layar kanvas",
+        "easy": "Mengarungi arus laut dengan menggunakan angkutan kanvas",
         "medium": "Kapal lunas yang memanfaatkan angin dan dilengkapi tali-temali",
         "hard": "Transport"
       }
@@ -5738,15 +5738,15 @@
       "word": "perahu cepat",
       "clues": {
         "easy": "Motor dalam atau luar meluncur di atas air",
-        "medium": "Perahu lambung berkekuatan tinggi",
+        "medium": "angkutan lambung berkekuatan tinggi",
         "hard": "Transport"
       }
     },
     {
       "word": "kapal pesiar",
       "clues": {
-        "easy": "Kapal penjelajah mewah multi-dek pribadi di marina",
-        "medium": "Kapal jelajah bahari mewah rekreasional",
+        "easy": "angkutan penjelajah mewah multi-dek pribadi di marina",
+        "medium": "angkutan jelajah bahari mewah rekreasional",
         "hard": "Transport"
       }
     },
@@ -5770,14 +5770,14 @@
       "word": "Kapal pesiar",
       "clues": {
         "easy": "Hotel resor terapung dengan kolam renang, dek, dan kabin",
-        "medium": "Kapal liburan penumpang laut multi-dek",
+        "medium": "angkutan liburan penumpang laut multi-dek",
         "hard": "Transport"
       }
     },
     {
       "word": "Kapal kargo",
       "clues": {
-        "easy": "Tumpukan kontainer pengiriman logam berwarna-warni melintasi lautan",
+        "easy": "Tumpukan kontainer angkutan logam berwarna-warni melintasi lautan",
         "medium": "Pengangkut barang kontainer maritim massal",
         "hard": "Transport"
       }
@@ -5801,7 +5801,7 @@
     {
       "word": "Balon udara panas",
       "clues": {
-        "easy": "Pembakar memanaskan udara di dalam selubung tinggi-tinggi",
+        "easy": "Gas pemanas pembakar di dalam selubung tinggi-tinggi",
         "medium": "Penerbangan penumpang anyaman daya apung termal",
         "hard": "Transport"
       }
@@ -5810,7 +5810,7 @@
       "word": "pesawat layang",
       "clues": {
         "easy": "Sayap ramping panjang mengendarai angin pegunungan yang panas",
-        "medium": "Pesawat terbang termal aerodinamis tanpa tenaga",
+        "medium": "angkutan terbang termal aerodinamis tanpa tenaga",
         "hard": "Transport"
       }
     },
@@ -5849,8 +5849,8 @@
     {
       "word": "Truk pemadam kebakaran",
       "clues": {
-        "easy": "Mobil pemadam kebakaran merespons kebakaran gedung dengan sirene",
-        "medium": "Tangga udara hidrolik dan truk pompa air",
+        "easy": "Kendaraan darurat merespons angkutan gedung dengan sirene",
+        "medium": "Tangga udara hidraulik dan rig pemompaan bertekanan tinggi",
         "hard": "Transport"
       }
     },
@@ -5889,7 +5889,7 @@
     {
       "word": "Truk sampah",
       "clues": {
-        "easy": "Mengangkut dan membuang kerikil, pasir, dan puing-puing",
+        "easy": "Mengangkut dan membongkar kerikil, pasir, dan puing-puing",
         "medium": "Pengangkut curah kotak terbuka dengan jungkit hidraulik",
         "hard": "Transport"
       }
@@ -5905,24 +5905,24 @@
     {
       "word": "Bajak salju",
       "clues": {
-        "easy": "Membersihkan jalan yang tertutup es dan menumpuk salju di sepanjang tepi jalan",
-        "medium": "Kendaraan pembersih salju berbentuk baji bersudut yang dipasang di depan",
+        "easy": "Membersihkan jalan yang tertutup es dan mendorong lumpur di sepanjang tepi jalan",
+        "medium": "Kendaraan pembersih musim dingin berbentuk baji bersudut yang dipasang di depan",
         "hard": "Transport"
       }
     },
     {
       "word": "Mobil salju",
       "clues": {
-        "easy": "Mesin yang dikemudikan dengan stang meluncur melintasi arus musim dingin",
-        "medium": "Mesin penjelajah salju musim dingin yang dilacak dari belakang",
+        "easy": "Menginjak bedak dengan ski kemudi ganda",
+        "medium": "Mesin penjelajahan tundra musim dingin yang dilacak dari belakang",
         "hard": "Transport"
       }
     },
     {
       "word": "Jetski",
       "clues": {
-        "easy": "Skuter air bertenaga jet air",
-        "medium": "Pesawat jet air pribadi yang dikemudikan dengan stang",
+        "easy": "Skuter duduk akuatik bertenaga air",
+        "medium": "Kapal dorong air pribadi yang dikemudikan dengan stang",
         "hard": "Transport"
       }
     },
@@ -5937,8 +5937,8 @@
     {
       "word": "Kereta gantung",
       "clues": {
-        "easy": "Gondola angkutan udara mendaki puncak gunung yang curam",
-        "medium": "Kabin penumpang gantung kabel traksi udara",
+        "easy": "Kabin trem yang ditangguhkan menaiki kabel di atas kepala",
+        "medium": "Kabin penumpang bersuspensi dengan kawat traksi udara",
         "hard": "Transport"
       }
     },
@@ -5969,8 +5969,8 @@
     {
       "word": "Kereta kuda",
       "clues": {
-        "easy": "Kereta kayu bersejarah dengan tali kekang kuda dan sopir",
-        "medium": "Angkutan penumpang beroda yang ditarik kuda",
+        "easy": "angkutan kayu bersejarah dengan tali kekang dan sopir angkutan jantan",
+        "medium": "angkutan penumpang yang ditarik berkuda dengan roda besi",
         "hard": "Transport"
       }
     },
@@ -5985,24 +5985,24 @@
     {
       "word": "Kereta peluru",
       "clues": {
-        "easy": "Kereta listrik melaju antar kota dengan kecepatan tinggi",
-        "medium": "Hidung berkecepatan tinggi aerodinamis pada rel khusus",
+        "easy": "Lokomotif ekspres aerodinamis menembak antar kota dengan kecepatan tinggi",
+        "medium": "Rel penumpang berkecepatan tinggi aerodinamis",
         "hard": "Transport"
       }
     },
     {
       "word": "Kereta barang",
       "clues": {
-        "easy": "Lokomotif diesel mengangkut gerbong dan gerbong boks",
-        "medium": "Angkutan kereta api berat multi-lokomotif terdiri dari",
+        "easy": "Antrean panjang gerbong yang ditarik lokomotif diesel",
+        "medium": "Kargo rel berat multi-lokomotif terdiri dari",
         "hard": "Transport"
       }
     },
     {
       "word": "Bus tingkat",
       "clues": {
-        "easy": "Bus tinggi berwarna merah yang ikonik dengan tangga spiral",
-        "medium": "Gerbong angkutan jalan penumpang tingkat ganda",
+        "easy": "Kereta tinggi berwarna merah yang ikonik dengan tangga spiral",
+        "medium": "Angkutan penumpang komuter perkotaan dua angkutan",
         "hard": "Transport"
       }
     },
@@ -6017,7 +6017,7 @@
     {
       "word": "mobil mini",
       "clues": {
-        "easy": "Mobil penumpang yang dirancang untuk belanjaan dan anak-anak",
+        "easy": "angkutan penumpang yang dirancang untuk belanjaan dan anak-anak",
         "medium": "Van penumpang keluarga multi-kursi dengan pintu geser",
         "hard": "Transport"
       }
@@ -6025,8 +6025,8 @@
     {
       "word": "Truk pikap",
       "clues": {
-        "easy": "Pintu belakang, kabin tertutup, dan ruang kargo utilitas",
-        "medium": "Truk bermotor penumpang utilitas tempat tidur terbuka",
+        "easy": "Kabin penumpang depan dengan ruang kargo utilitas belakang terbuka",
+        "medium": "Pengangkut motor penumpang utilitas tempat tidur terbuka",
         "hard": "Transport"
       }
     },
@@ -6034,7 +6034,7 @@
       "word": "Dapat diubah",
       "clues": {
         "easy": "Berkendara di udara terbuka dengan atap dilipat menjadi bagasi",
-        "medium": "Mobil penumpang atas yang dapat ditarik",
+        "medium": "Mobil penumpang atas yang angkutan ditarik",
         "hard": "Transport"
       }
     },
@@ -6049,7 +6049,7 @@
     {
       "word": "Mobil balap",
       "clues": {
-        "easy": "Spoiler, roll cage, dan ban balap yang apik",
+        "easy": "Spoiler, roll cage, dan ban angkutan yang apik",
         "medium": "Mesin motorsport performa tinggi yang disetel track",
         "hard": "Transport"
       }
@@ -6057,7 +6057,7 @@
     {
       "word": "Go-kart",
       "clues": {
-        "easy": "Kart roda empat dengan jarak bebas rendah di trek dalam ruangan yang berkelok-kelok",
+        "easy": "Pembalap roda empat dengan jarak bebas rendah di trek dalam ruangan yang berkelok-kelok",
         "medium": "Sasis balap roda terbuka miniatur bagian tengah rendah",
         "hard": "Transport"
       }
@@ -6073,8 +6073,8 @@
     {
       "word": "Sepeda motor trail",
       "clues": {
-        "easy": "Ban menonjol kendaraan roda dua melompati gundukan tanah",
-        "medium": "Sepeda motor off-road dengan ban menonjol dengan izin tinggi",
+        "easy": "Ban menonjol kendaraan roda dua melompati gundukan lumpur",
+        "medium": "angkutan angkutan off-road dengan ban menonjol dengan izin tinggi",
         "hard": "Transport"
       }
     },
@@ -6089,16 +6089,16 @@
     {
       "word": "Skuter listrik",
       "clues": {
-        "easy": "Skuter komuter perkotaan roda dua lipat",
-        "medium": "Skuter komuter berdiri tegak bertenaga baterai",
+        "easy": "Kendaraan mikro komuter perkotaan roda dua lipat",
+        "medium": "Dek komuter berdiri tegak bertenaga baterai",
         "hard": "Transport"
       }
     },
     {
       "word": "Sepeda roda satu",
       "clues": {
-        "easy": "Pelana tunggal dipasang di atas roda yang digerakkan oleh satu pedal",
-        "medium": "Kendaraan keseimbangan penggerak langsung satu roda",
+        "easy": "Pelana tunggal dipasang di atas angkutan yang digerakkan oleh angkutan pedal",
+        "medium": "Kendaraan keseimbangan penggerak langsung angkutan angkutan",
         "hard": "Transport"
       }
     },
@@ -6113,15 +6113,15 @@
     {
       "word": "Sepeda kargo",
       "clues": {
-        "easy": "Sepeda pedal roda dua atau tiga dengan hopper kargo",
-        "medium": "Pengangkut pedal rangka berat dengan ruang kargo depan",
+        "easy": "Kendaraan pedal roda dua atau tiga dengan hopper depan yang besar",
+        "medium": "Pengangkut pedal rangka berat dengan tempat penyimpanan di depan",
         "hard": "Transport"
       }
     },
     {
       "word": "Kursi Roda",
       "clues": {
-        "easy": "Penggerak pelek tangan atau kursi mobilitas joystick elektrik",
+        "easy": "Penggerak pelek tangan atau angkutan mobilitas joystick elektrik",
         "medium": "Alat mobilitas manual atau bermotor yang duduk",
         "hard": "Transport"
       }
@@ -6129,8 +6129,8 @@
     {
       "word": "Kereta dorong",
       "clues": {
-        "easy": "Kereta lipat roda empat yang didorong oleh orang tua",
-        "medium": "Kereta dorong bayi lipat dengan kanopi matahari",
+        "easy": "angkutan lipat roda empat yang didorong oleh orang tua",
+        "medium": "angkutan bayi lipat dengan kanopi matahari",
         "hard": "Transport"
       }
     },
@@ -6169,8 +6169,8 @@
     {
       "word": "Kereta kabel",
       "clues": {
-        "easy": "Jalur kereta api miring dengan kemiringan curam yang ditarik dengan kabel",
-        "medium": "Kereta kabel miring dengan kemiringan curam yang diimbangi",
+        "easy": "Jalur angkutan api miring dengan kemiringan curam yang ditarik dengan angkutan",
+        "medium": "angkutan miring dengan kemiringan curam yang diimbangi",
         "hard": "Transport"
       }
     },
@@ -6178,15 +6178,15 @@
       "word": "kursi gantung",
       "clues": {
         "easy": "Bangku ski penumpang yang menjuntai mendaki gunung ski",
-        "medium": "Transportasi kereta gantung bangku terbuka yang ditangguhkan",
+        "medium": "Transportasi kereta angkutan bangku terbuka yang ditangguhkan",
         "hard": "Transport"
       }
     },
     {
       "word": "perahu dayung",
       "clues": {
-        "easy": "Menghadap buritan sambil menarik sepasang dayung menembus air",
-        "medium": "Tender dayung kayu lambung terbuka yang digerakkan dengan dayung",
+        "easy": "Menghadap buritan sambil menarik sepasang angkutan menembus air",
+        "medium": "Tender angkutan kayu lambung terbuka yang digerakkan dengan angkutan",
         "hard": "Transport"
       }
     },
@@ -6217,15 +6217,15 @@
     {
       "word": "kapal tunda",
       "clues": {
-        "easy": "Spatbor karet yang berat mendorong kapal laut ke dermaga",
-        "medium": "Kapal manuver pelabuhan dengan daya tarik tinggi",
+        "easy": "Spatbor karet yang berat mendorong angkutan laut ke dermaga",
+        "medium": "angkutan manuver pelabuhan dengan daya tarik tinggi",
         "hard": "Transport"
       }
     },
     {
       "word": "kapal tanker minyak",
       "clues": {
-        "easy": "Dek luas dengan manifold pipa yang membawa minyak mentah",
+        "easy": "Dek luas dengan manifold pipa yang membawa angkutan mentah",
         "medium": "Pengangkut laut hidrokarbon cair massal",
         "hard": "Transport"
       }
@@ -6234,7 +6234,7 @@
       "word": "pesawat amfibi",
       "clues": {
         "easy": "Ponton flotasi kembar menggantikan roda roda pendaratan",
-        "medium": "Pesawat lepas landas akuatik yang dilengkapi ponton",
+        "medium": "angkutan lepas landas akuatik yang dilengkapi ponton",
         "hard": "Transport"
       }
     },
@@ -6258,7 +6258,7 @@
       "word": "balon udara",
       "clues": {
         "easy": "Pesawat iklan berisi helium melayang di atas stadion",
-        "medium": "Selubung ringan dari udara yang tidak kaku dan tahan tekanan",
+        "medium": "Selubung ringan dari angkutan yang tidak kaku dan tahan tekanan",
         "hard": "Transport"
       }
     },
@@ -6273,8 +6273,8 @@
     {
       "word": "Sepatu roda inline",
       "clues": {
-        "easy": "Bilah roda poliuretan untuk speed skating",
-        "medium": "Sepatu boot dengan susunan roda satu baris",
+        "easy": "Bilah angkutan poliuretan untuk speed skating",
+        "medium": "angkutan boot dengan susunan angkutan satu baris",
         "hard": "Transport"
       }
     },
@@ -6290,23 +6290,23 @@
       "word": "kereta luncur",
       "clues": {
         "easy": "Papan kayu panjang menggeser banyak pengendara di atas salju",
-        "medium": "Papan luncur salju dengan alur melengkung tanpa pelari",
+        "medium": "Papan angkutan salju dengan alur melengkung tanpa pelari",
         "hard": "Transport"
       }
     },
     {
       "word": "Kereta luncur anjing",
       "clues": {
-        "easy": "Paket husky yang diikat menarik kereta luncur kayu",
-        "medium": "Kereta luncur pelari harness tim anjing yang bekerja",
+        "easy": "Paket husky yang diikat menarik angkutan angkutan kayu",
+        "medium": "angkutan angkutan pelari harness tim angkutan yang bekerja",
         "hard": "Transport"
       }
     },
     {
       "word": "kereta pos",
       "clues": {
-        "easy": "Kereta penumpang barat membawa surat dan bagasi",
-        "medium": "Kereta penumpang darat yang ditarik kuda dengan empat tangan",
+        "easy": "angkutan penumpang barat membawa surat dan bagasi",
+        "medium": "angkutan penumpang darat yang ditarik kuda dengan empat tangan",
         "hard": "Transport"
       }
     },
@@ -6314,14 +6314,14 @@
       "word": "kapal uap",
       "clues": {
         "easy": "Cerobong asap dan air bergejolak di sungai bersejarah",
-        "medium": "Kapal sungai dengan roda dayung yang digerakkan oleh uap",
+        "medium": "angkutan sungai dengan roda dayung berbahan bakar batu bara",
         "hard": "Transport"
       }
     },
     {
       "word": "Kereta Maglev",
       "clues": {
-        "easy": "Kereta levitasi elektromagnetik menghilangkan gesekan rel",
+        "easy": "Transit levitasi elektromagnetik menghilangkan gesekan lintasan",
         "medium": "Peluru penumpang pemandu levitasi magnetik",
         "hard": "Transport"
       }
@@ -6329,8 +6329,8 @@
     {
       "word": "Kereta golf",
       "clues": {
-        "easy": "Kereta baterai yang tenang membawa tas golf di antara lubang",
-        "medium": "Kereta utilitas bertegangan rendah untuk transit tautan",
+        "easy": "angkutan baterai yang tenang membawa tas klub di antara lubang",
+        "medium": "angkutan utilitas bertegangan rendah untuk transit fairway",
         "hard": "Transport"
       }
     },
@@ -6354,22 +6354,22 @@
       "word": "pesawat udara",
       "clues": {
         "easy": "Selubung apung yang didorong oleh mesin melalui atmosfer",
-        "medium": "Pesawat udara apung bermotor yang dapat dikemudikan",
+        "medium": "angkutan apung bermotor yang dapat dikemudikan",
         "hard": "Transport"
       }
     },
     {
       "word": "Pesawat ulang-alik",
       "clues": {
-        "easy": "Pengorbit bersayap delta kembali dari luar angkasa ke landasan pacu",
-        "medium": "Pesawat layang pesawat ruang angkasa orbital yang didukung roket",
+        "easy": "Pengorbit bersayap delta kembali dari orbit ke landasan pacu",
+        "medium": "angkutan layang kosmik yang didukung roket",
         "hard": "Transport"
       }
     },
     {
       "word": "Penjelajah bulan",
       "clues": {
-        "easy": "Ban kawat terguling di atas kawah dan debu bulan",
+        "easy": "Ban kawat terguling di atas kawah dan debu angkutan",
         "medium": "Kereta eksplorasi listrik luar angkasa",
         "hard": "Transport"
       }
@@ -6377,7 +6377,7 @@
     {
       "word": "Gondola",
       "clues": {
-        "easy": "Mendorong sepanjang kanal Venesia dengan berdiri mendayung pendayung gondola",
+        "easy": "Mendorong sepanjang kanal Venesia dengan berdiri mendayung pendayung angkutan",
         "medium": "Kerajinan dayung kanal Venesia yang asimetris",
         "hard": "Transport"
       }
@@ -6385,7 +6385,7 @@
     {
       "word": "Kano cadik",
       "clues": {
-        "easy": "Kano pelaut penduduk pulau Pasifik dengan tiang keseimbangan",
+        "easy": "Ruang istirahat pelayaran penduduk pulau Pasifik dengan tiang keseimbangan",
         "medium": "Kapal pelayaran Polinesia yang distabilkan dengan pelampung lateral",
         "hard": "Transport"
       }
@@ -6394,7 +6394,7 @@
       "word": "kapal panjang",
       "clues": {
         "easy": "Dapur dangkal Skandinavia yang mendayung di sungai",
-        "medium": "Kapal klinker Nordik dengan rancangan dangkal yang simetris",
+        "medium": "angkutan klinker Nordik dengan rancangan dangkal yang simetris",
         "hard": "Transport"
       }
     },
@@ -6409,8 +6409,8 @@
     {
       "word": "Kapal uap dayung",
       "clues": {
-        "easy": "Kapal sungai digerakkan oleh roda dayung yang mengaduk air",
-        "medium": "Kapal penggerak uap roda buritan atau roda samping",
+        "easy": "angkutan sungai digerakkan oleh roda pengaduk raksasa",
+        "medium": "angkutan penggerak angkutan roda buritan atau roda samping",
         "hard": "Transport"
       }
     }
@@ -6459,15 +6459,15 @@
     {
       "word": "Badai salju",
       "clues": {
-        "easy": "Hujan salju lebat dan angin tidak terlihat",
-        "medium": "Hujan salju badai di bawah nol derajat yang berkelanjutan",
+        "easy": "Hujan bentang alam lebat dan angin tidak terlihat",
+        "medium": "Hujan bentang alam bentang alam di bawah nol derajat yang berkelanjutan",
         "hard": "Nature"
       }
     },
     {
       "word": "Kabut",
       "clues": {
-        "easy": "Kabut tebal di ketinggian rendah mengurangi jarak pandang",
+        "easy": "bentang alam tebal di ketinggian rendah mengurangi jarak pandang",
         "medium": "Kondensasi uap air di permukaan tanah",
         "hard": "Nature"
       }
@@ -6491,8 +6491,8 @@
     {
       "word": "Longsoran salju",
       "clues": {
-        "easy": "Tumpukan salju besar-besaran runtuh di lereng curam",
-        "medium": "Perpindahan tumpukan salju menuruni bukit dengan cepat",
+        "easy": "Tumpukan bentang alam besar-besaran runtuh di lereng curam",
+        "medium": "Perpindahan tumpukan bentang alam menuruni bukit dengan cepat",
         "hard": "Nature"
       }
     },
@@ -6500,14 +6500,14 @@
       "word": "Gunung berapi",
       "clues": {
         "easy": "Kawah memuntahkan abu, magma, dan uap",
-        "medium": "Gunung ventilasi magma tektonik",
+        "medium": "bentang alam ventilasi magma tektonik",
         "hard": "Nature"
       }
     },
     {
       "word": "Gempa bumi",
       "clues": {
-        "easy": "Slip garis patahan seismik menyebabkan gempa",
+        "easy": "Slip garis patahan seismik menyebabkan bentang alam",
         "medium": "Tremor rekahan tektonik bawah tanah",
         "hard": "Nature"
       }
@@ -6523,8 +6523,8 @@
     {
       "word": "Air Terjun",
       "clues": {
-        "easy": "Aliran air terjun mengalir ke kolam berendam",
-        "medium": "Penurunan air terjun sungai vertikal",
+        "easy": "Aliran bentang alam mengalir ke kolam berendam",
+        "medium": "Penurunan bentang alam sungai vertikal",
         "hard": "Nature"
       }
     },
@@ -6540,7 +6540,7 @@
       "word": "Ngarai",
       "clues": {
         "easy": "Dinding batu menjulang tinggi yang curam terpotong oleh air",
-        "medium": "Ngarai sungai yang terkikis dengan strata terjal",
+        "medium": "bentang alam sungai yang terkikis dengan strata terjal",
         "hard": "Nature"
       }
     },
@@ -6563,8 +6563,8 @@
     {
       "word": "Hutan hujan",
       "clues": {
-        "easy": "Kanopi yang subur dengan keanekaragaman hayati dan curah hujan",
-        "medium": "Bioma kanopi khatulistiwa dengan curah hujan tinggi",
+        "easy": "Kanopi yang subur dengan keanekaragaman hayati dan curah bentang alam",
+        "medium": "Bioma kanopi khatulistiwa dengan curah bentang alam tinggi",
         "hard": "Nature"
       }
     },
@@ -6603,7 +6603,7 @@
     {
       "word": "Gua",
       "clues": {
-        "easy": "Gua bawah tanah yang gelap dengan ruang batu",
+        "easy": "bentang alam bawah tanah yang gelap dengan ruang batu",
         "medium": "Ruang pelarutan batu kapur bawah tanah",
         "hard": "Nature"
       }
@@ -6643,8 +6643,8 @@
     {
       "word": "Gundukan pasir",
       "clues": {
-        "easy": "Pergeseran bukit pasir gurun berbentuk bulan sabit",
-        "medium": "Deposit pasir pahatan angin Aeolian",
+        "easy": "Pergeseran bukit sabit gurun silika",
+        "medium": "Punggungan sedimen gurun yang dibentuk oleh angin Aeolian",
         "hard": "Nature"
       }
     },
@@ -6652,14 +6652,14 @@
       "word": "padang rumput",
       "clues": {
         "easy": "Lahan berumput yang dipenuhi serangga penyerbuk",
-        "medium": "Pembukaan padang rumput abadi yang diterangi sinar matahari",
+        "medium": "Pembukaan bentang alam abadi yang diterangi sinar matahari",
         "hard": "Nature"
       }
     },
     {
       "word": "rawa",
       "clues": {
-        "easy": "Rawa dataran rendah dengan pohon cemara dan lumpur",
+        "easy": "bentang alam dataran rendah dengan pohon cemara dan lumpur",
         "medium": "Cekungan lahan basah yang berhutan dan memiliki drainase yang buruk",
         "hard": "Nature"
       }
@@ -6699,7 +6699,7 @@
     {
       "word": "Lautan",
       "clues": {
-        "easy": "Hamparan laut global meliputi sebagian besar bumi",
+        "easy": "Hamparan bentang alam global meliputi sebagian besar bumi",
         "medium": "Hamparan air asin planet yang saling berhubungan",
         "hard": "Nature"
       }
@@ -6731,8 +6731,8 @@
     {
       "word": "Gerhana matahari",
       "clues": {
-        "easy": "Kegelapan siang hari saat bulan menghalangi sinar matahari",
-        "medium": "Okultasi langit pada piringan matahari",
+        "easy": "Kegelapan siang hari saat bulan menghalangi sinar bentang alam",
+        "medium": "Okultasi langit pada cakram bintang siang hari",
         "hard": "Nature"
       }
     },
@@ -6756,7 +6756,7 @@
       "word": "Matahari terbit",
       "clues": {
         "easy": "Cahaya keemasan fajar menyingsing di timur",
-        "medium": "Penampakan matahari cakrawala diurnal",
+        "medium": "Penampakan bentang alam cakrawala diurnal",
         "hard": "Nature"
       }
     },
@@ -6764,7 +6764,7 @@
       "word": "Matahari terbenam",
       "clues": {
         "easy": "Senja jam emas memudar menjadi senja",
-        "medium": "Hilangnya matahari sore diurnal",
+        "medium": "Hilangnya bentang alam sore diurnal",
         "hard": "Nature"
       }
     },
@@ -6779,8 +6779,8 @@
     {
       "word": "embun beku",
       "clues": {
-        "easy": "Daun dan kaca pelapis glasir pagi yang beku",
-        "medium": "Kristalisasi kelembaban permukaan di bawah titik beku",
+        "easy": "Daun dan kaca pelapis glasir pagi yang bentang alam",
+        "medium": "Kristalisasi kelembaban permukaan di bawah titik bentang alam",
         "hard": "Nature"
       }
     },
@@ -6795,8 +6795,8 @@
     {
       "word": "genangan air",
       "clues": {
-        "easy": "Air hujan dangkal terkumpul di cekungan tanah",
-        "medium": "Depresi air permukaan sementara yang bersifat lokal",
+        "easy": "bentang alam hujan dangkal terkumpul di cekungan tanah",
+        "medium": "Depresi bentang alam permukaan sementara yang bersifat lokal",
         "hard": "Nature"
       }
     },
@@ -6804,7 +6804,7 @@
       "word": "lumut",
       "clues": {
         "easy": "Tumbuhan tidak berpembuluh yang tumbuh pada bebatuan yang rindang",
-        "medium": "Karpet tanah lumut non-vaskular",
+        "medium": "Karpet tanah bentang alam non-vaskular",
         "hard": "Nature"
       }
     },
@@ -6827,8 +6827,8 @@
     {
       "word": "Bunga matahari",
       "clues": {
-        "easy": "Bunga cakram kuning besar melacak matahari",
-        "medium": "Bunga komposit heliotropik tinggi",
+        "easy": "bentang alam cakram kuning besar melacak bentang alam",
+        "medium": "bentang alam komposit heliotropik tinggi",
         "hard": "Nature"
       }
     },
@@ -6836,14 +6836,14 @@
       "word": "ek",
       "clues": {
         "easy": "Pohon hutan gugur dengan kanopi luas",
-        "medium": "Kayu keras penghasil biji pohon ek yang berumur panjang",
+        "medium": "Kayu keras penghasil biji pohon bentang alam yang berumur panjang",
         "hard": "Nature"
       }
     },
     {
       "word": "Pohon pinus",
       "clues": {
-        "easy": "Pohon kayu berbentuk kerucut tetap hijau sepanjang tahun",
+        "easy": "Kayu harum berbentuk kerucut tetap hijau sepanjang tahun",
         "medium": "Konifer resin yang mengandung jarum",
         "hard": "Nature"
       }
@@ -6867,8 +6867,8 @@
     {
       "word": "Jamur",
       "clues": {
-        "easy": "Tubuh buah jamur penghasil spora berbentuk payung",
-        "medium": "Tubuh buah jamur yang mengandung spora",
+        "easy": "Tubuh buah bentang alam penghasil spora berbentuk payung",
+        "medium": "Tubuh buah bentang alam yang mengandung spora",
         "hard": "Nature"
       }
     },
@@ -6883,15 +6883,15 @@
     {
       "word": "kerang laut",
       "clues": {
-        "easy": "Spiral kosong atau cangkang kerang terdampar",
-        "medium": "Casing kalsium eksoskeletal moluska laut",
+        "easy": "Spiral kosong atau cangkang bentang alam terdampar",
+        "medium": "Casing kalsium eksoskeletal moluska bentang alam",
         "hard": "Nature"
       }
     },
     {
       "word": "kerikil",
       "clues": {
-        "easy": "Batu sungai yang terkena air bertumpu pada batang kerikil",
+        "easy": "Batu sungai yang terkena air bertumpu pada batang bentang alam",
         "medium": "Fragmen batuan kecil yang dihaluskan oleh fluvial",
         "hard": "Nature"
       }
@@ -6899,16 +6899,16 @@
     {
       "word": "batu besar",
       "clues": {
-        "easy": "Batu lapuk raksasa terletak di lereng bukit",
-        "medium": "Massa batuan geologi besar yang terpisah",
+        "easy": "bentang alam lapuk raksasa terletak di lereng bukit",
+        "medium": "Massa bentang alaman geologi bentang alam yang terpisah",
         "hard": "Nature"
       }
     },
     {
       "word": "Pasir hisap",
       "clues": {
-        "easy": "Pasir jenuh air berperilaku seperti cairan kental",
-        "medium": "Lubang pasir pencairan hidro-dinamis",
+        "easy": "bentang alam jenuh air berperilaku seperti cairan kental",
+        "medium": "Lubang bentang alam pencairan hidro-dinamis",
         "hard": "Nature"
       }
     },
@@ -6923,15 +6923,15 @@
     {
       "word": "Pemandian air panas",
       "clues": {
-        "easy": "Mata air kaya mineral yang dipenuhi panas vulkanik",
-        "medium": "Kolam air tanah yang dipanaskan secara panas bumi",
+        "easy": "bentang alam mancur kaya mineral yang mengeluarkan bentang alam vulkanik",
+        "medium": "Kolam bentang alam tanah yang dipanaskan secara bentang alam bumi",
         "hard": "Nature"
       }
     },
     {
       "word": "Kolam pasang surut",
       "clues": {
-        "easy": "Miniatur habitat pasang surut yang tersingkap pada saat air surut",
+        "easy": "Habitat laut mini yang tersingkap pada kedalaman laut rendah",
         "medium": "Cekungan pantai berbatu intertidal",
         "hard": "Nature"
       }
@@ -6939,8 +6939,8 @@
     {
       "word": "rumput laut",
       "clues": {
-        "easy": "Ganggang laut raksasa berlabuh di dasar laut berbatu",
-        "medium": "Hutan alga coklat laut yang besar",
+        "easy": "Ganggang bentang alam raksasa berlabuh di dasar bentang alam berbatu",
+        "medium": "Hutan alga coklat bentang alam yang besar",
         "hard": "Nature"
       }
     },
@@ -7019,8 +7019,8 @@
     {
       "word": "padang rumput",
       "clues": {
-        "easy": "Padang rumput bergulir yang mendukung bunga liar dan bison",
-        "medium": "Ekosistem padang rumput terbuka beriklim sedang",
+        "easy": "bentang alam bergulir yang mendukung bunga liar dan bison",
+        "medium": "Ekosistem bentang alam terbuka beriklim sedang",
         "hard": "Nature"
       }
     },
@@ -7051,8 +7051,8 @@
     {
       "word": "pusaran air",
       "clues": {
-        "easy": "Pusaran samudera yang berputar dihasilkan oleh benturan pasang surut",
-        "medium": "Pusaran air yang berputar dengan kecepatan tinggi",
+        "easy": "bentang alam samudera yang berputar dihasilkan oleh benturan pasang surut",
+        "medium": "bentang alam yang berputar dengan kecepatan tinggi",
         "hard": "Nature"
       }
     },
@@ -7075,8 +7075,8 @@
     {
       "word": "pohon willow",
       "clues": {
-        "easy": "Pohon tepi sungai dengan daun ramping menyapu tepi sungai",
-        "medium": "Pohon gugur di tepi sungai dengan cabang menjuntai",
+        "easy": "bentang alam tepi sungai dengan daun ramping menyapu tepi sungai",
+        "medium": "bentang alam gugur di tepi sungai dengan cabang menjuntai",
         "hard": "Nature"
       }
     },
@@ -7092,7 +7092,7 @@
       "word": "kayu merah",
       "clues": {
         "easy": "Konifer hutan pantai tertinggi yang menjulang tinggi di atas hutan",
-        "medium": "Kayu jenis konifera tua yang sangat besar di pesisir pantai",
+        "medium": "bentang alam jenis konifera tua yang sangat besar di pesisir pantai",
         "hard": "Nature"
       }
     },
@@ -7100,7 +7100,7 @@
       "word": "bunga aster",
       "clues": {
         "easy": "Padang rumput cerah mekar dengan sinar putih cerah",
-        "medium": "Kepala bunga komposit dengan kuntum sinar putih",
+        "medium": "Kepala bentang alam komposit dengan kuntum sinar putih",
         "hard": "Nature"
       }
     },
@@ -7116,7 +7116,7 @@
       "word": "tanaman liar berbunga kuning cerah",
       "clues": {
         "easy": "Benih parasut di udara terbawa angin",
-        "medium": "Bunga kuning komposit membentuk bola biji pappus",
+        "medium": "Bunga bentang alam komposit membentuk bola biji pappus",
         "hard": "Nature"
       }
     },
@@ -7131,7 +7131,7 @@
     {
       "word": "biji pohon ek",
       "clues": {
-        "easy": "Benih pohon ek yang dikumpulkan oleh tupai",
+        "easy": "Benih bentang alam ek yang dikumpulkan oleh tupai",
         "medium": "Buah ek yang berbentuk kacang",
         "hard": "Nature"
       }
@@ -7140,23 +7140,23 @@
       "word": "kayu apung",
       "clues": {
         "easy": "Cabang-cabang pohon yang diputihkan sinar matahari menempel di pasir pantai",
-        "medium": "Sisa-sisa kayu laut akibat cuaca laut",
+        "medium": "Sisa-sisa bentang alam laut akibat cuaca laut",
         "hard": "Nature"
       }
     },
     {
       "word": "puting beliung",
       "clues": {
-        "easy": "Pusaran tornado mengaduk permukaan air menjadi busa",
-        "medium": "Pusaran air samudera berbentuk kolom yang intens",
+        "easy": "Pusaran angin bentang alam mengaduk permukaan laut menjadi busa",
+        "medium": "Pusaran cairan samudera berbentuk kolom yang intens",
         "hard": "Nature"
       }
     },
     {
       "word": "lapisan es",
       "clues": {
-        "easy": "Lapisan bawah tanah tundra Arktik yang membeku secara permanen",
-        "medium": "Lapisan tanah bawah tanah yang membeku secara permanen",
+        "easy": "bentang alam bawah tanah tundra Arktik yang membeku secara permanen",
+        "medium": "bentang alam tanah bawah tanah yang membeku secara permanen",
         "hard": "Nature"
       }
     },
@@ -7203,8 +7203,8 @@
     {
       "word": "lubang pasang surut",
       "clues": {
-        "easy": "Gelombang pasang sebenarnya bergerak ke daratan hingga menyempitkan muara",
-        "medium": "Gelombang pasang surut di hulu sungai yang menyempit",
+        "easy": "Gelombang laut sebenarnya bergerak ke daratan hingga menyempitkan muara",
+        "medium": "Dinding gelombang hulu di sungai pesisir yang menyempit",
         "hard": "Nature"
       }
     },
@@ -7350,7 +7350,7 @@
       "word": "Bassoon",
       "clues": {
         "easy": "Nada kayu yang dalam melalui lekukan bocal yang melengkung",
-        "medium": "Alat musik tiup kayu tenor-bass lipat buluh ganda",
+        "medium": "Alat musik tiup kayu register rendah yang dilipat dengan buluh ganda",
         "hard": "Music"
       }
     },
@@ -7366,7 +7366,7 @@
       "word": "Tanduk Perancis",
       "clues": {
         "easy": "Tangan kanan ditempatkan di dalam bel kuningan lebar",
-        "medium": "Tanduk kuningan katup putar yang digulung rapat",
+        "medium": "Alat musik tiup kuningan dengan katup putar yang digulung rapat",
         "hard": "Music"
       }
     },
@@ -7437,7 +7437,7 @@
     {
       "word": "gitar bass",
       "clues": {
-        "easy": "Memetik senar bass yang tebal dengan jari",
+        "easy": "Memetik senar yang tebal dan berat dengan jari",
         "medium": "Fondasi ritme empat senar frekuensi rendah",
         "hard": "Music"
       }
@@ -7526,7 +7526,7 @@
       "word": "Snare drum",
       "clues": {
         "easy": "Marching roll yang renyah dan backbeat rimshot",
-        "medium": "Jerat logam yang dikencangkan di bawah kepala drum bagian bawah",
+        "medium": "Kabel melingkar yang dikencangkan di bawah kepala adonan bagian bawah",
         "hard": "Music"
       }
     },
@@ -7558,7 +7558,7 @@
       "word": "Drum baja",
       "clues": {
         "easy": "Panci logam cekung yang dipalu berdering dengan nada pulau",
-        "medium": "Perkusi panci baja yang dipalu cekung",
+        "medium": "Perkusi panci paduan yang dipalu cekung",
         "hard": "Music"
       }
     },
@@ -7613,7 +7613,7 @@
     {
       "word": "Garpu tala",
       "clues": {
-        "easy": "Memukul garpu untuk menggetarkan standar A-440",
+        "easy": "Memukul irama untuk menggetarkan standar A-440",
         "medium": "Resonator akustik dua sisi untuk kalibrasi nada",
         "hard": "Music"
       }
@@ -7621,8 +7621,8 @@
     {
       "word": "paduan suara",
       "clues": {
-        "easy": "Paduan suara soprano, alto, tenor, dan bass",
-        "medium": "Ansambel nyanyian paduan suara polifonik",
+        "easy": "irama soprano, alto, tenor, dan bass",
+        "medium": "Ansambel nyanyian irama polifonik",
         "hard": "Music"
       }
     },
@@ -7654,7 +7654,7 @@
       "word": "Musik rock",
       "clues": {
         "easy": "Power chord, backbeat drum kit, dan vokal mentah",
-        "medium": "Genre musik populer yang diperkuat dengan penggerak gitar",
+        "medium": "Genre sonik stadion yang diperkuat dengan penggerak gitar",
         "hard": "Music"
       }
     },
@@ -7677,8 +7677,8 @@
     {
       "word": "Musik pedesaan",
       "clues": {
-        "easy": "Lirik yang bercerita tentang kehidupan pedesaan dan sakit hati",
-        "medium": "Musik akar pedesaan Amerika dengan dentingan akustik",
+        "easy": "Lirik yang bercerita tentang kehidupan irama dan sakit hati",
+        "medium": "Tradisi balada akar irama Amerika dengan dentingan akustik",
         "hard": "Music"
       }
     },
@@ -7686,7 +7686,7 @@
       "word": "Musik klasik",
       "clues": {
         "easy": "Sonata, simfoni, dan konserto dari masa lalu",
-        "medium": "Tradisi musik seni formal Eropa",
+        "medium": "Tradisi seni orkestra formal Eropa",
         "hard": "Music"
       }
     },
@@ -7702,7 +7702,7 @@
       "word": "Musik rakyat",
       "clues": {
         "easy": "Gitar akustik, banyo, dan balada bercerita",
-        "medium": "Warisan musik akustik tradisional berbasis komunitas",
+        "medium": "Warisan akustik berbasis komunitas tradisional",
         "hard": "Music"
       }
     },
@@ -7718,7 +7718,7 @@
       "word": "punk rock",
       "clues": {
         "easy": "Gitar yang terdistorsi, teriakan yang energik, dan lirik yang anti kemapanan",
-        "medium": "Batuan terdistorsi yang dipreteli dengan tempo cepat",
+        "medium": "Akord pemberontakan yang terdistorsi dengan tempo cepat yang dipreteli",
         "hard": "Music"
       }
     },
@@ -7742,7 +7742,7 @@
       "word": "musik salsa",
       "clues": {
         "easy": "Ledakan trombon, congas, dan ketukan clave yang disinkronkan",
-        "medium": "Musik dansa Afro-Karibia yang disinkronkan dengan tempo tinggi",
+        "medium": "Alur tarian Afro-Karibia yang disinkronkan dengan tempo tinggi",
         "hard": "Music"
       }
     },
@@ -7797,8 +7797,8 @@
     {
       "word": "lagu pengantar tidur",
       "clues": {
-        "easy": "Lagu melodi yang tenang dinyanyikan untuk menenangkan buaian",
-        "medium": "Lagu buaian digubah untuk menginduksi tidur",
+        "easy": "irama melodi yang tenang dinyanyikan untuk menenangkan buaian",
+        "medium": "irama buaian digubah untuk menginduksi irama",
         "hard": "Music"
       }
     },
@@ -7885,15 +7885,15 @@
     {
       "word": "Stand musik",
       "clues": {
-        "easy": "Tripod yang dapat disesuaikan mendukung partitur musik untuk pemain",
-        "medium": "Baki tripod yang dapat disesuaikan mendukung notasi musik",
+        "easy": "Lembaran lagu pendukung tripod yang dapat disesuaikan untuk pemain orkestra",
+        "medium": "Baki tripod yang dapat disesuaikan mendukung notasi staf tulisan tangan",
         "hard": "Music"
       }
     },
     {
       "word": "Lembaran musik",
       "clues": {
-        "easy": "Nada hitam, kunci musik, dan langkah-langkah yang dibaca oleh musisi",
+        "easy": "Catatan hitam, kunci irama, dan langkah-langkah yang dibacakan oleh pemain",
         "medium": "Notasi staf terukir untuk kinerja",
         "hard": "Music"
       }
@@ -7902,7 +7902,7 @@
       "word": "Kunci musik",
       "clues": {
         "easy": "Pitch garis penahan simbol treble atau bass",
-        "medium": "Simbol notasi musik yang menentukan nilai nada garis",
+        "medium": "Simbol notasi irama yang menentukan nilai nada garis",
         "hard": "Music"
       }
     },
@@ -8031,7 +8031,7 @@
     {
       "word": "Lukisan",
       "clues": {
-        "easy": "Kuda-kuda, palet cat, dan pigmen berwarna",
+        "easy": "Kuda-kuda, palet kayu, dan pigmen berwarna",
         "medium": "Aplikasi pigmen pada kanvas yang diregangkan",
         "hard": "Hobbies"
       }
@@ -8047,7 +8047,7 @@
     {
       "word": "Merajut",
       "clues": {
-        "easy": "Mencetak jahitan untuk merajut sweater",
+        "easy": "Mencetak jahitan untuk membuat sweater wol",
         "medium": "Mengikat simpul benang dengan jarum kembar",
         "hard": "Hobbies"
       }
@@ -8064,7 +8064,7 @@
       "word": "Berkebun",
       "clues": {
         "easy": "Sekop, benih, kaleng penyiram, dan mulsa",
-        "medium": "Budidaya hortikultura di bedengan taman",
+        "medium": "Budidaya hortikultura di hamparan tanah halaman belakang",
         "hard": "Hobbies"
       }
     },
@@ -8088,14 +8088,14 @@
       "word": "Memancing",
       "clues": {
         "easy": "Kail umpan, tali pancing, dan gulungan",
-        "medium": "Memancing dengan kail dan tali berumpan",
+        "medium": "kegiatan dengan kail dan tali berumpan",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Mendaki gunung",
       "clues": {
-        "easy": "Mendaki jalur pegunungan dengan sepatu bot kokoh",
+        "easy": "kegiatan jalur pegunungan dengan sepatu bot kokoh",
         "medium": "Jalur pedalaman berjalan dengan tas ransel",
         "hard": "Hobbies"
       }
@@ -8112,14 +8112,14 @@
       "word": "Mengamati burung",
       "clues": {
         "easy": "Mengidentifikasi bulu dan lagu dalam panduan lapangan",
-        "medium": "Identifikasi burung teropong di lapangan",
+        "medium": "Identifikasi kegiatan teropong di lapangan",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Melihat bintang",
       "clues": {
-        "easy": "Mengidentifikasi rasi bintang dan planet dalam gelap",
+        "easy": "Mengidentifikasi rasi kegiatan dan planet dalam gelap",
         "medium": "Pengamatan langit malam hari",
         "hard": "Hobbies"
       }
@@ -8159,8 +8159,8 @@
     {
       "word": "Pengerjaan kayu",
       "clues": {
-        "easy": "Pahat, gergaji, lem kayu, dan pengamplasan",
-        "medium": "Bengkel tukang kayu dan ukiran mebel kayu",
+        "easy": "Pahat, gergaji, lem tukang kegiatan, dan pengamplasan",
+        "medium": "Bengkel tukang kegiatan dan ukiran mebel kegiatan",
         "hard": "Hobbies"
       }
     },
@@ -8208,7 +8208,7 @@
       "word": "Teka-teki silang",
       "clues": {
         "easy": "Mengisi kotak huruf yang berpotongan melintang dan ke bawah",
-        "medium": "Teka-teki leksikal kisi huruf ortogonal",
+        "medium": "kegiatan-kegiatan leksikal kisi huruf ortogonal",
         "hard": "Hobbies"
       }
     },
@@ -8224,7 +8224,7 @@
       "word": "Video game",
       "clues": {
         "easy": "Memegang pengontrol genggam melihat layar",
-        "medium": "Gameplay layar digital interaktif",
+        "medium": "kegiatanplay layar digital interaktif",
         "hard": "Hobbies"
       }
     },
@@ -8239,8 +8239,8 @@
     {
       "word": "Permainan kartu",
       "clues": {
-        "easy": "Mengacak, membagikan setelan, dan mengambil trik kartu",
-        "medium": "Permainan kartu yang dipertaruhkan atau santai",
+        "easy": "Mengacak, membagikan setelan, dan mengambil trik kemenangan",
+        "medium": "kegiatan dek yang dipertaruhkan atau dicetak kasual",
         "hard": "Hobbies"
       }
     },
@@ -8248,7 +8248,7 @@
       "word": "Trik sulap",
       "clues": {
         "easy": "Hilangnya koin, potongan palsu, dan kartu palming",
-        "medium": "Menciptakan ilusi sulap",
+        "medium": "Menciptakan ilusi kegiatan",
         "hard": "Hobbies"
       }
     },
@@ -8280,7 +8280,7 @@
       "word": "Set kereta api",
       "clues": {
         "easy": "Membangun tata ruang yang indah dengan stasiun dan saklar kecil",
-        "medium": "Operasi tata letak kereta api model berskala",
+        "medium": "Operasi tata letak kegiatan kegiatan model berskala",
         "hard": "Hobbies"
       }
     },
@@ -8327,7 +8327,7 @@
     {
       "word": "Berenang",
       "clues": {
-        "easy": "Kacamata renang, topi renang, dan sapuan air",
+        "easy": "Kacamata, tutup karet, dan sapuan air",
         "medium": "Gerakan latihan pangkuan kolam air",
         "hard": "Hobbies"
       }
@@ -8336,7 +8336,7 @@
       "word": "Panjat tebing",
       "clues": {
         "easy": "Harness, carabiner, tas kapur, dan tali penambatan",
-        "medium": "Pendakian gesekan vertikal pada tebing atau dinding",
+        "medium": "Pendakian gesekan vertikal pada kegiatan atau dinding",
         "hard": "Hobbies"
       }
     },
@@ -8344,14 +8344,14 @@
       "word": "bermain skateboard",
       "clues": {
         "easy": "Berlatih ollies dan kickflip di trotoar",
-        "medium": "Manuver skateboard roda empat",
+        "medium": "Manuver dek pita pegangan roda empat",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Berselancar",
       "clues": {
-        "easy": "Mendayung menuju ombak laut dan ombak yang mengukir",
+        "easy": "Mendayung menuju gelombang besar laut dan menaiki ombak yang pecah",
         "medium": "Mengendarai gelombang laut di atas papan apung",
         "hard": "Hobbies"
       }
@@ -8367,8 +8367,8 @@
     {
       "word": "Seluncur salju",
       "clues": {
-        "easy": "Mengukir belokan gunung bersalju dengan papan boot",
-        "medium": "Ukiran salju alpine satu papan",
+        "easy": "Mengukir belokan gunung yang beku dengan dek boot",
+        "medium": "Ukiran bubuk alpine satu papan",
         "hard": "Hobbies"
       }
     },
@@ -8392,14 +8392,14 @@
       "word": "Menunggang kuda",
       "clues": {
         "easy": "Duduk di pelana sambil memegang tali kekang kulit",
-        "medium": "Keseimbangan pelana berkuda dan berkendara trail",
+        "medium": "Keseimbangan pelana berkuda dan jalur pedesaan",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Panahan",
       "clues": {
-        "easy": "Mengarahkan panah berbulu ke cincin sasaran konsentris",
+        "easy": "Mengarahkan kegiatan berbulu ke cincin sasaran konsentris",
         "medium": "Keahlian menembak sasaran busur berulang",
         "hard": "Hobbies"
       }
@@ -8416,7 +8416,7 @@
       "word": "Latihan beban",
       "clues": {
         "easy": "Melakukan set otot, bench press, dan squat",
-        "medium": "Pelatihan ketahanan beban berlebih yang progresif",
+        "medium": "Set resistensi barbel kelebihan kegiatan progresif",
         "hard": "Hobbies"
       }
     },
@@ -8439,7 +8439,7 @@
     {
       "word": "Dansa ballroom",
       "clues": {
-        "easy": "Pasangan meluncur dalam bingkai melintasi lantai dansa",
+        "easy": "Pasangan meluncur dalam bingkai melintasi lantai kegiatan",
         "medium": "Ditambah langkah tarian pasangan yang kompetitif",
         "hard": "Hobbies"
       }
@@ -8447,7 +8447,7 @@
     {
       "word": "menari salsa",
       "clues": {
-        "easy": "Melangkah mengikuti ritme salsa Afro-Kuba yang optimis",
+        "easy": "Melangkah mengikuti irama ritme Afro-Kuba yang optimis",
         "medium": "Putaran mitra Latin yang disinkronkan dengan cepat",
         "hard": "Hobbies"
       }
@@ -8464,7 +8464,7 @@
       "word": "Pembuatan bir rumahan",
       "clues": {
         "easy": "Merebus jelai malt, hop, dan ragi yang difermentasi",
-        "medium": "Pembuatan bir dan fermentasi biji-bijian dalam jumlah kecil",
+        "medium": "Fermentasi ale wort kerajinan dalam jumlah kecil",
         "hard": "Hobbies"
       }
     },
@@ -8472,15 +8472,15 @@
       "word": "Mencicipi anggur",
       "clues": {
         "easy": "Mengendus aroma, menyesap, dan memperhatikan rasa",
-        "medium": "Evaluasi sensorik dari tanaman anggur",
+        "medium": "Evaluasi sensorik dari tanaman kegiatan",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Memanggang kopi",
       "clues": {
-        "easy": "Memantau panas pemanggangan, bunyi retakan, dan aroma",
-        "medium": "Pirolisis termal biji kopi hijau",
+        "easy": "Memantau panas drum, bunyi retakan, dan aroma kecoklatan",
+        "medium": "Pirolisis termal biji jawa mentah",
         "hard": "Hobbies"
       }
     },
@@ -8488,14 +8488,14 @@
       "word": "Pengawetan",
       "clues": {
         "easy": "Stoples kaca, cuka, dill, dan garam",
-        "medium": "Pengawetan makanan air garam cuka asam",
+        "medium": "kegiatan makanan air garam cuka asam",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Mencari makan",
       "clues": {
-        "easy": "Mencari tumbuhan liar yang dapat dimakan di lantai hutan",
+        "easy": "kegiatan tumbuhan liar yang dapat dimakan di lantai hutan",
         "medium": "Pemanenan tumbuhan liar dari flora hutan",
         "hard": "Hobbies"
       }
@@ -8512,7 +8512,7 @@
       "word": "Mendeteksi logam",
       "clues": {
         "easy": "Mendengarkan bunyi bip untuk menggali koin yang terkubur",
-        "medium": "Pemindaian tanah elektromagnetik untuk logam",
+        "medium": "Pemindaian tanah elektromagnetik untuk mencari relik yang terkubur",
         "hard": "Hobbies"
       }
     },
@@ -8527,7 +8527,7 @@
     {
       "word": "Terbang layang-layang",
       "clues": {
-        "easy": "Menangkap angin pantai agar layang-layang tetap tinggi",
+        "easy": "Menangkap angin pantai untuk menjaga berlian nilon tetap tinggi",
         "medium": "Penerbangan aerodinamis angin tertambat",
         "hard": "Hobbies"
       }
@@ -8535,7 +8535,7 @@
     {
       "word": "Drone terbang",
       "clues": {
-        "easy": "Pengontrol tongkat ganda menavigasi drone di udara",
+        "easy": "Pengontrol dual-stick menavigasi multi-rotor di udara",
         "medium": "Penerbangan quadcopter yang dikendalikan radio jarak jauh",
         "hard": "Hobbies"
       }
@@ -8543,7 +8543,7 @@
     {
       "word": "Permainan bermain peran",
       "clues": {
-        "easy": "Master permainan menggambarkan pencarian fantasi dengan lembar karakter",
+        "easy": "Pendongeng penjara bawah tanah menggambarkan pencarian fantasi dengan lembar karakter",
         "medium": "Narasi fantasi kolaboratif berbasis dadu",
         "hard": "Hobbies"
       }
@@ -8552,7 +8552,7 @@
       "word": "Ruang pelarian",
       "clues": {
         "easy": "Menguraikan teka-teki tersembunyi untuk membuka kunci pintu",
-        "medium": "Pelarian teka-teki ruang kooperatif bertema",
+        "medium": "Misteri teka-teki kegiatan tertutup kooperatif bertema",
         "hard": "Hobbies"
       }
     },
@@ -8575,8 +8575,8 @@
     {
       "word": "Pembuatan film",
       "clues": {
-        "easy": "Penulisan naskah, pembingkaian hasil jepretan kamera, dan penyuntingan film",
-        "medium": "Kerajinan produksi film sinematik",
+        "easy": "Penulisan naskah, membingkai jepretan kamera, dan memotong gulungan gerak",
+        "medium": "Kerajinan produksi kegiatan sinematik",
         "hard": "Hobbies"
       }
     },
@@ -8608,7 +8608,7 @@
       "word": "radio ham",
       "clues": {
         "easy": "Menyiarkan tanda panggilan pada transceiver frekuensi tinggi",
-        "medium": "Transmisi frekuensi radio amatir",
+        "medium": "Transmisi frekuensi nirkabel amatir",
         "hard": "Hobbies"
       }
     },
@@ -8631,16 +8631,16 @@
     {
       "word": "Peternakan lebah",
       "clues": {
-        "easy": "Setelan pelindung lebah, perokok, dan bingkai sarang",
-        "medium": "Pemeliharaan peternakan lebah dan ekstraksi madu",
+        "easy": "Setelan pelindung kegiatan, perokok, dan bingkai sarang",
+        "medium": "Pemeliharaan kegiatan dan ekstraksi madu",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Pelatihan anjing",
       "clues": {
-        "easy": "Pelatihan clicker, suguhan, dan perintah tali pengikat",
-        "medium": "Pengondisian dan kepatuhan operan anjing",
+        "easy": "kegiatan clicker, suguhan, dan perintah tali pengikat",
+        "medium": "Pengondisian dan kepatuhan operan kegiatan",
         "hard": "Hobbies"
       }
     },
@@ -8656,7 +8656,7 @@
       "word": "Jahitan silang",
       "clues": {
         "easy": "Menghitung lubang kain tenun mengikuti bagan warna",
-        "medium": "Jahitan pola X benang terhitung",
+        "medium": "kegiatan pola X benang terhitung",
         "hard": "Hobbies"
       }
     },
@@ -8671,7 +8671,7 @@
     {
       "word": "merajut",
       "clues": {
-        "easy": "Atasan quilt tambal sulam, batting, dan jahitan bermotif",
+        "easy": "Atasan bermotif tambal sulam, batting, dan jahitan dekoratif",
         "medium": "Jahitan tekstil tambal sulam berlapis-lapis",
         "hard": "Hobbies"
       }
@@ -8695,8 +8695,8 @@
     {
       "word": "Pembuatan lilin",
       "clues": {
-        "easy": "Serpihan lilin kedelai, minyak wangi, dan tab sumbu",
-        "medium": "Lilin meleleh di sekitar sumbu kapas",
+        "easy": "Serpihan kegiatan kedelai, minyak wangi, dan tab sumbu",
+        "medium": "kegiatan meleleh di sekitar sumbu kapas",
         "hard": "Hobbies"
       }
     },
@@ -8711,8 +8711,8 @@
     {
       "word": "Merangkai bunga",
       "clues": {
-        "easy": "Memangkas batang bunga dan menyeimbangkan warna bunga",
-        "medium": "Desain tata bunga dan keseimbangan batang bunga",
+        "easy": "Memangkas batang buket dan menyeimbangkan warna mekar yang cerah",
+        "medium": "Desain tata kegiatan dan keseimbangan batang kegiatan",
         "hard": "Hobbies"
       }
     },
@@ -8727,15 +8727,15 @@
     {
       "word": "Pembelajaran bahasa",
       "clues": {
-        "easy": "Kartu flash, audio pengucapan, dan latihan tata bahasa",
-        "medium": "Akuisisi leksikal bahasa kedua",
+        "easy": "Kartu flash, audio pengucapan, dan latihan tata kegiatan",
+        "medium": "Kosakata pidato asing dan perolehan tata kegiatan",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Pengumpulan vinil",
       "clues": {
-        "easy": "Album vinil berukuran dua belas inci yang bisa digali di dalam peti",
+        "easy": "Album alur dua belas inci yang menggali peti dalam selongsong karton",
         "medium": "Pengarsipan cakram fonograf analog",
         "hard": "Hobbies"
       }
@@ -8751,8 +8751,8 @@
     {
       "word": "barang antik",
       "clues": {
-        "easy": "Memeriksa patina furnitur antik dan barang antik bersejarah",
-        "medium": "Akuisisi barang antik pusaka bersejarah",
+        "easy": "Memeriksa patina furnitur kegiatan dan kegiatan bersejarah",
+        "medium": "Akuisisi kegiatan pusaka bersejarah",
         "hard": "Hobbies"
       }
     },
@@ -8775,7 +8775,7 @@
     {
       "word": "Pembuatan perhiasan",
       "clues": {
-        "easy": "Tang perhiasan, pemotong kawat, manik-manik, dan jepit",
+        "easy": "Tang kerajinan, pemotong kawat, manik-manik, dan jepit",
         "medium": "Fabrikasi ornamen buatan tangan yang dapat dipakai",
         "hard": "Hobbies"
       }
@@ -8783,16 +8783,16 @@
     {
       "word": "Meniup kaca",
       "clues": {
-        "easy": "Mengumpulkan kaca cair bercahaya dari tungku panas",
-        "medium": "Manipulasi termal gelembung kaca cair",
+        "easy": "Mengumpulkan silika cair yang bersinar dari tungku panas",
+        "medium": "Manipulasi termal gelembung silika bercahaya cair",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Kaca berwarna",
       "clues": {
-        "easy": "Memotong potongan kaca berwarna dan sambungan solder",
-        "medium": "Rakitan kaca seni berwarna yang disolder dengan timah",
+        "easy": "Memotong panel dekoratif kegiatan dan sambungan solder",
+        "medium": "Rakitan panel dekoratif kegiatan yang disolder dengan timah",
         "hard": "Hobbies"
       }
     },
@@ -8807,16 +8807,16 @@
     {
       "word": "Penulisan surat",
       "clues": {
-        "easy": "Kertas alat tulis, pulpen, dan segel lilin",
-        "medium": "Komposisi surat pos epistolary",
+        "easy": "Perkamen alat tulis, pulpen, dan segel lilin",
+        "medium": "Komposisi perkamen kegiatan kegiatan",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Sketsa perkotaan",
       "clues": {
-        "easy": "Cat air dan pena tinta di buku sketsa portabel",
-        "medium": "Sketsa arsitektur observasional Plein-air",
+        "easy": "Cat air dan pena tinta di papan gambar portabel",
+        "medium": "Penggambaran arsitektur observasional Plein-air",
         "hard": "Hobbies"
       }
     }

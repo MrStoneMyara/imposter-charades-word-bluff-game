@@ -27,7 +27,7 @@
     {
       "word": "Orologio da polso",
       "clues": {
-        "easy": "Piccolo orologio con cinturino",
+        "easy": "Piccolo articolo con cinturino",
         "medium": "Quadrante con cinturino a ticchettio",
         "hard": "Oggetti Quotidiani"
       }
@@ -59,7 +59,7 @@
     {
       "word": "Zaino",
       "clues": {
-        "easy": "Zaino per il trasporto con cerniera e due cinghie",
+        "easy": "articolo per il trasporto con cerniera e due cinghie",
         "medium": "Carico da viaggio con doppia cinghia",
         "hard": "Oggetti Quotidiani"
       }
@@ -67,7 +67,7 @@
     {
       "word": "Frigorifero",
       "clues": {
-        "easy": "Armadio frigorifero da cucina refrigerato",
+        "easy": "Armadio articolo da cucina refrigerato",
         "medium": "Scatola da cucina con ronzio continuo",
         "hard": "Oggetti Quotidiani"
       }
@@ -84,7 +84,7 @@
       "word": "Cuscino",
       "clues": {
         "easy": "Morbido materassino imbottito",
-        "medium": "Cuscino per la testa in piuma",
+        "medium": "articolo per la testa in piuma",
         "hard": "Oggetti Quotidiani"
       }
     },
@@ -163,7 +163,7 @@
     {
       "word": "Torcia elettrica",
       "clues": {
-        "easy": "Torcia portatile alimentata a batteria",
+        "easy": "articolo portatile alimentata a batteria",
         "medium": "Raggio scuro portatile",
         "hard": "Oggetti Quotidiani"
       }
@@ -179,7 +179,7 @@
     {
       "word": "Tastiera",
       "clues": {
-        "easy": "Righe di tasti di digitazione per schermi",
+        "easy": "Righe di articolo di digitazione per schermi",
         "medium": "Griglia di digitazione QWERTY",
         "hard": "Oggetti Quotidiani"
       }
@@ -268,7 +268,7 @@
       "word": "Libreria",
       "clues": {
         "easy": "Tavole di legno a più livelli per i volumi",
-        "medium": "Libreria cartacea a righe verticali",
+        "medium": "articolo cartacea a righe verticali",
         "hard": "Oggetti Quotidiani"
       }
     },
@@ -315,7 +315,7 @@
     {
       "word": "Penna a sfera",
       "clues": {
-        "easy": "Fusto d'inchiostro a sfera rotante in metallo",
+        "easy": "Fusto d'inchiostro a articolo rotante in metallo",
         "medium": "Bastone per serbatoio d'inchiostro tascabile",
         "hard": "Oggetti Quotidiani"
       }
@@ -323,8 +323,8 @@
     {
       "word": "Gomma",
       "clues": {
-        "easy": "Blocco in gomma di sollevamento in grafite",
-        "medium": "Blocco in gomma anti-macchia",
+        "easy": "Blocco in articolo di sollevamento in grafite",
+        "medium": "Blocco in articolo anti-macchia",
         "hard": "Oggetti Quotidiani"
       }
     },
@@ -340,14 +340,14 @@
       "word": "Colla stick",
       "clues": {
         "easy": "Cilindro adesivo solido per carta",
-        "medium": "Cilindro adesivo in carta adesiva",
+        "medium": "Cilindro adesivo in carta twist-up",
         "hard": "Oggetti Quotidiani"
       }
     },
     {
       "word": "Nastro adesivo",
       "clues": {
-        "easy": "Rotolo di nastro adesivo trasparente",
+        "easy": "Rotolo di articolo trasparente",
         "medium": "Bobina adesiva tagliata in dispenser",
         "hard": "Oggetti Quotidiani"
       }
@@ -355,7 +355,7 @@
     {
       "word": "Busta",
       "clues": {
-        "easy": "Busta per posta piegata e sigillata",
+        "easy": "articolo per posta piegata e sigillata",
         "medium": "Pacchetto cartaceo con timbro postale",
         "hard": "Oggetti Quotidiani"
       }
@@ -403,7 +403,7 @@
     {
       "word": "Maniglia della porta",
       "clues": {
-        "easy": "Maniglia rotonda girevole",
+        "easy": "articolo rotonda girevole",
         "medium": "Hardware di ingresso rotante",
         "hard": "Oggetti Quotidiani"
       }
@@ -427,8 +427,8 @@
     {
       "word": "Secchio",
       "clues": {
-        "easy": "Secchio aperto con manico in filo metallico",
-        "medium": "Secchio rotondo per il trasporto dell'acqua",
+        "easy": "articolo aperto con manico in filo metallico",
+        "medium": "articolo rotondo per il trasporto dell'acqua",
         "hard": "Oggetti Quotidiani"
       }
     },
@@ -444,14 +444,14 @@
       "word": "Saponetta",
       "clues": {
         "easy": "Blocco scivoloso che produce schiuma",
-        "medium": "Barra schiumogena profumata",
+        "medium": "Blocco bagno profumato insaponato",
         "hard": "Oggetti Quotidiani"
       }
     },
     {
       "word": "Asciugamano da bagno",
       "clues": {
-        "easy": "Grande spugna da bagno assorbente",
+        "easy": "Ampia spugna doccia assorbente",
         "medium": "Fascia idratante in cotone ad anello",
         "hard": "Oggetti Quotidiani"
       }
@@ -459,7 +459,7 @@
     {
       "word": "Spazzola per capelli",
       "clues": {
-        "easy": "Paletta con spilli per pettinare",
+        "easy": "Paletta con spilli articolo pettinare",
         "medium": "Paletta di setole a spillo",
         "hard": "Oggetti Quotidiani"
       }
@@ -579,8 +579,8 @@
     {
       "word": "Cesto per la biancheria",
       "clues": {
-        "easy": "Cesto ventilato per indumenti",
-        "medium": "Cestino per vestiti sporchi in tessuto",
+        "easy": "articolo ventilato articolo indumenti",
+        "medium": "Cestino articolo vestiti sporchi in tessuto",
         "hard": "Oggetti Quotidiani"
       }
     },
@@ -603,7 +603,7 @@
     {
       "word": "Padella",
       "clues": {
-        "easy": "Padella da cucina in metallo a fondo piatto",
+        "easy": "articolo da cucina in metallo a fondo piatto",
         "medium": "Metallo sfrigolante a fondo piatto",
         "hard": "Oggetti Quotidiani"
       }
@@ -635,8 +635,8 @@
     {
       "word": "Guanto da forno",
       "clues": {
-        "easy": "Guanto da cucina in tessuto isolante",
-        "medium": "Guanto trapuntato resistente al calore",
+        "easy": "articolo da cucina in tessuto isolante",
+        "medium": "articolo trapuntato resistente al calore",
         "hard": "Oggetti Quotidiani"
       }
     },
@@ -747,7 +747,7 @@
     {
       "word": "Vassoio per cubetti di ghiaccio",
       "clues": {
-        "easy": "Stampo scomparto congelatore per cubetti",
+        "easy": "Stampo articolo scomparto congelatore articolo blocchi di abbattimento",
         "medium": "Stampo sottozero ripartito",
         "hard": "Oggetti Quotidiani"
       }
@@ -755,7 +755,7 @@
     {
       "word": "Gancio appendiabiti",
       "clues": {
-        "easy": "Appendiabiti da parete per cappotti",
+        "easy": "articolo da parete per capispalla",
         "medium": "Punta curva da muro per giacche",
         "hard": "Oggetti Quotidiani"
       }
@@ -771,7 +771,7 @@
     {
       "word": "Sottobicchiere",
       "clues": {
-        "easy": "Piccolo tampone posto sotto le bevande",
+        "easy": "Piccolo tampone posto articolo le bevande",
         "medium": "Barriera ad anello superficiale",
         "hard": "Oggetti Quotidiani"
       }
@@ -878,7 +878,7 @@
       "word": "Gelato",
       "clues": {
         "easy": "Delizia al latte refrigerata zangolata",
-        "medium": "Sciogliere la panna dolce",
+        "medium": "Fondere il cucchiaio di latticini congelati dolci",
         "hard": "Cibo"
       }
     },
@@ -965,8 +965,8 @@
     {
       "word": "Risotto",
       "clues": {
-        "easy": "Riso a chicco corto cotto con brodo",
-        "medium": "Riso Arborio cotto a fuoco lento con parmigiano",
+        "easy": "preparazione a chicco corto cotto con brodo",
+        "medium": "preparazione Arborio cotto a fuoco lento con parmigiano",
         "hard": "Cibo"
       }
     },
@@ -1005,8 +1005,8 @@
     {
       "word": "Involtino primavera",
       "clues": {
-        "easy": "Involucro sottile arrotolato attorno al ripieno",
-        "medium": "Rotolo di pasta fritta traslucida",
+        "easy": "Involucro sottile avvolto da ripieni croccanti",
+        "medium": "Cilindro di pasta fritta traslucido",
         "hard": "Cibo"
       }
     },
@@ -1053,7 +1053,7 @@
     {
       "word": "Zuppa di miso",
       "clues": {
-        "easy": "Zuppa di pasta di soia fermentata con dashi",
+        "easy": "Brodo di pasta di soia fermentata con dashi",
         "medium": "Brodo torbido per la colazione con scalogno",
         "hard": "Cibo"
       }
@@ -1086,7 +1086,7 @@
       "word": "Sciroppo d'acero",
       "clues": {
         "easy": "Linfa d'albero bollita per la colazione",
-        "medium": "Sciroppo di albero deciduo bollito ambrato",
+        "medium": "Riduzione di alberi decidui bolliti all'ambra",
         "hard": "Cibo"
       }
     },
@@ -1157,7 +1157,7 @@
     {
       "word": "Anelli di cipolla",
       "clues": {
-        "easy": "Anelli di verdure croccanti fritti",
+        "easy": "preparazione di verdure croccanti fritti",
         "medium": "Cerchi concentrici di verdure pastellati",
         "hard": "Cibo"
       }
@@ -1165,16 +1165,16 @@
     {
       "word": "Purè di patate",
       "clues": {
-        "easy": "Contorno di patate condite montate",
-        "medium": "Patate pestate con panna fusa",
+        "easy": "Contorno di spud condito montato",
+        "medium": "preparazione pestate con panna fusa",
         "hard": "Cibo"
       }
     },
     {
       "word": "Patate al forno",
       "clues": {
-        "easy": "Patate avvolte in carta stagnola con panna acida",
-        "medium": "Dividere la buccia di patate fumante",
+        "easy": "preparazione intere avvolte in carta stagnola con panna acida",
+        "medium": "Pelle di spud fumante divisa",
         "hard": "Cibo"
       }
     },
@@ -1197,7 +1197,7 @@
     {
       "word": "Zuppa di pomodoro",
       "clues": {
-        "easy": "Zuppa rossa cremosa abbinata a pane tostato",
+        "easy": "Brodo di purea rossa cremosa abbinato a pane tostato",
         "medium": "Fruttiera calda di purea di vite rossa",
         "hard": "Cibo"
       }
@@ -1221,7 +1221,7 @@
     {
       "word": "Uova strapazzate",
       "clues": {
-        "easy": "Uova in padella per colazione mescolate",
+        "easy": "Cagliata di tuorlo in padella per colazione mescolata",
         "medium": "Cagliata soffice sul pane tostato",
         "hard": "Cibo"
       }
@@ -1229,7 +1229,7 @@
     {
       "word": "Pancetta",
       "clues": {
-        "easy": "Strisce di pancetta di maiale sfrigolanti per colazione",
+        "easy": "Strisce di preparazione di maiale sfrigolanti per colazione",
         "medium": "Strisce di fumo per colazione a strisce stagionate",
         "hard": "Cibo"
       }
@@ -1245,7 +1245,7 @@
     {
       "word": "Polpetta",
       "clues": {
-        "easy": "Sfera di carne condita bollita in salsa",
+        "easy": "Sfera salata macinata condita bollita in salsa",
         "medium": "Sfera di manzo brasato alla marinara",
         "hard": "Cibo"
       }
@@ -1269,7 +1269,7 @@
     {
       "word": "Pesce e patatine",
       "clues": {
-        "easy": "Frutti di mare croccanti con patatine fritte e aceto",
+        "easy": "Frutti di mare croccanti con preparazione fritte e aceto",
         "medium": "Fritture di mare avvolte nel giornale",
         "hard": "Cibo"
       }
@@ -1278,7 +1278,7 @@
       "word": "Formaggio grigliato",
       "clues": {
         "easy": "Pane saltato in padella con cuore di latte appiccicoso",
-        "medium": "Panino alla griglia con burro e formaggio",
+        "medium": "Panino alla piastra con burro e lattosio fuso",
         "hard": "Cibo"
       }
     },
@@ -1349,8 +1349,8 @@
     {
       "word": "Torta di formaggio",
       "clues": {
-        "easy": "Crema di formaggio dolce al forno su base di briciole",
-        "medium": "Fetta di torta al latte fredda e densa",
+        "easy": "Crema pasticcera dolce al latte cotta su base di briciole",
+        "medium": "Fetta di preparazione al latte fredda e densa",
         "hard": "Cibo"
       }
     },
@@ -1373,15 +1373,15 @@
     {
       "word": "Rotolo alla cannella",
       "clues": {
-        "easy": "Ricciolo di pasta arrotolata al forno con glassa dolce",
-        "medium": "Pasta dolce a spirale con glassa alla crema",
+        "easy": "Ricciolo di pasta a spirale al forno con glassa dolce",
+        "medium": "Pasta dolce a spirale con glassa preparazione crema",
         "hard": "Cibo"
       }
     },
     {
       "word": "Pane all'aglio",
       "clues": {
-        "easy": "Pane croccante cotto con burro alle erbe",
+        "easy": "preparazione croccante a fette cotto con burro alle erbe",
         "medium": "Pagnotta burrosa alle erbe rosolata al forno",
         "hard": "Cibo"
       }
@@ -1421,8 +1421,8 @@
     {
       "word": "Salsa",
       "clues": {
-        "easy": "Salsa piccante per tortilla chips",
-        "medium": "Salsa a dadini di coriandolo e jalapeño",
+        "easy": "preparazione piccante per tortilla chips",
+        "medium": "preparazione a dadini di coriandolo e jalapeño",
         "hard": "Cibo"
       }
     },
@@ -1430,7 +1430,7 @@
       "word": "Olio d'oliva",
       "clues": {
         "easy": "Condimento per insalata dorato e liquido di cottura",
-        "medium": "Olio verde mediterraneo spremuto a freddo",
+        "medium": "Grasso fruttato mediterraneo spremuto a freddo",
         "hard": "Cibo"
       }
     },
@@ -1494,7 +1494,7 @@
       "word": "Cereali",
       "clues": {
         "easy": "Grani in scatola versati nella ciotola del mattino",
-        "medium": "Fiocchi di cereali tostati nella ciotola del caseificio",
+        "medium": "Fiocchi di preparazione tostati nella ciotola del caseificio",
         "hard": "Cibo"
       }
     },
@@ -1672,7 +1672,7 @@
       "word": "Gallo",
       "clues": {
         "easy": "Uccello maschio crestato con cresta brillante",
-        "medium": "Gallo da cortile che chiama l'alba",
+        "medium": "creatura da cortile che chiama l'alba",
         "hard": "Animali"
       }
     },
@@ -1912,7 +1912,7 @@
       "word": "Serpente",
       "clues": {
         "easy": "Lingua che trema e pelle squamosa che perde pelo",
-        "medium": "Serpente velenoso o costrittore",
+        "medium": "creatura velenoso o costrittore",
         "hard": "Animali"
       }
     },
@@ -2015,7 +2015,7 @@
     {
       "word": "Orso grizzly",
       "clues": {
-        "easy": "Orso con la gobba che cattura il salmone di fiume",
+        "easy": "Bestia dall'apice con la gobba sulle spalle che cattura il salmone di fiume",
         "medium": "Potente onnivoro dell'entroterra ibernato",
         "hard": "Animali"
       }
@@ -2255,7 +2255,7 @@
     {
       "word": "Stella marina",
       "clues": {
-        "easy": "Stella marina rigenerante su corallo",
+        "easy": "Rigenerante creatura creatura a cinque braccia su corallo",
         "medium": "Cingolato bentonico radiale",
         "hard": "Animali"
       }
@@ -2673,7 +2673,7 @@
     {
       "word": "Sud Africa",
       "clues": {
-        "easy": "Nazione arcobaleno all'estremità meridionale del continente",
+        "easy": "Nazione arcobaleno al Capo di Buona Speranza",
         "medium": "Nazione dei due oceani con oro e diamanti",
         "hard": "Paesi"
       }
@@ -2745,8 +2745,8 @@
     {
       "word": "Arabia Saudita",
       "clues": {
-        "easy": "Cuore della penisola arabica con pellegrinaggio storico",
-        "medium": "Regno che occupa gran parte della penisola arabica",
+        "easy": "Cuore di una vasta penisola deserta con lo storico pellegrinaggio alla Mecca",
+        "medium": "Regno che occupa gran parte della vasta penisola deserta del golfo",
         "hard": "Paesi"
       }
     },
@@ -2866,7 +2866,7 @@
       "word": "Filippine",
       "clues": {
         "easy": "Nazione dell'arcipelago del Pacifico composta da settemila isole",
-        "medium": "Catena di isole tra il Mar Cinese Meridionale e il Mar delle Filippine",
+        "medium": "Arcipelago tropicale tra lo stretto di Luzon e il mare di Celebes",
         "hard": "Paesi"
       }
     },
@@ -2874,7 +2874,7 @@
       "word": "Corea del Sud",
       "clues": {
         "easy": "Nazione peninsulare ad alta tecnologia con una cultura vivace",
-        "medium": "Repubblica dell'Asia orientale a sud del 38° parallelo",
+        "medium": "Repubblica dell'Asia orientale al di sotto del 38° parallelo",
         "hard": "Paesi"
       }
     },
@@ -3252,7 +3252,7 @@
       "word": "Farmacista",
       "clues": {
         "easy": "Controlla le prescrizioni e spiega i dosaggi",
-        "medium": "Specialista in farmaci autorizzato",
+        "medium": "Specialista in specialista autorizzato",
         "hard": "Professioni"
       }
     },
@@ -3307,7 +3307,7 @@
     {
       "word": "Bibliotecario",
       "clues": {
-        "easy": "Mantiene gli stack della biblioteca e assiste i ricercatori",
+        "easy": "Mantiene gli stack della specialista e assiste i ricercatori",
         "medium": "Curatore delle risorse a stampa catalogate",
         "hard": "Professioni"
       }
@@ -3387,8 +3387,8 @@
     {
       "word": "Pilota",
       "clues": {
-        "easy": "Gestisce i controlli della cabina di pilotaggio e gli strumenti di volo",
-        "medium": "Comandante della cabina di pilotaggio dell'aviazione",
+        "easy": "Gestisce i controlli della cabina di specialistaggio e gli strumenti di volo",
+        "medium": "Comandante della cabina di specialistaggio dell'aviazione",
         "hard": "Professioni"
       }
     },
@@ -3396,7 +3396,7 @@
       "word": "Assistente di volo",
       "clues": {
         "easy": "Dimostra le uscite di emergenza e la sicurezza della cabina",
-        "medium": "Steward di cabina passeggeri a bordo",
+        "medium": "Steward di cabina passeggeri in specialista",
         "hard": "Professioni"
       }
     },
@@ -3420,7 +3420,7 @@
       "word": "Vigile del fuoco",
       "clues": {
         "easy": "Casco, manichetta pesante e autoscala",
-        "medium": "Specialista in estinzione incendi di emergenza",
+        "medium": "Specialista nella soppressione degli incendi d'emergenza",
         "hard": "Professioni"
       }
     },
@@ -3428,7 +3428,7 @@
       "word": "Ufficiale di polizia",
       "clues": {
         "easy": "Distintivo, uniforme e pattuglia di emergenza comunitaria",
-        "medium": "Agente di pattuglia delle forze dell'ordine",
+        "medium": "Agente di pattuglia in uniforme delle forze dell'ordine",
         "hard": "Professioni"
       }
     },
@@ -3436,7 +3436,7 @@
       "word": "Investigatore",
       "clues": {
         "easy": "Esamina le scene del crimine e interroga i sospetti",
-        "medium": "Investigatore criminale forense",
+        "medium": "specialista criminale forense",
         "hard": "Professioni"
       }
     },
@@ -3444,7 +3444,7 @@
       "word": "Giudice",
       "clues": {
         "easy": "Veste nera, martelletto e sentenze legali",
-        "medium": "Giudice legale d'aula",
+        "medium": "specialista legale d'aula",
         "hard": "Professioni"
       }
     },
@@ -3452,7 +3452,7 @@
       "word": "Avvocato",
       "clues": {
         "easy": "Presenta mozioni giudiziarie e interpreta la legge statutaria",
-        "medium": "Avvocato legale autorizzato",
+        "medium": "specialista legale autorizzato",
         "hard": "Professioni"
       }
     },
@@ -3491,7 +3491,7 @@
     {
       "word": "Pescatore",
       "clues": {
-        "easy": "Trawler, lenze da pesca e catture oceaniche",
+        "easy": "Trawler, lenze da specialista e catture oceaniche",
         "medium": "Raccoglitrice marittima commerciale",
         "hard": "Professioni"
       }
@@ -3500,7 +3500,7 @@
       "word": "Falegname",
       "clues": {
         "easy": "Sega, metro a nastro e giunti in legno",
-        "medium": "Artigiano di carpenteria e falegnameria",
+        "medium": "Artigiano di carpenteria e specialistaria",
         "hard": "Professioni"
       }
     },
@@ -3516,7 +3516,7 @@
       "word": "Elettricista",
       "clues": {
         "easy": "Pinze, interruttori automatici e cablaggi isolati",
-        "medium": "Installatore di cablaggi elettrici ad alta tensione",
+        "medium": "Installatore di cablaggi specialista ad alta tensione",
         "hard": "Professioni"
       }
     },
@@ -3539,7 +3539,7 @@
     {
       "word": "Pittore",
       "clues": {
-        "easy": "Rulli, vassoi per vernice e teli protettivi",
+        "easy": "Rulli, vassoi per pigmenti e tele protettive",
         "medium": "Commerciante di rivestimenti e finiture superficiali",
         "hard": "Professioni"
       }
@@ -3563,7 +3563,7 @@
     {
       "word": "Parrucchiere",
       "clues": {
-        "easy": "Poltrona da parrucchiere, forbici, fogli e asciugacapelli",
+        "easy": "Poltrona da specialista, forbici, fogli e asciugacapelli",
         "medium": "Stilista del salone di cosmetologia",
         "hard": "Professioni"
       }
@@ -3580,7 +3580,7 @@
       "word": "Giardiniere",
       "clues": {
         "easy": "Cesoie, cazzuola, terra e pacciame",
-        "medium": "Giardiniere del paesaggio orticolo",
+        "medium": "specialista del paesaggio orticolo",
         "hard": "Professioni"
       }
     },
@@ -3588,7 +3588,7 @@
       "word": "Giornalista",
       "clues": {
         "easy": "Intervista fonti e scrive articoli di notizie",
-        "medium": "Corrispondente stampa e giornalista",
+        "medium": "Corrispondente stampa e specialista",
         "hard": "Professioni"
       }
     },
@@ -3619,7 +3619,7 @@
     {
       "word": "Musicista",
       "clues": {
-        "easy": "Spartiti, ritmo e strumento acustico",
+        "easy": "Partiture, ritmo e strumento acustico",
         "medium": "Artista di performance strumentale",
         "hard": "Professioni"
       }
@@ -3667,15 +3667,15 @@
     {
       "word": "Banchiere",
       "clues": {
-        "easy": "Presidia il capitale finanziario e il credito bancario",
-        "medium": "Responsabile banche commerciali e prestiti",
+        "easy": "Presidia il capitale finanziario e il credito commerciale",
+        "medium": "Responsabile finanziamenti e prestiti commerciali",
         "hard": "Professioni"
       }
     },
     {
       "word": "Cassiere",
       "clues": {
-        "easy": "Lettore di codici a barre, registratore di cassa e stampante per ricevute",
+        "easy": "Lettore di codici a barre, cassetto cassa e stampante per ricevute",
         "medium": "Operatore del punto vendita di cassa al dettaglio",
         "hard": "Professioni"
       }
@@ -3699,23 +3699,23 @@
     {
       "word": "Guida turistica",
       "clues": {
-        "easy": "Fornisce commenti e guida tour a piedi",
-        "medium": "Capo spedizione turistica culturale",
+        "easy": "Fornisce commenti storici per i specialista in visita",
+        "medium": "Capo spedizione specialista culturale",
         "hard": "Professioni"
       }
     },
     {
       "word": "Tassista",
       "clues": {
-        "easy": "Naviga nel traffico stradale con il tassametro sul cruscotto",
-        "medium": "Autista di taxi passeggeri su strada urbana",
+        "easy": "Naviga nel traffico stradale con il contatore tariffario del dashboard",
+        "medium": "Operatore di taxi giallo per passeggeri urbani su strada",
         "hard": "Professioni"
       }
     },
     {
       "word": "Autista di autobus",
       "clues": {
-        "easy": "Gestisce autobus di transito di grandi dimensioni lungo le fermate programmate",
+        "easy": "Gestisce specialista di transito di grandi dimensioni lungo le fermate programmate",
         "medium": "Gestore delle vie di transito municipali",
         "hard": "Professioni"
       }
@@ -3731,8 +3731,8 @@
     {
       "word": "Corriere di consegna",
       "clues": {
-        "easy": "Guida il furgone per le consegne e scansiona i codici a barre dei pacchi",
-        "medium": "Corriere pacchi a domicilio dell'ultimo miglio",
+        "easy": "Guida il furgone delle spedizioni e scansiona i codici a barre dei pacchi",
+        "medium": "specialista di pacchi a domicilio dell'ultimo miglio",
         "hard": "Professioni"
       }
     },
@@ -3748,7 +3748,7 @@
       "word": "Grafico",
       "clues": {
         "easy": "Software di illustrazione digitale e tipografia",
-        "medium": "Progettista di branding visivo commerciale",
+        "medium": "Artista di branding visivo commerciale",
         "hard": "Professioni"
       }
     },
@@ -3756,7 +3756,7 @@
       "word": "Regista cinematografico",
       "clues": {
         "easy": "Richiama l'azione, guida la cinematografia e rivede le riprese",
-        "medium": "Regista cinematografico",
+        "medium": "Autore di film cinematografici",
         "hard": "Professioni"
       }
     },
@@ -3828,7 +3828,7 @@
       "word": "Fabbro",
       "clues": {
         "easy": "Raccoglie bicchieri, chiavi grezze e installa catenacci",
-        "medium": "Specialista nel taglio chiavi e serrature a cilindro",
+        "medium": "Specialista nella duplicazione di chiavi e nella chiusura di cilindri",
         "hard": "Professioni"
       }
     },
@@ -3883,7 +3883,7 @@
     {
       "word": "Mago",
       "clues": {
-        "easy": "Carte da gioco, bacchetta magica e trucchi ingannevoli",
+        "easy": "Carte da gioco, bacchetta lucida e giochi di prestigio ingannevoli",
         "medium": "Illusionista teatrale e artista di prestidigitazione",
         "hard": "Professioni"
       }
@@ -3900,14 +3900,14 @@
       "word": "Agente immobiliare",
       "clues": {
         "easy": "Mostra le case ai clienti e conclude le trattative immobiliari",
-        "medium": "Intermediario immobiliare residenziale autorizzato",
+        "medium": "Intermediario specialista residenziale autorizzato",
         "hard": "Professioni"
       }
     },
     {
       "word": "Negoziante",
       "clues": {
-        "easy": "Rifornisce gli scaffali, assiste gli acquirenti e gestisce il negozio",
+        "easy": "Rifornisce gli scaffali, assiste gli utenti e gestisce la vetrina",
         "medium": "Proprietario indipendente di negozio al dettaglio",
         "hard": "Professioni"
       }
@@ -3931,8 +3931,8 @@
     {
       "word": "Nutrizionista",
       "clues": {
-        "easy": "Calcola l'apporto calorico e un'alimentazione equilibrata",
-        "medium": "Consulente dietetico e benessere alimentare",
+        "easy": "Calcola l'apporto calorico e piani pasto equilibrati",
+        "medium": "Consulente in materia di benessere alimentare e salute alimentare",
         "hard": "Professioni"
       }
     },
@@ -3972,7 +3972,7 @@
       "word": "Controllore del traffico aereo",
       "clues": {
         "easy": "Schermo radar, auricolare e autorizzazione della pista dell'aeroporto",
-        "medium": "Controllore radar dello spazio aereo della torre dell'aeroporto",
+        "medium": "Monitor radar dello spazio specialista della torre dell'aeroporto",
         "hard": "Professioni"
       }
     },
@@ -3980,7 +3980,7 @@
       "word": "Operatore di gru",
       "clues": {
         "easy": "Leve della cabina alta, cavi di sollevamento e contrappesi",
-        "medium": "Operatore di cabina per la costruzione di paranchi pesanti",
+        "medium": "Specialista in cabine per la costruzione di paranchi pesanti",
         "hard": "Professioni"
       }
     },
@@ -4085,7 +4085,7 @@
     {
       "word": "Pallavolo",
       "clues": {
-        "easy": "Colpire e posizionare la palla sopra il pavimento",
+        "easy": "Colpire e posizionare la disciplina sopra il pavimento",
         "medium": "Gioco a punta di rete con rotazione per sei giocatori",
         "hard": "Sport"
       }
@@ -4101,8 +4101,8 @@
     {
       "word": "Ping-pong",
       "clues": {
-        "easy": "Palette in miniatura che si radunano sulla rete del tavolo",
-        "medium": "Partita con paddle in gomma per tavolo da ping-pong",
+        "easy": "Pale in miniatura che si radunano attraverso la rete verde",
+        "medium": "Partita di disciplina indoor con paddle in gomma",
         "hard": "Sport"
       }
     },
@@ -4133,7 +4133,7 @@
     {
       "word": "Sci",
       "clues": {
-        "easy": "Bastoncini da sci, curve scolpite e seggiovie",
+        "easy": "Bastoncini da didisciplinaplina, curve scolpite e seggiovie",
         "medium": "Discesa alpina in discesa su neve a doppia stecca",
         "hard": "Sport"
       }
@@ -4141,8 +4141,8 @@
     {
       "word": "Snowboard",
       "clues": {
-        "easy": "Entrambi gli scarponi sono fissati su un unico ponte di neve",
-        "medium": "Ponte singolo alpino che intaglia la neve farinosa",
+        "easy": "Entrambi gli stivali sono fissati su un unico ponte invernale",
+        "medium": "Singolo ponte alpino che intaglia il gelo polveroso",
         "hard": "Sport"
       }
     },
@@ -4205,8 +4205,8 @@
     {
       "word": "Tiro con l'arco",
       "clues": {
-        "easy": "Tendere la corda dell'arco e rilasciare l'asta piumata",
-        "medium": "Tiro al bersaglio Bullseye con arco ricurvo",
+        "easy": "Tendere la corda dell'disciplina e rilasciare l'asta piumata",
+        "medium": "disciplina al bersaglio Bullseye disciplina disciplina ricurvo",
         "hard": "Sport"
       }
     },
@@ -4357,8 +4357,8 @@
     {
       "word": "Salto con l'asta",
       "clues": {
-        "easy": "Piantare palo flessibile in fibra di vetro per cancellare la barra",
-        "medium": "Salto verticale aiutato dalla flessione del palo in fibra di vetro",
+        "easy": "Piantare un longherone flessibile in fibra di vetro per eliminare la barra",
+        "medium": "disciplina verticale aiutato dalla flessione dell'disciplina in fibra di vetro",
         "hard": "Sport"
       }
     },
@@ -4366,7 +4366,7 @@
       "word": "Lancio del peso",
       "clues": {
         "easy": "Girare all'interno del cerchio per lanciare la palla di ferro",
-        "medium": "Lancio di una sfera metallica esplosiva dal cerchio",
+        "medium": "disciplina di una sfera metallica esplosiva dal cerchio",
         "hard": "Sport"
       }
     },
@@ -4389,7 +4389,7 @@
     {
       "word": "Sollevamento pesi",
       "clues": {
-        "easy": "Snatch, clean and jerk, con pesi col gesso",
+        "easy": "Snatch, clean and jerk, con disciplina col gesso",
         "medium": "Elevazione del bilanciere dalla piattaforma al blocco sopraelevato",
         "hard": "Sport"
       }
@@ -4446,7 +4446,7 @@
       "word": "Pallanuoto",
       "clues": {
         "easy": "Cuffie da nuoto con protezioni per le orecchie e porte galleggianti",
-        "medium": "Mischia palla acquatica in acque profonde",
+        "medium": "Mischia disciplina clorata acquatica profonda",
         "hard": "Sport"
       }
     },
@@ -4494,7 +4494,7 @@
       "word": "Biliardo",
       "clues": {
         "easy": "Invasare palline rosse e colorate in sequenza",
-        "medium": "Tavolo da biliardo in tela con invasatura sfere colorate",
+        "medium": "Tavolo da disciplina in tela con invasatura sfere colorate",
         "hard": "Sport"
       }
     },
@@ -4509,7 +4509,7 @@
     {
       "word": "Nuoto artistico",
       "clues": {
-        "easy": "Routine di clip per il naso a testa in giù in piscina",
+        "easy": "Routine di clip per il naso a testa in giù in una piscina clorata",
         "medium": "Coreografia acquatica sincronizzata alla musica",
         "hard": "Sport"
       }
@@ -4518,7 +4518,7 @@
       "word": "Sci nautico",
       "clues": {
         "easy": "Tenendo la fune da traino che scivola sulla scia della barca",
-        "medium": "Planata trainata da una barca in acque libere",
+        "medium": "Scrematura della scia trainata da una barca su doppie guide",
         "hard": "Sport"
       }
     },
@@ -4582,7 +4582,7 @@
       "word": "Discogolf",
       "clues": {
         "easy": "Percorso degli obiettivi del canestro a maglie di catena attraverso il parco",
-        "medium": "Corso di precisione del disco volante dal tee al basket",
+        "medium": "Corso di precisione del disciplina volante dal tee al canestro",
         "hard": "Sport"
       }
     },
@@ -4622,7 +4622,7 @@
       "word": "Salto con gli sci",
       "clues": {
         "easy": "Accelerare la discesa in pista scivolando in formazione a V",
-        "medium": "Volo ripido in corsa planando con forma aerodinamica a V",
+        "medium": "Volo ripido in corsa planando disciplina forma aerodinamica a V",
         "hard": "Sport"
       }
     },
@@ -4630,7 +4630,7 @@
       "word": "Sci di fondo",
       "clues": {
         "easy": "Fai un passo diagonale con calci e scivolate attraverso la natura innevata",
-        "medium": "Sci nordico su piste di resistenza su stretti sci nordici",
+        "medium": "disciplina nordico su piste di resistenza su stretti disciplina nordici",
         "hard": "Sport"
       }
     },
@@ -4645,8 +4645,8 @@
     {
       "word": "Danza sul ghiaccio",
       "clues": {
-        "easy": "Intricati giochi di gambe sincronizzati e twizzle sul ghiaccio",
-        "medium": "Coreografia teatrale di coppia su ghiaccio",
+        "easy": "Intricati giochi di gambe sincronizzati e twizzle sulla pista ghiacciata",
+        "medium": "Coreografia teatrale di coppia in sala da ballo su pista ghiacciata",
         "hard": "Sport"
       }
     },
@@ -4685,7 +4685,7 @@
     {
       "word": "Biliardo",
       "clues": {
-        "easy": "Colpi di carambola che colpiscono palle da biliardo senza buche",
+        "easy": "Colpi di carambola che colpiscono sfere colorate senza buche",
         "medium": "Stecche da tavolo in tessuto utilizzando cuscini a binario",
         "hard": "Sport"
       }
@@ -4694,7 +4694,7 @@
       "word": "Bocce",
       "clues": {
         "easy": "Terreno ghiaioso che lancia sfere metalliche verso il bersaglio",
-        "medium": "Bocce di ghiaia francesi lanciate su un cochonnet di legno",
+        "medium": "disciplina di ghiaia francesi lanciate su un cochonnet di legno",
         "hard": "Sport"
       }
     },
@@ -4717,7 +4717,7 @@
     {
       "word": "Spettacolo di salto",
       "clues": {
-        "easy": "Navigare nelle recinzioni di salto dello stadio entro il limite di tempo",
+        "easy": "Superare le recinzioni degli ostacoli dello stadio entro il limite di tempo",
         "medium": "Percorso equestre che pulisce le rotaie colorate dello stadio",
         "hard": "Sport"
       }
@@ -4725,16 +4725,16 @@
     {
       "word": "Barca-drago",
       "clues": {
-        "easy": "Rematori in sincronia con il ritmo del tamburo e l'arco del drago ornato",
-        "medium": "Gruppo sincronizzato che rema con la prua del drago",
+        "easy": "Rematori in sincronia con il ritmo dei tamburi e il mitico arco del serpente",
+        "medium": "Gruppo sincronizzato che rema con la prua della mitica bestia",
         "hard": "Sport"
       }
     },
     {
       "word": "Arrampicata sportiva",
       "clues": {
-        "easy": "Aggancio dei rinvii durante la scalata della via di arrampicata in palestra",
-        "medium": "Arrampicata sulla parete della palestra agganciata agli ancoraggi",
+        "easy": "Ritaglio dei rinvii durante la scalata del percorso della palestra artificiale",
+        "medium": "Salita sulla parete interna della palestra agganciata agli ancoraggi",
         "hard": "Sport"
       }
     },
@@ -4991,7 +4991,7 @@
     {
       "word": "Burger King",
       "clues": {
-        "easy": "Catena di fast food con re che indossa la corona",
+        "easy": "Catena di fast food con monarca che indossa la corona",
         "medium": "Testo inserito tra due metà di panino giallo",
         "hard": "Marchi"
       }
@@ -5023,7 +5023,7 @@
     {
       "word": "Pizza Hut",
       "clues": {
-        "easy": "Ristorante pizzeria con logo del tetto rosso",
+        "easy": "Catena italiana fast-casual con logo sul tetto rosso",
         "medium": "Sagoma di cappello a tesa rossa inclinata",
         "hard": "Marchi"
       }
@@ -5192,7 +5192,7 @@
       "word": "Red Bull",
       "clues": {
         "easy": "Lattina di bevanda energetica con bestie che si scontrano",
-        "medium": "Due bestie dalle corna rosse si affrontano",
+        "medium": "Due bestie dalle corna cremisi si fronteggiano",
         "hard": "Marchi"
       }
     },
@@ -5617,7 +5617,7 @@
     {
       "word": "Automobile",
       "clues": {
-        "easy": "Automobile personale per passeggeri con volante",
+        "easy": "mezzo personale per passeggeri con volante",
         "medium": "Telaio a combustione interna o elettrico",
         "hard": "Trasporti"
       }
@@ -5641,7 +5641,7 @@
     {
       "word": "Aereo",
       "clues": {
-        "easy": "Aereo di linea passeggeri in decollo dalla pista",
+        "easy": "mezzo di linea passeggeri in decollo dalla pista",
         "medium": "Fusoliera pressurizzata con propulsione a turbina a getto",
         "hard": "Trasporti"
       }
@@ -5697,7 +5697,7 @@
     {
       "word": "Taxi",
       "clues": {
-        "easy": "Taxi stradale chiamato per il viaggio diretto alla destinazione",
+        "easy": "mezzo stradale chiamato per il viaggio diretto alla destinazione",
         "medium": "Veicolo passeggeri stradale commerciale con tassametro",
         "hard": "Trasporti"
       }
@@ -5705,7 +5705,7 @@
     {
       "word": "Metropolitana",
       "clues": {
-        "easy": "I treni del tunnel della metropolitana si fermano alle piattaforme sotterranee",
+        "easy": "I treni del tunnel della mezzo si fermano alle piattaforme sotterranee",
         "medium": "Rete ferroviaria sotterranea elettrificata per passeggeri",
         "hard": "Trasporti"
       }
@@ -5770,14 +5770,14 @@
       "word": "Nave da crociera",
       "clues": {
         "easy": "Hotel resort galleggiante con piscine, ponti e cabine",
-        "medium": "Nave da vacanza oceanica multi-ponte per passeggeri",
+        "medium": "mezzo da vacanza oceanica multi-ponte per passeggeri",
         "hard": "Trasporti"
       }
     },
     {
       "word": "Nave da carico",
       "clues": {
-        "easy": "Pile di container metallici colorati attraverso i mari",
+        "easy": "Pile di contenitori metallici colorati attraverso gli oceani",
         "medium": "Portacontainer marittimo per merci sfuse",
         "hard": "Trasporti"
       }
@@ -5801,7 +5801,7 @@
     {
       "word": "Mongolfiera",
       "clues": {
-        "easy": "Bruciatore che riscalda l'aria all'interno dell'involucro in alto",
+        "easy": "Gas di riscaldamento del bruciatore all'interno dell'involucro in alto",
         "medium": "Volo passeggeri in vimini con galleggiamento termico",
         "hard": "Trasporti"
       }
@@ -5818,7 +5818,7 @@
       "word": "Deltaplano",
       "clues": {
         "easy": "Ala triangolare lanciata a piedi che plana dal crinale della montagna",
-        "medium": "Ala delta con spostamento del peso sospeso non motorizzato",
+        "medium": "Ala mezzo con spostamento del peso sospeso non motorizzato",
         "hard": "Trasporti"
       }
     },
@@ -5849,8 +5849,8 @@
     {
       "word": "Camion dei pompieri",
       "clues": {
-        "easy": "L'autopompa antincendio risponde agli incendi degli edifici con la sirena",
-        "medium": "Scala aerea idraulica e camion per il pompaggio dell'acqua",
+        "easy": "Veicolo di emergenza che risponde agli incendi di edifici con sirena",
+        "medium": "Scala aerea idraulica e piattaforma di pompaggio ad alta pressione",
         "hard": "Trasporti"
       }
     },
@@ -5858,7 +5858,7 @@
       "word": "Auto della polizia",
       "clues": {
         "easy": "Veicolo di pattuglia contrassegnato che risponde alle emergenze criminali",
-        "medium": "Incrociatore da inseguimento delle forze dell'ordine di emergenza",
+        "medium": "Incrociatore da inseguimento delle forze mezzo'ordine di emergenza",
         "hard": "Trasporti"
       }
     },
@@ -5866,7 +5866,7 @@
       "word": "Trattore",
       "clues": {
         "easy": "Trascina aratri e attrezzi agricoli sul terreno",
-        "medium": "Estrattore per attrezzi agricoli a coppia elevata",
+        "medium": "Esmezzo per attrezzi agricoli a coppia elevata",
         "hard": "Trasporti"
       }
     },
@@ -5890,7 +5890,7 @@
       "word": "Autocarro con cassone ribaltabile",
       "clues": {
         "easy": "Trasporta e scarica ghiaia, sabbia e macerie",
-        "medium": "Nave portarinfuse a cassone aperto con ribaltamento idraulico",
+        "medium": "Nave portarinfuse a mezzo aperto mezzo ribaltamento idraulico",
         "hard": "Trasporti"
       }
     },
@@ -5905,24 +5905,24 @@
     {
       "word": "Spazzaneve",
       "clues": {
-        "easy": "Rimozione di strade ghiacciate e accumulo di neve lungo i marciapiedi",
-        "medium": "Veicolo sgombraneve a cuneo inclinato montato anteriormente",
+        "easy": "Eliminare le strade ghiacciate e spingere la fanghiglia lungo il marciapiede",
+        "medium": "Veicolo per lo sgombero invernale a cuneo angolare montato anteriormente",
         "hard": "Trasporti"
       }
     },
     {
       "word": "Motoslitta",
       "clues": {
-        "easy": "Macchina sterzante che sfiora i cumuli invernali",
-        "medium": "Macchina per lo spostamento della neve invernale con cingoli posteriori",
+        "easy": "Calpesta la neve fresca con gli sci a doppia guida",
+        "medium": "Macchina per l'attraversamento della tundra invernale con cingoli posteriori",
         "hard": "Trasporti"
       }
     },
     {
       "word": "Moto d'acqua",
       "clues": {
-        "easy": "Scooter acquatico con propulsione a getto d'acqua",
-        "medium": "Imbarcazione personale a idrogetto con timoneria a manubrio",
+        "easy": "Scooter mezzotico a propulsione seduta",
+        "medium": "Imbarcazione mezzotica personale con timoneria a manubrio",
         "hard": "Trasporti"
       }
     },
@@ -5937,7 +5937,7 @@
     {
       "word": "Funivia",
       "clues": {
-        "easy": "Gondola di transito aereo che sale sulle ripide vette delle montagne",
+        "easy": "Cabina del tram sospesa su cavo aereo",
         "medium": "Cabina passeggeri sospesa con fune di trazione aerea",
         "hard": "Trasporti"
       }
@@ -5969,8 +5969,8 @@
     {
       "word": "Carrozza a cavalli",
       "clues": {
-        "easy": "Storica carrozza in legno con finimenti per cavalli e autista",
-        "medium": "Trasporto passeggeri su ruote trainato da equini",
+        "easy": "Storica mezzo in legno con finimenti per stalloni e autista",
+        "medium": "Buggy passeggeri trainato da mezzo con ruote in ferro",
         "hard": "Trasporti"
       }
     },
@@ -5985,24 +5985,24 @@
     {
       "word": "Treno ad alta velocità",
       "clues": {
-        "easy": "Treno elettrico che sfreccia tra le città a grande velocità",
-        "medium": "Naso aerodinamico ad alta velocità su binari dedicati",
+        "easy": "Locomotiva espressa aerodinamica che sfreccia tra le città ad mezzo mezzo",
+        "medium": "Ferrovia passeggeri aerodinamica ad mezzo mezzo",
         "hard": "Trasporti"
       }
     },
     {
       "word": "Treno merci",
       "clues": {
-        "easy": "Locomotiva diesel per il trasporto di vagoni a tramoggia e box",
-        "medium": "Il trasporto ferroviario pesante con più locomotive è costituito",
+        "easy": "Lunga fila di vagoni mezzo trainati da locomotive diesel",
+        "medium": "Sono costituiti da carichi ferroviari pesanti multi-locomotive",
         "hard": "Trasporti"
       }
     },
     {
       "word": "Autobus a due piani",
       "clues": {
-        "easy": "Iconico autobus alto rosso con scala a chiocciola",
-        "medium": "Carrozza passeggeri stradale a due livelli",
+        "easy": "Iconico pullman alto rosso con scala a chiocciola",
+        "medium": "Transito passeggeri pendolari urbani a mezzo livelli",
         "hard": "Trasporti"
       }
     },
@@ -6025,8 +6025,8 @@
     {
       "word": "Camioncino",
       "clues": {
-        "easy": "Portellone posteriore, cabina chiusa e spazio di carico utile",
-        "medium": "Autocarro utilitario con pianale aperto per passeggeri",
+        "easy": "Cabina passeggeri anteriore con spazio di carico posteriore aperto",
+        "medium": "Trasportatore a motore per passeggeri a pianale aperto",
         "hard": "Trasporti"
       }
     },
@@ -6049,15 +6049,15 @@
     {
       "word": "Macchina da corsa",
       "clues": {
-        "easy": "Spoiler, roll-bar e pneumatici da corsa slick",
-        "medium": "Macchina per sport motoristici ad alte prestazioni messa a punto in pista",
+        "easy": "Spoiler, roll-bar e pneumatici da mezzo slick",
+        "medium": "mezzo per sport motoristici ad alte prestazioni messa a punto in pista",
         "hard": "Trasporti"
       }
     },
     {
       "word": "Go-kart",
       "clues": {
-        "easy": "Kart a quattro ruote a bassa altezza su tortuose piste indoor",
+        "easy": "Veicolo da corsa a quattro ruote con altezza ridotta su tortuose piste indoor",
         "medium": "Telaio da corsa a ruote scoperte in miniatura a centro basso",
         "hard": "Trasporti"
       }
@@ -6066,14 +6066,14 @@
       "word": "Veicolo fuoristrada",
       "clues": {
         "easy": "Sedile a cavalcioni e manubrio cavalcati su sentieri di fango",
-        "medium": "Quad fuoristrada a quattro ruote con seduta a cavalcioni",
+        "medium": "Quad mezzo a quattro ruote con seduta a cavalcioni",
         "hard": "Trasporti"
       }
     },
     {
       "word": "Bici da cross",
       "clues": {
-        "easy": "Il veicolo a due ruote con pneumatici tassellati salta sui tumuli di terra",
+        "easy": "Il veicolo a due ruote con pneumatici tassellati salta sui tumuli di fango",
         "medium": "Motocicletta fuoristrada con pneumatici tassellati ad alta altezza",
         "hard": "Trasporti"
       }
@@ -6089,8 +6089,8 @@
     {
       "word": "Monopattino elettrico",
       "clues": {
-        "easy": "Scooter urbano pieghevole a due ruote per pendolari",
-        "medium": "Scooter per pendolari in posizione verticale alimentato a batteria",
+        "easy": "Microveicolo urbano pieghevole a due ruote per pendolari",
+        "medium": "Piattaforma per pendolari verticale alimentata a batteria",
         "hard": "Trasporti"
       }
     },
@@ -6113,15 +6113,15 @@
     {
       "word": "Bici da carico",
       "clues": {
-        "easy": "Bicicletta a pedali a due o tre ruote con tramoggia di carico",
-        "medium": "Trasportatore a pedali con telaio pesante con vano di carico anteriore",
+        "easy": "Veicolo a due o tre ruote a pedali con voluminosa tramoggia anteriore",
+        "medium": "Trasportatore a pedali con telaio pesante con vano di stoccaggio anteriore",
         "hard": "Trasporti"
       }
     },
     {
       "word": "Sedia a rotelle",
       "clues": {
-        "easy": "Sedia per mobilità con propulsione su corrimano o joystick elettrico",
+        "easy": "mezzo per mobilità con propulsione su corrimano o joystick elettrico",
         "medium": "Apparecchi per la mobilità seduta manuale o motorizzata",
         "hard": "Trasporti"
       }
@@ -6130,7 +6130,7 @@
       "word": "Passeggino",
       "clues": {
         "easy": "Carrozza pieghevole a quattro ruote spinta dal genitore",
-        "medium": "Passeggino pieghevole per neonati con cappottina parasole",
+        "medium": "mezzo pieghevole per neonati con cappottina parasole",
         "hard": "Trasporti"
       }
     },
@@ -6185,8 +6185,8 @@
     {
       "word": "Barca a remi",
       "clues": {
-        "easy": "Rivolto verso poppa mentre si tirano due remi nell'acqua",
-        "medium": "Tender a remi in legno con scafo aperto e propulsione a remi",
+        "easy": "Rivolto verso poppa mentre si tirano due mezzo nell'acqua",
+        "medium": "Tender a mezzo in legno con scafo aperto e propulsione a mezzo",
         "hard": "Trasporti"
       }
     },
@@ -6225,7 +6225,7 @@
     {
       "word": "Petroliera",
       "clues": {
-        "easy": "Vasto ponte con collettori di oleodotti che trasportano petrolio greggio",
+        "easy": "Vasto ponte con collettori di tubazioni che trasportano petrolio greggio",
         "medium": "Portaerei marittima di idrocarburi liquidi sfusi",
         "hard": "Trasporti"
       }
@@ -6257,7 +6257,7 @@
     {
       "word": "Dirigibile",
       "clues": {
-        "easy": "Dirigibile pubblicitario pieno di elio che fluttua sopra gli stadi",
+        "easy": "mezzo pubblicitario pieno di elio che fluttua sopra gli stadi",
         "medium": "Involucro non rigido, più leggero dell'aria, sostenuto dalla pressione",
         "hard": "Trasporti"
       }
@@ -6274,7 +6274,7 @@
       "word": "Pattini in linea",
       "clues": {
         "easy": "Lame di ruote in poliuretano per pattinaggio di velocità",
-        "medium": "Stivali per la disposizione delle ruote a linea singola",
+        "medium": "Stivali per la disposizione delle ruote a mezzo singola",
         "hard": "Trasporti"
       }
     },
@@ -6297,8 +6297,8 @@
     {
       "word": "Slitta trainata da cani",
       "clues": {
-        "easy": "Pacchetto husky imbrigliato che tira la slitta in legno",
-        "medium": "Slitta da corridore con imbracatura per squadra canina da lavoro",
+        "easy": "Pacchetto husky imbrigliato che tira la mezzo in legno",
+        "medium": "mezzo da corridore con imbracatura per squadra mezzona da lavoro",
         "hard": "Trasporti"
       }
     },
@@ -6314,14 +6314,14 @@
       "word": "Battello a vapore",
       "clues": {
         "easy": "Ciminiere e acqua agitata sui fiumi storici",
-        "medium": "Nave fluviale con ruota a pale azionata a vapore",
+        "medium": "Nave fluviale con ruota a pale alimentata a carbone",
         "hard": "Trasporti"
       }
     },
     {
       "word": "Treno Maglev",
       "clues": {
-        "easy": "Treno a levitazione elettromagnetica che elimina l'attrito della rotaia",
+        "easy": "Transito a levitazione elettromagnetica che elimina l'attrito del binario",
         "medium": "Proiettile per passeggeri con guida a levitazione magnetica",
         "hard": "Trasporti"
       }
@@ -6329,8 +6329,8 @@
     {
       "word": "Carrello da golf",
       "clues": {
-        "easy": "Carrello silenzioso per batterie che trasporta sacche da golf tra le buche",
-        "medium": "Carrello utilitario a bassa tensione per il transito dei collegamenti",
+        "easy": "Buggy silenzioso con batteria che trasporta le sacche da club tra i fori",
+        "medium": "Buggy di utilità a bassa tensione per il transito sui fairway",
         "hard": "Trasporti"
       }
     },
@@ -6361,15 +6361,15 @@
     {
       "word": "Navetta spaziale",
       "clues": {
-        "easy": "Orbiter con ali delta che ritorna dallo spazio alla pista",
-        "medium": "Aliante spaziale orbitale potenziato da un razzo",
+        "easy": "Orbiter con ali delta che ritorna dall'orbita alla pista",
+        "medium": "Aliante cosmico potenziato da un razzo",
         "hard": "Trasporti"
       }
     },
     {
       "word": "Rover lunare",
       "clues": {
-        "easy": "Pneumatici di rete metallica che rotolano su crateri e polvere lunare",
+        "easy": "Pneumatici di rete metallica che rotolano su crateri e polvere mezzo",
         "medium": "Buggy elettrico extraterrestre per l'esplorazione",
         "hard": "Trasporti"
       }
@@ -6385,8 +6385,8 @@
     {
       "word": "Canoa con stabilizzatore",
       "clues": {
-        "easy": "Canoa marinara isolana del Pacifico con longherone",
-        "medium": "Imbarcazione da viaggio polinesiana stabilizzata con galleggiamento laterale",
+        "easy": "Piroga marinara isolana del Pacifico mezzo longherone di equilibrio",
+        "medium": "Imbarcazione da viaggio polinesiana stabilizzata mezzo galleggiamento laterale",
         "hard": "Trasporti"
       }
     },
@@ -6409,8 +6409,8 @@
     {
       "word": "Piroscafo a ruote",
       "clues": {
-        "easy": "Nave fluviale guidata da ruote a pale che agitano l'acqua",
-        "medium": "Nave con propulsione a vapore a ruota sterno o ruota laterale",
+        "easy": "Nave fluviale guidata da gigantesche mezzo girevoli",
+        "medium": "Imbarcazione a propulsione a vapore con ruota di poppa o ruota laterale",
         "hard": "Trasporti"
       }
     }
@@ -6420,7 +6420,7 @@
       "word": "Arcobaleno",
       "clues": {
         "easy": "La luce del sole si rifrange attraverso le gocce di pioggia dopo la tempesta",
-        "medium": "Arco dello spettro atmosferico ottico",
+        "medium": "elemento naturale dello spettro atmosferico ottico",
         "hard": "Natura"
       }
     },
@@ -6467,7 +6467,7 @@
     {
       "word": "Nebbia",
       "clues": {
-        "easy": "Fitta nebbia a bassa quota che riduce la visibilità",
+        "easy": "Fitta elemento naturale a bassa quota che riduce la visibilità",
         "medium": "Condensazione del vapore acqueo a livello del suolo",
         "hard": "Natura"
       }
@@ -6483,7 +6483,7 @@
     {
       "word": "Fiocco di neve",
       "clues": {
-        "easy": "Delicato fiocco invernale cristallino congelato",
+        "easy": "Delicato elemento naturale invernale cristallino congelato",
         "medium": "Cristallo di vapore congelato esagonale",
         "hard": "Natura"
       }
@@ -6523,8 +6523,8 @@
     {
       "word": "Cascata",
       "clues": {
-        "easy": "Flusso a cascata che cade nella piscina",
-        "medium": "Caduta verticale della cascata del fiume",
+        "easy": "Flusso a elemento naturale che cade nella piscina",
+        "medium": "Caduta verticale della elemento naturale del fiume",
         "hard": "Natura"
       }
     },
@@ -6572,7 +6572,7 @@
       "word": "Barriera corallina",
       "clues": {
         "easy": "Dorsale marina costruita da polipi viventi",
-        "medium": "Barriera sommersa di carbonato di calcio biogenico",
+        "medium": "elemento naturale sommersa di carbonato di calcio biogenico",
         "hard": "Natura"
       }
     },
@@ -6603,7 +6603,7 @@
     {
       "word": "Grotta",
       "clues": {
-        "easy": "Grotta sotterranea oscura con camere in pietra",
+        "easy": "elemento naturale sotterranea oscura con camere in pietra",
         "medium": "Camera sotterranea di dissoluzione del calcare",
         "hard": "Natura"
       }
@@ -6643,8 +6643,8 @@
     {
       "word": "Duna di sabbia",
       "clues": {
-        "easy": "Collina a mezzaluna mobile di sabbia del deserto",
-        "medium": "Deposito di sabbia eolica scolpito dal vento",
+        "easy": "Collina a mezzaluna mobile di silice del deserto",
+        "medium": "Cresta sedimentaria del deserto delle Eolie scolpita dal vento",
         "hard": "Natura"
       }
     },
@@ -6659,7 +6659,7 @@
     {
       "word": "Palude",
       "clues": {
-        "easy": "Palude bassa con cipressi e fango",
+        "easy": "elemento naturale bassa con cipressi e fango",
         "medium": "Bacino di zone umide boscose e scarsamente drenate",
         "hard": "Natura"
       }
@@ -6731,8 +6731,8 @@
     {
       "word": "Eclissi solare",
       "clues": {
-        "easy": "L'oscurità diurna poiché la luna blocca la luce solare",
-        "medium": "Occultazione celeste del disco solare",
+        "easy": "L'oscurità diurna poiché la luna blocca la luce elemento naturale",
+        "medium": "Occultazione celeste del disco stellare diurno",
         "hard": "Natura"
       }
     },
@@ -6755,7 +6755,7 @@
     {
       "word": "Alba",
       "clues": {
-        "easy": "Il bagliore dorato dell’alba irrompe a est",
+        "easy": "Il bagliore dorato dell’elemento naturale irrompe a est",
         "medium": "Aspetto solare dell'orizzonte diurno",
         "hard": "Natura"
       }
@@ -6843,7 +6843,7 @@
     {
       "word": "Pino",
       "clues": {
-        "easy": "Albero da legname con cono che rimane verde tutto l'anno",
+        "easy": "Legname profumato con coni che rimane verde tutto l'anno",
         "medium": "Conifera resinosa aghiforme",
         "hard": "Natura"
       }
@@ -6900,7 +6900,7 @@
       "word": "Masso",
       "clues": {
         "easy": "Gigantesca pietra esposta all'aria appoggiata sul fianco di una collina",
-        "medium": "Grande ammasso roccioso geologico staccato",
+        "medium": "Grande amelemento naturale roccioso geologico staccato",
         "hard": "Natura"
       }
     },
@@ -6923,7 +6923,7 @@
     {
       "word": "Primavera calda",
       "clues": {
-        "easy": "Sorgente ricca di minerali che ribolle di calore vulcanico",
+        "easy": "Fontana ricca di minerali che ribolle di calore vulcanico",
         "medium": "Piscina con acqua sotterranea riscaldata geotermicamente",
         "hard": "Natura"
       }
@@ -6931,7 +6931,7 @@
     {
       "word": "Piscina di marea",
       "clues": {
-        "easy": "Habitat intercotidale in miniatura esposto durante la bassa marea",
+        "easy": "Habitat marino in miniatura esposto nella rientranza del basso elemento naturale",
         "medium": "Bacino costiero roccioso intertidale",
         "hard": "Natura"
       }
@@ -6939,8 +6939,8 @@
     {
       "word": "Alghe",
       "clues": {
-        "easy": "Alghe oceaniche giganti ancorate al fondale roccioso",
-        "medium": "Ampia foresta di alghe brune marine",
+        "easy": "elemento naturale oceaniche giganti ancorate al fondale roccioso",
+        "medium": "Ampia foresta di elemento naturale brune marine",
         "hard": "Natura"
       }
     },
@@ -7147,8 +7147,8 @@
     {
       "word": "Tromba marina",
       "clues": {
-        "easy": "Vortice di tornado che trasforma la superficie dell'acqua in schiuma",
-        "medium": "Intenso vortice colonnare d'acqua oceanica",
+        "easy": "Vortice di tornado che trasforma la superficie del mare in schiuma",
+        "medium": "Vortice fluido oceanico colonnare intenso",
         "hard": "Natura"
       }
     },
@@ -7195,16 +7195,16 @@
     {
       "word": "Laguna dell'atollo",
       "clues": {
-        "easy": "Acqua salata turchese e cristallina all'interno della barriera corallina",
-        "medium": "Corpo idrico marino interno dell'anello di corallo",
+        "easy": "Acqua salata turchese e cristallina all'interno elemento naturalea barriera corallina",
+        "medium": "Corpo idrico marino interno elemento naturale'anello di corallo",
         "hard": "Natura"
       }
     },
     {
       "word": "Foro di marea",
       "clues": {
-        "easy": "Vero e proprio maremoto che avanza verso l'interno restringendo l'estuario",
-        "medium": "Onda di marea a monte nel restringimento del fiume",
+        "easy": "La vera ondata oceanica avanza verso l'interno fino al restringimento dell'estuario",
+        "medium": "Muro di sovracorrente a monte nel restringimento del fiume costiero",
         "hard": "Natura"
       }
     },
@@ -7350,7 +7350,7 @@
       "word": "Fagotto",
       "clues": {
         "easy": "Toni legnosi profondi attraverso la curvatura della bocca curva",
-        "medium": "Legni tenore-basso piegati ad ancia doppia",
+        "medium": "Legni a registro basso piegati ad ancia doppia",
         "hard": "Musica"
       }
     },
@@ -7366,7 +7366,7 @@
       "word": "Corno francese",
       "clues": {
         "easy": "Mano destra posizionata all'interno di un'ampia campana di ottone",
-        "medium": "Tromba in ottone con valvola rotante a spirale stretta",
+        "medium": "Strumento a fiato in ottone con valvola rotante a spirale stretta",
         "hard": "Musica"
       }
     },
@@ -7437,7 +7437,7 @@
     {
       "word": "Basso elettrico",
       "clues": {
-        "easy": "Pizzicare le corde dei bassi spesse con le dita",
+        "easy": "Pizzicare corde spesse e di grosso calibro con le dita",
         "medium": "Base ritmica a quattro corde a bassa frequenza",
         "hard": "Musica"
       }
@@ -7510,7 +7510,7 @@
       "word": "Contrabbasso",
       "clues": {
         "easy": "La corda orchestrale più alta in piedi sul perno del pavimento",
-        "medium": "Contrabbasso orchestrale ad arco dal tono più basso",
+        "medium": "brano sonoro orchestrale ad arco dal tono più basso",
         "hard": "Musica"
       }
     },
@@ -7526,7 +7526,7 @@
       "word": "Rullante",
       "clues": {
         "easy": "Rullo di marcia nitido e controtempo rimshot",
-        "medium": "Rullanti in metallo tensionati sotto la pelle inferiore",
+        "medium": "Fili a spirale tesi sotto la testa della pastella inferiore",
         "hard": "Musica"
       }
     },
@@ -7558,7 +7558,7 @@
       "word": "Tamburo d'acciaio",
       "clues": {
         "easy": "Suono in metallo concavo martellato con toni isolani",
-        "medium": "Percussione a padella in acciaio martellato concavo",
+        "medium": "Percussioni pan in lega martellata concava",
         "hard": "Musica"
       }
     },
@@ -7621,7 +7621,7 @@
     {
       "word": "Coro",
       "clues": {
-        "easy": "Coro vocale soprano, contralto, tenore e basso",
+        "easy": "brano sonoro vocale soprano, contralto, tenore e basso",
         "medium": "Ensemble di canto corale polifonico",
         "hard": "Musica"
       }
@@ -7654,7 +7654,7 @@
       "word": "Musica rock",
       "clues": {
         "easy": "Accordi potenti, controtempo di batteria e voci grezze",
-        "medium": "Genere musicale popolare amplificato con chitarra",
+        "medium": "Genere sonoro da stadio amplificato guidato dalla chitarra",
         "hard": "Musica"
       }
     },
@@ -7678,7 +7678,7 @@
       "word": "Musica country",
       "clues": {
         "easy": "Testi narrativi di vita rurale e angoscia",
-        "medium": "Musica roots americana rurale con suono acustico",
+        "medium": "Tradizione di ballate rurali delle radici americane con suono acustico",
         "hard": "Musica"
       }
     },
@@ -7686,7 +7686,7 @@
       "word": "Musica classica",
       "clues": {
         "easy": "Sonate, sinfonie e concerti di epoche passate",
-        "medium": "Tradizione formale della musica artistica europea",
+        "medium": "Tradizione formale dell'arte orchestrale europea",
         "hard": "Musica"
       }
     },
@@ -7702,7 +7702,7 @@
       "word": "Musica popolare",
       "clues": {
         "easy": "Chitarre acustiche, banjo e ballate narrative",
-        "medium": "Patrimonio musicale acustico tradizionale basato sulla comunità",
+        "medium": "Patrimonio acustico tradizionale basato sulla comunità",
         "hard": "Musica"
       }
     },
@@ -7710,7 +7710,7 @@
       "word": "Discoteca",
       "clues": {
         "easy": "Linee di basso ritmiche funky e archi svettanti",
-        "medium": "Groove da discoteca con impulso trascinante a quattro sul pavimento",
+        "medium": "Groove da brano sonoro con impulso trascinante a quattro sul pavimento",
         "hard": "Musica"
       }
     },
@@ -7718,7 +7718,7 @@
       "word": "Punk-rock",
       "clues": {
         "easy": "Chitarre distorte, grida energiche e testi anti-establishment",
-        "medium": "Rock distorto essenziale e dal ritmo veloce",
+        "medium": "Accordi di ribellione distorti e dal ritmo veloce",
         "hard": "Musica"
       }
     },
@@ -7742,7 +7742,7 @@
       "word": "Musica salsa",
       "clues": {
         "easy": "Esplosioni di trombone, congas e battito sincopato di clave",
-        "medium": "Musica dance afro-caraibica sincopata ad alto ritmo",
+        "medium": "Groove di danza afro-caraibica sincopato ad alto ritmo",
         "hard": "Musica"
       }
     },
@@ -7885,15 +7885,15 @@
     {
       "word": "Leggio",
       "clues": {
-        "easy": "Treppiede regolabile che supporta spartiti musicali per musicisti",
-        "medium": "Vassoio treppiede regolabile che supporta la notazione musicale",
+        "easy": "Treppiede regolabile che supporta spartiti per orchestrali",
+        "medium": "Vassoio treppiede regolabile che supporta la notazione del pentagramma scritta a mano",
         "hard": "Musica"
       }
     },
     {
       "word": "Spartiti",
       "clues": {
-        "easy": "Note nere, chiavi e misure lette dai musicisti",
+        "easy": "Note nere, chiavi e misure lette dagli artisti",
         "medium": "Notazione del pentagramma stampata incisa per l'esecuzione",
         "hard": "Musica"
       }
@@ -7966,7 +7966,7 @@
       "word": "Maestro",
       "clues": {
         "easy": "Leader del podio che dirige la sinfonia con la bacchetta",
-        "medium": "Maestro direttore musicale o direttore d'orchestra sinfonico",
+        "medium": "brano sonoro direttore musicale o direttore d'orchestra sinfonico",
         "hard": "Musica"
       }
     },
@@ -8031,7 +8031,7 @@
     {
       "word": "Pittura",
       "clues": {
-        "easy": "Cavalletto, tavolozza di colori e pigmenti colorati",
+        "easy": "Cavalletto, tavolozza in legno e pigmenti colorati",
         "medium": "Applicazione del pigmento su tela tesa",
         "hard": "Hobby"
       }
@@ -8047,7 +8047,7 @@
     {
       "word": "Lavoro a maglia",
       "clues": {
-        "easy": "Avviare le maglie per lavorare i maglioni",
+        "easy": "Avviare le maglie per realizzare maglioni di lana",
         "medium": "Anelli di filo intrecciati con aghi gemelli",
         "hard": "Hobby"
       }
@@ -8064,7 +8064,7 @@
       "word": "Giardinaggio",
       "clues": {
         "easy": "Cazzuola, semi, annaffiatoio e pacciame",
-        "medium": "Coltivazione orticola di aiuole",
+        "medium": "Coltivazione orticola di letti di terreno da cortile",
         "hard": "Hobby"
       }
     },
@@ -8088,7 +8088,7 @@
       "word": "Pesca",
       "clues": {
         "easy": "Amo per esca, filo di lancio e mulinello",
-        "medium": "Pesca con amo e lenza innescati",
+        "medium": "attività con amo e lenza innescati",
         "hard": "Hobby"
       }
     },
@@ -8103,7 +8103,7 @@
     {
       "word": "Campeggio",
       "clues": {
-        "easy": "Falò, sacchi a pelo e campeggio nella foresta",
+        "easy": "Falò, sacchi a pelo e attività nella foresta",
         "medium": "Pernottamento in un rifugio all'aperto nella natura selvaggia",
         "hard": "Hobby"
       }
@@ -8152,15 +8152,15 @@
       "word": "Ceramica",
       "clues": {
         "easy": "Formatura di ciotole di argilla e cottura in forno",
-        "medium": "Centrare l'argilla ceramica sulla ruota che gira",
+        "medium": "Centrare l'argilla attività sulla ruota che gira",
         "hard": "Hobby"
       }
     },
     {
       "word": "Lavorazione del legno",
       "clues": {
-        "easy": "Scalpelli, seghe, colla per legno e levigatura",
-        "medium": "Falegnameria e intaglio di mobili in legno",
+        "easy": "Scalpelli, seghe, colla da falegname e levigatura",
+        "medium": "Falegnameria e intaglio di mobili in attività",
         "hard": "Hobby"
       }
     },
@@ -8184,7 +8184,7 @@
       "word": "Collezionismo di monete",
       "clues": {
         "easy": "Memorizzazione della valuta coniata per data e grado",
-        "medium": "Archiviazione numismatica di monete metalliche",
+        "medium": "Archiviazione numismatica di attività metalliche",
         "hard": "Hobby"
       }
     },
@@ -8192,7 +8192,7 @@
       "word": "Scacchi",
       "clues": {
         "easy": "Spostamento di cavalieri, alfieri, pedoni e re",
-        "medium": "Re dello scacco matto sulla griglia a scacchi",
+        "medium": "Re dello scacco matto sulla griglia a attività",
         "hard": "Hobby"
       }
     },
@@ -8232,15 +8232,15 @@
       "word": "Giochi da tavolo",
       "clues": {
         "easy": "Lanciare i dadi, spostare le pedine e pescare carte",
-        "medium": "Movimento e strategia dei token da tavolo",
+        "medium": "Movimento e strategia dei token da attività",
         "hard": "Hobby"
       }
     },
     {
       "word": "Giochi di carte",
       "clues": {
-        "easy": "Mescolare, distribuire i semi e prendere trucchi con le carte",
-        "medium": "Gioco di carte da gioco scommesso o casuale",
+        "easy": "Mescolare, distribuire i semi e prendere prese vincenti",
+        "medium": "Gioco con mazzo stampato con scommessa o casual",
         "hard": "Hobby"
       }
     },
@@ -8327,7 +8327,7 @@
     {
       "word": "Nuoto",
       "clues": {
-        "easy": "Occhialini, cuffia da nuoto e colpi d'acqua",
+        "easy": "Occhiali protettivi, cappuccio di gomma e colpi acquatici",
         "medium": "Colpi di esercizi in piscina acquatica",
         "hard": "Hobby"
       }
@@ -8344,14 +8344,14 @@
       "word": "Skateboard",
       "clues": {
         "easy": "Praticare ollie e kickflip sul pavimento",
-        "medium": "Manovra dello skateboard a quattro ruote",
+        "medium": "Manovra del ponte con nastro adesivo a quattro ruote",
         "hard": "Hobby"
       }
     },
     {
       "word": "Surf",
       "clues": {
-        "easy": "Remando verso le onde dell'oceano e intagliando il surf",
+        "easy": "Remando verso le onde dell'oceano e cavalcando le onde che si infrangono",
         "medium": "Cavalcare le onde dell'oceano su una tavola galleggiante",
         "hard": "Hobby"
       }
@@ -8367,8 +8367,8 @@
     {
       "word": "Snowboard",
       "clues": {
-        "easy": "Scolpire curve in montagna innevate con la tavola scartata",
-        "medium": "Scultura in neve alpina a tavola singola",
+        "easy": "Carving in montagna ghiacciata con deck scarponi",
+        "medium": "Scultura in polvere alpina a tavola singola",
         "hard": "Hobby"
       }
     },
@@ -8392,7 +8392,7 @@
       "word": "Equitazione",
       "clues": {
         "easy": "Seduto in sella con in mano le redini della briglia in cuoio",
-        "medium": "Equilibrio della sella equestre e trail riding",
+        "medium": "Equilibrio della sella equestre e trekking su sentieri di campagna",
         "hard": "Hobby"
       }
     },
@@ -8400,7 +8400,7 @@
       "word": "Tiro con l'arco",
       "clues": {
         "easy": "Puntare la freccia piumata verso l'anello concentrico del bullseye",
-        "medium": "Abilità nel tiro al bersaglio con l'arco ricurvo",
+        "medium": "Abilità nel attività al bersaglio attività l'attività ricurvo",
         "hard": "Hobby"
       }
     },
@@ -8416,7 +8416,7 @@
       "word": "Allenamento con i pesi",
       "clues": {
         "easy": "Esegui serie muscolari, panca e squat",
-        "medium": "Allenamento progressivo di resistenza al sovraccarico",
+        "medium": "Set di resistenza attività bilanciere a sovraccarico progressivo",
         "hard": "Hobby"
       }
     },
@@ -8439,7 +8439,7 @@
     {
       "word": "Ballo da sala",
       "clues": {
-        "easy": "Coppie che scivolano in una cornice sulla pista da ballo",
+        "easy": "Coppie che scivolano in una cornice sulla pista da attività",
         "medium": "Passi di danza accoppiati del partner competitivo",
         "hard": "Hobby"
       }
@@ -8447,7 +8447,7 @@
     {
       "word": "Ballare la salsa",
       "clues": {
-        "easy": "Segui i ritmi allegri della salsa afro-cubana",
+        "easy": "Al passo con i ritmi ritmici afro-cubani allegri",
         "medium": "Rotazioni veloci del partner latino sincopato",
         "hard": "Hobby"
       }
@@ -8464,7 +8464,7 @@
       "word": "Birra fatta in casa",
       "clues": {
         "easy": "Bollire malto d'orzo, luppolo e fermentare il lievito",
-        "medium": "Produzione e fermentazione di cereali in piccoli lotti",
+        "medium": "Fermentazione del mosto artigianale in piccoli lotti",
         "hard": "Hobby"
       }
     },
@@ -8479,8 +8479,8 @@
     {
       "word": "Torrefazione del caffè",
       "clues": {
-        "easy": "Monitoraggio del calore di tostatura, dei suoni di crack e dell'aroma",
-        "medium": "Pirolisi termica dei semi di caffè verde",
+        "easy": "Monitoraggio del calore del tamburo, dei suoni di crack e dell'aroma di doratura",
+        "medium": "Pirolisi termica dei fagioli di Giava crudi",
         "hard": "Hobby"
       }
     },
@@ -8512,7 +8512,7 @@
       "word": "Rilevamento di metalli",
       "clues": {
         "easy": "Ascolto dei segnali acustici per portare alla luce le monete sepolte",
-        "medium": "Scansione elettromagnetica del suolo per metalli",
+        "medium": "Scansione elettromagnetica del suolo per reliquie sepolte",
         "hard": "Hobby"
       }
     },
@@ -8527,7 +8527,7 @@
     {
       "word": "Aquilone che vola",
       "clues": {
-        "easy": "Catturare il vento del mare per tenere l'aquilone in alto",
+        "easy": "Catturare il vento del mare per mantenere in alto il diamante di nylon",
         "medium": "Volo aerodinamico con vento vincolato",
         "hard": "Hobby"
       }
@@ -8535,15 +8535,15 @@
     {
       "word": "Drone in volo",
       "clues": {
-        "easy": "Controller dual-stick che naviga con il drone in volo",
-        "medium": "Volo in quadricottero radiocomandato a distanza",
+        "easy": "Controller dual-stick che naviga su multirotore in attività",
+        "medium": "attività in quadricottero radiocomandato a distanza",
         "hard": "Hobby"
       }
     },
     {
       "word": "Giochi di ruolo",
       "clues": {
-        "easy": "Master del gioco che descrive la ricerca fantasy con le schede dei personaggi",
+        "easy": "Narratore di dungeon che descrive la ricerca fantasy con le schede dei personaggi",
         "medium": "Narrativa fantasy collaborativa guidata dai dadi",
         "hard": "Hobby"
       }
@@ -8552,7 +8552,7 @@
       "word": "Camere di fuga",
       "clues": {
         "easy": "Decifrare enigmi nascosti per sbloccare la porta",
-        "medium": "Fuga in una stanza cooperativa a tema con puzzle",
+        "medium": "Mistero puzzle cooperativo a tema a camera sigillata",
         "hard": "Hobby"
       }
     },
@@ -8567,7 +8567,7 @@
     {
       "word": "Bloggare",
       "clues": {
-        "easy": "Pubblicazione di post sulla piattaforma blog personale",
+        "easy": "Pubblicazione di post sulla piattaforma attività personale",
         "medium": "Pubblicazione web digitale di commenti",
         "hard": "Hobby"
       }
@@ -8575,8 +8575,8 @@
     {
       "word": "Produzione cinematografica",
       "clues": {
-        "easy": "Scrittura della sceneggiatura, inquadratura delle riprese della telecamera e montaggio di filmati",
-        "medium": "Mestiere di produzione cinematografica",
+        "easy": "Scrittura della sceneggiatura, inquadratura delle riprese della telecamera e taglio delle bobine di movimento",
+        "medium": "Mestiere di attività",
         "hard": "Hobby"
       }
     },
@@ -8608,7 +8608,7 @@
       "word": "Radio amatoriale",
       "clues": {
         "easy": "Trasmissione dei segnali di chiamata sul ricetrasmettitore ad alta frequenza",
-        "medium": "Trasmissione in radiofrequenza amatoriale",
+        "medium": "Trasmissione di frequenza wireless attività",
         "hard": "Hobby"
       }
     },
@@ -8623,8 +8623,8 @@
     {
       "word": "Conservazione dell'acquario",
       "clues": {
-        "easy": "Kit per analisi dell'acqua, filtrazione e alimentazione dei pesci",
-        "medium": "Gestione dell’ecosistema acquatico a circuito chiuso",
+        "easy": "Kit per analisi attività'attività, filtrazione e alimentazione dei pesci",
+        "medium": "Gestione attività’ecosistema acquatico a circuito chiuso",
         "hard": "Hobby"
       }
     },
@@ -8639,8 +8639,8 @@
     {
       "word": "Addestramento del cane",
       "clues": {
-        "easy": "Addestramento con il clicker, dolcetti e comandi con il tallone del guinzaglio",
-        "medium": "Condizionamento operante e obbedienza del cane",
+        "easy": "Istruzioni con il clicker, dolcetti e comandi con il tallone del guinzaglio",
+        "medium": "Condizionamento operante e obbedienza del attività",
         "hard": "Hobby"
       }
     },
@@ -8671,7 +8671,7 @@
     {
       "word": "Trapuntatura",
       "clues": {
-        "easy": "Parte superiore trapuntata patchwork, imbottitura e punti fantasia",
+        "easy": "Parte superiore con fantasia patchwork, imbottitura e punti decorativi",
         "medium": "Cuciture tessili patchwork multistrato",
         "hard": "Hobby"
       }
@@ -8711,8 +8711,8 @@
     {
       "word": "Disposizione dei fiori",
       "clues": {
-        "easy": "Potatura degli steli dei fiori e bilanciamento dei colori floreali",
-        "medium": "Design floristico ed equilibrio dello stelo floreale",
+        "easy": "Potatura degli steli attività bouquet e bilanciamento attività vivaci colori della attivitàtura",
+        "medium": "Design floristico ed equilibrio dello stelo attività attività",
         "hard": "Hobby"
       }
     },
@@ -8728,14 +8728,14 @@
       "word": "Apprendimento delle lingue",
       "clues": {
         "easy": "Flashcard, audio della pronuncia ed esercitazioni grammaticali",
-        "medium": "Acquisizione lessicale della seconda lingua",
+        "medium": "Acquisizione del lessico e della grammatica del parlato straniero",
         "hard": "Hobby"
       }
     },
     {
       "word": "Collezionismo di vinili",
       "clues": {
-        "easy": "Album in vinile da dodici pollici con le maniche che scavano casse",
+        "easy": "Album con groove da dodici pollici scavatori di casse in custodie di cartone",
         "medium": "Archiviazione di dischi fonografici analogici",
         "hard": "Hobby"
       }
@@ -8775,7 +8775,7 @@
     {
       "word": "Creazione di gioielli",
       "clues": {
-        "easy": "Pinze per gioielli, tronchesi, perline e fermagli",
+        "easy": "Pinze per realizzare, tronchesi, perline e fermagli",
         "medium": "Fabbricazione di ornamenti indossabili fatti a mano",
         "hard": "Hobby"
       }
@@ -8783,16 +8783,16 @@
     {
       "word": "Soffiatura del vetro",
       "clues": {
-        "easy": "Raccolta del vetro fuso incandescente dalla fornace calda",
-        "medium": "Manipolazione termica di bolle di vetro fuso",
+        "easy": "Raccolta della silice fusa incandescente dalla fornace calda",
+        "medium": "Manipolazione termica di bolle di silice fusa incandescente",
         "hard": "Hobby"
       }
     },
     {
       "word": "Vetrata",
       "clues": {
-        "easy": "Taglio di pezzi di vetro colorato e saldature",
-        "medium": "Gruppo in vetro artistico colorato saldato al piombo",
+        "easy": "Taglio di vetri decorativi colorati e saldature",
+        "medium": "Assemblaggio pannello decorativo colorato saldato a piombo",
         "hard": "Hobby"
       }
     },
@@ -8807,16 +8807,16 @@
     {
       "word": "Scrittura di lettere",
       "clues": {
-        "easy": "Carta da lettere, penna stilografica e sigillo di ceralacca",
-        "medium": "Composizione della lettera postale epistolare",
+        "easy": "Pergamena da cancelleria, penna stilografica e sigillo in ceralacca",
+        "medium": "Composizione epistolare in pergamena postale",
         "hard": "Hobby"
       }
     },
     {
       "word": "Schizzi urbani",
       "clues": {
-        "easy": "Acquerelli e penna a inchiostro in un quaderno da disegno portatile",
-        "medium": "Schizzi architettonici osservativi all'aria aperta",
+        "easy": "Acquerelli e penna a inchiostro su blocco da disegno portatile",
+        "medium": "Disegno architettonico osservativo all'aria aperta",
         "hard": "Hobby"
       }
     }

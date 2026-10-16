@@ -84,7 +84,7 @@
       "word": "Tyyny",
       "clues": {
         "easy": "Pehmeä täytetty makuualusta",
-        "medium": "Höyhenpehmustettu päätyyny",
+        "medium": "Höyhenpehmustettu pääväline",
         "hard": "Everyday Objects"
       }
     },
@@ -163,7 +163,7 @@
     {
       "word": "Taskulamppu",
       "clues": {
-        "easy": "Paristokäyttöinen kannettava taskulamppu",
+        "easy": "Paristokäyttöinen kannettava väline",
         "medium": "Kädessä pidettävä tumma palkki",
         "hard": "Everyday Objects"
       }
@@ -340,7 +340,7 @@
       "word": "Liimapuikko",
       "clues": {
         "easy": "Kiinteä liimasylinteri paperille",
-        "medium": "Tarrapaperin liimasylinteri",
+        "medium": "Kierrettävä paperiliimasylinteri",
         "hard": "Everyday Objects"
       }
     },
@@ -444,14 +444,14 @@
       "word": "Saippuapala",
       "clues": {
         "easy": "Liukas lohko, joka tuottaa vaahtoa",
-        "medium": "Tuoksuva vaahdotuspatukka",
+        "medium": "Tuoksuva vaahtoava kylpyhuonelohko",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Kylpypyyhe",
       "clues": {
-        "easy": "Suuri imukykyinen kylpyhuonefrotee",
+        "easy": "Suuri imukykyinen suihkufrotee",
         "medium": "Silmoitettu puuvillainen kosteuskääre",
         "hard": "Everyday Objects"
       }
@@ -603,7 +603,7 @@
     {
       "word": "Paistinpannu",
       "clues": {
-        "easy": "Tasapohjainen metallinen paistinpannu",
+        "easy": "Tasapohjainen metallinen väline",
         "medium": "Kiertelevää tasapohjaista metallia",
         "hard": "Everyday Objects"
       }
@@ -747,7 +747,7 @@
     {
       "word": "Jääpalakaukalo",
       "clues": {
-        "easy": "Osaston pakastemuotti kuutioille",
+        "easy": "Osaston pakastinmuotti lohkojen jäähdyttämiseen",
         "medium": "Osioitu pakkasmuotti",
         "hard": "Everyday Objects"
       }
@@ -755,7 +755,7 @@
     {
       "word": "Takin koukku",
       "clues": {
-        "easy": "Seinälle kiinnitettävä ripustin takkeja varten",
+        "easy": "Seinälle kiinnitettävä ripustin päällysvaatteille",
         "medium": "Kaareva seinäkärki takkiin",
         "hard": "Everyday Objects"
       }
@@ -878,7 +878,7 @@
       "word": "jäätelöä",
       "clues": {
         "easy": "Pyöritetty jäähdytetty maitoherkku",
-        "medium": "Sulava makea maitokerma",
+        "medium": "Sulava makea pakastemaitokauha",
         "hard": "Food"
       }
     },
@@ -1005,8 +1005,8 @@
     {
       "word": "Kevätrulla",
       "clues": {
-        "easy": "Ohut kääre rullattu täytteiden ympärille",
-        "medium": "Läpinäkyvä paistettu taikinarulla",
+        "easy": "Ohut kääre, joka on kääritty rapeiden täytteiden ympärille",
+        "medium": "Läpinäkyvä paistettu leivonnainen sylinteri",
         "hard": "Food"
       }
     },
@@ -1053,7 +1053,7 @@
     {
       "word": "Miso keitto",
       "clues": {
-        "easy": "Fermentoitu soijatahnakeitto dashilla",
+        "easy": "Fermentoitu soijatahnaliemi dashilla",
         "medium": "Pilvinen aamiaisliemi sipulilla",
         "hard": "Food"
       }
@@ -1077,7 +1077,7 @@
     {
       "word": "Kulta",
       "clues": {
-        "easy": "Kultainen nektari, jota säilytetään kampassa",
+        "easy": "annosinen nektari, jota säilytetään kampassa",
         "medium": "Viskoosi kukkainen pesän makeutusaine",
         "hard": "Food"
       }
@@ -1086,7 +1086,7 @@
       "word": "Vaahterasiirappi",
       "clues": {
         "easy": "Keitetty puumehu aamiaiseksi",
-        "medium": "Amber keitetty lehtipuu siirappi",
+        "medium": "Meripihka keitetty lehtipuun vähennys",
         "hard": "Food"
       }
     },
@@ -1118,7 +1118,7 @@
       "word": "Maito",
       "clues": {
         "easy": "Ravitseva valkoinen juoma laatikoissa",
-        "medium": "Kalsiumia sisältävä maitotuote",
+        "medium": "Kalsiumia sisältävä annostuote",
         "hard": "Food"
       }
     },
@@ -1165,7 +1165,7 @@
     {
       "word": "Perunamuusia",
       "clues": {
-        "easy": "Lisäkkeeksi vaahdotettu maustettu peruna",
+        "easy": "Vaahdotettu maustettu spud lisuke",
         "medium": "Jauhatut pihvit sulatetulla kermalla",
         "hard": "Food"
       }
@@ -1173,8 +1173,8 @@
     {
       "word": "Paistettu peruna",
       "clues": {
-        "easy": "Folioon kääritty peruna smetanalla",
-        "medium": "Halkaise höyryävän perunan kuori",
+        "easy": "Folioon kääritty kokonainen smetana",
+        "medium": "Halkeaa höyryävä iho",
         "hard": "Food"
       }
     },
@@ -1197,7 +1197,7 @@
     {
       "word": "Tomaattikeitto",
       "clues": {
-        "easy": "Kermainen punainen keitto yhdistettynä paahtoleipää",
+        "easy": "Kermainen punainen soseutettu liemi yhdistettynä paahtoleipää",
         "medium": "Lämmin soseutettu punaisen viiniköynnöksen hedelmäkulho",
         "hard": "Food"
       }
@@ -1221,7 +1221,7 @@
     {
       "word": "munakokkelia",
       "clues": {
-        "easy": "Sekoitettuja aamiaispaistinmunia",
+        "easy": "Sekoitettu aamiainen paistinpannu keltuainen rahka",
         "medium": "Pörröinen paistinjuusto paahtoleivän päällä",
         "hard": "Food"
       }
@@ -1245,7 +1245,7 @@
     {
       "word": "Lihapullia",
       "clues": {
-        "easy": "Maustettu lihapallo kastikkeessa haudutettuna",
+        "easy": "Maustettu jauhettu suolainen pallo kastikkeessa haudutettuna",
         "medium": "Haudutettua naudanlihapalloa marinarassa",
         "hard": "Food"
       }
@@ -1278,7 +1278,7 @@
       "word": "Grillattua juustoa",
       "clues": {
         "easy": "Pannulla paistettua leipää tahmealla meijerikeskuksella",
-        "medium": "Voilla grillattu voileipä juustovedolla",
+        "medium": "Voilla annos voileipä, jossa on sulatettua maitoa",
         "hard": "Food"
       }
     },
@@ -1349,7 +1349,7 @@
     {
       "word": "Juustokakku",
       "clues": {
-        "easy": "Paistettua makeaa tuorejuustoa murupohjalla",
+        "easy": "Paistettua makeaa maitovaahtoa murupohjalla",
         "medium": "Tiheä jäähdytetty maitokakkuviipale",
         "hard": "Food"
       }
@@ -1373,7 +1373,7 @@
     {
       "word": "Kanelirulla",
       "clues": {
-        "easy": "Paistettu kaulittu taikinapyörre makealla kuorrutuksella",
+        "easy": "Paistettu kierre taikinapyörre makealla kuorrutuksella",
         "medium": "Spiraalimainen makea taikina kermakuorruteella",
         "hard": "Food"
       }
@@ -1381,7 +1381,7 @@
     {
       "word": "Valkosipuli leipä",
       "clues": {
-        "easy": "Yrtivoissa paistettu rapea leipä",
+        "easy": "Yrttivoissa paistettu rapea viipaloitu annos",
         "medium": "Uunissa ruskea voiinen yrttileipä",
         "hard": "Food"
       }
@@ -1430,7 +1430,7 @@
       "word": "Oliiviöljy",
       "clues": {
         "easy": "Kultainen salaattikastike ja ruoanlaittoneste",
-        "medium": "Välimerellinen kylmäpuristettu vihreä öljy",
+        "medium": "Välimerellinen kylmäpuristettu hedelmäinen rasva",
         "hard": "Food"
       }
     },
@@ -1438,7 +1438,7 @@
       "word": "Etikka",
       "clues": {
         "easy": "Fermentoitu neste suolakurkille ja kastikeille",
-        "medium": "Terävä fermentoitu etikkahappoinen neste",
+        "medium": "Terävä fermentoitu annoshappoinen neste",
         "hard": "Food"
       }
     },
@@ -1494,7 +1494,7 @@
       "word": "Vilja",
       "clues": {
         "easy": "Pakatut jyvät kaadetaan aamukulhoon",
-        "medium": "Paahdetut viljahiutaleet maitokulhossa",
+        "medium": "Paahdetut annoshiutaleet maitokulhossa",
         "hard": "Food"
       }
     },
@@ -1608,7 +1608,7 @@
       "word": "Koira",
       "clues": {
         "easy": "Heiluttaa häntää ja hakee palloja",
-        "medium": "Koiran kotimainen seuralainen",
+        "medium": "olenton kotimainen seuralainen",
         "hard": "Animals"
       }
     },
@@ -1672,7 +1672,7 @@
       "word": "Kukko",
       "clues": {
         "easy": "Harjainen uroslintu kirkkaalla kampalla",
-        "medium": "Aamunkoittoa kutsuva pihan kukko",
+        "medium": "Aamunkoittoa kutsuva pihan olento",
         "hard": "Animals"
       }
     },
@@ -1912,7 +1912,7 @@
       "word": "Käärme",
       "clues": {
         "easy": "Heiluva kieli ja hilseilevä iho",
-        "medium": "Myrkyllinen tai supistava käärme",
+        "medium": "Myrkyllinen tai supistava olento",
         "hard": "Animals"
       }
     },
@@ -2015,7 +2015,7 @@
     {
       "word": "Grizzly karhu",
       "clues": {
-        "easy": "Olkakypäräkarhu pyydystää jokilohta",
+        "easy": "Olkakypärä peto pyydystää jokilohta",
         "medium": "Tehokas talvehtiva sisämaan kaikkiruokainen",
         "hard": "Animals"
       }
@@ -2151,7 +2151,7 @@
     {
       "word": "Kyyhkynen",
       "clues": {
-        "easy": "Bobbing urbaani kyyhkynen syö korppujauhoja",
+        "easy": "Bobbing urbaani olento syö korppujauhoja",
         "medium": "Kaupunkiparvi, jolla on kotiutumisvaisto",
         "hard": "Animals"
       }
@@ -2255,7 +2255,7 @@
     {
       "word": "Meritähti",
       "clues": {
-        "easy": "Elvyttävä meritähti korallilla",
+        "easy": "Regeneroiva viisikätinen meriolento korallilla",
         "medium": "Radiaalinen pohjatelakone",
         "hard": "Animals"
       }
@@ -2497,7 +2497,7 @@
     {
       "word": "Alankomaat",
       "clues": {
-        "easy": "Tuulimyllyjen ja puukkenkien alankomaa",
+        "easy": "Tuulimyllyjen ja puukkenkien valtio",
         "medium": "Palautetut alamaat Pohjanmeren patojen takana",
         "hard": "Countries"
       }
@@ -2673,7 +2673,7 @@
     {
       "word": "Etelä-Afrikka",
       "clues": {
-        "easy": "Sateenkaarivaltio mantereen eteläkärjessä",
+        "easy": "Sateenkaarikansakunta Hyväntoivon niemellä",
         "medium": "Kahden valtameren niemen kansakunta kultaa ja timantteja",
         "hard": "Countries"
       }
@@ -2745,8 +2745,8 @@
     {
       "word": "Saudi-Arabia",
       "clues": {
-        "easy": "Arabian niemimaan sydän ja historiallinen pyhiinvaellus",
-        "medium": "Valtakunta miehittää suurimman osan Arabian niemimaalta",
+        "easy": "Laajan aavikon niemimaan sydän ja historiallinen Mekan pyhiinvaellus",
+        "medium": "Valtakunta miehittää suurimman osan valtavasta aavikkolahden niemimaalla",
         "hard": "Countries"
       }
     },
@@ -2866,7 +2866,7 @@
       "word": "Filippiinit",
       "clues": {
         "easy": "Tyynenmeren saaristovaltio, jossa on seitsemän tuhatta saarta",
-        "medium": "Saariketju Etelä-Kiinan meren ja Filippiinien meren välillä",
+        "medium": "Trooppinen saaristo Luzonin salmen ja Celebesinmeren välillä",
         "hard": "Countries"
       }
     },
@@ -2874,7 +2874,7 @@
       "word": "Etelä-Korea",
       "clues": {
         "easy": "Korkean teknologian niemimaalla elävää kulttuuria",
-        "medium": "Itä-Aasian tasavalta 38. leveyden eteläpuolella",
+        "medium": "Itä-Aasian tasavalta 38. leveyden alapuolella",
         "hard": "Countries"
       }
     },
@@ -3244,7 +3244,7 @@
       "word": "Eläinlääkäri",
       "clues": {
         "easy": "Tarkkailee lemmikkejä ja karjaa klinikalla",
-        "medium": "Eläinlääkäri",
+        "medium": "asiantuntija",
         "hard": "Professions"
       }
     },
@@ -3292,7 +3292,7 @@
       "word": "Opettaja",
       "clues": {
         "easy": "Esittelee oppitunteja, tauluja ja arvosanoja",
-        "medium": "Luokkahuoneen opettaja",
+        "medium": "Luokkahuoneen asiantuntija",
         "hard": "Professions"
       }
     },
@@ -3396,7 +3396,7 @@
       "word": "Lentoemäntä",
       "clues": {
         "easy": "Osoittaa hätäuloskäynnit ja matkustamon turvallisuuden",
-        "medium": "Lennon matkustamon päivystäjä",
+        "medium": "Lentomatkustajan ohjaamo",
         "hard": "Professions"
       }
     },
@@ -3428,7 +3428,7 @@
       "word": "Poliisi",
       "clues": {
         "easy": "Merkki, univormu ja yhteisön hätäpartio",
-        "medium": "Lainvalvontaviranomainen",
+        "medium": "Lainvalvontaviranomaisten virkapukuinen partioagentti",
         "hard": "Professions"
       }
     },
@@ -3444,7 +3444,7 @@
       "word": "Tuomari",
       "clues": {
         "easy": "Musta viitta, nuija ja lailliset päätökset",
-        "medium": "Oikeussalin lainopillinen tuomari",
+        "medium": "Oikeussalin lainopillinen asiantuntija",
         "hard": "Professions"
       }
     },
@@ -3452,7 +3452,7 @@
       "word": "Lakimies",
       "clues": {
         "easy": "Arkistoida oikeuden hakemukset ja tulkita lakia",
-        "medium": "Laillistettu lakimies",
+        "medium": "Laillistettu asiantuntija",
         "hard": "Professions"
       }
     },
@@ -3539,7 +3539,7 @@
     {
       "word": "Maalari",
       "clues": {
-        "easy": "Telat, maalialustat ja pudotusliinat",
+        "easy": "Telat, pigmenttialustat ja pudotusliinat",
         "medium": "Pintamaalaus- ja viimeistelyalan ammattilainen",
         "hard": "Professions"
       }
@@ -3572,7 +3572,7 @@
       "word": "Kukkakauppias",
       "clues": {
         "easy": "Sakset, nauha ja jäähdytetyt kukkaesineet",
-        "medium": "Kasvitieteellinen kukka-asetelma suunnittelija",
+        "medium": "Kasvitieteellinen asiantuntija-asetelma suunnittelija",
         "hard": "Professions"
       }
     },
@@ -3588,7 +3588,7 @@
       "word": "Toimittaja",
       "clues": {
         "easy": "Haastattelee lähteitä ja kirjoittaa uutisia",
-        "medium": "Lehdistötoimittaja ja uutistoimittaja",
+        "medium": "Lehdistöasiantuntija ja uutisasiantuntija",
         "hard": "Professions"
       }
     },
@@ -3604,7 +3604,7 @@
       "word": "näyttelijä",
       "clues": {
         "easy": "Muistaa käsikirjoitukset ulkoa ja esiintyy lavalla",
-        "medium": "Dramaattinen näyttämö- ja näyttelijä",
+        "medium": "Dramaattinen näyttämö- ja asiantuntija",
         "hard": "Professions"
       }
     },
@@ -3667,16 +3667,16 @@
     {
       "word": "pankkiiri",
       "clues": {
-        "easy": "Valvoo rahoituspääomaa ja pankkilainoja",
-        "medium": "Liikepankki- ja lainavastaava",
+        "easy": "Valvoo rahoituspääomaa ja kaupallisia luottoja",
+        "medium": "Kaupallinen rahoitus- ja lainapäällikkö",
         "hard": "Professions"
       }
     },
     {
       "word": "Kassa",
       "clues": {
-        "easy": "Viivakoodilukija, kassakone ja kuittitulostin",
-        "medium": "Vähittäiskaupan kassalla myyntipisteen operaattori",
+        "easy": "Viivakoodilukija, asiantuntijalaatikko ja kuittitulostin",
+        "medium": "Vähittäiskaupan asiantuntijalla myyntipisteen operaattori",
         "hard": "Professions"
       }
     },
@@ -3699,7 +3699,7 @@
     {
       "word": "Matkaopas",
       "clues": {
-        "easy": "Tarjoaa kommentteja ja opastaa kävelykierroksia",
+        "easy": "Tarjoaa historiallisia kommentteja vieraileville nähtävyyksille",
         "medium": "Kulttuurinähtävyyksien retkikunnan johtaja",
         "hard": "Professions"
       }
@@ -3707,15 +3707,15 @@
     {
       "word": "Taksinkuljettaja",
       "clues": {
-        "easy": "Suunnittelee katuliikennettä kojelaudataksimittarilla",
-        "medium": "Kaupunkikadun matkustajataksin kuljettaja",
+        "easy": "Suunnittelee katuliikennettä kojelaudan hintamittarilla",
+        "medium": "Kaupunkikadun keltaisen asiantuntija kuljettaja",
         "hard": "Professions"
       }
     },
     {
       "word": "Linja-auton kuljettaja",
       "clues": {
-        "easy": "Liikennöi suuria julkisia linja-autoja aikataulun mukaisten pysäkkien varrella",
+        "easy": "Liikennöi suuria julkisia asiantuntija-autoja aikataulun mukaisten pysäkkien varrella",
         "medium": "Kunnallinen liikennereittioperaattori",
         "hard": "Professions"
       }
@@ -3724,7 +3724,7 @@
       "word": "Postin kuljettaja",
       "clues": {
         "easy": "Kuljettaa kirjereppua katureitillä",
-        "medium": "Postikirje ja pakettikuljetus",
+        "medium": "Postikirje ja pakettilähetys",
         "hard": "Professions"
       }
     },
@@ -3732,7 +3732,7 @@
       "word": "Toimitus kuriiri",
       "clues": {
         "easy": "Ajaa pakettiautoa ja skannaa pakettien viivakoodeja",
-        "medium": "Viimeisen kilometrin pakettilähetti",
+        "medium": "Viimeisen mailin ovella paketin juoksija",
         "hard": "Professions"
       }
     },
@@ -3748,7 +3748,7 @@
       "word": "Graafinen suunnittelija",
       "clues": {
         "easy": "Digitaalinen kuvitusohjelmisto ja typografia",
-        "medium": "Kaupallinen visuaalisen brändin suunnittelija",
+        "medium": "Kaupallinen visuaalinen brändäystaiteilija",
         "hard": "Professions"
       }
     },
@@ -3756,7 +3756,7 @@
       "word": "Elokuvaohjaaja",
       "clues": {
         "easy": "Kutsuu toimintaan, ohjaa kuvausta ja arvosteluja",
-        "medium": "Elokuvaohjaaja",
+        "medium": "Elokuvan tekijä",
         "hard": "Professions"
       }
     },
@@ -3804,7 +3804,7 @@
       "word": "Mehiläishoitaja",
       "clues": {
         "easy": "Suojaverho, tupakoitsija ja pesän kehykset",
-        "medium": "Mehiläishoitaja ja hunajankeräyskone",
+        "medium": "asiantuntija ja hunajankeräyskone",
         "hard": "Professions"
       }
     },
@@ -3828,7 +3828,7 @@
       "word": "Lukkoseppä",
       "clues": {
         "easy": "Poimii juomalasit, avainaihiot ja asentaa sulkupultit",
-        "medium": "Avainten leikkaus ja sylinterilukkojen asiantuntija",
+        "medium": "Avainten leikkaus ja sylinterihakuasiantuntija",
         "hard": "Professions"
       }
     },
@@ -3843,7 +3843,7 @@
     {
       "word": "Kuorma-auton kuljettaja",
       "clues": {
-        "easy": "Ajaa kahdeksantoistapyöräisellä puolikuorma-autolla osavaltioiden välisen tien yli",
+        "easy": "Ajaa kahdeksantoista pyörän puolivälissä Interstate",
         "medium": "Kaukoliikenteen osavaltioiden välinen rahtioperaattori",
         "hard": "Professions"
       }
@@ -3883,7 +3883,7 @@
     {
       "word": "Taikuri",
       "clues": {
-        "easy": "Pelikortit, taikasauva ja petollisia temppuja",
+        "easy": "Pelikortit, kiillotettu sauva ja harhaanjohtava tempaus",
         "medium": "Lavaillusionisti ja käsitaiteilija",
         "hard": "Professions"
       }
@@ -3900,14 +3900,14 @@
       "word": "Kiinteistönvälittäjä",
       "clues": {
         "easy": "Esittelee taloja asiakkaille ja tekee kiinteistökaupat",
-        "medium": "Laillistettu asuinkiinteistönvälittäjä",
+        "medium": "Laillistettu asuinasiantuntija",
         "hard": "Professions"
       }
     },
     {
       "word": "Kauppias",
       "clues": {
-        "easy": "Varastoi hyllyjä, avustaa ostajia ja hallinnoi kauppaa",
+        "easy": "Varastoi hyllyjä, avustaa asiakkaita ja hallinnoi myymälää",
         "medium": "Riippumaton vähittäiskaupan liikkeen omistaja",
         "hard": "Professions"
       }
@@ -3931,8 +3931,8 @@
     {
       "word": "Ravitsemusterapeutti",
       "clues": {
-        "easy": "Laskee kalorien saannin ja tasapainoisen ravinnon",
-        "medium": "Ruokavalion hyvinvointi- ja ravitsemusneuvoja",
+        "easy": "Laskee kalorien saannin ja tasapainoiset ateriasuunnitelmat",
+        "medium": "Ruokavalion hyvinvoinnin ja ruokaterveysneuvoja",
         "hard": "Professions"
       }
     },
@@ -3972,7 +3972,7 @@
       "word": "Lennonjohtaja",
       "clues": {
         "easy": "Tutkanäyttö, kuulokkeet ja lentokentän kiitotien etäisyys",
-        "medium": "Lentokentän tornin ilmatilan tutkaohjain",
+        "medium": "Lentokentän tornin ilmatilan tutkavalvonta",
         "hard": "Professions"
       }
     },
@@ -3980,7 +3980,7 @@
       "word": "Nosturin kuljettaja",
       "clues": {
         "easy": "Korkeat ohjaamon vivut, nostovaijerit ja vastapainot",
-        "medium": "Raskaan nostimen rakentamisen ohjaamon kuljettaja",
+        "medium": "Raskaan asiantuntija ohjaamon asiantuntija",
         "hard": "Professions"
       }
     },
@@ -4101,8 +4101,8 @@
     {
       "word": "Pöytätennis",
       "clues": {
-        "easy": "Pöytäverkon poikki pyörivät pienoismelat",
-        "medium": "Ping-pong-pöydän kumimela ottelu",
+        "easy": "Pienoismelat rallivat vihreän verkon yli",
+        "medium": "Ping-pong sisäkumimelaottelu",
         "hard": "Sports"
       }
     },
@@ -4141,8 +4141,8 @@
     {
       "word": "Lumilautailu",
       "clues": {
-        "easy": "Molemmat saappaat kiinnitetty yhteen lumikannelle",
-        "medium": "Yksittäinen alppikansi kaivertaa puuteria lunta",
+        "easy": "Molemmat saappaat kiinnitetty yhteen talvikanteen",
+        "medium": "Yksittäinen alppikansi puuterimaista huurretta",
         "hard": "Sports"
       }
     },
@@ -4221,7 +4221,7 @@
     {
       "word": "Melontaa",
       "clues": {
-        "easy": "Yksilapainen melonta tyynissä joissa",
+        "easy": "Yksilapainen laji tyynissä joissa",
         "medium": "Avorunkoinen melanavigointi",
         "hard": "Sports"
       }
@@ -4254,7 +4254,7 @@
       "word": "Maastopyöräily",
       "clues": {
         "easy": "Jousitushaarukat pomppivat kivien ja lian yli",
-        "medium": "Maastopyöräilyä alamäkeen",
+        "medium": "lajiä alamäkeen",
         "hard": "Sports"
       }
     },
@@ -4334,7 +4334,7 @@
       "word": "Esteet",
       "clues": {
         "easy": "Rytminen sprintti raivaus välimatkan päässä puiset portit",
-        "medium": "Ratasprintti raivaa pystysuorat esteet",
+        "medium": "Ratasprintti raivaa pystysuorat laji",
         "hard": "Sports"
       }
     },
@@ -4357,7 +4357,7 @@
     {
       "word": "Seivähyppy",
       "clues": {
-        "easy": "Joustavan lasikuitutangon istuttaminen tyhjennyspalkkiin",
+        "easy": "Joustavan lasikuidun istutus kirkkaaksi tankoksi",
         "medium": "Pystysuora hyppy, jota auttoi taipuva lasikuitutanko",
         "hard": "Sports"
       }
@@ -4382,7 +4382,7 @@
       "word": "Keihäänheitto",
       "clues": {
         "easy": "Kiitotien yläpuolella kapea teräväkärkinen keihäs",
-        "medium": "Aerodynaaminen teräväkärkinen keihäänheitto",
+        "medium": "Aerodynaaminen teräväkärkinen laji",
         "hard": "Sports"
       }
     },
@@ -4398,7 +4398,7 @@
       "word": "Kalliokiipeilyä",
       "clues": {
         "easy": "Valjaat, karabiinit, liitupussi ja turvaköydet",
-        "medium": "Nousevat pystysuorat kalliopinnat sormella",
+        "medium": "Nousevat pystysuorat kalliot sormella",
         "hard": "Sports"
       }
     },
@@ -4422,7 +4422,7 @@
       "word": "Formula yksi",
       "clues": {
         "easy": "Varikkopysähdykset, aerodynaamiset siivet ja Grand Prix -radat",
-        "medium": "Yksipaikkainen aerodynaaminen Grand Prix -kilpailu",
+        "medium": "lajipaikkainen aerodynaaminen Grand Prix -kilpailu",
         "hard": "Sports"
       }
     },
@@ -4446,7 +4446,7 @@
       "word": "Vesipallo",
       "clues": {
         "easy": "Uimahatut, joissa korvasuojat ja kelluvat maalit",
-        "medium": "Syvän veden vesipallon kamppailu",
+        "medium": "Syvä vesipitoinen kloorattu pallokampaus",
         "hard": "Sports"
       }
     },
@@ -4509,7 +4509,7 @@
     {
       "word": "Taiteellinen uinti",
       "clues": {
-        "easy": "Nenäklipsirutiinit ylösalaisin uima-altaassa",
+        "easy": "Nenäklipsirutiinit ylösalaisin klooratussa uima-altaassa",
         "medium": "Vesisynkronoitu koreografia musiikin kanssa",
         "hard": "Sports"
       }
@@ -4518,7 +4518,7 @@
       "word": "Vesihiihtoa",
       "clues": {
         "easy": "Pitelee hinausköyttä, joka liukuu veneen päällä",
-        "medium": "Veneellä hinattava höyläys avoimen veden päällä",
+        "medium": "Veneen hinattava wake skimming kaksoisjuoksuilla",
         "hard": "Sports"
       }
     },
@@ -4582,7 +4582,7 @@
       "word": "Disc golf",
       "clues": {
         "easy": "Ketjulinkkikorikohteiden kurssi puiston poikki",
-        "medium": "Tee-to-koriin lentävän kiekon tarkkuuskurssi",
+        "medium": "Tee-to-koriin lentävän lautasen tarkkuuskurssi",
         "hard": "Sports"
       }
     },
@@ -4645,8 +4645,8 @@
     {
       "word": "Jäätanssia",
       "clues": {
-        "easy": "Monimutkaista synkronoitua jalkatyötä ja kiemurtelua jäällä",
-        "medium": "Teatterin juhlasalikumppanin koreografia jäällä",
+        "easy": "Monimutkainen synkronoitu jalkatyöskentely ja kierteet jäätyneellä kentällä",
+        "medium": "Teatterin juhlasalikumppanin koreografia jäätyneellä kaukalolla",
         "hard": "Sports"
       }
     },
@@ -4685,7 +4685,7 @@
     {
       "word": "Biljardi",
       "clues": {
-        "easy": "Carom ampuu pomppivia biljardipalloja ilman taskuja",
+        "easy": "Carom laukaisee värillisiä palloja ilman taskuja",
         "medium": "Ammu pöydän lyöntejä kiskotyynyillä",
         "hard": "Sports"
       }
@@ -4717,7 +4717,7 @@
     {
       "word": "Showhyppy",
       "clues": {
-        "easy": "Stadionin hyppyaitojen navigointi aikarajan sisällä",
+        "easy": "Stadionin esteaitojen navigointi määräajassa",
         "medium": "Ratsastusrata puhdistaa värikkäitä stadionin kiskoja",
         "hard": "Sports"
       }
@@ -4725,16 +4725,16 @@
     {
       "word": "Dragon vene",
       "clues": {
-        "easy": "Meloajat synkronoidaan rummunsoiton ja koristeellisen lohikäärmejousen kanssa",
-        "medium": "Synkronoitu ryhmämelonta lohikäärmekeikan kanssa",
+        "easy": "Meloajat synkronoidaan rummunsoiton ja myyttisen käärmejousen kanssa",
+        "medium": "Synkronoitu ryhmämelonta myyttisen pedon keikan kanssa",
         "hard": "Sports"
       }
     },
     {
       "word": "Urheilullinen kiipeily",
       "clues": {
-        "easy": "Leikkaa pikapiirroksia samalla kun skaalaat kuntosalikiipeilyreittiä",
-        "medium": "Kuntosalin seinäkiipeily kiinnitetty ankkureihin",
+        "easy": "Leikkaa pikapiirroksia samalla kun skaalataan keinotekoisen kuntosalin reittiä",
+        "medium": "Kuntosalin sisäseinän nousu ankkureihin kiinnitettynä",
         "hard": "Sports"
       }
     },
@@ -4991,7 +4991,7 @@
     {
       "word": "Burger King",
       "clues": {
-        "easy": "Pikaruokaketju, jossa on kruunua käyttävä kuningas",
+        "easy": "Pikaruokaketju, jossa on kruunua pukeutunut monarkki",
         "medium": "Teksti keltaisten pullapuoliskojen väliin",
         "hard": "Logos & Brands"
       }
@@ -5023,7 +5023,7 @@
     {
       "word": "Pizza Hut",
       "clues": {
-        "easy": "Pizzaravintola punaisella kattologolla",
+        "easy": "Italialainen fast-casual -ketju punaisella kattologolla",
         "medium": "Vino punainen lierinen hattu siluetti",
         "hard": "Logos & Brands"
       }
@@ -5032,7 +5032,7 @@
       "word": "IKEA",
       "clues": {
         "easy": "Ruotsalainen flat-pack-huonekaluvarasto",
-        "medium": "Keltainen soikea sinisen suorakulmion sisällä lihavoituilla kirjaimilla",
+        "medium": "Keltainen somerkki sinisen suorakulmion sisällä lihavoituilla kirjaimilla",
         "hard": "Logos & Brands"
       }
     },
@@ -5192,7 +5192,7 @@
       "word": "Red Bull",
       "clues": {
         "easy": "Energiajuomatölkki, jossa törmäävät pedot",
-        "medium": "Kaksi punaista sarvillista petoa vastakkain",
+        "medium": "Kaksi karmiininpunaista sarveista petoa vastakkain",
         "hard": "Logos & Brands"
       }
     },
@@ -5617,7 +5617,7 @@
     {
       "word": "Auto",
       "clues": {
-        "easy": "Henkilökohtainen henkilöauto ohjauspyörällä",
+        "easy": "Henkilökohtainen henkilölaite ohjauspyörällä",
         "medium": "Polttomoottori tai sähköinen alusta",
         "hard": "Transport"
       }
@@ -5625,7 +5625,7 @@
     {
       "word": "Bussi",
       "clues": {
-        "easy": "Reittibussi pysäkeillä",
+        "easy": "Reittilaite pysäkeillä",
         "medium": "Usean matkustajan kunnallinen maantieliikenne",
         "hard": "Transport"
       }
@@ -5641,7 +5641,7 @@
     {
       "word": "Lentokone",
       "clues": {
-        "easy": "Matkustajalentokone nousussa kiitotieltä",
+        "easy": "Matkustajalaite nousussa kiitotieltä",
         "medium": "Paineistettu runko suihkuturbiinin käyttövoimalla",
         "hard": "Transport"
       }
@@ -5697,7 +5697,7 @@
     {
       "word": "Taksi",
       "clues": {
-        "easy": "Katutaksi kutsuttiin suoraan määränpäämatkaan",
+        "easy": "Katulaite kutsuttiin suoraan määränpäämatkaan",
         "medium": "Kaupallinen mittarilla varustettu katuhenkilöauto",
         "hard": "Transport"
       }
@@ -5705,7 +5705,7 @@
     {
       "word": "Metro",
       "clues": {
-        "easy": "Metrotunnelijunat pysähtyvät maanalaisille laitureille",
+        "easy": "laitetunnelijunat pysähtyvät maanalaisille laitureille",
         "medium": "Maanalainen sähköistetty matkustajarataverkko",
         "hard": "Transport"
       }
@@ -5777,7 +5777,7 @@
     {
       "word": "Rahtilaiva",
       "clues": {
-        "easy": "Pinot värikkäitä metallisia kuljetuskontteja merien yli",
+        "easy": "Pinot värikkäitä metallisia rahtikontteja valtamerten yli",
         "medium": "Irtotavaran merikonttirahtikuljetus",
         "hard": "Transport"
       }
@@ -5794,14 +5794,14 @@
       "word": "Raketti",
       "clues": {
         "easy": "Monivaiheinen tehostin, joka pakenee Maan painovoimaa kiertoradalle",
-        "medium": "Kemiallisen reaktion pystysuora kiertorata kantoraketti",
+        "medium": "Kemiallisen reaktion pystysuora kiertorata kantolaite",
         "hard": "Transport"
       }
     },
     {
       "word": "Kuumailmapallo",
       "clues": {
-        "easy": "Poltin lämmittää ilmaa vaipan sisällä ylhäällä",
+        "easy": "Poltinlämmityskaasu kuoren sisällä ylhäällä",
         "medium": "Terminen kelluvuus paju matkustajalento",
         "hard": "Transport"
       }
@@ -5849,8 +5849,8 @@
     {
       "word": "Paloauto",
       "clues": {
-        "easy": "Paloauto reagoi rakennuspaloihin sireenillä",
-        "medium": "Hydrauliset antennitikapuut ja vesipumppuauto",
+        "easy": "Pelastusajoneuvo reagoi rakennuspaloihin sireenillä",
+        "medium": "Hydrauliset antennitikapuut ja korkeapaineinen pumppauslaite",
         "hard": "Transport"
       }
     },
@@ -5889,7 +5889,7 @@
     {
       "word": "Kippiauto",
       "clues": {
-        "easy": "Kuljettaa ja kaataa soraa, hiekkaa ja kivimurskaa",
+        "easy": "Kuljettaa ja purkaa soraa, hiekkaa ja kivimurskaa",
         "medium": "Hydraulinen kippaava avolaatikkoinen irtolastikuljetin",
         "hard": "Transport"
       }
@@ -5905,24 +5905,24 @@
     {
       "word": "Lumiaura",
       "clues": {
-        "easy": "Raivotaan jäisiä teitä ja kasataan lunta jalkakäytävälle",
-        "medium": "Eteen asennettu kulmikas kiila-ajoneuvo",
+        "easy": "Raivataan jäisiä teitä ja työnnetään sohjoa jalkakäytävälle",
+        "medium": "Eteen asennettu vino kiila talviraivausajoneuvo",
         "hard": "Transport"
       }
     },
     {
       "word": "Moottorikelkka",
       "clues": {
-        "easy": "Ohjaustanko-ohjattu kone luistelee talven ajelehtimia",
-        "medium": "Takatela-alustainen talvilumen ajokone",
+        "easy": "Askelmat puuteriin kaksoisohjatuilla suksilla",
+        "medium": "Taka-tela-alustainen talvitundra-ajokone",
         "hard": "Transport"
       }
     },
     {
       "word": "Vesiskootteri",
       "clues": {
-        "easy": "Vesisuihkulla toimiva vesiskootteri",
-        "medium": "Ohjaustanolla ohjattava henkilökohtainen vesisuihkuvene",
+        "easy": "Vesikäyttöinen istumapotkulauta",
+        "medium": "Ohjaustanolla ohjattu henkilökohtainen vesivoimakone",
         "hard": "Transport"
       }
     },
@@ -5930,15 +5930,15 @@
       "word": "Ilmatyynyalus",
       "clues": {
         "easy": "Suuri kumihame, joka liukuu maan ja veden yli",
-        "medium": "Tuulettimen paineistettu ilmatyyny amfibiokuljetus",
+        "medium": "Tuulettimen paineistettu laite amfibiokuljetus",
         "hard": "Transport"
       }
     },
     {
       "word": "Köysirata",
       "clues": {
-        "easy": "Ilmakuljetus gondoli nouseva jyrkkiä vuorenhuippuja",
-        "medium": "Ilmavetokaapelilla ripustettu matkustamo",
+        "easy": "Ripustettu raitiovaunuhytti ajaa yläjohto",
+        "medium": "Ilmastoidulla vetovaijerilla ripustettu matkustamo",
         "hard": "Transport"
       }
     },
@@ -5969,8 +5969,8 @@
     {
       "word": "Hevoskärryt",
       "clues": {
-        "easy": "Historiallinen puinen vaunu hevosvaljailla ja kuljettajalla",
-        "medium": "Hevosvetoinen pyörällinen matkustajakuljetus",
+        "easy": "Historiallinen puinen linja-auto orivaljailla ja kuljettajalla",
+        "medium": "Hevosvetoinen matkustajavaunu rautarenkailla",
         "hard": "Transport"
       }
     },
@@ -5985,24 +5985,24 @@
     {
       "word": "Luotijuna",
       "clues": {
-        "easy": "Sähköjuna-ammunta kaupunkien välillä suurilla nopeuksilla",
-        "medium": "Aerodynaaminen nopea nokka omistetuilla kiskoilla",
+        "easy": "Aerodynaaminen pikaveturi ammunta kaupunkien välillä suurilla nopeuksilla",
+        "medium": "Aerodynaaminen suurnopeusmatkustajakisko",
         "hard": "Transport"
       }
     },
     {
       "word": "Tavarajuna",
       "clues": {
-        "easy": "Dieselveturien vetosuppilo ja laatikkovaunut",
-        "medium": "Moniveturi raskas rautateiden tavaraliikenne koostuu",
+        "easy": "Pitkä rivi dieselveturien vetämiä laatikkovaunuja",
+        "medium": "Moniveturien raskas rautatielasti koostuu",
         "hard": "Transport"
       }
     },
     {
       "word": "Kaksikerroksinen bussi",
       "clues": {
-        "easy": "Ikoninen punainen korkea bussi kierreportaat",
-        "medium": "Kaksitasoinen katuliikenteen linja-auto",
+        "easy": "Ikoninen punainen korkea linja-auto kierreportaat",
+        "medium": "Kaksitasoinen kaupunkiliikenteen matkustajaliikenne",
         "hard": "Transport"
       }
     },
@@ -6025,8 +6025,8 @@
     {
       "word": "Noutolava",
       "clues": {
-        "easy": "Takaluukku, suljettu ohjaamo ja hyödyllinen tavaratila",
-        "medium": "Avosänky henkilöauto",
+        "easy": "Matkustajan ohjaamo edessä avoimella hyötytavaratilalla",
+        "medium": "Avosänky hyötyauton matkustajamoottori",
         "hard": "Transport"
       }
     },
@@ -6049,7 +6049,7 @@
     {
       "word": "Kilpa-auto",
       "clues": {
-        "easy": "Spoilerit, turvahäkki ja liukkaat kilparenkaat",
+        "easy": "Spoilerit, turvahäkki ja liukkaat laiterenkaat",
         "medium": "Telaviritetty huipputehokas moottoriurheilukone",
         "hard": "Transport"
       }
@@ -6057,7 +6057,7 @@
     {
       "word": "Karting",
       "clues": {
-        "easy": "Matalavarainen nelipyöräinen karting mutkaisilla sisäradoilla",
+        "easy": "Matalavarainen nelipyöräinen kilpa-auto mutkaisilla sisäradoilla",
         "medium": "Matalakeskinen miniatyyri avopyöräinen kilpa-alusta",
         "hard": "Transport"
       }
@@ -6066,14 +6066,14 @@
       "word": "Maastoauto",
       "clues": {
         "easy": "Hajallaan istuin ja ohjaustanko ajettu mutapolkujen yli",
-        "medium": "Kontti-istuttava nelipyöräinen maasto-neliö",
+        "medium": "Kontti-istuttava nelipyöräinen laite-neliö",
         "hard": "Transport"
       }
     },
     {
       "word": "Maastopyörä",
       "clues": {
-        "easy": "Knobby-renkaan kaksipyöräisen hyppäävän likakaset",
+        "easy": "Knobby-renkaan kaksipyöräisen hyppäävän mutakaset",
         "medium": "Korkeavarainen nuppirenkainen maastomoottoripyörä",
         "hard": "Transport"
       }
@@ -6089,16 +6089,16 @@
     {
       "word": "Sähköskootteri",
       "clues": {
-        "easy": "Kokoontaittuva kaksipyöräinen kaupunkimatkaskootteri",
-        "medium": "Akkukäyttöinen pystyssä seisova työmatkan skootteri",
+        "easy": "Kokoontaittuva kaksipyöräinen kaupunkiliikenteen mikroajoneuvo",
+        "medium": "Akkukäyttöinen pystyssä seisova työmatkakansi",
         "hard": "Transport"
       }
     },
     {
       "word": "Yksipyöräinen",
       "clues": {
-        "easy": "Yksi satula, joka on asennettu yhdellä polkimella käytettävän pyörän päälle",
-        "medium": "Yksipyöräinen suoravetoinen tasapainoauto",
+        "easy": "laite satula, joka on asennettu yhdellä polkimella käytettävän pyörän päälle",
+        "medium": "laite suoravetoinen tasapainoauto",
         "hard": "Transport"
       }
     },
@@ -6113,8 +6113,8 @@
     {
       "word": "Rahti pyörä",
       "clues": {
-        "easy": "Kaksi- tai kolmipyöräinen poljinpyörä lastisäiliöllä",
-        "medium": "Raskasrunkoinen poljinkuljetin eteen tulevalla tavaratilalla",
+        "easy": "Kaksi- tai kolmipyöräinen poljinauto, jossa on tilava etusuppilo",
+        "medium": "Raskasrunkoinen poljinkuljetin, jossa edessä säilytystila",
         "hard": "Transport"
       }
     },
@@ -6169,8 +6169,8 @@
     {
       "word": "Köysirata",
       "clues": {
-        "easy": "Jyrkän rinteen kalteva rata, jota vetää köysi",
-        "medium": "Vastapainotettu jyrkän rinteen kalteva köysirata",
+        "easy": "Jyrkän rinteen kalteva rata, jota vetää laite",
+        "medium": "Vastapainotettu jyrkän rinteen kalteva laite",
         "hard": "Transport"
       }
     },
@@ -6225,7 +6225,7 @@
     {
       "word": "Öljytankkeri",
       "clues": {
-        "easy": "Suuri kansi, jossa on raakaöljyä kuljettavia putkistoja",
+        "easy": "Suuri kansi, jossa on raakaöljyä kuljettavia putkistojakoputkia",
         "medium": "Irtotavarana nestemäinen hiilivety valtameren kantaja",
         "hard": "Transport"
       }
@@ -6242,7 +6242,7 @@
       "word": "Kaksitaso",
       "clues": {
         "easy": "Vintage-puiset ja kankaiset siivet lankatakilla",
-        "medium": "Kaksitasoiset pinottusiipiset ilmailukoneet",
+        "medium": "laiteiset pinottusiipiset ilmailukoneet",
         "hard": "Transport"
       }
     },
@@ -6314,14 +6314,14 @@
       "word": "Höyrylaiva",
       "clues": {
         "easy": "Savupiiput ja kiehuva vesi historiallisilla joilla",
-        "medium": "Höyrykäyttöinen siipipyöräinen jokialus",
+        "medium": "Hiilikäyttöinen siipipyöräinen jokialus",
         "hard": "Transport"
       }
     },
     {
       "word": "Maglev-juna",
       "clues": {
-        "easy": "Sähkömagneettinen levitaatiojuna eliminoi kiskojen kitkan",
+        "easy": "Sähkömagneettinen levitaatiotransit eliminoi radan kitkan",
         "medium": "Magneettinen levitaatio ohjaustien matkustajaluoti",
         "hard": "Transport"
       }
@@ -6329,8 +6329,8 @@
     {
       "word": "Golfkärry",
       "clues": {
-        "easy": "Hiljainen akkukärry, joka kuljettaa golfkassit reikien välissä",
-        "medium": "Pienjännitekääntövaunu linkkien siirtoon",
+        "easy": "Hiljainen akkukärry kantaa mailalaukkuja reikien välissä",
+        "medium": "Pienjänniteautobussi väyläliikenteeseen",
         "hard": "Transport"
       }
     },
@@ -6361,8 +6361,8 @@
     {
       "word": "Avaruussukkula",
       "clues": {
-        "easy": "Delta-siipinen kiertorata palaa avaruudesta kiitotielle",
-        "medium": "Raketilla tehostettu kiertorata-avaruuslentokone",
+        "easy": "Delta-siipinen kiertorata palaa kiertoradalta kiitotielle",
+        "medium": "Rakettitehostettu kosminen purjelentokone",
         "hard": "Transport"
       }
     },
@@ -6377,7 +6377,7 @@
     {
       "word": "Gondoli",
       "clues": {
-        "easy": "Venetsian kanavia pitkin seisovan airogondolierin avulla",
+        "easy": "Venetsian kanavia pitkin seisovan airolaiteerin avulla",
         "medium": "Epäsymmetrinen venetsialaisen kanavan soutuvene",
         "hard": "Transport"
       }
@@ -6385,7 +6385,7 @@
     {
       "word": "Outrigger kanootti",
       "clues": {
-        "easy": "Tyynenmeren saarilaisten merenkulkukanootti, jossa on tasapainopari",
+        "easy": "Tyynenmeren saarten asukkaan merenkulkukorsu, jossa on tasapainopari",
         "medium": "Lateral-float stabiloitu polynesialainen matka-alus",
         "hard": "Transport"
       }
@@ -6409,7 +6409,7 @@
     {
       "word": "Mela höyrylaiva",
       "clues": {
-        "easy": "Jokialus, jota pyörittävät siipipyörät, jotka pyörittävät vettä",
+        "easy": "Jokialus, jota ajavat jättiläismäiset pyörivät pyörät",
         "medium": "Peräpyörä tai sivupyörä höyrypropulsioalus",
         "hard": "Transport"
       }
@@ -6467,7 +6467,7 @@
     {
       "word": "Sumua",
       "clues": {
-        "easy": "Paksu sumu matalalla, mikä heikentää näkyvyyttä",
+        "easy": "Paksu luontokohde matalalla, mikä heikentää näkyvyyttä",
         "medium": "Maan tason vesihöyryn kondensaatio",
         "hard": "Nature"
       }
@@ -6603,7 +6603,7 @@
     {
       "word": "Luola",
       "clues": {
-        "easy": "Tumma maanalainen luola kivikammioilla",
+        "easy": "Tumma maanalainen luontokohde kivikammioilla",
         "medium": "Maanalainen kalkkikiven liuotuskammio",
         "hard": "Nature"
       }
@@ -6643,8 +6643,8 @@
     {
       "word": "Hiekkadyyni",
       "clues": {
-        "easy": "Vaihtuva puolikuukukkula aavikon hiekkaa",
-        "medium": "Liparituulen veistetty hiekkaesiintymä",
+        "easy": "Vaihtuva puolikuukukkula aavikon piidioksidista",
+        "medium": "Liparituulen veistämä aavikkosedimenttiharju",
         "hard": "Nature"
       }
     },
@@ -6652,14 +6652,14 @@
       "word": "Niitty",
       "clues": {
         "easy": "Ruohoinen raivaus surina pölyttävistä hyönteisistä",
-        "medium": "Auringon valaisema monivuotinen niittyraivaus",
+        "medium": "Auringon valaisema monivuotinen luontokohderaivaus",
         "hard": "Nature"
       }
     },
     {
       "word": "Suo",
       "clues": {
-        "easy": "Matala suo sypressipuita ja mutaa",
+        "easy": "Matala luontokohde sypressipuita ja mutaa",
         "medium": "Metsäinen huonosti ojitettu kosteikkoallas",
         "hard": "Nature"
       }
@@ -6732,7 +6732,7 @@
       "word": "Auringonpimennys",
       "clues": {
         "easy": "Päivän pimeys kuin kuu estää auringonvalon",
-        "medium": "Auringon levyn taivaan peitto",
+        "medium": "Päivän tähtikiekon taivaallinen peitto",
         "hard": "Nature"
       }
     },
@@ -6756,7 +6756,7 @@
       "word": "Auringonnousu",
       "clues": {
         "easy": "Aamunkoiton kultainen hehku murtuu itään",
-        "medium": "Päivähorisontti auringon ulkonäkö",
+        "medium": "Päivähorisontti luontokohde ulkonäkö",
         "hard": "Nature"
       }
     },
@@ -6764,7 +6764,7 @@
       "word": "Auringonlasku",
       "clues": {
         "easy": "Kultaisen tunnin hämärä hämärässä",
-        "medium": "Päivällinen ilta-auringon katoaminen",
+        "medium": "Päivällinen ilta-luontokohde katoaminen",
         "hard": "Nature"
       }
     },
@@ -6843,7 +6843,7 @@
     {
       "word": "Mänty",
       "clues": {
-        "easy": "Kartiomainen puu, joka pysyy vihreänä ympäri vuoden",
+        "easy": "Kartiomainen tuoksuva puu, joka pysyy vihreänä ympäri vuoden",
         "medium": "Neulallinen hartsimainen havupuu",
         "hard": "Nature"
       }
@@ -6923,7 +6923,7 @@
     {
       "word": "Kuuma lähde",
       "clues": {
-        "easy": "Mineraalirikas kevät, joka kuplii vulkaanista lämpöä",
+        "easy": "Mineraalirikas suihkulähde, joka kuplii vulkaanista lämpöä",
         "medium": "Geotermisesti lämmitetty pohjavesiallas",
         "hard": "Nature"
       }
@@ -6931,7 +6931,7 @@
     {
       "word": "Vuorovesiallas",
       "clues": {
-        "easy": "Pienikokoinen vuorovesiympäristö, joka paljastuu laskuveden aikaan",
+        "easy": "Pienikokoinen meriympäristö, joka on paljastettu matalassa meressä",
         "medium": "Vuorovesien kivinen rannikkoallas",
         "hard": "Nature"
       }
@@ -7147,8 +7147,8 @@
     {
       "word": "Vesisuutin",
       "clues": {
-        "easy": "Tornadopyörre mullistaa veden pinnan vaahdoksi",
-        "medium": "Voimakas pylväsmainen valtameren vesipyörre",
+        "easy": "Tornadopyörre mullistaa meren pinnan vaahdoksi",
+        "medium": "Voimakas pylväsmainen valtameren nestepyörre",
         "hard": "Nature"
       }
     },
@@ -7203,8 +7203,8 @@
     {
       "word": "Vuorovesi poraus",
       "clues": {
-        "easy": "Todellinen hyökyaalto etenee sisämaahan kapenevaa suistoa kohti",
-        "medium": "Ylävirran vuorovesiaalto kapenevassa joessa",
+        "easy": "Todellinen valtameren aalto etenee sisämaahan kapenevaa suistoa kohti",
+        "medium": "Yläjuoksun aaltoseinä kapenevassa rannikkojoessa",
         "hard": "Nature"
       }
     },
@@ -7350,7 +7350,7 @@
       "word": "Fagotti",
       "clues": {
         "easy": "Syviä puisia sävyjä kaarevan bokaalin kautta",
-        "medium": "Kaksoiskiekkotaitettu tenori-bassopuupuhallin",
+        "medium": "Kaksikielinen taitettu matalarekisteripuupuhallin",
         "hard": "Music"
       }
     },
@@ -7366,7 +7366,7 @@
       "word": "käyrätorvi",
       "clues": {
         "easy": "Oikea käsi sijoitettu leveän messinkikellon sisään",
-        "medium": "Tiiviisti kierretty kiertoventtiilinen messinkitorvi",
+        "medium": "Tiukasti kierretty, pyörivä venttiilinen messinkipuhallinsoitin",
         "hard": "Music"
       }
     },
@@ -7437,7 +7437,7 @@
     {
       "word": "Bassokitara",
       "clues": {
-        "easy": "Paksujen bassokielien kyniminen sormilla",
+        "easy": "Paksujen raskaiden kielten kyniminen sormilla",
         "medium": "Matalataajuinen nelikielinen rytmipohja",
         "hard": "Music"
       }
@@ -7510,7 +7510,7 @@
       "word": "Kontrabasso",
       "clues": {
         "easy": "Korkein orkesterikieli seisoo lattianastan päällä",
-        "medium": "Alimmalla äänenvoimakkuudella jousitettu orkesterikontrabasso",
+        "medium": "Alimmalla äänenvoimakkuudella jousitettu orkesterisävellys",
         "hard": "Music"
       }
     },
@@ -7526,7 +7526,7 @@
       "word": "Virveli",
       "clues": {
         "easy": "Terävä marssirulla ja rimshot backbeat",
-        "medium": "Kiristetut metalliset ansat alarummun pään alla",
+        "medium": "Jännitetyt kierretyt johdot alemman taikinapään alla",
         "hard": "Music"
       }
     },
@@ -7558,7 +7558,7 @@
       "word": "Teräsrumpu",
       "clues": {
         "easy": "Vasarattu kovera metallipannu saariväreillä",
-        "medium": "Kovera-vasaroitu teräspannun lyömäsoittimet",
+        "medium": "Kovera-vasara metalliseos pannun lyömäsoittimet",
         "hard": "Music"
       }
     },
@@ -7621,8 +7621,8 @@
     {
       "word": "kuoro",
       "clues": {
-        "easy": "Sopraano, altto, tenori ja bassolaulukuoro",
-        "medium": "Polyfoninen kuorolauluyhtye",
+        "easy": "Sopraano, altto, tenori ja bassolaulusävellys",
+        "medium": "Polyfoninen sävellyslauluyhtye",
         "hard": "Music"
       }
     },
@@ -7654,7 +7654,7 @@
       "word": "Rock musiikki",
       "clues": {
         "easy": "Power-sointuja, rumpusetin takaiskua ja raakaa laulua",
-        "medium": "Kitaraohjattu vahvistettu populaarimusiikkityyli",
+        "medium": "Kitaraohjattu vahvistettu stadionsonic genre",
         "hard": "Music"
       }
     },
@@ -7678,7 +7678,7 @@
       "word": "Country musiikki",
       "clues": {
         "easy": "Tarinankerronta sanoituksia maaseutuelämästä ja sydänsuruista",
-        "medium": "Amerikkalaisen maaseudun juurimusiikkia akustisella sävelellä",
+        "medium": "Maaseudun amerikkalaisten juurien balladiperinne akustisella sävelellä",
         "hard": "Music"
       }
     },
@@ -7686,7 +7686,7 @@
       "word": "Klassista musiikkia",
       "clues": {
         "easy": "Sonaatit, sinfoniat ja konsertot menneiltä aikakausilta",
-        "medium": "Muodollinen eurooppalainen taidemusiikin perinne",
+        "medium": "Muodollinen eurooppalainen orkesteritaiteen perinne",
         "hard": "Music"
       }
     },
@@ -7702,7 +7702,7 @@
       "word": "Kansanmusiikki",
       "clues": {
         "easy": "Akustisia kitaroita, banjoja ja tarinaa kertovia balladeja",
-        "medium": "Perinteistä yhteisöllistä akustista musiikkia",
+        "medium": "Perinteinen yhteisöllinen akustinen perintö",
         "hard": "Music"
       }
     },
@@ -7718,7 +7718,7 @@
       "word": "Punk rock",
       "clues": {
         "easy": "Vääristyneitä kitaroita, energisiä huutoja ja vakiinnuttamista vastustavia sanoituksia",
-        "medium": "Nopeatempoinen riisuttu vääristynyt rock",
+        "medium": "Nopeatempoisia riisuttuja, vääristyneitä kapinan sointuja",
         "hard": "Music"
       }
     },
@@ -7742,7 +7742,7 @@
       "word": "Salsa musiikki",
       "clues": {
         "easy": "Pasuunan räjäytykset, kongat ja synkopaattinen clave-biitti",
-        "medium": "Nopeatempoista synkopoitua afro-karibialaista tanssimusiikkia",
+        "medium": "Nopeatempoinen synkopoitu afro-karibialainen tanssigroove",
         "hard": "Music"
       }
     },
@@ -7885,15 +7885,15 @@
     {
       "word": "Musiikkiteline",
       "clues": {
-        "easy": "Säädettävä jalusta, joka tukee soittajien musiikkimusiikkia",
-        "medium": "Säädettävä kolmijalkainen alusta tukee nuottikirjoitusta",
+        "easy": "Säädettävät kolmijalkaa tukevat laululevyt orkesterisoittimille",
+        "medium": "Säädettävä kolmijalkainen alusta tukee käsinkirjoitettuja henkilökunnan merkintöjä",
         "hard": "Music"
       }
     },
     {
       "word": "Nuotit",
       "clues": {
-        "easy": "Musiikin nuotit, nuotit ja taktit muusikoiden lukemina",
+        "easy": "Esiintyjien lukemat mustat sävellys, sävellys ja taktit",
         "medium": "Kaiverrettu painettu henkilöstömerkintä suorituskyvystä",
         "hard": "Music"
       }
@@ -8031,7 +8031,7 @@
     {
       "word": "Maalaus",
       "clues": {
-        "easy": "maalausteline, maalipaletti ja värilliset pigmentit",
+        "easy": "harrastusteline, puinen paletti ja värilliset pigmentit",
         "medium": "Pigmentti levitys venytetylle kankaalle",
         "hard": "Hobbies"
       }
@@ -8047,7 +8047,7 @@
     {
       "word": "Neulominen",
       "clues": {
-        "easy": "Ompeleiden luominen neulepuserojen neulomiseksi",
+        "easy": "Ompeleiden luominen villapaitojen tekemiseksi",
         "medium": "Lukittavat lankasilmukat kaksoisneulalla",
         "hard": "Hobbies"
       }
@@ -8064,7 +8064,7 @@
       "word": "Puutarhanhoito",
       "clues": {
         "easy": "Lasta, siemenet, kastelukannu ja multaa",
-        "medium": "Puutarhapenkkien puutarhaviljely",
+        "medium": "Takapihan maapeenkien puutarhaviljely",
         "hard": "Hobbies"
       }
     },
@@ -8159,7 +8159,7 @@
     {
       "word": "Puuntyöstö",
       "clues": {
-        "easy": "Taltat, sahat, puuliima ja hionta",
+        "easy": "Taltat, sahat, puusepänliima ja hionta",
         "medium": "Puusepän ja puuhuonekalujen kaiverrus",
         "hard": "Hobbies"
       }
@@ -8239,8 +8239,8 @@
     {
       "word": "Korttipelit",
       "clues": {
-        "easy": "Sekoitus, pukujen jakaminen ja korttitemppujen ottaminen",
-        "medium": "Panostettu tai satunnainen pelikorttipeli",
+        "easy": "Sekoitus, pukujen jakaminen ja voittotemppujen ottaminen",
+        "medium": "Panostettu tai satunnainen painettu pakkapeli",
         "hard": "Hobbies"
       }
     },
@@ -8319,7 +8319,7 @@
     {
       "word": "Pyöräily",
       "clues": {
-        "easy": "Polkimella varustettu pyörä suojakypärässä",
+        "easy": "Polkimella varustettu harrastus suojakypärässä",
         "medium": "Kahden pyörän polkimen käyttövoiman virkistys",
         "hard": "Hobbies"
       }
@@ -8327,7 +8327,7 @@
     {
       "word": "Uinti",
       "clues": {
-        "easy": "Suojalasit, uimalakki ja vesivedot",
+        "easy": "Suojalasit, kumikorkki ja vesivedot",
         "medium": "Aqua-allas syliin liikuntavedot",
         "hard": "Hobbies"
       }
@@ -8344,14 +8344,14 @@
       "word": "Rullalautailu",
       "clues": {
         "easy": "Harjoittelee olliesa ja kickflipsiä jalkakäytävällä",
-        "medium": "Nelipyöräinen rullalaudan ohjailu",
+        "medium": "Nelipyöräinen grip-teippidekin ohjailu",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Surffausta",
       "clues": {
-        "easy": "Melontaa merelle ja surffailla",
+        "easy": "Melontaa valtamerelle ja ratsastaa murtavilla aalloilla",
         "medium": "Ratsastus valtameren aallokko kelluvalla aluksella",
         "hard": "Hobbies"
       }
@@ -8367,8 +8367,8 @@
     {
       "word": "Lumilautailu",
       "clues": {
-        "easy": "Lumiset vuorikäännökset veistämällä saappaalla laudalla",
-        "medium": "Yhden lankun alppilumen kaiverrus",
+        "easy": "Jäähtyneiden vuoren käännösten leikkaaminen saappaavalla kannella",
+        "medium": "Yhden lankun alppijauheveisto",
         "hard": "Hobbies"
       }
     },
@@ -8392,7 +8392,7 @@
       "word": "Ratsastus",
       "clues": {
         "easy": "Istuu satulassa nahkaiset suitset käsissään",
-        "medium": "Ratsastussatulatasapaino ja -ratsastus",
+        "medium": "Hevosurheilun satulatasapaino ja maaseutupolut",
         "hard": "Hobbies"
       }
     },
@@ -8416,7 +8416,7 @@
       "word": "Painoharjoittelu",
       "clues": {
         "easy": "Lihassarjojen tekeminen, penkkipunnerrus ja kyykky",
-        "medium": "Progressiivinen ylikuormitusvastusharjoittelu",
+        "medium": "Progressiiviset ylikuormitustankovastussarjat",
         "hard": "Hobbies"
       }
     },
@@ -8447,7 +8447,7 @@
     {
       "word": "Salsaa tanssimassa",
       "clues": {
-        "easy": "Afro-kuubalaisen salsa-rytmeissä",
+        "easy": "Tsemppiä afrokuubalaisten rytmisten biittien pariin",
         "medium": "Nopeat synkopoidut latinalaisen kumppanin pyöräytykset",
         "hard": "Hobbies"
       }
@@ -8464,7 +8464,7 @@
       "word": "Kotitekoinen panimo",
       "clues": {
         "easy": "Kiehuva mallasohra, humala ja käymishiiva",
-        "medium": "Viljan panimo ja käyminen pienissä erässä",
+        "medium": "Pienen erän craft ale vierteen käyminen",
         "hard": "Hobbies"
       }
     },
@@ -8472,15 +8472,15 @@
       "word": "Viinin maistelua",
       "clues": {
         "easy": "Haistelee tuoksuja, siemailee ja huomioi makuja",
-        "medium": "Viininviljelyvuosien aistinvarainen arviointi",
+        "medium": "harrastusviljelyvuosien aistinvarainen arviointi",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Kahvin paahtaminen",
       "clues": {
-        "easy": "Paahtolämpötilan, halkeiluäänien ja aromin valvonta",
-        "medium": "Vihreiden kahvin siementen lämpöpyrolyysi",
+        "easy": "Valvoo rummun lämpöä, halkeilevia ääniä ja ruskistuvaa aromia",
+        "medium": "Raakojen javapapujen lämpöpyrolyysi",
         "hard": "Hobbies"
       }
     },
@@ -8512,7 +8512,7 @@
       "word": "Metallin havaitseminen",
       "clues": {
         "easy": "Kuuntelee piippauksia haudattujen kolikoiden kaivaa esiin",
-        "medium": "Sähkömagneettinen lian skannaus metallien varalta",
+        "medium": "Sähkömagneettinen maaperän skannaus haudattujen jäänteiden löytämiseksi",
         "hard": "Hobbies"
       }
     },
@@ -8527,7 +8527,7 @@
     {
       "word": "Leijan lentäminen",
       "clues": {
-        "easy": "Merenrantatuulen pyydystäminen leijan pitämiseksi ylhäällä",
+        "easy": "Pysyvä merenrantatuuli pitää nylontimantin ylhäällä",
         "medium": "Kiinnitetty tuulen aerodynaaminen lento",
         "hard": "Hobbies"
       }
@@ -8535,7 +8535,7 @@
     {
       "word": "Drone lentävät",
       "clues": {
-        "easy": "Dual-stick-ohjain, joka ohjaa ilmassa olevaa dronea",
+        "easy": "Dual-stick-ohjain, joka ohjaa ilmassa olevaa moniroottoria",
         "medium": "Radio-ohjattu kauko-ohjattu nelikopterilento",
         "hard": "Hobbies"
       }
@@ -8543,7 +8543,7 @@
     {
       "word": "Roolipelit",
       "clues": {
-        "easy": "Pelimestari, joka kuvaa fantasiatehtävää hahmosivuilla",
+        "easy": "Dungeon-tarinankertoja, joka kuvaa fantasiamatkaa hahmoarkeilla",
         "medium": "Yhteistyön noppavetoinen fantasiakertomus",
         "hard": "Hobbies"
       }
@@ -8552,7 +8552,7 @@
       "word": "Pakohuoneet",
       "clues": {
         "easy": "Salaa piilotetut arvoitukset oven lukituksen avaamiseksi",
-        "medium": "Teemallinen osuuskuntahuone palapeli",
+        "medium": "Teemallinen osuuskunnan sinetöity kammiopalapeli",
         "hard": "Hobbies"
       }
     },
@@ -8575,7 +8575,7 @@
     {
       "word": "Elokuvan tekeminen",
       "clues": {
-        "easy": "Käsikirjoitus, kamerakuvien kehystys ja elokuvan editointi",
+        "easy": "Käsikirjoitus, kamerakuvien rajaus ja liikerullien leikkaaminen",
         "medium": "Elokuvien tuotantotekniikka",
         "hard": "Hobbies"
       }
@@ -8608,7 +8608,7 @@
       "word": "Kinkkuradio",
       "clues": {
         "easy": "Kutsumerkkien lähettäminen suurtaajuisella lähetin-vastaanottimella",
-        "medium": "Amatööriradiotaajuuslähetys",
+        "medium": "Amatööri langaton taajuussiirto",
         "hard": "Hobbies"
       }
     },
@@ -8639,8 +8639,8 @@
     {
       "word": "Koiran koulutus",
       "clues": {
-        "easy": "Napsautusharjoituksia, herkkuja ja talutushihnan kantakomentoja",
-        "medium": "Koiran operantti ehdollistaminen ja tottelevaisuus",
+        "easy": "Napsautusvalmennus, herkut ja kantapääkäskyt",
+        "medium": "harrastus operantti ehdollistaminen ja tottelevaisuus",
         "hard": "Hobbies"
       }
     },
@@ -8671,7 +8671,7 @@
     {
       "word": "Tikkaus",
       "clues": {
-        "easy": "Patchwork täkkitoppi, vanu ja kuvioompeleita",
+        "easy": "Patchworkkuvioinen toppi, vanu ja koristeompeleita",
         "medium": "Monikerroksinen tilkkutukkainen tekstiiliompelu",
         "hard": "Hobbies"
       }
@@ -8711,8 +8711,8 @@
     {
       "word": "Kukka-asetelma",
       "clues": {
-        "easy": "Kukkien varsien leikkaaminen ja kukkavärien tasapainottaminen",
-        "medium": "Kukkakaupan suunnittelu ja kukkavarren tasapaino",
+        "easy": "Leikkaa harrastuskimppuvarsia ja tasapainottaa eloisia kukinnan värejä",
+        "medium": "harrastuskaupan suunnittelu ja harrastusvarren tasapaino",
         "hard": "Hobbies"
       }
     },
@@ -8728,14 +8728,14 @@
       "word": "Kielten oppiminen",
       "clues": {
         "easy": "Flashcards, ääntämisen ääni ja kieliopin harjoittelu",
-        "medium": "Toisen kielen leksikaalinen hankinta",
+        "medium": "Vieraan puheen sanaston ja kieliopin hankkiminen",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Vinyylien kerääminen",
       "clues": {
-        "easy": "Häkkiä kaivavat 12 tuuman vinyylialbumit hihoissa",
+        "easy": "Häkkiä kaivavat 12 tuuman uraalbumit pahvihihoissa",
         "medium": "Analoginen fonografilevyjen arkistointi",
         "hard": "Hobbies"
       }
@@ -8775,24 +8775,24 @@
     {
       "word": "Korujen valmistus",
       "clues": {
-        "easy": "Korupihdit, lankaleikkurit, helmet ja hakaset",
-        "medium": "Käsintehty puettavan koristeen valmistus",
+        "easy": "Askartelupihdit, lankaleikkurit, helmet ja hakaset",
+        "medium": "Käsintehty puettavan koristeen harrastus",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Lasinpuhallus",
       "clues": {
-        "easy": "Hehkuvan sulan lasin kerääminen kuumasta uunista",
-        "medium": "Sulan lasikuplan lämpökäsittely",
+        "easy": "Hehkuvan sulan piidioksidin kerääminen kuumasta uunista",
+        "medium": "Sulan hehkuvan piidioksidikuplan lämpökäsittely",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Lasimaalaus",
       "clues": {
-        "easy": "Värillisten lasipalojen leikkaaminen ja juotosliitokset",
-        "medium": "Lyijyllä juotettu värillinen taidelasikokoonpano",
+        "easy": "Värillisten koristelasien ja juotosliitosten leikkaaminen",
+        "medium": "Lyijyjuotettu värillinen koristepaneelikokoonpano",
         "hard": "Hobbies"
       }
     },
@@ -8807,16 +8807,16 @@
     {
       "word": "Kirjeen kirjoittaminen",
       "clues": {
-        "easy": "Paperipaperi, mustekynä ja vahasinetti",
-        "medium": "Epistolary postin kirjeen kokoonpano",
+        "easy": "Paperipergamentti, mustekynä ja vahasinetti",
+        "medium": "Epistolary postipergamenttikoostumus",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Kaupunkipiirrokset",
       "clues": {
-        "easy": "Vesivärit ja mustekynä kannettavassa luonnosvihkossa",
-        "medium": "Plein-air havainnollinen arkkitehtoninen luonnostelu",
+        "easy": "Akvarelleja ja mustekynää kannettavassa piirustusalustassa",
+        "medium": "Plein-air-havainnointiarkkitehtoninen piirustus",
         "hard": "Hobbies"
       }
     }

@@ -67,7 +67,7 @@
     {
       "word": "Koelkast",
       "clues": {
-        "easy": "Gekoelde keukenkoelkast",
+        "easy": "Gekoelde keukenartikel",
         "medium": "Continu zoemende keukendoos",
         "hard": "Everyday Objects"
       }
@@ -84,7 +84,7 @@
       "word": "Kussen",
       "clues": {
         "easy": "Zacht gevuld slaapmatje",
-        "medium": "Gevederd hoofdkussen",
+        "medium": "Gevederd hoofdartikel",
         "hard": "Everyday Objects"
       }
     },
@@ -163,7 +163,7 @@
     {
       "word": "Zaklamp",
       "clues": {
-        "easy": "Draagbare zaklamp op batterijen",
+        "easy": "Draagbare artikel op batterijen",
         "medium": "Handheld donkere straal",
         "hard": "Everyday Objects"
       }
@@ -228,7 +228,7 @@
       "word": "Koffer",
       "clues": {
         "easy": "Rollende reisbagage op wielen",
-        "medium": "Bagagekoffer op wielen",
+        "medium": "Bagageartikel op wielen",
         "hard": "Everyday Objects"
       }
     },
@@ -259,7 +259,7 @@
     {
       "word": "Bank",
       "clues": {
-        "easy": "Gestoffeerde zitbank in de woonkamer",
+        "easy": "Gestoffeerde zitartikel in de woonkamer",
         "medium": "Gewatteerd meubel met meerdere zitplaatsen",
         "hard": "Everyday Objects"
       }
@@ -340,14 +340,14 @@
       "word": "Lijmstift",
       "clues": {
         "easy": "Stevige lijmcilinder voor papier",
-        "medium": "Kleefpapier zelfklevende cilinder",
+        "medium": "Opdraaibare papieren lijmcilinder",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Plakband",
       "clues": {
-        "easy": "Rol doorzichtig plakband",
+        "easy": "Rol doorzichtig artikel",
         "medium": "Door de dispenser gesneden kleverige spoel",
         "hard": "Everyday Objects"
       }
@@ -427,8 +427,8 @@
     {
       "word": "Emmer",
       "clues": {
-        "easy": "Open emmer met draadhandvat",
-        "medium": "Ronde emmer voor het vervoeren van water",
+        "easy": "Open artikel met draadhandvat",
+        "medium": "Ronde artikel voor het vervoeren van water",
         "hard": "Everyday Objects"
       }
     },
@@ -444,14 +444,14 @@
       "word": "Stuk zeep",
       "clues": {
         "easy": "Glad blok dat schuim produceert",
-        "medium": "Geparfumeerde schuimstaaf",
+        "medium": "Geurend schuimend badkamerblok",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Badhanddoek",
       "clues": {
-        "easy": "Grote absorberende badstof",
+        "easy": "Grote absorberende douchebadstof",
         "medium": "Katoenen vochtwikkel met lus",
         "hard": "Everyday Objects"
       }
@@ -732,7 +732,7 @@
       "word": "Deegroller",
       "clues": {
         "easy": "Zwaar cilindergladdeeg",
-        "medium": "Bediende deegroller",
+        "medium": "Bediende artikel",
         "hard": "Everyday Objects"
       }
     },
@@ -747,7 +747,7 @@
     {
       "word": "Ijsblokjesbakje",
       "clues": {
-        "easy": "Vriesvorm voor blokjes",
+        "easy": "Vriesvorm voor koelblokken",
         "medium": "Gepartitioneerde schimmel onder nul",
         "hard": "Everyday Objects"
       }
@@ -755,7 +755,7 @@
     {
       "word": "Kapstokhaak",
       "clues": {
-        "easy": "Wandhanger voor jassen",
+        "easy": "Wandhanger voor bovenkleding",
         "medium": "Gebogen muurbeugel voor jassen",
         "hard": "Everyday Objects"
       }
@@ -771,7 +771,7 @@
     {
       "word": "Onderzetter",
       "clues": {
-        "easy": "Klein kussentje onder drankjes geplaatst",
+        "easy": "Klein kussentje artikel drankjes geplaatst",
         "medium": "Oppervlakteringbarrière",
         "hard": "Everyday Objects"
       }
@@ -878,7 +878,7 @@
       "word": "IJs",
       "clues": {
         "easy": "Gekarnde, gekoelde zuiveltraktatie",
-        "medium": "Smeltende zoete zuivelroom",
+        "medium": "Smeltende zoete bevroren zuivelschep",
         "hard": "Food"
       }
     },
@@ -1005,8 +1005,8 @@
     {
       "word": "Loempia",
       "clues": {
-        "easy": "Dun wikkeltje gerold om vullingen",
-        "medium": "Doorschijnend gebakken deegrol",
+        "easy": "Dun wikkeltje om knapperige vullingen gewikkeld",
+        "medium": "Doorschijnende gebakken deegcilinder",
         "hard": "Food"
       }
     },
@@ -1053,7 +1053,7 @@
     {
       "word": "Miso-soep",
       "clues": {
-        "easy": "Gefermenteerde sojapastasoep met dashi",
+        "easy": "Gefermenteerde sojapastabouillon met dashi",
         "medium": "Troebele ontbijtbouillon met bosuitjes",
         "hard": "Food"
       }
@@ -1086,7 +1086,7 @@
       "word": "Ahornsiroop",
       "clues": {
         "easy": "Gekookt boomsap voor ontbijt",
-        "medium": "Ambergekookte bladverliezende boomsiroop",
+        "medium": "Ambergekookte bladverliezende boomreductie",
         "hard": "Food"
       }
     },
@@ -1165,7 +1165,7 @@
     {
       "word": "Aardappelpuree",
       "clues": {
-        "easy": "Bijgerecht van opgeklopte gekruide aardappelen",
+        "easy": "Opgeklopt bijgerecht met gekruide spud",
         "medium": "Bonsde spuds met gesmolten room",
         "hard": "Food"
       }
@@ -1173,8 +1173,8 @@
     {
       "word": "Gebakken aardappel",
       "clues": {
-        "easy": "In folie verpakte aardappel met zure room",
-        "medium": "Gesplitste stomende aardappelschil",
+        "easy": "In folie verpakte hele pudding met zure room",
+        "medium": "Gesplitste stomende schoffelhuid",
         "hard": "Food"
       }
     },
@@ -1197,7 +1197,7 @@
     {
       "word": "Tomatensoep",
       "clues": {
-        "easy": "Romige rode soep gecombineerd met toast",
+        "easy": "Romige rode gepureerde bouillon gecombineerd met toast",
         "medium": "Warm gepureerde rode wijnstokfruitschaal",
         "hard": "Food"
       }
@@ -1221,7 +1221,7 @@
     {
       "word": "Roerei",
       "clues": {
-        "easy": "Geroerde ontbijtkoekeieren",
+        "easy": "Geroerde ontbijtkoekepan dooierwrongel",
         "medium": "Pluizige koekenpanwrongel op toast",
         "hard": "Food"
       }
@@ -1229,7 +1229,7 @@
     {
       "word": "Spek",
       "clues": {
-        "easy": "Sissende ontbijtspekreepjes",
+        "easy": "Sissende ontbijtbereidingreepjes",
         "medium": "Gestreepte gerookte ontbijtrookstrips",
         "hard": "Food"
       }
@@ -1245,7 +1245,7 @@
     {
       "word": "Gehaktbal",
       "clues": {
-        "easy": "Gekruide vleesbol gestoofd in saus",
+        "easy": "Gekruide hartige bol gestoofd in saus",
         "medium": "Gestoofde rundvleesbol in Marinara",
         "hard": "Food"
       }
@@ -1278,7 +1278,7 @@
       "word": "Gegrilde kaas",
       "clues": {
         "easy": "Gebakken brood met kleverig zuivelcentrum",
-        "medium": "In boter gegrilde sandwich met kaaspuree",
+        "medium": "In boter bereiding sandwich met gesmolten zuivelstretch",
         "hard": "Food"
       }
     },
@@ -1349,7 +1349,7 @@
     {
       "word": "Kaastaart",
       "clues": {
-        "easy": "Gebakken zoete roomkaas op kruimelbasis",
+        "easy": "Gebakken zoete zuivelvla op kruimelbasis",
         "medium": "Dichte gekoelde zuivelcakeplak",
         "hard": "Food"
       }
@@ -1373,7 +1373,7 @@
     {
       "word": "Kaneel rolletje",
       "clues": {
-        "easy": "Gebakken opgerolde deegwerveling met zoet glazuur",
+        "easy": "Gebakken spiraalvormige deegwerveling met zoet glazuur",
         "medium": "Spiraalvormig zoet deeg met crèmeglazuur",
         "hard": "Food"
       }
@@ -1381,7 +1381,7 @@
     {
       "word": "Knoflook brood",
       "clues": {
-        "easy": "Krokant brood gebakken met kruidenboter",
+        "easy": "Krokant gesneden bereiding gebakken met kruidenboter",
         "medium": "Ovengebruind boterachtig kruidenbrood",
         "hard": "Food"
       }
@@ -1430,7 +1430,7 @@
       "word": "Olijfolie",
       "clues": {
         "easy": "Gouden saladedressing en kookvloeistof",
-        "medium": "Mediterrane koudgeperste groene olie",
+        "medium": "Mediterraan koudgeperst fruitig vet",
         "hard": "Food"
       }
     },
@@ -1438,7 +1438,7 @@
       "word": "Azijn",
       "clues": {
         "easy": "Gefermenteerde vloeistof voor augurken en dressings",
-        "medium": "Scherpe gefermenteerde azijnvloeistof",
+        "medium": "Scherpe gefermenteerde bereidingvloeistof",
         "hard": "Food"
       }
     },
@@ -1608,7 +1608,7 @@
       "word": "Hond",
       "clues": {
         "easy": "Kwispelt met de staart en haalt ballen op",
-        "medium": "Hondenhuisgenoot",
+        "medium": "wezenenhuisgenoot",
         "hard": "Animals"
       }
     },
@@ -1623,8 +1623,8 @@
     {
       "word": "Paard",
       "clues": {
-        "easy": "Paardenwezen met golvende manen",
-        "medium": "Paardengalloper in paddock",
+        "easy": "wezenenwezen met golvende manen",
+        "medium": "wezenengalloper in paddock",
         "hard": "Animals"
       }
     },
@@ -1640,7 +1640,7 @@
       "word": "Varken",
       "clues": {
         "easy": "Intelligent vee met gekrulde staart",
-        "medium": "Modder-wentelende boerderijvarkens",
+        "medium": "Modder-wentelende boerderijwezens",
         "hard": "Animals"
       }
     },
@@ -1672,7 +1672,7 @@
       "word": "Haan",
       "clues": {
         "easy": "Kuifmannelijke vogel met heldere kam",
-        "medium": "Dageraadroepende boerenerfhaan",
+        "medium": "Dageraadroepende boerenerfwezen",
         "hard": "Animals"
       }
     },
@@ -1703,7 +1703,7 @@
     {
       "word": "Konijn",
       "clues": {
-        "easy": "Trillende neus en pluizig katoenstaartkonijn",
+        "easy": "Trillende neus en pluizig katoenstaartwezen",
         "medium": "Gravende herbivoor met achterhop",
         "hard": "Animals"
       }
@@ -1912,7 +1912,7 @@
       "word": "Slang",
       "clues": {
         "easy": "Flicking tong en schilferige afschilferende huid",
-        "medium": "Giftige of samentrekkende slang",
+        "medium": "Giftige of samentrekkende wezen",
         "hard": "Animals"
       }
     },
@@ -1935,7 +1935,7 @@
     {
       "word": "Schildpad",
       "clues": {
-        "easy": "Langzaam gepantserd reptiel verstopt in schild",
+        "easy": "Langzaam gepantserd reptiel verstopt in wezen",
         "medium": "Kruipend reptiel met harde schaal",
         "hard": "Animals"
       }
@@ -1943,7 +1943,7 @@
     {
       "word": "Kikker",
       "clues": {
-        "easy": "Zwemmer met zwemvliezen, beginnend als kikkervisje",
+        "easy": "Zwemmer met zwemvliezen, beginnend als wezenvisje",
         "medium": "Insectenbrekende trui aan de vijverkant",
         "hard": "Animals"
       }
@@ -2015,7 +2015,7 @@
     {
       "word": "Grizzlybeer",
       "clues": {
-        "easy": "Schouderbultbeer die rivierzalm vangt",
+        "easy": "Schouderbulttopbeest dat rivierzalm vangt",
         "medium": "Krachtige overwinterende alleseter in het binnenland",
         "hard": "Animals"
       }
@@ -2151,7 +2151,7 @@
     {
       "word": "Duif",
       "clues": {
-        "easy": "Dobberende stadsduif die broodkruimels eet",
+        "easy": "Dobberende stadswezen die broodkruimels eet",
         "medium": "Stedelijke kuddevogel met huiszoekingsinstinct",
         "hard": "Animals"
       }
@@ -2160,7 +2160,7 @@
       "word": "Kraai",
       "clues": {
         "easy": "Donkergevederde aaseter die puzzels oplost",
-        "medium": "Intelligente zwarte kraaiachtige aaseter",
+        "medium": "Intelligente zwarte wezenachtige aaseter",
         "hard": "Animals"
       }
     },
@@ -2255,7 +2255,7 @@
     {
       "word": "Zeester",
       "clues": {
-        "easy": "Regenererende mariene ster op koraal",
+        "easy": "Regenererend vijfarmig zeedier op koraal",
         "medium": "Radiale benthische crawler",
         "hard": "Animals"
       }
@@ -2336,7 +2336,7 @@
       "word": "Spin",
       "clues": {
         "easy": "Giftige zijdewever die op een prooi wacht",
-        "medium": "Zijde-spinnend achtpotig roofdier",
+        "medium": "Zijde-wezennend achtpotig roofdier",
         "hard": "Animals"
       }
     },
@@ -2673,7 +2673,7 @@
     {
       "word": "Zuid-Afrika",
       "clues": {
-        "easy": "Regenboognatie op het zuidelijkste puntje van het continent",
+        "easy": "Regenboognatie bij Kaap de Goede Hoop",
         "medium": "Twee-oceaan-Kaapnatie met goud en diamanten",
         "hard": "Countries"
       }
@@ -2745,8 +2745,8 @@
     {
       "word": "Saoedi-Arabië",
       "clues": {
-        "easy": "Hart van het Arabisch Schiereiland met historische bedevaart",
-        "medium": "Koninkrijk dat het grootste deel van het Arabische schiereiland beslaat",
+        "easy": "Hart van een uitgestrekt woestijnschiereiland met een historische pelgrimstocht naar Mekka",
+        "medium": "Koninkrijk dat het grootste deel van het uitgestrekte schiereiland in de woestijngolf beslaat",
         "hard": "Countries"
       }
     },
@@ -2866,7 +2866,7 @@
       "word": "Filippijnen",
       "clues": {
         "easy": "Pacifische archipelnatie van zevenduizend eilanden",
-        "medium": "Eilandenketen tussen de Zuid-Chinese Zee en de Filippijnse Zee",
+        "medium": "Tropische archipel tussen de Straat van Luzon en de Celebeszee",
         "hard": "Countries"
       }
     },
@@ -2874,7 +2874,7 @@
       "word": "Zuid-Korea",
       "clues": {
         "easy": "Hightech schiereilandland met levendige cultuur",
-        "medium": "Oost-Aziatische republiek ten zuiden van de 38e breedtegraad",
+        "medium": "Oost-Aziatische republiek onder de 38e breedtegraad",
         "hard": "Countries"
       }
     },
@@ -3227,7 +3227,7 @@
     {
       "word": "Tandarts",
       "clues": {
-        "easy": "Mondspiegel, sonde en tandartsboor",
+        "easy": "Mondspiegel, sonde en specialistboor",
         "medium": "Mondzorgspecialist",
         "hard": "Professions"
       }
@@ -3244,7 +3244,7 @@
       "word": "Dierenarts",
       "clues": {
         "easy": "Onderzoekt huisdieren en vee in de kliniek",
-        "medium": "Dierenarts",
+        "medium": "specialist",
         "hard": "Professions"
       }
     },
@@ -3396,7 +3396,7 @@
       "word": "Stewardess",
       "clues": {
         "easy": "Demonstreert nooduitgangen en cabineveiligheid",
-        "medium": "Cabinesteward voor passagiers tijdens de vlucht",
+        "medium": "Cabinesteward voor passagiers in de lucht",
         "hard": "Professions"
       }
     },
@@ -3420,7 +3420,7 @@
       "word": "Brandweerman",
       "clues": {
         "easy": "Helm, zware slang en ladderwagen",
-        "medium": "Specialist op het gebied van brandbestrijding",
+        "medium": "Specialist in noodbrandbestrijding",
         "hard": "Professions"
       }
     },
@@ -3428,7 +3428,7 @@
       "word": "Politieagent",
       "clues": {
         "easy": "Badge, uniform en gemeenschapsnoodpatrouille",
-        "medium": "Patrouilleofficier van de wetshandhaving",
+        "medium": "Wetshandhavingsagent in uniform",
         "hard": "Professions"
       }
     },
@@ -3436,7 +3436,7 @@
       "word": "Rechercheur",
       "clues": {
         "easy": "Onderzoekt plaatsen delict en ondervraagt verdachten",
-        "medium": "Forensisch rechercheur",
+        "medium": "Forensisch specialist",
         "hard": "Professions"
       }
     },
@@ -3452,7 +3452,7 @@
       "word": "Advocaat",
       "clues": {
         "easy": "Het indienen van verzoeken bij de rechtbank en het interpreteren van de wet",
-        "medium": "Erkend juridisch advocaat",
+        "medium": "Erkend juridisch specialist",
         "hard": "Professions"
       }
     },
@@ -3468,7 +3468,7 @@
       "word": "Bakker",
       "clues": {
         "easy": "Meel, gistdeeg en ochtendovens",
-        "medium": "Ambachtelijke deeg- en banketbakker",
+        "medium": "Ambachtelijke deeg- en banketspecialist",
         "hard": "Professions"
       }
     },
@@ -3539,7 +3539,7 @@
     {
       "word": "Schilder",
       "clues": {
-        "easy": "Rollers, verfbakjes en hangdoeken",
+        "easy": "Rollers, pigmentbakjes en dropdoeken",
         "medium": "Vakman in oppervlaktecoating en afwerking",
         "hard": "Professions"
       }
@@ -3619,7 +3619,7 @@
     {
       "word": "Muzikant",
       "clues": {
-        "easy": "Bladmuziek, ritme en akoestisch instrument",
+        "easy": "Partituurbladen, ritme en akoestisch instrument",
         "medium": "Instrumentaal performancekunstenaar",
         "hard": "Professions"
       }
@@ -3667,15 +3667,15 @@
     {
       "word": "Bankier",
       "clues": {
-        "easy": "Houdt toezicht op financieel kapitaal en bankkredieten",
-        "medium": "Commercieel bank- en kredietfunctionaris",
+        "easy": "Houdt toezicht op financieel kapitaal en commercieel krediet",
+        "medium": "Commerciële financiering en kredietfunctionaris",
         "hard": "Professions"
       }
     },
     {
       "word": "Kassier",
       "clues": {
-        "easy": "Barcodescanner, kassa en bonnenprinter",
+        "easy": "Barcodescanner, kassalade en bonnenprinter",
         "medium": "Kassa-exploitant voor detailhandel",
         "hard": "Professions"
       }
@@ -3699,7 +3699,7 @@
     {
       "word": "Gids",
       "clues": {
-        "easy": "Geeft commentaar en begeleidt wandeltochten",
+        "easy": "Biedt historisch commentaar voor bezoekende toeristen",
         "medium": "Leider van een culturele sightseeing-expeditie",
         "hard": "Professions"
       }
@@ -3707,8 +3707,8 @@
     {
       "word": "Taxichauffeur",
       "clues": {
-        "easy": "Navigeer door het straatverkeer met een dashboardtaximeter",
-        "medium": "Cabinechauffeur voor stadsverkeer",
+        "easy": "Navigeer door het straatverkeer met de tariefmeter op het dashboard",
+        "medium": "Gele specialist voor stedelijke straatpassagiers",
         "hard": "Professions"
       }
     },
@@ -3724,15 +3724,15 @@
       "word": "Postbezorger",
       "clues": {
         "easy": "Draagt een schooltas met brieven langs de straatroute",
-        "medium": "Postbrief en pakketbezorger",
+        "medium": "Koerier voor postbrieven en pakketbezorging",
         "hard": "Professions"
       }
     },
     {
       "word": "Bezorgkoerier",
       "clues": {
-        "easy": "Bestuurt bestelwagen en scant barcodes van pakketten",
-        "medium": "Last mile pakketkoerier aan de deur",
+        "easy": "Bestuurt een bestelwagen en scant de barcodes van pakketten",
+        "medium": "Last mile pakketloper aan de deur",
         "hard": "Professions"
       }
     },
@@ -3748,7 +3748,7 @@
       "word": "Grafisch ontwerper",
       "clues": {
         "easy": "Digitale illustratiesoftware en typografie",
-        "medium": "Commerciële visuele branding ontwerper",
+        "medium": "Commerciële visuele branding kunstenaar",
         "hard": "Professions"
       }
     },
@@ -3756,7 +3756,7 @@
       "word": "Filmregisseur",
       "clues": {
         "easy": "Roept op tot actie, begeleidt de cinematografie en geeft recensies",
-        "medium": "Regisseur van filmische films",
+        "medium": "Filmische filmauteur",
         "hard": "Professions"
       }
     },
@@ -3795,8 +3795,8 @@
     {
       "word": "Dierenverzorger",
       "clues": {
-        "easy": "Maakt de verblijven schoon en beheert de diëten van de dieren",
-        "medium": "Specialist in de verzorging van wilde dieren in gevangenschap",
+        "easy": "Maakt de verblijven schoon en beheert de diëten van de specialist",
+        "medium": "Specialist in de verzorging van wilde specialist in gevangenschap",
         "hard": "Professions"
       }
     },
@@ -3828,7 +3828,7 @@
       "word": "Slotenmaker",
       "clues": {
         "easy": "Kiest bekers, blanco sleutels en installeert nachtschoten",
-        "medium": "Specialist op het gebied van sleutelsnijden en cilindersloten",
+        "medium": "Specialist in sleutelsnijden en cilindertrommels",
         "hard": "Professions"
       }
     },
@@ -3843,7 +3843,7 @@
     {
       "word": "Vrachtwagenchauffeur",
       "clues": {
-        "easy": "Rijdt een semi-vrachtwagen met achttien wielen over de snelweg",
+        "easy": "Rijdt een semi met achttien wielen over de snelweg",
         "medium": "Exploitant van langeafstandsvervoer tussen staten",
         "hard": "Professions"
       }
@@ -3883,7 +3883,7 @@
     {
       "word": "Tovenaar",
       "clues": {
-        "easy": "Speelkaarten, toverstaf en misleidende trucs",
+        "easy": "Speelkaarten, gepolijste toverstaf en bedrieglijke goochelarij",
         "medium": "Toneelillusionist en goochelaar",
         "hard": "Professions"
       }
@@ -3907,7 +3907,7 @@
     {
       "word": "Winkelier",
       "clues": {
-        "easy": "Bevoorraadt de schappen, assisteert het winkelend publiek en beheert de winkel",
+        "easy": "Bevoorraadt de schappen, assisteert klanten en beheert de winkelpui",
         "medium": "Onafhankelijke winkeleigenaar",
         "hard": "Professions"
       }
@@ -3931,8 +3931,8 @@
     {
       "word": "Voedingsdeskundige",
       "clues": {
-        "easy": "Berekent de calorie-inname en uitgebalanceerde voeding",
-        "medium": "Dieetwelzijns- en voedingsadviseur",
+        "easy": "Berekent de calorie-inname en uitgebalanceerde maaltijdplannen",
+        "medium": "Dieetwelzijns- en voedselgezondheidsadviseur",
         "hard": "Professions"
       }
     },
@@ -3972,7 +3972,7 @@
       "word": "Luchtverkeersleider",
       "clues": {
         "easy": "Radarscherm, headset en landingsbaanvrijgave van de luchthaven",
-        "medium": "Luchtruimradarcontroller van de luchthaventoren",
+        "medium": "Luchtruimradarmonitor van de luchthaventoren",
         "hard": "Professions"
       }
     },
@@ -3980,7 +3980,7 @@
       "word": "Kraanmachinist",
       "clues": {
         "easy": "Hoge cabinehendels, hijskabels en contragewichten",
-        "medium": "Cabine-operator voor zware hijsconstructies",
+        "medium": "Cabinespecialist voor zware hijsconstructies",
         "hard": "Professions"
       }
     },
@@ -4101,8 +4101,8 @@
     {
       "word": "Tafeltennis",
       "clues": {
-        "easy": "Miniatuurpeddels die zich over het tafelnet verzamelen",
-        "medium": "Pingpongtafel, rubberen paddle-wedstrijd",
+        "easy": "Miniatuurpeddels die zich over het groene net verzamelen",
+        "medium": "Pingpong indoor rubberen paddle-wedstrijd",
         "hard": "Sports"
       }
     },
@@ -4141,8 +4141,8 @@
     {
       "word": "Snowboarden",
       "clues": {
-        "easy": "Beide laarzen vastgebonden aan een enkel sneeuwdek",
-        "medium": "Enkelvoudig alpine dek met poedersneeuw",
+        "easy": "Beide laarzen vastgebonden aan een enkel winterdek",
+        "medium": "Enkel alpine dek met poederachtige vorst",
         "hard": "Sports"
       }
     },
@@ -4357,8 +4357,8 @@
     {
       "word": "Polsstokspringen",
       "clues": {
-        "easy": "Flexibele glasvezelpaal planten om de balk vrij te maken",
-        "medium": "Verticale sprong geholpen door een buigzame glasvezelpaal",
+        "easy": "Flexibele glasvezelligger planten tot duidelijke balk",
+        "medium": "Verticale sprong geholpen door een buigzame glasvezelstaaf",
         "hard": "Sports"
       }
     },
@@ -4381,8 +4381,8 @@
     {
       "word": "Speer",
       "clues": {
-        "easy": "Overheadbaanworp van een slanke puntige speer",
-        "medium": "Aerodynamische spitse speerbaanworp",
+        "easy": "Overheadbaanworp van een slanke puntige discipline",
+        "medium": "Aerodynamische spitse disciplinebaanworp",
         "hard": "Sports"
       }
     },
@@ -4446,7 +4446,7 @@
       "word": "Waterpolo",
       "clues": {
         "easy": "Badmutsen met oorbeschermers en drijvende doelen",
-        "medium": "Diepwater aquatische balscrimmage",
+        "medium": "Diep in het discipline gechloreerde balscrimmage",
         "hard": "Sports"
       }
     },
@@ -4509,7 +4509,7 @@
     {
       "word": "Artistiek zwemmen",
       "clues": {
-        "easy": "Neusklemroutines ondersteboven in het zwembad",
+        "easy": "Neusklemroutines ondersteboven in een gechloreerd zwembad",
         "medium": "Aquatische gesynchroniseerde choreografie op muziek",
         "hard": "Sports"
       }
@@ -4518,7 +4518,7 @@
       "word": "Waterskiën",
       "clues": {
         "easy": "Het vasthouden van een sleepkabel die over het kielzog van de boot glijdt",
-        "medium": "Door een boot gesleept planerend over open water",
+        "medium": "Door een boot gesleept kielzog afromen op dubbele lopers",
         "hard": "Sports"
       }
     },
@@ -4582,7 +4582,7 @@
       "word": "Discgolf",
       "clues": {
         "easy": "Verloop van manddoelen met kettingschakels door het park",
-        "medium": "Nauwkeurigheidscursus van tee tot mand met vliegende schijven",
+        "medium": "Nauwkeurigheidscursus voor vliegende schotels van tee tot mand",
         "hard": "Sports"
       }
     },
@@ -4614,7 +4614,7 @@
       "word": "Moderne vijfkamp",
       "clues": {
         "easy": "Schermen, zwemmen, paardrijden, laserpistool en hardlopen",
-        "medium": "Atletiekwedstrijd met meerdere evenementen in vijf disciplines",
+        "medium": "Atletiekwedstrijd met meerdere evenementen in discipline disciplines",
         "hard": "Sports"
       }
     },
@@ -4645,8 +4645,8 @@
     {
       "word": "IJsdansen",
       "clues": {
-        "easy": "Ingewikkeld gesynchroniseerd voetenwerk en twizzles op ijs",
-        "medium": "Theatrale ballroompartnerchoreografie op ijs",
+        "easy": "Ingewikkeld gesynchroniseerd voetenwerk en twizzles op een bevroren ijsbaan",
+        "medium": "Theatrale ballroompartnerchoreografie op bevroren ijsbaan",
         "hard": "Sports"
       }
     },
@@ -4678,14 +4678,14 @@
       "word": "Racketbal",
       "clues": {
         "easy": "Korte rackets die levendig spelen, stuiteren tegen alle speelmuren",
-        "medium": "Korte-racket rebounds binnen een ommuurde binnenbaan",
+        "medium": "Korte-discipline rebounds binnen een ommuurde binnenbaan",
         "hard": "Sports"
       }
     },
     {
       "word": "Biljart",
       "clues": {
-        "easy": "Caramboleschoten waarbij biljartballen worden gestoten zonder pocket",
+        "easy": "Caramboleschoten botsen tegen gekleurde bollen zonder zakken",
         "medium": "Baize table cue shots met behulp van railkussens",
         "hard": "Sports"
       }
@@ -4717,7 +4717,7 @@
     {
       "word": "Springen",
       "clues": {
-        "easy": "Binnen de tijdslimiet door stadionspronghekken navigeren",
+        "easy": "Binnen de tijdslimiet door de hindernishekken van het stadion navigeren",
         "medium": "Paardenparcours met kleurrijke stadionrails",
         "hard": "Sports"
       }
@@ -4725,16 +4725,16 @@
     {
       "word": "Drakenboot",
       "clues": {
-        "easy": "Paddlers synchroon met drumbeat en sierlijke drakenboog",
-        "medium": "Gesynchroniseerd groepspeddelen met drakenboeg",
+        "easy": "Paddlers synchroon met drumbeat en mythische slangenboog",
+        "medium": "Gesynchroniseerde groep die peddelt met de boeg van een mythisch beest",
         "hard": "Sports"
       }
     },
     {
       "word": "Sportklimmen",
       "clues": {
-        "easy": "Snelle trekkingen knippen tijdens het schalen van de klimroute in de sportschool",
-        "medium": "Gymnasiummuurklimmen vastgeklikt aan ankers",
+        "easy": "Sneltrekkingen knippen tijdens het schalen van de kunstmatige sportschoolroute",
+        "medium": "Gymnasium binnenwandopgang vastgeklikt aan ankers",
         "hard": "Sports"
       }
     },
@@ -4790,7 +4790,7 @@
       "word": "Touwtrekken",
       "clues": {
         "easy": "Steunlaarzen in de vuildeinende centrale touwmarkering",
-        "medium": "Twee teams hijsen dik touw over de grenslijn",
+        "medium": "Twee teams hijsen dik discipline over de grenslijn",
         "hard": "Sports"
       }
     },
@@ -4991,7 +4991,7 @@
     {
       "word": "Burger King",
       "clues": {
-        "easy": "Fastfoodketen met kroondragende koning",
+        "easy": "Fastfoodketen met kroondragende monarch",
         "medium": "Tekst ingeklemd tussen gele knothelften",
         "hard": "Logos & Brands"
       }
@@ -5023,7 +5023,7 @@
     {
       "word": "Pizza Hut",
       "clues": {
-        "easy": "Pizzarestaurant met rood daklogo",
+        "easy": "Italiaanse fast-casual ketting met rood daklogo",
         "medium": "Schuine hoed met rode rand",
         "hard": "Logos & Brands"
       }
@@ -5192,7 +5192,7 @@
       "word": "Red Bull",
       "clues": {
         "easy": "Energiedrankblikje met botsende beesten",
-        "medium": "Twee roodhoornige beesten hoofd aan hoofd",
+        "medium": "Twee karmozijnrode gehoornde beesten staan tegenover elkaar",
         "hard": "Logos & Brands"
       }
     },
@@ -5617,7 +5617,7 @@
     {
       "word": "Auto",
       "clues": {
-        "easy": "Persoonlijke personenauto met stuurwiel",
+        "easy": "Persoonlijke personenvervoermiddel met stuurwiel",
         "medium": "Interne verbranding of elektrisch chassis",
         "hard": "Transport"
       }
@@ -5641,7 +5641,7 @@
     {
       "word": "Vliegtuig",
       "clues": {
-        "easy": "Passagiersvliegtuig dat opstijgt van de startbaan",
+        "easy": "Passagiersvervoermiddel dat opstijgt van de startbaan",
         "medium": "Onder druk staande romp met straalturbine-aandrijving",
         "hard": "Transport"
       }
@@ -5697,7 +5697,7 @@
     {
       "word": "Taxi",
       "clues": {
-        "easy": "Straattaxi geprezen voor directe reizen naar de bestemming",
+        "easy": "Straatvervoermiddel geprezen voor directe reizen naar de bestemming",
         "medium": "Commercieel straatpassagiersvoertuig met meter",
         "hard": "Transport"
       }
@@ -5705,7 +5705,7 @@
     {
       "word": "Metro",
       "clues": {
-        "easy": "Metrotunneltreinen die stoppen op ondergrondse platforms",
+        "easy": "vervoermiddeltunneltreinen die stoppen op ondergrondse platforms",
         "medium": "Ondergronds geëlektrificeerd spoorwegnet voor passagiersvervoer",
         "hard": "Transport"
       }
@@ -5745,7 +5745,7 @@
     {
       "word": "Jacht",
       "clues": {
-        "easy": "Privé luxe kruiser met meerdere dekken in de jachthaven",
+        "easy": "Privé luxe kruiser met meerdere dekken in de vervoermiddelhaven",
         "medium": "Recreatief luxe nautisch cruiseschip",
         "hard": "Transport"
       }
@@ -5777,7 +5777,7 @@
     {
       "word": "Vrachtschip",
       "clues": {
-        "easy": "Stapels kleurrijke metalen zeecontainers over zee",
+        "easy": "Stapels kleurrijke metalen vrachtcontainers over de oceanen",
         "medium": "Bulk maritieme containervrachtvervoerder",
         "hard": "Transport"
       }
@@ -5786,7 +5786,7 @@
       "word": "Onderzeeër",
       "clues": {
         "easy": "Ondergedompelde waterscooters met periscoop en ballasttanks",
-        "medium": "Waterdichte onderwaterromp onder druk",
+        "medium": "Waterdichte vervoermiddelwaterromp vervoermiddel druk",
         "hard": "Transport"
       }
     },
@@ -5794,14 +5794,14 @@
       "word": "Raket",
       "clues": {
         "easy": "Meertrapsbooster die aan de zwaartekracht van de aarde ontsnapt en in een baan om de aarde komt",
-        "medium": "Verticale orbitale draagraket met chemische reactie",
+        "medium": "Verticale orbitale draagvervoermiddel met chemische reactie",
         "hard": "Transport"
       }
     },
     {
       "word": "Hete luchtballon",
       "clues": {
-        "easy": "Brander verwarmt lucht in de envelop naar boven",
+        "easy": "Brander verwarmingsgas in de envelop naar boven",
         "medium": "Thermisch drijfvermogen rieten passagiersvlucht",
         "hard": "Transport"
       }
@@ -5849,8 +5849,8 @@
     {
       "word": "Brandweerwagen",
       "clues": {
-        "easy": "Brandweerwagen reageert met sirene op gebouwbranden",
-        "medium": "Hydraulische luchtladder en waterpompwagen",
+        "easy": "Hulpvoertuig reageert met sirene op gebouwbranden",
+        "medium": "Hydraulische luchtladder en hogedrukpompinstallatie",
         "hard": "Transport"
       }
     },
@@ -5866,7 +5866,7 @@
       "word": "Trekker",
       "clues": {
         "easy": "Trekt ploegen en landbouwwerktuigen over de grond",
-        "medium": "Trekker voor landbouwwerktuigen met hoog koppel",
+        "medium": "vervoermiddel voor landbouwwerktuigen met hoog koppel",
         "hard": "Transport"
       }
     },
@@ -5889,7 +5889,7 @@
     {
       "word": "Kipper",
       "clues": {
-        "easy": "Transporteert en dumpt grind, zand en puin",
+        "easy": "Transporteert en lost grind, zand en puin",
         "medium": "Hydraulisch kiepbare bulktransporter met open bak",
         "hard": "Transport"
       }
@@ -5905,24 +5905,24 @@
     {
       "word": "Sneeuwploeg",
       "clues": {
-        "easy": "IJzige wegen opruimen en sneeuw opstapelen langs de stoeprand",
-        "medium": "Vooraan gemonteerd sneeuwruimvoertuig met schuine wig",
+        "easy": "IJzige wegen opruimen en sneeuwbrij langs de stoeprand duwen",
+        "medium": "Aan de voorzijde gemonteerd, schuin wigvormig winterruimvoertuig",
         "hard": "Transport"
       }
     },
     {
       "word": "Sneeuwscooter",
       "clues": {
-        "easy": "Stuurgestuurde machine die over winterse hellingen scheert",
-        "medium": "Wintersneeuwmachine met rupsbanden met achterwaartse rupsbanden",
+        "easy": "Treads op poeder met dubbel gestuurde ski's",
+        "medium": "Machine voor het doorkruisen van de wintertoendra met achterwaartse rupsbanden",
         "hard": "Transport"
       }
     },
     {
       "word": "Jetski",
       "clues": {
-        "easy": "Waterstraal aangedreven waterscooter",
-        "medium": "Met het stuur bestuurde persoonlijke waterjetvaartuig",
+        "easy": "Hydro-aangedreven aquatische zitscooter",
+        "medium": "Met het stuur bestuurd persoonlijk waterstuwvaartuig",
         "hard": "Transport"
       }
     },
@@ -5937,8 +5937,8 @@
     {
       "word": "Kabelbaan",
       "clues": {
-        "easy": "Luchtdoorvoergondel die steile bergtoppen beklimt",
-        "medium": "Passagierscabine met tractiekabel opgehangen in de lucht",
+        "easy": "Hangende tramcabine met bovenleiding",
+        "medium": "Passagierscabine met trekdraadophanging in de lucht",
         "hard": "Transport"
       }
     },
@@ -5969,8 +5969,8 @@
     {
       "word": "Paardenkoets",
       "clues": {
-        "easy": "Historische houten koets met paardentuig en chauffeur",
-        "medium": "Door paarden getrokken passagiersvervoer op wielen",
+        "easy": "Historische houten koets met hengstentuig en chauffeur",
+        "medium": "Door vervoermiddel getrokken passagiersbuggy met ijzeren wielen",
         "hard": "Transport"
       }
     },
@@ -5985,24 +5985,24 @@
     {
       "word": "Bullet trein",
       "clues": {
-        "easy": "Elektrische trein schiet met grote snelheid tussen steden",
-        "medium": "Aerodynamische hogesnelheidsneus op speciale rails",
+        "easy": "Aerodynamische snellocomotief die met hoge snelheid tussen steden schiet",
+        "medium": "Aërodynamische hogesnelheidstrein voor passagiersvervoer",
         "hard": "Transport"
       }
     },
     {
       "word": "Goederentrein",
       "clues": {
-        "easy": "Diesellocomotief met trechter- en gesloten wagons",
-        "medium": "Er bestaat een zwaar goederenvervoer per spoor met meerdere locomotieven",
+        "easy": "Een lange rij gesloten goederenwagens, getrokken door diesellocomotieven",
+        "medium": "Er bestaat heavy-raillading met meerdere locomotieven",
         "hard": "Transport"
       }
     },
     {
       "word": "Dubbeldekkerbus",
       "clues": {
-        "easy": "Iconische rode hoge bus met wenteltrap",
-        "medium": "Bus voor passagiersverkeer op twee niveaus",
+        "easy": "Iconische rode hoge koets met wenteltrap",
+        "medium": "Stedelijk passagiersvervoer op twee niveaus",
         "hard": "Transport"
       }
     },
@@ -6025,8 +6025,8 @@
     {
       "word": "Pick-up vrachtwagen",
       "clues": {
-        "easy": "Achterklep, afgesloten cabine en praktische laadruimte",
-        "medium": "Vrachtwagen voor personenauto's met open bed",
+        "easy": "Passagierscabine vooraan met open praktische laadruimte achteraan",
+        "medium": "Utility-motortransporter voor passagiers met open bed",
         "hard": "Transport"
       }
     },
@@ -6049,15 +6049,15 @@
     {
       "word": "Race auto",
       "clues": {
-        "easy": "Spoilers, rolkooi en gladde racebanden",
-        "medium": "Op het circuit afgestelde, krachtige autosportmachine",
+        "easy": "Spoilers, rolkooi en gladde vervoermiddelbanden",
+        "medium": "Op het circuit afgestelde, krachtige vervoermiddelsportmachine",
         "hard": "Transport"
       }
     },
     {
       "word": "Go-karten",
       "clues": {
-        "easy": "Vierwielige kart met lage speling op bochtige indoorbanen",
+        "easy": "Racer met lage speling op vier wielen op bochtige indoorbanen",
         "medium": "Miniatuur racechassis met open wielen, laag in het midden",
         "hard": "Transport"
       }
@@ -6073,7 +6073,7 @@
     {
       "word": "Crossmotor",
       "clues": {
-        "easy": "Tweewieler met knobbelige banden die over zandheuvels springt",
+        "easy": "Tweewieler met knobbelige banden die over modderhopen springt",
         "medium": "Offroad-motorfiets met grote speling en knobbelige banden",
         "hard": "Transport"
       }
@@ -6089,8 +6089,8 @@
     {
       "word": "Elektrische scooter",
       "clues": {
-        "easy": "Opvouwbare stadsscooter met twee wielen",
-        "medium": "Op batterijen werkende rechtopstaande scooter",
+        "easy": "Opvouwbaar micro-voertuig voor stadsverkeer op twee wielen",
+        "medium": "Rechtopstaand woon-werkdek op batterijen",
         "hard": "Transport"
       }
     },
@@ -6113,15 +6113,15 @@
     {
       "word": "Bakfiets",
       "clues": {
-        "easy": "Twee- of driewielige trapfiets met laadbak",
-        "medium": "Traptransporter met zwaar frame en voorlaadruimte",
+        "easy": "Twee- of driewielig trapvoertuig met grote trechter aan de voorzijde",
+        "medium": "Traptransporter met zwaar frame en opbergvak aan de voorzijde",
         "hard": "Transport"
       }
     },
     {
       "word": "Rolstoel",
       "clues": {
-        "easy": "Hand-velgaandrijving of elektrische rolstoel met joystick",
+        "easy": "Hand-velgaandrijving of elektrische vervoermiddel met joystick",
         "medium": "Zittende handmatige of gemotoriseerde mobiliteitshulpmiddelen",
         "hard": "Transport"
       }
@@ -6130,7 +6130,7 @@
       "word": "Kinderwagen",
       "clues": {
         "easy": "Opvouwbare koets met vier wielen, geduwd door de ouder",
-        "medium": "Opvouwbare kinderwagen met zonnekap",
+        "medium": "Opvouwbare vervoermiddel met zonnekap",
         "hard": "Transport"
       }
     },
@@ -6169,8 +6169,8 @@
     {
       "word": "Kabelbaan",
       "clues": {
-        "easy": "Hellende spoorbaan met steile helling, getrokken door een kabel",
-        "medium": "Gecompenseerde kabelbaan met steile helling",
+        "easy": "Hellende spoorbaan met steile helling, getrokken door een vervoermiddel",
+        "medium": "Gecompenseerde vervoermiddel met steile helling",
         "hard": "Transport"
       }
     },
@@ -6225,7 +6225,7 @@
     {
       "word": "Olietanker",
       "clues": {
-        "easy": "Groot dek met pijpleidingspruitstukken die ruwe olie vervoeren",
+        "easy": "Groot dek met pijpleidingspruitstukken die ruwe aardolie vervoeren",
         "medium": "Bulk vloeibare koolwaterstof-oceaandrager",
         "hard": "Transport"
       }
@@ -6242,7 +6242,7 @@
       "word": "Tweedekker",
       "clues": {
         "easy": "Vintage houten en canvas vleugels met draadtuigage",
-        "medium": "Luchtvaartvliegtuigen met gestapelde vleugels op twee niveaus",
+        "medium": "Luchtvaartvliegtuigen met gestapelde vleugels op vervoermiddel niveaus",
         "hard": "Transport"
       }
     },
@@ -6258,7 +6258,7 @@
       "word": "Luchtballon",
       "clues": {
         "easy": "Met helium gevuld reclameluchtschip dat boven stadions zweeft",
-        "medium": "Drukvaste, niet-stijve, lichter dan lucht-omhulling",
+        "medium": "Drukvaste, niet-stijve, lichter dan vervoermiddel-omhulling",
         "hard": "Transport"
       }
     },
@@ -6305,7 +6305,7 @@
     {
       "word": "Postkoets",
       "clues": {
-        "easy": "Westerse passagiersbus met post en bagage",
+        "easy": "Westerse passagiersbus met vervoermiddel en bagage",
         "medium": "Vierspan door paarden getrokken personenwagen over land",
         "hard": "Transport"
       }
@@ -6314,14 +6314,14 @@
       "word": "Stoomboot",
       "clues": {
         "easy": "Schoorstenen en gekarnd water op historische rivieren",
-        "medium": "Door stoom aangedreven rivierschip met schoepenrad",
+        "medium": "Kolengestookt rivierschip met schoepenrad",
         "hard": "Transport"
       }
     },
     {
       "word": "Maglev-trein",
       "clues": {
-        "easy": "Elektromagnetische levitatietrein die railwrijving elimineert",
+        "easy": "Elektromagnetische levitatiedoorvoer die spoorwrijving elimineert",
         "medium": "Magnetische levitatiegeleidingskogel voor passagiers",
         "hard": "Transport"
       }
@@ -6329,15 +6329,15 @@
     {
       "word": "Golfkar",
       "clues": {
-        "easy": "Stille accuwagen die golftassen tussen de holes vervoert",
-        "medium": "Laagspanningswagen voor doorvoer van verbindingen",
+        "easy": "Stille accubuggy met clubtassen tussen de gaten",
+        "medium": "Laagspanningsbuggy voor vaarwegvervoer",
         "hard": "Transport"
       }
     },
     {
       "word": "Fietstaxi",
       "clues": {
-        "easy": "Fietstaxi met passagiersbank achter berijder",
+        "easy": "vervoermiddel met passagiersbank achter berijder",
         "medium": "Pedaalaangedreven driewielige passagierstaxi",
         "hard": "Transport"
       }
@@ -6361,8 +6361,8 @@
     {
       "word": "Spaceshuttle",
       "clues": {
-        "easy": "Deltavleugel-orbiter die terugkeert van de ruimte naar de landingsbaan",
-        "medium": "Raketgestuurd orbitaal ruimtevliegtuigzweefvliegtuig",
+        "easy": "Deltavleugelige orbiter die terugkeert van de baan naar de landingsbaan",
+        "medium": "Raketaangedreven kosmisch zweefvliegtuig",
         "hard": "Transport"
       }
     },
@@ -6377,7 +6377,7 @@
     {
       "word": "Gondel",
       "clues": {
-        "easy": "Door de staande gondelier langs de kanalen van Venetië geduwd",
+        "easy": "Door de staande vervoermiddelier langs de kanalen van Venetië geduwd",
         "medium": "Asymmetrisch roeivaartuig op het Venetiaanse kanaal",
         "hard": "Transport"
       }
@@ -6385,7 +6385,7 @@
     {
       "word": "Outrigger kano",
       "clues": {
-        "easy": "Pacific Islander-zeevarende kano met balansligger",
+        "easy": "Pacifische eilandbewoner zeevarende dug-out met balansligger",
         "medium": "Lateraal drijvende gestabiliseerde Polynesische reisvaartuigen",
         "hard": "Transport"
       }
@@ -6409,8 +6409,8 @@
     {
       "word": "Raderstoomboot",
       "clues": {
-        "easy": "Rivierschip aangedreven door schoepenwielen die water karnen",
-        "medium": "Sternwheel- of zijwielstoomvoortstuwingsschip",
+        "easy": "Rivierschip aangedreven door gigantische karnwielen",
+        "medium": "Sternwheel- of zijwieldampvoortstuwingsvaartuig",
         "hard": "Transport"
       }
     }
@@ -6467,7 +6467,7 @@
     {
       "word": "Mist",
       "clues": {
-        "easy": "Dikke mist op lage hoogte vermindert het zicht",
+        "easy": "Dikke natuurelement op lage hoogte vermindert het zicht",
         "medium": "Waterdampcondensatie op grondniveau",
         "hard": "Nature"
       }
@@ -6524,7 +6524,7 @@
       "word": "Waterval",
       "clues": {
         "easy": "Trapsgewijze stroom die in het dompelbad valt",
-        "medium": "Verticale watervaldaling van de rivier",
+        "medium": "Verticale natuurelementdaling van de rivier",
         "hard": "Nature"
       }
     },
@@ -6540,7 +6540,7 @@
       "word": "Kloof",
       "clues": {
         "easy": "Steile torenhoge stenen muren doorsneden door water",
-        "medium": "Geërodeerde rivierkloof met steile lagen",
+        "medium": "Geërodeerde riviernatuurelement met steile lagen",
         "hard": "Nature"
       }
     },
@@ -6603,7 +6603,7 @@
     {
       "word": "Grot",
       "clues": {
-        "easy": "Donkere ondergrondse grot met stenen kamers",
+        "easy": "Donkere ondergrondse natuurelement met stenen kamers",
         "medium": "Ondergrondse kalksteenoploskamer",
         "hard": "Nature"
       }
@@ -6643,8 +6643,8 @@
     {
       "word": "Zandduin",
       "clues": {
-        "easy": "Verschuivende halvemaanvormige heuvel van woestijnzand",
-        "medium": "Eolische, door de wind gevormde zandafzetting",
+        "easy": "Verschuivende halvemaanvormige heuvel van woestijnsilica",
+        "medium": "Eolische, door de wind gebeeldhouwde woestijnsedimentrug",
         "hard": "Nature"
       }
     },
@@ -6659,8 +6659,8 @@
     {
       "word": "Moeras",
       "clues": {
-        "easy": "Laaggelegen moeras met cipressen en modder",
-        "medium": "Bebost, slecht gedraineerd moerasgebied",
+        "easy": "Laaggelegen natuurelement met cipressen en modder",
+        "medium": "Bebost, slecht gedraineerd natuurelementgebied",
         "hard": "Nature"
       }
     },
@@ -6732,7 +6732,7 @@
       "word": "Zonsverduistering",
       "clues": {
         "easy": "Duisternis overdag terwijl de maan het zonlicht blokkeert",
-        "medium": "Hemelse occultatie van de zonneschijf",
+        "medium": "Hemelse occultatie van een sterschijf overdag",
         "hard": "Nature"
       }
     },
@@ -6843,7 +6843,7 @@
     {
       "word": "Pijnboom",
       "clues": {
-        "easy": "Kegeldragende houtboom die het hele jaar door groen blijft",
+        "easy": "Kegeldragend, geurig hout dat het hele jaar door groen blijft",
         "medium": "Naalddragende harsachtige conifeer",
         "hard": "Nature"
       }
@@ -6923,7 +6923,7 @@
     {
       "word": "Hete lente",
       "clues": {
-        "easy": "Mineraalrijke bron die bruist van vulkanische hitte",
+        "easy": "Mineraalrijke fontein die bruist van vulkanische hitte",
         "medium": "Geothermisch verwarmd grondwaterzwembad",
         "hard": "Nature"
       }
@@ -6931,8 +6931,8 @@
     {
       "word": "Getijdenzwembad",
       "clues": {
-        "easy": "Miniatuur intergetijdenhabitat blootgelegd bij eb",
-        "medium": "Rotsachtig kustbekken tussen de getijden",
+        "easy": "Miniatuur mariene habitat blootgelegd in een lage zee-uitsparing",
+        "medium": "Rotsachtig kustbekken tussen de natuurelement",
         "hard": "Nature"
       }
     },
@@ -7147,8 +7147,8 @@
     {
       "word": "Waterhoos",
       "clues": {
-        "easy": "Tornadodraaikolk die het wateroppervlak in schuim verandert",
-        "medium": "Intense kolomvormige oceanische watervortex",
+        "easy": "Tornadodraaikolk die het zeeoppervlak in schuim verandert",
+        "medium": "Intense kolomvormige oceanische vloeistofvortex",
         "hard": "Nature"
       }
     },
@@ -7196,15 +7196,15 @@
       "word": "Lagune van het atol",
       "clues": {
         "easy": "Kristal turkoois zout water binnen rifomheining",
-        "medium": "Binnenzeewaterlichaam van koraalring",
+        "medium": "Binnenzeewaterlichaam natuurelement koraalring",
         "hard": "Nature"
       }
     },
     {
       "word": "Getijdenboring",
       "clues": {
-        "easy": "Echte vloedgolf die landinwaarts oprukt naar een smaller estuarium",
-        "medium": "Stroomopwaartse vloedgolf in een smaller wordende rivier",
+        "easy": "Ware oceaangolf die landinwaarts oprukt naar een smaller estuarium",
+        "medium": "Stroomopwaartse golfmuur in een smaller wordende kustrivier",
         "hard": "Nature"
       }
     },
@@ -7350,7 +7350,7 @@
       "word": "Fagot",
       "clues": {
         "easy": "Diepe houtachtige tinten door gebogen bocale kromming",
-        "medium": "Dubbelriet gevouwen tenor-bas houtblazers",
+        "medium": "Dubbelriet gevouwen houtblazers met laag register",
         "hard": "Music"
       }
     },
@@ -7366,7 +7366,7 @@
       "word": "Franse hoorn",
       "clues": {
         "easy": "Rechtshandig geplaatst in een brede koperen beker",
-        "medium": "Strak opgerolde messing hoorn met draaiventiel",
+        "medium": "Strak opgerold koperen blaasinstrument met draaiventiel",
         "hard": "Music"
       }
     },
@@ -7437,7 +7437,7 @@
     {
       "word": "Basgitaar",
       "clues": {
-        "easy": "Dikke bassnaren tokkelen met de vingers",
+        "easy": "Dikke, zware snaren tokkelen met de vingers",
         "medium": "Laagfrequente viersnarige ritmebasis",
         "hard": "Music"
       }
@@ -7510,7 +7510,7 @@
       "word": "Contrabas",
       "clues": {
         "easy": "De hoogste orkestsnaar die op een vloerpin staat",
-        "medium": "Laagste toon gebogen orkestrale contrabas",
+        "medium": "Laagste toon gebogen orkestrale klankstuk",
         "hard": "Music"
       }
     },
@@ -7526,7 +7526,7 @@
       "word": "Snaredrum",
       "clues": {
         "easy": "Scherpe marsrol en rimshot-backbeat",
-        "medium": "Gespannen metalen snaren onder het onderste drumvel",
+        "medium": "Gespannen opgerolde draden onder de onderste slagkop",
         "hard": "Music"
       }
     },
@@ -7534,7 +7534,7 @@
       "word": "Pauken",
       "clues": {
         "easy": "Stembare ketelpercussie dreunt in symfoniezalen",
-        "medium": "Op pedaal afgestemde halfronde koperen pauken",
+        "medium": "Op pedaal afgestemde halfronde koperen klankstuk",
         "hard": "Music"
       }
     },
@@ -7558,7 +7558,7 @@
       "word": "Stalen trommel",
       "clues": {
         "easy": "Gehamerde concave metalen pan met eilandtonen",
-        "medium": "Concaaf gehamerde stalen pan-percussie",
+        "medium": "Concaaf gehamerde aluminium pan-percussie",
         "hard": "Music"
       }
     },
@@ -7621,8 +7621,8 @@
     {
       "word": "Koor",
       "clues": {
-        "easy": "Sopraan-, alt-, tenor- en baszangkoor",
-        "medium": "Polyfoon koorzangensemble",
+        "easy": "Sopraan-, alt-, tenor- en baszangklankstuk",
+        "medium": "Polyfoon klankstukzangensemble",
         "hard": "Music"
       }
     },
@@ -7654,7 +7654,7 @@
       "word": "Rockmuziek",
       "clues": {
         "easy": "Powerchords, backbeat van drumstel en rauwe zang",
-        "medium": "Gitaargestuurd versterkt populair muziekgenre",
+        "medium": "Gitaargestuurd versterkt stadion-sonisch genre",
         "hard": "Music"
       }
     },
@@ -7678,7 +7678,7 @@
       "word": "Countrymuziek",
       "clues": {
         "easy": "Verhalende teksten over het plattelandsleven en hartzeer",
-        "medium": "Landelijke Amerikaanse rootsmuziek met akoestische twang",
+        "medium": "Landelijke Amerikaanse rootsballadetraditie met akoestische twang",
         "hard": "Music"
       }
     },
@@ -7686,7 +7686,7 @@
       "word": "Klassieke muziek",
       "clues": {
         "easy": "Sonates, symfonieën en concerten uit vervlogen tijden",
-        "medium": "Formele Europese kunstmuziektraditie",
+        "medium": "Formele Europese orkestkunsttraditie",
         "hard": "Music"
       }
     },
@@ -7702,7 +7702,7 @@
       "word": "Volksmuziek",
       "clues": {
         "easy": "Akoestische gitaren, banjo's en verhalende ballades",
-        "medium": "Traditioneel, op de gemeenschap gebaseerd akoestisch muziekerfgoed",
+        "medium": "Traditioneel, op de gemeenschap gebaseerd akoestisch erfgoed",
         "hard": "Music"
       }
     },
@@ -7718,7 +7718,7 @@
       "word": "Punkrock",
       "clues": {
         "easy": "Vervormde gitaren, energieke kreten en anti-establishment teksten",
-        "medium": "Snelle, uitgeklede, vervormde rock",
+        "medium": "Snelle, uitgeklede, vervormde rebelse akkoorden",
         "hard": "Music"
       }
     },
@@ -7742,7 +7742,7 @@
       "word": "Salsamuziek",
       "clues": {
         "easy": "Trombonestoten, conga's en gesyncopeerde clavebeat",
-        "medium": "Gesyncopeerde Afro-Caribische dansmuziek op hoog tempo",
+        "medium": "Gesyncopeerde Afro-Caribische dansgroove op hoog tempo",
         "hard": "Music"
       }
     },
@@ -7798,7 +7798,7 @@
       "word": "Slaapliedje",
       "clues": {
         "easy": "Rustig melodieus deuntje gezongen om een wieg te kalmeren",
-        "medium": "Wiegenlied gecomponeerd om slaap op te wekken",
+        "medium": "Wiegenlied gecomponeerd om klankstuk op te wekken",
         "hard": "Music"
       }
     },
@@ -7885,15 +7885,15 @@
     {
       "word": "Muziekstandaard",
       "clues": {
-        "easy": "Verstelbaar statief ter ondersteuning van partituren voor spelers",
-        "medium": "Verstelbare statieflade die muzieknotatie ondersteunt",
+        "easy": "Verstelbaar statief ter ondersteuning van liedbladen voor orkestspelers",
+        "medium": "Verstelbare statieflade met ondersteuning voor handgeschreven notenbalknotatie",
         "hard": "Music"
       }
     },
     {
       "word": "Bladmuziek",
       "clues": {
-        "easy": "Zwarte noten, sleutels en maten die door muzikanten worden gelezen",
+        "easy": "Zwarte noten, sleutels en maten voorgelezen door artiesten",
         "medium": "Gegraveerde gedrukte notenbalknotatie voor uitvoering",
         "hard": "Music"
       }
@@ -7966,7 +7966,7 @@
       "word": "Meester",
       "clues": {
         "easy": "Podiumleider regisseert symfonie met stokje",
-        "medium": "Meester-muzikaal leider of symfonische dirigent",
+        "medium": "klankstuk-muzikaal leider of symfonische dirigent",
         "hard": "Music"
       }
     },
@@ -8031,7 +8031,7 @@
     {
       "word": "Schilderen",
       "clues": {
-        "easy": "Ezel, verfpalet en gekleurde pigmenten",
+        "easy": "Ezel, houten palet en gekleurde pigmenten",
         "medium": "Pigmentapplicatie op opgespannen canvas",
         "hard": "Hobbies"
       }
@@ -8047,7 +8047,7 @@
     {
       "word": "Breien",
       "clues": {
-        "easy": "Steken opzetten voor het breien van truien",
+        "easy": "Steken opzetten om wollen truien te maken",
         "medium": "In elkaar grijpende garenlussen met tweelingnaalden",
         "hard": "Hobbies"
       }
@@ -8064,7 +8064,7 @@
       "word": "Tuinieren",
       "clues": {
         "easy": "Troffel, zaden, gieter en mulch",
-        "medium": "Tuinbouwteelt van tuinbedden",
+        "medium": "Tuinbouwteelt van grondbedden in de achtertuin",
         "hard": "Hobbies"
       }
     },
@@ -8080,7 +8080,7 @@
       "word": "Bakken",
       "clues": {
         "easy": "Meel afmeten, gistdeeg kneden en timers",
-        "medium": "Ovengebakken gebak en deegchemie",
+        "medium": "Ovengeactiviteit gebak en deegchemie",
         "hard": "Hobbies"
       }
     },
@@ -8088,15 +8088,15 @@
       "word": "Vissen",
       "clues": {
         "easy": "Voerhaak, werplijn en molen",
-        "medium": "Vissen met aashaak en lijn",
+        "medium": "activiteit met aashaak en lijn",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Wandelen",
       "clues": {
-        "easy": "Bergpaden wandelen met stevige laarzen",
-        "medium": "Backcountry trail wandelen met dagrugzak",
+        "easy": "Bergpaden activiteit met stevige laarzen",
+        "medium": "Backcountry trail activiteit met dagrugzak",
         "hard": "Hobbies"
       }
     },
@@ -8159,7 +8159,7 @@
     {
       "word": "Houtbewerking",
       "clues": {
-        "easy": "Beitels, zagen, houtlijm en schuren",
+        "easy": "Beitels, zagen, timmermanslijm en schuren",
         "medium": "Schrijnwerk en houtsnijwerk voor meubelen",
         "hard": "Hobbies"
       }
@@ -8239,8 +8239,8 @@
     {
       "word": "Kaartspellen",
       "clues": {
-        "easy": "Schudden, kleuren delen en kaarttrucs nemen",
-        "medium": "Ingezet of informeel kaartspel",
+        "easy": "Schudden, pakken uitdelen en winnende trucs maken",
+        "medium": "Ingezet of casual bedrukt activiteit",
         "hard": "Hobbies"
       }
     },
@@ -8327,7 +8327,7 @@
     {
       "word": "Zwemmen",
       "clues": {
-        "easy": "Bril, badmuts en waterslagen",
+        "easy": "Bril, rubberen dop en aquatische slagen",
         "medium": "Zwemoefeningen in het zwembad",
         "hard": "Hobbies"
       }
@@ -8336,7 +8336,7 @@
       "word": "Rotsklimmen",
       "clues": {
         "easy": "Harnas, karabijnhaken, krijtzak en zekeringstouw",
-        "medium": "Verticale wrijvingsopstijging op rots of muur",
+        "medium": "Verticale wrijvingsopstijging op activiteit of muur",
         "hard": "Hobbies"
       }
     },
@@ -8344,14 +8344,14 @@
       "word": "Skateboarden",
       "clues": {
         "easy": "Ollies en kickflips oefenen op de stoep",
-        "medium": "Manoeuvreren met een skateboard op vier wielen",
+        "medium": "Manoeuvreren met grip-tape deck op vier wielen",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Surfen",
       "clues": {
-        "easy": "Peddelen naar de golven van de oceaan en carven in de branding",
+        "easy": "Peddelen naar de golven van de oceaan en rijden op brekende golven",
         "medium": "Rijden op de oceaandeining op een drijvend bord",
         "hard": "Hobbies"
       }
@@ -8367,8 +8367,8 @@
     {
       "word": "Snowboarden",
       "clues": {
-        "easy": "Carven van besneeuwde bergbochten met een gelaarsd board",
-        "medium": "Alpine sneeuwsnijwerk met één plank",
+        "easy": "Bevroren bergbochten maken met een gelaarsd dek",
+        "medium": "Alpine poedersnijwerk met één plank",
         "hard": "Hobbies"
       }
     },
@@ -8392,7 +8392,7 @@
       "word": "Paardrijden",
       "clues": {
         "easy": "Zittend in het zadel met leren hoofdstelteugels",
-        "medium": "Paardenzadelbalans en trailrijden",
+        "medium": "Paardenzadelbalans en tochten door het platteland",
         "hard": "Hobbies"
       }
     },
@@ -8400,7 +8400,7 @@
       "word": "Boogschieten",
       "clues": {
         "easy": "Gerichte gevederde pijl op concentrische bullseye-ring",
-        "medium": "Recurve boog schietvaardigheid",
+        "medium": "Recurve activiteit schietvaardigheid",
         "hard": "Hobbies"
       }
     },
@@ -8416,7 +8416,7 @@
       "word": "Gewicht opleiding",
       "clues": {
         "easy": "Spiersets, bankdrukken en squats doen",
-        "medium": "Progressieve weerstandstraining tegen overbelasting",
+        "medium": "Progressieve weerstandssets voor overbelasting",
         "hard": "Hobbies"
       }
     },
@@ -8447,7 +8447,7 @@
     {
       "word": "Salsa dansen",
       "clues": {
-        "easy": "Op vrolijke Afro-Cubaanse salsaritmes",
+        "easy": "Stappen op vrolijke Afro-Cubaanse ritmische beats",
         "medium": "Snelle gesyncopeerde Latijnse partner-spins",
         "hard": "Hobbies"
       }
@@ -8464,7 +8464,7 @@
       "word": "Thuis brouwen",
       "clues": {
         "easy": "Kokende gemoute gerst, hop en gistende gist",
-        "medium": "Brouwen en fermenteren van granen in kleine batches",
+        "medium": "Kleine batch ambachtelijke bierwortfermentatie",
         "hard": "Hobbies"
       }
     },
@@ -8472,15 +8472,15 @@
       "word": "Wijn proeven",
       "clues": {
         "easy": "Aroma's opsnuiven, nippen en smaken opmerken",
-        "medium": "Zintuiglijke evaluatie van wijnbouwjaren",
+        "medium": "Zintuiglijke evaluatie van activiteitbouwjaren",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Koffie branden",
       "clues": {
-        "easy": "Bewaking van de braadwarmte, kraakgeluiden en aroma",
-        "medium": "Thermische pyrolyse van groene koffiezaden",
+        "easy": "Bewaking van trommelwarmte, kraakgeluiden en bruinaroma",
+        "medium": "Thermische pyrolyse van rauwe javabonen",
         "hard": "Hobbies"
       }
     },
@@ -8512,7 +8512,7 @@
       "word": "Metaal detecteren",
       "clues": {
         "easy": "Luisteren naar pieptonen om begraven munten op te graven",
-        "medium": "Elektromagnetisch bodemonderzoek naar metalen",
+        "medium": "Elektromagnetisch bodemonderzoek naar begraven relikwieën",
         "hard": "Hobbies"
       }
     },
@@ -8527,7 +8527,7 @@
     {
       "word": "Vliegeren",
       "clues": {
-        "easy": "Zeewind opvangen om de vlieger omhoog te houden",
+        "easy": "Zeewind opvangen om nylon diamant omhoog te houden",
         "medium": "Aangebonden wind-aërodynamische vlucht",
         "hard": "Hobbies"
       }
@@ -8535,7 +8535,7 @@
     {
       "word": "Drone vliegen",
       "clues": {
-        "easy": "Dual-stick controller die door de drone in de lucht navigeert",
+        "easy": "Dual-stick controller die met meerdere rotoren in de lucht navigeert",
         "medium": "Radiogestuurde quadcoptervlucht op afstand",
         "hard": "Hobbies"
       }
@@ -8543,7 +8543,7 @@
     {
       "word": "Rollenspellen",
       "clues": {
-        "easy": "Gamemaster beschrijft fantasiezoektocht met karakterbladen",
+        "easy": "Dungeon-verteller die een fantasiezoektocht beschrijft met karakterbladen",
         "medium": "Collaboratief, door dobbelstenen aangedreven fantasieverhaal",
         "hard": "Hobbies"
       }
@@ -8552,7 +8552,7 @@
       "word": "Escape kamers",
       "clues": {
         "easy": "Het ontcijferen van verborgen raadsels om de deur te ontgrendelen",
-        "medium": "Thematische coöperatieve kamerpuzzelontsnapping",
+        "medium": "Thematisch coöperatief verzegelde kamerpuzzelmysterie",
         "hard": "Hobbies"
       }
     },
@@ -8575,7 +8575,7 @@
     {
       "word": "Filmmaken",
       "clues": {
-        "easy": "Scripts schrijven, camerabeelden inlijsten en film monteren",
+        "easy": "Scripts schrijven, camerabeelden inlijsten en bewegende beelden snijden",
         "medium": "Ambacht voor filmproductie",
         "hard": "Hobbies"
       }
@@ -8591,7 +8591,7 @@
     {
       "word": "Codering",
       "clues": {
-        "easy": "Code-algoritmen typen in de programmeerteksteditor",
+        "easy": "activiteit-algoritmen typen in de programmeerteksteditor",
         "medium": "Software-algoritmische logica-implementatie",
         "hard": "Hobbies"
       }
@@ -8608,7 +8608,7 @@
       "word": "Hamradio",
       "clues": {
         "easy": "Roepnamen uitzenden op hoogfrequente zendontvanger",
-        "medium": "Radiofrequentie-uitzending door amateurs",
+        "medium": "Draadloze amateurfrequentietransmissie",
         "hard": "Hobbies"
       }
     },
@@ -8639,8 +8639,8 @@
     {
       "word": "Honden opleiding",
       "clues": {
-        "easy": "Clickertraining, traktaties en commando's aan de lijn",
-        "medium": "Operante conditionering en gehoorzaamheid bij honden",
+        "easy": "Clickercoaching, traktaties en commando's aan de lijnhiel",
+        "medium": "Operante conditionering en gehoorzaamheid bij activiteit",
         "hard": "Hobbies"
       }
     },
@@ -8663,15 +8663,15 @@
     {
       "word": "Haak",
       "clues": {
-        "easy": "Garensteken gemaakt met gehaakte metalen naald",
-        "medium": "Haakgetrokken, in elkaar grijpende garenlus",
+        "easy": "Garensteken gemaakt met geactiviteitte metalen naald",
+        "medium": "activiteitgetrokken, in elkaar grijpende garenlus",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Quilten",
       "clues": {
-        "easy": "Patchwork-quilttop, tussenvulling en patroonsteken",
+        "easy": "Top met patchworkpatroon, tussenvulling en decoratieve steken",
         "medium": "Meerlaags patchwork-textielstiksel",
         "hard": "Hobbies"
       }
@@ -8711,8 +8711,8 @@
     {
       "word": "Bloemschikken",
       "clues": {
-        "easy": "Snoeien van bloemstelen en balanceren van bloemkleuren",
-        "medium": "Bloemisterijontwerp en balans van bloemstengels",
+        "easy": "Snoeien van boeketstelen en balanceren van levendige bloeikleuren",
+        "medium": "Bloemisterijontwerp en bloesemstengelbalans",
         "hard": "Hobbies"
       }
     },
@@ -8728,14 +8728,14 @@
       "word": "Taal leren",
       "clues": {
         "easy": "Flashcards, uitspraakaudio en grammaticaoefening",
-        "medium": "Lexicale verwerving van de tweede taal",
+        "medium": "Woordenschat en grammaticaverwerving van buitenlandse spraak",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Vinyl verzamelen",
       "clues": {
-        "easy": "Krattengravende vinylalbums van twaalf inch in hoezen",
+        "easy": "Krattengravende twaalf-inch groefalbums in kartonnen hoezen",
         "medium": "Archivering van analoge grammofoonplaten",
         "hard": "Hobbies"
       }
@@ -8775,7 +8775,7 @@
     {
       "word": "Sieraden maken",
       "clues": {
-        "easy": "Sieradentangen, draadknippers, kralen en sluitingen",
+        "easy": "Knutseltangen, draadknippers, kralen en sluitingen",
         "medium": "Handgemaakte draagbare ornamentproductie",
         "hard": "Hobbies"
       }
@@ -8783,16 +8783,16 @@
     {
       "word": "Glasblazen",
       "clues": {
-        "easy": "Het verzamelen van gloeiend gesmolten glas uit hete oven",
-        "medium": "Thermische manipulatie van gesmolten glasbel",
+        "easy": "Het verzamelen van gloeiend gesmolten silica uit hete oven",
+        "medium": "Thermische manipulatie van gesmolten gloeiende silicabel",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Gebrandschilderd glas",
       "clues": {
-        "easy": "Gekleurde glasstukken snijden en soldeerverbindingen",
-        "medium": "Met lood gesoldeerd gekleurd kunstglassamenstel",
+        "easy": "Snijden van gekleurde sierruiten en soldeerverbindingen",
+        "medium": "Loodgesoldeerde gekleurde decoratieve paneelmontage",
         "hard": "Hobbies"
       }
     },
@@ -8807,16 +8807,16 @@
     {
       "word": "Brieven schrijven",
       "clues": {
-        "easy": "Briefpapier, vulpen en lakzegel",
-        "medium": "Samenstelling van briefpostbrieven",
+        "easy": "Briefpapier perkament, vulpen en lakzegel",
+        "medium": "Samenstelling van briefpostperkament",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Stedelijk schetsen",
       "clues": {
-        "easy": "Aquarellen en inktpen in draagbaar schetsboek",
-        "medium": "Plein-air observationeel architectonisch schetsen",
+        "easy": "Waterverf en inktpen in draagbaar tekenblok",
+        "medium": "Plein-air observationeel architectonisch tekenwerk",
         "hard": "Hobbies"
       }
     }

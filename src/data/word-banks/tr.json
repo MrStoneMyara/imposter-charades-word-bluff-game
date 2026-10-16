@@ -27,7 +27,7 @@
     {
       "word": "Kol saati",
       "clues": {
-        "easy": "Küçük kayışlı saat",
+        "easy": "Küçük kayışlı gereç",
         "medium": "Saatli kayış kadranı",
         "hard": "Everyday Objects"
       }
@@ -35,15 +35,15 @@
     {
       "word": "Ekmek kızartma makinesi",
       "clues": {
-        "easy": "Açılır kahvaltı slot makinesi",
-        "medium": "Yaylı kızartma yuvası",
+        "easy": "Açılır kahvaltı slot gereç",
+        "medium": "Yaylı gereç yuvası",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Diş fırçası",
       "clues": {
-        "easy": "Küçük kıllı diş sapı",
+        "easy": "Küçük kıllı gereç sapı",
         "medium": "Günde iki kez kıllı değnek",
         "hard": "Everyday Objects"
       }
@@ -52,14 +52,14 @@
       "word": "Zımba",
       "clues": {
         "easy": "Metal klipslere basan masaüstü cihazı",
-        "medium": "Menteşeli tel zımba",
+        "medium": "Menteşeli tel gereç",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Sırt çantası",
       "clues": {
-        "easy": "İki askılı fermuarlı taşıma çantası",
+        "easy": "İki askılı fermuarlı taşıma gereç",
         "medium": "Çift kayışlı seyahat yükü",
         "hard": "Everyday Objects"
       }
@@ -163,7 +163,7 @@
     {
       "word": "El feneri",
       "clues": {
-        "easy": "Pille çalışan taşınabilir el feneri",
+        "easy": "Pille çalışan taşınabilir gereç",
         "medium": "El tipi karanlık ışın",
         "hard": "Everyday Objects"
       }
@@ -235,7 +235,7 @@
     {
       "word": "Elbise askısı",
       "clues": {
-        "easy": "Gardıropta şekilli omuz askısı",
+        "easy": "Gardıropta şekilli omuz gereç",
         "medium": "Omuz konturlu gardırop teli",
         "hard": "Everyday Objects"
       }
@@ -340,15 +340,15 @@
       "word": "Tutkal çubuğu",
       "clues": {
         "easy": "Kağıt için katı yapışkan silindir",
-        "medium": "Yapışkan kağıt yapışkan silindir",
+        "medium": "Kıvrılabilen kağıt yapışkan silindir",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Yapışkan bant",
       "clues": {
-        "easy": "Şeffaf yapışkan şerit rulosu",
-        "medium": "Dispenser kesimli yapışkan makara",
+        "easy": "Şeffaf gereç şerit rulosu",
+        "medium": "Dispenser kesimli gereç makara",
         "hard": "Everyday Objects"
       }
     },
@@ -388,7 +388,7 @@
       "word": "Telefon şarj cihazı",
       "clues": {
         "easy": "Duvar adaptörü ve bağlantı kablosu",
-        "medium": "Tezgah üstü cihaz güç kablosu",
+        "medium": "Tezgah üstü gereç güç kablosu",
         "hard": "Everyday Objects"
       }
     },
@@ -427,8 +427,8 @@
     {
       "word": "Kova",
       "clues": {
-        "easy": "Tel saplı açık kova",
-        "medium": "Su taşıma yuvarlak kova",
+        "easy": "Tel saplı açık gereç",
+        "medium": "Su taşıma yuvarlak gereç",
         "hard": "Everyday Objects"
       }
     },
@@ -444,14 +444,14 @@
       "word": "Bir kalıp sabun",
       "clues": {
         "easy": "Köpük üreten kaygan blok",
-        "medium": "Kokulu köpürtme çubuğu",
+        "medium": "Kokulu köpüklü banyo bloğu",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Banyo havlusu",
       "clues": {
-        "easy": "Büyük emici banyo havlusu",
+        "easy": "Büyük emici duş gereç",
         "medium": "İlmekli pamuklu nem sargısı",
         "hard": "Everyday Objects"
       }
@@ -523,7 +523,7 @@
     {
       "word": "Ayakkabı bağı",
       "clues": {
-        "easy": "Ayakkabının üzerine düğümlenmiş dokuma kordonlar",
+        "easy": "gereçnın üzerine düğümlenmiş dokuma kordonlar",
         "medium": "Aglet uçlu örgülü kordon",
         "hard": "Everyday Objects"
       }
@@ -572,15 +572,15 @@
       "word": "Çöp kutusu",
       "clues": {
         "easy": "Atık için astarlı kap",
-        "medium": "Mutfak çöp konteyneri",
+        "medium": "Mutfak gereç konteyneri",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Çamaşır sepeti",
       "clues": {
-        "easy": "Giysiler için havalandırmalı sepet",
-        "medium": "Dokuma kirli çamaşır kutusu",
+        "easy": "Giysiler için havalandırmalı gereç",
+        "medium": "Dokuma kirli gereç kutusu",
         "hard": "Everyday Objects"
       }
     },
@@ -603,7 +603,7 @@
     {
       "word": "Kızartma tavası",
       "clues": {
-        "easy": "Düz tabanlı metal pişirme tavası",
+        "easy": "Düz tabanlı metal pişirme gereç",
         "medium": "Cızırtılı düz tabanlı metal",
         "hard": "Everyday Objects"
       }
@@ -635,8 +635,8 @@
     {
       "word": "Fırın eldiveni",
       "clues": {
-        "easy": "Yalıtımlı kumaş mutfak eldiveni",
-        "medium": "Kapitone ısıya dayanıklı eldiven",
+        "easy": "Yalıtımlı kumaş mutfak gereç",
+        "medium": "Kapitone ısıya dayanıklı gereç",
         "hard": "Everyday Objects"
       }
     },
@@ -644,7 +644,7 @@
       "word": "Önlük",
       "clues": {
         "easy": "Pişirme sırasında giyilen bağlı giysi",
-        "medium": "Bağlı önlük koruyucu giysi",
+        "medium": "Bağlı gereç koruyucu giysi",
         "hard": "Everyday Objects"
       }
     },
@@ -684,7 +684,7 @@
       "word": "Öğle yemeği kutusu",
       "clues": {
         "easy": "Sandviçler için taşınabilir kap",
-        "medium": "Bölme öğle yemeği paketi",
+        "medium": "Bölme gereç gereç paketi",
         "hard": "Everyday Objects"
       }
     },
@@ -747,7 +747,7 @@
     {
       "word": "Buz küpü tepsisi",
       "clues": {
-        "easy": "Küpler için bölmeli dondurucu kalıbı",
+        "easy": "Blokları soğutmak için bölmeli dondurucu kalıbı",
         "medium": "Bölünmüş sıfır altı kalıp",
         "hard": "Everyday Objects"
       }
@@ -755,8 +755,8 @@
     {
       "word": "Ceket askısı",
       "clues": {
-        "easy": "Paltolar için duvara monte askı",
-        "medium": "Ceketler için kavisli duvar ucu",
+        "easy": "Dış giyim için duvara monte gereç",
+        "medium": "gereçler için kavisli duvar ucu",
         "hard": "Everyday Objects"
       }
     },
@@ -795,7 +795,7 @@
     {
       "word": "Diş macunu",
       "clues": {
-        "easy": "Bir tüpten köpüklü macun",
+        "easy": "Bir tüpten köpüklü gereç",
         "medium": "Sabah kılları için florür köpüğü",
         "hard": "Everyday Objects"
       }
@@ -878,7 +878,7 @@
       "word": "Dondurma",
       "clues": {
         "easy": "Çalkalanmış soğutulmuş süt ikramı",
-        "medium": "Tatlı süt kremasının erimesi",
+        "medium": "Eriyen tatlı dondurulmuş süt kepçesi",
         "hard": "Food"
       }
     },
@@ -909,7 +909,7 @@
     {
       "word": "Patlamış mısır",
       "clues": {
-        "easy": "Patlayan ısıtılmış mısır taneleri",
+        "easy": "Patlayan ısıtılmış lezzet taneleri",
         "medium": "Patlatılmış tereyağlı tuzlu çekirdekler",
         "hard": "Food"
       }
@@ -1005,8 +1005,8 @@
     {
       "word": "Çin böreği",
       "clues": {
-        "easy": "Dolguların etrafına sarılmış ince ambalaj",
-        "medium": "Yarı saydam kızarmış hamur işi rulosu",
+        "easy": "Çıtır dolguların etrafına sarılmış ince ambalaj",
+        "medium": "Yarı saydam kızarmış pasta silindiri",
         "hard": "Food"
       }
     },
@@ -1053,7 +1053,7 @@
     {
       "word": "Miso çorbası",
       "clues": {
-        "easy": "Dashi ile fermente soya ezmesi çorbası",
+        "easy": "Dashi ile fermente soya ezmesi suyu",
         "medium": "Yeşil soğanlı bulutlu kahvaltı suyu",
         "hard": "Food"
       }
@@ -1086,14 +1086,14 @@
       "word": "Akçaağaç şurubu",
       "clues": {
         "easy": "Kahvaltılarda haşlanmış ağaç özü",
-        "medium": "Amber haşlanmış yaprak döken ağaç şurubu",
+        "medium": "Amber kaynatılmış yaprak döken ağaçların azaltılması",
         "hard": "Food"
       }
     },
     {
       "word": "Fıstık ezmesi",
       "clues": {
-        "easy": "Sandviçler için öğütülmüş baklagil ezmesi",
+        "easy": "Sandviçler için öğütülmüş baklagil lezzet",
         "medium": "Yapışkan kavrulmuş baklagil yayılması",
         "hard": "Food"
       }
@@ -1118,7 +1118,7 @@
       "word": "Süt",
       "clues": {
         "easy": "Kartonlarda besleyici beyaz içecek",
-        "medium": "Kalsiyum açısından zengin süt sıvısı",
+        "medium": "Kalsiyum açısından zengin lezzet sıvısı",
         "hard": "Food"
       }
     },
@@ -1141,7 +1141,7 @@
     {
       "word": "Sosisli sandviç",
       "clues": {
-        "easy": "Ekmek içinde hardallı kurutulmuş sosis",
+        "easy": "Ekmek içinde hardallı kurutulmuş lezzet",
         "medium": "Hardal şeritli bölünmüş çörek",
         "hard": "Food"
       }
@@ -1149,7 +1149,7 @@
     {
       "word": "patates kızartması",
       "clues": {
-        "easy": "Altın tuzlu patates copları",
+        "easy": "Altın tuzlu lezzet copları",
         "medium": "Tuzlu kağıt kollu coplar",
         "hard": "Food"
       }
@@ -1157,24 +1157,24 @@
     {
       "word": "Soğan halkaları",
       "clues": {
-        "easy": "Çıtır çıtır yağda kızartılmış sebze halkaları",
-        "medium": "Hırpalanmış eşmerkezli sebze halkaları",
+        "easy": "Çıtır çıtır yağda kızartılmış sebze lezzet",
+        "medium": "Hırpalanmış eşmerkezli sebze lezzet",
         "hard": "Food"
       }
     },
     {
       "word": "Patates püresi",
       "clues": {
-        "easy": "Çırpılmış baharatlı patates garnitürü",
-        "medium": "Eritilmiş krema ile dövülmüş patatesler",
+        "easy": "Çırpılmış terbiyeli spud garnitür",
+        "medium": "Eritilmiş krema ile dövülmüş lezzetler",
         "hard": "Food"
       }
     },
     {
       "word": "Fırında patates",
       "clues": {
-        "easy": "Ekşi krema ile folyoya sarılmış patates",
-        "medium": "Buharı tüten patates kabuğunu ayırın",
+        "easy": "Ekşi krema ile folyoya sarılmış bütün lezzet",
+        "medium": "Buharı tüten spud derisini böl",
         "hard": "Food"
       }
     },
@@ -1197,7 +1197,7 @@
     {
       "word": "Domates çorbası",
       "clues": {
-        "easy": "Tost ile eşleştirilmiş kremalı kırmızı çorba",
+        "easy": "Kremalı kırmızı püreli et suyu, kızarmış ekmekle eşleştirildi",
         "medium": "Sıcak püre haline getirilmiş kırmızı asma meyve kasesi",
         "hard": "Food"
       }
@@ -1205,7 +1205,7 @@
     {
       "word": "kırmızı biber",
       "clues": {
-        "easy": "Yavaş pişirilmiş et ve biber güveci",
+        "easy": "Yavaş pişirilmiş et ve lezzet güveci",
         "medium": "Kimyon ve barbunyayı haşlayın",
         "hard": "Food"
       }
@@ -1221,7 +1221,7 @@
     {
       "word": "Sahanda yumurta",
       "clues": {
-        "easy": "Kahvaltılık tavada yumurta karıştırıldı",
+        "easy": "Karıştırılmış kahvaltı tavası lezzet sarısı lorları",
         "medium": "Tost üzerinde kabarık tava lorları",
         "hard": "Food"
       }
@@ -1245,7 +1245,7 @@
     {
       "word": "Köfte",
       "clues": {
-        "easy": "Sosla pişirilmiş baharatlı et küresi",
+        "easy": "Sosla pişirilmiş baharatlı öğütülmüş lezzetli küre",
         "medium": "Marinara'da kızarmış sığır eti küresi",
         "hard": "Food"
       }
@@ -1278,7 +1278,7 @@
       "word": "Izgara peynir",
       "clues": {
         "easy": "Yapışkan süt merkezi ile tavada kızartılmış ekmek",
-        "medium": "Peynirli tereyağlı ızgara sandviç",
+        "medium": "Eritilmiş sütlü streç ile tereyağlı ızgara sandviç",
         "hard": "Food"
       }
     },
@@ -1334,7 +1334,7 @@
       "word": "kek",
       "clues": {
         "easy": "Tatlı krema girdaplı minyatür pasta",
-        "medium": "Tereyağlı krema taçlı astarlı kek",
+        "medium": "Tereyağlı krema taçlı astarlı lezzet",
         "hard": "Food"
       }
     },
@@ -1349,8 +1349,8 @@
     {
       "word": "peynirli kek",
       "clues": {
-        "easy": "Kırıntı bazında pişmiş tatlı krem peynir",
-        "medium": "Yoğun soğutulmuş sütlü kek dilimi",
+        "easy": "Kırıntı bazında pişmiş tatlı sütlü muhallebi",
+        "medium": "Yoğun soğutulmuş sütlü lezzet dilimi",
         "hard": "Food"
       }
     },
@@ -1373,7 +1373,7 @@
     {
       "word": "Tarçınlı rulo",
       "clues": {
-        "easy": "Tatlı krema ile pişmiş haddelenmiş hamur girdap",
+        "easy": "Tatlı krema ile pişmiş spiral hamur girdap",
         "medium": "Krem sırlı spiral tatlı hamur",
         "hard": "Food"
       }
@@ -1381,7 +1381,7 @@
     {
       "word": "Sarımsaklı ekmek",
       "clues": {
-        "easy": "Bitkisel tereyağı ile pişmiş çıtır ekmek",
+        "easy": "Otlu tereyağı ile pişmiş çıtır dilimlenmiş somun",
         "medium": "Fırında kızartılmış tereyağlı otlu somun",
         "hard": "Food"
       }
@@ -1430,7 +1430,7 @@
       "word": "Zeytinyağı",
       "clues": {
         "easy": "Altın salata sosu ve pişirme sıvısı",
-        "medium": "Akdeniz soğuk preslenmiş yeşil yağ",
+        "medium": "Akdeniz soğuk preslenmiş meyveli yağ",
         "hard": "Food"
       }
     },
@@ -1493,8 +1493,8 @@
     {
       "word": "Tahıl",
       "clues": {
-        "easy": "Kutulu tahıllar sabah kasesine döküldü",
-        "medium": "Süt kasesinde kızartılmış tahıl gevreği",
+        "easy": "Kutulu lezzetlar sabah kasesine döküldü",
+        "medium": "Süt kasesinde kızartılmış lezzet gevreği",
         "hard": "Food"
       }
     },
@@ -1518,7 +1518,7 @@
       "word": "Soya peyniri",
       "clues": {
         "easy": "Tavada kızartmalarda kullanılan hafif beyaz protein bloğu",
-        "medium": "Preslenmiş pıhtılaşmış soya sütü küpü",
+        "medium": "Preslenmiş pıhtılaşmış lezzet sütü küpü",
         "hard": "Food"
       }
     },
@@ -1608,14 +1608,14 @@
       "word": "Köpek",
       "clues": {
         "easy": "Kuyruğu sallar ve topları alır",
-        "medium": "Köpek evcil arkadaşı",
+        "medium": "canlı evcil arkadaşı",
         "hard": "Animals"
       }
     },
     {
       "word": "Kedi",
       "clues": {
-        "easy": "Geri çekilebilir pençeler ve kedi zarafeti",
+        "easy": "Geri çekilebilir pençeler ve canlı zarafeti",
         "medium": "Bağımsız yerli fare",
         "hard": "Animals"
       }
@@ -1624,7 +1624,7 @@
       "word": "At",
       "clues": {
         "easy": "Yelesi akan atlı yaratık",
-        "medium": "Padokta dörtnala koşan at",
+        "medium": "Padokta dörtnala koşan canlı",
         "hard": "Animals"
       }
     },
@@ -1640,7 +1640,7 @@
       "word": "Domuz",
       "clues": {
         "easy": "Kıvırcık kuyruklu akıllı hayvancılık",
-        "medium": "Çamurda yuvarlanan çiftlik domuzu",
+        "medium": "Çamurda yuvarlanan çiftlik canlıu",
         "hard": "Animals"
       }
     },
@@ -1672,7 +1672,7 @@
       "word": "Horoz",
       "clues": {
         "easy": "Parlak taraklı tepeli erkek kuş",
-        "medium": "Şafak çağıran çiftlik horozu",
+        "medium": "Şafak çağıran çiftlik canlıu",
         "hard": "Animals"
       }
     },
@@ -1735,7 +1735,7 @@
     {
       "word": "Japon balığı",
       "clues": {
-        "easy": "Soğuk su süs kase balığı",
+        "easy": "Soğuk su süs kase canlı",
         "medium": "Ölçekli tatlı su tankı evcil hayvanı",
         "hard": "Animals"
       }
@@ -1912,7 +1912,7 @@
       "word": "Yılan",
       "clues": {
         "easy": "Dilin titreşmesi ve pul pul dökülen cilt",
-        "medium": "Zehirli veya daraltıcı yılan",
+        "medium": "Zehirli veya daraltıcı canlı",
         "hard": "Animals"
       }
     },
@@ -2015,7 +2015,7 @@
     {
       "word": "Boz ayı",
       "clues": {
-        "easy": "Omuz kamburu ayı nehirde somon balığı yakalıyor",
+        "easy": "Nehir somonunu yakalayan omuz kamburlu tepe canavarı",
         "medium": "Kış uykusuna yatan güçlü iç kesimlerde yaşayan omnivordur",
         "hard": "Animals"
       }
@@ -2151,7 +2151,7 @@
     {
       "word": "Güvercin",
       "clues": {
-        "easy": "Ekmek kırıntılarını yiyen şehir güvercini",
+        "easy": "Ekmek kırıntılarını yiyen şehir canlıi",
         "medium": "Hedef bulma içgüdüsü olan şehir sürüsü kuşu",
         "hard": "Animals"
       }
@@ -2255,7 +2255,7 @@
     {
       "word": "Denizyıldızı",
       "clues": {
-        "easy": "Mercan üzerinde deniz yıldızı yenileniyor",
+        "easy": "Mercan üzerinde beş kollu canlı canlısının yenilenmesi",
         "medium": "Radyal bentik paletli",
         "hard": "Animals"
       }
@@ -2327,8 +2327,8 @@
     {
       "word": "Uğur böceği",
       "clues": {
-        "easy": "Yaprak bitlerini yiyen yararlı bahçe böceği",
-        "medium": "Benekli kubbe bahçe böceği",
+        "easy": "Yaprak bitlerini yiyen yararlı bahçe canlı",
+        "medium": "Benekli kubbe bahçe canlı",
         "hard": "Animals"
       }
     },
@@ -2673,7 +2673,7 @@
     {
       "word": "Güney Afrika",
       "clues": {
-        "easy": "Kıtanın güney ucundaki gökkuşağı ülkesi",
+        "easy": "Ümit Burnu'ndaki gökkuşağı ulusu",
         "medium": "Altın ve pırlantalarla dolu iki okyanuslu burun ülkesi",
         "hard": "Countries"
       }
@@ -2745,8 +2745,8 @@
     {
       "word": "Suudi Arabistan",
       "clues": {
-        "easy": "Tarihi hac ziyaretiyle Arap Yarımadası'nın kalbi",
-        "medium": "Arap Yarımadası'nın çoğunu işgal eden krallık",
+        "easy": "Tarihi Mekke hac ziyaretiyle geniş çöl yarımadasının kalbi",
+        "medium": "Geniş çöl körfez yarımadasının çoğunu işgal eden krallık",
         "hard": "Countries"
       }
     },
@@ -2866,7 +2866,7 @@
       "word": "Filipinler",
       "clues": {
         "easy": "Yedi bin adadan oluşan Pasifik takımada ülkesi",
-        "medium": "Güney Çin Denizi ile Filipin Denizi arasındaki ada zinciri",
+        "medium": "Luzon Boğazı ve Celebes Denizi arasındaki tropik takımadalar",
         "hard": "Countries"
       }
     },
@@ -2874,7 +2874,7 @@
       "word": "Güney Kore",
       "clues": {
         "easy": "Canlı kültürüyle yüksek teknolojiye sahip yarımada ülkesi",
-        "medium": "38. paralelin güneyindeki Doğu Asya cumhuriyeti",
+        "medium": "38. paralelin altındaki Doğu Asya cumhuriyeti",
         "hard": "Countries"
       }
     },
@@ -3227,7 +3227,7 @@
     {
       "word": "Diş Hekimi",
       "clues": {
-        "easy": "Ağız aynası, sonda ve diş matkabı",
+        "easy": "Ağız aynası, sonda ve uzman matkabı",
         "medium": "Ağız sağlığı uzmanı",
         "hard": "Professions"
       }
@@ -3307,7 +3307,7 @@
     {
       "word": "Kütüphaneci",
       "clues": {
-        "easy": "Kütüphane yığınlarını korur ve araştırmacılara yardımcı olur",
+        "easy": "uzman yığınlarını korur ve araştırmacılara yardımcı olur",
         "medium": "Kataloglanmış baskı kaynaklarının küratörü",
         "hard": "Professions"
       }
@@ -3396,7 +3396,7 @@
       "word": "Uçuş görevlisi",
       "clues": {
         "easy": "Acil çıkışları ve kabin güvenliğini gösterir",
-        "medium": "Uçak içi yolcu kabin görevlisi",
+        "medium": "Havadaki yolcu kabin uzman",
         "hard": "Professions"
       }
     },
@@ -3412,7 +3412,7 @@
       "word": "denizci",
       "clues": {
         "easy": "Gemi arma, bağlama ve navigasyonla ilgilenir",
-        "medium": "Denizcilik gemi mürettebatı üyesi",
+        "medium": "uzmanlik gemi mürettebatı üyesi",
         "hard": "Professions"
       }
     },
@@ -3420,7 +3420,7 @@
       "word": "İtfaiyeci",
       "clues": {
         "easy": "Kask, ağır hortum ve merdivenli kamyon",
-        "medium": "Acil durum yangın söndürme uzmanı",
+        "medium": "Acil yangın söndürme uzmanı",
         "hard": "Professions"
       }
     },
@@ -3428,7 +3428,7 @@
       "word": "Polis memuru",
       "clues": {
         "easy": "Rozet, üniforma ve topluluk acil durum devriyesi",
-        "medium": "Kolluk kuvvetleri devriye memuru",
+        "medium": "Kolluk kuvvetleri üniformalı devriye ajanı",
         "hard": "Professions"
       }
     },
@@ -3452,7 +3452,7 @@
       "word": "Avukat",
       "clues": {
         "easy": "Mahkeme önergelerini sunar ve kanunları yorumlar",
-        "medium": "Lisanslı avukat",
+        "medium": "Lisanslı uzman",
         "hard": "Professions"
       }
     },
@@ -3516,7 +3516,7 @@
       "word": "Elektrikçi",
       "clues": {
         "easy": "Yalıtımlı pense, devre kesiciler ve kablolama",
-        "medium": "Yüksek gerilim elektrik kablo tesisatçısı",
+        "medium": "Yüksek gerilim uzman kablo tesisatçısı",
         "hard": "Professions"
       }
     },
@@ -3539,7 +3539,7 @@
     {
       "word": "Ressam",
       "clues": {
-        "easy": "Rulolar, boya tepsileri ve damlama bezleri",
+        "easy": "Silindirler, pigment tepsileri ve damlama bezleri",
         "medium": "Yüzey kaplama ve terbiye ustası",
         "hard": "Professions"
       }
@@ -3571,8 +3571,8 @@
     {
       "word": "Çiçekçi",
       "clues": {
-        "easy": "Makaslar, kurdeleler ve soğutulmuş çiçek sergileri",
-        "medium": "Botanik çiçek aranjmanı tasarımcısı",
+        "easy": "Makaslar, kurdeleler ve soğutulmuş uzman sergileri",
+        "medium": "Botanik uzman aranjmanı tasarımcısı",
         "hard": "Professions"
       }
     },
@@ -3580,7 +3580,7 @@
       "word": "Bahçıvan",
       "clues": {
         "easy": "Budama makası, mala, toprak ve malç",
-        "medium": "Bahçıvanlık peyzajı bahçıvanı",
+        "medium": "uzmanlık peyzajı uzmanı",
         "hard": "Professions"
       }
     },
@@ -3619,7 +3619,7 @@
     {
       "word": "Müzisyen",
       "clues": {
-        "easy": "Notalar, ritim ve akustik enstrüman",
+        "easy": "Skor sayfaları, ritim ve akustik enstrüman",
         "medium": "Enstrümantal performans sanatçısı",
         "hard": "Professions"
       }
@@ -3636,7 +3636,7 @@
       "word": "yazar",
       "clues": {
         "easy": "Taslaklar, bölümler ve yaratıcı düzyazı taslakları hazırlar",
-        "medium": "Edebi yazar ve düzyazı yaratıcısı",
+        "medium": "Edebi uzman ve düzyazı yaratıcısı",
         "hard": "Professions"
       }
     },
@@ -3652,7 +3652,7 @@
       "word": "Tercüman",
       "clues": {
         "easy": "Zirvelerde canlı kulaklık çevirisi",
-        "medium": "Gerçek zamanlı sözlü konuşma tercümanı",
+        "medium": "Gerçek zamanlı sözlü konuşma uzmanı",
         "hard": "Professions"
       }
     },
@@ -3667,15 +3667,15 @@
     {
       "word": "Bankacı",
       "clues": {
-        "easy": "Mali sermayeyi ve banka kredisini denetler",
-        "medium": "Ticari bankacılık ve kredi memuru",
+        "easy": "Mali sermayeyi ve ticari krediyi denetler",
+        "medium": "Ticari finansman ve kredi memuru",
         "hard": "Professions"
       }
     },
     {
       "word": "Kasiyer",
       "clues": {
-        "easy": "Barkod tarayıcı, yazarkasa ve makbuz yazıcısı",
+        "easy": "Barkod tarayıcı, ödeme çekmecesi ve makbuz yazıcısı",
         "medium": "Perakende ödeme satış noktası operatörü",
         "hard": "Professions"
       }
@@ -3699,7 +3699,7 @@
     {
       "word": "Tur rehberi",
       "clues": {
-        "easy": "Yorumlar sağlar ve yürüyüş turlarına rehberlik eder",
+        "easy": "Ziyaretçileri ziyaret edenlere tarihi yorumlar sağlar",
         "medium": "Kültürel gezi gezisi lideri",
         "hard": "Professions"
       }
@@ -3707,8 +3707,8 @@
     {
       "word": "Taksi şoförü",
       "clues": {
-        "easy": "Gösterge paneli taksimetresi ile sokak trafiğini yönlendirir",
-        "medium": "Kentsel sokak yolcu taksi şoförü",
+        "easy": "Kontrol paneli ücret ölçeri ile sokak trafiğini yönlendirir",
+        "medium": "Kentsel sokak yolcusu sarı uzman operatörü",
         "hard": "Professions"
       }
     },
@@ -3724,15 +3724,15 @@
       "word": "Posta taşıyıcısı",
       "clues": {
         "easy": "Mektuplarla dolu çantayı sokak güzergahı boyunca taşır",
-        "medium": "Posta mektubu ve paket teslimat taşıyıcısı",
+        "medium": "uzman mektubu ve paket teslimat kuryesi",
         "hard": "Professions"
       }
     },
     {
       "word": "Teslimat kuryesi",
       "clues": {
-        "easy": "Teslimat kamyonetini çalıştırır ve paket barkodlarını tarar",
-        "medium": "Son mil kapı eşiği paket kuryesi",
+        "easy": "Sevkiyat aracını çalıştırır ve paket barkodlarını tarar",
+        "medium": "Son mil kapı eşiği paket koşucusu",
         "hard": "Professions"
       }
     },
@@ -3748,7 +3748,7 @@
       "word": "Grafik tasarımcısı",
       "clues": {
         "easy": "Dijital illüstrasyon yazılımı ve tipografi",
-        "medium": "Ticari görsel markalama tasarımcısı",
+        "medium": "Ticari görsel markalama sanatçısı",
         "hard": "Professions"
       }
     },
@@ -3756,7 +3756,7 @@
       "word": "Film yönetmeni",
       "clues": {
         "easy": "Aksiyonu çağırır, sinematografiye rehberlik eder ve incelemeler",
-        "medium": "Sinematik film yönetmeni",
+        "medium": "Sinematik sinema uzmani yazarı",
         "hard": "Professions"
       }
     },
@@ -3795,7 +3795,7 @@
     {
       "word": "Hayvanat Bahçesi bekçisi",
       "clues": {
-        "easy": "Muhafazaları temizler ve hayvan diyetlerini yönetir",
+        "easy": "Muhafazaları temizler ve uzman diyetlerini yönetir",
         "medium": "Esir yaban hayatı bakım uzmanı",
         "hard": "Professions"
       }
@@ -3812,7 +3812,7 @@
       "word": "Demirci",
       "clues": {
         "easy": "Ağır çekiç, fırın demirhanesi ve maşa",
-        "medium": "Isıtmalı demir dövme metal işçisi",
+        "medium": "Isıtmalı uzman dövme metal işçisi",
         "hard": "Professions"
       }
     },
@@ -3828,7 +3828,7 @@
       "word": "Çilingir",
       "clues": {
         "easy": "Tumbler'ları, anahtar boşluklarını seçer ve sürgüleri takar",
-        "medium": "Anahtar kesme ve silindir kilit uzmanı",
+        "medium": "Anahtar kesme ve silindir bardak uzmanı",
         "hard": "Professions"
       }
     },
@@ -3843,7 +3843,7 @@
     {
       "word": "Kamyon şoförü",
       "clues": {
-        "easy": "Eyaletler arası on sekiz tekerlekli yarı kamyonu sürüyor",
+        "easy": "Eyaletler arası on sekiz tekerlekli yarı aracı sürüyor",
         "medium": "Uzun mesafe eyaletler arası yük operatörü",
         "hard": "Professions"
       }
@@ -3876,14 +3876,14 @@
       "word": "Asker",
       "clues": {
         "easy": "Kamuflaj üniforması, çizmeler ve taktik savunma",
-        "medium": "Üniformalı askeri silahlı savunucu",
+        "medium": "Üniformalı uzmani silahlı savunucu",
         "hard": "Professions"
       }
     },
     {
       "word": "Sihirbaz",
       "clues": {
-        "easy": "Oyun kağıtları, sihirli değnek ve aldatıcı numaralar",
+        "easy": "Oyun kağıtları, cilalı asa ve aldatıcı el çabukluğu",
         "medium": "Sahne illüzyonisti ve el çabukluğu sanatçısı",
         "hard": "Professions"
       }
@@ -3900,15 +3900,15 @@
       "word": "Emlakçı",
       "clues": {
         "easy": "Müşterilere evleri gösterir ve mülk anlaşmalarını kapatır",
-        "medium": "Lisanslı konut emlak komisyoncusu",
+        "medium": "Lisanslı konut uzman komisyoncusu",
         "hard": "Professions"
       }
     },
     {
       "word": "Dükkan sahibi",
       "clues": {
-        "easy": "Rafları stoklar, alışveriş yapanlara yardımcı olur ve mağazayı yönetir",
-        "medium": "Bağımsız perakende mağazası sahibi",
+        "easy": "Rafları stoklar, müşterilere yardımcı olur ve vitrini yönetir",
+        "medium": "Bağımsız perakende mağazası uzman",
         "hard": "Professions"
       }
     },
@@ -3923,7 +3923,7 @@
     {
       "word": "göz doktoru",
       "clues": {
-        "easy": "Göz grafiği, foropter ve görme testi",
+        "easy": "uzman grafiği, foropter ve görme testi",
         "medium": "Refraktif görme muayenesi klinisyeni",
         "hard": "Professions"
       }
@@ -3931,8 +3931,8 @@
     {
       "word": "Diyetisyen",
       "clues": {
-        "easy": "Kalori alımını ve dengeli beslenmeyi hesaplar",
-        "medium": "Diyet sağlıklı yaşam ve beslenme danışmanı",
+        "easy": "Kalori alımını ve dengeli yemek planlarını hesaplar",
+        "medium": "uzman sağlıklı yaşam ve gıda sağlığı danışmanı",
         "hard": "Professions"
       }
     },
@@ -3947,7 +3947,7 @@
     {
       "word": "Rahip",
       "clues": {
-        "easy": "Rahip tasması, minber vaazları ve kutsamalar",
+        "easy": "uzman tasması, minber vaazları ve kutsamalar",
         "medium": "Atanmış kilise kilisesi bakanı",
         "hard": "Professions"
       }
@@ -3971,8 +3971,8 @@
     {
       "word": "Hava trafik kontrolörü",
       "clues": {
-        "easy": "Radar ekranı, kulaklık ve havaalanı pist temizliği",
-        "medium": "Havaalanı kulesi hava sahası radar kontrolörü",
+        "easy": "Radar ekranı, kulaklık ve uzmanalanı pist temizliği",
+        "medium": "uzman kulesi uzman sahası radar monitörü",
         "hard": "Professions"
       }
     },
@@ -3980,7 +3980,7 @@
       "word": "Vinç operatörü",
       "clues": {
         "easy": "Yüksek kabin kolları, kaldırma halatları ve karşı ağırlıklar",
-        "medium": "Ağır vinç inşaatı kabin operatörü",
+        "medium": "Ağır uzman inşaat kabini uzmanı",
         "hard": "Professions"
       }
     },
@@ -4101,8 +4101,8 @@
     {
       "word": "Masa tenisi",
       "clues": {
-        "easy": "Minyatür kürekler masa ağı üzerinde toplanıyor",
-        "medium": "Pinpon masası lastik kürek maçı",
+        "easy": "Yeşil ağ üzerinde toplanan minyatür kürekler",
+        "medium": "Pinpon kapalı alanda lastik kürek maçı",
         "hard": "Sports"
       }
     },
@@ -4133,7 +4133,7 @@
     {
       "word": "Kayak",
       "clues": {
-        "easy": "Kayak direkleri, oymalı dönüşler ve telesiyejler",
+        "easy": "branş direkleri, oymalı dönüşler ve telesiyejler",
         "medium": "Çift çıtalı karlı yokuş aşağı Alp inişi",
         "hard": "Sports"
       }
@@ -4141,8 +4141,8 @@
     {
       "word": "Snowboard",
       "clues": {
-        "easy": "Her iki bot da tek kar güvertesine bağlandı",
-        "medium": "Toz karla oyulmuş tek dağ güvertesi",
+        "easy": "Her iki bot da tek kışlık güverteye bağlandı",
+        "medium": "Tek dağ güvertesi, toz halindeki kırağıyı oyuyor",
         "hard": "Sports"
       }
     },
@@ -4213,8 +4213,8 @@
     {
       "word": "Kürek çekme",
       "clues": {
-        "easy": "Mürettebat yarış halindeki sularda geriye doğru kürek çekiyor",
-        "medium": "Senkronize kürekçiler yarış kabuğunu süpürüyor",
+        "easy": "Mürettebat yarış halindeki sularda geriye doğru branş çekiyor",
+        "medium": "Senkronize branşçiler yarış kabuğunu süpürüyor",
         "hard": "Sports"
       }
     },
@@ -4237,7 +4237,7 @@
     {
       "word": "Yelken",
       "clues": {
-        "easy": "Ana yelkeni kırpmak ve rüzgarlara karşı tramola atmak",
+        "easy": "Ana branşi kırpmak ve rüzgarlara karşı tramola atmak",
         "medium": "Rüzgarla çalışan deniz tekne navigasyonu",
         "hard": "Sports"
       }
@@ -4254,7 +4254,7 @@
       "word": "Dağ bisikleti",
       "clues": {
         "easy": "Süspansiyon çatalları kayaların ve toprağın üzerinde zıplıyor",
-        "medium": "Off-road yokuş aşağı patika bisikleti",
+        "medium": "Off-road yokuş aşağı patika branş",
         "hard": "Sports"
       }
     },
@@ -4278,7 +4278,7 @@
       "word": "Sürat pateni",
       "clues": {
         "easy": "Donmuş oval pistin etrafında alçak çömelme koşusu",
-        "medium": "Uzun buz bıçakları üzerinde aerodinamik sürat koşusu",
+        "medium": "Uzun buz bıçakları üzerinde aerodinamik branş koşusu",
         "hard": "Sports"
       }
     },
@@ -4334,7 +4334,7 @@
       "word": "Engeller",
       "clues": {
         "easy": "Aralıklı ahşap kapıları temizleyerek ritmik sürat koşusu",
-        "medium": "Dik engelleri temizleyerek sprint'i takip edin",
+        "medium": "Dik branşi temizleyerek sprint'i takip edin",
         "hard": "Sports"
       }
     },
@@ -4358,7 +4358,7 @@
       "word": "Sırıkla atlama",
       "clues": {
         "easy": "Çubuğu temizlemek için esnek fiberglas direk dikmek",
-        "medium": "Fiberglas direğin esnemesiyle desteklenen dikey sıçrama",
+        "medium": "Fiberglas çubuğun esnemesiyle desteklenen dikey sıçrama",
         "hard": "Sports"
       }
     },
@@ -4390,7 +4390,7 @@
       "word": "Halter",
       "clues": {
         "easy": "Tebeşirlenmiş ağırlıklarla kapmak, temizlemek ve sarsmak",
-        "medium": "Halterin platformdan baş üstü kilide yükseltilmesi",
+        "medium": "branşin platformdan baş üstü kilide yükseltilmesi",
         "hard": "Sports"
       }
     },
@@ -4398,7 +4398,7 @@
       "word": "Kaya tırmanışı",
       "clues": {
         "easy": "Emniyet kemeri, karabinalar, tebeşir çantası ve emniyet halatları",
-        "medium": "Parmak tutuşlarını kullanarak yükselen dikey kaya yüzeyleri",
+        "medium": "Parmak tutmayı kullanarak dikey uçurum yüzeylerini tırmanmak",
         "hard": "Sports"
       }
     },
@@ -4446,7 +4446,7 @@
       "word": "Sutopu",
       "clues": {
         "easy": "Kulak koruyuculu ve yüzen kalecili boneler",
-        "medium": "Derin sularda su topu hücumu",
+        "medium": "Derin suda klorlu top hücumu",
         "hard": "Sports"
       }
     },
@@ -4494,22 +4494,22 @@
       "word": "Bilardo",
       "clues": {
         "easy": "Kırmızı ve renkli topları sırayla yerleştirme",
-        "medium": "Bilardo kumaş masası renkli küreler saklıyor",
+        "medium": "branş kumaş masası renkli küreler saklıyor",
         "hard": "Sports"
       }
     },
     {
       "word": "Çim hokeyi",
       "clues": {
-        "easy": "Çim sahada topu kaleye sokan kancalı sopalar",
-        "medium": "Kavisli çubuk çim ve çim kale maçı",
+        "easy": "branş sahada topu kaleye sokan kancalı sopalar",
+        "medium": "Kavisli çubuk branş ve branş kale maçı",
         "hard": "Sports"
       }
     },
     {
       "word": "Sanatsal yüzme",
       "clues": {
-        "easy": "Yüzme havuzunda burun klipsi rutinleri baş aşağı",
+        "easy": "Klorlu havuzda burun mandalı rutinleri baş aşağı",
         "medium": "Müzikle sudaki senkronize koreografi",
         "hard": "Sports"
       }
@@ -4518,7 +4518,7 @@
       "word": "Su kayağı",
       "clues": {
         "easy": "Çekme halatını tutarak teknenin dümen suyu üzerinde süzülme",
-        "medium": "Açık su üzerinde tekneyle çekilen planyalama",
+        "medium": "Çift koşucularda tekneyle çekilen dümen suyu sıyırma",
         "hard": "Sports"
       }
     },
@@ -4549,8 +4549,8 @@
     {
       "word": "Karma dövüş sanatları",
       "clues": {
-        "easy": "Boks, güreş ve jiu-jitsu'yu birleştiren sekizgen dövüş",
-        "medium": "Kafesli çok disiplinli tam temaslı dövüş",
+        "easy": "Boks, güreş ve jiu-jitsu'yu birleştiren sekizgen branş",
+        "medium": "Kafesli çok disiplinli tam temaslı branş",
         "hard": "Sports"
       }
     },
@@ -4582,7 +4582,7 @@
       "word": "Disk golfü",
       "clues": {
         "easy": "Park boyunca zincir bağlantılı sepet hedeflerinin seyri",
-        "medium": "Tee'den sepete uçan disk doğruluk kursu",
+        "medium": "Tee'den sepete uçan daire doğruluk kursu",
         "hard": "Sports"
       }
     },
@@ -4590,7 +4590,7 @@
       "word": "Paten derbisi",
       "clues": {
         "easy": "Yatık oval üzerinde kurşun karıştırıcı alıştırma paketi",
-        "medium": "Oval pistte dörtlü patenle temas yarışı",
+        "medium": "Oval pistte dörtlü branşle temas yarışı",
         "hard": "Sports"
       }
     },
@@ -4645,8 +4645,8 @@
     {
       "word": "Buz dansı",
       "clues": {
-        "easy": "Karmaşık senkronize ayak hareketleri ve buz üzerinde tökezlemeler",
-        "medium": "Buz üzerinde tiyatro balo salonu partner koreografisi",
+        "easy": "Donmuş pistte karmaşık senkronize ayak hareketleri ve tökezlemeler",
+        "medium": "Donmuş pistte tiyatro balo salonu partner koreografisi",
         "hard": "Sports"
       }
     },
@@ -4669,7 +4669,7 @@
     {
       "word": "Turşu topu",
       "clues": {
-        "easy": "Sağlam kürekler alçak ağ üzerinde delikli plastik topu sallıyor",
+        "easy": "Sağlam kürekler alçak ağ üzerinde delikli plastik branş sallıyor",
         "medium": "Voleybolu olmayan mutfak bölgesi delikli top sporu",
         "hard": "Sports"
       }
@@ -4678,14 +4678,14 @@
       "word": "Raketbol",
       "clues": {
         "easy": "Canlı bir şekilde oynayan kısa raketler tüm saha duvarlarından seker",
-        "medium": "Duvarlarla çevrili kapalı kortta kısa raket ribaundları",
+        "medium": "Duvarlarla çevrili kapalı kortta kısa branş ribaundları",
         "hard": "Sports"
       }
     },
     {
       "word": "Bilardo",
       "clues": {
-        "easy": "Cepsiz bilardo toplarına çarpan karambol atışları",
+        "easy": "Cepleri olmayan renkli kürelere çarpan karambol atışları",
         "medium": "Ray yastıklarını kullanarak masa işaret çekimlerini yapın",
         "hard": "Sports"
       }
@@ -4717,7 +4717,7 @@
     {
       "word": "Atlamayı göster",
       "clues": {
-        "easy": "Zaman sınırı içinde stadyum atlama çitlerinde gezinme",
+        "easy": "Zaman sınırı içinde stadyum engel çitlerinde gezinme",
         "medium": "Renkli stadyum raylarını temizleyen binicilik parkuru",
         "hard": "Sports"
       }
@@ -4725,16 +4725,16 @@
     {
       "word": "Ejderha teknesi",
       "clues": {
-        "easy": "Davul ritmi ve süslü ejderha yayı ile senkronize kürekçiler",
-        "medium": "Ejderha pruvası ile senkronize grup kürek çekme",
+        "easy": "Davul ritmi ve efsanevi yılan yayı ile senkronize kürekçiler",
+        "medium": "Efsanevi canavar pruvasıyla senkronize grup kürek çekiyor",
         "hard": "Sports"
       }
     },
     {
       "word": "Spor tırmanışı",
       "clues": {
-        "easy": "Spor salonuna tırmanma rotasını ölçeklendirirken hızlı çizimleri kırpma",
-        "medium": "Spor salonu duvar tırmanışı çapalara tutturuldu",
+        "easy": "Yapay branş salonu rotasını ölçeklendirirken hızlı çizimleri kırpma",
+        "medium": "Ankrajlara tutturulmuş branş salonu kapalı duvar branş",
         "hard": "Sports"
       }
     },
@@ -4742,7 +4742,7 @@
       "word": "Kaya tırmanışı",
       "clues": {
         "easy": "Halatsız tırmanma yere yakın vücut problemlerini çözüyor",
-        "medium": "Çarpma matları üzerinde alçak yükseklikte teknik tırmanış",
+        "medium": "Çarpma matları üzerinde alçak yükseklikte teknik branş",
         "hard": "Sports"
       }
     },
@@ -4790,7 +4790,7 @@
       "word": "Halat çekme oyunu",
       "clues": {
         "easy": "Botları kir kaldıran orta ip işaretçisine sabitleyin",
-        "medium": "İki ekip sınır çizgisi boyunca kalın halat çekiyor",
+        "medium": "İki ekip sınır çizgisi boyunca kalın branş çekiyor",
         "hard": "Sports"
       }
     },
@@ -4991,7 +4991,7 @@
     {
       "word": "Burger King",
       "clues": {
-        "easy": "Kralın taç taktığı fast food zinciri",
+        "easy": "Taç takan hükümdarın bulunduğu fast food zinciri",
         "medium": "Sarı çörek yarımları arasına sıkıştırılmış metin",
         "hard": "Logos & Brands"
       }
@@ -5023,7 +5023,7 @@
     {
       "word": "Pizza Hut",
       "clues": {
-        "easy": "Kırmızı çatı logolu pizza restoranı",
+        "easy": "Kırmızı çatı logolu İtalyan fast-casual zinciri",
         "medium": "Eğimli kırmızı kenarlı şapka silueti",
         "hard": "Logos & Brands"
       }
@@ -5625,7 +5625,7 @@
     {
       "word": "Otobüs",
       "clues": {
-        "easy": "Durakları olan tarifeli toplu taşıma otobüsü",
+        "easy": "Durakları olan tarifeli toplu taşıma vasıtaü",
         "medium": "Çok yolculu belediye karayolu geçişi",
         "hard": "Transport"
       }
@@ -5697,7 +5697,7 @@
     {
       "word": "Taksi",
       "clues": {
-        "easy": "Doğrudan varış noktasına seyahat için sokak taksisi selamlandı",
+        "easy": "Doğrudan varış noktasına seyahat için sokak vasıtasi selamlandı",
         "medium": "Ticari ölçülü sokak binek aracı",
         "hard": "Transport"
       }
@@ -5705,7 +5705,7 @@
     {
       "word": "Metro",
       "clues": {
-        "easy": "Yeraltı platformlarında duran metro tüneli trenleri",
+        "easy": "Yeraltı platformlarında duran vasıta tüneli trenleri",
         "medium": "Yeraltı elektrikli yolcu demiryolu şebekesi",
         "hard": "Transport"
       }
@@ -5770,14 +5770,14 @@
       "word": "Yolcu gemisi",
       "clues": {
         "easy": "Havuzları, terasları ve kabinleri olan yüzen tatil oteli",
-        "medium": "Çok katlı okyanus yolcusu tatil gemisi",
+        "medium": "Çok katlı okyanus vasıtasu tatil vasıta",
         "hard": "Transport"
       }
     },
     {
       "word": "Kargo gemisi",
       "clues": {
-        "easy": "Denizlerde renkli metal nakliye konteynırları yığınları",
+        "easy": "Okyanuslar boyunca renkli metal yük konteynırları yığınları",
         "medium": "Toplu deniz konteyneri yük taşıyıcısı",
         "hard": "Transport"
       }
@@ -5785,7 +5785,7 @@
     {
       "word": "Denizaltı",
       "clues": {
-        "easy": "Periskop ve balast tanklarına sahip batık deniz taşıtları",
+        "easy": "Periskop ve balast tanklarına sahip batık vasıta taşıtları",
         "medium": "Su geçirmez basınçlı alt yüzey gövdesi",
         "hard": "Transport"
       }
@@ -5801,7 +5801,7 @@
     {
       "word": "Sıcak hava balonu",
       "clues": {
-        "easy": "Brülör zarfın içindeki havayı yukarıda ısıtıyor",
+        "easy": "Brülör ısıtma gazı yukarıda zarfın içinde",
         "medium": "Termal yüzdürme hasır yolcu uçuşu",
         "hard": "Transport"
       }
@@ -5849,8 +5849,8 @@
     {
       "word": "İtfaiye aracı",
       "clues": {
-        "easy": "İtfaiye aracı yangına sirenle müdahale etti",
-        "medium": "Hidrolik hava merdiveni ve su pompalama kamyonu",
+        "easy": "Bina yangınlarına sirenle müdahale eden acil durum vasıta",
+        "medium": "Hidrolik hava merdiveni ve yüksek basınçlı pompalama donanımı",
         "hard": "Transport"
       }
     },
@@ -5889,7 +5889,7 @@
     {
       "word": "Damperli kamyon",
       "clues": {
-        "easy": "Çakıl, kum ve molozu taşır ve döker",
+        "easy": "Çakıl, kum ve molozun taşınması ve boşaltılması",
         "medium": "Hidrolik devrilme açık kutu toplu taşıma aracı",
         "hard": "Transport"
       }
@@ -5905,24 +5905,24 @@
     {
       "word": "Kar temizleme aracı",
       "clues": {
-        "easy": "Buzlu yolları temizliyor ve kaldırım boyunca kar yığıyor",
-        "medium": "Öne monteli açılı kamalı kar temizleme aracı",
+        "easy": "Buzlu yolları vasıtak ve kaldırım boyunca sulu karı itmek",
+        "medium": "Öne monteli açılı kama kış vasıta vasıta",
         "hard": "Transport"
       }
     },
     {
       "word": "Kar arabası",
       "clues": {
-        "easy": "Gidonla yönlendirilen makine, kış karlarında kayma yapıyor",
-        "medium": "Arkadan paletli kış kar geçiş makinesi",
+        "easy": "Çift direksiyonlu kayaklarla toz üzerinde basamaklar",
+        "medium": "Arkadan takip edilen kış tundra geçiş makinesi",
         "hard": "Transport"
       }
     },
     {
       "word": "Jet ski",
       "clues": {
-        "easy": "Su jeti tahrikli su scooterı",
-        "medium": "Gidonla yönlendirilen kişisel su jeti teknesi",
+        "easy": "Hidro-tahrikli suda oturmalı scooter",
+        "medium": "Gidonla yönlendirilen kişisel su itici teknesi",
         "hard": "Transport"
       }
     },
@@ -5937,8 +5937,8 @@
     {
       "word": "Teleferik",
       "clues": {
-        "easy": "Dik dağ zirvelerine yükselen havadan transit gondol",
-        "medium": "Havadan çekiş halatlı asma yolcu kabini",
+        "easy": "Havai tellerle hareket eden asma tramvay kabini",
+        "medium": "Havadan çekiş teli ile asılan yolcu kabini",
         "hard": "Transport"
       }
     },
@@ -5969,8 +5969,8 @@
     {
       "word": "At arabası",
       "clues": {
-        "easy": "At koşum takımı ve sürücüsü olan tarihi ahşap araba",
-        "medium": "Atların çektiği tekerlekli yolcu taşıma",
+        "easy": "Aygır koşum takımı ve sürücüsü olan tarihi ahşap vasıta",
+        "medium": "Demir tekerlekli, atlı yolcu vasıta",
         "hard": "Transport"
       }
     },
@@ -5985,24 +5985,24 @@
     {
       "word": "Hızlı tren",
       "clues": {
-        "easy": "Elektrikli tren şehirler arasında büyük hızlarla çekim yapıyor",
-        "medium": "Özel raylar üzerinde aerodinamik yüksek hızlı burun",
+        "easy": "Şehirler arasında yüksek hızlarda aerodinamik ekspres lokomotif çekimi",
+        "medium": "Aerodinamik yüksek vasıta yolcu rayı",
         "hard": "Transport"
       }
     },
     {
       "word": "Yük treni",
       "clues": {
-        "easy": "Hazne ve kutu arabaları taşıyan dizel lokomotif",
-        "medium": "Çok lokomotifli ağır demiryolu yükü oluşur",
+        "easy": "Dizel lokomotiflerin çektiği vagonlardan oluşan uzun kuyruk",
+        "medium": "Çok lokomotifli ağır demiryolu kargosu oluşur",
         "hard": "Transport"
       }
     },
     {
       "word": "Çift katlı otobüs",
       "clues": {
-        "easy": "Döner merdivenli ikonik kırmızı uzun otobüs",
-        "medium": "Çift seviyeli yolcu cadde transit otobüsü",
+        "easy": "Döner merdivenli ikonik kırmızı uzun yolcu vasıtaü",
+        "medium": "İki seviyeli şehir içi banliyö yolcu taşımacılığı",
         "hard": "Transport"
       }
     },
@@ -6018,15 +6018,15 @@
       "word": "Minibüs",
       "clues": {
         "easy": "Bakkaliye ve çocuklar için tasarlanmış binek otomobil",
-        "medium": "Sürgülü kapılı, çok koltuklu aile yolcu minibüsü",
+        "medium": "Sürgülü kapılı, çok koltuklu aile yolcu vasıtaü",
         "hard": "Transport"
       }
     },
     {
       "word": "Kamyonet",
       "clues": {
-        "easy": "Bagaj kapağı, kapalı kabin ve kargo alanı",
-        "medium": "Açık yataklı yardımcı yolcu motorlu kamyon",
+        "easy": "Açık arka kargo alanına sahip ön yolcu kabini",
+        "medium": "Açık yataklı yardımcı yolcu motorlu taşıyıcı",
         "hard": "Transport"
       }
     },
@@ -6049,7 +6049,7 @@
     {
       "word": "Yarış arabası",
       "clues": {
-        "easy": "Spoiler, takla kafesi ve kaygan yarış lastikleri",
+        "easy": "Spoiler, takla kafesi ve kaygan vasıta lastikleri",
         "medium": "Pist ayarlı yüksek performanslı motor sporları makinesi",
         "hard": "Transport"
       }
@@ -6057,7 +6057,7 @@
     {
       "word": "Go-kart",
       "clues": {
-        "easy": "Dolambaçlı kapalı pistlerde alçak mesafeli dört tekerlekli kart",
+        "easy": "Dolambaçlı kapalı pistlerde alçak mesafeli dört tekerlekli yarış arabası",
         "medium": "Alçak merkezli minyatür açık tekerlekli yarış şasisi",
         "hard": "Transport"
       }
@@ -6073,8 +6073,8 @@
     {
       "word": "Arazi bisikleti",
       "clues": {
-        "easy": "Topuzlu lastik iki tekerlekli toprak tepeciklerinden atlıyor",
-        "medium": "Yüksek boşluklu pürüzlü lastikli arazi motosikleti",
+        "easy": "Topuzlu lastik iki tekerlekli atlama çamur tepeleri",
+        "medium": "Yüksek boşluklu pürüzlü lastikli vasıta motosikleti",
         "hard": "Transport"
       }
     },
@@ -6089,16 +6089,16 @@
     {
       "word": "Elektrikli scooter",
       "clues": {
-        "easy": "Katlanır iki tekerlekli şehir içi banliyö scooterı",
-        "medium": "Pille çalışan dik duran banliyö scooterı",
+        "easy": "Katlanır iki tekerlekli şehir içi banliyö mikro aracı",
+        "medium": "Pille çalışan dik ayakta banliyö güvertesi",
         "hard": "Transport"
       }
     },
     {
       "word": "Tek tekerlekli bisiklet",
       "clues": {
-        "easy": "Tek pedalla çalışan tekerleğin üzerine monte edilmiş tek sele",
-        "medium": "Tek tekerlekli doğrudan tahrikli denge aracı",
+        "easy": "vasıta pedalla çalışan tekerleğin üzerine monte edilmiş vasıta sele",
+        "medium": "vasıta vasıta doğrudan tahrikli denge aracı",
         "hard": "Transport"
       }
     },
@@ -6113,8 +6113,8 @@
     {
       "word": "Kargo bisikleti",
       "clues": {
-        "easy": "Kargo hazneli iki veya üç tekerlekli pedallı bisiklet",
-        "medium": "Ön kargo bölmeli ağır şasi pedallı taşıyıcı",
+        "easy": "Büyük ön hazneye sahip iki veya üç tekerlekli pedallı araç",
+        "medium": "Ön saklama bölmeli ağır çerçeveli pedal taşıyıcı",
         "hard": "Transport"
       }
     },
@@ -6129,8 +6129,8 @@
     {
       "word": "Bebek arabası",
       "clues": {
-        "easy": "Ebeveyn tarafından itilen katlanabilir dört tekerlekli araba",
-        "medium": "Güneşlikli katlanır bebek arabası",
+        "easy": "Ebeveyn tarafından itilen katlanabilir dört tekerlekli vasıta",
+        "medium": "Güneşlikli katlanır vasıta",
         "hard": "Transport"
       }
     },
@@ -6225,7 +6225,7 @@
     {
       "word": "Petrol tankeri",
       "clues": {
-        "easy": "Ham petrol taşıyan boru hattı manifoldlarının bulunduğu geniş güverte",
+        "easy": "Ham vasıta taşıyan boru hattı manifoldlarının bulunduğu geniş güverte",
         "medium": "Toplu sıvı hidrokarbon okyanus taşıyıcısı",
         "hard": "Transport"
       }
@@ -6234,7 +6234,7 @@
       "word": "Deniz uçağı",
       "clues": {
         "easy": "İniş takımı tekerleklerinin yerine ikiz yüzdürme dubaları",
-        "medium": "Duba donanımlı suda kalkış uçağı",
+        "medium": "Duba donanımlı suda kalkış vasıta",
         "hard": "Transport"
       }
     },
@@ -6242,15 +6242,15 @@
       "word": "Çift kanatlı",
       "clues": {
         "easy": "Tel donanıma sahip klasik ahşap ve kanvas kanatlar",
-        "medium": "Çift seviyeli istiflenmiş kanatlı havacılık uçağı",
+        "medium": "vasıta seviyeli istiflenmiş vasıta havacılık uçağı",
         "hard": "Transport"
       }
     },
     {
       "word": "Zeplin",
       "clues": {
-        "easy": "Pervanelerle çalışan, gazla dolu dev yolcu zeplini",
-        "medium": "Havadan hafif, sert çerçeveli zeplin",
+        "easy": "Pervanelerle çalışan, gazla dolu dev yolcu vasıtai",
+        "medium": "Havadan hafif, sert çerçeveli vasıta",
         "hard": "Transport"
       }
     },
@@ -6273,15 +6273,15 @@
     {
       "word": "Tek sıra tekerlekli paten",
       "clues": {
-        "easy": "Sürat pateni için poliüretan tekerleklerin bıçakları",
-        "medium": "Tek hatlı tekerlek düzenleme botları",
+        "easy": "Sürat vasıtai için poliüretan tekerleklerin bıçakları",
+        "medium": "vasıta hatlı vasıta düzenleme botları",
         "hard": "Transport"
       }
     },
     {
       "word": "Kızak",
       "clues": {
-        "easy": "Kış eğlencesi için ahşap veya plastik kızak kaydırıcısı",
+        "easy": "Kış eğlencesi için ahşap veya plastik vasıta kaydırıcısı",
         "medium": "İkiz ray üzerinde alçak profilli kar kaydırıcısı",
         "hard": "Transport"
       }
@@ -6297,16 +6297,16 @@
     {
       "word": "Köpek kızağı",
       "clues": {
-        "easy": "Tahta koşucu kızağını çeken koşumlu husky paketi",
-        "medium": "Çalışan köpek takımı koşum koşucusu kızağı",
+        "easy": "Tahta koşucu vasıtanı çeken koşumlu husky paketi",
+        "medium": "Çalışan vasıta takımı koşum koşucusu vasıta",
         "hard": "Transport"
       }
     },
     {
       "word": "Posta arabası",
       "clues": {
-        "easy": "Posta ve bagaj taşıyan Batılı yolcu vagonu",
-        "medium": "Dört el atlı kara yolcu arabası",
+        "easy": "vasıta ve bagaj taşıyan Batılı yolcu vagonu",
+        "medium": "Dört el atlı kara yolcu vasıta",
         "hard": "Transport"
       }
     },
@@ -6314,14 +6314,14 @@
       "word": "Vapur",
       "clues": {
         "easy": "Tarihi nehirlerdeki bacalar ve çalkantılı sular",
-        "medium": "Buharla çalışan çarklı nehir taşıtı",
+        "medium": "Kömürle çalışan çarklı nehir kıyısı gemisi",
         "hard": "Transport"
       }
     },
     {
       "word": "Maglev treni",
       "clues": {
-        "easy": "Ray sürtünmesini ortadan kaldıran elektromanyetik kaldırma treni",
+        "easy": "Ray sürtünmesini ortadan kaldıran elektromanyetik kaldırma geçişi",
         "medium": "Manyetik kaldırma kılavuz yolu yolcu mermisi",
         "hard": "Transport"
       }
@@ -6329,8 +6329,8 @@
     {
       "word": "Golf arabası",
       "clues": {
-        "easy": "Golf çantalarını delikler arasında taşıyan sessiz akü arabası",
-        "medium": "Bağlantıların geçişi için düşük voltajlı hizmet arabası",
+        "easy": "Delikler arasında kulüp çantalarını taşıyan sessiz akülü vasıta",
+        "medium": "Fairway geçişi için düşük voltajlı hizmet vasıta",
         "hard": "Transport"
       }
     },
@@ -6346,7 +6346,7 @@
       "word": "Deniz otobüsü",
       "clues": {
         "easy": "Sualtı folyo kanatları dalgaların üzerinde gövdeyi sıyırıyor",
-        "medium": "Folyo kanatlı dinamik su kaldırma deniz taşıtları",
+        "medium": "Folyo kanatlı dinamik su kaldırma vasıta taşıtları",
         "hard": "Transport"
       }
     },
@@ -6361,8 +6361,8 @@
     {
       "word": "Uzay mekiği",
       "clues": {
-        "easy": "Delta kanatlı yörünge aracı uzaydan piste dönüyor",
-        "medium": "Roketle güçlendirilmiş yörüngesel uzay uçağı planörü",
+        "easy": "Delta kanatlı yörünge aracı yörüngeden piste dönüyor",
+        "medium": "Roketle güçlendirilmiş kozmik planör",
         "hard": "Transport"
       }
     },
@@ -6377,7 +6377,7 @@
     {
       "word": "Gondol",
       "clues": {
-        "easy": "Ayakta kürekli gondolcu tarafından Venedik kanalları boyunca itildi",
+        "easy": "Ayakta kürekli vasıtacu tarafından Venedik kanalları boyunca itildi",
         "medium": "Asimetrik Venedik kanalında kürek çekme sanatı",
         "hard": "Transport"
       }
@@ -6385,7 +6385,7 @@
     {
       "word": "Avara demirli kano",
       "clues": {
-        "easy": "Denge direkli Pasifik adalı denizcilik kanosu",
+        "easy": "Denge direkli Pasifik adalı denizcilik sığınağı",
         "medium": "Yanal şamandıralı stabilize Polinezya yolculuk gemisi",
         "hard": "Transport"
       }
@@ -6394,7 +6394,7 @@
       "word": "Uzun gemi",
       "clues": {
         "easy": "Nehirlerde kürek çeken sığ İskandinav kadırgası",
-        "medium": "Simetrik sığ taslak İskandinav klinker gemisi",
+        "medium": "Simetrik sığ taslak İskandinav klinker vasıtasi",
         "hard": "Transport"
       }
     },
@@ -6409,8 +6409,8 @@
     {
       "word": "Çarklı vapur",
       "clues": {
-        "easy": "Su çalkalayan çarklarla tahrik edilen nehir gemisi",
-        "medium": "Kıç çarkı veya yan çarklı buhar tahrik gemisi",
+        "easy": "Devasa çalkantılı tekerleklerle hareket eden nehir gemisi",
+        "medium": "Kıç çarkı veya yan vasıta buhar sevk gemisi",
         "hard": "Transport"
       }
     }
@@ -6459,15 +6459,15 @@
     {
       "word": "kar fırtınası",
       "clues": {
-        "easy": "Yoğun kar yağışı ve sıfır görünürlük rüzgarları",
-        "medium": "Sıfırın altında aralıksız şiddetli kar yağışı",
+        "easy": "Yoğun doğal yapı yağışı ve sıfır görünürlük rüzgarları",
+        "medium": "Sıfırın altında aralıksız şiddetli doğal yapı yağışı",
         "hard": "Nature"
       }
     },
     {
       "word": "Sis",
       "clues": {
-        "easy": "Alçak irtifada kalın sis görünürlüğü azaltır",
+        "easy": "Alçak irtifada kalın doğal yapı görünürlüğü azaltır",
         "medium": "Yer seviyesinde su buharı yoğunlaşması",
         "hard": "Nature"
       }
@@ -6603,7 +6603,7 @@
     {
       "word": "Mağara",
       "clues": {
-        "easy": "Taş odalarıyla karanlık yeraltı mağarası",
+        "easy": "Taş odalarıyla karanlık yeraltı doğal yapısı",
         "medium": "Yeraltı kireçtaşı çözünme odası",
         "hard": "Nature"
       }
@@ -6643,8 +6643,8 @@
     {
       "word": "Kumul",
       "clues": {
-        "easy": "Hilal şeklindeki çöl kumu tepesi",
-        "medium": "Rüzgarın şekillendirdiği kum birikintisi",
+        "easy": "Hilal şeklindeki çöl silikası tepesi",
+        "medium": "Rüzgarın yonttuğu çöl çökelti sırtı",
         "hard": "Nature"
       }
     },
@@ -6659,7 +6659,7 @@
     {
       "word": "Bataklık",
       "clues": {
-        "easy": "Servi ağaçları ve çamurlu alçak bataklık",
+        "easy": "Servi ağaçları ve çamurlu alçak doğal yapı",
         "medium": "Kötü drenajlı, ormanlık sulak alan havzası",
         "hard": "Nature"
       }
@@ -6684,7 +6684,7 @@
       "word": "Nehir",
       "clues": {
         "easy": "Denize doğru akan dolambaçlı su yolu",
-        "medium": "Doğal nehir kıyısı kanal akışı",
+        "medium": "Doğal doğal yapı kıyısı kanal akışı",
         "hard": "Nature"
       }
     },
@@ -6731,8 +6731,8 @@
     {
       "word": "Güneş tutulması",
       "clues": {
-        "easy": "Ayın güneş ışığını engellemesi nedeniyle gündüz karanlığı",
-        "medium": "Güneş diskinin göksel tıkanması",
+        "easy": "Ayın doğal yapı ışığını engellemesi nedeniyle gündüz karanlığı",
+        "medium": "Gündüz yıldız diskinin göksel tıkanması",
         "hard": "Nature"
       }
     },
@@ -6836,14 +6836,14 @@
       "word": "Meşe",
       "clues": {
         "easy": "Geniş gölgelikli yaprak döken orman ağacı",
-        "medium": "Uzun ömürlü yaprak döken meşe palamudu taşıyan sert ağaç",
+        "medium": "Uzun ömürlü yaprak döken doğal yapı palamudu taşıyan sert ağaç",
         "hard": "Nature"
       }
     },
     {
       "word": "Çam ağacı",
       "clues": {
-        "easy": "Yıl boyunca yeşil kalan koni taşıyan kereste ağacı",
+        "easy": "Yıl boyunca yeşil kalan konik kokulu kereste",
         "medium": "İğne taşıyan reçineli kozalaklı ağaç",
         "hard": "Nature"
       }
@@ -6867,8 +6867,8 @@
     {
       "word": "Mantar",
       "clues": {
-        "easy": "Şemsiye şeklindeki mantar sporu üreten meyve veren gövde",
-        "medium": "Spor taşıyan mantarın meyve veren gövdesi",
+        "easy": "Şemsiye şeklindeki doğal yapı sporu üreten meyve veren gövde",
+        "medium": "Spor taşıyan doğal yapıın meyve veren gövdesi",
         "hard": "Nature"
       }
     },
@@ -6883,15 +6883,15 @@
     {
       "word": "Deniz kabuğu",
       "clues": {
-        "easy": "Boş spiral veya istiridye kabuğu kıyıya vurdu",
-        "medium": "Deniz yumuşakçalarının dış iskelet kalsiyum kılıfı",
+        "easy": "Boş spiral veya istiridye doğal yapı kıyıya vurdu",
+        "medium": "doğal yapı yumuşakçalarının dış iskelet kalsiyum kılıfı",
         "hard": "Nature"
       }
     },
     {
       "word": "Çakıl taşı",
       "clues": {
-        "easy": "Çakıl çubuğun üzerinde duran, suyla aşınmış nehir taşı",
+        "easy": "doğal yapı çubuğun üzerinde duran, suyla aşınmış nehir doğal yapı",
         "medium": "Akarsu düzleştirilmiş küçük kaya parçası",
         "hard": "Nature"
       }
@@ -6900,7 +6900,7 @@
       "word": "Kaya",
       "clues": {
         "easy": "Yamaçta duran devasa yıpranmış taş",
-        "medium": "Büyük müstakil jeolojik kaya kütlesi",
+        "medium": "Büyük müstakil jeolojik doğal yapı kütlesi",
         "hard": "Nature"
       }
     },
@@ -6923,7 +6923,7 @@
     {
       "word": "Kaplıca",
       "clues": {
-        "easy": "Volkanik ısıyla köpüren mineral bakımından zengin kaynak",
+        "easy": "Volkanik ısıyla köpüren mineral zengini çeşme",
         "medium": "Jeotermal olarak ısıtılan yeraltı suyu havuzu",
         "hard": "Nature"
       }
@@ -6931,15 +6931,15 @@
     {
       "word": "Gelgit havuzu",
       "clues": {
-        "easy": "Gelgit sırasında açığa çıkan minyatür gelgit habitatı",
-        "medium": "Gelgit arası kayalık kıyı havzası",
+        "easy": "Alçak deniz girintilerinde açığa çıkan minyatür deniz habitatı",
+        "medium": "doğal yapı arası kayalık kıyı havzası",
         "hard": "Nature"
       }
     },
     {
       "word": "Yosun",
       "clues": {
-        "easy": "Dev okyanus yosunu kayalık deniz tabanına demir attı",
+        "easy": "Dev okyanus doğal yapıu kayalık deniz tabanına demir attı",
         "medium": "Büyük deniz kahverengi alg ormanı",
         "hard": "Nature"
       }
@@ -6995,7 +6995,7 @@
     {
       "word": "Toz fırtınası",
       "clues": {
-        "easy": "Çalkantılı fırtına kuru toprağı kilometrelerce süpürüyor",
+        "easy": "Çalkantılı doğal yapı kuru toprağı kilometrelerce süpürüyor",
         "medium": "Aeolian yüksek hızlı parçacık duvarı",
         "hard": "Nature"
       }
@@ -7019,7 +7019,7 @@
     {
       "word": "Çayır",
       "clues": {
-        "easy": "Kır çiçekleri ve bizonların yetiştiği engebeli çayırlar",
+        "easy": "Kır çiçekleri ve bizonların yetiştiği engebeli doğal yapılar",
         "medium": "Ilıman açık otlak ekosistemi",
         "hard": "Nature"
       }
@@ -7035,8 +7035,8 @@
     {
       "word": "Mercan adası",
       "clues": {
-        "easy": "Batık volkanik adanın etrafında kalan dairesel mercan resifi",
-        "medium": "Merkezi lagünü çevreleyen dairesel mercan kenarı",
+        "easy": "Batık volkanik adanın etrafında kalan dairesel doğal yapı resifi",
+        "medium": "Merkezi lagünü çevreleyen dairesel doğal yapı kenarı",
         "hard": "Nature"
       }
     },
@@ -7131,8 +7131,8 @@
     {
       "word": "Meşe palamudu",
       "clues": {
-        "easy": "Sincaplar tarafından toplanan meşe ağacının tohumu",
-        "medium": "Meşe kapaklı fındık meyvesi",
+        "easy": "Sincaplar tarafından toplanan doğal yapı ağacının tohumu",
+        "medium": "doğal yapı kapaklı fındık meyvesi",
         "hard": "Nature"
       }
     },
@@ -7140,22 +7140,22 @@
       "word": "Dalgaların karaya attığı odun",
       "clues": {
         "easy": "Güneşten ağarmış ağaç dalları plaj kumlarına dökülüyor",
-        "medium": "Okyanusta yıpranmış deniz odunu kalıntıları",
+        "medium": "Okyanusta yıpranmış deniz doğal yapıu kalıntıları",
         "hard": "Nature"
       }
     },
     {
       "word": "Su hortumu",
       "clues": {
-        "easy": "Kasırga girdabı su yüzeyini köpüğe dönüştürüyor",
-        "medium": "Yoğun sütunlu okyanus suyu girdabı",
+        "easy": "Kasırga girdabı deniz yüzeyini köpüğe dönüştürüyor",
+        "medium": "Yoğun sütunlu okyanus sıvısı girdabı",
         "hard": "Nature"
       }
     },
     {
       "word": "Kalıcı don",
       "clues": {
-        "easy": "Arktik tundranın kalıcı olarak donmuş toprak altı tabakası",
+        "easy": "Arktik tundranın doğal yapı olarak donmuş toprak altı tabakası",
         "medium": "Sürekli donmuş yeraltı toprak tabakaları",
         "hard": "Nature"
       }
@@ -7203,8 +7203,8 @@
     {
       "word": "Gelgit deliği",
       "clues": {
-        "easy": "Gerçek gelgit dalgası, halici daraltarak iç kesimlere doğru ilerliyor",
-        "medium": "Daralan nehirde memba gelgit dalgası",
+        "easy": "Gerçek okyanus dalgası, halici daraltarak iç kesimlere doğru ilerliyor",
+        "medium": "Daralan kıyı nehrinde memba dalgalanma duvarı",
         "hard": "Nature"
       }
     },
@@ -7350,7 +7350,7 @@
       "word": "Fagot",
       "clues": {
         "easy": "Kavisli gövde kıvrımıyla derin odunsu tonlar",
-        "medium": "Çift kamışlı katlanmış tenor-bas nefesli",
+        "medium": "Çift kamışla katlanmış düşük kayıtlı nefesli nefesli",
         "hard": "Music"
       }
     },
@@ -7366,7 +7366,7 @@
       "word": "Fransız kornosu",
       "clues": {
         "easy": "Sağ el geniş pirinç çanın içine yerleştirilmiş",
-        "medium": "Sıkıca sarılmış döner valfli pirinç korna",
+        "medium": "Sıkıca sarılmış döner valfli pirinç nefesli çalgı",
         "hard": "Music"
       }
     },
@@ -7430,14 +7430,14 @@
       "word": "Elektro gitar",
       "clues": {
         "easy": "Çelik tel titreşimlerini aktaran manyetik manyetikler",
-        "medium": "Katı gövdeli elektromanyetik pikap cihazı",
+        "medium": "Katı gövdeli ezgimanyetik pikap cihazı",
         "hard": "Music"
       }
     },
     {
       "word": "Bas gitar",
       "clues": {
-        "easy": "Kalın bas tellerini parmaklarla koparmak",
+        "easy": "Kalın, ağır telleri parmaklarla koparmak",
         "medium": "Düşük frekanslı dört telli ritim temeli",
         "hard": "Music"
       }
@@ -7510,7 +7510,7 @@
       "word": "Kontrbas",
       "clues": {
         "easy": "Yer iğnesinin üzerinde duran en uzun orkestra teli",
-        "medium": "En düşük perdeli yaylı orkestra kontrbas",
+        "medium": "En düşük perdeli yaylı orkestra ezgi",
         "hard": "Music"
       }
     },
@@ -7526,7 +7526,7 @@
       "word": "Trampet davulu",
       "clues": {
         "easy": "Keskin yürüyen rulo ve kasnak vuruşu",
-        "medium": "Alt davul başlığının altında gerilmiş metal tuzaklar",
+        "medium": "Alt meyilli başlığın altında gerilmiş sarmal teller",
         "hard": "Music"
       }
     },
@@ -7558,7 +7558,7 @@
       "word": "Çelik varil",
       "clues": {
         "easy": "Ada tonlarıyla çınlayan dövülmüş içbükey metal tava",
-        "medium": "İçbükey dövülmüş çelik tava perküsyonu",
+        "medium": "İçbükey dövülmüş alaşımlı tava perküsyonu",
         "hard": "Music"
       }
     },
@@ -7621,8 +7621,8 @@
     {
       "word": "Koro",
       "clues": {
-        "easy": "Soprano, alto, tenor ve bas vokal korosu",
-        "medium": "Çok sesli koro şarkı topluluğu",
+        "easy": "Soprano, alto, tenor ve bas vokal ezgisu",
+        "medium": "Çok sesli ezgi şarkı topluluğu",
         "hard": "Music"
       }
     },
@@ -7654,7 +7654,7 @@
       "word": "Rock müzik",
       "clues": {
         "easy": "Güç akorları, bateri seti arka vuruşu ve ham vokaller",
-        "medium": "Gitarla güçlendirilmiş popüler müzik türü",
+        "medium": "Gitarla güçlendirilmiş güçlendirilmiş stadyum sonik türü",
         "hard": "Music"
       }
     },
@@ -7678,7 +7678,7 @@
       "word": "Ülke müziği",
       "clues": {
         "easy": "Kırsal yaşamın ve gönül yarasının hikaye anlatımı",
-        "medium": "Akustik tınılı kırsal Amerikan kökenli müzik",
+        "medium": "Akustik tınılı kırsal Amerikan kökleri balad geleneği",
         "hard": "Music"
       }
     },
@@ -7686,7 +7686,7 @@
       "word": "Klasik müzik",
       "clues": {
         "easy": "Geçmiş dönemlere ait sonatlar, senfoniler ve konçertolar",
-        "medium": "Resmi Avrupa sanat müziği geleneği",
+        "medium": "Resmi Avrupa orkestra sanatı geleneği",
         "hard": "Music"
       }
     },
@@ -7702,7 +7702,7 @@
       "word": "Halk müziği",
       "clues": {
         "easy": "Akustik gitarlar, banjolar ve hikaye anlatan baladlar",
-        "medium": "Geleneksel topluluk temelli akustik müzik mirası",
+        "medium": "Geleneksel topluluk temelli akustik miras",
         "hard": "Music"
       }
     },
@@ -7718,7 +7718,7 @@
       "word": "Punk rock",
       "clues": {
         "easy": "Bozuk gitarlar, enerjik bağırışlar ve düzen karşıtı şarkı sözleri",
-        "medium": "Hızlı tempolu sadeleştirilmiş distorsiyonlu rock",
+        "medium": "Hızlı tempolu, sadeleştirilmiş, bozuk isyan akorları",
         "hard": "Music"
       }
     },
@@ -7742,7 +7742,7 @@
       "word": "Salsa müziği",
       "clues": {
         "easy": "Trombon patlamaları, kongalar ve senkoplu klavuz vuruşu",
-        "medium": "Yüksek tempolu, senkoplu Afro-Karayip dans müziği",
+        "medium": "Yüksek tempolu senkoplu Afro-Karayip dans ritmi",
         "hard": "Music"
       }
     },
@@ -7885,15 +7885,15 @@
     {
       "word": "Nota standı",
       "clues": {
-        "easy": "Oyuncular için müzik notalarını destekleyen ayarlanabilir tripod",
-        "medium": "Müzik notalarını destekleyen ayarlanabilir tripod tepsisi",
+        "easy": "Orkestra oyuncuları için şarkı sayfalarını destekleyen ayarlanabilir tripod",
+        "medium": "El yazısı personel gösterimini destekleyen ayarlanabilir tripod tepsisi",
         "hard": "Music"
       }
     },
     {
       "word": "Notalar",
       "clues": {
-        "easy": "Müzisyenler tarafından okunan siyah notalar, nota anahtarları ve ölçüler",
+        "easy": "Sanatçılar tarafından okunan siyah seslar, ses anahtarları ve ölçüler",
         "medium": "Performans için kazınmış basılı personel notasyonu",
         "hard": "Music"
       }
@@ -7902,7 +7902,7 @@
       "word": "Nota anahtarı",
       "clues": {
         "easy": "Satır aralıklarını sabitleyen tiz veya bas sembolü",
-        "medium": "Satır aralığı değerlerini tanımlayan müzik notasyonu sembolü",
+        "medium": "Satır aralığı değerlerini tanımlayan müzik ezgisyonu sembolü",
         "hard": "Music"
       }
     },
@@ -8031,7 +8031,7 @@
     {
       "word": "Boyama",
       "clues": {
-        "easy": "Şövale, boya paleti ve renkli pigmentler",
+        "easy": "Şövale, ahşap palet ve renkli pigmentler",
         "medium": "Gerilmiş tuval üzerine pigment uygulaması",
         "hard": "Hobbies"
       }
@@ -8047,7 +8047,7 @@
     {
       "word": "Örgü",
       "clues": {
-        "easy": "Kazak örmek için dikişlerin dökümü",
+        "easy": "Yün kazak yapmak için dikişlerin dökümü",
         "medium": "Çift iğneli birbirine kenetlenen iplik ilmekleri",
         "hard": "Hobbies"
       }
@@ -8055,8 +8055,8 @@
     {
       "word": "Dikiş",
       "clues": {
-        "easy": "İğne, kumaş desenleri ve dikiş makinesi",
-        "medium": "İplik kullanarak kumaş dikiş montajı",
+        "easy": "İğne, kumaş desenleri ve uğraş makinesi",
+        "medium": "İplik kullanarak kumaş uğraş montajı",
         "hard": "Hobbies"
       }
     },
@@ -8064,7 +8064,7 @@
       "word": "Bahçıvanlık",
       "clues": {
         "easy": "Mala, tohumlar, sulama kabı ve malç",
-        "medium": "Bahçe yataklarının bahçecilik ekimi",
+        "medium": "Arka bahçedeki toprak yataklarının bahçecilik amaçlı ekimi",
         "hard": "Hobbies"
       }
     },
@@ -8072,7 +8072,7 @@
       "word": "Yemek Pişirme",
       "clues": {
         "easy": "Sebzeleri doğrama, baharat ve soteleme tavaları",
-        "medium": "Mutfakta yemek hazırlama ve baharatlama",
+        "medium": "Mutfakta uğraş hazırlama ve baharatlama",
         "hard": "Hobbies"
       }
     },
@@ -8088,22 +8088,22 @@
       "word": "Balık tutma",
       "clues": {
         "easy": "Yem kancası, döküm ipi ve makara",
-        "medium": "Yemli kanca ve olta ile olta balıkçılığı",
+        "medium": "Yemli kanca ve olta ile olta uğraşçılığı",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Yürüyüş",
       "clues": {
-        "easy": "Sağlam botlarla dağ yollarında yürüyüş",
-        "medium": "Sırt çantasıyla dağlık arazide yürüyüş",
+        "easy": "Sağlam botlarla dağ yollarında uğraş",
+        "medium": "Sırt çantasıyla dağlık arazide uğraş",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Kamp yapmak",
       "clues": {
-        "easy": "Kamp ateşi, uyku tulumları ve orman kamp alanı",
+        "easy": "uğraş ateşi, uyku tulumları ve orman uğraş alanı",
         "medium": "Gecelik açık hava vahşi barınak konaklaması",
         "hard": "Hobbies"
       }
@@ -8112,7 +8112,7 @@
       "word": "Kuş Gözlemciliği",
       "clues": {
         "easy": "Saha kılavuzunda tüylerin ve ötüşlerin belirlenmesi",
-        "medium": "Sahada binoküler kuş tanımlama",
+        "medium": "Sahada binoküler uğraş tanımlama",
         "hard": "Hobbies"
       }
     },
@@ -8135,8 +8135,8 @@
     {
       "word": "Günlük kaydı",
       "clues": {
-        "easy": "Çizgili defterde günlük yansımaları belgelemek",
-        "medium": "Yansıtıcı kişisel düzyazı kaydı",
+        "easy": "Çizgili defterde uğraş yansımaları belgelemek",
+        "medium": "Yansıtıcı kişisel düzyazı uğraş",
         "hard": "Hobbies"
       }
     },
@@ -8159,7 +8159,7 @@
     {
       "word": "Ağaç işleri",
       "clues": {
-        "easy": "Keskiler, testereler, ahşap tutkalı ve zımparalama",
+        "easy": "Keskiler, testereler, marangoz tutkalı ve zımparalama",
         "medium": "Doğramacılık ve ahşap mobilya oymacılığı",
         "hard": "Hobbies"
       }
@@ -8168,7 +8168,7 @@
       "word": "Albümleme",
       "clues": {
         "easy": "Hatıra biletlerini, çıkartmaları ve fotoğrafları yapıştırma",
-        "medium": "Hatıralık eşyaların sanatsal albüm arşivi",
+        "medium": "Hatıralık eşyaların sanatsal uğraş arşivi",
         "hard": "Hobbies"
       }
     },
@@ -8183,8 +8183,8 @@
     {
       "word": "Para toplama",
       "clues": {
-        "easy": "Basılan para birimini tarihe ve dereceye göre saklama",
-        "medium": "Nümismatik metalik para birimi arşivleme",
+        "easy": "Basılan uğraş birimini tarihe ve dereceye göre saklama",
+        "medium": "Nümismatik metalik uğraş birimi arşivleme",
         "hard": "Hobbies"
       }
     },
@@ -8232,15 +8232,15 @@
       "word": "Masa oyunları",
       "clues": {
         "easy": "Zar atmak, piyonları hareket ettirmek ve kart çekmek",
-        "medium": "Masaüstü token hareketi ve stratejisi",
+        "medium": "uğraşüstü token hareketi ve stratejisi",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Kart oyunları",
       "clues": {
-        "easy": "Karıştırma, takım elbise dağıtma ve kart numaraları alma",
-        "medium": "Bahisle veya gündelik oyun kartı oyunu",
+        "easy": "Karıştırma, takım elbise dağıtma ve kazanma numaraları alma",
+        "medium": "Bahisli veya gündelik baskılı deste oyunu",
         "hard": "Hobbies"
       }
     },
@@ -8312,7 +8312,7 @@
       "word": "Koşu",
       "clues": {
         "easy": "Spor ayakkabılarını bağlama ve tempoyu takip etme",
-        "medium": "Aerobik ayak yarışı koşullandırması",
+        "medium": "Aerobik ayak yarışı uğraşllandırması",
         "hard": "Hobbies"
       }
     },
@@ -8327,7 +8327,7 @@
     {
       "word": "Yüzme",
       "clues": {
-        "easy": "Gözlük, bone ve su vuruşları",
+        "easy": "Gözlükler, lastik başlık ve su vuruşları",
         "medium": "Su havuzunda tur egzersiz vuruşları",
         "hard": "Hobbies"
       }
@@ -8336,22 +8336,22 @@
       "word": "Kaya tırmanışı",
       "clues": {
         "easy": "Koşum takımı, karabinalar, tebeşir çantası ve emniyet ipi",
-        "medium": "Kayalık veya duvar üzerinde dikey sürtünme tırmanışı",
+        "medium": "uğraşlık veya duvar üzerinde dikey sürtünme uğraş",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Kaykay yapmak",
       "clues": {
-        "easy": "Kaldırımda ollies ve kickflip egzersizleri yapmak",
-        "medium": "Dört tekerlekli kaykay manevrası",
+        "easy": "Kaldırımda ollies ve kickflip egzersizleri uğraş",
+        "medium": "Dört tekerlekli tutma bandı güverte manevrası",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Sörf yapmak",
       "clues": {
-        "easy": "Okyanusun dalgalarına doğru kürek çekmek ve sörf yapmak",
+        "easy": "Okyanusun dalgalarına doğru kürek çekmek ve kırılan dalgalara binmek",
         "medium": "Yüzen tahta üzerinde okyanus dalgasında gezinmek",
         "hard": "Hobbies"
       }
@@ -8367,8 +8367,8 @@
     {
       "word": "Snowboard",
       "clues": {
-        "easy": "Önyüklemeli tahtayla karlı dağ dönüşleri oymak",
-        "medium": "Tek tahtalı dağ kar oymacılığı",
+        "easy": "Önyüklemeli güverte ile donmuş dağ dönüşlerini oymak",
+        "medium": "Tek tahtalı Alp tozu oymacılığı",
         "hard": "Hobbies"
       }
     },
@@ -8392,7 +8392,7 @@
       "word": "Binicilik",
       "clues": {
         "easy": "Deri dizginleri tutarak eyerde oturuyor",
-        "medium": "Binicilik eyer dengesi ve patika sürüşü",
+        "medium": "uğraş eyer dengesi ve kırsal patika yürüyüşleri",
         "hard": "Hobbies"
       }
     },
@@ -8416,7 +8416,7 @@
       "word": "Ağırlık çalışması",
       "clues": {
         "easy": "Kas setleri, bench press ve squat yapmak",
-        "medium": "Aşamalı aşırı yük direnci eğitimi",
+        "medium": "Aşamalı aşırı yük halter direnci setleri",
         "hard": "Hobbies"
       }
     },
@@ -8439,15 +8439,15 @@
     {
       "word": "Balo salonu dansı",
       "clues": {
-        "easy": "Dans pistinde çerçevede süzülen çiftler",
-        "medium": "Birleştirilmiş rekabetçi partner dans adımları",
+        "easy": "uğraş pistinde çerçevede süzülen çiftler",
+        "medium": "Birleştirilmiş rekabetçi partner uğraş adımları",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Salsa dansı",
       "clues": {
-        "easy": "Afro-Küba salsa ritimlerini hızlandırmak için adım atıyoruz",
+        "easy": "Afro-Küba ritmik ritimlerini hızlandırmak için adım atıyoruz",
         "medium": "Hızlı senkoplu Latin partner dönüşleri",
         "hard": "Hobbies"
       }
@@ -8464,7 +8464,7 @@
       "word": "Evde bira yapımı",
       "clues": {
         "easy": "Maltlanmış arpa, şerbetçiotu ve mayanın fermente edilmesi",
-        "medium": "Küçük miktarlarda tahıl mayalanması ve fermantasyonu",
+        "medium": "Küçük partili butik uğraş şerbeti fermantasyonu",
         "hard": "Hobbies"
       }
     },
@@ -8479,8 +8479,8 @@
     {
       "word": "Kahve kavurma",
       "clues": {
-        "easy": "Kavurma ısısını, çatlama seslerini ve aromayı izleme",
-        "medium": "Yeşil kahve tohumlarının termal pirolizi",
+        "easy": "Tambur ısısını, çatlama seslerini ve uğraşrengileşme aromasını izleme",
+        "medium": "Ham java fasulyesinin termal pirolizi",
         "hard": "Hobbies"
       }
     },
@@ -8512,7 +8512,7 @@
       "word": "Metal tespiti",
       "clues": {
         "easy": "Gömülü paraları ortaya çıkarmak için bip seslerini dinlemek",
-        "medium": "Metaller için elektromanyetik toprak taraması",
+        "medium": "Gömülü kalıntılar için elektromanyetik toprak taraması",
         "hard": "Hobbies"
       }
     },
@@ -8527,7 +8527,7 @@
     {
       "word": "Uçurtma uçurmak",
       "clues": {
-        "easy": "Uçurtmayı havada tutmak için deniz kenarındaki rüzgarı yakalamak",
+        "easy": "Naylon elması havada tutmak için deniz kenarındaki rüzgarı yakalamak",
         "medium": "Bağlı rüzgar aerodinamik uçuşu",
         "hard": "Hobbies"
       }
@@ -8535,7 +8535,7 @@
     {
       "word": "Uçan drone",
       "clues": {
-        "easy": "Havadaki drone'da navigasyon sağlayan çift çubuklu kontrol cihazı",
+        "easy": "Havadaki çoklu rotorda gezinen çift çubuklu kontrol cihazı",
         "medium": "Uzaktan radyo kontrollü quadcopter uçuşu",
         "hard": "Hobbies"
       }
@@ -8543,7 +8543,7 @@
     {
       "word": "Rol yapma oyunları",
       "clues": {
-        "easy": "Karakter sayfalarıyla fantezi arayışını anlatan oyun ustası",
+        "easy": "Karakter sayfalarıyla fantezi arayışını anlatan zindan hikaye anlatıcısı",
         "medium": "İşbirliğine dayalı, zar odaklı fantastik anlatı",
         "hard": "Hobbies"
       }
@@ -8552,7 +8552,7 @@
       "word": "Kaçış odaları",
       "clues": {
         "easy": "Kapının kilidini açmak için gizli bilmeceleri çözme",
-        "medium": "Temalı kooperatif odası bulmaca kaçışı",
+        "medium": "Temalı kooperatif mühürlü oda bulmaca gizemi",
         "hard": "Hobbies"
       }
     },
@@ -8567,7 +8567,7 @@
     {
       "word": "Bloglama",
       "clues": {
-        "easy": "Yazıların kişisel blog platformunda yayınlanması",
+        "easy": "Yazıların kişisel uğraş platformunda yayınlanması",
         "medium": "Yorumların dijital web yayını",
         "hard": "Hobbies"
       }
@@ -8575,8 +8575,8 @@
     {
       "word": "Film yapımı",
       "clues": {
-        "easy": "Senaryo yazımı, kamera çekimlerinin çerçevelenmesi ve filmin kurgulanması",
-        "medium": "Sinematik sinema filmi yapım sanatı",
+        "easy": "Senaryo yazımı, kamera çekimlerini çerçeveleme ve hareketli makaraları kesme",
+        "medium": "Sinematik sinema uğraşi uğraş sanatı",
         "hard": "Hobbies"
       }
     },
@@ -8608,7 +8608,7 @@
       "word": "Amatör radyo",
       "clues": {
         "easy": "Yüksek frekanslı alıcı-vericide çağrı işaretlerinin yayınlanması",
-        "medium": "Amatör radyo frekansı iletimi",
+        "medium": "uğraş kablosuz frekans iletimi",
         "hard": "Hobbies"
       }
     },
@@ -8639,8 +8639,8 @@
     {
       "word": "Köpek eğitimi",
       "clues": {
-        "easy": "Clicker eğitimi, ikramlar ve topuk komutları",
-        "medium": "Köpek edimsel koşullandırma ve itaat",
+        "easy": "Clicker koçluğu, ikramlar ve topuk komutları",
+        "medium": "uğraş edimsel koşullandırma ve itaat",
         "hard": "Hobbies"
       }
     },
@@ -8656,7 +8656,7 @@
       "word": "Kanaviçe işi",
       "clues": {
         "easy": "Renk şemasını takip ederek dokuma kumaş deliklerini sayma",
-        "medium": "Sayılan iplik X desenli iğne işi",
+        "medium": "Sayılan iplik X desenli iğne uğraş",
         "hard": "Hobbies"
       }
     },
@@ -8671,7 +8671,7 @@
     {
       "word": "Kapitone",
       "clues": {
-        "easy": "Patchwork yorgan üstü, vuruş ve desenli dikişler",
+        "easy": "Patchwork desenli üst, vuruş ve dekoratif dikişler",
         "medium": "Çok katmanlı patchwork tekstil dikişi",
         "hard": "Hobbies"
       }
@@ -8704,15 +8704,15 @@
       "word": "Sabun yapımı",
       "clues": {
         "easy": "Doğal yağların sodyum hidroksit çözeltisiyle harmanlanması",
-        "medium": "Soğuk işlem yağı ve alkali sabunlaştırma",
+        "medium": "Soğuk işlem yağı ve alkali uğraşlaştırma",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Çiçek aranjmanı",
       "clues": {
-        "easy": "Çiçek saplarının budanması ve çiçek renklerinin dengelenmesi",
-        "medium": "Çiçekçilik tasarımı ve çiçek sapı dengesi",
+        "easy": "Buket saplarının budanması ve canlı uğraş renklerinin dengelenmesi",
+        "medium": "uğraş tasarımı ve uğraş sapı dengesi",
         "hard": "Hobbies"
       }
     },
@@ -8728,14 +8728,14 @@
       "word": "Dil öğrenimi",
       "clues": {
         "easy": "Bilgi kartları, telaffuz sesi ve gramer alıştırmaları",
-        "medium": "İkinci dil sözcük edinimi",
+        "medium": "Yabancı konuşma kelime bilgisi ve gramer edinimi",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Vinil toplama",
       "clues": {
-        "easy": "Kollarında sandık kazma on iki inçlik vinil albümler",
+        "easy": "Karton kılıflarda sandık kazma on iki inçlik oluk albümleri",
         "medium": "Analog fonograf diski arşivleme",
         "hard": "Hobbies"
       }
@@ -8752,7 +8752,7 @@
       "word": "Antikalama",
       "clues": {
         "easy": "Eski mobilyaların patinasını ve tarihi eserleri incelemek",
-        "medium": "Tarihi yadigarı antika alımı",
+        "medium": "Tarihi yadigarı uğraş alımı",
         "hard": "Hobbies"
       }
     },
@@ -8775,24 +8775,24 @@
     {
       "word": "Takı yapımı",
       "clues": {
-        "easy": "Takı penseleri, tel kesiciler, boncuklar ve tokalar",
-        "medium": "El yapımı giyilebilir süs imalatı",
+        "easy": "Pense, tel kesici, boncuk ve toka uğraş",
+        "medium": "El uğraş giyilebilir süs imalatı",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Cam üfleme",
       "clues": {
-        "easy": "Sıcak fırından parlayan erimiş camın toplanması",
-        "medium": "Erimiş cam baloncuğunun termal manipülasyonu",
+        "easy": "Sıcak fırından parlayan erimiş silikanın toplanması",
+        "medium": "Erimiş parlayan silika balonunun termal manipülasyonu",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Vitray",
       "clues": {
-        "easy": "Renkli cam parçalarının kesilmesi ve bağlantı noktalarının lehimlenmesi",
-        "medium": "Kurşun lehimli renkli sanat cam aksamı",
+        "easy": "Renkli dekoratif camların kesilmesi ve bağlantı noktalarının lehimlenmesi",
+        "medium": "Kurşun lehimli renkli dekoratif panel montajı",
         "hard": "Hobbies"
       }
     },
@@ -8800,23 +8800,23 @@
       "word": "Baskıresim",
       "clues": {
         "easy": "Silindirli öğütücü ile oyulmuş kabartma bloğunun boyanması",
-        "medium": "Rölyef blok oyma ve baskı baskısı",
+        "medium": "Rölyef blok oyma ve uğraş baskısı",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Mektup yazma",
       "clues": {
-        "easy": "Kırtasiye kağıdı, dolma kalem ve mum mühür",
-        "medium": "Mektup posta mektubu kompozisyonu",
+        "easy": "Kırtasiye parşömeni, dolma kalem ve mum mühür",
+        "medium": "uğraş posta parşömen kompozisyonu",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Kentsel eskiz",
       "clues": {
-        "easy": "Taşınabilir eskiz defterinde suluboya ve mürekkepli kalem",
-        "medium": "Plein-air gözlemsel mimari çizimi",
+        "easy": "Taşınabilir çizim defterinde suluboya ve mürekkepli kalem",
+        "medium": "Plein-air gözlemsel mimari çizim",
         "hard": "Hobbies"
       }
     }

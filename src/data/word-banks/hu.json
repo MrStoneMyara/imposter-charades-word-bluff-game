@@ -67,7 +67,7 @@
     {
       "word": "Hűtőszekrény",
       "clues": {
-        "easy": "Hűtött konyhai hűtő szekrény",
+        "easy": "Hűtött konyhai eszköz szekrény",
         "medium": "Folyamatosan zümmögő konyhai doboz",
         "hard": "Everyday Objects"
       }
@@ -84,7 +84,7 @@
       "word": "Párna",
       "clues": {
         "easy": "Puha tömött alvóbetét",
-        "medium": "Tollas fejpárna",
+        "medium": "Tollas fejeszköz",
         "hard": "Everyday Objects"
       }
     },
@@ -163,7 +163,7 @@
     {
       "word": "Zseblámpa",
       "clues": {
-        "easy": "Elemes, hordozható zseblámpa",
+        "easy": "Elemes, hordozható eszköz",
         "medium": "Kézi sötét sugár",
         "hard": "Everyday Objects"
       }
@@ -340,14 +340,14 @@
       "word": "Ragasztópálca",
       "clues": {
         "easy": "Tömör ragasztóhenger papírhoz",
-        "medium": "Ragadós papírragasztó henger",
+        "medium": "Felcsavarható papírragasztó henger",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Ragasztószalag",
       "clues": {
-        "easy": "Tekercs átlátszó ragasztószalag",
+        "easy": "Tekercs átlátszó eszköz",
         "medium": "Adagolóval vágott ragacsos orsó",
         "hard": "Everyday Objects"
       }
@@ -395,8 +395,8 @@
     {
       "word": "Izzó",
       "clues": {
-        "easy": "Üveggömb izzó árammal",
-        "medium": "Izzószálas vagy LED-es világítóaljzat",
+        "easy": "Üveggömb eszköz árammal",
+        "medium": "eszközszálas vagy LED-es világítóaljzat",
         "hard": "Everyday Objects"
       }
     },
@@ -427,8 +427,8 @@
     {
       "word": "Vödör",
       "clues": {
-        "easy": "Nyitott vödör drótfogantyúval",
-        "medium": "Vízszállító kerek vödör",
+        "easy": "Nyitott eszköz drótfogantyúval",
+        "medium": "Vízszállító kerek eszköz",
         "hard": "Everyday Objects"
       }
     },
@@ -444,14 +444,14 @@
       "word": "Szappan",
       "clues": {
         "easy": "Csúszós blokk habképző",
-        "medium": "Illatos habzórúd",
+        "medium": "Illatos habzó fürdőszobablokk",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Fürdő törölköző",
       "clues": {
-        "easy": "Nagy nedvszívó fürdőszobai frottír",
+        "easy": "Nagy nedvszívó zuhany frottír",
         "medium": "Hurkás pamut nedvesítő pakolás",
         "hard": "Everyday Objects"
       }
@@ -476,7 +476,7 @@
       "word": "Borotva",
       "clues": {
         "easy": "Kézi fogantyú éles pengékkel",
-        "medium": "Ápoló borotvapatron",
+        "medium": "Ápoló eszközpatron",
         "hard": "Everyday Objects"
       }
     },
@@ -603,7 +603,7 @@
     {
       "word": "Serpenyőben",
       "clues": {
-        "easy": "Lapos fenekű fém serpenyő",
+        "easy": "Lapos fenekű fém eszköz",
         "medium": "Susogó lapos fenekű fém",
         "hard": "Everyday Objects"
       }
@@ -747,7 +747,7 @@
     {
       "word": "Jégkocka tálca",
       "clues": {
-        "easy": "Rekeszes fagyasztóforma kockákhoz",
+        "easy": "Rekeszes fagyasztóforma blokkok hűtéséhez",
         "medium": "Partícionált nullpont alatti öntőforma",
         "hard": "Everyday Objects"
       }
@@ -755,8 +755,8 @@
     {
       "word": "Kabát horog",
       "clues": {
-        "easy": "Falra szerelhető fogas kabátokhoz",
-        "medium": "Íves fali fogas kabátokhoz",
+        "easy": "Falra szerelhető akasztó felsőruházathoz",
+        "medium": "Íves fali fogas eszközokhoz",
         "hard": "Everyday Objects"
       }
     },
@@ -878,7 +878,7 @@
       "word": "Fagylalt",
       "clues": {
         "easy": "Aprított, hűtött tejes csemege",
-        "medium": "Olvadó édes tejszín",
+        "medium": "Olvadó édes fagyasztott tejtermékek",
         "hard": "Food"
       }
     },
@@ -1005,8 +1005,8 @@
     {
       "word": "Tavaszi tekercs",
       "clues": {
-        "easy": "A töltelékek köré tekert vékony csomagolóanyag",
-        "medium": "Átlátszó sült tésztatekercs",
+        "easy": "Vékony csomagolás ropogós töltelék köré tekert",
+        "medium": "Áttetsző sült tésztahenger",
         "hard": "Food"
       }
     },
@@ -1053,7 +1053,7 @@
     {
       "word": "Miso leves",
       "clues": {
-        "easy": "Fermentált szójapaszta leves dashival",
+        "easy": "Fermentált szójapaszta húsleves dashival",
         "medium": "Felhős reggeli húsleves mogyoróhagymával",
         "hard": "Food"
       }
@@ -1086,7 +1086,7 @@
       "word": "Juharszirup",
       "clues": {
         "easy": "Főtt falé reggelire",
-        "medium": "Borostyánból főtt lombhullató szirup",
+        "medium": "Borostyán főtt lombhullató fa redukciója",
         "hard": "Food"
       }
     },
@@ -1158,14 +1158,14 @@
       "word": "Hagyma karikák",
       "clues": {
         "easy": "Ropogós rántott zöldséghurkok",
-        "medium": "Csavart koncentrikus növényi karikák",
+        "medium": "Csavart koncentrikus növényi fogás",
         "hard": "Food"
       }
     },
     {
       "word": "Burgonyapüré",
       "clues": {
-        "easy": "Felvert fűszerezett burgonya köret",
+        "easy": "Felvert fűszerezett köret",
         "medium": "Olvasztott tejszínnel dörzsölt gombócok",
         "hard": "Food"
       }
@@ -1173,8 +1173,8 @@
     {
       "word": "Sült burgonya",
       "clues": {
-        "easy": "Fóliába csomagolt burgonya tejföllel",
-        "medium": "Felhasított gőzölgő burgonya héja",
+        "easy": "Fóliába csomagolt egész puding tejföllel",
+        "medium": "Felhasadt gőzölgő bőr",
         "hard": "Food"
       }
     },
@@ -1197,7 +1197,7 @@
     {
       "word": "Paradicsomleves",
       "clues": {
-        "easy": "Tejszínes vörös leves pirítóssal párosítva",
+        "easy": "Pirítóssal párosított krémes vörös pürésített húsleves",
         "medium": "Meleg pürésített vörös szőlő gyümölcstál",
         "hard": "Food"
       }
@@ -1221,7 +1221,7 @@
     {
       "word": "Rántotta",
       "clues": {
-        "easy": "Kevert reggeli serpenyőben tojás",
+        "easy": "Felkevert reggeli serpenyőben sárgás túró",
         "medium": "Bolyhos serpenyős túró pirítósra",
         "hard": "Food"
       }
@@ -1245,7 +1245,7 @@
     {
       "word": "Fasírt",
       "clues": {
-        "easy": "Fűszerezett húsgömb szószban párolva",
+        "easy": "Fűszerezett őrölt sós gömböcske szószban párolva",
         "medium": "Párolt marhahús gömb marinarában",
         "hard": "Food"
       }
@@ -1278,7 +1278,7 @@
       "word": "Grillezett sajt",
       "clues": {
         "easy": "Serpenyőben sült kenyér ragacsos tejtermékekkel",
-        "medium": "Vajon roston sült szendvics sajtos húzással",
+        "medium": "Vajban fogás szendvics olvasztott tejtermékkel",
         "hard": "Food"
       }
     },
@@ -1349,7 +1349,7 @@
     {
       "word": "Sajttorta",
       "clues": {
-        "easy": "Sült édes krémsajt morzsás alapon",
+        "easy": "Sült édes tejkrém morzsás alapon",
         "medium": "Sűrű hűtött tejes torta szelet",
         "hard": "Food"
       }
@@ -1373,7 +1373,7 @@
     {
       "word": "Fahéjas tekercs",
       "clues": {
-        "easy": "Sült hengerelt tészta örvény édes cukormázzal",
+        "easy": "Sült spirálos tésztaforgató édes cukormázzal",
         "medium": "Spirálozott édes tészta krémmázzal",
         "hard": "Food"
       }
@@ -1381,7 +1381,7 @@
     {
       "word": "Fokhagymás kenyér",
       "clues": {
-        "easy": "Ropogós kenyér gyógynövényvajjal sült",
+        "easy": "Ropogós szeletelt cipó gyógynövényvajjal sült",
         "medium": "Sütőben pirított vajas gyógynövényes cipó",
         "hard": "Food"
       }
@@ -1430,7 +1430,7 @@
       "word": "Olívaolaj",
       "clues": {
         "easy": "Arany salátaöntet és főzőfolyadék",
-        "medium": "Mediterrán hidegen sajtolt zöld olaj",
+        "medium": "Mediterrán hidegen sajtolt gyümölcsös zsír",
         "hard": "Food"
       }
     },
@@ -1438,7 +1438,7 @@
       "word": "Ecet",
       "clues": {
         "easy": "Erjesztett folyadék savanyúságokhoz és öntetekhez",
-        "medium": "Éles erjesztett ecetsavas folyadék",
+        "medium": "Éles erjesztett fogássavas folyadék",
         "hard": "Food"
       }
     },
@@ -1672,7 +1672,7 @@
       "word": "Kakas",
       "clues": {
         "easy": "Tarajos hím madár fényes fésűvel",
-        "medium": "Hajnalt hívó pajtakakas",
+        "medium": "Hajnalt hívó pajtalény",
         "hard": "Animals"
       }
     },
@@ -1760,7 +1760,7 @@
       "word": "Elefánt",
       "clues": {
         "easy": "Óriás agyarral és csapkodó fülekkel",
-        "medium": "Masszív elefántcsont agyarú matriarcha",
+        "medium": "Masszív lénycsont agyarú matriarcha",
         "hard": "Animals"
       }
     },
@@ -1815,7 +1815,7 @@
     {
       "word": "Víziló",
       "clues": {
-        "easy": "Félig vízi afrikai folyó nehézsúlyú",
+        "easy": "Félig lény afrikai folyó nehézsúlyú",
         "medium": "Területi iszapfaló folyóóriás",
         "hard": "Animals"
       }
@@ -1912,7 +1912,7 @@
       "word": "Kígyó",
       "clues": {
         "easy": "Remegő nyelv és hámló bőr",
-        "medium": "Mérgező vagy összehúzó kígyó",
+        "medium": "Mérgező vagy összehúzó lény",
         "hard": "Animals"
       }
     },
@@ -2015,7 +2015,7 @@
     {
       "word": "Grizzly medve",
       "clues": {
-        "easy": "Vállpúpos medve folyami lazacot fogni",
+        "easy": "Vállpúpos csúcsú fenevad folyami lazacot fog",
         "medium": "Erőteljes hibernált szárazföldi mindenevő",
         "hard": "Animals"
       }
@@ -2151,7 +2151,7 @@
     {
       "word": "Galamb",
       "clues": {
-        "easy": "Bobing városi galamb eszik zsemlemorzsát",
+        "easy": "Bobing városi lény eszik zsemlemorzsát",
         "medium": "Városi nyáj madár otthonteremtő ösztönnel",
         "hard": "Animals"
       }
@@ -2168,7 +2168,7 @@
       "word": "Veréb",
       "clues": {
         "easy": "Mindennapi magevő környékbeli madár",
-        "medium": "Apró csajszi barna veréb",
+        "medium": "Apró csajszi barna lény",
         "hard": "Animals"
       }
     },
@@ -2255,7 +2255,7 @@
     {
       "word": "Tengeri csillag",
       "clues": {
-        "easy": "Regeneráló tengeri csillag korallokon",
+        "easy": "Regeneráló ötkarú lény lény korallokon",
         "medium": "Radiális bentikus lánctalpas",
         "hard": "Animals"
       }
@@ -2577,8 +2577,8 @@
     {
       "word": "Csehország",
       "clues": {
-        "easy": "Cseh kastélyok és történelmi csillagászati órák",
-        "medium": "Közép-Európa szíve Csehországban",
+        "easy": "nemzet kastélyok és történelmi csillagászati órák",
+        "medium": "Közép-Európa szíve nemzetban",
         "hard": "Countries"
       }
     },
@@ -2673,7 +2673,7 @@
     {
       "word": "Dél-Afrika",
       "clues": {
-        "easy": "Szivárvány nemzet a kontinens déli csücskén",
+        "easy": "Szivárvány nemzet a Jóreménység fokánál",
         "medium": "Két óceáni köpeny ország arannyal és gyémántokkal",
         "hard": "Countries"
       }
@@ -2745,8 +2745,8 @@
     {
       "word": "Szaúd-Arábia",
       "clues": {
-        "easy": "Az Arab-félsziget szíve történelmi zarándoklattal",
-        "medium": "Az Arab-félsziget nagy részét elfoglaló királyság",
+        "easy": "Hatalmas sivatagi félsziget szíve történelmi mekkai zarándoklattal",
+        "medium": "A hatalmas sivatagi-öböl-félsziget nagy részét elfoglaló királyság",
         "hard": "Countries"
       }
     },
@@ -2866,7 +2866,7 @@
       "word": "Fülöp-szigetek",
       "clues": {
         "easy": "Hétezer szigetből álló csendes-óceáni szigetcsoport",
-        "medium": "Szigetlánc a Dél-kínai-tenger és a Fülöp-tenger között",
+        "medium": "Trópusi szigetcsoport a Luzon-szoros és a Celebes-tenger között",
         "hard": "Countries"
       }
     },
@@ -2874,7 +2874,7 @@
       "word": "Dél-Korea",
       "clues": {
         "easy": "Csúcstechnológiás félszigetország élénk kultúrával",
-        "medium": "Kelet-ázsiai köztársaság a 38. szélességi körtől délre",
+        "medium": "Kelet-ázsiai köztársaság a 38. szélességi kör alatt",
         "hard": "Countries"
       }
     },
@@ -3380,15 +3380,15 @@
       "word": "építész",
       "clues": {
         "easy": "Alaprajzokat és szerkezeti esztétikát készít",
-        "medium": "Térépítész tervező",
+        "medium": "Térszakértő tervező",
         "hard": "Professions"
       }
     },
     {
       "word": "Pilóta",
       "clues": {
-        "easy": "Működteti a pilótafülke vezérlőit és a repülési műszereket",
-        "medium": "Repülési pilótafülke parancsnoka",
+        "easy": "Működteti a szakértőfülke vezérlőit és a repülési műszereket",
+        "medium": "Repülési szakértőfülke parancsnoka",
         "hard": "Professions"
       }
     },
@@ -3396,7 +3396,7 @@
       "word": "Légiutas-kísérő",
       "clues": {
         "easy": "Bemutatja a vészkijáratokat és a kabin biztonságát",
-        "medium": "Repülés közbeni utaskabin steward",
+        "medium": "szakértő utasszállító utaskísérő",
         "hard": "Professions"
       }
     },
@@ -3420,7 +3420,7 @@
       "word": "Tűzoltó",
       "clues": {
         "easy": "Sisak, nehéz tömlő és létra teherautó",
-        "medium": "Sürgősségi tűzoltási szakember",
+        "medium": "Sürgősségi szakértő szakember",
         "hard": "Professions"
       }
     },
@@ -3428,7 +3428,7 @@
       "word": "Rendőrtiszt",
       "clues": {
         "easy": "Jelvény, egyenruha és közösségi sürgősségi járőr",
-        "medium": "Rendészeti járőrtiszt",
+        "medium": "A rendvédelmi egyenruhás járőrügynök",
         "hard": "Professions"
       }
     },
@@ -3436,7 +3436,7 @@
       "word": "nyomozó",
       "clues": {
         "easy": "Megvizsgálja a tetthelyet és kihallgatja a gyanúsítottakat",
-        "medium": "Törvényszéki bűnügyi nyomozó",
+        "medium": "Törvényszéki bűnügyi szakértő",
         "hard": "Professions"
       }
     },
@@ -3444,7 +3444,7 @@
       "word": "bíró",
       "clues": {
         "easy": "Fekete köntös, kalapács és jogi határozatok",
-        "medium": "Tárgyalótermi jogbíró",
+        "medium": "Tárgyalótermi jogszakértő",
         "hard": "Professions"
       }
     },
@@ -3508,7 +3508,7 @@
       "word": "Vízvezeték-szerelő",
       "clues": {
         "easy": "Csavarkulcs, rézcsövek és vízszelepek",
-        "medium": "Vízvezeték- és vízelvezető technikus",
+        "medium": "szakértő- és vízelvezető technikus",
         "hard": "Professions"
       }
     },
@@ -3539,7 +3539,7 @@
     {
       "word": "Festő",
       "clues": {
-        "easy": "Hengerek, festéktálcák és rongyok",
+        "easy": "Hengerek, pigmenttálcák és rongyok",
         "medium": "Felületbevonatoló és befejező szakember",
         "hard": "Professions"
       }
@@ -3580,7 +3580,7 @@
       "word": "Kertész",
       "clues": {
         "easy": "Metszőolló, simító, talaj és talajtakaró",
-        "medium": "Kertészeti tájgazda",
+        "medium": "szakértőeti tájgazda",
         "hard": "Professions"
       }
     },
@@ -3612,14 +3612,14 @@
       "word": "Énekesnő",
       "clues": {
         "easy": "Mikrofon, énekharmóniák és színpadi előadás",
-        "medium": "Énekes zenei előadó",
+        "medium": "szakértő zenei előadó",
         "hard": "Professions"
       }
     },
     {
       "word": "Zenész",
       "clues": {
-        "easy": "Kotta, ritmus és akusztikus hangszer",
+        "easy": "Kottalapok, ritmus és akusztikus hangszer",
         "medium": "Hangszeres előadóművész",
         "hard": "Professions"
       }
@@ -3667,15 +3667,15 @@
     {
       "word": "Bankár",
       "clues": {
-        "easy": "Felügyeli a pénzügyi tőkét és a banki hitelt",
-        "medium": "Kereskedelmi banki és hitelügyintéző",
+        "easy": "Felügyeli a pénzügyi tőkét és a kereskedelmi hiteleket",
+        "medium": "Kereskedelmi finanszírozási és hitelügyintéző",
         "hard": "Professions"
       }
     },
     {
       "word": "Pénztáros",
       "clues": {
-        "easy": "Vonalkód olvasó, pénztárgép és nyugtanyomtató",
+        "easy": "Vonalkód olvasó, pénztárfiók és nyugtanyomtató",
         "medium": "Kiskereskedelmi pénztári értékesítési pont üzemeltetője",
         "hard": "Professions"
       }
@@ -3699,7 +3699,7 @@
     {
       "word": "Idegenvezető",
       "clues": {
-        "easy": "Kommentárokat biztosít és gyalogtúrákat vezet",
+        "easy": "Történelmi kommentárt ad a városlátogatóknak",
         "medium": "Kulturális városnéző expedíció vezetője",
         "hard": "Professions"
       }
@@ -3707,8 +3707,8 @@
     {
       "word": "Taxisofőr",
       "clues": {
-        "easy": "A műszerfali taxiórával navigál az utcai forgalomban",
-        "medium": "Városi utcai utasszállító taxisofőr",
+        "easy": "Navigál az utcai forgalomban a műszerfali viteldíjmérővel",
+        "medium": "Városi utcai utasszállító sárga szakértő",
         "hard": "Professions"
       }
     },
@@ -3724,15 +3724,15 @@
       "word": "Levélszállító",
       "clues": {
         "easy": "Levéltáskát hord az utcai úton",
-        "medium": "Postai levél és csomagszállító",
+        "medium": "Postai szakértő és csomagküldő futár",
         "hard": "Professions"
       }
     },
     {
       "word": "Szállítási futár",
       "clues": {
-        "easy": "Kézbesítő furgont vezet, és beolvassa a csomagok vonalkódjait",
-        "medium": "Utolsó mérföld házaló csomagfutár",
+        "easy": "Feladó furgont vezet, és beolvassa a csomagok vonalkódjait",
+        "medium": "Utolsó mérföld küszöbön álló csomagfutó",
         "hard": "Professions"
       }
     },
@@ -3748,7 +3748,7 @@
       "word": "Grafikus tervező",
       "clues": {
         "easy": "Digitális illusztrációs szoftver és tipográfia",
-        "medium": "Kereskedelmi vizuális márkatervező",
+        "medium": "Kereskedelmi vizuális branding művész",
         "hard": "Professions"
       }
     },
@@ -3756,7 +3756,7 @@
       "word": "Filmrendező",
       "clues": {
         "easy": "Cselekvésre hív, irányítja a filmezést és a felülvizsgálatokat",
-        "medium": "Mozifilm rendező",
+        "medium": "Filmes mozgókép szerző",
         "hard": "Professions"
       }
     },
@@ -3772,7 +3772,7 @@
       "word": "Edző",
       "clues": {
         "easy": "Síp, játékkönyv-gyakorlatok és mellékvonali taktika",
-        "medium": "Atlétikai edző és csapatstratégia",
+        "medium": "Atlétikai szakértő és csapatstratégia",
         "hard": "Professions"
       }
     },
@@ -3804,7 +3804,7 @@
       "word": "Méhész",
       "clues": {
         "easy": "Védőfátyol, dohányzó és kaptárkeretek",
-        "medium": "Méhészetvezető és mézbegyűjtő",
+        "medium": "szakértőetvezető és mézbegyűjtő",
         "hard": "Professions"
       }
     },
@@ -3812,7 +3812,7 @@
       "word": "Kovács",
       "clues": {
         "easy": "Nehéz kalapács, kemencekohó és fogó",
-        "medium": "Fűtött vaskovács fémmegmunkáló",
+        "medium": "Fűtött vasszakértő fémmegmunkáló",
         "hard": "Professions"
       }
     },
@@ -3828,7 +3828,7 @@
       "word": "Lakatos",
       "clues": {
         "easy": "Kiszedi a poharakat, kulcstartókat és behelyezi a reteszeket",
-        "medium": "Kulcsvágó és hengerzár specialista",
+        "medium": "Kulcsvágó és hengerpohár specialista",
         "hard": "Professions"
       }
     },
@@ -3843,7 +3843,7 @@
     {
       "word": "Teherautó sofőr",
       "clues": {
-        "easy": "Tizennyolc kerekű félteherautóval vezet az államközi úton",
+        "easy": "Tizennyolc kerekű félig vezet az államközi út felett",
         "medium": "Hosszú távú államközi árufuvarozó",
         "hard": "Professions"
       }
@@ -3876,14 +3876,14 @@
       "word": "Katona",
       "clues": {
         "easy": "Terepszínű egyenruha, csizma és taktikai védelem",
-        "medium": "Egyenruhás katonai fegyveres védő",
+        "medium": "Egyenruhás szakértői fegyveres védő",
         "hard": "Professions"
       }
     },
     {
       "word": "Bűvész",
       "clues": {
-        "easy": "Kártyázás, varázspálca és megtévesztő trükkök",
+        "easy": "Kártyajáték, csiszolt pálca és megtévesztő kézfogás",
         "medium": "Színpadi illuzionista és kézműves ügyeskedés",
         "hard": "Professions"
       }
@@ -3907,7 +3907,7 @@
     {
       "word": "Boltos",
       "clues": {
-        "easy": "A polcokat raktározza, segíti a vásárlókat és irányítja az üzletet",
+        "easy": "A polcokat raktározza, segíti a vásárlókat és kezeli a kirakatot",
         "medium": "Független kiskereskedelmi kirakattulajdonos",
         "hard": "Professions"
       }
@@ -3931,8 +3931,8 @@
     {
       "word": "Táplálkozási szakértő",
       "clues": {
-        "easy": "Kiszámolja a kalóriabevitelt és a kiegyensúlyozott táplálkozást",
-        "medium": "Diétás wellness és táplálkozási tanácsadó",
+        "easy": "Kiszámolja a kalóriabevitelt és a kiegyensúlyozott étkezési terveket",
+        "medium": "Diétás wellness és élelmiszer-egészségügyi tanácsadó",
         "hard": "Professions"
       }
     },
@@ -3972,7 +3972,7 @@
       "word": "Légiforgalmi irányító",
       "clues": {
         "easy": "Radar képernyő, headset és repülőtéri kifutópálya",
-        "medium": "Repülőtéri torony légtér radarvezérlő",
+        "medium": "Repülőtéri torony légtér radar monitor",
         "hard": "Professions"
       }
     },
@@ -3980,7 +3980,7 @@
       "word": "Darukezelő",
       "clues": {
         "easy": "Magas fülkekarok, emelőkábelek és ellensúlyok",
-        "medium": "Nehéz emelőszerkezetes fülkekezelő",
+        "medium": "Nehézemelő építési fülke specialista",
         "hard": "Professions"
       }
     },
@@ -4101,8 +4101,8 @@
     {
       "word": "Asztalitenisz",
       "clues": {
-        "easy": "Miniatűr lapátok gördülnek az asztalhálón",
-        "medium": "Ping-pong asztal gumi lapát meccs",
+        "easy": "Miniatűr lapátok rohannak a zöld hálón",
+        "medium": "Ping-pong beltéri gumilapátos meccs",
         "hard": "Sports"
       }
     },
@@ -4141,8 +4141,8 @@
     {
       "word": "Snowboardozás",
       "clues": {
-        "easy": "Mindkét csizma egyetlen hófedélzetre van rögzítve",
-        "medium": "Egyetlen alpesi fedélzet, amely porhót farag",
+        "easy": "Mindkét csizma egy téli fedélzetre van rögzítve",
+        "medium": "Egyetlen alpesi fedélzet faragás porszerű fagy",
         "hard": "Sports"
       }
     },
@@ -4254,7 +4254,7 @@
       "word": "Hegyi kerékpározás",
       "clues": {
         "easy": "Köveken és szennyeződéseken pattogó felfüggesztő villák",
-        "medium": "Offroad downhill trail kerékpározás",
+        "medium": "Offroad downhill trail sportág",
         "hard": "Sports"
       }
     },
@@ -4357,7 +4357,7 @@
     {
       "word": "Rúdugrás",
       "clues": {
-        "easy": "Rugalmas üvegszálas rúd ültetése tiszta rúdhoz",
+        "easy": "Rugalmas üvegszálas szár ültetése tiszta rúdba",
         "medium": "Függőleges ugrás hajlító üvegszálas rúd segítségével",
         "hard": "Sports"
       }
@@ -4390,7 +4390,7 @@
       "word": "Súlyemelés",
       "clues": {
         "easy": "Tisztán és rántva, krétás súlyokkal",
-        "medium": "Súlyemelés a platformtól a felső zárig",
+        "medium": "sportág a platformtól a felső zárig",
         "hard": "Sports"
       }
     },
@@ -4446,7 +4446,7 @@
       "word": "Vízilabda",
       "clues": {
         "easy": "Úszósapkák fülvédővel és lebegő gólokkal",
-        "medium": "Mélyvízi labdarúgás",
+        "medium": "Mélyvízi klórozott golyós scrimmage",
         "hard": "Sports"
       }
     },
@@ -4509,7 +4509,7 @@
     {
       "word": "Művészi úszás",
       "clues": {
-        "easy": "Orrcsipesz rutinok fejjel lefelé a medencében",
+        "easy": "Orrcsipesz rutinok fejjel lefelé a klórozott medencében",
         "medium": "Vízi szinkron koreográfia zenére",
         "hard": "Sports"
       }
@@ -4518,7 +4518,7 @@
       "word": "Vízisí",
       "clues": {
         "easy": "Holding vontatókötél siklik a hajó nyomán",
-        "medium": "Hajóval vontatott gyalulás nyílt víz felett",
+        "medium": "Csónakon vontatott sziklázás kettős futókon",
         "hard": "Sports"
       }
     },
@@ -4549,8 +4549,8 @@
     {
       "word": "Vegyes harcművészetek",
       "clues": {
-        "easy": "Nyolcszög harc, amely ötvözi a boxot, a birkózást és a jiu-jitsut",
-        "medium": "Ketrecbe zárt multi-diszciplináris full contact harc",
+        "easy": "Nyolcszög sportág, amely ötvözi a boxot, a birkózást és a jiu-jitsut",
+        "medium": "Ketrecbe zárt multi-diszciplináris full contact sportág",
         "hard": "Sports"
       }
     },
@@ -4582,7 +4582,7 @@
       "word": "Discgolf",
       "clues": {
         "easy": "Láncos kosár célpontjai a parkon keresztül",
-        "medium": "Tee-to-kosárba repülő korong pontosságú tanfolyam",
+        "medium": "Tó-kosárba repülő csészealj pontossági tanfolyam",
         "hard": "Sports"
       }
     },
@@ -4645,8 +4645,8 @@
     {
       "word": "Jégtánc",
       "clues": {
-        "easy": "Bonyolult, szinkronizált lábmunka és csavargás a jégen",
-        "medium": "Színházi báltermi partner koreográfia jégen",
+        "easy": "Bonyolult, szinkronizált lábmunka és pörgések a befagyott pályán",
+        "medium": "Színházi báltermi partner koreográfia fagyott jégpályán",
         "hard": "Sports"
       }
     },
@@ -4685,7 +4685,7 @@
     {
       "word": "Biliárd",
       "clues": {
-        "easy": "Carom zsebek nélkül lövi a biliárdlabdákat",
+        "easy": "A Carom színes gömböket lövell zseb nélkül",
         "medium": "Baiize asztali dákó lövések sínpárnák segítségével",
         "hard": "Sports"
       }
@@ -4717,7 +4717,7 @@
     {
       "word": "Díjugratás",
       "clues": {
-        "easy": "Stadion ugrókerítések navigálása határidőn belül",
+        "easy": "Stadion akadálykerítéseinek navigálása határidőn belül",
         "medium": "Lovaspálya, amely megtisztítja a színes stadionsíneket",
         "hard": "Sports"
       }
@@ -4725,16 +4725,16 @@
     {
       "word": "Sárkányhajó",
       "clues": {
-        "easy": "Evezők a dobpergés és a díszes sárkányíj szinkronban",
-        "medium": "Szinkronizált csoportos evezés sárkányorral",
+        "easy": "Evezők szinkronban dobpergéssel és mitikus kígyóíjjal",
+        "medium": "Szinkronizált csoportos evezés mitikus fenevad orrával",
         "hard": "Sports"
       }
     },
     {
       "word": "Sportmászás",
       "clues": {
-        "easy": "Gyorsrajzok vágása az edzőtermi mászás útvonalának méretezésekor",
-        "medium": "Tornatermi falmászás horgonyokhoz rögzítve",
+        "easy": "Gyorsrajzok vágása a mesterséges tornaterem útvonalának méretezésekor",
+        "medium": "Tornaterem beltéri falának emelkedése horgonyokhoz rögzítve",
         "hard": "Sports"
       }
     },
@@ -4991,7 +4991,7 @@
     {
       "word": "Burger King",
       "clues": {
-        "easy": "Gyorsétteremlánc koronás királlyal",
+        "easy": "Gyorsétteremlánc koronát viselő uralkodóval",
         "medium": "Szöveg sárga zsemlefelek közé szorítva",
         "hard": "Logos & Brands"
       }
@@ -5023,7 +5023,7 @@
     {
       "word": "Pizza Hut",
       "clues": {
-        "easy": "Pizza étterem piros tető logóval",
+        "easy": "Olasz fast-casual lánc piros tetőlogóval",
         "medium": "Ferde piros karimájú kalap sziluettje",
         "hard": "Logos & Brands"
       }
@@ -5192,7 +5192,7 @@
       "word": "Red Bull",
       "clues": {
         "easy": "Energiaitalos doboz összecsapó vadállatokkal",
-        "medium": "Két vörös szarvú fenevad fej-fej mellett",
+        "medium": "Két karmazsin szarvú fenevad fej-fej mellett",
         "hard": "Logos & Brands"
       }
     },
@@ -5625,7 +5625,7 @@
     {
       "word": "Busz",
       "clues": {
-        "easy": "Menetrend szerinti tömegközlekedési busz megállókkal",
+        "easy": "Menetrend szerinti tömegközlekedési szerkezet megállókkal",
         "medium": "Többszemélyes önkormányzati közúti tranzit",
         "hard": "Transport"
       }
@@ -5641,7 +5641,7 @@
     {
       "word": "Repülőgép",
       "clues": {
-        "easy": "Utasszállító repülőgép felszáll a kifutópályáról",
+        "easy": "Utasszállító szerkezet felszáll a kifutópályáról",
         "medium": "Nyomás alatti törzs sugárturbina meghajtással",
         "hard": "Transport"
       }
@@ -5665,7 +5665,7 @@
     {
       "word": "Motorkerékpár",
       "clues": {
-        "easy": "Csavarfojtó motor két keréken sisakkal",
+        "easy": "Csavarfojtó szerkezet két keréken sisakkal",
         "medium": "Motoros kétkerekű nyereggép",
         "hard": "Transport"
       }
@@ -5697,7 +5697,7 @@
     {
       "word": "Taxi",
       "clues": {
-        "easy": "Utcai taxi közvetlen célú utazáshoz",
+        "easy": "Utcai szerkezet közvetlen célú utazáshoz",
         "medium": "Kereskedelmi mérőórás utcai személygépjármű",
         "hard": "Transport"
       }
@@ -5705,7 +5705,7 @@
     {
       "word": "Metró",
       "clues": {
-        "easy": "Metró alagút vonatok megállnak a föld alatti peronokon",
+        "easy": "szerkezet alagút vonatok megállnak a föld alatti peronokon",
         "medium": "Földalatti villamosított személyszállító vasúti rács",
         "hard": "Transport"
       }
@@ -5737,7 +5737,7 @@
     {
       "word": "Motorcsónak",
       "clues": {
-        "easy": "Belső vagy külső motor gyalulás vízen",
+        "easy": "Belső vagy külső szerkezet gyalulás vízen",
         "medium": "Nagy lóerős gyaluhajótestű vízi jármű",
         "hard": "Transport"
       }
@@ -5770,14 +5770,14 @@
       "word": "Tengerjáró hajó",
       "clues": {
         "easy": "Úszó üdülőszálló medencékkel, fedélzetekkel és kabinokkal",
-        "medium": "Többszintes óceáni utasszállító hajó",
+        "medium": "Többszintes óceáni utasszállító szerkezet",
         "hard": "Transport"
       }
     },
     {
       "word": "Teherhajó",
       "clues": {
-        "easy": "Színes fém szállítókonténerek halmai tengeren keresztül",
+        "easy": "Színes fém teherkonténerek halmok az óceánokon át",
         "medium": "Ömlesztett tengeri konténerszállító",
         "hard": "Transport"
       }
@@ -5794,14 +5794,14 @@
       "word": "Rakéta",
       "clues": {
         "easy": "Többlépcsős nyomásfokozó, amely a Föld gravitációját pályára állítja",
-        "medium": "Kémiai reakciójú függőleges orbitális hordozórakéta",
+        "medium": "Kémiai reakciójú függőleges orbitális hordozószerkezet",
         "hard": "Transport"
       }
     },
     {
       "word": "Hőlégballon",
       "clues": {
-        "easy": "Az égő felmelegíti a levegőt a burkolaton belül",
+        "easy": "Égő fűtőgáz a burkolaton belül fent",
         "medium": "Termikus felhajtóerő fonott utasszállító járat",
         "hard": "Transport"
       }
@@ -5842,15 +5842,15 @@
       "word": "Mentő",
       "clues": {
         "easy": "Mobil sürgősségi egészségügyi tranzit hordágyon",
-        "medium": "Kiemelt mentős mobil traumaszállítás",
+        "medium": "Kiemelt szerkezets mobil traumaszállítás",
         "hard": "Transport"
       }
     },
     {
       "word": "Tűzoltóautó",
       "clues": {
-        "easy": "A tűzoltóautó szirénával reagál az épület lángjaira",
-        "medium": "Hidraulikus léglétra és vízszivattyús teherautó",
+        "easy": "A mentőautó szirénával reagál az épület lángjaira",
+        "medium": "Hidraulikus léglétra és nagynyomású szivattyúberendezés",
         "hard": "Transport"
       }
     },
@@ -5889,7 +5889,7 @@
     {
       "word": "Dömper",
       "clues": {
-        "easy": "Kavicsot, homokot és törmeléket szállít és lerak",
+        "easy": "Kavicsot, homokot és törmeléket szállít és ürít",
         "medium": "Hidraulikus billenős nyitott dobozos ömlesztettáru-szállító",
         "hard": "Transport"
       }
@@ -5905,24 +5905,24 @@
     {
       "word": "Hóeke",
       "clues": {
-        "easy": "Jeges utak tisztítása és hóhalmozás a járdaszegély mentén",
-        "medium": "Elöl szerelt ferde ékes hótakarító jármű",
+        "easy": "Jeges utak megtisztítása és latyak tolása a járdaszegély mentén",
+        "medium": "Elöl szerelt szögletes ékes téli takarító jármű",
         "hard": "Transport"
       }
     },
     {
       "word": "Motoros szán",
       "clues": {
-        "easy": "A kormány által irányított gép átfut a téli sodródáson",
-        "medium": "Hátsó lánctalpas téli hóbehúzó gép",
+        "easy": "Púderes futófelületek kettős kormányzású sílécekkel",
+        "medium": "Hátsó lánctalpas téli tundra bejáró gép",
         "hard": "Transport"
       }
     },
     {
       "word": "Jet ski",
       "clues": {
-        "easy": "Vízsugárral hajtott vízi robogó",
-        "medium": "Kormánykormányzott személyi vízsugaras vízi jármű",
+        "easy": "Hidromeghajtású vízi ülőrobogó",
+        "medium": "Kormányrúd által irányított személyi vízi tolóerő",
         "hard": "Transport"
       }
     },
@@ -5930,15 +5930,15 @@
       "word": "Légpárnás jármű",
       "clues": {
         "easy": "Nagy gumiszoknya, amely átsikla a földet és a vizet",
-        "medium": "Ventilátoros nyomású légpárnás kétéltű szállítás",
+        "medium": "Ventilátoros nyomású szerkezet kétéltű szállítás",
         "hard": "Transport"
       }
     },
     {
       "word": "Sikló",
       "clues": {
-        "easy": "Légi tranzit gondola meredek hegycsúcsokon emelkedő",
-        "medium": "Légi vontatókábellel felfüggesztett utaskabin",
+        "easy": "Felfüggesztett villamos kabin lovaglás felső vezeték",
+        "medium": "Légi vontatóhuzallal felfüggesztett utaskabin",
         "hard": "Transport"
       }
     },
@@ -5969,8 +5969,8 @@
     {
       "word": "Lovas kocsi",
       "clues": {
-        "easy": "Történelmi fa kocsi lóhámmal és sofőrrel",
-        "medium": "Ló által vontatott kerekes személyszállító",
+        "easy": "Történelmi, fából készült szerkezet ménhámmal és vezetővel",
+        "medium": "Vaskerekű, szerkezet vontatású utaskocsi",
         "hard": "Transport"
       }
     },
@@ -5985,24 +5985,24 @@
     {
       "word": "Bullet train",
       "clues": {
-        "easy": "Elektromos vonat lövöldözés városok között nagy sebességgel",
-        "medium": "Aerodinamikus, nagy sebességű orr, dedikált síneken",
+        "easy": "Aerodinamikai expressz mozdony lövöldözés városok között nagy sebességgel",
+        "medium": "Aerodinamikai nagysebességű személyszállító vasút",
         "hard": "Transport"
       }
     },
     {
       "word": "Tehervonat",
       "clues": {
-        "easy": "Dízel mozdony vontató garat és dobozos kocsik",
-        "medium": "Többmozdonyos nehézvasúti teherszállítás áll",
+        "easy": "Dízelmozdonyok által húzott dobozos kocsik hosszú sora",
+        "medium": "Többmozdonyos nehéz vasúti rakomány áll",
         "hard": "Transport"
       }
     },
     {
       "word": "Emeletes busz",
       "clues": {
-        "easy": "Ikonikus piros magas busz csigalépcsővel",
-        "medium": "Kétszintes személyszállító utcai tranzitkocsi",
+        "easy": "Ikonikus piros magas kocsi csigalépcsővel",
+        "medium": "Kétszintű városi ingázó személyszállítás",
         "hard": "Transport"
       }
     },
@@ -6025,8 +6025,8 @@
     {
       "word": "Pickup teherautó",
       "clues": {
-        "easy": "Csomagtérajtó, zárt fülke és hasznos raktér",
-        "medium": "Nyitott ágyas haszongépjármű motoros teherautó",
+        "easy": "Első utasfülke nyitott hátsó rakodótérrel",
+        "medium": "Nyitott ágyas haszongépjármű személyszállító motoros vontató",
         "hard": "Transport"
       }
     },
@@ -6057,7 +6057,7 @@
     {
       "word": "Gokart",
       "clues": {
-        "easy": "Alacsony hasmagasságú négykerekű gokart kanyargós fedett pályákon",
+        "easy": "Alacsony hasmagasságú négykerekű versenyző kanyargós fedett pályákon",
         "medium": "Alacsony középpontú miniatűr nyitott kerekű versenyalváz",
         "hard": "Transport"
       }
@@ -6073,7 +6073,7 @@
     {
       "word": "Dirt bicikli",
       "clues": {
-        "easy": "Gömbös gumiabroncs kétkerekű ugráló földhalmok",
+        "easy": "Gömbös gumiabroncs kétkerekű ugráló sárhalmok",
         "medium": "Nagy hasmagasságú gombos gumiabroncs terepmotorkerékpár",
         "hard": "Transport"
       }
@@ -6089,8 +6089,8 @@
     {
       "word": "Elektromos robogó",
       "clues": {
-        "easy": "Összecsukható kétkerekű városi ingázó robogó",
-        "medium": "Akkumulátoros, függőlegesen álló ingázó robogó",
+        "easy": "Összecsukható kétkerekű városi ingázó mikrojármű",
+        "medium": "Akkumulátoros, álló ingázófedélzet",
         "hard": "Transport"
       }
     },
@@ -6098,7 +6098,7 @@
       "word": "Egykerekű",
       "clues": {
         "easy": "Egyetlen nyereg egy pedállal hajtott kerékre szerelve",
-        "medium": "Egykerekű, közvetlen meghajtású egyensúlyi jármű",
+        "medium": "szerkezet, közvetlen meghajtású egyensúlyi jármű",
         "hard": "Transport"
       }
     },
@@ -6113,8 +6113,8 @@
     {
       "word": "Teherszállító kerékpár",
       "clues": {
-        "easy": "Két- vagy háromkerekű pedálos kerékpár rakománytölcsérrel",
-        "medium": "Nehézvázas pedálszállító előretolható raktérrel",
+        "easy": "Két- vagy háromkerekű pedálos jármű terjedelmes első garattal",
+        "medium": "Nehézvázas pedálszállító előre tárolórekesszel",
         "hard": "Transport"
       }
     },
@@ -6130,7 +6130,7 @@
       "word": "Babakocsi",
       "clues": {
         "easy": "Szülő által tolt összecsukható négykerekű kocsi",
-        "medium": "Összecsukható babakocsi napellenzővel",
+        "medium": "Összecsukható szerkezet napellenzővel",
         "hard": "Transport"
       }
     },
@@ -6186,7 +6186,7 @@
       "word": "Evezős csónak",
       "clues": {
         "easy": "Hátra néz, miközben evezőpárt húz át a vízen",
-        "medium": "Evezős hajtású nyitott törzsű fa evezős pályázat",
+        "medium": "szerkezet hajtású nyitott törzsű fa szerkezet pályázat",
         "hard": "Transport"
       }
     },
@@ -6298,7 +6298,7 @@
       "word": "Kutyaszán",
       "clues": {
         "easy": "Hámos, fából készült futószán húzó husky csomag",
-        "medium": "Működő kutya csapat hám futószán",
+        "medium": "Működő szerkezet csapat hám futószán",
         "hard": "Transport"
       }
     },
@@ -6314,14 +6314,14 @@
       "word": "Gőzhajó",
       "clues": {
         "easy": "Füstkémények és felkavart víz a történelmi folyókon",
-        "medium": "Gőzzel hajtott lapátkerekes folyami hajó",
+        "medium": "Széntüzelésű lapátkerekes folyami hajó",
         "hard": "Transport"
       }
     },
     {
       "word": "Maglev vonat",
       "clues": {
-        "easy": "Elektromágneses levitációs vonat, amely kiküszöböli a sínsúrlódást",
+        "easy": "Az elektromágneses levitációs tranzit kiküszöböli a vágánysúrlódást",
         "medium": "Mágneses levitációs vezetőpálya utas golyó",
         "hard": "Transport"
       }
@@ -6329,8 +6329,8 @@
     {
       "word": "Golfkocsi",
       "clues": {
-        "easy": "Csendes akkumulátoros kocsi golftáskákat szállító lyukak között",
-        "medium": "Alacsony feszültségű közüzemi kocsi az összeköttetésekhez",
+        "easy": "Csendes akkumulátoros buggy, amely a lyukak között hordja a klubtáskákat",
+        "medium": "Alacsony feszültségű közüzemi buggy hajóútra való közlekedéshez",
         "hard": "Transport"
       }
     },
@@ -6361,8 +6361,8 @@
     {
       "word": "Űrsikló",
       "clues": {
-        "easy": "Deltaszárnyú keringő visszatér az űrből a kifutópályára",
-        "medium": "Rakétával megerősített orbitális űrrepülőgép",
+        "easy": "Deltaszárnyú keringő visszatér a pályáról a kifutópályára",
+        "medium": "Rakétaerősítésű kozmikus sikló",
         "hard": "Transport"
       }
     },
@@ -6385,7 +6385,7 @@
     {
       "word": "Outrigger kenu",
       "clues": {
-        "easy": "Csendes-óceáni szigetlakó tengerjáró kenu egyensúlyi szárral",
+        "easy": "Csendes-óceáni szigetlakó tengerjáró ásó kiegyensúlyozó résszel",
         "medium": "Oldalirányú úszó stabilizált polinéz hajó",
         "hard": "Transport"
       }
@@ -6409,7 +6409,7 @@
     {
       "word": "Lapátos gőzös",
       "clues": {
-        "easy": "Folyami hajó, amelyet lapátkerekek hajtanak kavargó vizet",
+        "easy": "Folyami hajó, amelyet óriási kavargó kerekek hajtanak",
         "medium": "Tatkerekes vagy oldalkerekes gőzmeghajtó hajó",
         "hard": "Transport"
       }
@@ -6467,7 +6467,7 @@
     {
       "word": "Köd",
       "clues": {
-        "easy": "Vastag köd alacsony magasságban csökkenti a láthatóságot",
+        "easy": "Vastag természeti elem alacsony magasságban csökkenti a láthatóságot",
         "medium": "Földszinti vízgőz kondenzáció",
         "hard": "Nature"
       }
@@ -6524,7 +6524,7 @@
       "word": "Vízesés",
       "clues": {
         "easy": "Lépcsőzetes patak a merülőmedencébe",
-        "medium": "Függőleges folyóvízesés",
+        "medium": "Függőleges folyótermészeti elem",
         "hard": "Nature"
       }
     },
@@ -6603,7 +6603,7 @@
     {
       "word": "barlang",
       "clues": {
-        "easy": "Sötét földalatti barlang kőkamrákkal",
+        "easy": "Sötét földalatti természeti elem kőkamrákkal",
         "medium": "Földalatti mészkőoldó kamra",
         "hard": "Nature"
       }
@@ -6643,8 +6643,8 @@
     {
       "word": "Homokdűne",
       "clues": {
-        "easy": "Változó félhold sivatagi homokdomb",
-        "medium": "Lipari szél által faragott homoktelep",
+        "easy": "Változó félhold sivatagi szilícium-dioxid",
+        "medium": "Lipari szél által faragott sivatagi üledékgerinc",
         "hard": "Nature"
       }
     },
@@ -6659,7 +6659,7 @@
     {
       "word": "Mocsár",
       "clues": {
-        "easy": "Alacsony fekvésű mocsár ciprusfákkal és sárral",
+        "easy": "Alacsony fekvésű természeti elem ciprusfákkal és sárral",
         "medium": "Erdős, gyengén vízelvezető vizes élőhely",
         "hard": "Nature"
       }
@@ -6683,7 +6683,7 @@
     {
       "word": "Folyó",
       "clues": {
-        "easy": "A tenger felé folyó kanyargós vízfolyás",
+        "easy": "A tenger felé természeti elem kanyargós vízfolyás",
         "medium": "Természetes parti csatorna áramlása",
         "hard": "Nature"
       }
@@ -6732,7 +6732,7 @@
       "word": "Napfogyatkozás",
       "clues": {
         "easy": "Nappali sötétség, ahogy a hold blokkolja a napfényt",
-        "medium": "A napkorong égi okkultációja",
+        "medium": "Nappali csillagkorong égi okkultációja",
         "hard": "Nature"
       }
     },
@@ -6804,7 +6804,7 @@
       "word": "Moha",
       "clues": {
         "easy": "Árnyas sziklákon termő, nem edényes növény",
-        "medium": "Nem vaszkuláris moha őrölt szőnyeg",
+        "medium": "Nem vaszkuláris természeti elem őrölt szőnyeg",
         "hard": "Nature"
       }
     },
@@ -6843,7 +6843,7 @@
     {
       "word": "Fenyőfa",
       "clues": {
-        "easy": "Kúptartó fa egész évben zölden marad",
+        "easy": "Kúptartó illatos fa egész évben zölden marad",
         "medium": "Tűtartó gyantás tűlevelű",
         "hard": "Nature"
       }
@@ -6867,8 +6867,8 @@
     {
       "word": "Gomba",
       "clues": {
-        "easy": "Esernyő alakú gombaspóratermelő termőtest",
-        "medium": "Spórás gomba termőtest",
+        "easy": "Esernyő alakú természeti elemspóratermelő termőtest",
+        "medium": "Spórás természeti elem termőtest",
         "hard": "Nature"
       }
     },
@@ -6883,8 +6883,8 @@
     {
       "word": "Tengeri kagyló",
       "clues": {
-        "easy": "A partra mosott üres spirál vagy kagylóhéj",
-        "medium": "Tengeri puhatestűek exoskeletális kalciumháza",
+        "easy": "A partra mosott üres spirál vagy természeti elemhéj",
+        "medium": "természeti elem puhatestűek exoskeletális kalciumháza",
         "hard": "Nature"
       }
     },
@@ -6907,8 +6907,8 @@
     {
       "word": "Gyors homok",
       "clues": {
-        "easy": "Vízzel telített homok, amely viszkózus folyadékként viselkedik",
-        "medium": "Hidrodinamikus cseppfolyósító homokbánya",
+        "easy": "Vízzel telített természeti elem, amely viszkózus folyadékként viselkedik",
+        "medium": "Hidrodinamikus cseppfolyósító természeti elembánya",
         "hard": "Nature"
       }
     },
@@ -6923,7 +6923,7 @@
     {
       "word": "Meleg tavasz",
       "clues": {
-        "easy": "Ásványi anyagokban gazdag forrás, amely vulkáni hőségben bugyborékol",
+        "easy": "Ásványi anyagokban gazdag szökőkút, amely vulkáni hőségben bugyborékol",
         "medium": "Geotermikusan fűtött talajvizes medence",
         "hard": "Nature"
       }
@@ -6931,8 +6931,8 @@
     {
       "word": "Árapály medence",
       "clues": {
-        "easy": "Apálykor feltárt miniatűr árapály-élőhely",
-        "medium": "Árapályközeli sziklás tengerparti medence",
+        "easy": "Miniatűr tengeri élőhely, amely alacsony tengeri mélyedésben látható",
+        "medium": "természeti elemközeli sziklás tengerparti természeti elem",
         "hard": "Nature"
       }
     },
@@ -7147,8 +7147,8 @@
     {
       "word": "Vízköpő",
       "clues": {
-        "easy": "A tornádó örvény habbá kavarja a vízfelületet",
-        "medium": "Intenzív oszlopos óceáni vízörvény",
+        "easy": "A tornádóörvény habbá kavarja a tenger felszínét",
+        "medium": "Intenzív oszlopos óceáni folyadékörvény",
         "hard": "Nature"
       }
     },
@@ -7203,8 +7203,8 @@
     {
       "word": "Árapály furat",
       "clues": {
-        "easy": "Valódi dagály, amely a szárazföld belseje felé halad a szűkülő torkolat felé",
-        "medium": "Felvízi árapály hullám a szűkülő folyóban",
+        "easy": "Valódi óceán hullámzás, amely a szárazföld belseje felé halad a szűkülő torkolat felé",
+        "medium": "Felvízi hullámfal a szűkülő parti folyóban",
         "hard": "Nature"
       }
     },
@@ -7350,7 +7350,7 @@
       "word": "Fagott",
       "clues": {
         "easy": "Mély fás tónusok ívelt bocal görbületen keresztül",
-        "medium": "Dupla nádból hajtogatott tenor-basszus fafúvós",
+        "medium": "Dupla nádból hajtogatott alacsony hangjegyű fafúvós",
         "hard": "Music"
       }
     },
@@ -7366,7 +7366,7 @@
       "word": "Francia kürt",
       "clues": {
         "easy": "Jobb kéz széles sárgaréz harang belsejébe helyezve",
-        "medium": "Szorosan tekercselt forgószelepes sárgaréz kürt",
+        "medium": "Szorosan tekercselt forgószelepes rézfúvós hangszer",
         "hard": "Music"
       }
     },
@@ -7437,7 +7437,7 @@
     {
       "word": "Basszusgitár",
       "clues": {
-        "easy": "Vastag basszushúrok pengetése ujjakkal",
+        "easy": "Vastag, vastag húrok pengetése ujjakkal",
         "medium": "Alacsony frekvenciájú négyhúros ritmusalapozó",
         "hard": "Music"
       }
@@ -7526,7 +7526,7 @@
       "word": "Pergő",
       "clues": {
         "easy": "Éles menetgörgés és peremrepülés",
-        "medium": "Feszített fém pergő az alsó dobfej alatt",
+        "medium": "Feszített tekercs huzalok az alsó tésztafej alatt",
         "hard": "Music"
       }
     },
@@ -7558,7 +7558,7 @@
       "word": "Acél dob",
       "clues": {
         "easy": "Kalapált homorú fém serpenyőgyűrű sziget tónusokkal",
-        "medium": "Homorú kalapácsos acél serpenyőütő",
+        "medium": "Homorú kalapácsos ötvözet serpenyős ütőhangszerek",
         "hard": "Music"
       }
     },
@@ -7621,8 +7621,8 @@
     {
       "word": "Kórus",
       "clues": {
-        "easy": "Szoprán, alt, tenor és basszus énekkórus",
-        "medium": "Többszólamú kórusénekegyüttes",
+        "easy": "Szoprán, alt, tenor és basszus énekhangdarab",
+        "medium": "Többszólamú hangdarabénekegyüttes",
         "hard": "Music"
       }
     },
@@ -7654,7 +7654,7 @@
       "word": "Rock zene",
       "clues": {
         "easy": "Erős akkordok, dobfelszerelés backbeat és nyers ének",
-        "medium": "Gitárvezérelt felerősített populáris zenei műfaj",
+        "medium": "Gitárvezérelt erősített stadionszonikus műfaj",
         "hard": "Music"
       }
     },
@@ -7678,7 +7678,7 @@
       "word": "Country zene",
       "clues": {
         "easy": "Mesemondó szövegek a vidéki életről és a szívfájdalomról",
-        "medium": "Vidéki amerikai gyökerű zene akusztikus csípéssel",
+        "medium": "Vidéki amerikai gyökerek balladahagyománya akusztikus csípéssel",
         "hard": "Music"
       }
     },
@@ -7686,7 +7686,7 @@
       "word": "Klasszikus zene",
       "clues": {
         "easy": "Szonáták, szimfóniák és versenyművek az elmúlt korokból",
-        "medium": "Formális európai művészzenei hagyomány",
+        "medium": "Formális európai hangdarabkari művészeti hagyomány",
         "hard": "Music"
       }
     },
@@ -7702,7 +7702,7 @@
       "word": "Népzene",
       "clues": {
         "easy": "Akusztikus gitárok, bendzsók és mesemondó balladák",
-        "medium": "Hagyományos közösségi alapú akusztikus zenei örökség",
+        "medium": "Hagyományos közösségi alapú akusztikai örökség",
         "hard": "Music"
       }
     },
@@ -7718,7 +7718,7 @@
       "word": "Punk rock",
       "clues": {
         "easy": "Torz gitárok, lendületes kiáltások és rendszerellenes szövegek",
-        "medium": "Gyors tempójú lecsupaszított torz rock",
+        "medium": "Gyors tempójú lecsupaszított torz lázadó akkordok",
         "hard": "Music"
       }
     },
@@ -7742,7 +7742,7 @@
       "word": "Salsa zene",
       "clues": {
         "easy": "Harsona robbanások, kongák és szinkronizált clave beat",
-        "medium": "Nagy tempójú szinkronizált afro-karibi tánczene",
+        "medium": "Nagy tempójú szinkronizált afro-karibi tánc groove",
         "hard": "Music"
       }
     },
@@ -7885,15 +7885,15 @@
     {
       "word": "Zeneállvány",
       "clues": {
-        "easy": "Állítható állvány, amely támogatja a kottákat a játékosok számára",
-        "medium": "Állítható állványtálca, amely támogatja a kottaírást",
+        "easy": "Állítható állványtartó dallapok zenekari játékosok számára",
+        "medium": "Állítható állványtálca, amely támogatja a kézírásos személyzeti jelöléseket",
         "hard": "Music"
       }
     },
     {
       "word": "Kotta",
       "clues": {
-        "easy": "Fekete hangjegyek, kulcsok és ütemek zenészek által olvasva",
+        "easy": "Fekete hangjegyek, kulcsok és mértékek előadók által olvasva",
         "medium": "Gravírozott nyomtatott személyzeti jelölés a teljesítményhez",
         "hard": "Music"
       }
@@ -8031,7 +8031,7 @@
     {
       "word": "Festészet",
       "clues": {
-        "easy": "Festőállvány, festékpaletta és színes pigmentek",
+        "easy": "Festőállvány, fa paletta és színes pigmentek",
         "medium": "Pigment felvitel feszített vászonra",
         "hard": "Hobbies"
       }
@@ -8047,7 +8047,7 @@
     {
       "word": "Kötés",
       "clues": {
-        "easy": "Varratszedés pulóverek kötéséhez",
+        "easy": "Varratszedés gyapjú pulóverek készítéséhez",
         "medium": "Összefonódó fonalhurkok ikertűvel",
         "hard": "Hobbies"
       }
@@ -8064,7 +8064,7 @@
       "word": "Kertészet",
       "clues": {
         "easy": "Simító, magok, öntözőkanna és talajtakaró",
-        "medium": "Kerti ágyások kertészeti művelése",
+        "medium": "Háztáji talajágyások foglalkozási művelése",
         "hard": "Hobbies"
       }
     },
@@ -8088,7 +8088,7 @@
       "word": "Horgászat",
       "clues": {
         "easy": "Csalihorog, dobózsinór és orsó",
-        "medium": "Horgászat csalizott horoggal és zsinórral",
+        "medium": "foglalkozás csalizott horoggal és zsinórral",
         "hard": "Hobbies"
       }
     },
@@ -8103,7 +8103,7 @@
     {
       "word": "Kempingezés",
       "clues": {
-        "easy": "Tábortűz, hálózsákok és erdei kemping",
+        "easy": "Tábortűz, hálózsákok és erdei foglalkozás",
         "medium": "Éjszaka szabadtéri vadon menedékhely",
         "hard": "Hobbies"
       }
@@ -8112,7 +8112,7 @@
       "word": "Madármegfigyelés",
       "clues": {
         "easy": "A tollazat és a dalok azonosítása a terepi útmutatóban",
-        "medium": "Távcsöves madár azonosítás a terepen",
+        "medium": "Távcsöves foglalkozás azonosítás a terepen",
         "hard": "Hobbies"
       }
     },
@@ -8159,7 +8159,7 @@
     {
       "word": "Famegmunkálás",
       "clues": {
-        "easy": "Vésők, fűrészek, faragasztó és csiszolás",
+        "easy": "Vésők, fűrészek, asztalos ragasztó és csiszolás",
         "medium": "Asztalos és fa bútorok faragása",
         "hard": "Hobbies"
       }
@@ -8239,8 +8239,8 @@
     {
       "word": "Kártyajátékok",
       "clues": {
-        "easy": "Keverés, öltönyosztás és kártyatrükkök",
-        "medium": "Fogadott vagy alkalmi kártyajáték",
+        "easy": "Keverés, öltönyosztás és nyerő trükkök",
+        "medium": "Fogadott vagy alkalmi nyomtatott fedélzeti játék",
         "hard": "Hobbies"
       }
     },
@@ -8327,7 +8327,7 @@
     {
       "word": "Úszás",
       "clues": {
-        "easy": "Szemüveg, úszósapka és vízsimítás",
+        "easy": "Szemüveg, gumisapka és vízi ütések",
         "medium": "A vízi medence ölében végzett gyakorlatok",
         "hard": "Hobbies"
       }
@@ -8344,14 +8344,14 @@
       "word": "Gördeszkázás",
       "clues": {
         "easy": "Ollies és kickflip gyakorlása a járdán",
-        "medium": "Négykerekű gördeszka manőverezés",
+        "medium": "Négykerekű markolat-szalagos deck manőverezés",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Szörfözés",
       "clues": {
-        "easy": "Evezz az óceán hullámaira és szörfözz",
+        "easy": "Evezz ki az óceán hullámaira és lovagolj megtörő hullámokon",
         "medium": "Lovaglás óceán duzzanat a lebegő deszkán",
         "hard": "Hobbies"
       }
@@ -8367,8 +8367,8 @@
     {
       "word": "Snowboardozás",
       "clues": {
-        "easy": "Csizmás deszkával havas hegyi kanyarokat faragni",
-        "medium": "Egypallós alpesi hófaragás",
+        "easy": "Fagyott hegyi kanyarulatok faragása bakancsos fedélzeten",
+        "medium": "Egydeszka alpesi porfaragás",
         "hard": "Hobbies"
       }
     },
@@ -8392,7 +8392,7 @@
       "word": "Lovaglás",
       "clues": {
         "easy": "Nyeregben ülve, kezében bőr kantár gyeplővel",
-        "medium": "Lovas nyereg egyensúly és nyomvonal lovaglás",
+        "medium": "Lovas nyeregegyensúly és vidéki ösvénytúrák",
         "hard": "Hobbies"
       }
     },
@@ -8416,7 +8416,7 @@
       "word": "Súlyzós edzés",
       "clues": {
         "easy": "Izomkészletek, fekvenyomás és guggolás készítése",
-        "medium": "Progresszív túlterhelésálló edzés",
+        "medium": "Progresszív túlterhelési foglalkozás ellenállás készletek",
         "hard": "Hobbies"
       }
     },
@@ -8447,7 +8447,7 @@
     {
       "word": "Salsa tánc",
       "clues": {
-        "easy": "Lépés a lendületes afro-kubai salsa ritmusaira",
+        "easy": "Lépés a lendületes afro-kubai ritmikus ütemekre",
         "medium": "Gyors szinkronizált latin partner pörög",
         "hard": "Hobbies"
       }
@@ -8464,7 +8464,7 @@
       "word": "Házi sörfőzés",
       "clues": {
         "easy": "Forralt árpamaláta, komló és erjesztő élesztő",
-        "medium": "Kistételes gabonafőzés és erjesztés",
+        "medium": "Kis tételben kézműves sörsörcefre-erjesztés",
         "hard": "Hobbies"
       }
     },
@@ -8479,8 +8479,8 @@
     {
       "word": "Kávé pörkölés",
       "clues": {
-        "easy": "Figyelemmel kíséri a pörkölés hőjét, a repedés hangját és az aromát",
-        "medium": "Zöld kávé magvak termikus pirolízise",
+        "easy": "Figyelemmel kíséri a dob hőjét, a recsegés hangjait és a barnulási aromát",
+        "medium": "Nyers java bab termikus pirolízise",
         "hard": "Hobbies"
       }
     },
@@ -8512,7 +8512,7 @@
       "word": "Fémfelderítés",
       "clues": {
         "easy": "Hallgatva sípoló hangokat, hogy előássák az eltemetett érméket",
-        "medium": "Elektromágneses szennyeződés szkennelés fémekre",
+        "medium": "Elektromágneses talajszkennelés eltemetett ereklyékért",
         "hard": "Hobbies"
       }
     },
@@ -8527,7 +8527,7 @@
     {
       "word": "Sárkányrepülés",
       "clues": {
-        "easy": "Elkapja a tengerparti szelet, hogy a sárkányt magasan tartsa",
+        "easy": "Elkapja a tengerparti szelet, hogy a nylon gyémánt magasan maradjon",
         "medium": "Tethered szél aerodinamikus repülés",
         "hard": "Hobbies"
       }
@@ -8535,15 +8535,15 @@
     {
       "word": "Drón repülés",
       "clues": {
-        "easy": "Kettős pálcás vezérlő, amely fedélzeti drónnal navigál",
-        "medium": "Távoli rádióvezérlésű négykopteres repülés",
+        "easy": "Kettős pálcás vezérlő, amely légi többrotorral navigál",
+        "medium": "Távoli rádióvezérlésű négykopteres foglalkozás",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Szerepjátékok",
       "clues": {
-        "easy": "Játékmester, aki leírja a fantasy küldetést karakterlapokkal",
+        "easy": "A Dungeon mesemondó fantasy küldetést ír le karakterlapokkal",
         "medium": "Együttműködő kockavezérelt fantasy-elbeszélés",
         "hard": "Hobbies"
       }
@@ -8552,7 +8552,7 @@
       "word": "Menekülési szobák",
       "clues": {
         "easy": "Rejtett rejtvények megfejtése az ajtó kinyitásához",
-        "medium": "Tematikus szövetkezeti szoba puzzle menekülés",
+        "medium": "Tematikus szövetkezeti zártkamrás rejtvény rejtély",
         "hard": "Hobbies"
       }
     },
@@ -8575,7 +8575,7 @@
     {
       "word": "Filmkészítés",
       "clues": {
-        "easy": "Forgatókönyvírás, kamerafelvételek komponálása és filmvágás",
+        "easy": "Forgatókönyvírás, kamerafelvételek komponálása és mozgótárcsák vágása",
         "medium": "Mozifilm-gyártási mesterség",
         "hard": "Hobbies"
       }
@@ -8608,7 +8608,7 @@
       "word": "Ham rádió",
       "clues": {
         "easy": "Hívójelek sugárzása nagyfrekvenciás adó-vevőn",
-        "medium": "Amatőr rádiófrekvenciás átvitel",
+        "medium": "Amatőr vezeték nélküli frekvenciaátvitel",
         "hard": "Hobbies"
       }
     },
@@ -8632,15 +8632,15 @@
       "word": "Méhészet",
       "clues": {
         "easy": "Védő méhruha, dohányzó és kaptárkeretek",
-        "medium": "Méhészet karbantartása és mézkitermelés",
+        "medium": "foglalkozás karbantartása és mézkitermelés",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Kutyakiképzés",
       "clues": {
-        "easy": "Clicker edzés, csemegék és póráz sarokparancsok",
-        "medium": "Kutya operáns kondicionálás és engedelmesség",
+        "easy": "Clicker coaching, finomságok és póráz sarokparancsok",
+        "medium": "foglalkozás operáns kondicionálás és engedelmesség",
         "hard": "Hobbies"
       }
     },
@@ -8671,7 +8671,7 @@
     {
       "word": "Foltvarró",
       "clues": {
-        "easy": "Patchwork paplan felső, vatelin és mintás öltések",
+        "easy": "Patchwork mintás felső, vatelin és dekoratív öltések",
         "medium": "Többrétegű patchwork textilvarrás",
         "hard": "Hobbies"
       }
@@ -8711,7 +8711,7 @@
     {
       "word": "Virágkötés",
       "clues": {
-        "easy": "Virágszár metszése és virágszínek kiegyensúlyozása",
+        "easy": "A csokor szárának metszése és az élénk virágszínek kiegyensúlyozása",
         "medium": "Virágkötő design és virágszár egyensúlya",
         "hard": "Hobbies"
       }
@@ -8728,14 +8728,14 @@
       "word": "Nyelvtanulás",
       "clues": {
         "easy": "Kártyák, kiejtési hangok és nyelvtani gyakorlat",
-        "medium": "Második nyelvi lexikális elsajátítás",
+        "medium": "Idegen beszéd szókincs és foglalkozás elsajátítása",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Vinyl gyűjtés",
       "clues": {
-        "easy": "Rekeszbe ásó tizenkét hüvelykes bakelit albumok ujjakban",
+        "easy": "Ládaásó, tizenkét hüvelykes barázda albumok karton ujjakban",
         "medium": "Analóg fonográf lemezek archiválása",
         "hard": "Hobbies"
       }
@@ -8775,7 +8775,7 @@
     {
       "word": "Ékszerkészítés",
       "clues": {
-        "easy": "Ékszerfogók, drótvágók, gyöngyök és kapcsok",
+        "easy": "Fogók, drótvágók, gyöngyök és kapcsok készítése",
         "medium": "Kézzel készített hordható dísz gyártás",
         "hard": "Hobbies"
       }
@@ -8783,16 +8783,16 @@
     {
       "word": "Üvegfúvás",
       "clues": {
-        "easy": "Izzó olvadt üveg összegyűjtése forró kemencéből",
-        "medium": "Olvadt üvegbuborék hőkezelése",
+        "easy": "Izzó olvadt szilícium-dioxid összegyűjtése forró kemencéből",
+        "medium": "Az olvadt izzó szilícium-dioxid buborék hőkezelése",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Ólomüveg",
       "clues": {
-        "easy": "Színes üvegdarabok vágása és forrasztási kötések",
-        "medium": "Ólomforrasztott színes műüveg szerelvény",
+        "easy": "Színes dísztáblák vágása és forrasztási kötések",
+        "medium": "Ólomforrasztott színes dekoratív panel összeállítás",
         "hard": "Hobbies"
       }
     },
@@ -8807,16 +8807,16 @@
     {
       "word": "Levélírás",
       "clues": {
-        "easy": "Írószer papír, töltőtoll és viaszpecsét",
-        "medium": "Leveles postai levél összetétele",
+        "easy": "Írószer pergamen, töltőtoll és viaszpecsét",
+        "medium": "Epistoláris postai pergamen kompozíció",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Városi vázlatrajz",
       "clues": {
-        "easy": "Akvarellek és tintatoll hordozható vázlatfüzetben",
-        "medium": "Plen-air megfigyelő építészeti vázlatkészítés",
+        "easy": "Akvarell és tinta toll hordozható rajzlapon",
+        "medium": "Plein-air megfigyelő építészeti rajzolás",
         "hard": "Hobbies"
       }
     }

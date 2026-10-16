@@ -27,7 +27,7 @@
     {
       "word": "Ručni sat",
       "clues": {
-        "easy": "Mali sat s remenom",
+        "easy": "Mali naprava s remenom",
         "medium": "Brojčanik s otkucavajućim remenom",
         "hard": "Everyday Objects"
       }
@@ -84,7 +84,7 @@
       "word": "jastuk",
       "clues": {
         "easy": "Mekana punjena podloga za spavanje",
-        "medium": "Pernati jastuk za glavu",
+        "medium": "Pernati naprava za glavu",
         "hard": "Everyday Objects"
       }
     },
@@ -163,7 +163,7 @@
     {
       "word": "Svjetiljka",
       "clues": {
-        "easy": "Prijenosna svjetiljka na baterije",
+        "easy": "Prijenosna naprava na baterije",
         "medium": "Ručna tamna zraka",
         "hard": "Everyday Objects"
       }
@@ -340,7 +340,7 @@
       "word": "Ljepilo u štapiću",
       "clues": {
         "easy": "Čvrsti samoljepljivi cilindar za papir",
-        "medium": "Cilindar ljepljivog papira",
+        "medium": "Twist-up papirnati ljepljivi cilindar",
         "hard": "Everyday Objects"
       }
     },
@@ -427,8 +427,8 @@
     {
       "word": "Kanta",
       "clues": {
-        "easy": "Otvoreno kanta sa žičanom ručkom",
-        "medium": "Okruglo kanta za izvlačenje vode",
+        "easy": "Otvoreno naprava sa žičanom ručkom",
+        "medium": "Okruglo naprava za izvlačenje vode",
         "hard": "Everyday Objects"
       }
     },
@@ -444,14 +444,14 @@
       "word": "Sapun",
       "clues": {
         "easy": "Skliski blok stvara pjenu",
-        "medium": "Mirisna pločica za pjenu",
+        "medium": "Mirisni kupaonski blok za pjenu",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Ručnik za kupanje",
       "clues": {
-        "easy": "Veliki upijajući kupaonski frotir",
+        "easy": "Veliki upijajući frotir za tuširanje",
         "medium": "Omotač od pamučnog vlažnog omotača",
         "hard": "Everyday Objects"
       }
@@ -603,7 +603,7 @@
     {
       "word": "Tava za prženje",
       "clues": {
-        "easy": "Metalna tava s ravnim dnom",
+        "easy": "Metalna naprava s ravnim dnom",
         "medium": "Cvrčanje metala ravnog dna",
         "hard": "Everyday Objects"
       }
@@ -635,8 +635,8 @@
     {
       "word": "Rukavica za pećnicu",
       "clues": {
-        "easy": "Izolirana platnena kuhinjska rukavica",
-        "medium": "Prošivena rukavica otporna na toplinu",
+        "easy": "Izolirana platnena kuhinjska naprava",
+        "medium": "Prošivena naprava otporna na toplinu",
         "hard": "Everyday Objects"
       }
     },
@@ -747,7 +747,7 @@
     {
       "word": "Posuda za led",
       "clues": {
-        "easy": "Pretinac zamrzivač kalup za kocke",
+        "easy": "Kalup za zamrzavanje s odjeljcima za rashladne blokove",
         "medium": "Pregradni kalup ispod nule",
         "hard": "Everyday Objects"
       }
@@ -755,7 +755,7 @@
     {
       "word": "Kukica za kaput",
       "clues": {
-        "easy": "Zidna vješalica za kapute",
+        "easy": "Zidna vješalica za vanjsku odjeću",
         "medium": "Zakrivljeni zidni zubac za jakne",
         "hard": "Everyday Objects"
       }
@@ -795,7 +795,7 @@
     {
       "word": "Pasta za zube",
       "clues": {
-        "easy": "Pjenušava pasta iz tube",
+        "easy": "Pjenušava naprava iz tube",
         "medium": "Fluoridna pjena za jutarnje čekinje",
         "hard": "Everyday Objects"
       }
@@ -878,7 +878,7 @@
       "word": "sladoled",
       "clues": {
         "easy": "Umućena ohlađena mliječna poslastica",
-        "medium": "Topljenje slatkog mliječnog vrhnja",
+        "medium": "Lopata za slatke smrznute mliječne proizvode",
         "hard": "Food"
       }
     },
@@ -1005,8 +1005,8 @@
     {
       "word": "Proljetna rolada",
       "clues": {
-        "easy": "Tanak omot zamotan oko punjenja",
-        "medium": "Prozirna rolada od prženog tijesta",
+        "easy": "Tanki omotač omotan oko hrskavih nadjeva",
+        "medium": "Prozirni cilindar od prženog tijesta",
         "hard": "Food"
       }
     },
@@ -1053,8 +1053,8 @@
     {
       "word": "Miso juha",
       "clues": {
-        "easy": "Juha od fermentirane sojine paste s dashijem",
-        "medium": "Mutna juha za doručak s mladim lukom",
+        "easy": "jelo od fermentirane sojine paste s dashijem",
+        "medium": "Mutna jelo za doručak s mladim lukom",
         "hard": "Food"
       }
     },
@@ -1086,7 +1086,7 @@
       "word": "Javorov sirup",
       "clues": {
         "easy": "Kuhani sok od drveta za doručak",
-        "medium": "Jantar kuhani sirup od lišćara",
+        "medium": "Jantarna kuhana redukcija bjelogorice",
         "hard": "Food"
       }
     },
@@ -1165,7 +1165,7 @@
     {
       "word": "Pire krumpir",
       "clues": {
-        "easy": "Prilog od tučenog začinjenog krumpira",
+        "easy": "Tučeno začinjeni prilog od spuda",
         "medium": "Tucene mlake s otopljenim vrhnjem",
         "hard": "Food"
       }
@@ -1173,8 +1173,8 @@
     {
       "word": "Pečeni krumpir",
       "clues": {
-        "easy": "Krompir zamotan u foliju s kiselim vrhnjem",
-        "medium": "Podijelite koru krumpira kuhanu na pari",
+        "easy": "U foliju umotana cijela savijača s kiselim vrhnjem",
+        "medium": "Podijelite kožu natopljenu parom",
         "hard": "Food"
       }
     },
@@ -1197,7 +1197,7 @@
     {
       "word": "Juha od rajčice",
       "clues": {
-        "easy": "Crvena kremasta juha s tostom",
+        "easy": "Kremasto crvena pire jelo u kombinaciji s tostom",
         "medium": "Zdjela za toplo pasirano voće od crvene loze",
         "hard": "Food"
       }
@@ -1221,7 +1221,7 @@
     {
       "word": "Kajgana",
       "clues": {
-        "easy": "Umućena jaja u tavi za doručak",
+        "easy": "Izmiješana skuta od žumanjaka u tavi za doručak",
         "medium": "Pahuljasta skuta na tostu",
         "hard": "Food"
       }
@@ -1245,7 +1245,7 @@
     {
       "word": "Ćufte",
       "clues": {
-        "easy": "Začinjena mesna kugla pirjana u umaku",
+        "easy": "Začinjena mljevena slana kugla pirjana u umaku",
         "medium": "Pirjana goveđa kugla u marinari",
         "hard": "Food"
       }
@@ -1269,7 +1269,7 @@
     {
       "word": "Riba i krumpirići",
       "clues": {
-        "easy": "Hrskavi plodovi mora s krumpirićima i octom",
+        "easy": "Hrskavi plodovi mora s jeloma i octom",
         "medium": "Primorska pomfrit zamotana u novine",
         "hard": "Food"
       }
@@ -1278,7 +1278,7 @@
       "word": "Sir na žaru",
       "clues": {
         "easy": "Kruh pržen u tavi s gnjecavim mliječnim središtem",
-        "medium": "Sendvič pečen na maslacu sa sirom",
+        "medium": "Sendvič pečen na maslacu s otopljenim mliječnim produktom",
         "hard": "Food"
       }
     },
@@ -1333,7 +1333,7 @@
     {
       "word": "kolačić",
       "clues": {
-        "easy": "Minijaturni kolač s vrtlogom slatke glazure",
+        "easy": "Minijaturni jelo s vrtlogom slatke glazure",
         "medium": "Torta pečena u podlozi s krunom od putera",
         "hard": "Food"
       }
@@ -1349,8 +1349,8 @@
     {
       "word": "Kolač od sira",
       "clues": {
-        "easy": "Zapečeni slatki krem sir na podlozi od mrvica",
-        "medium": "Gusta ohlađena kriška mliječnog kolača",
+        "easy": "Zapečena slatka mliječna krema na podlozi od mrvica",
+        "medium": "Gusta ohlađena kriška mliječnog jeloa",
         "hard": "Food"
       }
     },
@@ -1373,7 +1373,7 @@
     {
       "word": "Rolada s cimetom",
       "clues": {
-        "easy": "Pečeno razvaljano tijesto prelijte slatkom glazurom",
+        "easy": "Pečeno spiralno tijesto prelijte slatkom glazurom",
         "medium": "Spiralno slatko tijesto s krem glazurom",
         "hard": "Food"
       }
@@ -1381,7 +1381,7 @@
     {
       "word": "Kruh s češnjakom",
       "clues": {
-        "easy": "Hrskavi kruh pečen na maslacu od začinskog bilja",
+        "easy": "Hrskava rezana štruca pečena na maslacu od začinskog bilja",
         "medium": "Zapečena štruca sa začinskim biljem i maslacem",
         "hard": "Food"
       }
@@ -1430,7 +1430,7 @@
       "word": "Maslinovo ulje",
       "clues": {
         "easy": "Zlatni preljev za salatu i tekućina za kuhanje",
-        "medium": "Mediteransko hladno prešano zeleno ulje",
+        "medium": "Mediteranska hladno prešana voćna mast",
         "hard": "Food"
       }
     },
@@ -1608,7 +1608,7 @@
       "word": "pas",
       "clues": {
         "easy": "Maše repom i dohvaća loptice",
-        "medium": "Pas kućni pratilac",
+        "medium": "biće kućni pratilac",
         "hard": "Animals"
       }
     },
@@ -1623,8 +1623,8 @@
     {
       "word": "konj",
       "clues": {
-        "easy": "Konjsko stvorenje s lepršavom grivom",
-        "medium": "Konjski galoper u padoku",
+        "easy": "bićesko stvorenje s lepršavom grivom",
+        "medium": "bićeski galoper u padoku",
         "hard": "Animals"
       }
     },
@@ -1640,7 +1640,7 @@
       "word": "svinja",
       "clues": {
         "easy": "Inteligentna stoka s kovrčavim repom",
-        "medium": "Farmska svinja koja se valja u blatu",
+        "medium": "Farmska biće koja se valja u blatu",
         "hard": "Animals"
       }
     },
@@ -1672,7 +1672,7 @@
       "word": "pijetao",
       "clues": {
         "easy": "Kubasta muška ptica sa svijetlim češljem",
-        "medium": "Pijetao iz štale koji zove zoru",
+        "medium": "biće iz štale koji zove zoru",
         "hard": "Animals"
       }
     },
@@ -1912,7 +1912,7 @@
       "word": "zmija",
       "clues": {
         "easy": "Laganje jezikom i ljuskava koža koja se ljušti",
-        "medium": "Otrovna ili stežuća zmija",
+        "medium": "Otrovna ili stežuća biće",
         "hard": "Animals"
       }
     },
@@ -2015,7 +2015,7 @@
     {
       "word": "medvjed grizli",
       "clues": {
-        "easy": "Plećati medvjed lovi riječnog lososa",
+        "easy": "Zvijer s ramenima i grbom koja lovi riječnog lososa",
         "medium": "Snažan kopneni svejed koji hibernira",
         "hard": "Animals"
       }
@@ -2151,7 +2151,7 @@
     {
       "word": "golub",
       "clues": {
-        "easy": "Poskakujući urbani golub jede mrvice kruha",
+        "easy": "Poskakujući urbani biće jede mrvice kruha",
         "medium": "Urbana ptica jata s instinktom za samodom",
         "hard": "Animals"
       }
@@ -2255,7 +2255,7 @@
     {
       "word": "Morska zvijezda",
       "clues": {
-        "easy": "Regenerirajuća morska zvijezda na koraljima",
+        "easy": "Regenerirajuće petokrako morsko biće na koralju",
         "medium": "Radijalni bentoski puzač",
         "hard": "Animals"
       }
@@ -2271,7 +2271,7 @@
     {
       "word": "Riba klaun",
       "clues": {
-        "easy": "Prugasta grebenska riba otporna na ubode",
+        "easy": "Prugasta grebenska biće otporna na ubode",
         "medium": "Prugasti stanovnik grebena sa simbiotskim domaćinom",
         "hard": "Animals"
       }
@@ -2328,7 +2328,7 @@
       "word": "Bubamara",
       "clues": {
         "easy": "Korisni vrtni kukci koji jedu lisne uši",
-        "medium": "Pjegava kupolasta vrtna buba",
+        "medium": "Pjegava kupolasta vrtna biće",
         "hard": "Animals"
       }
     },
@@ -2673,7 +2673,7 @@
     {
       "word": "Južna Afrika",
       "clues": {
-        "easy": "Nacija duginih boja na južnom vrhu kontinenta",
+        "easy": "Nacija duge na Rtu dobre nade",
         "medium": "Nacija dva oceana sa zlatom i dijamantima",
         "hard": "Countries"
       }
@@ -2745,8 +2745,8 @@
     {
       "word": "Saudijska Arabija",
       "clues": {
-        "easy": "Srce Arapskog poluotoka s povijesnim hodočašćem",
-        "medium": "Kraljevstvo koje zauzima veći dio Arapskog poluotoka",
+        "easy": "Srce golemog pustinjskog poluotoka s povijesnim hodočašćem u Meku",
+        "medium": "Kraljevstvo koje zauzima većinu golemog pustinjskog zaljevskog poluotoka",
         "hard": "Countries"
       }
     },
@@ -2866,7 +2866,7 @@
       "word": "Filipini",
       "clues": {
         "easy": "Tihooceanska arhipelaška država od sedam tisuća otoka",
-        "medium": "Lanac otoka između Južnog kineskog mora i Filipinskog mora",
+        "medium": "Tropski arhipelag između tjesnaca Luzon i mora Celebes",
         "hard": "Countries"
       }
     },
@@ -2874,7 +2874,7 @@
       "word": "Južna Koreja",
       "clues": {
         "easy": "Visokotehnološka poluotočna nacija sa živom kulturom",
-        "medium": "Istočnoazijska republika južno od 38. paralele",
+        "medium": "Istočnoazijska republika ispod 38. paralele",
         "hard": "Countries"
       }
     },
@@ -3202,7 +3202,7 @@
       "word": "Grad Vatikan",
       "clues": {
         "easy": "Najmanja neovisna država na svijetu unutar Rima",
-        "medium": "Papinska enklava u glavnom gradu Italije",
+        "medium": "Papinska enklava u glavnom zemljau Italije",
         "hard": "Countries"
       }
     }
@@ -3396,7 +3396,7 @@
       "word": "Stjuardesa",
       "clues": {
         "easy": "Pokazuje izlaze za slučaj opasnosti i sigurnost kabine",
-        "medium": "Upravitelj putničke kabine u letu",
+        "medium": "Steward putničke kabine u zraku",
         "hard": "Professions"
       }
     },
@@ -3420,7 +3420,7 @@
       "word": "Vatrogasac",
       "clues": {
         "easy": "Kaciga, teško crijevo i kamion s ljestvama",
-        "medium": "Stručnjak za suzbijanje požara u hitnim slučajevima",
+        "medium": "Stručnjak za hitno gašenje požara",
         "hard": "Professions"
       }
     },
@@ -3428,7 +3428,7 @@
       "word": "Policijski službenik",
       "clues": {
         "easy": "Značka, uniforma i hitna patrola zajednice",
-        "medium": "Patrolni službenik za provođenje zakona",
+        "medium": "Uniformirani patrolni agent policije",
         "hard": "Professions"
       }
     },
@@ -3444,7 +3444,7 @@
       "word": "sudac",
       "clues": {
         "easy": "Crna haljina, čekić i pravne presude",
-        "medium": "Sudski sudac",
+        "medium": "Sudski stručnjak",
         "hard": "Professions"
       }
     },
@@ -3452,7 +3452,7 @@
       "word": "odvjetnik",
       "clues": {
         "easy": "Podnosi sudske zahtjeve i tumači statut",
-        "medium": "Ovlašteni pravni odvjetnik",
+        "medium": "Ovlašteni pravni stručnjak",
         "hard": "Professions"
       }
     },
@@ -3476,7 +3476,7 @@
       "word": "mesar",
       "clues": {
         "easy": "Sjekar, noževi za rezbarenje i hladni ormarić",
-        "medium": "Porcionator stočnog mesa",
+        "medium": "Porcionator stočnog stručnjak",
         "hard": "Professions"
       }
     },
@@ -3500,7 +3500,7 @@
       "word": "Stolar",
       "clues": {
         "easy": "Pila, mjerna traka i spojevi za drvo",
-        "medium": "Majstor drvene konstrukcije i stolarije",
+        "medium": "Majstor drvene konstrukcije i stručnjakije",
         "hard": "Professions"
       }
     },
@@ -3539,7 +3539,7 @@
     {
       "word": "Slikar",
       "clues": {
-        "easy": "Valjci, ladice za boju i krpe",
+        "easy": "Valjci, ladice za pigmente i krpe",
         "medium": "Obrtnik za površinsko premazivanje i završnu obradu",
         "hard": "Professions"
       }
@@ -3548,14 +3548,14 @@
       "word": "Krojač",
       "clues": {
         "easy": "Mjerna traka, šivaći stroj i tkanina po narudžbi",
-        "medium": "Monter i krojač odjeće po narudžbi",
+        "medium": "Monter i stručnjak odjeće po narudžbi",
         "hard": "Professions"
       }
     },
     {
       "word": "Brijač",
       "clues": {
-        "easy": "Škare, brijač i okretna stolica",
+        "easy": "Škare, stručnjak i okretna stolica",
         "medium": "Muški frizer i stilist za škare",
         "hard": "Professions"
       }
@@ -3588,7 +3588,7 @@
       "word": "Novinar",
       "clues": {
         "easy": "Intervjuira izvore i piše novinske članke",
-        "medium": "Dopisnik za tisak i novinar",
+        "medium": "Dopisnik za tisak i stručnjak",
         "hard": "Professions"
       }
     },
@@ -3619,7 +3619,7 @@
     {
       "word": "Glazbenik",
       "clues": {
-        "easy": "Notna glazba, ritam i akustični instrument",
+        "easy": "Listovi s notama, ritam i akustični instrument",
         "medium": "Umjetnik instrumentalne izvedbe",
         "hard": "Professions"
       }
@@ -3667,15 +3667,15 @@
     {
       "word": "Bankar",
       "clues": {
-        "easy": "Nadzire financijski kapital i bankovni kredit",
-        "medium": "Službenik za komercijalno bankarstvo i kreditiranje",
+        "easy": "Nadzire financijski kapital i komercijalne kredite",
+        "medium": "Službenik za komercijalno financiranje i kredite",
         "hard": "Professions"
       }
     },
     {
       "word": "blagajnik",
       "clues": {
-        "easy": "Skener barkoda, blagajna i pisač računa",
+        "easy": "Skener crtičnog koda, ladica blagajne i pisač računa",
         "medium": "Maloprodajni blagajničar na prodajnom mjestu",
         "hard": "Professions"
       }
@@ -3699,7 +3699,7 @@
     {
       "word": "Turistički vodič",
       "clues": {
-        "easy": "Daje komentare i vodi pješačke ture",
+        "easy": "Nudi povijesne komentare za posjetitelje",
         "medium": "Vođa kulturne ekspedicije",
         "hard": "Professions"
       }
@@ -3707,8 +3707,8 @@
     {
       "word": "Vozač taksija",
       "clues": {
-        "easy": "Navigira uličnim prometom pomoću taksimetra na kontrolnoj ploči",
-        "medium": "Putnički taksist urbane ulice",
+        "easy": "Navigira uličnim prometom pomoću mjerača cijene karte na kontrolnoj ploči",
+        "medium": "Urbani ulični putnički žuti stručnjak operater",
         "hard": "Professions"
       }
     },
@@ -3724,15 +3724,15 @@
       "word": "Poštar",
       "clues": {
         "easy": "Nosi torbu s pismima duž ulice",
-        "medium": "Dostavljač poštanskih pisama i paketa",
+        "medium": "Kurir za dostavu poštanskih pisama i paketa",
         "hard": "Professions"
       }
     },
     {
       "word": "Kurir za dostavu",
       "clues": {
-        "easy": "Vozi dostavno vozilo i skenira barkodove paketa",
-        "medium": "Kurir paketa do zadnje milje",
+        "easy": "Vozi kombi za otpremu i skenira barkodove paketa",
+        "medium": "Trkač paketa do zadnje milje",
         "hard": "Professions"
       }
     },
@@ -3740,7 +3740,7 @@
       "word": "programer",
       "clues": {
         "easy": "Računalna tipkovnica, uređivač teksta i otklanjanje pogrešaka",
-        "medium": "Programer izvornog koda softvera",
+        "medium": "stručnjak izvornog koda softvera",
         "hard": "Professions"
       }
     },
@@ -3748,7 +3748,7 @@
       "word": "Grafički dizajner",
       "clues": {
         "easy": "Softver za digitalnu ilustraciju i tipografija",
-        "medium": "Dizajner komercijalnog vizualnog brendiranja",
+        "medium": "Umjetnik komercijalnog vizualnog brendiranja",
         "hard": "Professions"
       }
     },
@@ -3756,7 +3756,7 @@
       "word": "Filmski redatelj",
       "clues": {
         "easy": "Poziva na akciju, vodi kinematografiju i preuzima recenzije",
-        "medium": "Redatelj kinematografskih filmova",
+        "medium": "Autor kinematografskog filma",
         "hard": "Professions"
       }
     },
@@ -3811,8 +3811,8 @@
     {
       "word": "Kovač",
       "clues": {
-        "easy": "Teški čekić, kovačka peć i kliješta",
-        "medium": "Zagrijano željezo kovač metala",
+        "easy": "Teški čekić, stručnjakka peć i kliješta",
+        "medium": "Zagrijano željezo stručnjak metala",
         "hard": "Professions"
       }
     },
@@ -3828,7 +3828,7 @@
       "word": "Bravar",
       "clues": {
         "easy": "Odabire preklopnike, prazne ključeve i ugrađuje zasune",
-        "medium": "Stručnjak za rezanje ključeva i cilindričnih brava",
+        "medium": "Stručnjak za rezanje ključeva i cilindara",
         "hard": "Professions"
       }
     },
@@ -3843,7 +3843,7 @@
     {
       "word": "Vozač kamiona",
       "clues": {
-        "easy": "Vozi polukamion s osamnaest kotača međudržavnom cestom",
+        "easy": "Vozi poluautomobil s osamnaest kotača međudržavnom cestom",
         "medium": "Operater međudržavnog prijevoza tereta na dugim relacijama",
         "hard": "Professions"
       }
@@ -3883,7 +3883,7 @@
     {
       "word": "mađioničar",
       "clues": {
-        "easy": "Igraće karte, čarobni štapić i trikovi za varanje",
+        "easy": "Igraće karte, ulašteni štapić i varljiva spretnost ruke",
         "medium": "Scenski iluzionist i umjetnik spretne ruke",
         "hard": "Professions"
       }
@@ -3907,7 +3907,7 @@
     {
       "word": "Trgovac",
       "clues": {
-        "easy": "Sprema police, pomaže kupcima i upravlja trgovinom",
+        "easy": "Sprema police, pomaže kupcima i upravlja izlogom",
         "medium": "Samostalni vlasnik maloprodajnog izloga",
         "hard": "Professions"
       }
@@ -3931,8 +3931,8 @@
     {
       "word": "Nutricionist",
       "clues": {
-        "easy": "Izračunava kalorijski unos i uravnoteženu prehranu",
-        "medium": "Savjetnik za zdravlje i prehranu",
+        "easy": "Izračunava kalorijski unos i uravnotežene planove obroka",
+        "medium": "Savjetnik za zdravu prehranu i zdravlje hrane",
         "hard": "Professions"
       }
     },
@@ -3972,7 +3972,7 @@
       "word": "Kontrolor zračnog prometa",
       "clues": {
         "easy": "Radarski zaslon, slušalice i odobrenje za pistu zračne luke",
-        "medium": "Radarski kontrolor zračnog prostora zračnog tornja",
+        "medium": "Radarski monitor stručnjak prostora u zračnom tornju",
         "hard": "Professions"
       }
     },
@@ -3980,14 +3980,14 @@
       "word": "Rukovatelj dizalicom",
       "clues": {
         "easy": "Visoke poluge kabine, užad za dizalicu i protuutezi",
-        "medium": "Rukovatelj kabine konstrukcije teške dizalice",
+        "medium": "Specijalist za kabine za konstrukciju teških dizalica",
         "hard": "Professions"
       }
     },
     {
       "word": "Dirigent",
       "clues": {
-        "easy": "Dirigentska palica, podij orkestra i notni zapis",
+        "easy": "stručnjakska palica, podij orkestra i notni zapis",
         "medium": "Ravnatelj orkestralnog glazbenog podija",
         "hard": "Professions"
       }
@@ -4101,8 +4101,8 @@
     {
       "word": "Stolni tenis",
       "clues": {
-        "easy": "Minijaturna vesla koja se okupljaju po mreži stola",
-        "medium": "Utakmica s gumenim veslom za stol za stolni tenis",
+        "easy": "Minijaturna vesla jure preko zelene mreže",
+        "medium": "Utakmica s gumenim veslom za disciplina u dvorani",
         "hard": "Sports"
       }
     },
@@ -4141,8 +4141,8 @@
     {
       "word": "Snowboarding",
       "clues": {
-        "easy": "Obje čizme vezane za jednu snježnu palubu",
-        "medium": "Jednostruka alpska paluba urezuje praškasti snijeg",
+        "easy": "Obje čizme vezane za jednu zimsku palubu",
+        "medium": "Jednostruka alpska paluba urezana u praškasti mraz",
         "hard": "Sports"
       }
     },
@@ -4357,15 +4357,15 @@
     {
       "word": "Skok s motkom",
       "clues": {
-        "easy": "Fleksibilni stup od fiberglasa za sadnju na prozirnu šipku",
-        "medium": "Vertikalni skok potpomognut savitljivim stupom od fiberglasa",
+        "easy": "Usađivanje fleksibilne letve od stakloplastike u prozirnu šipku",
+        "medium": "Vertikalni disciplina potpomognut savitljivom šipkom od stakloplastike",
         "hard": "Sports"
       }
     },
     {
       "word": "Bacanje kugle",
       "clues": {
-        "easy": "Okretanje unutar kruga za lansiranje željezne kugle",
+        "easy": "Okretanje unutar kruga za lansiranje željezne disciplina",
         "medium": "Eksplozivna metalna kugla izbačena iz kruga",
         "hard": "Sports"
       }
@@ -4381,8 +4381,8 @@
     {
       "word": "Bacanje koplja",
       "clues": {
-        "easy": "Bacanje vitkog šiljatog koplja iznad piste",
-        "medium": "Aerodinamično zašiljeno koplje za bacanje s piste",
+        "easy": "disciplina vitkog šiljatog disciplina iznad piste",
+        "medium": "Aerodinamično zašiljeno koplje za disciplina s piste",
         "hard": "Sports"
       }
     },
@@ -4390,7 +4390,7 @@
       "word": "Dizanje utega",
       "clues": {
         "easy": "Trzaj, čisti i izbačaj, s utezima ispisanim kredom",
-        "medium": "Elevacija utega od platforme do brave iznad glave",
+        "medium": "Elevacija disciplina od platforme do brave iznad glave",
         "hard": "Sports"
       }
     },
@@ -4398,7 +4398,7 @@
       "word": "Penjanje po stijenama",
       "clues": {
         "easy": "Uprtači, karabineri, torba za kredu i sigurnosna užad",
-        "medium": "Uspon okomitih stijena korištenjem držanja za prste",
+        "medium": "Uspinjanje okomitim liticama pomoću držanja za prste",
         "hard": "Sports"
       }
     },
@@ -4406,7 +4406,7 @@
       "word": "Jahanje konja",
       "clues": {
         "easy": "Držeći kožne uzde i galopirajući u stremenima",
-        "medium": "Kontrola sedla konja i navigacija skokom",
+        "medium": "Kontrola sedla disciplina i navigacija skokom",
         "hard": "Sports"
       }
     },
@@ -4446,7 +4446,7 @@
       "word": "Vaterpolo",
       "clues": {
         "easy": "Kape za plivanje sa štitnicima za uši i plutajućim golovima",
-        "medium": "Dubokovodno borba s loptom",
+        "medium": "Duboka vodena klorirana loptica",
         "hard": "Sports"
       }
     },
@@ -4502,14 +4502,14 @@
       "word": "Hokej na travi",
       "clues": {
         "easy": "Zakačeni palice dodaju loptu u gol na travnjaku",
-        "medium": "Zakrivljena palica na travi i travnjaku",
+        "medium": "Zakrivljena palica na disciplina i travnjaku",
         "hard": "Sports"
       }
     },
     {
       "word": "Umjetničko plivanje",
       "clues": {
-        "easy": "Rutine štipaljke za nos naopako u bazenu",
+        "easy": "Rutine štipaljke za nos naopako u kloriranom bazenu",
         "medium": "Vodena sinkronizirana koreografija na glazbu",
         "hard": "Sports"
       }
@@ -4518,7 +4518,7 @@
       "word": "Skijanje na vodi",
       "clues": {
         "easy": "Držanje užeta za vuču klizi preko traga broda",
-        "medium": "Tegljeno glisiranje iznad otvorenih voda",
+        "medium": "Snimanje vodenog toka vučenog brodom na dvostrukim disciplinalicama",
         "hard": "Sports"
       }
     },
@@ -4582,7 +4582,7 @@
       "word": "Disk golf",
       "clues": {
         "easy": "Staza lančanih meta u košari preko parka",
-        "medium": "Tečaj točnosti letećeg diska od Tee-to-basket",
+        "medium": "Tečaj točnosti letećeg tanjura",
         "hard": "Sports"
       }
     },
@@ -4645,8 +4645,8 @@
     {
       "word": "Ples na ledu",
       "clues": {
-        "easy": "Zamršen sinkroniziran rad nogu i trzanja na ledu",
-        "medium": "Kazališna plesna partnerska koreografija na ledu",
+        "easy": "Zamršen sinkroniziran rad nogu i trzanja na zaleđenom klizalištu",
+        "medium": "Kazališna disciplinana partnerska koreografija na smrznutom klizalištu",
         "hard": "Sports"
       }
     },
@@ -4685,7 +4685,7 @@
     {
       "word": "biljar",
       "clues": {
-        "easy": "Karambol baca biljarske kugle bez džepova",
+        "easy": "Karambol puca u sudarajuće obojene kugle bez džepova",
         "medium": "Baize table cue shots korištenjem šinskih jastuka",
         "hard": "Sports"
       }
@@ -4717,7 +4717,7 @@
     {
       "word": "preponsko jahanje",
       "clues": {
-        "easy": "Svladavanje ograda stadiona unutar vremenskog ograničenja",
+        "easy": "Svladavanje ograda stadionskih prepreka unutar vremenskog ograničenja",
         "medium": "Konjička staza čisti šarene ograde stadiona",
         "hard": "Sports"
       }
@@ -4725,16 +4725,16 @@
     {
       "word": "Zmajev čamac",
       "clues": {
-        "easy": "Veslači usklađeni s bubnjevima i ukrašenim zmajevim lukom",
-        "medium": "Sinkronizirano grupno veslanje zmajevim pramcem",
+        "easy": "Veslači usklađeni s bubnjevima i mitskim zmijskim lukom",
+        "medium": "Sinkronizirano grupno veslanje pramcem mitske zvijeri",
         "hard": "Sports"
       }
     },
     {
       "word": "Sportsko penjanje",
       "clues": {
-        "easy": "Podrezivanje brzih zatezanja tijekom penjanja u teretanu",
-        "medium": "Penjanje po zidu gimnazije pričvršćeno za sidra",
+        "easy": "Rezanje brzih zatezanja tijekom penjanja na ruti umjetne teretane",
+        "medium": "Uspon unutarnjeg zida gimnazije pričvršćen za sidra",
         "hard": "Sports"
       }
     },
@@ -4991,7 +4991,7 @@
     {
       "word": "Burger King",
       "clues": {
-        "easy": "Lanac brze hrane s kraljem koji nosi krunu",
+        "easy": "Lanac brze hrane s monarhom u kruni",
         "medium": "Tekst u sendviču između žutih polovica punđe",
         "hard": "Logos & Brands"
       }
@@ -5023,7 +5023,7 @@
     {
       "word": "Pizza Hut",
       "clues": {
-        "easy": "Pizzerija s logotipom crvenog krova",
+        "easy": "Talijanski brzi casual lanac s logotipom crvenog krova",
         "medium": "Silueta šešira s crvenim obodom",
         "hard": "Logos & Brands"
       }
@@ -5192,7 +5192,7 @@
       "word": "Red Bull",
       "clues": {
         "easy": "Limenka energetskog pića s sukobljenim zvijerima",
-        "medium": "Dvije crvenorogate zvijeri jedna uz drugu",
+        "medium": "Dvije grimizne rogate zvijeri jedna uz drugu",
         "hard": "Logos & Brands"
       }
     },
@@ -5617,7 +5617,7 @@
     {
       "word": "automobil",
       "clues": {
-        "easy": "Osobni putnički automobil s volanom",
+        "easy": "Osobni putnički putničko vozilo s volanom",
         "medium": "S unutarnjim izgaranjem ili električna šasija",
         "hard": "Transport"
       }
@@ -5625,7 +5625,7 @@
     {
       "word": "Autobus",
       "clues": {
-        "easy": "Autobus javnog prijevoza po redu vožnje sa stajalištima",
+        "easy": "prometalo javnog prijevoza po redu vožnje sa stajalištima",
         "medium": "Gradski cestovni promet za više putnika",
         "hard": "Transport"
       }
@@ -5641,7 +5641,7 @@
     {
       "word": "Zrakoplov",
       "clues": {
-        "easy": "Putnički zrakoplov polijeće s piste",
+        "easy": "Putnički prometalo polijeće s piste",
         "medium": "Tlačni trup s mlaznim turbinskim pogonom",
         "hard": "Transport"
       }
@@ -5697,7 +5697,7 @@
     {
       "word": "taksi",
       "clues": {
-        "easy": "Ulični taksi pozvan za izravna odredišna putovanja",
+        "easy": "Ulični prometalo pozvan za izravna odredišna putovanja",
         "medium": "Komercijalno ulično putničko vozilo s mjerenjem",
         "hard": "Transport"
       }
@@ -5706,7 +5706,7 @@
       "word": "Podzemna željeznica",
       "clues": {
         "easy": "Tunelski vlakovi metroa koji se zaustavljaju na podzemnim platformama",
-        "medium": "Podzemna elektrificirana putnička željeznička mreža",
+        "medium": "prometalo elektrificirana putnička željeznička mreža",
         "hard": "Transport"
       }
     },
@@ -5738,7 +5738,7 @@
       "word": "gliser",
       "clues": {
         "easy": "Unutarnji ili izvanbrodski motor glisiranje na vodi",
-        "medium": "Plovilo s gliserskim trupom velike konjske snage",
+        "medium": "Plovilo s prometaloskim trupom velike konjske snage",
         "hard": "Transport"
       }
     },
@@ -5770,14 +5770,14 @@
       "word": "Brod za krstarenje",
       "clues": {
         "easy": "Plutajuće odmaralište s bazenima, palubama i kabinama",
-        "medium": "Prekooceanski putnički brod za odmor s više paluba",
+        "medium": "Prekooceanski putnički prometalo za odmor s više paluba",
         "hard": "Transport"
       }
     },
     {
       "word": "Teretni brod",
       "clues": {
-        "easy": "Hrpe šarenih metalnih kontejnera za transport preko mora",
+        "easy": "Hrpe šarenih metalnih prometaloh kontejnera preko oceana",
         "medium": "Prijevoznik kontejnerskog tereta u rasutom stanju",
         "hard": "Transport"
       }
@@ -5801,8 +5801,8 @@
     {
       "word": "Balon na topli zrak",
       "clues": {
-        "easy": "Plamenik zagrijava zrak unutar omotača uvis",
-        "medium": "Toplinski uzgon pleten putnički let",
+        "easy": "Plamenik koji grije plin unutar omotača uvis",
+        "medium": "prometalonski uzgon pleten putnički let",
         "hard": "Transport"
       }
     },
@@ -5841,7 +5841,7 @@
     {
       "word": "Hitna pomoć",
       "clues": {
-        "easy": "Mobilni krevet za nošenje nosila za hitnu medicinsku pomoć",
+        "easy": "Mobilni krevet za nošenje nosila za hitnu medicinsku prometalo",
         "medium": "Prioritet bolničarski mobilni traumatski transport",
         "hard": "Transport"
       }
@@ -5849,8 +5849,8 @@
     {
       "word": "Vatrogasno vozilo",
       "clues": {
-        "easy": "Vatrogasno vozilo sirenom reagira na požar zgrade",
-        "medium": "Hidraulične ljestve i kamion za pumpanje vode",
+        "easy": "prometalo hitne pomoći sirenom reagira na požar u zgradi",
+        "medium": "Hidraulične ljestve i visokotlačna pumpa",
         "hard": "Transport"
       }
     },
@@ -5889,7 +5889,7 @@
     {
       "word": "Kamion kiper",
       "clues": {
-        "easy": "Prevozi i odlažu šljunak, pijesak i šut",
+        "easy": "Prijevoz i istovar šljunka, pijeska i šute",
         "medium": "Tegljač za rasuti teret s otvorenim sandukom s hidrauličnim kipom",
         "hard": "Transport"
       }
@@ -5905,24 +5905,24 @@
     {
       "word": "Čistač snijega",
       "clues": {
-        "easy": "Čišćenje zaleđenih cesta i nagomilavanje snijega uz rubnike",
-        "medium": "Vozilo za čišćenje snijega s klinastim kutom montirano sprijeda",
+        "easy": "Čišćenje zaleđenih cesta i guranje bljuzgavice uz rub",
+        "medium": "Prednje postavljeno vozilo za zimsko čišćenje s klinom pod kutom",
         "hard": "Transport"
       }
     },
     {
       "word": "Motorne sanke",
       "clues": {
-        "easy": "Stroj kojim se upravlja pomoću upravljača prelazi preko zimskih nanosa",
-        "medium": "Zimski stroj za prelaženje snijega sa stražnjim gusjenicama",
+        "easy": "Gazi po prahu sa skijama s dvostrukim upravljanjem",
+        "medium": "Stroj za prolazak zimske tundre sa stražnjim gusjenicama",
         "hard": "Transport"
       }
     },
     {
       "word": "Jet ski",
       "clues": {
-        "easy": "Vodeni skuter na vodeni mlaz",
-        "medium": "Osobno plovilo na vodeni mlaz s upravljačem",
+        "easy": "Vodeni skuter za sjedenje na hidro pogon",
+        "medium": "Osobno vodeno plovilo s upravljačem",
         "hard": "Transport"
       }
     },
@@ -5937,8 +5937,8 @@
     {
       "word": "Žičara",
       "clues": {
-        "easy": "Zračna tranzitna gondola koja se uspinje na strme planinske vrhove",
-        "medium": "Viseća putnička kabina zračne vučne uže",
+        "easy": "Viseća tramvajska kabina koja vozi nadzemnom žicom",
+        "medium": "Putnička kabina ovješena zračnom vučnom žicom",
         "hard": "Transport"
       }
     },
@@ -5946,7 +5946,7 @@
       "word": "Gondola žičara",
       "clues": {
         "easy": "Planinski prijevoz koji vozi skijaše iznad snježnih padina",
-        "medium": "Kontinuirano kružna zatvorena žičara",
+        "medium": "Kontinuirano kružna zatvorena prometalo",
         "hard": "Transport"
       }
     },
@@ -5969,8 +5969,8 @@
     {
       "word": "Konjska zaprega",
       "clues": {
-        "easy": "Povijesna drvena kočija s konjskom ormom i vozačem",
-        "medium": "Putnički prijevoz na kotačima na konjsku vuču",
+        "easy": "Povijesna drvena kočija s upregom za pastuhe i vozačem",
+        "medium": "Konjička putnička kolica sa željeznim kotačima",
         "hard": "Transport"
       }
     },
@@ -5978,31 +5978,31 @@
       "word": "Jednotračna tračnica",
       "clues": {
         "easy": "Tranzit do zračne luke ili tematskog parka vozi se usamljenom stazom",
-        "medium": "Uzdignuti tranzit tračnicama s jednom gredom",
+        "medium": "Uzdignuti tranzit prometaloma s jednom gredom",
         "hard": "Transport"
       }
     },
     {
       "word": "Vlak metak",
       "clues": {
-        "easy": "Snimanje električnih vlakova između gradova velikim brzinama",
-        "medium": "Aerodinamični nos velike brzine na namjenskim tračnicama",
+        "easy": "Aerodinamičko snimanje ekspresne lokomotive između gradova pri velikim brzinama",
+        "medium": "Aerodinamična putnička željeznica velikih brzina",
         "hard": "Transport"
       }
     },
     {
       "word": "Teretni vlak",
       "clues": {
-        "easy": "Diesel lokomotiva za vuču spremnika i sanduka",
-        "medium": "Teški željeznički teret s više lokomotiva sastoji se",
+        "easy": "Dugi niz vagona koje vuku dizel lokomotive",
+        "medium": "Teški željeznički prometalo s više lokomotiva sastoji se",
         "hard": "Transport"
       }
     },
     {
       "word": "Autobus na kat",
       "clues": {
-        "easy": "Kultni crveni visoki autobus sa spiralnim stubištem",
-        "medium": "Putnički ulični tranzitni autobus na dvije razine",
+        "easy": "Kultni crveni visoki prometalo sa spiralnim stepenicama",
+        "medium": "Gradski putnički tranzit na dva nivoa",
         "hard": "Transport"
       }
     },
@@ -6025,8 +6025,8 @@
     {
       "word": "kamionet",
       "clues": {
-        "easy": "Vrata prtljažnika, zatvorena kabina i prostor za pomoćni teret",
-        "medium": "Putnički motorni kamion s otvorenim krevetom",
+        "easy": "Kabina za suvozača s otvorenim stražnjim prostorom za teret",
+        "medium": "Putnički motorni tegljač s otvorenim krevetom",
         "hard": "Transport"
       }
     },
@@ -6057,7 +6057,7 @@
     {
       "word": "Go-kart",
       "clues": {
-        "easy": "Karting s četiri kotača niskog razmaka na zavojitim zatvorenim stazama",
+        "easy": "Trkač na četiri kotača niskog razmaka na zavojitim zatvorenim stazama",
         "medium": "Minijaturna trkaća šasija s otvorenim kotačima s niskim središtem",
         "hard": "Transport"
       }
@@ -6065,7 +6065,7 @@
     {
       "word": "Terensko vozilo",
       "clues": {
-        "easy": "Razmaknuto sjedalo i upravljač koji se vozi po blatnim stazama",
+        "easy": "Razmaknuto sjedalo i upravljač koji se prometalo po blatnim stazama",
         "medium": "Terenski quad na četiri kotača s raskoračnim sjedalom",
         "hard": "Transport"
       }
@@ -6073,7 +6073,7 @@
     {
       "word": "Dirt bike",
       "clues": {
-        "easy": "Kvrgava guma na dva kotača preskače zemljane humke",
+        "easy": "Kvrgava guma na dva kotača skače po blatnim brežuljcima",
         "medium": "Terenski motocikl s kvrgavim gumama visokog zazora",
         "hard": "Transport"
       }
@@ -6089,8 +6089,8 @@
     {
       "word": "Električni romobil",
       "clues": {
-        "easy": "Sklopivi gradski skuter na dva kotača",
-        "medium": "Uspravni stojeći prigradski skuter na baterije",
+        "easy": "Sklopivo gradsko mikro vozilo na dva kotača",
+        "medium": "Uspravna stojeća platforma za prijevoz na baterije napajana",
         "hard": "Transport"
       }
     },
@@ -6113,8 +6113,8 @@
     {
       "word": "Teretni bicikl",
       "clues": {
-        "easy": "Bicikl na dva ili tri kotača s pedalama i spremnikom za teret",
-        "medium": "Transporter na pedale s teškim okvirom i prednjim prostorom za teret",
+        "easy": "Vozilo s pedalama na dva ili tri kotača s glomaznim prednjim spremnikom",
+        "medium": "Transporter na pedale s teškim okvirom i prednjim spremištem",
         "hard": "Transport"
       }
     },
@@ -6129,8 +6129,8 @@
     {
       "word": "kolica",
       "clues": {
-        "easy": "Sklopiva kolica na četiri kotača koja gura roditelj",
-        "medium": "Sklopiva dječja kolica na guranje s baldahinom",
+        "easy": "Sklopiva prometalo na četiri kotača koja gura roditelj",
+        "medium": "Sklopiva dječja prometalo na guranje s baldahinom",
         "hard": "Transport"
       }
     },
@@ -6145,7 +6145,7 @@
     {
       "word": "Pokretne stepenice",
       "clues": {
-        "easy": "Beskrajne kružne stepenice sa sinkroniziranim rukohvatima",
+        "easy": "Beskrajne kružne prometalo sa sinkroniziranim rukohvatima",
         "medium": "Cirkulacijski motorizirani stepenasti nagib",
         "hard": "Transport"
       }
@@ -6186,7 +6186,7 @@
       "word": "čamac na vesla",
       "clues": {
         "easy": "Okrenut prema krmi dok vuče par vesala kroz vodu",
-        "medium": "Drveni veslački tender s otvorenim trupom na vesla",
+        "medium": "Drveni prometalo tender s otvorenim trupom na prometalo",
         "hard": "Transport"
       }
     },
@@ -6225,7 +6225,7 @@
     {
       "word": "Tanker za naftu",
       "clues": {
-        "easy": "Ogromna paluba s razvodnicima cjevovoda koji prenose sirovu naftu",
+        "easy": "Ogromna paluba s razdjelnicima cjevovoda koji prenose sirovu prometalo",
         "medium": "Oceanski nosač tekućih ugljikovodika u rasutom stanju",
         "hard": "Transport"
       }
@@ -6314,14 +6314,14 @@
       "word": "parobrod",
       "clues": {
         "easy": "Dimovi i uzburkana voda na povijesnim rijekama",
-        "medium": "Riječni brod s kotačima na parni pogon",
+        "medium": "Riječno plovilo na ugljen s lopaticama",
         "hard": "Transport"
       }
     },
     {
       "word": "Maglev vlak",
       "clues": {
-        "easy": "Elektromagnetski levitacijski vlak koji eliminira trenje tračnica",
+        "easy": "Tranzit elektromagnetske levitacije eliminira trenje na tračnicama",
         "medium": "Magnetic levitation guideway putnički metak",
         "hard": "Transport"
       }
@@ -6329,8 +6329,8 @@
     {
       "word": "Kolica za golf",
       "clues": {
-        "easy": "Tiha baterijska kolica koja nose torbe za golf između rupa",
-        "medium": "Niskonaponska pomoćna kolica za prijenos veza",
+        "easy": "Tiha prometalo na baterije koja nose torbe između rupa",
+        "medium": "Niskonaponska pomoćna prometalo za plovni put",
         "hard": "Transport"
       }
     },
@@ -6361,15 +6361,15 @@
     {
       "word": "Space shuttle",
       "clues": {
-        "easy": "Orbiter s delta krilima vraća se iz svemira na pistu",
-        "medium": "Orbitalna svemirska jedrilica s raketnim pogonom",
+        "easy": "Orbiter s delta krilima vraća se iz orbite na pistu",
+        "medium": "Kozmička jedrilica s raketnim pogonom",
         "hard": "Transport"
       }
     },
     {
       "word": "Mjesečev rover",
       "clues": {
-        "easy": "Gume od žičane mreže kotrljaju se preko kratera i mjesečeve prašine",
+        "easy": "Gume od žičane mreže kotrljaju se preko kratera i prometaloe prašine",
         "medium": "Izvanzemaljska električna istraživačka kolica",
         "hard": "Transport"
       }
@@ -6385,7 +6385,7 @@
     {
       "word": "Outrigger kanu",
       "clues": {
-        "easy": "Kanu za plovidbu pacifičkih otočana s balansom",
+        "easy": "Pomorska zemunica pacifičkih otočana s balansom",
         "medium": "Bočno plutajuća polinezijska ploveća letjelica",
         "hard": "Transport"
       }
@@ -6409,8 +6409,8 @@
     {
       "word": "Parobrod s lopaticom",
       "clues": {
-        "easy": "Riječni brod kojeg pokreću kotači s lopaticama koji uzburkavaju vodu",
-        "medium": "Krmeni ili bočni parni pogon",
+        "easy": "Riječni brod kojeg pokreću golemi kotači",
+        "medium": "Krmeni ili bočni pogon na parni pogon",
         "hard": "Transport"
       }
     }
@@ -6467,7 +6467,7 @@
     {
       "word": "Magla",
       "clues": {
-        "easy": "Gusta magla na niskim visinama smanjuje vidljivost",
+        "easy": "Gusta prirodni element na niskim visinama smanjuje vidljivost",
         "medium": "Prizemna kondenzacija vodene pare",
         "hard": "Nature"
       }
@@ -6571,7 +6571,7 @@
     {
       "word": "Koraljni greben",
       "clues": {
-        "easy": "Morski greben izgrađen od živih polipa",
+        "easy": "Morski prirodni element izgrađen od živih polipa",
         "medium": "Potopljena biogena barijera kalcijevog karbonata",
         "hard": "Nature"
       }
@@ -6603,7 +6603,7 @@
     {
       "word": "špilja",
       "clues": {
-        "easy": "Tamna podzemna špilja s kamenim komorama",
+        "easy": "Tamna podzemna prirodni element s kamenim komorama",
         "medium": "Podzemna komora za otapanje vapnenca",
         "hard": "Nature"
       }
@@ -6643,8 +6643,8 @@
     {
       "word": "pješčana dina",
       "clues": {
-        "easy": "Pomjerljivo brdo pustinjskog pijeska u obliku polumjeseca",
-        "medium": "Eolska naslaga pijeska isklesana vjetrom",
+        "easy": "Pomjerljivo brdo u obliku polumjeseca pustinjskog silikata",
+        "medium": "Eolski pustinjski sedimentni greben isklesan vjetrom",
         "hard": "Nature"
       }
     },
@@ -6659,7 +6659,7 @@
     {
       "word": "Močvara",
       "clues": {
-        "easy": "Niska močvara s čempresima i blatom",
+        "easy": "Niska prirodni element s čempresima i blatom",
         "medium": "Šumoviti slabo drenirani močvarni bazen",
         "hard": "Nature"
       }
@@ -6732,7 +6732,7 @@
       "word": "Pomrčina Sunca",
       "clues": {
         "easy": "Dnevna tama jer mjesec blokira sunčevu svjetlost",
-        "medium": "Nebeska okultacija solarnog diska",
+        "medium": "Nebeska okultacija dnevnog zvjezdanog diska",
         "hard": "Nature"
       }
     },
@@ -6843,7 +6843,7 @@
     {
       "word": "Borovica",
       "clues": {
-        "easy": "Stablo češera koje ostaje zeleno tijekom cijele godine",
+        "easy": "Mirisno drvo koje nosi češer ostaje zeleno tijekom cijele godine",
         "medium": "Igličasta smolasta crnogorica",
         "hard": "Nature"
       }
@@ -6883,7 +6883,7 @@
     {
       "word": "školjka",
       "clues": {
-        "easy": "Prazna spirala ili školjka školjke izbačena na obalu",
+        "easy": "Prazna spirala ili prirodni element školjke izbačena na obalu",
         "medium": "Egzoskeletna kalcijeva ovojnica morskog mekušaca",
         "hard": "Nature"
       }
@@ -6907,7 +6907,7 @@
     {
       "word": "Živi pijesak",
       "clues": {
-        "easy": "Pijesak zasićen vodom ponaša se kao viskozna tekućina",
+        "easy": "prirodni element zasićen vodom ponaša se kao viskozna tekućina",
         "medium": "Hidrodinamička likvefakcijska pješčana jama",
         "hard": "Nature"
       }
@@ -6923,7 +6923,7 @@
     {
       "word": "Topli izvor",
       "clues": {
-        "easy": "Izvor bogat mineralima koji mjehuri vulkanskom toplinom",
+        "easy": "Fontana bogata mineralima izbija vulkanskom prirodni elementnom",
         "medium": "Geotermalno grijani bazen podzemne vode",
         "hard": "Nature"
       }
@@ -6931,8 +6931,8 @@
     {
       "word": "Plimni bazen",
       "clues": {
-        "easy": "Minijaturno međuplimno stanište izloženo za vrijeme oseke",
-        "medium": "Međuplimni stjenoviti obalni bazen",
+        "easy": "Minijaturno morsko stanište izloženo u niskom morskom udubljenju",
+        "medium": "Međuplimni stjenoviti obalni prirodni element",
         "hard": "Nature"
       }
     },
@@ -6988,7 +6988,7 @@
       "word": "santa leda",
       "clues": {
         "easy": "Otopljena glacijalna ledena masa pluta otvorenim morem",
-        "medium": "Oteljena masa plutajućeg glacijalnog slatkovodnog leda",
+        "medium": "Oteljena masa plutajućeg glacijalnog slatkovodnog prirodni element",
         "hard": "Nature"
       }
     },
@@ -7147,8 +7147,8 @@
     {
       "word": "Vodena pljuska",
       "clues": {
-        "easy": "Vrtlog tornada pretvara vodenu površinu u pjenu",
-        "medium": "Intenzivni stubasti oceanski vodeni vrtlog",
+        "easy": "Vrtlog tornada pretvara morsku površinu u pjenu",
+        "medium": "Intenzivni stupni vrtlog oceanske tekućine",
         "hard": "Nature"
       }
     },
@@ -7203,8 +7203,8 @@
     {
       "word": "Tidal bore",
       "clues": {
-        "easy": "Pravi plimni val napreduje prema unutrašnjosti prema suženom estuariju",
-        "medium": "Uzvodno plimni val u rijeci koja se sužava",
+        "easy": "Pravi oceanski val napreduje prema unutrašnjosti do suženog estuarija",
+        "medium": "Uzvodni valni zid u suženoj obalnoj rijeci",
         "hard": "Nature"
       }
     },
@@ -7350,7 +7350,7 @@
       "word": "fagot",
       "clues": {
         "easy": "Duboki drvenasti tonovi kroz zakrivljeni bokalni zavoj",
-        "medium": "Duplo presavijeni tenor-bas drveni puhači",
+        "medium": "Duplo presavijeno drveno puhače niskog registra",
         "hard": "Music"
       }
     },
@@ -7366,7 +7366,7 @@
       "word": "francuski rog",
       "clues": {
         "easy": "Desna ruka smještena unutar širokog mjedenog zvona",
-        "medium": "Čvrsto namotana mjedena truba s rotirajućim ventilom",
+        "medium": "Čvrsto namotani limeni puhački instrument s rotirajućim ventilom",
         "hard": "Music"
       }
     },
@@ -7437,7 +7437,7 @@
     {
       "word": "Bas gitara",
       "clues": {
-        "easy": "Prebijanje debelih bas žica prstima",
+        "easy": "Trzanje debelih žica debelog kalibra prstima",
         "medium": "Niskofrekventni temelj ritma od četiri žice",
         "hard": "Music"
       }
@@ -7510,7 +7510,7 @@
       "word": "Kontrabas",
       "clues": {
         "easy": "Najviša orkestralna žica koja stoji na igli na podu",
-        "medium": "Kontrabas s gudalom najnižeg tona",
+        "medium": "skladba s gudalom najnižeg tona",
         "hard": "Music"
       }
     },
@@ -7526,7 +7526,7 @@
       "word": "Mali bubanj",
       "clues": {
         "easy": "Oštar marširajući ritam i rimshot backbeat",
-        "medium": "Napete metalne zamke ispod donje glave bubnja",
+        "medium": "Zategnute namotane žice ispod donje glave za tijesto",
         "hard": "Music"
       }
     },
@@ -7558,7 +7558,7 @@
       "word": "Čelični bubanj",
       "clues": {
         "easy": "Konkavna metalna posuda koja zvoni otočnim tonovima",
-        "medium": "Udarne čelične pan perkusije s konkavnim čekićem",
+        "medium": "Pan perkusije od legure s konkavnim čekićem",
         "hard": "Music"
       }
     },
@@ -7621,8 +7621,8 @@
     {
       "word": "Zbor",
       "clues": {
-        "easy": "Sopran, alt, tenor i bas vokalni zbor",
-        "medium": "Višeglasni zborski pjevački ansambl",
+        "easy": "Sopran, alt, tenor i bas vokalni skladba",
+        "medium": "Višeglasni skladbaski pjevački ansambl",
         "hard": "Music"
       }
     },
@@ -7654,7 +7654,7 @@
       "word": "Rock glazba",
       "clues": {
         "easy": "Power akordi, backbeat kompleta bubnjeva i sirovi vokali",
-        "medium": "Žanr popularne glazbe vođen gitarom",
+        "medium": "Gitaristički pojačani stadionski zvučni žanr",
         "hard": "Music"
       }
     },
@@ -7678,7 +7678,7 @@
       "word": "Country glazba",
       "clues": {
         "easy": "Tekstovi priča o seoskom životu i tuzi",
-        "medium": "Ruralna američka korijenska glazba s akustičnim zvukom",
+        "medium": "Tradicija balade ruralnih američkih korijena s akustičnim zvukom",
         "hard": "Music"
       }
     },
@@ -7686,7 +7686,7 @@
       "word": "Klasična glazba",
       "clues": {
         "easy": "Sonate, simfonije i koncerti iz prošlih razdoblja",
-        "medium": "Formalna europska umjetnička glazbena tradicija",
+        "medium": "Formalna europska tradicija orkestralne umjetnosti",
         "hard": "Music"
       }
     },
@@ -7702,7 +7702,7 @@
       "word": "Narodna glazba",
       "clues": {
         "easy": "Akustične gitare, bendži i balade s pričama",
-        "medium": "Tradicionalna akustična glazbena baština u zajednici",
+        "medium": "Tradicionalna akustična baština u zajednici",
         "hard": "Music"
       }
     },
@@ -7718,7 +7718,7 @@
       "word": "Punk rock",
       "clues": {
         "easy": "Distorzirane gitare, energični povici i tekstovi protiv establišmenta",
-        "medium": "Ogoljeni distorzirani rock brzog tempa",
+        "medium": "Distorzirani buntovnički akordi brzog tempa",
         "hard": "Music"
       }
     },
@@ -7742,7 +7742,7 @@
       "word": "Salsa glazba",
       "clues": {
         "easy": "Zvukovi trombona, konge i sinkopirani klav ritam",
-        "medium": "Sinkopirana afro-karipska plesna glazba visokog tempa",
+        "medium": "Sinkopirani afro-karipski plesni ritam visokog tempa",
         "hard": "Music"
       }
     },
@@ -7885,15 +7885,15 @@
     {
       "word": "Stalak za glazbu",
       "clues": {
-        "easy": "Podesivi tronožac koji podržava glazbene rezultate za igrače",
-        "medium": "Podesiva ladica za tronožac koja podržava notni zapis",
+        "easy": "Podesivi tronožac koji podržava listove pjesama za svirače orkestra",
+        "medium": "Podesiva ladica za tronožac podržava rukom pisane bilješke",
         "hard": "Music"
       }
     },
     {
       "word": "Notni zapisi",
       "clues": {
-        "easy": "Crne note, ključevi i mjere koje čitaju glazbenici",
+        "easy": "Crne note, ključevi i mjere koje čitaju izvođači",
         "medium": "Gravirana tiskana oznaka osoblja za izvedbu",
         "hard": "Music"
       }
@@ -8031,7 +8031,7 @@
     {
       "word": "Slikanje",
       "clues": {
-        "easy": "Štafelaj, paleta boja i pigmenti u boji",
+        "easy": "Štafelaj, drvena paleta i pigmenti u boji",
         "medium": "Nanošenje pigmenta na razvučeno platno",
         "hard": "Hobbies"
       }
@@ -8039,7 +8039,7 @@
     {
       "word": "Crtanje",
       "clues": {
-        "easy": "Sjenčanje linija i kontura na bloku za crtanje",
+        "easy": "Sjenčanje linija i kontura na bloku za aktivnost",
         "medium": "Ilustracija grafitne konture na papiru",
         "hard": "Hobbies"
       }
@@ -8047,7 +8047,7 @@
     {
       "word": "Pletenje",
       "clues": {
-        "easy": "Ubacivanje uboda za pletenje džempera",
+        "easy": "Lijevanje šavova za izradu vunenih džempera",
         "medium": "Isprepletene petlje pređe s dvostrukim iglama",
         "hard": "Hobbies"
       }
@@ -8064,7 +8064,7 @@
       "word": "Vrtlarstvo",
       "clues": {
         "easy": "Lopatica, sjeme, kanta za zalijevanje i malč",
-        "medium": "Hortikulturni uzgoj vrtnih gredica",
+        "medium": "Hortikulturni uzgoj dvorišnih gredica",
         "hard": "Hobbies"
       }
     },
@@ -8103,7 +8103,7 @@
     {
       "word": "Kampiranje",
       "clues": {
-        "easy": "Logorska vatra, vreće za spavanje i šumski kamp",
+        "easy": "Logorska vatra, vreće za spavanje i šumski aktivnost",
         "medium": "Noćenje u skloništu u divljini",
         "hard": "Hobbies"
       }
@@ -8112,7 +8112,7 @@
       "word": "Promatranje ptica",
       "clues": {
         "easy": "Prepoznavanje perja i pjesama u terenskom vodiču",
-        "medium": "Binokularna identifikacija ptica na terenu",
+        "medium": "Binokularna identifikacija aktivnost na terenu",
         "hard": "Hobbies"
       }
     },
@@ -8120,7 +8120,7 @@
       "word": "Promatranje zvijezda",
       "clues": {
         "easy": "Prepoznavanje zviježđa i planeta u mraku",
-        "medium": "Noćno promatranje nebeskog neba",
+        "medium": "Noćno aktivnost nebeskog neba",
         "hard": "Hobbies"
       }
     },
@@ -8159,7 +8159,7 @@
     {
       "word": "Obrada drveta",
       "clues": {
-        "easy": "Dlijeta, pile, ljepilo za drvo i brušenje",
+        "easy": "Dlijeta, pile, stolarska ljepila i brušenje",
         "medium": "Rezbarenje stolarije i drvenog namještaja",
         "hard": "Hobbies"
       }
@@ -8239,8 +8239,8 @@
     {
       "word": "Kartaške igre",
       "clues": {
-        "easy": "Miješanje, dijeljenje boja i uzimanje trikova s kartama",
-        "medium": "Igranje karata uz klađenje ili ležerno igranje",
+        "easy": "Miješanje, dijeljenje boja i uzimanje pobjedničkih štihova",
+        "medium": "Igra s okladama ili ležerna igra s tiskanim špilom",
         "hard": "Hobbies"
       }
     },
@@ -8327,7 +8327,7 @@
     {
       "word": "Plivanje",
       "clues": {
-        "easy": "Zaštitne naočale, kapa za plivanje i vodeni zaveslaji",
+        "easy": "Zaštitne naočale, gumena kapa i vodeni udarci",
         "medium": "Udarci vježbe u krugu u vodenom bazenu",
         "hard": "Hobbies"
       }
@@ -8344,14 +8344,14 @@
       "word": "Skateboarding",
       "clues": {
         "easy": "Vježbanje ollies i kickflips na kolniku",
-        "medium": "Manevriranje skateboardom na četiri kotača",
+        "medium": "Manevriranje palubom s hvataljkama na četiri kotača",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Surfanje",
       "clues": {
-        "easy": "Veslanje do oceanskih valova i surfanje",
+        "easy": "Veslanje do oceanskih valova i jahanje na valovima",
         "medium": "Jahanje oceanskih valova na plutajućoj dasci",
         "hard": "Hobbies"
       }
@@ -8367,8 +8367,8 @@
     {
       "word": "Snowboarding",
       "clues": {
-        "easy": "Rezbarenje snježnih planinskih zavoja s daskom u čizmama",
-        "medium": "Alpski snježni rezbar od jedne daske",
+        "easy": "Rezbarenje smrznutih planinskih zavoja s palubom u čizmama",
+        "medium": "Rezbarija alpskog praha s jednom daskom",
         "hard": "Hobbies"
       }
     },
@@ -8392,7 +8392,7 @@
       "word": "Jahanje konja",
       "clues": {
         "easy": "Sjedi u sedlu i drži kožne uzde",
-        "medium": "Ravnoteža na konjičkom sedlu i trail jahanje",
+        "medium": "Ravnoteža na konjičkom sedlu i šetnje seoskom stazom",
         "hard": "Hobbies"
       }
     },
@@ -8416,7 +8416,7 @@
       "word": "Trening s utezima",
       "clues": {
         "easy": "Izvođenje serija mišića, bench pressa i čučnjeva",
-        "medium": "Progresivni trening otpora na preopterećenje",
+        "medium": "Progresivne serije s utegom za preopterećenje",
         "hard": "Hobbies"
       }
     },
@@ -8439,15 +8439,15 @@
     {
       "word": "Dvoranski ples",
       "clues": {
-        "easy": "Parovi klize u kadru po plesnom podiju",
-        "medium": "Upareni natjecateljski partnerski plesni koraci",
+        "easy": "Parovi klize u kadru po aktivnostnom podiju",
+        "medium": "Upareni natjecateljski partnerski aktivnostni koraci",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Salsa ples",
       "clues": {
-        "easy": "Koračaj uz optimistične afro-kubanske ritmove salse",
+        "easy": "Koračanje uz optimistične afro-kubanske ritmove",
         "medium": "Brza sinkopirana latino partnerska vrtnja",
         "hard": "Hobbies"
       }
@@ -8463,8 +8463,8 @@
     {
       "word": "Domaće kuhanje piva",
       "clues": {
-        "easy": "Kuhanje ječmenog slada, hmelj i kvasac za vrenje",
-        "medium": "Maloserijsko kuhanje žitarica i fermentacija",
+        "easy": "aktivnost ječmenog slada, hmelj i kvasac za vrenje",
+        "medium": "Mala serija fermentacije craft ale sladovine",
         "hard": "Hobbies"
       }
     },
@@ -8479,8 +8479,8 @@
     {
       "word": "Prženje kave",
       "clues": {
-        "easy": "Praćenje topline pečenja, zvukova pucanja i mirisa",
-        "medium": "Toplinska piroliza sjemenki zelene kave",
+        "easy": "Praćenje topline bubnja, zvukova pucanja i arome tamnjenja",
+        "medium": "Toplinska piroliza sirovog java graha",
         "hard": "Hobbies"
       }
     },
@@ -8495,7 +8495,7 @@
     {
       "word": "Traženje hrane",
       "clues": {
-        "easy": "Traženje šumskog tla za samoniklim jestivim biljkama",
+        "easy": "aktivnost šumskog tla za samoniklim jestivim biljkama",
         "medium": "Divlje botaničko branje šumske flore",
         "hard": "Hobbies"
       }
@@ -8512,7 +8512,7 @@
       "word": "Detekcija metala",
       "clues": {
         "easy": "Slušanje zvučnih signala za otkopavanje zakopanih novčića",
-        "medium": "Elektromagnetsko skeniranje tla na metale",
+        "medium": "Elektromagnetsko skeniranje tla za pokopane relikvije",
         "hard": "Hobbies"
       }
     },
@@ -8527,7 +8527,7 @@
     {
       "word": "Puštanje zmaja",
       "clues": {
-        "easy": "Hvatanje vjetra s obale za držanje zmaja u zraku",
+        "easy": "Hvata primorski vjetar da drži najlonski dijamant u zraku",
         "medium": "Privezani vjetar aerodinamički let",
         "hard": "Hobbies"
       }
@@ -8535,7 +8535,7 @@
     {
       "word": "Dron leti",
       "clues": {
-        "easy": "Kontroler s dvije palice za navigaciju dronom u zraku",
+        "easy": "Upravljač s dvostrukom palicom za navigaciju zračnog višestrukog rotora",
         "medium": "Daljinski radio-upravljani let kvadrokopterom",
         "hard": "Hobbies"
       }
@@ -8543,7 +8543,7 @@
     {
       "word": "Igre igranja uloga",
       "clues": {
-        "easy": "Majstor igre opisuje fantastičnu potragu s listovima likova",
+        "easy": "Pripovjedač iz tamnice opisuje fantastičnu potragu s listovima likova",
         "medium": "Suradnička fantastična priča vođena kockicama",
         "hard": "Hobbies"
       }
@@ -8552,7 +8552,7 @@
       "word": "Sobe za bijeg",
       "clues": {
         "easy": "Dešifriranje skrivenih zagonetki za otključavanje vrata",
-        "medium": "Slagalica bijeg iz tematske zadružne sobe",
+        "medium": "Tematska kooperativna zagonetka zapečaćene komore",
         "hard": "Hobbies"
       }
     },
@@ -8575,8 +8575,8 @@
     {
       "word": "Snimanje filmova",
       "clues": {
-        "easy": "Pisanje scenarija, kadriranje snimaka kamerom i montaža filma",
-        "medium": "Obrt za proizvodnju kinematografskih filmova",
+        "easy": "Pisanje scenarija, kadriranje snimaka kamerom i rezanje animacija",
+        "medium": "Obrt za proizvodnju kinematografskih aktivnost",
         "hard": "Hobbies"
       }
     },
@@ -8608,7 +8608,7 @@
       "word": "Radioamater",
       "clues": {
         "easy": "Emitiranje pozivnih znakova na visokofrekventnom primopredajniku",
-        "medium": "Amaterski radiofrekvencijski prijenos",
+        "medium": "Amaterski bežični prijenos frekvencija",
         "hard": "Hobbies"
       }
     },
@@ -8639,7 +8639,7 @@
     {
       "word": "Dresura pasa",
       "clues": {
-        "easy": "Trening klikera, poslastice i naredbe za petu na uzici",
+        "easy": "Naredbe za podučavanje klikera, poslastice i pete na uzici",
         "medium": "Pseće operativno uvjetovanje i poslušnost",
         "hard": "Hobbies"
       }
@@ -8671,7 +8671,7 @@
     {
       "word": "Prošivanje",
       "clues": {
-        "easy": "Patchwork gornji dio popluna, šivanje i šavovi s uzorkom",
+        "easy": "Top s patchwork uzorkom, vučom i ukrasnim šavovima",
         "medium": "Višeslojno patchwork tekstilno šivanje",
         "hard": "Hobbies"
       }
@@ -8711,8 +8711,8 @@
     {
       "word": "Aranžiranje cvijeća",
       "clues": {
-        "easy": "Orezivanje cvjetnih stabljika i balansiranje cvjetnih boja",
-        "medium": "Cvjetni dizajn i ravnoteža cvjetnih stabljika",
+        "easy": "Obrezivanje stabljika buketa i balansiranje živih boja cvjetanja",
+        "medium": "Cvjetni dizajn i ravnoteža cvjetne stabljike",
         "hard": "Hobbies"
       }
     },
@@ -8728,14 +8728,14 @@
       "word": "Učenje jezika",
       "clues": {
         "easy": "Flash kartice, zvuk izgovora i vježbanje gramatike",
-        "medium": "Leksičko usvajanje drugog jezika",
+        "medium": "Usvajanje vokabulara i gramatike stranog govora",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Skupljanje vinila",
       "clues": {
-        "easy": "Dvanaest-inčni vinilni albumi u omotima koji kopaju sanduk",
+        "easy": "Albumi s utorom od dvanaest inča koji kopaju sanduk u kartonskim omotima",
         "medium": "Arhiviranje analognog fonografskog diska",
         "hard": "Hobbies"
       }
@@ -8775,24 +8775,24 @@
     {
       "word": "Izrada nakita",
       "clues": {
-        "easy": "Kliješta za nakit, rezači žice, perle i kopče",
-        "medium": "Ručno rađena izrada nosivih ukrasa",
+        "easy": "Kliješta za izradu, rezači žice, perle i kopče",
+        "medium": "Ručno rađena aktivnost nosivih ukrasa",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Puhanje stakla",
       "clues": {
-        "easy": "Skupljanje užarenog rastaljenog stakla iz vruće peći",
-        "medium": "Toplinska manipulacija rastaljenog staklenog mjehurića",
+        "easy": "Skupljanje užarenog rastaljenog silicija iz vruće peći",
+        "medium": "Toplinska manipulacija rastaljenim užarenim mjehurićima od silicija",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Vitraji",
       "clues": {
-        "easy": "Rezanje komada stakla u boji i lemljenje spojeva",
-        "medium": "Sklop umjetničkog stakla u boji lemljen olovom",
+        "easy": "Rezanje ukrasnih stakala u boji i lemljenje spojeva",
+        "medium": "Sklop dekorativne ploče u boji zalemljen olovom",
         "hard": "Hobbies"
       }
     },
@@ -8807,16 +8807,16 @@
     {
       "word": "Pisanje pisma",
       "clues": {
-        "easy": "Papir za pisanje, nalivpero i voštani pečat",
-        "medium": "Epistolarni sastav poštanskog pisma",
+        "easy": "Pergament za dopisnice, nalivpero i voštani pečat",
+        "medium": "Epistolarna poštanska pergamentna kompozicija",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Urbano skiciranje",
       "clues": {
-        "easy": "Vodene boje i tuš pero u prijenosnom bloku za crtanje",
-        "medium": "Plenersko promatračko arhitektonsko skiciranje",
+        "easy": "Vodene boje i tuš olovka u prijenosnom bloku za crtanje",
+        "medium": "Pleneristički promatrački arhitektonski nacrt",
         "hard": "Hobbies"
       }
     }

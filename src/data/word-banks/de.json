@@ -28,7 +28,7 @@
       "word": "Armbanduhr",
       "clues": {
         "easy": "Kleine Uhr mit Riemen",
-        "medium": "Zifferblatt mit tickendem Armband",
+        "medium": "Zifferblatt mit tickendem Vorrichtung",
         "hard": "Alltagsgegenstände"
       }
     },
@@ -67,7 +67,7 @@
     {
       "word": "Kühlschrank",
       "clues": {
-        "easy": "Gekühlter Küchenkühlschrank",
+        "easy": "Gekühlter KüchenVorrichtung",
         "medium": "Kontinuierlich summende Küchenbox",
         "hard": "Alltagsgegenstände"
       }
@@ -84,7 +84,7 @@
       "word": "Kissen",
       "clues": {
         "easy": "Weich gefüllte Isomatte",
-        "medium": "Kopfkissen mit Federn",
+        "medium": "KopfVorrichtung mit Federn",
         "hard": "Alltagsgegenstände"
       }
     },
@@ -163,7 +163,7 @@
     {
       "word": "Taschenlampe",
       "clues": {
-        "easy": "Batteriebetriebene tragbare Taschenlampe",
+        "easy": "Batteriebetriebene tragbare Vorrichtung",
         "medium": "Handheld-Dunkelstrahl",
         "hard": "Alltagsgegenstände"
       }
@@ -228,7 +228,7 @@
       "word": "Koffer",
       "clues": {
         "easy": "Rollendes Reisegepäck mit Rollen",
-        "medium": "Gepäckkoffer mit Rollen",
+        "medium": "GepäckVorrichtung mit Rollen",
         "hard": "Alltagsgegenstände"
       }
     },
@@ -244,7 +244,7 @@
       "word": "Vorhang",
       "clues": {
         "easy": "Drapierter Stoff, der das Fensterlicht blockiert",
-        "medium": "Plissee-Fenstervorhang aus Stoff",
+        "medium": "Plissee-FensterVorrichtung aus Stoff",
         "hard": "Alltagsgegenstände"
       }
     },
@@ -340,14 +340,14 @@
       "word": "Klebestift",
       "clues": {
         "easy": "Stabiler Klebezylinder für Papier",
-        "medium": "Klebezylinder aus klebrigem Papier",
+        "medium": "Aufdrehbarer Papierklebezylinder",
         "hard": "Alltagsgegenstände"
       }
     },
     {
       "word": "Klebeband",
       "clues": {
-        "easy": "Rolle mit durchsichtigem Klebeband",
+        "easy": "Rolle mit durchsichtigem Vorrichtung",
         "medium": "Im Spender geschnittene Klebespule",
         "hard": "Alltagsgegenstände"
       }
@@ -427,8 +427,8 @@
     {
       "word": "Eimer",
       "clues": {
-        "easy": "Offener Eimer mit Drahtgriff",
-        "medium": "Wasserführender runder Eimer",
+        "easy": "Offener Vorrichtung mit Drahtgriff",
+        "medium": "Wasserführender runder Vorrichtung",
         "hard": "Alltagsgegenstände"
       }
     },
@@ -444,14 +444,14 @@
       "word": "Stück Seife",
       "clues": {
         "easy": "Rutschiger Block, der Schaum erzeugt",
-        "medium": "Duftender Schaumriegel",
+        "medium": "Duftender, schäumender Badezimmerblock",
         "hard": "Alltagsgegenstände"
       }
     },
     {
       "word": "Badetuch",
       "clues": {
-        "easy": "Großes, saugfähiges Badezimmer-Frottee",
+        "easy": "Großer saugfähiger Duschfrottee",
         "medium": "Feuchtigkeitswickel aus geschlungener Baumwolle",
         "hard": "Alltagsgegenstände"
       }
@@ -531,7 +531,7 @@
     {
       "word": "Brillen",
       "clues": {
-        "easy": "Zwei Brillengläser auf der Nase",
+        "easy": "Zwei Vorrichtunggläser auf der Nase",
         "medium": "Gerahmte Gesichtsoptik",
         "hard": "Alltagsgegenstände"
       }
@@ -579,8 +579,8 @@
     {
       "word": "Wäschekorb",
       "clues": {
-        "easy": "Belüfteter Wäschekorb für Kleidungsstücke",
-        "medium": "Gewebter Mülleimer für schmutzige Wäsche",
+        "easy": "Belüfteter Vorrichtung für Kleidungsstücke",
+        "medium": "Gewebter Mülleimer für schmutzige Vorrichtung",
         "hard": "Alltagsgegenstände"
       }
     },
@@ -747,7 +747,7 @@
     {
       "word": "Eiswürfelschale",
       "clues": {
-        "easy": "Fachgefrierform für Würfel",
+        "easy": "Fachgefrierform für Kühlblöcke",
         "medium": "Unterteilte Minusform",
         "hard": "Alltagsgegenstände"
       }
@@ -755,7 +755,7 @@
     {
       "word": "Kleiderhaken",
       "clues": {
-        "easy": "Wandaufhänger für Mäntel",
+        "easy": "Wandaufhänger für Oberbekleidung",
         "medium": "Gebogener Wandstecker für Jacken",
         "hard": "Alltagsgegenstände"
       }
@@ -771,7 +771,7 @@
     {
       "word": "Untersetzer",
       "clues": {
-        "easy": "Kleine Unterlage unter den Getränken",
+        "easy": "Kleine Vorrichtunglage Vorrichtung den Getränken",
         "medium": "Oberflächenringbarriere",
         "hard": "Alltagsgegenstände"
       }
@@ -878,7 +878,7 @@
       "word": "Eis",
       "clues": {
         "easy": "Umgewälzter, gekühlter Milchgenuss",
-        "medium": "Schmelzende süße Milchcreme",
+        "medium": "Schmelzende, süße Portion gefrorener Milchprodukte",
         "hard": "Essen & Trinken"
       }
     },
@@ -1005,8 +1005,8 @@
     {
       "word": "Frühlingsrolle",
       "clues": {
-        "easy": "Dünne Hülle um die Füllungen gerollt",
-        "medium": "Durchscheinende frittierte Teigrolle",
+        "easy": "Dünne Hülle um knusprige Füllungen gewickelt",
+        "medium": "Durchsichtiger frittierter Teigzylinder",
         "hard": "Essen & Trinken"
       }
     },
@@ -1053,7 +1053,7 @@
     {
       "word": "Miso-Suppe",
       "clues": {
-        "easy": "Fermentierte Sojapastensuppe mit Dashi",
+        "easy": "Fermentierte Sojapastenbrühe mit Dashi",
         "medium": "Trübe Frühstücksbrühe mit Frühlingszwiebeln",
         "hard": "Essen & Trinken"
       }
@@ -1086,7 +1086,7 @@
       "word": "Ahornsirup",
       "clues": {
         "easy": "Gekochter Baumsaft zum Frühstück",
-        "medium": "Bernsteinfarbener gekochter Laubbaumsirup",
+        "medium": "Amber gekochte Laubbaumreduktion",
         "hard": "Essen & Trinken"
       }
     },
@@ -1118,7 +1118,7 @@
       "word": "Milch",
       "clues": {
         "easy": "Nahrhaftes weißes Getränk in Kartons",
-        "medium": "Kalziumreiche Milchflüssigkeit",
+        "medium": "Kalziumreiche Zubereitungflüssigkeit",
         "hard": "Essen & Trinken"
       }
     },
@@ -1165,7 +1165,7 @@
     {
       "word": "Kartoffelpüree",
       "clues": {
-        "easy": "Als Beilage aus geschlagenen, gewürzten Kartoffeln",
+        "easy": "Aufgeschlagene, gewürzte Kartoffelbeilage",
         "medium": "Zerstampfte Kartoffeln mit geschmolzener Sahne",
         "hard": "Essen & Trinken"
       }
@@ -1173,7 +1173,7 @@
     {
       "word": "Ofenkartoffel",
       "clues": {
-        "easy": "In Folie verpackte Kartoffeln mit Sauerrahm",
+        "easy": "In Folie verpackter ganzer Knollen mit Sauerrahm",
         "medium": "Die dampfende Kartoffelschale aufspalten",
         "hard": "Essen & Trinken"
       }
@@ -1197,7 +1197,7 @@
     {
       "word": "Tomatensuppe",
       "clues": {
-        "easy": "Cremige rote Suppe gepaart mit Toast",
+        "easy": "Cremige rote pürierte Brühe gepaart mit Toast",
         "medium": "Warme, pürierte rote Weinfruchtschale",
         "hard": "Essen & Trinken"
       }
@@ -1221,7 +1221,7 @@
     {
       "word": "Rührei",
       "clues": {
-        "easy": "Rühreier aus der Frühstückspfanne",
+        "easy": "Gerührte Frühstückspfanne mit Eigelbquark",
         "medium": "Flauschiger Bratkäse auf Toast",
         "hard": "Essen & Trinken"
       }
@@ -1245,7 +1245,7 @@
     {
       "word": "Fleischbällchen",
       "clues": {
-        "easy": "Gewürzte Fleischkugel, in Soße gegart",
+        "easy": "Gewürzte, gemahlene Bohnenkrautkugeln, in Soße gekocht",
         "medium": "Geschmorte Rindfleischkugel in Marinara",
         "hard": "Essen & Trinken"
       }
@@ -1269,7 +1269,7 @@
     {
       "word": "Fisch und Chips",
       "clues": {
-        "easy": "Knusprige Meeresfrüchte mit Pommes und Essig",
+        "easy": "Knusprige Meeresfrüchte mit Pommes Zubereitung Essig",
         "medium": "In Zeitungspapier eingewickelte Küstenfische",
         "hard": "Essen & Trinken"
       }
@@ -1278,7 +1278,7 @@
       "word": "Gegrillter Käse",
       "clues": {
         "easy": "Gebratenes Brot mit klebrigem Milchkern",
-        "medium": "Mit Butter gegrilltes Sandwich mit Käsesoße",
+        "medium": "Mit Butter gegrilltes Sandwich mit geschmolzenem Milchbrei",
         "hard": "Essen & Trinken"
       }
     },
@@ -1349,7 +1349,7 @@
     {
       "word": "Käsekuchen",
       "clues": {
-        "easy": "Gebackener süßer Frischkäse auf Streuselboden",
+        "easy": "Gebackener süßer Milchpudding auf Streuselboden",
         "medium": "Dichtes, gekühltes Milchkuchenstück",
         "hard": "Essen & Trinken"
       }
@@ -1373,7 +1373,7 @@
     {
       "word": "Zimtschnecke",
       "clues": {
-        "easy": "Gebackener Rollteig mit süßem Zuckerguss",
+        "easy": "Gebackener Spiralteig mit süßem Zuckerguss",
         "medium": "Spiralförmiger süßer Teig mit Sahneglasur",
         "hard": "Essen & Trinken"
       }
@@ -1381,7 +1381,7 @@
     {
       "word": "Knoblauchbrot",
       "clues": {
-        "easy": "Knuspriges Brot gebacken mit Kräuterbutter",
+        "easy": "Knuspriges, geschnittenes Brot mit Kräuterbutter gebacken",
         "medium": "Im Ofen gebräuntes Butter-Kräuterbrot",
         "hard": "Essen & Trinken"
       }
@@ -1430,7 +1430,7 @@
       "word": "Olivenöl",
       "clues": {
         "easy": "Goldenes Salatdressing und Kochflüssigkeit",
-        "medium": "Mediterranes kaltgepresstes grünes Öl",
+        "medium": "Mediterranes kaltgepresstes Fruchtfett",
         "hard": "Essen & Trinken"
       }
     },
@@ -1438,7 +1438,7 @@
       "word": "Essig",
       "clues": {
         "easy": "Fermentierte Flüssigkeit für Gurken und Dressings",
-        "medium": "Scharf fermentierte Essigsäureflüssigkeit",
+        "medium": "Scharf fermentierte Zubereitungsäureflüssigkeit",
         "hard": "Essen & Trinken"
       }
     },
@@ -1494,7 +1494,7 @@
       "word": "Getreide",
       "clues": {
         "easy": "Eingepackte Körner werden in eine Morgenschüssel gegossen",
-        "medium": "Geröstete Getreideflocken in einer Milchschüssel",
+        "medium": "Geröstete Zubereitungflocken in einer Milchschüssel",
         "hard": "Essen & Trinken"
       }
     },
@@ -1608,14 +1608,14 @@
       "word": "Hund",
       "clues": {
         "easy": "Wedelt mit dem Schwanz und holt Bälle",
-        "medium": "Hausbegleiter eines Hundes",
+        "medium": "Hausbegleiter eines Geschöpfes",
         "hard": "Tiere"
       }
     },
     {
       "word": "Katze",
       "clues": {
-        "easy": "Einziehbare Krallen und katzenartige Anmut",
+        "easy": "Einziehbare Krallen und Geschöpfnartige Anmut",
         "medium": "Unabhängiger inländischer Mauser",
         "hard": "Tiere"
       }
@@ -1623,8 +1623,8 @@
     {
       "word": "Pferd",
       "clues": {
-        "easy": "Pferdegeschöpf mit wallender Mähne",
-        "medium": "Pferdegalopper im Fahrerlager",
+        "easy": "Geschöpfegeschöpf mit wallender Mähne",
+        "medium": "Geschöpfegalopper im Fahrerlager",
         "hard": "Tiere"
       }
     },
@@ -1640,7 +1640,7 @@
       "word": "Schwein",
       "clues": {
         "easy": "Intelligentes Vieh mit Ringelschwanz",
-        "medium": "Schlammwälzende Bauernhofschweine",
+        "medium": "Schlammwälzende BauernhofGeschöpfe",
         "hard": "Tiere"
       }
     },
@@ -1912,7 +1912,7 @@
       "word": "Schlange",
       "clues": {
         "easy": "Zuckende Zunge und schuppige, abblätternde Haut",
-        "medium": "Giftige oder einengende Schlange",
+        "medium": "Giftige oder einengende Geschöpf",
         "hard": "Tiere"
       }
     },
@@ -2015,7 +2015,7 @@
     {
       "word": "Grizzlybär",
       "clues": {
-        "easy": "Schulterhöckerbär beim Flusslachsfang",
+        "easy": "Schulterhöckriges Spitzentier, das Flusslachs fängt",
         "medium": "Kraftvoller Allesfresser, der im Binnenland Winterschlaf hält",
         "hard": "Tiere"
       }
@@ -2151,7 +2151,7 @@
     {
       "word": "Taube",
       "clues": {
-        "easy": "Wippende Stadttaube frisst Brotkrumen",
+        "easy": "Wippende StadtGeschöpf frisst Brotkrumen",
         "medium": "Urbaner Schwarmvogel mit Heimsuchinstinkt",
         "hard": "Tiere"
       }
@@ -2255,7 +2255,7 @@
     {
       "word": "Seestern",
       "clues": {
-        "easy": "Regenerierender Meeresstern auf Koralle",
+        "easy": "Regenerierendes fünfarmiges Meerestier auf Korallen",
         "medium": "Radiale benthische Raupe",
         "hard": "Tiere"
       }
@@ -2312,7 +2312,7 @@
       "word": "Biene",
       "clues": {
         "easy": "Pollensammelnder Flieger mit Stachelstachel",
-        "medium": "Sozialer Bienenstockbestäuber",
+        "medium": "Sozialer Geschöpfnstockbestäuber",
         "hard": "Tiere"
       }
     },
@@ -2336,7 +2336,7 @@
       "word": "Spinne",
       "clues": {
         "easy": "Giftiger Seidenweber, der auf Beute wartet",
-        "medium": "Seidenspinnendes achtbeiniges Raubtier",
+        "medium": "SeidenGeschöpfndes achtbeiniges Raubtier",
         "hard": "Tiere"
       }
     },
@@ -2352,7 +2352,7 @@
       "word": "Schnecke",
       "clues": {
         "easy": "Schleimschleppende Gartenkriecher mit Fühlern",
-        "medium": "Schnecke hinterlässt silbrige Schleimspuren",
+        "medium": "Geschöpf hinterlässt silbrige Schleimspuren",
         "hard": "Tiere"
       }
     },
@@ -2673,7 +2673,7 @@
     {
       "word": "Südafrika",
       "clues": {
-        "easy": "Regenbogennation an der Südspitze des Kontinents",
+        "easy": "Regenbogennation am Kap der Guten Hoffnung",
         "medium": "Zwei-Ozeane-Kap-Nation mit Gold und Diamanten",
         "hard": "Länder"
       }
@@ -2745,8 +2745,8 @@
     {
       "word": "Saudi-Arabien",
       "clues": {
-        "easy": "Herz der Arabischen Halbinsel mit historischer Pilgerfahrt",
-        "medium": "Königreich, das den größten Teil der Arabischen Halbinsel einnimmt",
+        "easy": "Herz einer riesigen Wüstenhalbinsel mit historischer Pilgerfahrt nach Mekka",
+        "medium": "Königreich, das den größten Teil der riesigen Wüstengolfhalbinsel einnimmt",
         "hard": "Länder"
       }
     },
@@ -2866,7 +2866,7 @@
       "word": "Philippinen",
       "clues": {
         "easy": "Pazifischer Archipelstaat mit siebentausend Inseln",
-        "medium": "Inselkette zwischen Südchinesischem Meer und Philippinischem Meer",
+        "medium": "Tropischer Archipel zwischen der Luzonstraße und der Celebessee",
         "hard": "Länder"
       }
     },
@@ -2874,7 +2874,7 @@
       "word": "Südkorea",
       "clues": {
         "easy": "High-Tech-Halbinselnation mit lebendiger Kultur",
-        "medium": "Ostasiatische Republik südlich des 38. Breitengrades",
+        "medium": "Ostasiatische Republik unterhalb des 38. Breitengrades",
         "hard": "Länder"
       }
     },
@@ -3396,7 +3396,7 @@
       "word": "Flugbegleiter",
       "clues": {
         "easy": "Demonstriert Notausgänge und Kabinensicherheit",
-        "medium": "Flugbegleiter in der Passagierkabine",
+        "medium": "Fluggast-Kabinensteward",
         "hard": "Berufe"
       }
     },
@@ -3428,7 +3428,7 @@
       "word": "Polizist",
       "clues": {
         "easy": "Abzeichen, Uniform und Gemeinde-Notfallpatrouille",
-        "medium": "Streifenpolizist der Strafverfolgungsbehörden",
+        "medium": "Uniformierter StreifenFachkraft der Strafverfolgungsbehörden",
         "hard": "Berufe"
       }
     },
@@ -3444,7 +3444,7 @@
       "word": "Richter",
       "clues": {
         "easy": "Schwarze Robe, Hammer und Gerichtsentscheidungen",
-        "medium": "Juristischer Richter im Gerichtssaal",
+        "medium": "Juristischer Fachkraft im Gerichtssaal",
         "hard": "Berufe"
       }
     },
@@ -3452,7 +3452,7 @@
       "word": "Anwalt",
       "clues": {
         "easy": "Reicht Gerichtsanträge ein und legt Gesetze aus",
-        "medium": "Zugelassener Rechtsanwalt",
+        "medium": "Zugelassener RechtsFachkraft",
         "hard": "Berufe"
       }
     },
@@ -3539,7 +3539,7 @@
     {
       "word": "Maler",
       "clues": {
-        "easy": "Farbwalzen, Farbwannen und Tücher",
+        "easy": "Walzen, Pigmentschalen und Abtropftücher",
         "medium": "Handwerker für Oberflächenbeschichtung und -veredelung",
         "hard": "Berufe"
       }
@@ -3548,7 +3548,7 @@
       "word": "Schneider",
       "clues": {
         "easy": "Maßband, Nähmaschine und individueller Stoff",
-        "medium": "Maßgeschneiderter und Näher",
+        "medium": "MaßgeFachkraftter und Näher",
         "hard": "Berufe"
       }
     },
@@ -3556,14 +3556,14 @@
       "word": "Friseur",
       "clues": {
         "easy": "Haarschneidemaschine, Rasiermesser und Drehstuhl",
-        "medium": "Friseur und Scherenstylist für Herren",
+        "medium": "Fachkraft und Scherenstylist für Herren",
         "hard": "Berufe"
       }
     },
     {
       "word": "Friseur",
       "clues": {
-        "easy": "Friseurstuhl, Schere, Folien und Fön",
+        "easy": "Fachkraftstuhl, Schere, Folien und Fön",
         "medium": "Stylistin im Kosmetiksalon",
         "hard": "Berufe"
       }
@@ -3580,7 +3580,7 @@
       "word": "Gärtner",
       "clues": {
         "easy": "Gartenschere, Kelle, Erde und Mulch",
-        "medium": "Landschaftsgärtner",
+        "medium": "LandschaftsFachkraft",
         "hard": "Berufe"
       }
     },
@@ -3604,7 +3604,7 @@
       "word": "Schauspieler",
       "clues": {
         "easy": "Merkt sich Drehbücher und tritt auf der Bühne auf",
-        "medium": "Dramatischer Bühnen- und Filmschauspieler",
+        "medium": "Dramatischer Bühnen- und FilmFachkraft",
         "hard": "Berufe"
       }
     },
@@ -3619,7 +3619,7 @@
     {
       "word": "Musiker",
       "clues": {
-        "easy": "Noten, Rhythmus und akustisches Instrument",
+        "easy": "Notenblätter, Rhythmus und akustisches Instrument",
         "medium": "Instrumental-Performance-Künstler",
         "hard": "Berufe"
       }
@@ -3660,22 +3660,22 @@
       "word": "Buchhalter",
       "clues": {
         "easy": "Prüft Finanzbücher und Tabellenkalkulationen",
-        "medium": "Finanzbuchhalter und Steuerprüfer",
+        "medium": "FinanzFachkraft und Steuerprüfer",
         "hard": "Berufe"
       }
     },
     {
       "word": "Bankier",
       "clues": {
-        "easy": "Überwacht das Finanzkapital und die Bankkredite",
-        "medium": "Kommerzieller Bank- und Kreditsachbearbeiter",
+        "easy": "Überwacht Finanzkapital und Handelskredite",
+        "medium": "Sachbearbeiter für gewerbliche Finanzierungen und Kredite",
         "hard": "Berufe"
       }
     },
     {
       "word": "Kassierer",
       "clues": {
-        "easy": "Barcodescanner, Registrierkasse und Belegdrucker",
+        "easy": "Barcodescanner, Kassenschublade und Bondrucker",
         "medium": "Betreiber von Einzelhandelskassen",
         "hard": "Berufe"
       }
@@ -3699,7 +3699,7 @@
     {
       "word": "Reiseleiter",
       "clues": {
-        "easy": "Bietet Kommentare und führt Wandertouren",
+        "easy": "Bietet historische Kommentare für Besucher",
         "medium": "Leiter einer kulturellen Sightseeing-Expedition",
         "hard": "Berufe"
       }
@@ -3707,8 +3707,8 @@
     {
       "word": "Taxifahrer",
       "clues": {
-        "easy": "Navigiert durch den Straßenverkehr mit dem Dashboard-Taxameter",
-        "medium": "Taxifahrer auf der städtischen Straße",
+        "easy": "Navigiert durch den Straßenverkehr mit dem Fahrpreismesser im Armaturenbrett",
+        "medium": "Fahrer eines gelben Taxis für städtische Straßenpassagiere",
         "hard": "Berufe"
       }
     },
@@ -3724,15 +3724,15 @@
       "word": "Postbote",
       "clues": {
         "easy": "Trägt eine Brieftasche entlang der Straße",
-        "medium": "Postbrief- und Paketzusteller",
+        "medium": "Postbrief- und Paketzustellungskurier",
         "hard": "Berufe"
       }
     },
     {
       "word": "Lieferkurier",
       "clues": {
-        "easy": "Fährt einen Lieferwagen und scannt Paket-Barcodes",
-        "medium": "Paketkurier bis zur letzten Meile vor der Haustür",
+        "easy": "Fährt den Versandwagen und scannt Paket-Barcodes",
+        "medium": "Paketzusteller für die letzte Meile vor der Haustür",
         "hard": "Berufe"
       }
     },
@@ -3748,7 +3748,7 @@
       "word": "Grafikdesigner",
       "clues": {
         "easy": "Software für digitale Illustration und Typografie",
-        "medium": "Designer für kommerzielles visuelles Branding",
+        "medium": "Künstler für kommerzielles visuelles Branding",
         "hard": "Berufe"
       }
     },
@@ -3756,7 +3756,7 @@
       "word": "Filmregisseur",
       "clues": {
         "easy": "Ruft zum Handeln auf, leitet die Kinematographie an und rezensiert Takes",
-        "medium": "Filmregisseur",
+        "medium": "Filmautor",
         "hard": "Berufe"
       }
     },
@@ -3772,7 +3772,7 @@
       "word": "Trainer",
       "clues": {
         "easy": "Pfeifen, Playbook-Übungen und Nebentaktiken",
-        "medium": "Athletiktrainer und Teamstratege",
+        "medium": "AthletikFachkraft und Teamstratege",
         "hard": "Berufe"
       }
     },
@@ -3811,8 +3811,8 @@
     {
       "word": "Schmied",
       "clues": {
-        "easy": "Schwerer Hammer, Ofenschmiede und Zange",
-        "medium": "Beheizter Eisenschmiede-Metallarbeiter",
+        "easy": "Schwerer Hammer, OfenFachkrafte und Zange",
+        "medium": "Beheizter EisenFachkrafte-Metallarbeiter",
         "hard": "Berufe"
       }
     },
@@ -3828,7 +3828,7 @@
       "word": "Schlosser",
       "clues": {
         "easy": "Nimmt Zuhaltungen und Schlüsselrohlinge auf und installiert Riegel",
-        "medium": "Spezialist für Schlüsselschneiden und Zylinderschlösser",
+        "medium": "Spezialist für Schlüsselschneiden und Zylinderzuhaltungen",
         "hard": "Berufe"
       }
     },
@@ -3843,7 +3843,7 @@
     {
       "word": "LKW-Fahrer",
       "clues": {
-        "easy": "Fährt einen Sattelschlepper mit achtzehn Rädern über die Autobahn",
+        "easy": "Fährt Sattelschlepper mit achtzehn Rädern über die Autobahn",
         "medium": "Fernverkehrsunternehmen für den zwischenstaatlichen Güterverkehr",
         "hard": "Berufe"
       }
@@ -3859,7 +3859,7 @@
     {
       "word": "Diplomat",
       "clues": {
-        "easy": "Verhandelt Verträge und internationale Diplomatie",
+        "easy": "Verhandelt Verträge und internationale Fachkraftie",
         "medium": "Verhandlungsführer für Verträge mit ausländischen Botschaften",
         "hard": "Berufe"
       }
@@ -3883,7 +3883,7 @@
     {
       "word": "Zauberer",
       "clues": {
-        "easy": "Spielkarten, Zauberstab und betrügerische Tricks",
+        "easy": "Spielkarten, polierter Zauberstab und trügerische Fingerfertigkeit",
         "medium": "Bühnenillusionist und Kunsthandwerker",
         "hard": "Berufe"
       }
@@ -3900,15 +3900,15 @@
       "word": "Immobilienmakler",
       "clues": {
         "easy": "Zeigt Kunden Häuser und schließt Immobiliengeschäfte ab",
-        "medium": "Lizenzierter Wohnimmobilienmakler",
+        "medium": "Lizenzierter WohnFachkraft",
         "hard": "Berufe"
       }
     },
     {
       "word": "Ladenbesitzer",
       "clues": {
-        "easy": "Lagert Regale, unterstützt Käufer und verwaltet den Laden",
-        "medium": "Unabhängiger Ladenbesitzer",
+        "easy": "Lagert Regale, unterstützt Kunden und verwaltet die Ladenfront",
+        "medium": "Unabhängiger Fachkraft",
         "hard": "Berufe"
       }
     },
@@ -3931,8 +3931,8 @@
     {
       "word": "Ernährungsberater",
       "clues": {
-        "easy": "Berechnet die Kalorienaufnahme und eine ausgewogene Ernährung",
-        "medium": "Diät-, Wellness- und Ernährungsberater",
+        "easy": "Berechnet die Kalorienaufnahme und ausgewogene Ernährungspläne",
+        "medium": "Berater für Fachkraft, Wellness und Lebensmittelgesundheit",
         "hard": "Berufe"
       }
     },
@@ -3972,7 +3972,7 @@
       "word": "Fluglotse",
       "clues": {
         "easy": "Radarschirm, Headset und Landebahnfreigabe am Flughafen",
-        "medium": "Luftraum-Radarlotse am Flughafenturm",
+        "medium": "Luftraum-Radarmonitor des Flughafenturms",
         "hard": "Berufe"
       }
     },
@@ -3980,7 +3980,7 @@
       "word": "Kranführer",
       "clues": {
         "easy": "Hohe Kabinenhebel, Hubseile und Gegengewichte",
-        "medium": "Fahrer einer Kabine für schwere Hebezeuge",
+        "medium": "Spezialist für schwere Kabinen im Hebezeugbau",
         "hard": "Berufe"
       }
     },
@@ -3988,7 +3988,7 @@
       "word": "Dirigent",
       "clues": {
         "easy": "Taktstock, Orchesterpodium und Partitur",
-        "medium": "Dirigent des Orchestermusikpodiums",
+        "medium": "Fachkraft des Orchestermusikpodiums",
         "hard": "Berufe"
       }
     },
@@ -4021,7 +4021,7 @@
     {
       "word": "Basketball",
       "clues": {
-        "easy": "Spielfeld für fünf Spieler mit Basketballkorb",
+        "easy": "Spielfeld für fünf Spieler mit Disziplinkorb",
         "medium": "24-Sekunden-Uhr mit Hartholzboden",
         "hard": "Sport"
       }
@@ -4101,8 +4101,8 @@
     {
       "word": "Tischtennis",
       "clues": {
-        "easy": "Miniaturschläger sammeln sich über das Tischnetz",
-        "medium": "Tischtennis-Gummischläger-Match",
+        "easy": "Miniaturpaddel sammeln sich über grünes Netz",
+        "medium": "Disziplin-Wettkampf mit Gummischlägern für den Innenbereich",
         "hard": "Sport"
       }
     },
@@ -4117,7 +4117,7 @@
     {
       "word": "Tauchen",
       "clues": {
-        "easy": "Das Sprungbrett dreht sich beim Eintauchen ins Wasser sauber",
+        "easy": "Das Sprungbrett dreht sich beim EinDisziplin ins Wasser sauber",
         "medium": "Akrobatischer Plattformabstieg ins Wasser",
         "hard": "Sport"
       }
@@ -4141,8 +4141,8 @@
     {
       "word": "Snowboarden",
       "clues": {
-        "easy": "Beide Stiefel an einem einzigen Schneedeck festgeschnallt",
-        "medium": "Einzelnes alpines Deck, das Pulverschnee schnitzt",
+        "easy": "Beide Stiefel an einem einzigen Winterdeck festgeschnallt",
+        "medium": "Einzelnes alpines Deck, das pulvrigen Frost schnitzt",
         "hard": "Sport"
       }
     },
@@ -4357,7 +4357,7 @@
     {
       "word": "Stabhochsprung",
       "clues": {
-        "easy": "Befestigen einer flexiblen Glasfaserstange an der durchsichtigen Stange",
+        "easy": "Anbringen eines flexiblen Fiberglasholms an der durchsichtigen Stange",
         "medium": "Vertikaler Sprung mit Hilfe einer biegsamen Glasfaserstange",
         "hard": "Sport"
       }
@@ -4381,8 +4381,8 @@
     {
       "word": "Speer",
       "clues": {
-        "easy": "Wurf eines schlanken, spitzen Speers über der Landebahn",
-        "medium": "Aerodynamischer, spitzer Speer-Landebahnwurf",
+        "easy": "Wurf eines schlanken, spitzen Disziplins über der Landebahn",
+        "medium": "Aerodynamischer, spitzer Disziplin-Landebahnwurf",
         "hard": "Sport"
       }
     },
@@ -4446,7 +4446,7 @@
       "word": "Wasserball",
       "clues": {
         "easy": "Badekappen mit Ohrenschutz und schwimmenden Toren",
-        "medium": "Wasserball-Scrimmage im Tiefwasser",
+        "medium": "Tiefes, chlorhaltiges Ballgefecht im Disziplin",
         "hard": "Sport"
       }
     },
@@ -4509,7 +4509,7 @@
     {
       "word": "Künstlerisches Schwimmen",
       "clues": {
-        "easy": "Nasenklammer-Routinen verkehrt herum im Schwimmbad",
+        "easy": "Nasenklemmen-Routinen verkehrt herum im gechlorten Pool",
         "medium": "Aquatische Synchronchoreografie zur Musik",
         "hard": "Sport"
       }
@@ -4518,7 +4518,7 @@
       "word": "Wasserski",
       "clues": {
         "easy": "Halten Sie das Schleppseil, das über das Kielwasser des Bootes gleitet",
-        "medium": "Vom Boot gezogenes Gleiten über offenem Wasser",
+        "medium": "Vom Boot gezogenes Wake-Skimming auf Doppelkufen",
         "hard": "Sport"
       }
     },
@@ -4549,7 +4549,7 @@
     {
       "word": "Gemischte Kampfkünste",
       "clues": {
-        "easy": "Achteckiger Kampf, der Boxen, Ringen und Jiu-Jitsu kombiniert",
+        "easy": "Achteckiger Disziplin, der Boxen, Ringen und Jiu-Jitsu kombiniert",
         "medium": "Multidisziplinärer Vollkontaktkampf im Käfig",
         "hard": "Sport"
       }
@@ -4582,7 +4582,7 @@
       "word": "Discgolf",
       "clues": {
         "easy": "Verlauf von Maschendrahtkorbzielen quer durch den Park",
-        "medium": "Flugscheiben-Präzisionskurs vom Abschlag bis zum Korb",
+        "medium": "Vom Abschlag bis zum Korb fliegender Untertassen-Präzisionskurs",
         "hard": "Sport"
       }
     },
@@ -4614,7 +4614,7 @@
       "word": "Moderner Fünfkampf",
       "clues": {
         "easy": "Fechten, Schwimmen, Springreiten, Laserpistole und Laufen",
-        "medium": "Multi-Event-Sportwettkampf in fünf Disziplinen",
+        "medium": "Multi-Event-Sportwettkampf in Disziplin Disziplinen",
         "hard": "Sport"
       }
     },
@@ -4645,8 +4645,8 @@
     {
       "word": "Eistanz",
       "clues": {
-        "easy": "Komplizierte synchronisierte Beinarbeit und Twizzles auf dem Eis",
-        "medium": "Theaterballsaal-Partnerchoreografie auf Eis",
+        "easy": "Komplizierte synchronisierte Beinarbeit und Twizzles auf der gefrorenen Eisbahn",
+        "medium": "Theaterballsaal-Partnerchoreografie auf gefrorener Eisbahn",
         "hard": "Sport"
       }
     },
@@ -4685,7 +4685,7 @@
     {
       "word": "Billard",
       "clues": {
-        "easy": "Karambolschüsse stoßen an Billardkugeln ohne Taschen",
+        "easy": "Karambolschüsse treffen auf farbige Kugeln ohne Taschen",
         "medium": "Fixieren Sie Tisch-Cue-Shots mithilfe von Schienenkissen",
         "hard": "Sport"
       }
@@ -4717,7 +4717,7 @@
     {
       "word": "Springreiten",
       "clues": {
-        "easy": "Überspringen von Stadion-Sprungzäunen innerhalb des Zeitlimits",
+        "easy": "Hinderniszäune im Stadion innerhalb des Zeitlimits überwinden",
         "medium": "Reitparcours räumt bunte Stadiongeländer ab",
         "hard": "Sport"
       }
@@ -4725,16 +4725,16 @@
     {
       "word": "Drachenboot",
       "clues": {
-        "easy": "Paddler synchron mit Trommelschlag und verziertem Drachenbogen",
-        "medium": "Synchronisiertes Gruppenpaddeln mit Drachenbug",
+        "easy": "Paddler synchron mit Trommelschlag und mythischem Schlangenbogen",
+        "medium": "Synchronisiertes Gruppenpaddeln mit mythischem Biest-Bug",
         "hard": "Sport"
       }
     },
     {
       "word": "Sportklettern",
       "clues": {
-        "easy": "Expressschlingen beim Erklimmen der Kletterroute im Fitnessstudio abschneiden",
-        "medium": "Turnhallenwandklettern, an Ankern befestigt",
+        "easy": "Beim Erklimmen einer künstlichen Turnhalle werden Expressschlingen abgeschnitten",
+        "medium": "Wandaufstieg in der Turnhalle, an Ankern befestigt",
         "hard": "Sport"
       }
     },
@@ -4991,7 +4991,7 @@
     {
       "word": "Burger King",
       "clues": {
-        "easy": "Fast-Food-Kette mit König, der eine Krone trägt",
+        "easy": "Fast-Food-Kette mit Krone tragendem Monarchen",
         "medium": "Text zwischen gelben Brötchenhälften eingeklemmt",
         "hard": "Marken"
       }
@@ -5023,7 +5023,7 @@
     {
       "word": "Pizza Hut",
       "clues": {
-        "easy": "Pizzarestaurant mit rotem Dachlogo",
+        "easy": "Italienische Fast-Casual-Kette mit rotem Dachlogo",
         "medium": "Schräge Hutsilhouette mit roter Krempe",
         "hard": "Marken"
       }
@@ -5192,7 +5192,7 @@
       "word": "Red Bull",
       "clues": {
         "easy": "Energy-Drink-Dose mit zusammenstoßenden Biestern",
-        "medium": "Zwei Tiere mit roten Hörnern stehen sich Kopf an Kopf gegenüber",
+        "medium": "Zwei Tiere mit purpurnen Hörnern stehen sich Kopf an Kopf gegenüber",
         "hard": "Marken"
       }
     },
@@ -5641,7 +5641,7 @@
     {
       "word": "Flugzeug",
       "clues": {
-        "easy": "Passagierflugzeug startet von der Landebahn",
+        "easy": "PassagierGefährt startet von der Landebahn",
         "medium": "Unter Druck stehender Rumpf mit Strahlturbinenantrieb",
         "hard": "Verkehrsmittel"
       }
@@ -5697,7 +5697,7 @@
     {
       "word": "Taxi",
       "clues": {
-        "easy": "Straßentaxi für direkte Fahrt zum Ziel angehalten",
+        "easy": "StraßenGefährt für direkte Fahrt zum Ziel angehalten",
         "medium": "Kommerzielles Straßenpersonenfahrzeug mit Taxameter",
         "hard": "Verkehrsmittel"
       }
@@ -5705,7 +5705,7 @@
     {
       "word": "U-Bahn",
       "clues": {
-        "easy": "U-Bahn-Tunnelzüge halten an unterirdischen Bahnsteigen",
+        "easy": "Gefährt-Tunnelzüge halten an unterirdischen Gefährtsteigen",
         "medium": "Unterirdisches elektrifiziertes Personenschienennetz",
         "hard": "Verkehrsmittel"
       }
@@ -5745,7 +5745,7 @@
     {
       "word": "Yacht",
       "clues": {
-        "easy": "Privater Luxuskreuzer mit mehreren Decks im Yachthafen",
+        "easy": "Privater Luxuskreuzer mit mehreren Decks im Gefährthafen",
         "medium": "Luxuriöses Freizeit-Kreuzfahrtschiff",
         "hard": "Verkehrsmittel"
       }
@@ -5777,7 +5777,7 @@
     {
       "word": "Frachtschiff",
       "clues": {
-        "easy": "Stapel bunter Metallcontainer über Meere",
+        "easy": "Stapel bunter Frachtcontainer aus Metall über die Ozeane",
         "medium": "Massengutfrachter für Seecontainer",
         "hard": "Verkehrsmittel"
       }
@@ -5794,14 +5794,14 @@
       "word": "Rakete",
       "clues": {
         "easy": "Mehrstufiger Booster, der der Schwerkraft der Erde entkommt und in die Umlaufbahn gelangt",
-        "medium": "Vertikale orbitale Trägerrakete für chemische Reaktionen",
+        "medium": "Vertikale orbitale TrägerGefährt für chemische Reaktionen",
         "hard": "Verkehrsmittel"
       }
     },
     {
       "word": "Heißluftballon",
       "clues": {
-        "easy": "Der Brenner erwärmt die Luft im Inneren der Hülle in der Luft",
+        "easy": "Brenner erhitzt Gas in der Hülle oben",
         "medium": "Passagierflug aus Korbgeflecht mit thermischem Auftrieb",
         "hard": "Verkehrsmittel"
       }
@@ -5810,7 +5810,7 @@
       "word": "Segelflugzeug",
       "clues": {
         "easy": "Lange, schlanke Flügel reiten auf der thermischen Bergluft",
-        "medium": "Aerodynamisches thermisches Segelflugzeug ohne Antrieb",
+        "medium": "Aerodynamisches thermisches Gefährt ohne Antrieb",
         "hard": "Verkehrsmittel"
       }
     },
@@ -5849,8 +5849,8 @@
     {
       "word": "Feuerwehrauto",
       "clues": {
-        "easy": "Feuerwehrauto reagiert mit Sirene auf Gebäudebrände",
-        "medium": "Hydraulische Drehleiter und Wasserpumpwagen",
+        "easy": "Einsatzfahrzeug reagiert mit Sirene auf Gebäudebrände",
+        "medium": "Hydraulische Drehleiter und Hochdruckpumpanlage",
         "hard": "Verkehrsmittel"
       }
     },
@@ -5889,7 +5889,7 @@
     {
       "word": "Muldenkipper",
       "clues": {
-        "easy": "Transport und Deponierung von Kies, Sand und Bauschutt",
+        "easy": "Transportiert und entlädt Kies, Sand und Bauschutt",
         "medium": "Hydraulisch kippbarer Massenguttransporter mit offenem Kasten",
         "hard": "Verkehrsmittel"
       }
@@ -5905,24 +5905,24 @@
     {
       "word": "Schneepflug",
       "clues": {
-        "easy": "Räumen Sie vereiste Straßen und häufen Sie Schnee entlang des Bordsteins",
-        "medium": "Vorne montiertes, abgewinkeltes Schneeräumfahrzeug",
+        "easy": "Beseitigen Sie vereiste Straßen und schieben Sie Schneematsch über den Bordstein",
+        "medium": "Frontmontiertes, abgewinkeltes Winterräumfahrzeug",
         "hard": "Verkehrsmittel"
       }
     },
     {
       "word": "Schneemobil",
       "clues": {
-        "easy": "Eine vom Lenker gesteuerte Maschine gleitet über Winterverwehungen",
-        "medium": "Heckgeführte Winter-Schneetraversiermaschine",
+        "easy": "Tritt auf Pulverschnee mit Doppellenkskiern",
+        "medium": "Heckgeführte Winter-Tundra-Durchquerungsmaschine",
         "hard": "Verkehrsmittel"
       }
     },
     {
       "word": "Jetski",
       "clues": {
-        "easy": "Wasserscooter mit Wasserstrahlantrieb",
-        "medium": "Persönliches Wasserstrahlfahrzeug mit Lenkersteuerung",
+        "easy": "Hydrobetriebener Wasser-Sitzscooter",
+        "medium": "Von der Lenkstange gesteuertes persönliches Wasserschubfahrzeug",
         "hard": "Verkehrsmittel"
       }
     },
@@ -5937,8 +5937,8 @@
     {
       "word": "Seilbahn",
       "clues": {
-        "easy": "Lufttransit-Gondel, die steile Berggipfel hinaufsteigt",
-        "medium": "Passagierkabine mit Luftseilaufhängung",
+        "easy": "Aufgehängte Straßenbahnkabine auf Oberleitung",
+        "medium": "Passagierkabine mit Seilaufhängung in der Luft",
         "hard": "Verkehrsmittel"
       }
     },
@@ -5969,8 +5969,8 @@
     {
       "word": "Pferdekutsche",
       "clues": {
-        "easy": "Historische Holzkutsche mit Pferdegeschirr und Kutscher",
-        "medium": "Von Pferden gezogene Personenbeförderung auf Rädern",
+        "easy": "Historische Holzkutsche mit Hengstgeschirr und Fahrer",
+        "medium": "Von Pferden gezogener Personenbuggy mit Eisenrädern",
         "hard": "Verkehrsmittel"
       }
     },
@@ -5985,16 +5985,16 @@
     {
       "word": "Hochgeschwindigkeitszug",
       "clues": {
-        "easy": "Elektrischer Zug, der mit hoher Geschwindigkeit zwischen Städten schießt",
-        "medium": "Aerodynamische Hochgeschwindigkeitsnase auf speziellen Schienen",
+        "easy": "Aerodynamische Schnellzuglokomotive, die mit hoher Geschwindigkeit zwischen Städten schießt",
+        "medium": "Aerodynamischer Gefährt für den Personenverkehr",
         "hard": "Verkehrsmittel"
       }
     },
     {
       "word": "Güterzug",
       "clues": {
-        "easy": "Diesellokomotive schleppt Trichter- und Güterwagen",
-        "medium": "Mehrlokomotivenschwerer Schienengüterverkehr",
+        "easy": "Lange Reihe von Güterwagen, gezogen von Diesellokomotiven",
+        "medium": "Schwerer Gefährt mit mehreren Lokomotiven",
         "hard": "Verkehrsmittel"
       }
     },
@@ -6002,7 +6002,7 @@
       "word": "Doppeldeckerbus",
       "clues": {
         "easy": "Ikonischer roter Großbus mit Wendeltreppe",
-        "medium": "Doppelstöckiger Personenwagen für den öffentlichen Nahverkehr",
+        "medium": "Zweistöckiger städtischer Personennahverkehr",
         "hard": "Verkehrsmittel"
       }
     },
@@ -6025,8 +6025,8 @@
     {
       "word": "Pickup-Truck",
       "clues": {
-        "easy": "Heckklappe, geschlossene Kabine und Nutzladeraum",
-        "medium": "Offener Nutzfahrzeug-Pkw",
+        "easy": "Beifahrerkabine vorne mit offenem hinteren Nutzladeraum",
+        "medium": "Personenkraftwagen mit offener Ladefläche",
         "hard": "Verkehrsmittel"
       }
     },
@@ -6057,7 +6057,7 @@
     {
       "word": "Gokart",
       "clues": {
-        "easy": "Vierrädriges Kart mit geringer Bodenfreiheit auf kurvenreichen Indoor-Strecken",
+        "easy": "Vierrädriger Rennwagen mit geringer Bodenfreiheit auf kurvenreichen Indoor-Strecken",
         "medium": "Miniatur-Rennfahrgestell mit offenem Rad und niedriger Mitte",
         "hard": "Verkehrsmittel"
       }
@@ -6073,7 +6073,7 @@
     {
       "word": "Dirtbike",
       "clues": {
-        "easy": "Knorriges Reifen-Zweirad springt über Erdhügel",
+        "easy": "Knorriges Reifen-Zweirad springt über Schlammhügel",
         "medium": "Geländemotorrad mit hoher Bodenfreiheit und Stollenreifen",
         "hard": "Verkehrsmittel"
       }
@@ -6089,8 +6089,8 @@
     {
       "word": "Elektroroller",
       "clues": {
-        "easy": "Zusammenklappbarer zweirädriger städtischer Pendlerroller",
-        "medium": "Batteriebetriebener, aufrecht stehender Pendlerroller",
+        "easy": "Zusammenklappbares zweirädriges Kleinstfahrzeug für den städtischen Pendlerverkehr",
+        "medium": "Batteriebetriebenes, aufrecht stehendes Pendlerdeck",
         "hard": "Verkehrsmittel"
       }
     },
@@ -6113,8 +6113,8 @@
     {
       "word": "Lastenfahrrad",
       "clues": {
-        "easy": "Zwei- oder dreirädriges Tretfahrrad mit Gepäckraum",
-        "medium": "Pedaltransporter mit schwerem Rahmen und vorderem Laderaum",
+        "easy": "Zwei- oder dreirädriges Tretfahrzeug mit sperrigem Frontbehälter",
+        "medium": "Pedaltransporter mit schwerem Rahmen und vorderem Staufach",
         "hard": "Verkehrsmittel"
       }
     },
@@ -6130,14 +6130,14 @@
       "word": "Kinderwagen",
       "clues": {
         "easy": "Zusammenklappbarer vierrädriger Wagen, der von den Eltern geschoben wird",
-        "medium": "Zusammenklappbarer Kinderwagen mit Sonnenverdeck",
+        "medium": "Zusammenklappbarer Gefährt mit Sonnenverdeck",
         "hard": "Verkehrsmittel"
       }
     },
     {
       "word": "Aufzug",
       "clues": {
-        "easy": "Gegengewicht-Seilaufzug zur Beförderung von Passagieren im Schacht",
+        "easy": "Gegengewicht-SeilGefährt zur Beförderung von Passagieren im Schacht",
         "medium": "Vertikale Passagierkabine mit Gegengewicht",
         "hard": "Verkehrsmittel"
       }
@@ -6153,7 +6153,7 @@
     {
       "word": "Fahrsteig",
       "clues": {
-        "easy": "Horizontaler Fahrsteigboden im Flughafenkorridor",
+        "easy": "Horizontaler Gefährtboden im Flughafenkorridor",
         "medium": "Horizontaler motorisierter Fußgängerförderer",
         "hard": "Verkehrsmittel"
       }
@@ -6185,8 +6185,8 @@
     {
       "word": "Ruderboot",
       "clues": {
-        "easy": "Mit Blick auf das Heck, während Sie ein Paar Ruder durch das Wasser ziehen",
-        "medium": "Ruderboot mit offenem Rumpf aus Holz mit Ruderantrieb",
+        "easy": "Mit Blick auf das Heck, während Sie ein Paar Gefährt durch das Wasser ziehen",
+        "medium": "Gefährt mit offenem Rumpf aus Holz mit Ruderantrieb",
         "hard": "Verkehrsmittel"
       }
     },
@@ -6257,8 +6257,8 @@
     {
       "word": "Luftschiff",
       "clues": {
-        "easy": "Mit Helium gefülltes Werbeluftschiff schwebt über Stadien",
-        "medium": "Druckbeständige, nicht starre Hülle, die leichter als Luft ist",
+        "easy": "Mit Helium gefülltes WerbeGefährt schwebt über Stadien",
+        "medium": "Druckbeständige, nicht starre Hülle, die leichter als Gefährt ist",
         "hard": "Verkehrsmittel"
       }
     },
@@ -6298,14 +6298,14 @@
       "word": "Hundeschlitten",
       "clues": {
         "easy": "Vorgespanntes Husky-Rudel, das hölzernen Läuferschlitten zieht",
-        "medium": "Funktionierender Hunde-Team-Gurt-Läufer-Schlitten",
+        "medium": "Funktionierender Gefährt-Team-Gurt-Läufer-Schlitten",
         "hard": "Verkehrsmittel"
       }
     },
     {
       "word": "Postkutsche",
       "clues": {
-        "easy": "Westlicher Reisebus mit Post und Gepäck",
+        "easy": "Westlicher Reisebus mit Gefährt und Gepäck",
         "medium": "Vierspänniger, von Pferden gezogener Überland-Personenwagen",
         "hard": "Verkehrsmittel"
       }
@@ -6314,30 +6314,30 @@
       "word": "Dampfschiff",
       "clues": {
         "easy": "Schornsteine und aufgewühltes Wasser an historischen Flüssen",
-        "medium": "Dampfbetriebenes Schaufelrad-Flussschiff",
+        "medium": "Kohlebefeuertes Schaufelrad-Flussschiff",
         "hard": "Verkehrsmittel"
       }
     },
     {
       "word": "Magnetschwebebahn",
       "clues": {
-        "easy": "Elektromagnetischer Schwebezug, der die Schienenreibung beseitigt",
-        "medium": "Magnetschwebebahn-Passagiergeschoss",
+        "easy": "Elektromagnetischer Schwebetransport, der die Gleisreibung eliminiert",
+        "medium": "Gefährt-Passagiergeschoss",
         "hard": "Verkehrsmittel"
       }
     },
     {
       "word": "Golfwagen",
       "clues": {
-        "easy": "Leiser Batteriewagen zum Transport von Golftaschen zwischen den Löchern",
-        "medium": "Niederspannungs-Versorgungswagen für den öffentlichen Nahverkehr",
+        "easy": "Leiser Akku-Buggy, der Schlägertaschen zwischen den Löchern transportiert",
+        "medium": "Niederspannungs-Versorgungsbuggy für den Fairway-Transit",
         "hard": "Verkehrsmittel"
       }
     },
     {
       "word": "Fahrradtaxi",
       "clues": {
-        "easy": "Fahrradtaxi mit Beifahrerbank hinter Fahrer",
+        "easy": "Gefährt mit Beifahrerbank hinter Fahrer",
         "medium": "Dreirädriges Personentaxi mit Pedalantrieb",
         "hard": "Verkehrsmittel"
       }
@@ -6361,8 +6361,8 @@
     {
       "word": "Raumfähre",
       "clues": {
-        "easy": "Deltaflügel-Orbiter kehrt vom Weltraum zur Landebahn zurück",
-        "medium": "Raketengetriebenes Orbital-Raumflugzeug-Segelflugzeug",
+        "easy": "Deltaflügel-Orbiter kehrt von der Umlaufbahn zur Landebahn zurück",
+        "medium": "Mit Raketen angetriebener kosmischer Gleiter",
         "hard": "Verkehrsmittel"
       }
     },
@@ -6385,7 +6385,7 @@
     {
       "word": "Auslegerkanu",
       "clues": {
-        "easy": "Seefahrerkanu der pazifischen Inselbewohner mit Balanceholm",
+        "easy": "Pazifischer Inselbewohner-Seefahrer-Einbaum mit Schwebeholm",
         "medium": "Seitlich schwimmstabilisiertes polynesisches Reiseschiff",
         "hard": "Verkehrsmittel"
       }
@@ -6409,8 +6409,8 @@
     {
       "word": "Raddampfer",
       "clues": {
-        "easy": "Von Schaufelrädern angetriebenes Flussschiff, das Wasser aufwühlt",
-        "medium": "Dampfschiff mit Heck- oder Seitenradantrieb",
+        "easy": "Flussschiff, angetrieben von riesigen, wirbelnden Rädern",
+        "medium": "Dampfantriebsschiff mit Stern- oder Seitenradantrieb",
         "hard": "Verkehrsmittel"
       }
     }
@@ -6467,7 +6467,7 @@
     {
       "word": "Nebel",
       "clues": {
-        "easy": "Dichter Nebel in geringer Höhe beeinträchtigt die Sicht",
+        "easy": "Dichter Naturphänomen in geringer Höhe beeinträchtigt die Sicht",
         "medium": "Bodennahe Wasserdampfkondensation",
         "hard": "Natur"
       }
@@ -6540,7 +6540,7 @@
       "word": "Schlucht",
       "clues": {
         "easy": "Steile, hoch aufragende Steinmauern, die vom Wasser durchschnitten wurden",
-        "medium": "Erodierte Flussschlucht mit steilen Schichten",
+        "medium": "Erodierte FlussNaturphänomen mit steilen Schichten",
         "hard": "Natur"
       }
     },
@@ -6643,8 +6643,8 @@
     {
       "word": "Sanddüne",
       "clues": {
-        "easy": "Sich bewegender halbmondförmiger Hügel aus Wüstensand",
-        "medium": "Äolische, vom Wind geformte Sandlagerstätte",
+        "easy": "Sich verändernder halbmondförmiger Hügel aus Wüstenkieselsäure",
+        "medium": "Äolischer, windgeformter Wüstensedimentrücken",
         "hard": "Natur"
       }
     },
@@ -6659,7 +6659,7 @@
     {
       "word": "Sumpf",
       "clues": {
-        "easy": "Tief gelegenes Sumpfgebiet mit Zypressen und Schlamm",
+        "easy": "Tief gelegenes Naturphänomengebiet mit Zypressen und Schlamm",
         "medium": "Bewaldetes, schlecht entwässertes Feuchtgebietsbecken",
         "hard": "Natur"
       }
@@ -6732,7 +6732,7 @@
       "word": "Sonnenfinsternis",
       "clues": {
         "easy": "Tagsüber Dunkelheit, da der Mond das Sonnenlicht blockiert",
-        "medium": "Himmelsbedeckung der Sonnenscheibe",
+        "medium": "Himmelsbedeckung der Tagessternscheibe",
         "hard": "Natur"
       }
     },
@@ -6764,7 +6764,7 @@
       "word": "Sonnenuntergang",
       "clues": {
         "easy": "Die Dämmerung der goldenen Stunde geht in die Dämmerung über",
-        "medium": "Tägliches abendliches Verschwinden der Sonne",
+        "medium": "Tägliches abendliches Verschwinden der Naturphänomen",
         "hard": "Natur"
       }
     },
@@ -6804,7 +6804,7 @@
       "word": "Moos",
       "clues": {
         "easy": "Gefäßlose Pflanze, die auf schattigen Felsen wächst",
-        "medium": "Bodenteppich aus nicht vaskulären Moosen",
+        "medium": "Bodenteppich aus nicht vaskulären Naturphänomenen",
         "hard": "Natur"
       }
     },
@@ -6827,7 +6827,7 @@
     {
       "word": "Sonnenblume",
       "clues": {
-        "easy": "Große gelbe Scheibenblume, die der Sonne folgt",
+        "easy": "Große gelbe Scheibenblume, die der Naturphänomen folgt",
         "medium": "Hohe heliotrope Kompositblume",
         "hard": "Natur"
       }
@@ -6836,14 +6836,14 @@
       "word": "Eiche",
       "clues": {
         "easy": "Laubbaum mit breitem Blätterdach",
-        "medium": "Langlebiges, eicheltragendes Laubholz",
+        "medium": "Langlebiges, Naturphänomenltragendes Laubholz",
         "hard": "Natur"
       }
     },
     {
       "word": "Kiefer",
       "clues": {
-        "easy": "Der zapfentragende Holzbaum bleibt das ganze Jahr über grün",
+        "easy": "Zapfentragendes, duftendes Holz, das das ganze Jahr über grün bleibt",
         "medium": "Nadeltragender, harziger Nadelbaum",
         "hard": "Natur"
       }
@@ -6867,8 +6867,8 @@
     {
       "word": "Pilz",
       "clues": {
-        "easy": "Regenschirmförmiger Fruchtkörper, der Pilzsporen produziert",
-        "medium": "Sporentragender Pilzfruchtkörper",
+        "easy": "Regenschirmförmiger Fruchtkörper, der Naturphänomensporen produziert",
+        "medium": "Sporentragender Naturphänomenfruchtkörper",
         "hard": "Natur"
       }
     },
@@ -6883,7 +6883,7 @@
     {
       "word": "Muschel",
       "clues": {
-        "easy": "Leere Spirale oder Muschelschale an Land gespült",
+        "easy": "Leere Spirale oder Naturphänomenschale an Land gespült",
         "medium": "Exoskelett-Kalziumhülle von Meeresmollusken",
         "hard": "Natur"
       }
@@ -6923,7 +6923,7 @@
     {
       "word": "Heiße Quelle",
       "clues": {
-        "easy": "Mineralreiche Quelle, die mit vulkanischer Hitze sprudelt",
+        "easy": "Mineralreicher Brunnen, der vor vulkanischer Hitze sprudelt",
         "medium": "Erdwärmebeheiztes Grundwasserbecken",
         "hard": "Natur"
       }
@@ -6931,7 +6931,7 @@
     {
       "word": "Gezeitenbecken",
       "clues": {
-        "easy": "Miniatur-Gezeitenlebensraum, der bei Ebbe freigelegt wird",
+        "easy": "Miniatur-Meereslebensraum, freigelegt in einer Nische bei niedrigem Meeresspiegel",
         "medium": "Gezeitenreiches felsiges Küstenbecken",
         "hard": "Natur"
       }
@@ -7147,8 +7147,8 @@
     {
       "word": "Wasserspeier",
       "clues": {
-        "easy": "Tornado-Wirbel, der die Wasseroberfläche in Schaum aufwirbelt",
-        "medium": "Intensiver säulenförmiger Ozeanwasserwirbel",
+        "easy": "Tornado-Wirbel wirbelt die Meeresoberfläche in Schaum auf",
+        "medium": "Intensiver säulenförmiger Wirbel ozeanischer Flüssigkeit",
         "hard": "Natur"
       }
     },
@@ -7203,8 +7203,8 @@
     {
       "word": "Gezeitenwelle",
       "clues": {
-        "easy": "Echte Flutwelle, die ins Landesinnere vordringt und die Flussmündung verengt",
-        "medium": "Stromaufwärts gelegene Flutwelle im sich verengenden Fluss",
+        "easy": "Echte Meeresflut, die ins Landesinnere vordringt und die Flussmündung verengt",
+        "medium": "Stromaufwärts gelegener Schwallwall im sich verengenden Küstenfluss",
         "hard": "Natur"
       }
     },
@@ -7350,7 +7350,7 @@
       "word": "Fagott",
       "clues": {
         "easy": "Tiefe Holztöne durch geschwungenen Bogenbogen",
-        "medium": "Doppelrohrblatt-Tenorbass-Holzblasinstrument",
+        "medium": "Gefaltetes Holzblasinstrument mit doppeltem Rohrblatt und tiefem Register",
         "hard": "Musik"
       }
     },
@@ -7366,7 +7366,7 @@
       "word": "Waldhorn",
       "clues": {
         "easy": "Rechte Hand in breiter Messingglocke platziert",
-        "medium": "Eng gewickeltes Drehventil-Messinghorn",
+        "medium": "Eng gewickeltes Blechblasinstrument mit Drehventil",
         "hard": "Musik"
       }
     },
@@ -7437,7 +7437,7 @@
     {
       "word": "Bassgitarre",
       "clues": {
-        "easy": "Dicke Basssaiten mit den Fingern zupfen",
+        "easy": "Dicke, dicke Saiten mit den Fingern zupfen",
         "medium": "Niederfrequentes Vier-Saiten-Rhythmusfundament",
         "hard": "Musik"
       }
@@ -7510,7 +7510,7 @@
       "word": "Kontrabass",
       "clues": {
         "easy": "Höchste Orchestersaite, die auf einem Bodenstift steht",
-        "medium": "Tiefster gestrichener Orchester-Kontrabass",
+        "medium": "Tiefster gestrichener Orchester-Klangstück",
         "hard": "Musik"
       }
     },
@@ -7526,7 +7526,7 @@
       "word": "Kleine Trommel",
       "clues": {
         "easy": "Knackiger Marschwirbel und Rimshot-Backbeat",
-        "medium": "Gespannte Metallschlingen unter dem unteren Trommelfell",
+        "medium": "Gespannte Spiraldrähte unter dem unteren Schlagkopf",
         "hard": "Musik"
       }
     },
@@ -7558,7 +7558,7 @@
       "word": "Stahltrommel",
       "clues": {
         "easy": "Gehämmerte, konkave Metallpfanne mit Inseltönen",
-        "medium": "Konkav gehämmerte Pan-Percussion aus Stahl",
+        "medium": "Konkav gehämmertes Pfannenschlagwerk aus Legierung",
         "hard": "Musik"
       }
     },
@@ -7621,8 +7621,8 @@
     {
       "word": "Chor",
       "clues": {
-        "easy": "Sopran-, Alt-, Tenor- und Bass-Gesangschor",
-        "medium": "Polyphones Chorgesangsensemble",
+        "easy": "Sopran-, Alt-, Tenor- und Bass-GesangsKlangstück",
+        "medium": "Polyphones Klangstückgesangsensemble",
         "hard": "Musik"
       }
     },
@@ -7654,7 +7654,7 @@
       "word": "Rockmusik",
       "clues": {
         "easy": "Powerchords, Drum-Kit-Backbeat und rauer Gesang",
-        "medium": "Gitarrengetriebenes, verstärktes Popmusikgenre",
+        "medium": "Gitarrengetriebenes, verstärktes Stadionklang-Genre",
         "hard": "Musik"
       }
     },
@@ -7678,7 +7678,7 @@
       "word": "Country-Musik",
       "clues": {
         "easy": "Erzähltexte über das Landleben und Kummer",
-        "medium": "Ländliche amerikanische Roots-Musik mit akustischem Twang",
+        "medium": "Ländliche amerikanische Roots-Balladentradition mit akustischem Twang",
         "hard": "Musik"
       }
     },
@@ -7686,7 +7686,7 @@
       "word": "Klassische Musik",
       "clues": {
         "easy": "Sonaten, Sinfonien und Konzerte aus vergangenen Epochen",
-        "medium": "Formale europäische Kunstmusiktradition",
+        "medium": "Formale europäische Orchesterkunsttradition",
         "hard": "Musik"
       }
     },
@@ -7702,7 +7702,7 @@
       "word": "Volksmusik",
       "clues": {
         "easy": "Akustische Gitarren, Banjos und erzählende Balladen",
-        "medium": "Traditionelles, gemeinschaftsbasiertes Erbe akustischer Musik",
+        "medium": "Traditionelles, gemeinschaftsbasiertes akustisches Erbe",
         "hard": "Musik"
       }
     },
@@ -7718,7 +7718,7 @@
       "word": "Punkrock",
       "clues": {
         "easy": "Verzerrte Gitarren, energische Rufe und Anti-Establishment-Texte",
-        "medium": "Schneller, reduzierter, verzerrter Rock",
+        "medium": "Schnelle, reduzierte, verzerrte Rebellionsakkorde",
         "hard": "Musik"
       }
     },
@@ -7742,7 +7742,7 @@
       "word": "Salsa-Musik",
       "clues": {
         "easy": "Posaunenstöße, Congas und synkopierter Clave-Beat",
-        "medium": "Synkopierte afro-karibische Tanzmusik mit hohem Tempo",
+        "medium": "Synkopierter afro-karibischer Tanz-Groove mit hohem Tempo",
         "hard": "Musik"
       }
     },
@@ -7797,8 +7797,8 @@
     {
       "word": "Wiegenlied",
       "clues": {
-        "easy": "Ruhige melodische Melodie, die gesungen wird, um eine Wiege zu beruhigen",
-        "medium": "Wiegenlied zum Einschlafen",
+        "easy": "Ruhige melodische Melodie, die gesungen wird, um eine Klangstück zu beruhigen",
+        "medium": "Klangstück zum Einschlafen",
         "hard": "Musik"
       }
     },
@@ -7870,7 +7870,7 @@
       "word": "Plattenspieler",
       "clues": {
         "easy": "Plattenteller mit Direktantrieb, der Schallplatten zum Mischen dreht",
-        "medium": "Plattenspieler mit Direktantrieb",
+        "medium": "Klangstück mit Direktantrieb",
         "hard": "Musik"
       }
     },
@@ -7885,16 +7885,16 @@
     {
       "word": "Notenständer",
       "clues": {
-        "easy": "Verstellbares Stativ zur Unterstützung von Partituren für Spieler",
-        "medium": "Verstellbare Stativablage zur Unterstützung der Musiknotation",
+        "easy": "Verstellbares Stativ zur Unterstützung von Liedblättern für Orchesterspieler",
+        "medium": "Verstellbare Stativablage zur Unterstützung handschriftlicher Notenzeilennotizen",
         "hard": "Musik"
       }
     },
     {
       "word": "Noten",
       "clues": {
-        "easy": "Schwarze Noten, Schlüssel und Takte, gelesen von Musikern",
-        "medium": "Eingravierte gedruckte Notenzeilennotiz für die Aufführung",
+        "easy": "Schwarze Klangstück, Schlüssel und Takte, vorgelesen von Interpreten",
+        "medium": "Eingravierte gedruckte Klangstückzeilennotiz für die Aufführung",
         "hard": "Musik"
       }
     },
@@ -8031,7 +8031,7 @@
     {
       "word": "Malerei",
       "clues": {
-        "easy": "Staffelei, Farbpalette und Farbpigmente",
+        "easy": "Staffelei, Holzpalette und Farbpigmente",
         "medium": "Pigmentauftrag auf gespannter Leinwand",
         "hard": "Hobbys"
       }
@@ -8047,7 +8047,7 @@
     {
       "word": "Stricken",
       "clues": {
-        "easy": "Anschlagen von Maschen zum Stricken von Pullovern",
+        "easy": "Anschlagen von Maschen zur Herstellung von Wollpullovern",
         "medium": "Ineinandergreifende Garnschlingen mit Zwillingsnadeln",
         "hard": "Hobbys"
       }
@@ -8064,7 +8064,7 @@
       "word": "Gartenarbeit",
       "clues": {
         "easy": "Kelle, Samen, Gießkanne und Mulch",
-        "medium": "Gartenbaulicher Anbau von Gartenbeeten",
+        "medium": "Gartenbauliche Bewirtschaftung von Hinterhof-Erdbeeten",
         "hard": "Hobbys"
       }
     },
@@ -8080,7 +8080,7 @@
       "word": "Backen",
       "clues": {
         "easy": "Mehl abmessen, Hefeteig kneten und Timer",
-        "medium": "Ofengebackenes Gebäck und Teigchemie",
+        "medium": "OfengeAktivitätes Gebäck und Teigchemie",
         "hard": "Hobbys"
       }
     },
@@ -8088,7 +8088,7 @@
       "word": "Angeln",
       "clues": {
         "easy": "Köderhaken, Wurfschnur und Rolle",
-        "medium": "Angeln mit Köderhaken und Leine",
+        "medium": "Aktivität mit Köderhaken und Leine",
         "hard": "Hobbys"
       }
     },
@@ -8096,14 +8096,14 @@
       "word": "Wandern",
       "clues": {
         "easy": "Trekking-Bergpfade mit festem Schuhwerk",
-        "medium": "Wandern im Hinterland mit Tagesrucksack",
+        "medium": "Aktivität im Hinterland mit Tagesrucksack",
         "hard": "Hobbys"
       }
     },
     {
       "word": "Camping",
       "clues": {
-        "easy": "Lagerfeuer, Schlafsäcke und Waldcampingplatz",
+        "easy": "Lagerfeuer, Schlafsäcke und WaldAktivitätplatz",
         "medium": "Übernachtung im Freien in der Wildnis",
         "hard": "Hobbys"
       }
@@ -8152,14 +8152,14 @@
       "word": "Keramik",
       "clues": {
         "easy": "Tonschalen formen und im Ofen brennen",
-        "medium": "Keramikton auf Drehrad zentrieren",
+        "medium": "Aktivitätton auf Drehrad zentrieren",
         "hard": "Hobbys"
       }
     },
     {
       "word": "Holzbearbeitung",
       "clues": {
-        "easy": "Meißel, Sägen, Holzleim und Schleifen",
+        "easy": "Meißel, Sägen, Tischlerleim und Schleifmittel",
         "medium": "Tischlerei und Holzmöbelschnitzerei",
         "hard": "Hobbys"
       }
@@ -8192,7 +8192,7 @@
       "word": "Schach",
       "clues": {
         "easy": "Springer, Läufer, Bauern und Könige bewegen",
-        "medium": "Schachmattkönig auf kariertem Gitter",
+        "medium": "Aktivitätmattkönig auf kariertem Gitter",
         "hard": "Hobbys"
       }
     },
@@ -8239,8 +8239,8 @@
     {
       "word": "Kartenspiele",
       "clues": {
-        "easy": "Mischen, Farben austeilen und Kartentricks machen",
-        "medium": "Spielkarten mit Einsätzen oder Gelegenheitsspielen",
+        "easy": "Mischen, Farben austeilen und Gewinnstiche ausführen",
+        "medium": "Spielen mit Einsätzen oder Gelegenheitskarten mit gedrucktem Deck",
         "hard": "Hobbys"
       }
     },
@@ -8248,7 +8248,7 @@
       "word": "Zaubertricks",
       "clues": {
         "easy": "Verschwindende Münzen, falsche Schnitte und Palming-Karten",
-        "medium": "Zaubertricks-Illusionen heraufbeschwören",
+        "medium": "Aktivität-Illusionen heraufbeschwören",
         "hard": "Hobbys"
       }
     },
@@ -8327,7 +8327,7 @@
     {
       "word": "Schwimmen",
       "clues": {
-        "easy": "Schutzbrille, Badekappe und Wasserspiele",
+        "easy": "Schutzbrille, Gummikappe und Wasserschwimmübungen",
         "medium": "Schwimmübungen im Schwimmbecken",
         "hard": "Hobbys"
       }
@@ -8344,14 +8344,14 @@
       "word": "Skateboarden",
       "clues": {
         "easy": "Ollies und Kickflips auf dem Asphalt üben",
-        "medium": "Manövrieren mit dem vierrädrigen Skateboard",
+        "medium": "Manövrieren des Griptape-Decks mit vier Rädern",
         "hard": "Hobbys"
       }
     },
     {
       "word": "Surfen",
       "clues": {
-        "easy": "Paddeln Sie hinaus zu den Wellen des Ozeans und schnitzen Sie die Brandung",
+        "easy": "Paddeln Sie zu den Wellen des Ozeans und reiten Sie auf brechenden Wellen",
         "medium": "Wellenreiten auf schwimmendem Brett",
         "hard": "Hobbys"
       }
@@ -8367,8 +8367,8 @@
     {
       "word": "Snowboarden",
       "clues": {
-        "easy": "Carven Sie verschneite Bergschwünge mit einem Boot-Board",
-        "medium": "Alpines Schneecarven mit einem Brett",
+        "easy": "Carven Sie gefrorene Bergschwünge mit einem Boot-Deck",
+        "medium": "Single-Plank-Powder-Carven im alpinen Gelände",
         "hard": "Hobbys"
       }
     },
@@ -8392,7 +8392,7 @@
       "word": "Reiten",
       "clues": {
         "easy": "Sitzt im Sattel und hält Lederzügel",
-        "medium": "Reitsattelbalance und Wanderreiten",
+        "medium": "Reitsattel-Balance und Wanderungen durch die Natur",
         "hard": "Hobbys"
       }
     },
@@ -8416,7 +8416,7 @@
       "word": "Krafttraining",
       "clues": {
         "easy": "Machen Sie Muskelsätze, Bankdrücken und Kniebeugen",
-        "medium": "Progressives Überlastungswiderstandstraining",
+        "medium": "Progressive Langhantel-Widerstandssätze für Überlastung",
         "hard": "Hobbys"
       }
     },
@@ -8447,7 +8447,7 @@
     {
       "word": "Salsa-Tanzen",
       "clues": {
-        "easy": "Schritt für Schritt zu fröhlichen afro-kubanischen Salsa-Rhythmen",
+        "easy": "Schritt für Schritt zu fröhlichen afro-kubanischen Rhythmen",
         "medium": "Schnelle synkopierte lateinamerikanische Partnerspins",
         "hard": "Hobbys"
       }
@@ -8464,7 +8464,7 @@
       "word": "Hausbrauen",
       "clues": {
         "easy": "Kochendes Gerstenmalz, Hopfen und gärende Hefe",
-        "medium": "Brauen und Fermentieren von Getreide in kleinen Mengen",
+        "medium": "Craft-Ale-Würzegärung in kleinen Mengen",
         "hard": "Hobbys"
       }
     },
@@ -8479,8 +8479,8 @@
     {
       "word": "Kaffeerösten",
       "clues": {
-        "easy": "Überwachung von Rösthitze, Knackgeräuschen und Aroma",
-        "medium": "Thermische Pyrolyse von grünen Kaffeesamen",
+        "easy": "Überwachung von Trommelwärme, Knackgeräuschen und Bräunungsaroma",
+        "medium": "Thermische Pyrolyse von rohen Javabohnen",
         "hard": "Hobbys"
       }
     },
@@ -8512,7 +8512,7 @@
       "word": "Metalldetektion",
       "clues": {
         "easy": "Lauschen Sie auf Signaltöne, um vergrabene Münzen zu entdecken",
-        "medium": "Elektromagnetische Bodenuntersuchung auf Metalle",
+        "medium": "Elektromagnetische Bodenuntersuchung nach vergrabenen Relikten",
         "hard": "Hobbys"
       }
     },
@@ -8527,7 +8527,7 @@
     {
       "word": "Drachensteigen",
       "clues": {
-        "easy": "Seewind einfangen, um den Drachen in der Luft zu halten",
+        "easy": "Den Meereswind einfangen, um Nylon-Diamanten in der Luft zu halten",
         "medium": "Aerodynamischer Flug mit angebundenem Wind",
         "hard": "Hobbys"
       }
@@ -8535,7 +8535,7 @@
     {
       "word": "Drohne fliegt",
       "clues": {
-        "easy": "Dual-Stick-Controller zur Navigation einer Flugdrohne",
+        "easy": "Dual-Stick-Controller zur Steuerung eines Multirotors in der Luft",
         "medium": "Ferngesteuerter Quadrocopter-Flug",
         "hard": "Hobbys"
       }
@@ -8543,7 +8543,7 @@
     {
       "word": "Rollenspiele",
       "clues": {
-        "easy": "Spielleiter beschreibt Fantasy-Quest mit Charakterbögen",
+        "easy": "Dungeon-Geschichtenerzähler, der Fantasy-Quests mit Charakterbögen beschreibt",
         "medium": "Kollaborative, würfelgesteuerte Fantasy-Erzählung",
         "hard": "Hobbys"
       }
@@ -8552,7 +8552,7 @@
       "word": "Fluchträume",
       "clues": {
         "easy": "Verborgene Rätsel entschlüsseln, um die Tür zu öffnen",
-        "medium": "Thematische kooperative Raumrätsel-Flucht",
+        "medium": "Thematisches, kooperatives, versiegeltes Kammerrätsel-Rätsel",
         "hard": "Hobbys"
       }
     },
@@ -8575,7 +8575,7 @@
     {
       "word": "Filmemachen",
       "clues": {
-        "easy": "Drehbuchschreiben, Bildausschnitt für Kameraaufnahmen und Filmschnitt",
+        "easy": "Drehbuchschreiben, Bildausschnitt für Kameraaufnahmen und Schneiden von Bewegungsrollen",
         "medium": "Das Handwerk der filmischen Filmproduktion",
         "hard": "Hobbys"
       }
@@ -8608,7 +8608,7 @@
       "word": "Amateurfunk",
       "clues": {
         "easy": "Ausstrahlung von Rufzeichen über einen Hochfrequenz-Transceiver",
-        "medium": "Amateurfunkfrequenzübertragung",
+        "medium": "Aktivität-Frequenzübertragung",
         "hard": "Hobbys"
       }
     },
@@ -8639,7 +8639,7 @@
     {
       "word": "Hundetraining",
       "clues": {
-        "easy": "Clickertraining, Leckerlis und Fersenbefehle an der Leine",
+        "easy": "Clicker-Coaching, Leckerlis und Fersenbefehle an der Leine",
         "medium": "Operante Konditionierung und Gehorsam bei Hunden",
         "hard": "Hobbys"
       }
@@ -8671,7 +8671,7 @@
     {
       "word": "Quilten",
       "clues": {
-        "easy": "Patchwork-Quiltoberteil, Wattierung und gemusterte Stiche",
+        "easy": "Oberteil mit Patchworkmuster, Wattierung und Zierstichen",
         "medium": "Mehrschichtige Patchwork-Textilnähte",
         "hard": "Hobbys"
       }
@@ -8711,8 +8711,8 @@
     {
       "word": "Blumenarrangement",
       "clues": {
-        "easy": "Blütenstiele beschneiden und Blumenfarben ausgleichen",
-        "medium": "Floristisches Design und florale Stielbalance",
+        "easy": "Beschneiden Sie die Blumenstängel und gleichen Sie die leuchtenden Blütenfarben aus",
+        "medium": "Floristische Gestaltung und Blütenstiele-Balance",
         "hard": "Hobbys"
       }
     },
@@ -8728,14 +8728,14 @@
       "word": "Sprachenlernen",
       "clues": {
         "easy": "Lernkarten, Aussprache-Audio und Grammatikübungen",
-        "medium": "Lexikonerwerb der zweiten Sprache",
+        "medium": "Fremdsprachenvokabular und Grammatikerwerb",
         "hard": "Hobbys"
       }
     },
     {
       "word": "Vinylsammeln",
       "clues": {
-        "easy": "Kistenwühlende Zwölf-Zoll-Vinylalben in Hüllen",
+        "easy": "Kistenwühlende Zwölf-Zoll-Groove-Alben in Papphüllen",
         "medium": "Archivierung analoger Phonographenplatten",
         "hard": "Hobbys"
       }
@@ -8775,7 +8775,7 @@
     {
       "word": "Schmuckherstellung",
       "clues": {
-        "easy": "Schmuckzangen, Drahtschneider, Perlen und Verschlüsse",
+        "easy": "Bastelzangen, Drahtschneider, Perlen und Verschlüsse",
         "medium": "Handgefertigte Herstellung tragbarer Ornamente",
         "hard": "Hobbys"
       }
@@ -8783,16 +8783,16 @@
     {
       "word": "Glasbläserei",
       "clues": {
-        "easy": "Sammeln von glühendem geschmolzenem Glas aus einem heißen Ofen",
-        "medium": "Thermische Manipulation einer geschmolzenen Glasblase",
+        "easy": "Sammeln von glühender, geschmolzener Kieselsäure aus einem heißen Ofen",
+        "medium": "Thermische Manipulation einer geschmolzenen, leuchtenden Siliziumdioxidblase",
         "hard": "Hobbys"
       }
     },
     {
       "word": "Buntglas",
       "clues": {
-        "easy": "Schneiden von farbigen Glasstücken und Lötstellen",
-        "medium": "Bleigelötete farbige Kunstglasbaugruppe",
+        "easy": "Schneiden von farbigen Dekorscheiben und Lötstellen",
+        "medium": "Bleigelötete farbige Dekorplattenbaugruppe",
         "hard": "Hobbys"
       }
     },
@@ -8808,15 +8808,15 @@
       "word": "Briefe schreiben",
       "clues": {
         "easy": "Briefpapier, Füllfederhalter und Wachssiegel",
-        "medium": "Zusammensetzung von Briefpostbriefen",
+        "medium": "Briefliche Pergamentkomposition",
         "hard": "Hobbys"
       }
     },
     {
       "word": "Urbanes Skizzieren",
       "clues": {
-        "easy": "Wasserfarben und Tuschestift im tragbaren Skizzenbuch",
-        "medium": "Beobachtende Architekturskizze im Freien",
+        "easy": "Wasserfarben und Tuschestift im tragbaren Zeichenblock",
+        "medium": "Beobachtende architektonische Entwurfskunst im Freien",
         "hard": "Hobbys"
       }
     }

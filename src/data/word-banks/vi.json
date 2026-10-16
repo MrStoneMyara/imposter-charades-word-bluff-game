@@ -11,7 +11,7 @@
     {
       "word": "Kính râm",
       "clues": {
-        "easy": "Tròng kính bảo vệ mắt tối màu",
+        "easy": "Tròng đồ dùng bảo vệ mắt tối màu",
         "medium": "Lá chắn chói màu",
         "hard": "Everyday Objects"
       }
@@ -27,15 +27,15 @@
     {
       "word": "Đồng hồ đeo tay",
       "clues": {
-        "easy": "Đồng hồ dây nhỏ",
-        "medium": "Quay số dây đeo tích tắc",
+        "easy": "đồ dùng hồ dây nhỏ",
+        "medium": "Quay số dây đồ dùng tích tắc",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Máy nướng bánh mì",
       "clues": {
-        "easy": "Máy đánh bạc ăn sáng bật lên",
+        "easy": "đồ dùng đánh bạc ăn sáng bật lên",
         "medium": "Khe màu nâu lò xo",
         "hard": "Everyday Objects"
       }
@@ -52,7 +52,7 @@
       "word": "Máy dập ghim",
       "clues": {
         "easy": "Thiết bị để bàn ép kẹp kim loại",
-        "medium": "Máy đục lỗ dây có bản lề",
+        "medium": "đồ dùng đục lỗ dây có bản lề",
         "hard": "Everyday Objects"
       }
     },
@@ -67,7 +67,7 @@
     {
       "word": "Tủ lạnh",
       "clues": {
-        "easy": "Tủ lạnh làm mát nhà bếp",
+        "easy": "đồ dùng làm mát nhà bếp",
         "medium": "Hộp bếp kêu vo ve liên tục",
         "hard": "Everyday Objects"
       }
@@ -115,8 +115,8 @@
     {
       "word": "Thang",
       "clues": {
-        "easy": "Bậc thang giữa hai thanh ray thẳng đứng",
-        "medium": "Bậc thang song song tăng dần",
+        "easy": "Bậc đồ dùng giữa hai thanh ray thẳng đứng",
+        "medium": "Bậc đồ dùng song song tăng dần",
         "hard": "Everyday Objects"
       }
     },
@@ -124,15 +124,15 @@
       "word": "Ấm đun nước",
       "clues": {
         "easy": "Nồi có vòi có bộ phận sôi",
-        "medium": "Tàu nước huýt sáo",
+        "medium": "Tàu đồ dùng huýt sáo",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Máy hút bụi",
       "clues": {
-        "easy": "Ống hút và bộ lọc có động cơ",
-        "medium": "Hút hút có bánh xe",
+        "easy": "Ống đồ dùng và bộ lọc có động cơ",
+        "medium": "đồ dùng đồ dùng có bánh xe",
         "hard": "Everyday Objects"
       }
     },
@@ -163,7 +163,7 @@
     {
       "word": "Đèn pin",
       "clues": {
-        "easy": "Đèn pin cầm tay chạy bằng pin",
+        "easy": "đồ dùng cầm tay chạy bằng đồ dùng",
         "medium": "Chùm tia tối cầm tay",
         "hard": "Everyday Objects"
       }
@@ -179,7 +179,7 @@
     {
       "word": "Bàn phím",
       "clues": {
-        "easy": "Hàng phím gõ cho màn hình",
+        "easy": "Hàng đồ dùng gõ cho màn hình",
         "medium": "Lưới gõ QWERTY",
         "hard": "Everyday Objects"
       }
@@ -187,7 +187,7 @@
     {
       "word": "Tai nghe",
       "clues": {
-        "easy": "Cốc nghe cá nhân có đệm",
+        "easy": "Cốc đồ dùng cá nhân có đệm",
         "medium": "Băng đô âm thanh có đệm",
         "hard": "Everyday Objects"
       }
@@ -227,7 +227,7 @@
     {
       "word": "Vali",
       "clues": {
-        "easy": "Vali du lịch có bánh lăn",
+        "easy": "đồ dùng du lịch có bánh lăn",
         "medium": "Cốp hành lý có bánh xe",
         "hard": "Everyday Objects"
       }
@@ -235,23 +235,23 @@
     {
       "word": "Móc treo quần áo",
       "clues": {
-        "easy": "Móc vai định hình trong tủ quần áo",
-        "medium": "Dây tủ quần áo có đường viền vai",
+        "easy": "đồ dùng vai định hình trong tủ đồ dùng áo",
+        "medium": "Dây tủ đồ dùng áo có đường viền vai",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Rèm",
       "clues": {
-        "easy": "Rèm vải chặn ánh sáng cửa sổ",
-        "medium": "Rèm cửa sổ bằng vải xếp li",
+        "easy": "đồ dùng vải chặn ánh sáng cửa sổ",
+        "medium": "đồ dùng cửa sổ bằng vải xếp li",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Thảm",
       "clues": {
-        "easy": "Thảm trải sàn dệt dày",
+        "easy": "đồ dùng trải sàn dệt dày",
         "medium": "Dệt dệt dưới chân",
         "hard": "Everyday Objects"
       }
@@ -275,8 +275,8 @@
     {
       "word": "Đèn bàn",
       "clues": {
-        "easy": "Bóng đèn bóng mờ có đế",
-        "medium": "Xi lanh phát sáng mặt bàn",
+        "easy": "Bóng đồ dùng bóng mờ có đế",
+        "medium": "Xi lanh phát sáng mặt đồ dùng",
         "hard": "Everyday Objects"
       }
     },
@@ -292,14 +292,14 @@
       "word": "Đồng hồ báo thức",
       "clues": {
         "easy": "Chuông hoặc chuông buổi sáng được hẹn giờ",
-        "medium": "Chuông báo đầu giường đã được lên lịch",
+        "medium": "Chuông đồ dùng đầu giường đã được lên lịch",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Lịch treo tường",
       "clues": {
-        "easy": "Lưới treo đánh số ngày tháng",
+        "easy": "Lưới đồ dùng đánh số ngày tháng",
         "medium": "Kế hoạch ngày tháng mười hai trang",
         "hard": "Everyday Objects"
       }
@@ -340,15 +340,15 @@
       "word": "Keo dán",
       "clues": {
         "easy": "Xi lanh dính rắn cho giấy",
-        "medium": "Xi lanh dính giấy dính",
+        "medium": "Xi lanh dính giấy xoắn",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Băng dính",
       "clues": {
-        "easy": "Cuộn dây ruy băng trong suốt",
-        "medium": "Ống dính cắt phân phối",
+        "easy": "Cuộn dây ruy đồ dùng trong suốt",
+        "medium": "Ống đồ dùng cắt phân phối",
         "hard": "Everyday Objects"
       }
     },
@@ -396,14 +396,14 @@
       "word": "bóng đèn",
       "clues": {
         "easy": "Quả cầu thủy tinh phát sáng nhờ dòng điện",
-        "medium": "Ổ cắm chiếu sáng dây tóc hoặc đèn LED",
+        "medium": "Ổ cắm chiếu sáng dây tóc hoặc đồ dùng LED",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "tay nắm cửa",
       "clues": {
-        "easy": "Tay cầm chốt xoay tròn",
+        "easy": "đồ dùng cầm chốt xoay tròn",
         "medium": "Phần cứng nhập cảnh quay",
         "hard": "Everyday Objects"
       }
@@ -428,7 +428,7 @@
       "word": "Xô",
       "clues": {
         "easy": "Mở thùng có tay cầm bằng dây",
-        "medium": "Xô tròn kéo nước",
+        "medium": "đồ dùng tròn kéo nước",
         "hard": "Everyday Objects"
       }
     },
@@ -444,14 +444,14 @@
       "word": "Thanh xà phòng",
       "clues": {
         "easy": "Khối trơn tạo bọt",
-        "medium": "Thanh tạo bọt thơm",
+        "medium": "Khối tắm thơm",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Khăn tắm",
       "clues": {
-        "easy": "Khăn lau phòng tắm thấm hút lớn",
+        "easy": "đồ dùng bông thấm hút lớn",
         "medium": "Bông quấn giữ ẩm dạng vòng",
         "hard": "Everyday Objects"
       }
@@ -459,7 +459,7 @@
     {
       "word": "bàn chải tóc",
       "clues": {
-        "easy": "Mái chèo có ghim để chải tóc",
+        "easy": "Mái chèo có ghim để đồ dùng đồ dùng",
         "medium": "Mái chèo của lông ghim",
         "hard": "Everyday Objects"
       }
@@ -475,8 +475,8 @@
     {
       "word": "dao cạo",
       "clues": {
-        "easy": "Tay cầm cầm tay có lưỡi dao sắc bén",
-        "medium": "Hộp cạo râu chải chuốt",
+        "easy": "Tay cầm cầm tay có lưỡi đồ dùng sắc bén",
+        "medium": "Hộp đồ dùng râu chải chuốt",
         "hard": "Everyday Objects"
       }
     },
@@ -484,14 +484,14 @@
       "word": "Bấm móng tay",
       "clues": {
         "easy": "Công cụ đòn bẩy để cắt các cạnh",
-        "medium": "Tông đơ đầu ngón tay xoay",
+        "medium": "Tông đơ đầu ngón đồ dùng xoay",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Kim khâu",
       "clues": {
-        "easy": "Mắt ren và mũi kim loại sắc nhọn",
+        "easy": "Mắt ren và mũi đồ dùng loại sắc nhọn",
         "medium": "Dây xuyên thấu mắt mảnh",
         "hard": "Everyday Objects"
       }
@@ -508,14 +508,14 @@
       "word": "dây kéo",
       "clues": {
         "easy": "Đường răng trượt bằng kim loại hoặc nhựa",
-        "medium": "Đóng theo dõi tab kéo",
+        "medium": "Đóng theo dõi tab đồ dùng",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Thắt lưng",
       "clues": {
-        "easy": "Dây đeo bằng da có khóa ở thắt lưng",
+        "easy": "Dây đeo bằng da có khóa ở đồ dùng",
         "medium": "Vòng eo có khóa",
         "hard": "Everyday Objects"
       }
@@ -523,15 +523,15 @@
     {
       "word": "Dây giày",
       "clues": {
-        "easy": "Dây dệt thắt nút trên giày dép",
-        "medium": "Dây bện có đầu Aglet",
+        "easy": "đồ dùng dệt thắt nút trên đồ dùng dép",
+        "medium": "đồ dùng bện có đầu Aglet",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Kính mắt",
       "clues": {
-        "easy": "Hai ống kính theo toa trên mũi",
+        "easy": "Hai ống đồ dùng theo toa trên mũi",
         "medium": "Quang học khuôn mặt có khung",
         "hard": "Everyday Objects"
       }
@@ -540,7 +540,7 @@
       "word": "băng bó",
       "clues": {
         "easy": "Miếng dán bảo vệ vết xước",
-        "medium": "Dải băng vết thương vô trùng",
+        "medium": "Dải đồ dùng vết thương vô trùng",
         "hard": "Everyday Objects"
       }
     },
@@ -548,7 +548,7 @@
       "word": "Nhiệt kế",
       "clues": {
         "easy": "Cảm biến hiển thị độ cơ thể",
-        "medium": "Ống nhiệt độ hiệu chuẩn",
+        "medium": "Ống đồ dùng độ hiệu chuẩn",
         "hard": "Everyday Objects"
       }
     },
@@ -556,14 +556,14 @@
       "word": "Bình chữa cháy",
       "clues": {
         "easy": "Xi lanh màu đỏ có chốt và ống mềm",
-        "medium": "Bình tạo bọt an toàn chịu áp lực",
+        "medium": "đồ dùng tạo bọt an toàn chịu áp lực",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Đầu báo khói",
       "clues": {
-        "easy": "Chuông báo cháy vòng trên cao",
+        "easy": "Chuông đồ dùng cháy vòng trên cao",
         "medium": "Máy đo hạt trong không khí trên trần",
         "hard": "Everyday Objects"
       }
@@ -571,24 +571,24 @@
     {
       "word": "thùng rác",
       "clues": {
-        "easy": "Thùng đựng rác có lót",
-        "medium": "Thùng đựng rác nhà bếp",
+        "easy": "đồ dùng đựng đồ dùng có lót",
+        "medium": "đồ dùng đựng đồ dùng nhà bếp",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Giỏ đựng đồ giặt",
       "clues": {
-        "easy": "Giỏ thông hơi cho hàng may mặc",
-        "medium": "Thùng đựng quần áo bẩn dệt",
+        "easy": "đồ dùng thông hơi cho hàng may mặc",
+        "medium": "Thùng đồ dùng quần áo bẩn dệt",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Kẹp quần áo",
       "clues": {
-        "easy": "Kẹp sấy gỗ lò xo",
-        "medium": "Kẹp dây phơi ngoài trời",
+        "easy": "đồ dùng sấy gỗ lò xo",
+        "medium": "đồ dùng dây phơi ngoài trời",
         "hard": "Everyday Objects"
       }
     },
@@ -603,7 +603,7 @@
     {
       "word": "chảo rán",
       "clues": {
-        "easy": "Chảo nấu ăn bằng kim loại đáy phẳng",
+        "easy": "đồ dùng nấu ăn bằng kim loại đáy phẳng",
         "medium": "Kim loại đáy phẳng nóng bỏng",
         "hard": "Everyday Objects"
       }
@@ -635,8 +635,8 @@
     {
       "word": "găng tay lò nướng",
       "clues": {
-        "easy": "Găng tay nhà bếp bằng vải cách nhiệt",
-        "medium": "Găng tay chần bông chịu nhiệt",
+        "easy": "đồ dùng đồ dùng nhà bếp bằng vải cách nhiệt",
+        "medium": "đồ dùng đồ dùng chần bông chịu nhiệt",
         "hard": "Everyday Objects"
       }
     },
@@ -660,7 +660,7 @@
       "word": "Máy pha cà phê",
       "clues": {
         "easy": "Thiết bị nhỏ giọt trên mặt bàn",
-        "medium": "Thiết bị pha cà phê buổi sáng",
+        "medium": "Thiết bị đồ dùng cà đồ dùng buổi sáng",
         "hard": "Everyday Objects"
       }
     },
@@ -675,16 +675,16 @@
     {
       "word": "Bình giữ nhiệt",
       "clues": {
-        "easy": "Bình du lịch hai lớp cách nhiệt",
-        "medium": "Bình đựng đồ uống kín chân không",
+        "easy": "đồ dùng du lịch hai lớp cách đồ dùng",
+        "medium": "đồ dùng đựng đồ uống kín chân không",
         "hard": "Everyday Objects"
       }
     },
     {
       "word": "Hộp cơm trưa",
       "clues": {
-        "easy": "Hộp đựng bánh sandwich di động",
-        "medium": "Gói bữa trưa ngăn",
+        "easy": "đồ dùng đựng bánh sandwich di động",
+        "medium": "Gói bữa đồ dùng ngăn",
         "hard": "Everyday Objects"
       }
     },
@@ -700,7 +700,7 @@
       "word": "cái mở nút chai",
       "clues": {
         "easy": "Giun xoắn ốc kim loại có tay nâng",
-        "medium": "Máy chiết nút xoắn ốc",
+        "medium": "Máy chiết đồ dùng xoắn ốc",
         "hard": "Everyday Objects"
       }
     },
@@ -708,7 +708,7 @@
       "word": "Dụng cụ mở hộp",
       "clues": {
         "easy": "Lưỡi quay cắt ngọn thiếc",
-        "medium": "Dụng cụ cắt vành quay",
+        "medium": "đồ dùng cụ cắt vành quay",
         "hard": "Everyday Objects"
       }
     },
@@ -732,7 +732,7 @@
       "word": "Cán lăn",
       "clues": {
         "easy": "Bánh ngọt làm mịn hình trụ nặng",
-        "medium": "Con lăn cán phẳng bột có tay cầm",
+        "medium": "Con đồ dùng đồ dùng phẳng bột có tay cầm",
         "hard": "Everyday Objects"
       }
     },
@@ -747,7 +747,7 @@
     {
       "word": "Khay đá viên",
       "clues": {
-        "easy": "Khuôn ngăn đông hình khối",
+        "easy": "Khuôn ngăn đông cho khối làm lạnh",
         "medium": "Khuôn dưới 0 được phân vùng",
         "hard": "Everyday Objects"
       }
@@ -755,7 +755,7 @@
     {
       "word": "móc áo",
       "clues": {
-        "easy": "Móc treo áo khoác treo tường",
+        "easy": "đồ dùng treo tường cho áo khoác ngoài",
         "medium": "Ngạnh tường cong cho áo khoác",
         "hard": "Everyday Objects"
       }
@@ -837,7 +837,7 @@
     {
       "word": "bánh sừng bò",
       "clues": {
-        "easy": "Bánh ngọt ăn sáng kiểu Pháp nhiều lớp",
+        "easy": "món ngon ngọt ăn sáng kiểu Pháp nhiều lớp",
         "medium": "Bột nhiều lớp cong màu vàng",
         "hard": "Food"
       }
@@ -861,8 +861,8 @@
     {
       "word": "bánh mì kẹp thịt",
       "clues": {
-        "easy": "Sandwich thịt nướng kèm topping",
-        "medium": "Chồng bánh ăn tối bằng hai tay",
+        "easy": "Sandwich món ngon nướng kèm topping",
+        "medium": "Chồng món ngon ăn tối bằng hai tay",
         "hard": "Food"
       }
     },
@@ -878,7 +878,7 @@
       "word": "Kem",
       "clues": {
         "easy": "Món sữa ướp lạnh khuấy",
-        "medium": "Kem sữa ngọt tan chảy",
+        "medium": "Muỗng sữa đông lạnh ngọt tan chảy",
         "hard": "Food"
       }
     },
@@ -886,14 +886,14 @@
       "word": "bánh rán",
       "clues": {
         "easy": "Bột tròn có lỗ ở giữa",
-        "medium": "Bánh ngọt tròn tráng men có khoảng trống",
+        "medium": "món ngon ngọt tròn tráng men có khoảng trống",
         "hard": "Food"
       }
     },
     {
       "word": "bánh mì tròn",
       "clues": {
-        "easy": "Vòng bánh mì dày đặc với kem phô mai",
+        "easy": "Vòng món ngon mì dày đặc với kem phô mai",
         "medium": "Vòng bột luộc rồi nướng",
         "hard": "Food"
       }
@@ -909,7 +909,7 @@
     {
       "word": "bỏng ngô",
       "clues": {
-        "easy": "Hạt ngô nóng hổi nổ tung",
+        "easy": "Hạt món ngon nóng hổi nổ tung",
         "medium": "Hạt muối bơ nổ",
         "hard": "Food"
       }
@@ -957,16 +957,16 @@
     {
       "word": "cơm thập cẩm",
       "clues": {
-        "easy": "Cơm chảo rộng đáy giòn",
-        "medium": "Cơm chảo hải sản nghệ tây",
+        "easy": "món ngon chảo rộng đáy giòn",
+        "medium": "món ngon chảo hải sản nghệ tây",
         "hard": "Food"
       }
     },
     {
       "word": "Cơm Risotto",
       "clues": {
-        "easy": "Cơm hạt ngắn nấu nước dùng",
-        "medium": "Cơm Arborio hầm parmesan",
+        "easy": "món ngon hạt ngắn nấu nước dùng",
+        "medium": "món ngon Arborio hầm parmesan",
         "hard": "Food"
       }
     },
@@ -1005,8 +1005,8 @@
     {
       "word": "chả giò",
       "clues": {
-        "easy": "Giấy gói mỏng cuộn quanh miếng trám",
-        "medium": "Bánh cuộn chiên trong suốt",
+        "easy": "Giấy gói mỏng bọc quanh nhân giòn",
+        "medium": "Xi lanh bánh rán trong suốt",
         "hard": "Food"
       }
     },
@@ -1053,7 +1053,7 @@
     {
       "word": "Súp miso",
       "clues": {
-        "easy": "Canh tương lên men dashi",
+        "easy": "Nước tương lên men với dashi",
         "medium": "Nước dùng ăn sáng mây với hành lá",
         "hard": "Food"
       }
@@ -1077,24 +1077,24 @@
     {
       "word": "mật ong",
       "clues": {
-        "easy": "Mật hoa vàng được cất trong lược",
-        "medium": "Chất làm ngọt tổ ong nhớt",
+        "easy": "món ngon hoa vàng được cất trong lược",
+        "medium": "Chất làm ngọt tổ món ngon nhớt",
         "hard": "Food"
       }
     },
     {
       "word": "Xi-rô cây phong",
       "clues": {
-        "easy": "Nhựa cây luộc cho bữa sáng",
-        "medium": "Xi-rô cây rụng lá đun sôi hổ phách",
+        "easy": "Nhựa món ngon luộc cho bữa sáng",
+        "medium": "Hổ phách luộc món ngon rụng lá giảm",
         "hard": "Food"
       }
     },
     {
       "word": "Bơ đậu phộng",
       "clues": {
-        "easy": "Bột đậu nghiền cho bánh mì",
-        "medium": "Đậu que nướng phết",
+        "easy": "Bột món ngon nghiền cho bánh mì",
+        "medium": "món ngon que nướng phết",
         "hard": "Food"
       }
     },
@@ -1109,8 +1109,8 @@
     {
       "word": "sữa chua",
       "clues": {
-        "easy": "Sữa lên men đặc ăn bằng thìa",
-        "medium": "Cốc sữa probiotic nuôi cấy sống",
+        "easy": "món ngon lên men đặc ăn bằng thìa",
+        "medium": "Cốc món ngon probiotic nuôi cấy sống",
         "hard": "Food"
       }
     },
@@ -1118,30 +1118,30 @@
       "word": "Sữa",
       "clues": {
         "easy": "Nước giải khát trắng dinh dưỡng đóng hộp",
-        "medium": "Nước sữa giàu canxi",
+        "medium": "Nước món ngon giàu canxi",
         "hard": "Food"
       }
     },
     {
       "word": "bánh mì baguette",
       "clues": {
-        "easy": "Bánh mì Pháp giòn mỏng",
-        "medium": "Bánh mì Paris giòn mảnh",
+        "easy": "món ngon mì Pháp giòn mỏng",
+        "medium": "món ngon mì Paris giòn mảnh",
         "hard": "Food"
       }
     },
     {
       "word": "bánh quy xoắn",
       "clues": {
-        "easy": "Bột xoắn màu nâu với muối thô",
-        "medium": "Món bánh mì thắt nút nhúng dung dịch kiềm",
+        "easy": "Bột món ngon màu nâu với muối thô",
+        "medium": "Món món ngon mì thắt nút nhúng dung dịch kiềm",
         "hard": "Food"
       }
     },
     {
       "word": "xúc xích",
       "clues": {
-        "easy": "Bánh mì xúc xích mù tạt",
+        "easy": "Bánh mì món ngon mù tạt",
         "medium": "Búi chia sọc mù tạt",
         "hard": "Food"
       }
@@ -1149,7 +1149,7 @@
     {
       "word": "khoai tây chiên",
       "clues": {
-        "easy": "Dùi cui khoai tây muối vàng",
+        "easy": "Dùi cui món ngon món ngon muối vàng",
         "medium": "Dùi cui tay giấy muối",
         "hard": "Food"
       }
@@ -1157,7 +1157,7 @@
     {
       "word": "hành tây chiên",
       "clues": {
-        "easy": "Rau củ chiên giòn",
+        "easy": "Rau củ món ngon giòn",
         "medium": "Vòng xoay rau đồng tâm",
         "hard": "Food"
       }
@@ -1165,16 +1165,16 @@
     {
       "word": "khoai tây nghiền",
       "clues": {
-        "easy": "Món ăn kèm khoai tây tẩm gia vị",
-        "medium": "Khoai tây nghiền với kem tan chảy",
+        "easy": "Món ăn kèm món ngon món ngon chiên tẩm gia vị",
+        "medium": "món ngon với kem tan chảy",
         "hard": "Food"
       }
     },
     {
       "word": "khoai tây nướng",
       "clues": {
-        "easy": "Khoai tây bọc giấy bạc với kem chua",
-        "medium": "Tách vỏ khoai tây hấp",
+        "easy": "món ngon món ngon bọc giấy bạc với kem chua",
+        "medium": "Tách da hấp",
         "hard": "Food"
       }
     },
@@ -1197,7 +1197,7 @@
     {
       "word": "Súp cà chua",
       "clues": {
-        "easy": "Súp kem đỏ ăn kèm bánh mì nướng",
+        "easy": "Nước dùng kem xay nhuyễn màu đỏ kết hợp với bánh mì nướng",
         "medium": "Bát trái cây nho đỏ xay nhuyễn ấm áp",
         "hard": "Food"
       }
@@ -1213,15 +1213,15 @@
     {
       "word": "trứng tráng",
       "clues": {
-        "easy": "Trứng áp chảo xếp xung quanh nhân",
-        "medium": "Phong bì đựng trứng chảo",
+        "easy": "món ngon áp chảo xếp xung quanh nhân",
+        "medium": "Phong bì đựng món ngon chảo",
         "hard": "Food"
       }
     },
     {
       "word": "Trứng bác",
       "clues": {
-        "easy": "Trứng xào ăn sáng",
+        "easy": "Chảo ăn sáng khuấy sữa đông lòng đỏ",
         "medium": "Bánh mì nướng sữa đông mềm mịn",
         "hard": "Food"
       }
@@ -1229,8 +1229,8 @@
     {
       "word": "thịt xông khói",
       "clues": {
-        "easy": "Món thịt ba chỉ ăn sáng nóng hổi",
-        "medium": "Dải khói ăn sáng có sọc",
+        "easy": "Món món ngon ba chỉ ăn sáng nóng hổi",
+        "medium": "Dải món ngon ăn sáng có sọc",
         "hard": "Food"
       }
     },
@@ -1245,8 +1245,8 @@
     {
       "word": "Thịt viên",
       "clues": {
-        "easy": "Thịt viên tẩm gia vị ninh trong nước sốt",
-        "medium": "Bò viên viên om sốt marinara",
+        "easy": "Quả cầu xay tẩm gia vị ninh trong nước sốt",
+        "medium": "Bò món ngon món ngon om sốt marinara",
         "hard": "Food"
       }
     },
@@ -1269,8 +1269,8 @@
     {
       "word": "Cá và khoai tây chiên",
       "clues": {
-        "easy": "Hải sản giòn với khoai tây chiên và giấm",
-        "medium": "Cá chiên ven biển bọc giấy báo",
+        "easy": "Hải sản giòn với món ngon món ngon món ngon và giấm",
+        "medium": "Cá món ngon ven biển bọc giấy báo",
         "hard": "Food"
       }
     },
@@ -1278,7 +1278,7 @@
       "word": "phô mai nướng",
       "clues": {
         "easy": "Bánh mì áp chảo bơ sữa béo ngậy",
-        "medium": "Sandwich nướng bơ phô mai",
+        "medium": "Bánh sandwich món ngon bơ với sữa tan chảy",
         "hard": "Food"
       }
     },
@@ -1317,31 +1317,31 @@
     {
       "word": "bánh pita",
       "clues": {
-        "easy": "Bánh mì dẹt rỗng nhồi kebab",
-        "medium": "Bánh mì tròn phồng xẻ ở giữa",
+        "easy": "món ngon mì dẹt rỗng nhồi kebab",
+        "medium": "món ngon mì tròn phồng xẻ ở giữa",
         "hard": "Food"
       }
     },
     {
       "word": "bánh nướng xốp",
       "clues": {
-        "easy": "Cốc bánh nướng dùng một lần",
-        "medium": "Cốc ăn sáng nướng có quả mọng",
+        "easy": "Cốc món ngon món ngon dùng một lần",
+        "medium": "Cốc ăn sáng món ngon có quả mọng",
         "hard": "Food"
       }
     },
     {
       "word": "bánh nướng nhỏ",
       "clues": {
-        "easy": "Bánh thu nhỏ với lớp kem ngọt ngào",
-        "medium": "Bánh nướng lót với vương miện kem bơ",
+        "easy": "món ngon thu món ngon với lớp kem ngọt ngào",
+        "medium": "món ngon món ngon lót với vương miện kem bơ",
         "hard": "Food"
       }
     },
     {
       "word": "bánh hạnh nhân",
       "clues": {
-        "easy": "Thanh cacao nướng béo ngậy kèm đế bánh",
+        "easy": "Thanh cacao nướng béo ngậy kèm đế món ngon",
         "medium": "Hình chữ nhật bột cacao nướng ẩm",
         "hard": "Food"
       }
@@ -1349,8 +1349,8 @@
     {
       "word": "bánh phô mai",
       "clues": {
-        "easy": "Phô mai kem ngọt nướng trên nền vụn",
-        "medium": "Miếng bánh sữa đông lạnh dày đặc",
+        "easy": "Sữa trứng ngọt nướng trên nền vụn",
+        "medium": "Miếng món ngon sữa đông lạnh dày đặc",
         "hard": "Food"
       }
     },
@@ -1366,14 +1366,14 @@
       "word": "bánh táo",
       "clues": {
         "easy": "Trái cây cắt lát bên trong lớp vỏ đôi",
-        "medium": "Lưới bánh ngọt tẩm gia vị với nhân vườn cây ăn quả",
+        "medium": "Lưới món ngon ngọt tẩm gia vị với nhân vườn cây ăn quả",
         "hard": "Food"
       }
     },
     {
       "word": "chả quế",
       "clues": {
-        "easy": "Bột cuộn nướng cuộn với kem ngọt",
+        "easy": "Bột nướng xoắn ốc với kem ngọt",
         "medium": "Bột ngọt xoắn ốc phủ kem",
         "hard": "Food"
       }
@@ -1381,15 +1381,15 @@
     {
       "word": "bánh mì tỏi",
       "clues": {
-        "easy": "Bánh mì giòn nướng bơ thảo mộc",
-        "medium": "Bánh mì bơ thảo mộc nướng vàng trong lò",
+        "easy": "món ngon mì nướng giòn với bơ thảo mộc",
+        "medium": "món ngon mì bơ thảo mộc nướng vàng trong lò",
         "hard": "Food"
       }
     },
     {
       "word": "sốt pesto",
       "clues": {
-        "easy": "Nước sốt mì ống tỏi và thảo mộc nghiền",
+        "easy": "Nước món ngon mì ống tỏi và thảo mộc nghiền",
         "medium": "Bột thảo mộc nghiền bằng cối xanh tươi",
         "hard": "Food"
       }
@@ -1397,7 +1397,7 @@
     {
       "word": "sốt cà chua",
       "clues": {
-        "easy": "Nước sốt đỏ đóng chai cho khoai tây chiên và bánh mì kẹp thịt",
+        "easy": "Nước món ngon đỏ đóng chai cho khoai tây chiên và bánh mì kẹp thịt",
         "medium": "Mực nhúng đỏ thơm",
         "hard": "Food"
       }
@@ -1430,7 +1430,7 @@
       "word": "Dầu ô liu",
       "clues": {
         "easy": "Nước sốt và nước nấu salad vàng",
-        "medium": "Dầu xanh ép lạnh Địa Trung Hải",
+        "medium": "Mỡ trái cây ép lạnh Địa Trung Hải",
         "hard": "Food"
       }
     },
@@ -1477,7 +1477,7 @@
     {
       "word": "kẹo dẻo",
       "clues": {
-        "easy": "Nướng bánh kẹo lửa trại trên que",
+        "easy": "Nướng bánh món ngon lửa trại trên que",
         "medium": "Bột gelatin và đường lửa trại",
         "hard": "Food"
       }
@@ -1493,8 +1493,8 @@
     {
       "word": "ngũ cốc",
       "clues": {
-        "easy": "Ngũ cốc đóng hộp đổ vào bát buổi sáng",
-        "medium": "Ngũ cốc nướng trong bát sữa",
+        "easy": "món ngon đóng hộp đổ vào bát buổi sáng",
+        "medium": "món ngon nướng trong bát sữa",
         "hard": "Food"
       }
     },
@@ -1509,7 +1509,7 @@
     {
       "word": "ngũ cốc",
       "clues": {
-        "easy": "Ngũ cốc và hạt nướng với mật ong",
+        "easy": "món ngon và hạt nướng với mật ong",
         "medium": "Yến mạch nướng mật ong giòn",
         "hard": "Food"
       }
@@ -1518,7 +1518,7 @@
       "word": "Đậu hũ",
       "clues": {
         "easy": "Khối protein trắng nhẹ dùng trong món xào",
-        "medium": "Sữa đậu nành đông đặc ép viên",
+        "medium": "Sữa món ngon nành đông đặc ép viên",
         "hard": "Food"
       }
     },
@@ -1534,15 +1534,15 @@
       "word": "sữa lắc",
       "clues": {
         "easy": "Nước giải khát soda lạnh đặc",
-        "medium": "Kem sữa pha trộn thủy tinh mờ",
+        "medium": "Kem món ngon pha trộn thủy tinh mờ",
         "hard": "Food"
       }
     },
     {
       "word": "Nước chanh",
       "clues": {
-        "easy": "Nước cam quýt có đường và nước",
-        "medium": "Nước ép cam quýt màu vàng chua",
+        "easy": "món ngon cam quýt có đường và món ngon",
+        "medium": "món ngon ép cam quýt màu vàng chua",
         "hard": "Food"
       }
     },
@@ -1590,7 +1590,7 @@
       "word": "bánh crepe",
       "clues": {
         "easy": "Bột chiên tinh tế gấp nhân",
-        "medium": "Bọc bánh nướng bằng vỉ nướng mỏng như giấy",
+        "medium": "Bọc món ngon nướng bằng vỉ nướng mỏng như giấy",
         "hard": "Food"
       }
     },
@@ -1608,14 +1608,14 @@
       "word": "con chó",
       "clues": {
         "easy": "Vẫy đuôi và nhặt bóng",
-        "medium": "Chó đồng hành trong nhà",
+        "medium": "sinh linh đồng hành trong nhà",
         "hard": "Animals"
       }
     },
     {
       "word": "con mèo",
       "clues": {
-        "easy": "Móng vuốt có thể thu vào và ân sủng của mèo",
+        "easy": "Móng vuốt có thể thu vào và ân sủng của sinh linh",
         "medium": "Chuột trong nước độc lập",
         "hard": "Animals"
       }
@@ -1623,16 +1623,16 @@
     {
       "word": "Ngựa",
       "clues": {
-        "easy": "Sinh vật ngựa có bờm chảy",
-        "medium": "Ngựa phi nước đại trong bãi",
+        "easy": "Sinh vật sinh linh có bờm chảy",
+        "medium": "sinh linh phi nước đại trong bãi",
         "hard": "Animals"
       }
     },
     {
       "word": "bò",
       "clues": {
-        "easy": "Bò nhai lại",
-        "medium": "Đàn bò trên đồng cỏ",
+        "easy": "sinh linh nhai lại",
+        "medium": "Đàn sinh linh trên đồng cỏ",
         "hard": "Animals"
       }
     },
@@ -1640,22 +1640,22 @@
       "word": "lợn",
       "clues": {
         "easy": "Vật nuôi thông minh có đuôi xoăn",
-        "medium": "Lợn trang trại bùn lầy",
+        "medium": "sinh linh trang trại bùn lầy",
         "hard": "Animals"
       }
     },
     {
       "word": "cừu",
       "clues": {
-        "easy": "Cắt xén động vật có vú để lấy lông cừu",
-        "medium": "Đàn gia súc có áo khoác lông cừu",
+        "easy": "Cắt xén động vật có vú để lấy lông sinh linh",
+        "medium": "Đàn gia súc có áo khoác lông sinh linh",
         "hard": "Animals"
       }
     },
     {
       "word": "con dê",
       "clues": {
-        "easy": "Trình duyệt chắc chắn với con ngươi nằm ngang",
+        "easy": "Trình duyệt chắc chắn với sinh linh ngươi nằm ngang",
         "medium": "Trình duyệt núi sừng nhanh nhẹn",
         "hard": "Animals"
       }
@@ -1664,15 +1664,15 @@
       "word": "gà",
       "clues": {
         "easy": "Chim cục tác cào thóc",
-        "medium": "Gà sân sau có lông",
+        "medium": "sinh linh sân sau có lông",
         "hard": "Animals"
       }
     },
     {
       "word": "gà trống",
       "clues": {
-        "easy": "Chim trống mào sáng",
-        "medium": "Gà trống gọi bình minh",
+        "easy": "Chim sinh linh mào sáng",
+        "medium": "sinh linh gọi bình minh",
         "hard": "Animals"
       }
     },
@@ -1711,7 +1711,7 @@
     {
       "word": "chuột đồng",
       "clues": {
-        "easy": "Chuột túi má trong chuồng mùn cưa",
+        "easy": "sinh linh túi má trong chuồng mùn cưa",
         "medium": "Loài gặm nhấm tích trữ hạt giống về đêm",
         "hard": "Animals"
       }
@@ -1751,8 +1751,8 @@
     {
       "word": "chim hoàng yến",
       "clues": {
-        "easy": "Chim sẻ nhà lồng hát ngọt ngào",
-        "medium": "Chim sẻ than vàng du dương",
+        "easy": "sinh linh sẻ nhà lồng hát ngọt ngào",
+        "medium": "sinh linh sẻ than vàng du dương",
         "hard": "Animals"
       }
     },
@@ -1760,7 +1760,7 @@
       "word": "Voi",
       "clues": {
         "easy": "Người khổng lồ có răng nanh và đôi tai vỗ",
-        "medium": "Mẫu hệ ngà voi khổng lồ",
+        "medium": "Mẫu hệ ngà sinh linh khổng lồ",
         "hard": "Animals"
       }
     },
@@ -1799,7 +1799,7 @@
     {
       "word": "hươu cao cổ",
       "clues": {
-        "easy": "Phát hiện trình duyệt ăn lá keo cao",
+        "easy": "Phát hiện trình duyệt ăn lá keo sinh linh",
         "medium": "Trình duyệt Savanna cổ dài",
         "hard": "Animals"
       }
@@ -1808,7 +1808,7 @@
       "word": "ngựa vằn",
       "clues": {
         "easy": "Đàn thảo nguyên hoang dã với khả năng ngụy trang quang học",
-        "medium": "Ngựa có dải đơn sắc",
+        "medium": "sinh linh có dải đơn sắc",
         "hard": "Animals"
       }
     },
@@ -1863,7 +1863,7 @@
     {
       "word": "gấu trúc",
       "clues": {
-        "easy": "Thân nhai tròn của gấu Trung Quốc",
+        "easy": "Thân nhai tròn của sinh linh Trung Quốc",
         "medium": "Chuyên gia tre núi đơn sắc",
         "hard": "Animals"
       }
@@ -1871,15 +1871,15 @@
     {
       "word": "gấu túi",
       "clues": {
-        "easy": "Người mang túi màu xám leo cây",
-        "medium": "Thú có túi lá nướu ít vận động",
+        "easy": "Người mang sinh linh màu xám leo cây",
+        "medium": "Thú có sinh linh lá nướu ít vận động",
         "hard": "Animals"
       }
     },
     {
       "word": "chuột túi",
       "clues": {
-        "easy": "Thú có túi có đuôi và túi khỏe",
+        "easy": "Thú có sinh linh có đuôi và sinh linh khỏe",
         "medium": "Động vật ăn cỏ vùng hẻo lánh mạnh mẽ",
         "hard": "Animals"
       }
@@ -1912,7 +1912,7 @@
       "word": "con rắn",
       "clues": {
         "easy": "Tè lưỡi và bong vảy da",
-        "medium": "Con rắn có nọc độc hoặc thắt chặt",
+        "medium": "sinh linh có nọc độc hoặc thắt chặt",
         "hard": "Animals"
       }
     },
@@ -2007,7 +2007,7 @@
     {
       "word": "gấu bắc cực",
       "clues": {
-        "easy": "Hải cẩu săn mồi ở đỉnh Bắc Cực",
+        "easy": "Hải cẩu săn mồi ở đỉnh sinh linh sinh linh",
         "medium": "Kẻ rình rập tảng băng lông trắng",
         "hard": "Animals"
       }
@@ -2015,7 +2015,7 @@
     {
       "word": "gấu xám",
       "clues": {
-        "easy": "Gấu bướu vai bắt cá hồi sông",
+        "easy": "Quái vật đỉnh bướu bắt cá hồi sông",
         "medium": "Động vật ăn tạp nội địa ngủ đông mạnh mẽ",
         "hard": "Animals"
       }
@@ -2071,7 +2071,7 @@
     {
       "word": "lạc đà không bướu",
       "clues": {
-        "easy": "Lạc đà núi cổ dài nhổ nước bọt",
+        "easy": "sinh linh đà núi cổ dài nhổ nước bọt",
         "medium": "Quái vật bầy núi Nam Mỹ",
         "hard": "Animals"
       }
@@ -2128,7 +2128,7 @@
       "word": "Chim hồng hạc",
       "clues": {
         "easy": "Bộ lọc cho ăn có mỏ cong",
-        "medium": "Loài sếu nhiệt đới màu hồng",
+        "medium": "Loài sếu nhiệt đới màu sinh linh",
         "hard": "Animals"
       }
     },
@@ -2151,8 +2151,8 @@
     {
       "word": "chim bồ câu",
       "clues": {
-        "easy": "Chim bồ câu đô thị bồng bềnh ăn vụn bánh mì",
-        "medium": "Đàn chim đô thị có bản năng tìm đường về nhà",
+        "easy": "sinh linh đô thị bồng bềnh ăn vụn bánh mì",
+        "medium": "Đàn sinh linh đô thị có bản năng tìm đường về nhà",
         "hard": "Animals"
       }
     },
@@ -2167,7 +2167,7 @@
     {
       "word": "chim sẻ",
       "clues": {
-        "easy": "Con chim hàng xóm ăn hạt giống hàng ngày",
+        "easy": "Con sinh linh hàng xóm ăn hạt giống hàng ngày",
         "medium": "Sẻ nâu nhỏ bé thích bầy đàn",
         "hard": "Animals"
       }
@@ -2207,7 +2207,7 @@
     {
       "word": "bạch tuộc",
       "clues": {
-        "easy": "Ngụy trang loài bạch tuộc chui vào kẽ hở",
+        "easy": "Ngụy trang loài sinh linh chui vào kẽ hở",
         "medium": "Động vật chân đầu nhiều chi thông minh",
         "hard": "Animals"
       }
@@ -2216,7 +2216,7 @@
       "word": "mực",
       "clues": {
         "easy": "Động vật chân đầu hình ngư lôi đang lao về phía sau",
-        "medium": "Máy bay phản lực bơi dưới biển sâu với túi mực",
+        "medium": "Máy bay phản lực bơi dưới biển sâu với túi sinh linh",
         "hard": "Animals"
       }
     },
@@ -2255,7 +2255,7 @@
     {
       "word": "sao biển",
       "clues": {
-        "easy": "Sao biển tái sinh trên san hô",
+        "easy": "Tái sinh sinh vật sinh linh 5 tay trên san hô",
         "medium": "bánh xích xuyên tâm",
         "hard": "Animals"
       }
@@ -2263,7 +2263,7 @@
     {
       "word": "Cá ngựa",
       "clues": {
-        "easy": "Sinh vật đuôi cong có đầu ngựa",
+        "easy": "Sinh vật đuôi cong có đầu sinh linh",
         "medium": "Người bơi thẳng đứng bọc thép có túi",
         "hard": "Animals"
       }
@@ -2312,14 +2312,14 @@
       "word": "con ong",
       "clues": {
         "easy": "Tờ rơi thu thập phấn hoa bằng ngòi gai",
-        "medium": "Tổ ong thụ phấn xã hội",
+        "medium": "Tổ sinh linh thụ phấn xã hội",
         "hard": "Animals"
       }
     },
     {
       "word": "bướm",
       "clues": {
-        "easy": "Sâu bướm biến hình nhấm nháp mật hoa",
+        "easy": "Sâu sinh linh biến hình nhấm nháp mật hoa",
         "medium": "Loài thụ phấn biến chất có cánh vảy",
         "hard": "Animals"
       }
@@ -2481,8 +2481,8 @@
     {
       "word": "Vương quốc Anh",
       "clues": {
-        "easy": "Đảo quốc Anh và Scotland",
-        "medium": "Chế độ quân chủ lập hiến của Quần đảo Anh",
+        "easy": "Đảo vùng đất vùng đất và Scotland",
+        "medium": "Chế độ quân chủ lập hiến của Quần đảo vùng đất",
         "hard": "Countries"
       }
     },
@@ -2673,7 +2673,7 @@
     {
       "word": "Nam Phi",
       "clues": {
-        "easy": "Quốc gia cầu vồng ở cực nam lục địa",
+        "easy": "Quốc gia cầu vồng tại Mũi Hảo Vọng",
         "medium": "Quốc gia mũi đất hai đại dương có vàng và kim cương",
         "hard": "Countries"
       }
@@ -2745,15 +2745,15 @@
     {
       "word": "Ả Rập Saudi",
       "clues": {
-        "easy": "Trung tâm bán đảo Ả Rập với cuộc hành hương lịch sử",
-        "medium": "Vương quốc chiếm phần lớn bán đảo Ả Rập",
+        "easy": "Trung tâm bán đảo sa mạc rộng lớn với chuyến hành hương Mecca lịch sử",
+        "medium": "Vương quốc chiếm phần lớn bán đảo vùng vịnh sa mạc rộng lớn",
         "hard": "Countries"
       }
     },
     {
       "word": "Các tiểu vương quốc Ả Rập thống nhất",
       "clues": {
-        "easy": "Liên đoàn vùng Vịnh của các tòa tháp sa mạc tương lai",
+        "easy": "Liên đoàn vùng Vịnh của vùng đất tòa tháp sa mạc tương lai",
         "medium": "Chế độ quân chủ dầu mỏ hiện đại ở Vịnh Ba Tư",
         "hard": "Countries"
       }
@@ -2817,7 +2817,7 @@
     {
       "word": "Việt Nam",
       "clues": {
-        "easy": "Quốc gia Đông Nam Á hình chữ S dọc Biển Đông",
+        "easy": "Quốc gia Đông vùng đất Á hình chữ S dọc Biển Đông",
         "medium": "Đất nước ven biển đồng bằng sông Cửu Long và sông Hồng",
         "hard": "Countries"
       }
@@ -2866,15 +2866,15 @@
       "word": "Philippin",
       "clues": {
         "easy": "Quốc đảo Thái Bình Dương gồm bảy nghìn hòn đảo",
-        "medium": "Chuỗi đảo giữa Biển Đông và Biển Philippine",
+        "medium": "Quần đảo nhiệt đới giữa eo biển Luzon và biển Celebes",
         "hard": "Countries"
       }
     },
     {
       "word": "Hàn Quốc",
       "clues": {
-        "easy": "Quốc gia bán đảo công nghệ cao với nền văn hóa sôi động",
-        "medium": "Cộng hòa Đông Á phía nam vĩ tuyến 38",
+        "easy": "vùng đất gia bán đảo công nghệ cao với nền văn hóa sôi động",
+        "medium": "Cộng hòa Đông Á dưới vĩ tuyến 38",
         "hard": "Countries"
       }
     },
@@ -3212,7 +3212,7 @@
       "word": "bác sĩ",
       "clues": {
         "easy": "Ống nghe, đơn thuốc và vòng khám bệnh",
-        "medium": "Bác sĩ chẩn đoán lâm sàng",
+        "medium": "chuyên trách chẩn đoán lâm sàng",
         "hard": "Professions"
       }
     },
@@ -3227,7 +3227,7 @@
     {
       "word": "nha sĩ",
       "clues": {
-        "easy": "Gương miệng, đầu dò và máy khoan nha khoa",
+        "easy": "Gương miệng, đầu dò và máy khoan chuyên trách khoa",
         "medium": "Chuyên gia chăm sóc sức khỏe răng miệng",
         "hard": "Professions"
       }
@@ -3236,7 +3236,7 @@
       "word": "bác sĩ phẫu thuật",
       "clues": {
         "easy": "Dụng cụ chà, dao mổ và phòng mổ vô trùng",
-        "medium": "Chuyên gia thủ thuật lâm sàng xâm lấn",
+        "medium": "Chuyên gia thủ chuyên trách lâm sàng xâm lấn",
         "hard": "Professions"
       }
     },
@@ -3244,7 +3244,7 @@
       "word": "bác sĩ thú y",
       "clues": {
         "easy": "Kiểm tra vật nuôi và vật nuôi tại phòng khám",
-        "medium": "Bác sĩ lâm sàng chăm sóc sức khỏe động vật",
+        "medium": "chuyên trách sĩ lâm sàng chăm sóc sức khỏe động vật",
         "hard": "Professions"
       }
     },
@@ -3276,7 +3276,7 @@
       "word": "Nhà tâm lý học",
       "clues": {
         "easy": "Tiến hành các buổi tư vấn và đánh giá",
-        "medium": "Nhà trị liệu hành vi tâm thần được cấp phép",
+        "medium": "chuyên trách trị liệu hành vi chuyên trách thần được cấp phép",
         "hard": "Professions"
       }
     },
@@ -3292,7 +3292,7 @@
       "word": "giáo viên",
       "clues": {
         "easy": "Trình bày bài học, bảng đen và chấm điểm",
-        "medium": "Giáo viên hướng dẫn lớp học",
+        "medium": "chuyên trách hướng dẫn lớp học",
         "hard": "Professions"
       }
     },
@@ -3300,14 +3300,14 @@
       "word": "giáo sư",
       "clues": {
         "easy": "Tiến hành nghiên cứu học thuật và hội thảo đại học",
-        "medium": "Học giả giáo dục đại học",
+        "medium": "Học giả chuyên trách dục đại học",
         "hard": "Professions"
       }
     },
     {
       "word": "thủ thư",
       "clues": {
-        "easy": "Duy trì ngăn xếp thư viện và hỗ trợ các nhà nghiên cứu",
+        "easy": "Duy trì ngăn xếp chuyên trách viện và hỗ trợ các nhà nghiên cứu",
         "medium": "Người quản lý tài nguyên in được phân loại",
         "hard": "Professions"
       }
@@ -3316,14 +3316,14 @@
       "word": "nhà khoa học",
       "clues": {
         "easy": "Tiến hành thí nghiệm và công bố kết quả",
-        "medium": "Nhà nghiên cứu phòng thí nghiệm thực nghiệm",
+        "medium": "chuyên trách nghiên cứu phòng thí nghiệm thực nghiệm",
         "hard": "Professions"
       }
     },
     {
       "word": "nhà hóa học",
       "clues": {
-        "easy": "Ống nghiệm, cốc thủy tinh và phản ứng hóa học",
+        "easy": "Ống nghiệm, cốc thủy tinh và phản ứng chuyên trách chuyên trách",
         "medium": "Chuyên gia tổng hợp phân tử",
         "hard": "Professions"
       }
@@ -3331,16 +3331,16 @@
     {
       "word": "nhà sinh vật học",
       "clues": {
-        "easy": "Kính hiển vi, nuôi cấy tế bào và mẫu vật hiện trường",
-        "medium": "Nhà nghiên cứu sinh vật sống",
+        "easy": "Kính hiển vi, nuôi cấy tế bào và mẫu chuyên trách hiện trường",
+        "medium": "chuyên trách nghiên cứu chuyên trách chuyên trách sống",
         "hard": "Professions"
       }
     },
     {
       "word": "nhà thiên văn học",
       "clues": {
-        "easy": "Quan sát các thiên thể và các thiên hà xa xôi",
-        "medium": "Nhà nghiên cứu đài quan sát vũ trụ",
+        "easy": "Quan sát các chuyên trách thể và các chuyên trách hà xa xôi",
+        "medium": "chuyên trách nghiên cứu đài quan sát vũ trụ",
         "hard": "Professions"
       }
     },
@@ -3356,15 +3356,15 @@
       "word": "Nhà địa chất",
       "clues": {
         "easy": "Kiểm tra sự hình thành đá và đường đứt gãy",
-        "medium": "Nhà phân tích địa tầng và đá",
+        "medium": "chuyên trách phân tích chuyên trách tầng và đá",
         "hard": "Professions"
       }
     },
     {
       "word": "Nhà khí tượng học",
       "clues": {
-        "easy": "Phân tích bản đồ radar và áp suất khí quyển",
-        "medium": "Máy dự báo thời tiết khí quyển",
+        "easy": "Phân tích bản đồ radar và áp suất chuyên trách quyển",
+        "medium": "Máy dự báo thời tiết chuyên trách quyển",
         "hard": "Professions"
       }
     },
@@ -3396,7 +3396,7 @@
       "word": "tiếp viên hàng không",
       "clues": {
         "easy": "Thể hiện lối thoát hiểm khẩn cấp và an toàn trong cabin",
-        "medium": "Tiếp viên trên khoang hành khách trên chuyến bay",
+        "medium": "Người quản lý cabin hành khách trên chuyên trách",
         "hard": "Professions"
       }
     },
@@ -3428,7 +3428,7 @@
       "word": "sĩ quan cảnh sát",
       "clues": {
         "easy": "Huy hiệu, đồng phục và tuần tra khẩn cấp cộng đồng",
-        "medium": "Nhân viên tuần tra thực thi pháp luật",
+        "medium": "Nhân viên tuần tra mặc đồng phục thực thi pháp luật",
         "hard": "Professions"
       }
     },
@@ -3443,24 +3443,24 @@
     {
       "word": "Thẩm phán",
       "clues": {
-        "easy": "Áo choàng đen, búa và phán quyết pháp lý",
-        "medium": "Thẩm phán pháp lý phòng xử án",
+        "easy": "Áo choàng đen, búa và chuyên trách quyết pháp lý",
+        "medium": "chuyên trách pháp lý phòng xử án",
         "hard": "Professions"
       }
     },
     {
       "word": "luật sư",
       "clues": {
-        "easy": "Nộp hồ sơ chuyển động của tòa án và giải thích luật lệ",
-        "medium": "Luật sư được cấp phép",
+        "easy": "Nộp hồ sơ chuyển động của tòa án và giải thích chuyên trách lệ",
+        "medium": "chuyên trách được cấp phép",
         "hard": "Professions"
       }
     },
     {
       "word": "đầu bếp",
       "clues": {
-        "easy": "Thiết kế thực đơn món ăn và chỉ đạo đội ngũ bếp",
-        "medium": "Trưởng nhóm ẩm thực của bếp ăn",
+        "easy": "Thiết kế thực đơn món ăn và chỉ đạo đội ngũ chuyên trách",
+        "medium": "Trưởng nhóm ẩm thực của chuyên trách ăn",
         "hard": "Professions"
       }
     },
@@ -3468,7 +3468,7 @@
       "word": "thợ làm bánh",
       "clues": {
         "easy": "Bột mì, bột men và lò nướng buổi sáng",
-        "medium": "Đầu bếp làm bột và bánh ngọt thủ công",
+        "medium": "Đầu bếp chuyên trách bột và chuyên trách ngọt thủ công",
         "hard": "Professions"
       }
     },
@@ -3476,7 +3476,7 @@
       "word": "Người bán thịt",
       "clues": {
         "easy": "Dao phay, dao khắc và tủ lạnh",
-        "medium": "Máy chia thịt gia súc",
+        "medium": "Máy chia chuyên trách gia súc",
         "hard": "Professions"
       }
     },
@@ -3484,7 +3484,7 @@
       "word": "nông dân",
       "clues": {
         "easy": "Máy kéo, cánh đồng trống và thu hoạch theo mùa",
-        "medium": "Nhà sản xuất cây trồng nông nghiệp",
+        "medium": "Nhà sản xuất cây trồng chuyên trách nghiệp",
         "hard": "Professions"
       }
     },
@@ -3500,23 +3500,23 @@
       "word": "Thợ mộc",
       "clues": {
         "easy": "Cưa, thước dây và khớp nối gỗ",
-        "medium": "Thợ đóng khung và đóng đồ gỗ",
+        "medium": "chuyên trách đóng khung và đóng đồ gỗ",
         "hard": "Professions"
       }
     },
     {
       "word": "Thợ sửa ống nước",
       "clues": {
-        "easy": "Cờ lê, ống đồng và van nước",
-        "medium": "Kỹ thuật viên đường ống và thoát nước",
+        "easy": "Cờ lê, chuyên trách đồng và van chuyên trách",
+        "medium": "Kỹ thuật viên đường chuyên trách và thoát chuyên trách",
         "hard": "Professions"
       }
     },
     {
       "word": "Thợ điện",
       "clues": {
-        "easy": "Kìm cách điện, cầu dao và dây điện",
-        "medium": "Thợ lắp đặt đường dây điện cao thế",
+        "easy": "Kìm cách chuyên trách, cầu dao và dây chuyên trách",
+        "medium": "chuyên trách lắp đặt đường dây chuyên trách cao thế",
         "hard": "Professions"
       }
     },
@@ -3539,7 +3539,7 @@
     {
       "word": "Họa sĩ",
       "clues": {
-        "easy": "Con lăn, khay sơn và khăn lau",
+        "easy": "Con lăn, khay đựng bột màu và vải thả",
         "medium": "Thợ sơn phủ và hoàn thiện bề mặt",
         "hard": "Professions"
       }
@@ -3547,23 +3547,23 @@
     {
       "word": "Thợ may",
       "clues": {
-        "easy": "Thước dây, máy may và vải tùy chỉnh",
-        "medium": "Thợ may và thợ may theo yêu cầu",
+        "easy": "Thước dây, máy chuyên trách và vải tùy chỉnh",
+        "medium": "chuyên trách và chuyên trách theo yêu cầu",
         "hard": "Professions"
       }
     },
     {
       "word": "thợ cắt tóc",
       "clues": {
-        "easy": "Kéo cắt tóc, dao cạo thẳng và ghế xoay",
-        "medium": "Nhà tạo mẫu tóc và cắt kéo nam",
+        "easy": "Kéo chuyên trách chuyên trách, dao cạo thẳng và ghế xoay",
+        "medium": "Nhà tạo mẫu chuyên trách và chuyên trách kéo nam",
         "hard": "Professions"
       }
     },
     {
       "word": "thợ làm tóc",
       "clues": {
-        "easy": "Ghế salon, kéo, giấy bạc và máy sấy tóc",
+        "easy": "Ghế salon, kéo, giấy bạc và máy sấy chuyên trách",
         "medium": "Nhà tạo mẫu thẩm mỹ viện",
         "hard": "Professions"
       }
@@ -3571,8 +3571,8 @@
     {
       "word": "Người bán hoa",
       "clues": {
-        "easy": "Kéo, ruy băng và trưng bày hoa ướp lạnh",
-        "medium": "Nhà thiết kế cắm hoa thực vật",
+        "easy": "Kéo, ruy băng và trưng bày chuyên trách ướp lạnh",
+        "medium": "Nhà thiết kế cắm chuyên trách thực vật",
         "hard": "Professions"
       }
     },
@@ -3580,31 +3580,31 @@
       "word": "Người làm vườn",
       "clues": {
         "easy": "Kéo cắt tỉa, bay, đất và lớp phủ",
-        "medium": "Người giữ vườn cảnh quan",
+        "medium": "chuyên trách giữ chuyên trách cảnh quan",
         "hard": "Professions"
       }
     },
     {
       "word": "Nhà báo",
       "clues": {
-        "easy": "Phỏng vấn các nguồn và viết bài báo",
-        "medium": "Phóng viên báo chí và phóng viên tin tức",
+        "easy": "Phỏng vấn các nguồn và viết bài chuyên trách",
+        "medium": "Phóng viên chuyên trách chí và phóng viên tin tức",
         "hard": "Professions"
       }
     },
     {
       "word": "Nhiếp ảnh gia",
       "clues": {
-        "easy": "Chân máy, bộ đèn và màn trập máy ảnh",
-        "medium": "Chụp ảnh trực quan chuyên nghiệp",
+        "easy": "Chân máy, bộ đèn và màn trập máy chuyên trách",
+        "medium": "Chụp chuyên trách trực quan chuyên nghiệp",
         "hard": "Professions"
       }
     },
     {
       "word": "diễn viên",
       "clues": {
-        "easy": "Ghi nhớ kịch bản và biểu diễn trên sân khấu",
-        "medium": "Người biểu diễn sân khấu và màn ảnh",
+        "easy": "Ghi nhớ kịch bản và biểu chuyên trách trên sân khấu",
+        "medium": "Người biểu chuyên trách sân khấu và màn ảnh",
         "hard": "Professions"
       }
     },
@@ -3619,8 +3619,8 @@
     {
       "word": "nhạc sĩ",
       "clues": {
-        "easy": "Bản nhạc, nhịp điệu và nhạc cụ acoustic",
-        "medium": "Nghệ sĩ biểu diễn nhạc cụ",
+        "easy": "Bảng điểm, nhịp điệu và chuyên trách cụ âm thanh",
+        "medium": "Nghệ sĩ biểu diễn chuyên trách cụ",
         "hard": "Professions"
       }
     },
@@ -3635,15 +3635,15 @@
     {
       "word": "Nhà văn",
       "clues": {
-        "easy": "Bản thảo bản thảo, chương và văn xuôi sáng tạo",
-        "medium": "Tác giả văn học và người sáng tạo văn xuôi",
+        "easy": "Bản thảo bản thảo, chương và chuyên trách xuôi sáng tạo",
+        "medium": "Tác giả chuyên trách học và người sáng tạo chuyên trách xuôi",
         "hard": "Professions"
       }
     },
     {
       "word": "Người phiên dịch",
       "clues": {
-        "easy": "Dịch thuật song ngữ các tài liệu bằng văn bản",
+        "easy": "chuyên trách thuật song ngữ các tài liệu bằng văn bản",
         "medium": "Trình chuyển đổi văn bản đa ngôn ngữ",
         "hard": "Professions"
       }
@@ -3651,8 +3651,8 @@
     {
       "word": "Phiên dịch viên",
       "clues": {
-        "easy": "Phiên dịch tai nghe trực tiếp tại hội nghị thượng đỉnh",
-        "medium": "Trình dịch lời nói bằng lời nói theo thời gian thực",
+        "easy": "chuyên trách chuyên trách tai nghe trực tiếp tại hội nghị thượng đỉnh",
+        "medium": "Trình chuyên trách lời nói bằng lời nói theo thời gian thực",
         "hard": "Professions"
       }
     },
@@ -3660,22 +3660,22 @@
       "word": "kế toán viên",
       "clues": {
         "easy": "Kiểm tra sổ cái và bảng tính tài chính",
-        "medium": "Sổ kế toán tài chính và kiểm toán thuế",
+        "medium": "Sổ kế chuyên trách tài chính và kiểm chuyên trách thuế",
         "hard": "Professions"
       }
     },
     {
       "word": "nhân viên ngân hàng",
       "clues": {
-        "easy": "Giám sát nguồn vốn tài chính và tín dụng ngân hàng",
-        "medium": "Nhân viên ngân hàng thương mại và tín dụng",
+        "easy": "Giám sát vốn tài chính và tín dụng thương mại",
+        "medium": "Cán bộ tài trợ thương mại và cho vay",
         "hard": "Professions"
       }
     },
     {
       "word": "thu ngân",
       "clues": {
-        "easy": "Máy quét mã vạch, máy tính tiền và máy in hóa đơn",
+        "easy": "Máy quét mã vạch, ngăn kéo thanh toán và máy in hóa đơn",
         "medium": "Nhà điều hành điểm bán lẻ thanh toán",
         "hard": "Professions"
       }
@@ -3684,7 +3684,7 @@
       "word": "bồi bàn",
       "clues": {
         "easy": "Bưng đĩa, rót đồ uống và mang hóa đơn",
-        "medium": "Nhân viên phục vụ bàn phòng ăn",
+        "medium": "Nhân viên phục vụ chuyên trách phòng ăn",
         "hard": "Professions"
       }
     },
@@ -3692,14 +3692,14 @@
       "word": "Người pha chế rượu",
       "clues": {
         "easy": "Bình lắc cocktail, vòi bia tươi và quầy bar",
-        "medium": "Nhà pha chế cocktail đồ uống được cấp phép",
+        "medium": "Nhà chuyên trách chuyên trách cocktail đồ uống được cấp phép",
         "hard": "Professions"
       }
     },
     {
       "word": "Hướng dẫn viên du lịch",
       "clues": {
-        "easy": "Cung cấp bình luận và hướng dẫn các chuyến đi bộ",
+        "easy": "Cung cấp bình luận chuyên trách sử cho người tham quan tham quan",
         "medium": "Trưởng đoàn thám hiểm tham quan văn hóa",
         "hard": "Professions"
       }
@@ -3707,8 +3707,8 @@
     {
       "word": "Tài xế taxi",
       "clues": {
-        "easy": "Điều hướng giao thông đường phố bằng đồng hồ đo thuế trên bảng điều khiển",
-        "medium": "Tài xế taxi chở khách đường phố",
+        "easy": "Điều hướng giao thông trên đường phố bằng đồng hồ đo giá vé trên bảng điều khiển",
+        "medium": "Nhà điều hành chuyên trách màu vàng hành khách đường phố đô thị",
         "hard": "Professions"
       }
     },
@@ -3723,16 +3723,16 @@
     {
       "word": "Người vận chuyển thư",
       "clues": {
-        "easy": "Mang bao thư dọc đường",
-        "medium": "Người vận chuyển thư từ và bưu kiện",
+        "easy": "Mang bao chuyên trách dọc đường",
+        "medium": "chuyên trách phát nhanh bưu phẩm và bưu kiện",
         "hard": "Professions"
       }
     },
     {
       "word": "Chuyển phát nhanh giao hàng",
       "clues": {
-        "easy": "Lái xe tải giao hàng và quét mã vạch bưu kiện",
-        "medium": "Chuyển phát nhanh bưu kiện chặng cuối",
+        "easy": "Lái xe tải và quét mã vạch bưu kiện",
+        "medium": "Người chạy bưu kiện ở ngưỡng cửa dặm cuối",
         "hard": "Professions"
       }
     },
@@ -3747,16 +3747,16 @@
     {
       "word": "Nhà thiết kế đồ họa",
       "clues": {
-        "easy": "Phần mềm minh họa kỹ thuật số và kiểu chữ",
-        "medium": "Nhà thiết kế thương hiệu hình ảnh thương mại",
+        "easy": "Phần mềm minh chuyên trách kỹ thuật số và kiểu chữ",
+        "medium": "Nghệ sĩ xây dựng thương hiệu hình ảnh thương mại",
         "hard": "Professions"
       }
     },
     {
       "word": "Đạo diễn phim",
       "clues": {
-        "easy": "Kêu gọi hành động, hướng dẫn quay phim và đánh giá",
-        "medium": "Đạo diễn phim điện ảnh",
+        "easy": "Kêu gọi hành động, hướng dẫn quay chuyên trách và đánh giá",
+        "medium": "Tác giả điện ảnh điện ảnh",
         "hard": "Professions"
       }
     },
@@ -3764,7 +3764,7 @@
       "word": "Người hoạt hình",
       "clues": {
         "easy": "Vẽ khung trình tự và gian lận kỹ thuật số",
-        "medium": "Nghệ sĩ chuyển động hình ảnh theo từng khung hình",
+        "medium": "Nghệ sĩ chuyển động chuyên trách ảnh theo từng khung chuyên trách",
         "hard": "Professions"
       }
     },
@@ -3772,7 +3772,7 @@
       "word": "huấn luyện viên",
       "clues": {
         "easy": "Còi, diễn tập vở kịch và chiến thuật bên lề",
-        "medium": "Huấn luyện thể thao và chiến lược gia đội",
+        "medium": "chuyên trách chuyên trách thể thao và chiến lược gia đội",
         "hard": "Professions"
       }
     },
@@ -3787,8 +3787,8 @@
     {
       "word": "Nhân viên cứu hộ",
       "clues": {
-        "easy": "Phao cứu hộ, còi và tháp canh bên bể bơi",
-        "medium": "Trọng điểm an toàn cứu hộ dưới nước",
+        "easy": "Phao chuyên trách hộ, còi và tháp canh bên bể bơi",
+        "medium": "Trọng điểm an toàn chuyên trách hộ dưới nước",
         "hard": "Professions"
       }
     },
@@ -3803,32 +3803,32 @@
     {
       "word": "Người nuôi ong",
       "clues": {
-        "easy": "Khung che, khung bảo vệ người hút thuốc và tổ ong",
-        "medium": "Người quản lý nhà nuôi ong và người thu hoạch mật ong",
+        "easy": "Khung che, khung bảo vệ chuyên trách hút thuốc và tổ chuyên trách",
+        "medium": "chuyên trách quản lý nhà chuyên trách chuyên trách và chuyên trách thu hoạch mật chuyên trách",
         "hard": "Professions"
       }
     },
     {
       "word": "Thợ rèn",
       "clues": {
-        "easy": "Búa nặng, lò rèn và kẹp",
-        "medium": "Thợ rèn sắt nung nóng",
+        "easy": "Búa nặng, lò chuyên trách và kẹp",
+        "medium": "chuyên trách sắt nung nóng",
         "hard": "Professions"
       }
     },
     {
       "word": "Thợ kim hoàn",
       "clues": {
-        "easy": "Kính lúp, nhíp và kim loại quý",
-        "medium": "Nghệ nhân kim loại quý và đá quý",
+        "easy": "Kính lúp, nhíp và chuyên trách loại quý",
+        "medium": "Nghệ nhân chuyên trách loại quý và đá quý",
         "hard": "Professions"
       }
     },
     {
       "word": "Thợ khóa",
       "clues": {
-        "easy": "Chọn hộp đựng chìa khóa, chỗ trống chìa khóa và lắp chốt cửa",
-        "medium": "Chuyên gia cắt chìa khóa và ổ khóa trụ",
+        "easy": "Chọn hộp đựng chìa chuyên trách, chỗ trống chìa chuyên trách và lắp chốt cửa",
+        "medium": "Chuyên gia cắt chìa chuyên trách và cốc trụ",
         "hard": "Professions"
       }
     },
@@ -3836,14 +3836,14 @@
       "word": "Người gác cổng",
       "clues": {
         "easy": "Xô lau nhà, chổi và bảo trì tòa nhà",
-        "medium": "Người trông coi cơ sở sạch sẽ và vệ sinh",
+        "medium": "chuyên trách trông coi cơ sở sạch sẽ và vệ sinh",
         "hard": "Professions"
       }
     },
     {
       "word": "Tài xế xe tải",
       "clues": {
-        "easy": "Lái xe bán tải 18 bánh qua liên bang",
+        "easy": "Lái xe bán chuyên trách 18 bánh xuyên bang",
         "medium": "Nhà điều hành vận chuyển hàng hóa đường dài liên bang",
         "hard": "Professions"
       }
@@ -3852,15 +3852,15 @@
       "word": "Công nhân xây dựng",
       "clues": {
         "easy": "Mũ cứng, ủng mũi thép và dụng cụ điện",
-        "medium": "Xây dựng cơ sở hạ tầng xây dựng trang web",
+        "medium": "chuyên trách chuyên trách cơ sở hạ tầng chuyên trách chuyên trách trang web",
         "hard": "Professions"
       }
     },
     {
       "word": "nhà ngoại giao",
       "clues": {
-        "easy": "Đàm phán điều ước quốc tế và ngoại giao quốc tế",
-        "medium": "Nhà đàm phán hiệp ước đại sứ quán nước ngoài",
+        "easy": "Đàm phán điều ước quốc tế và chuyên trách chuyên trách quốc tế",
+        "medium": "chuyên trách đàm phán hiệp ước đại sứ quán nước ngoài",
         "hard": "Professions"
       }
     },
@@ -3868,7 +3868,7 @@
       "word": "chính trị gia",
       "clues": {
         "easy": "Tranh luận về luật, phát biểu và bỏ phiếu về các dự luật",
-        "medium": "Quan chức chính phủ lập pháp được bầu",
+        "medium": "Quan chức chuyên trách phủ lập pháp được bầu",
         "hard": "Professions"
       }
     },
@@ -3883,8 +3883,8 @@
     {
       "word": "ảo thuật gia",
       "clues": {
-        "easy": "Chơi bài, đũa thần và những chiêu trò lừa đảo",
-        "medium": "Nhà ảo thuật sân khấu và nghệ sĩ ảo thuật tay",
+        "easy": "Chơi bài, cây đũa bóng loáng và bàn tay lừa đảo",
+        "medium": "Nhà ảo chuyên trách sân khấu và nghệ sĩ ảo chuyên trách tay",
         "hard": "Professions"
       }
     },
@@ -3899,16 +3899,16 @@
     {
       "word": "Đại lý bất động sản",
       "clues": {
-        "easy": "Hiển thị nhà cho khách hàng và chốt giao dịch bất động sản",
-        "medium": "Môi giới bất động sản nhà ở được cấp phép",
+        "easy": "Hiển thị nhà cho khách hàng và chốt giao dịch chuyên trách chuyên trách chuyên trách",
+        "medium": "Môi giới chuyên trách chuyên trách chuyên trách nhà ở được cấp phép",
         "hard": "Professions"
       }
     },
     {
       "word": "chủ cửa hàng",
       "clues": {
-        "easy": "Lên kệ hàng, hỗ trợ người mua hàng và quản lý cửa hàng",
-        "medium": "Chủ cửa hàng bán lẻ độc lập",
+        "easy": "Sắp xếp chuyên trách lên kệ, hỗ trợ khách chuyên trách và quản lý mặt tiền chuyên trách chuyên trách",
+        "medium": "chuyên trách bán lẻ độc lập",
         "hard": "Professions"
       }
     },
@@ -3916,23 +3916,23 @@
       "word": "Nhà sử học",
       "clues": {
         "easy": "Kiểm tra các bản thảo cũ, tài liệu lưu trữ và thời kỳ quá khứ",
-        "medium": "Học giả tài liệu lưu trữ thời kỳ trước",
+        "medium": "chuyên trách giả tài liệu lưu trữ thời kỳ trước",
         "hard": "Professions"
       }
     },
     {
       "word": "bác sĩ đo thị lực",
       "clues": {
-        "easy": "Biểu đồ mắt, phoropter và kiểm tra thị lực",
-        "medium": "Bác sĩ khám mắt khúc xạ",
+        "easy": "Biểu đồ mắt, phoropter và kiểm tra chuyên trách chuyên trách",
+        "medium": "chuyên trách sĩ khám mắt khúc xạ",
         "hard": "Professions"
       }
     },
     {
       "word": "Chuyên gia dinh dưỡng",
       "clues": {
-        "easy": "Tính toán lượng calo và dinh dưỡng cân bằng",
-        "medium": "Cố vấn dinh dưỡng và chăm sóc sức khỏe",
+        "easy": "Tính toán lượng calo và kế hoạch bữa ăn cân bằng",
+        "medium": "Cố vấn sức khỏe chế độ ăn uống và sức khỏe thực phẩm",
         "hard": "Professions"
       }
     },
@@ -3948,23 +3948,23 @@
       "word": "linh mục",
       "clues": {
         "easy": "Vòng cổ giáo sĩ, bài giảng trên bục giảng và lời chúc phúc",
-        "medium": "Được tấn phong mục sư giáo xứ",
+        "medium": "Được tấn phong chuyên trách sư giáo xứ",
         "hard": "Professions"
       }
     },
     {
       "word": "người phục vụ rượu",
       "clues": {
-        "easy": "Quản lý hầm rượu nhà hàng và ghi chú nếm thử",
-        "medium": "Quản lý hầm rượu chuyên nghiệp",
+        "easy": "Quản lý hầm chuyên trách nhà hàng và ghi chú nếm thử",
+        "medium": "Quản lý hầm chuyên trách chuyên nghiệp",
         "hard": "Professions"
       }
     },
     {
       "word": "nhân viên pha chế cà phê",
       "clues": {
-        "easy": "Máy pha cà phê espresso, portafilter và nghệ thuật pha cà phê",
-        "medium": "Dụng cụ pha cà phê espresso thủ công",
+        "easy": "Máy chuyên trách cà chuyên trách espresso, portafilter và nghệ thuật chuyên trách cà chuyên trách",
+        "medium": "Dụng cụ chuyên trách cà chuyên trách espresso thủ công",
         "hard": "Professions"
       }
     },
@@ -3972,15 +3972,15 @@
       "word": "Người điều khiển không lưu",
       "clues": {
         "easy": "Màn hình radar, tai nghe và khoảng trống trên đường băng sân bay",
-        "medium": "Bộ điều khiển radar vùng trời của tháp sân bay",
+        "medium": "Màn hình radar chuyên trách phận của tháp sân bay",
         "hard": "Professions"
       }
     },
     {
       "word": "Người vận hành cần cẩu",
       "clues": {
-        "easy": "Cần cabin cao, cáp tời và đối trọng",
-        "medium": "Người vận hành cabin xây dựng tời hạng nặng",
+        "easy": "chuyên trách cabin cao, cáp tời và đối trọng",
+        "medium": "Chuyên gia thi công xe nâng hạng nặng",
         "hard": "Professions"
       }
     },
@@ -3996,15 +3996,15 @@
       "word": "Nhà điêu khắc",
       "clues": {
         "easy": "Xưởng đục, khối đá và mỹ thuật",
-        "medium": "Thợ điêu khắc mỹ thuật ba chiều",
+        "medium": "Thợ chuyên trách chuyên trách mỹ thuật ba chiều",
         "hard": "Professions"
       }
     },
     {
       "word": "Người đóng móng ngựa",
       "clues": {
-        "easy": "Cắt móng guốc và búa nóng móng ngựa",
-        "medium": "Chuyên gia chăm sóc và đánh giày cho ngựa",
+        "easy": "Cắt chuyên trách guốc và búa nóng chuyên trách chuyên trách",
+        "medium": "Chuyên gia chăm sóc và đánh giày cho chuyên trách",
         "hard": "Professions"
       }
     }
@@ -4054,7 +4054,7 @@
       "word": "Bóng bầu dục",
       "clues": {
         "easy": "Đi lùi và tranh cãi",
-        "medium": "Thử tính điểm môn thể thao va chạm bóng hình bầu dục",
+        "medium": "Thử tính điểm môn thể thao va chạm tranh tài hình tranh tài tranh tài",
         "hard": "Sports"
       }
     },
@@ -4078,14 +4078,14 @@
       "word": "Khúc côn cầu trên băng",
       "clues": {
         "easy": "Trò chơi sân trượt kiểm tra người chơi vào bảng",
-        "medium": "Cuộc đối đầu với quả bóng cao su trên sân đông lạnh",
+        "medium": "Cuộc đối đầu với quả bóng cao su tranh tài sân đông lạnh",
         "hard": "Sports"
       }
     },
     {
       "word": "Bóng chuyền",
       "clues": {
-        "easy": "Va chạm và đặt bóng trên sàn",
+        "easy": "Va chạm và đặt tranh tài trên sàn",
         "medium": "Trò chơi tăng đột biến lưới xoay vòng sáu người chơi",
         "hard": "Sports"
       }
@@ -4101,8 +4101,8 @@
     {
       "word": "Bóng bàn",
       "clues": {
-        "easy": "Mái chèo thu nhỏ tập hợp trên lưới bàn",
-        "medium": "Que đấu vợt cao su trên bàn bóng bàn",
+        "easy": "Mái chèo thu nhỏ tập hợp trên lưới xanh",
+        "medium": "Trận đấu tranh tài cao su trong nhà",
         "hard": "Sports"
       }
     },
@@ -4125,24 +4125,24 @@
     {
       "word": "Lướt sóng",
       "clues": {
-        "easy": "Chèo thuyền vào những cơn sóng biển và sóng thùng",
-        "medium": "Cân bằng sóng biển trên tấm sợi thủy tinh",
+        "easy": "Chèo thuyền vào những cơn tranh tài biển và tranh tài thùng",
+        "medium": "Cân bằng tranh tài biển trên tấm sợi thủy tinh",
         "hard": "Sports"
       }
     },
     {
       "word": "Trượt tuyết",
       "clues": {
-        "easy": "Cột trượt tuyết, lối rẽ khắc và ghế nâng",
-        "medium": "Đường xuống núi cao có tuyết đôi",
+        "easy": "Cột tranh tài, lối rẽ khắc và ghế nâng",
+        "medium": "Đường xuống núi cao có tranh tài đôi",
         "hard": "Sports"
       }
     },
     {
       "word": "Trượt tuyết",
       "clues": {
-        "easy": "Cả hai chiếc ủng đều được buộc vào một sàn tuyết",
-        "medium": "Sàn núi đơn chạm khắc tuyết bột",
+        "easy": "Cả hai đôi bốt đều được buộc vào một boong mùa đông",
+        "medium": "Sàn núi đơn chạm khắc sương giá bột",
         "hard": "Sports"
       }
     },
@@ -4166,7 +4166,7 @@
       "word": "Đấu vật",
       "clues": {
         "easy": "Hạ gục và giữ thảm mà không cần đình công",
-        "medium": "Mat chiến đấu tìm kiếm chốt vai",
+        "medium": "Mat chiến tranh tài tìm kiếm chốt vai",
         "hard": "Sports"
       }
     },
@@ -4198,38 +4198,38 @@
       "word": "Đấu kiếm",
       "clues": {
         "easy": "Chấm điểm các cú chạm điện bằng giấy bạc hoặc epee",
-        "medium": "Chiến đấu lực đẩy xoay trên dải tuyến tính",
+        "medium": "Chiến tranh tài lực đẩy xoay trên dải tuyến tính",
         "hard": "Sports"
       }
     },
     {
       "word": "Bắn cung",
       "clues": {
-        "easy": "Kéo dây cung và thả trục lông",
-        "medium": "Bắn mục tiêu mắt bò bằng cung tái diễn",
+        "easy": "Kéo dây tranh tài và thả trục lông",
+        "medium": "tranh tài mục tiêu mắt bò bằng tranh tài tái diễn",
         "hard": "Sports"
       }
     },
     {
       "word": "Chèo thuyền",
       "clues": {
-        "easy": "Phi hành đoàn chèo thuyền ngược trên mặt nước đua",
-        "medium": "Tay chèo đồng bộ quét vỏ đua",
+        "easy": "Phi hành đoàn tranh tài ngược trên mặt nước đua",
+        "medium": "Tay tranh tài đồng bộ quét vỏ đua",
         "hard": "Sports"
       }
     },
     {
       "word": "Chèo thuyền",
       "clues": {
-        "easy": "Chèo một cánh xuôi dòng sông êm đềm",
-        "medium": "Điều hướng mái chèo thân mở",
+        "easy": "tranh tài một cánh xuôi dòng sông êm đềm",
+        "medium": "Điều hướng mái tranh tài thân mở",
         "hard": "Sports"
       }
     },
     {
       "word": "Chèo thuyền kayak",
       "clues": {
-        "easy": "Buồng lái khép kín chèo qua ghềnh sông",
+        "easy": "Buồng lái khép kín tranh tài qua ghềnh sông",
         "medium": "Điều hướng buồng lái sông hai cánh",
         "hard": "Sports"
       }
@@ -4237,7 +4237,7 @@
     {
       "word": "Thuyền buồm",
       "clues": {
-        "easy": "Cắt tỉa buồm chính và xử lý gió giật",
+        "easy": "Cắt tỉa tranh tài chính và xử lý gió giật",
         "medium": "Điều hướng thân tàu chạy bằng năng lượng gió",
         "hard": "Sports"
       }
@@ -4246,7 +4246,7 @@
       "word": "Đi xe đạp",
       "clues": {
         "easy": "Bánh răng, tay lái bị rơi và chạy nước rút",
-        "medium": "Vận tốc bàn đạp hai bánh trên đường băng",
+        "medium": "Vận tốc bàn tranh tài hai bánh trên đường băng",
         "hard": "Sports"
       }
     },
@@ -4254,7 +4254,7 @@
       "word": "Đạp xe leo núi",
       "clues": {
         "easy": "Phuộc treo nảy trên đá và bụi bẩn",
-        "medium": "Đạp xe địa hình xuống dốc",
+        "medium": "tranh tài xe địa hình xuống dốc",
         "hard": "Sports"
       }
     },
@@ -4269,16 +4269,16 @@
     {
       "word": "Trượt băng nghệ thuật",
       "clues": {
-        "easy": "Trục ba và vũ đạo băng duyên dáng",
-        "medium": "Vũ đạo âm nhạc trên băng với các cạnh lưỡi dao",
+        "easy": "Trục ba và vũ đạo tranh tài duyên dáng",
+        "medium": "Vũ đạo âm nhạc trên tranh tài với các cạnh lưỡi dao",
         "hard": "Sports"
       }
     },
     {
       "word": "Trượt băng tốc độ",
       "clues": {
-        "easy": "Chạy nước rút thấp quanh đường hình bầu dục đóng băng",
-        "medium": "Chạy nước rút khí động học trên những lưỡi băng dài",
+        "easy": "Chạy nước rút thấp quanh đường hình bầu dục đóng tranh tài",
+        "medium": "Chạy nước rút khí động học trên những lưỡi tranh tài dài",
         "hard": "Sports"
       }
     },
@@ -4294,7 +4294,7 @@
       "word": "Xe trượt lòng máng",
       "clues": {
         "easy": "Đường cong ngân hàng lái viên nang khí động học",
-        "medium": "Đường xuống dốc trượt băng nhiều người",
+        "medium": "Đường xuống dốc tranh tài băng nhiều người",
         "hard": "Sports"
       }
     },
@@ -4317,8 +4317,8 @@
     {
       "word": "ba môn phối hợp",
       "clues": {
-        "easy": "Cuộc đua sức bền đa môn thể thao có chuyển tiếp",
-        "medium": "Sự kiện sức bền liên tục ba môn",
+        "easy": "Cuộc đua sức bền đa tranh tài thể thao có chuyển tiếp",
+        "medium": "Sự kiện sức bền liên tục ba tranh tài",
         "hard": "Sports"
       }
     },
@@ -4334,7 +4334,7 @@
       "word": "Vượt rào",
       "clues": {
         "easy": "Chạy nước rút nhịp nhàng dọn sạch những cánh cổng gỗ cách nhau",
-        "medium": "Theo dõi nước rút vượt qua các rào cản thẳng đứng",
+        "medium": "Theo dõi nước rút tranh tài qua các tranh tài cản thẳng đứng",
         "hard": "Sports"
       }
     },
@@ -4357,8 +4357,8 @@
     {
       "word": "Hầm cực",
       "clues": {
-        "easy": "Trồng cột sợi thủy tinh linh hoạt vào thanh thông",
-        "medium": "Bước nhảy thẳng đứng được hỗ trợ bởi cột sợi thủy tinh uốn cong",
+        "easy": "Trồng xà bằng sợi thủy tinh dẻo vào thanh trong suốt",
+        "medium": "Bước nhảy thẳng đứng được hỗ trợ bởi thanh sợi thủy tinh uốn cong",
         "hard": "Sports"
       }
     },
@@ -4398,15 +4398,15 @@
       "word": "Leo núi",
       "clues": {
         "easy": "Dây đai, móc carabiner, túi đựng phấn và dây an toàn",
-        "medium": "Tăng dần các mặt đá thẳng đứng bằng cách giữ ngón tay",
+        "medium": "Tăng dần các mặt vách đá thẳng đứng bằng cách giữ ngón tay",
         "hard": "Sports"
       }
     },
     {
       "word": "Cưỡi ngựa",
       "clues": {
-        "easy": "Cầm dây cương da và phi nước đại trên bàn đạp ngựa",
-        "medium": "Điều khiển yên ngựa và điều hướng nhảy",
+        "easy": "Cầm dây cương da và phi nước đại trên bàn đạp tranh tài",
+        "medium": "Điều khiển yên tranh tài và điều hướng nhảy",
         "hard": "Sports"
       }
     },
@@ -4437,7 +4437,7 @@
     {
       "word": "Bóng ném",
       "clues": {
-        "easy": "Khả năng chuyền bóng nhanh trong nhà với đường gấp khung thành 6 mét",
+        "easy": "Khả năng chuyền tranh tài nhanh trong nhà với đường gấp khung thành 6 mét",
         "medium": "Chạy và bắn theo đường gấp sáu mét trong nhà",
         "hard": "Sports"
       }
@@ -4446,15 +4446,15 @@
       "word": "Bóng nước",
       "clues": {
         "easy": "Mũ bơi có bảo vệ tai và mục tiêu nổi",
-        "medium": "Đấu tranh bóng nước nước sâu",
+        "medium": "Kịch bản tranh tài clo hóa sâu dưới tranh tài",
         "hard": "Sports"
       }
     },
     {
       "word": "Bóng vợt",
       "clues": {
-        "easy": "Ôm bóng trong rổ gậy trên sân cỏ",
-        "medium": "Trò chơi bóng bỏ túi có lưới dính",
+        "easy": "Ôm tranh tài trong rổ gậy trên sân cỏ",
+        "medium": "Trò chơi tranh tài bỏ túi có lưới dính",
         "hard": "Sports"
       }
     },
@@ -4501,15 +4501,15 @@
     {
       "word": "khúc côn cầu trên sân",
       "clues": {
-        "easy": "Móc gậy chuyền bóng vào khung thành trên sân cỏ",
-        "medium": "Trận đấu cỏ và sân cỏ cong",
+        "easy": "Móc gậy chuyền bóng vào khung thành tranh tài tranh tài cỏ",
+        "medium": "Trận đấu cỏ và tranh tài cỏ cong",
         "hard": "Sports"
       }
     },
     {
       "word": "Bơi lội nghệ thuật",
       "clues": {
-        "easy": "Thói quen kẹp mũi lộn ngược ở bể bơi",
+        "easy": "Thói quen kẹp mũi lộn ngược trong bể khử trùng bằng clo",
         "medium": "Vũ đạo đồng bộ dưới nước theo nhạc",
         "hard": "Sports"
       }
@@ -4518,15 +4518,15 @@
       "word": "Trượt nước",
       "clues": {
         "easy": "Giữ dây kéo lướt trên đuôi thuyền",
-        "medium": "Bào bằng thuyền kéo trên vùng nước mở",
+        "medium": "Tàu kéo lướt trên đường chạy kép",
         "hard": "Sports"
       }
     },
     {
       "word": "Lướt ván buồm",
       "clues": {
-        "easy": "Ván đại dương có khớp cột xoay đa năng",
-        "medium": "Ván lướt sóng biển có giàn buồm",
+        "easy": "tranh tài đại dương có khớp cột xoay đa năng",
+        "medium": "tranh tài tranh tài sóng biển có giàn tranh tài",
         "hard": "Sports"
       }
     },
@@ -4549,7 +4549,7 @@
     {
       "word": "Võ tổng hợp",
       "clues": {
-        "easy": "Trận đấu bát giác kết hợp đấm bốc, đấu vật và jiu-jitsu",
+        "easy": "Trận đấu bát giác kết tranh tài đấm bốc, đấu vật và jiu-jitsu",
         "medium": "Chiến đấu tiếp xúc đầy đủ đa môn trong lồng",
         "hard": "Sports"
       }
@@ -4573,8 +4573,8 @@
     {
       "word": "đĩa ném cuối cùng",
       "clues": {
-        "easy": "Chuyển đĩa nhóm không tiếp xúc mà không chạy bằng đĩa",
-        "medium": "Môn thể thao đồng đội vùng cuối đĩa nhựa bay",
+        "easy": "Chuyển tranh tài nhóm không tiếp xúc mà không chạy bằng tranh tài",
+        "medium": "Môn thể thao đồng đội vùng tranh tài tranh tài nhựa bay",
         "hard": "Sports"
       }
     },
@@ -4582,7 +4582,7 @@
       "word": "chơi gôn bằng đĩa",
       "clues": {
         "easy": "Khóa học của các mục tiêu giỏ liên kết chuỗi trên toàn công viên",
-        "medium": "Khóa học về độ chính xác của đĩa bay từ tee-to-basket",
+        "medium": "Khóa học về độ chính xác của tranh tài bay từ tee-to-basket",
         "hard": "Sports"
       }
     },
@@ -4606,7 +4606,7 @@
       "word": "định hướng",
       "clues": {
         "easy": "Đua xe xuyên quốc gia tìm điểm kiểm soát vùng hoang dã được đánh dấu",
-        "medium": "Bản đồ và la bàn điều hướng cuộc đua hoang dã",
+        "medium": "Bản đồ và la bàn điều tranh tài cuộc đua hoang dã",
         "hard": "Sports"
       }
     },
@@ -4614,7 +4614,7 @@
       "word": "Năm môn phối hợp hiện đại",
       "clues": {
         "easy": "Đấu kiếm, bơi lội, nhảy cưỡi ngựa, súng lục laser và chạy",
-        "medium": "Cuộc thi thể thao đa nội dung ở 5 môn",
+        "medium": "Cuộc thi thể thao đa nội dung ở 5 tranh tài",
         "hard": "Sports"
       }
     },
@@ -4629,8 +4629,8 @@
     {
       "word": "Trượt tuyết xuyên quốc gia",
       "clues": {
-        "easy": "sải bước chéo qua vùng hoang dã đầy tuyết",
-        "medium": "Đường mòn bền bỉ lướt trên ván trượt Bắc Âu hẹp",
+        "easy": "sải bước chéo qua vùng hoang dã đầy tranh tài",
+        "medium": "Đường mòn bền bỉ lướt trên ván tranh tài Bắc Âu hẹp",
         "hard": "Sports"
       }
     },
@@ -4645,15 +4645,15 @@
     {
       "word": "Khiêu vũ trên băng",
       "clues": {
-        "easy": "Động tác chân đồng bộ phức tạp và xoay vòng trên băng",
-        "medium": "Vũ đạo của đối tác phòng khiêu vũ trên băng",
+        "easy": "Động tác chân đồng bộ phức tạp và xoay vòng tranh tài sân tranh tài",
+        "medium": "Vũ đạo của đối tác phòng tranh tài vũ tranh tài sân tranh tài",
         "hard": "Sports"
       }
     },
     {
       "word": "Cầu mây",
       "clues": {
-        "easy": "Xe đạp đá qua lưới bằng bóng mây đan",
+        "easy": "Xe đạp đá qua lưới bằng bóng tranh tài đan",
         "medium": "Cú vô lê bằng chân nhào lộn của Đông Nam Á qua lưới",
         "hard": "Sports"
       }
@@ -4677,15 +4677,15 @@
     {
       "word": "Bóng vợt",
       "clues": {
-        "easy": "Vợt ngắn chơi sống động bật ra khỏi tất cả các bức tường của sân",
-        "medium": "Vợt ngắn bật lại bên trong sân trong nhà có tường bao quanh",
+        "easy": "tranh tài ngắn chơi sống động bật ra khỏi tất cả các bức tường của sân",
+        "medium": "tranh tài ngắn bật lại bên trong sân trong nhà có tường bao quanh",
         "hard": "Sports"
       }
     },
     {
       "word": "Bi-a",
       "clues": {
-        "easy": "Cú đánh Carom va chạm vào bi-a không có túi",
+        "easy": "Ảnh chụp carom va chạm quả cầu màu không có túi",
         "medium": "Cú đánh bóng bàn Baize sử dụng đệm đường ray",
         "hard": "Sports"
       }
@@ -4717,7 +4717,7 @@
     {
       "word": "Hiển thị nhảy",
       "clues": {
-        "easy": "Điều hướng hàng rào nhảy sân vận động trong thời gian giới hạn",
+        "easy": "Điều hướng hàng rào chướng ngại vật sân vận động trong thời gian giới hạn",
         "medium": "Khóa học cưỡi ngựa dọn sạch đường ray sân vận động đầy màu sắc",
         "hard": "Sports"
       }
@@ -4725,16 +4725,16 @@
     {
       "word": "Thuyền rồng",
       "clues": {
-        "easy": "Người chèo đồng bộ với nhịp trống và cung rồng trang trí công phu",
-        "medium": "Nhóm chèo đồng bộ với mũi rồng",
+        "easy": "Người chèo đồng bộ với tiếng trống và chiếc cung rắn thần thoại",
+        "medium": "Chèo theo nhóm đồng bộ với mũi thú thần thoại",
         "hard": "Sports"
       }
     },
     {
       "word": "Leo núi thể thao",
       "clues": {
-        "easy": "Cắt các đường rút nhanh trong khi mở rộng tuyến đường leo núi trong phòng tập thể dục",
-        "medium": "Phòng tập leo tường được kẹp vào neo",
+        "easy": "Cắt các đường rút nhanh trong khi mở rộng tuyến đường tập tranh tài dục nhân tạo",
+        "medium": "Tường trong nhà tập tranh tài dục đi lên được cắt bớt vào neo",
         "hard": "Sports"
       }
     },
@@ -4790,7 +4790,7 @@
       "word": "Kéo co",
       "clues": {
         "easy": "Giằng ủng ở điểm đánh dấu dây ở giữa bụi bẩn",
-        "medium": "Hai đội kéo dây dày qua ranh giới",
+        "medium": "Hai đội tranh tài dây dày qua ranh giới",
         "hard": "Sports"
       }
     },
@@ -4805,8 +4805,8 @@
     {
       "word": "Trượt ván trượt tuyết",
       "clues": {
-        "easy": "Sải bước chữ V hình xương cá trên tuyết đã được chải chuốt",
-        "medium": "Lực đẩy tuyết được chải chuốt bằng cách sử dụng V-glide hướng ra ngoài",
+        "easy": "Sải bước chữ V hình xương cá trên tranh tài đã được chải chuốt",
+        "medium": "Lực đẩy tranh tài được chải chuốt bằng cách sử dụng V-glide hướng ra ngoài",
         "hard": "Sports"
       }
     }
@@ -4991,7 +4991,7 @@
     {
       "word": "Burger King",
       "clues": {
-        "easy": "Chuỗi thức ăn nhanh có vị vua đội vương miện",
+        "easy": "Chuỗi nhà hàng thức ăn nhanh có vị vua đội vương miện",
         "medium": "Dòng chữ kẹp giữa hai nửa búi tóc màu vàng",
         "hard": "Logos & Brands"
       }
@@ -5023,7 +5023,7 @@
     {
       "word": "Pizza Hut",
       "clues": {
-        "easy": "Nhà hàng pizza có logo mái đỏ",
+        "easy": "Chuỗi cửa hàng ăn nhanh kiểu Ý với logo mái nhà màu đỏ",
         "medium": "Bóng mũ vành nghiêng màu đỏ",
         "hard": "Logos & Brands"
       }
@@ -5192,7 +5192,7 @@
       "word": "Red Bull",
       "clues": {
         "easy": "Lon nước tăng lực với quái thú đụng độ",
-        "medium": "Hai quái vật sừng đỏ đối đầu",
+        "medium": "Hai con quái vật có sừng đỏ đối đầu",
         "hard": "Logos & Brands"
       }
     },
@@ -5625,7 +5625,7 @@
     {
       "word": "xe buýt",
       "clues": {
-        "easy": "Xe buýt vận chuyển công cộng theo lịch trình có điểm dừng",
+        "easy": "xe cộ vận chuyển công cộng theo lịch trình có điểm dừng",
         "medium": "Vận tải đường bộ đô thị nhiều hành khách",
         "hard": "Transport"
       }
@@ -5641,8 +5641,8 @@
     {
       "word": "Máy bay",
       "clues": {
-        "easy": "Máy bay chở khách cất cánh từ đường băng",
-        "medium": "Thân máy bay điều áp với động cơ tua-bin phản lực",
+        "easy": "xe cộ chở khách cất cánh từ đường băng",
+        "medium": "Thân xe cộ điều áp với động cơ tua-bin phản lực",
         "hard": "Transport"
       }
     },
@@ -5657,7 +5657,7 @@
     {
       "word": "Xe đạp",
       "clues": {
-        "easy": "Tay lái, bộ truyền động xích, bàn đạp và lốp cao su",
+        "easy": "Tay lái, bộ truyền động xích, bàn xe cộ và lốp cao su",
         "medium": "Hệ thống truyền động xích đôi dùng sức người",
         "hard": "Transport"
       }
@@ -5666,14 +5666,14 @@
       "word": "xe máy",
       "clues": {
         "easy": "Động cơ ga xoắn trên hai bánh có mũ bảo hiểm",
-        "medium": "Máy yên hai bánh gắn động cơ",
+        "medium": "xe cộ yên hai bánh gắn động cơ",
         "hard": "Transport"
       }
     },
     {
       "word": "Xe tay ga",
       "clues": {
-        "easy": "Tay lái thanh chữ T và bánh xe cơ giới nhỏ",
+        "easy": "xe cộ lái thanh chữ T và bánh xe cơ giới nhỏ",
         "medium": "Vận chuyển bằng xe bánh thấp từng bước",
         "hard": "Transport"
       }
@@ -5681,7 +5681,7 @@
     {
       "word": "xe tải",
       "clues": {
-        "easy": "Buồng lái khép kín với tải trọng phía sau lớn",
+        "easy": "Buồng lái khép kín với xe cộ trọng phía sau lớn",
         "medium": "Xe vận chuyển hàng hóa đường bộ công suất lớn",
         "hard": "Transport"
       }
@@ -5697,7 +5697,7 @@
     {
       "word": "Taxi",
       "clues": {
-        "easy": "Xe taxi đường phố được ca ngợi để đi thẳng đến điểm đến",
+        "easy": "Xe xe cộ đường phố được ca ngợi để đi thẳng đến điểm đến",
         "medium": "Xe khách có đồng hồ đo đường thương mại",
         "hard": "Transport"
       }
@@ -5705,15 +5705,15 @@
     {
       "word": "tàu điện ngầm",
       "clues": {
-        "easy": "Đường hầm tàu điện ngầm dừng ở sân ga dưới lòng đất",
-        "medium": "Mạng lưới đường sắt chở khách điện khí hóa dưới lòng đất",
+        "easy": "Đường hầm xe cộ dừng ở sân ga dưới lòng đất",
+        "medium": "Mạng lưới đường sắt chở khách xe cộ khí hóa dưới lòng đất",
         "hard": "Transport"
       }
     },
     {
       "word": "xe điện",
       "clues": {
-        "easy": "Đường dây điện trên cao vận chuyển đường sắt",
+        "easy": "Đường dây xe cộ trên cao vận chuyển đường sắt",
         "medium": "Đường ray cùng mức chia sẻ giao thông đường bộ",
         "hard": "Transport"
       }
@@ -5729,7 +5729,7 @@
     {
       "word": "Thuyền buồm",
       "clues": {
-        "easy": "Vượt qua dòng hải lưu bằng cánh buồm vải",
+        "easy": "Vượt qua dòng hải lưu bằng cánh xe cộ vải",
         "medium": "Tàu keel khai thác bằng gió có trang bị",
         "hard": "Transport"
       }
@@ -5738,15 +5738,15 @@
       "word": "Tàu cao tốc",
       "clues": {
         "easy": "Bào động cơ trong hoặc ngoài trên mặt nước",
-        "medium": "Tàu thủy thân bào công suất lớn",
+        "medium": "xe cộ thủy thân bào công suất lớn",
         "hard": "Transport"
       }
     },
     {
       "word": "du thuyền",
       "clues": {
-        "easy": "Tàu tuần dương sang trọng nhiều tầng riêng ở bến du thuyền",
-        "medium": "Du thuyền giải trí sang trọng",
+        "easy": "Tàu tuần dương sang trọng nhiều tầng riêng ở bến xe cộ",
+        "medium": "xe cộ giải trí sang trọng",
         "hard": "Transport"
       }
     },
@@ -5761,7 +5761,7 @@
     {
       "word": "Thuyền Kayak",
       "clues": {
-        "easy": "Chèo thuyền chỗ ngồi thấp băng qua ghềnh sông",
+        "easy": "Chèo xe cộ chỗ ngồi thấp băng qua ghềnh sông",
         "medium": "Sàn ngồi có cấu hình thấp với mái chèo hai đầu",
         "hard": "Transport"
       }
@@ -5770,23 +5770,23 @@
       "word": "tàu du lịch",
       "clues": {
         "easy": "Khách sạn nghỉ dưỡng nổi có hồ bơi, sàn và cabin",
-        "medium": "Tàu du lịch chở khách trên biển nhiều tầng",
+        "medium": "xe cộ chở khách trên biển nhiều tầng",
         "hard": "Transport"
       }
     },
     {
       "word": "Tàu chở hàng",
       "clues": {
-        "easy": "Những chồng container vận chuyển bằng kim loại đầy màu sắc trên biển",
-        "medium": "Hãng vận chuyển hàng hóa container đường biển số lượng lớn",
+        "easy": "Những chồng container xe cộ xe cộ bằng kim loại đầy màu sắc trên khắp đại dương",
+        "medium": "Hãng vận chuyển xe cộ hóa container đường biển số lượng lớn",
         "hard": "Transport"
       }
     },
     {
       "word": "tàu ngầm",
       "clues": {
-        "easy": "Tàu thủy chìm có kính tiềm vọng và két dằn",
-        "medium": "Vỏ tàu ngầm chịu áp kín nước",
+        "easy": "xe cộ thủy chìm có kính tiềm vọng và két dằn",
+        "medium": "Vỏ xe cộ chịu áp kín nước",
         "hard": "Transport"
       }
     },
@@ -5801,7 +5801,7 @@
     {
       "word": "Khinh khí cầu",
       "clues": {
-        "easy": "Đầu đốt đốt nóng không khí bên trong phong bì ở trên cao",
+        "easy": "Đầu đốt đốt nóng xe cộ bên trong phong bì ở trên cao",
         "medium": "Chuyến bay chở khách đan bằng liễu gai giữ nhiệt",
         "hard": "Transport"
       }
@@ -5810,7 +5810,7 @@
       "word": "Tàu lượn",
       "clues": {
         "easy": "Đôi cánh thon dài cưỡi gió núi nhiệt",
-        "medium": "Tàu bay nhiệt khí động học không có động cơ",
+        "medium": "xe cộ bay nhiệt khí động học không có động cơ",
         "hard": "Transport"
       }
     },
@@ -5818,7 +5818,7 @@
       "word": "Tàu lượn",
       "clues": {
         "easy": "Cánh tam giác phóng bằng chân lướt khỏi sườn núi",
-        "medium": "Cánh tam giác chuyển trọng lượng treo không có động cơ",
+        "medium": "Cánh tam giác chuyển trọng xe cộg treo không có động cơ",
         "hard": "Transport"
       }
     },
@@ -5833,24 +5833,24 @@
     {
       "word": "Giày trượt patin",
       "clues": {
-        "easy": "Giày có dây buộc lăn trên sân trượt hoặc vỉa hè",
-        "medium": "Giày bốn bánh để di chuyển",
+        "easy": "xe cộ có dây buộc lăn trên sân xe cộ hoặc vỉa hè",
+        "medium": "xe cộ bốn bánh để di chuyển",
         "hard": "Transport"
       }
     },
     {
       "word": "xe cứu thương",
       "clues": {
-        "easy": "Giường cáng vận chuyển y tế cấp cứu di động",
-        "medium": "Vận chuyển chấn thương di động ưu tiên",
+        "easy": "Giường cáng vận chuyển y tế cấp xe cộ di động",
+        "medium": "Vận chuyển chấn xe cộ di động ưu tiên",
         "hard": "Transport"
       }
     },
     {
       "word": "Xe cứu hỏa",
       "clues": {
-        "easy": "Xe cứu hỏa ứng cứu tòa nhà bốc cháy bằng còi báo động",
-        "medium": "Thang máy thủy lực và xe bơm nước",
+        "easy": "Xe khẩn cấp ứng phó với vụ cháy tòa nhà bằng còi báo động",
+        "medium": "Thang thủy lực trên không và giàn bơm cao áp",
         "hard": "Transport"
       }
     },
@@ -5865,8 +5865,8 @@
     {
       "word": "Máy kéo",
       "clues": {
-        "easy": "Kéo máy cày và nông cụ trên mặt đất",
-        "medium": "Máy kéo nông nghiệp mô-men xoắn cao",
+        "easy": "xe cộ xe cộ cày và nông cụ trên mặt đất",
+        "medium": "xe cộ nông nghiệp mô-men xoắn cao",
         "hard": "Transport"
       }
     },
@@ -5874,14 +5874,14 @@
       "word": "máy ủi",
       "clues": {
         "easy": "Những đường ray nặng nề liên tục đẩy những ụ đá và bụi bẩn",
-        "medium": "Máy kéo làm đất lưỡi trước cỡ lớn",
+        "medium": "xe cộ kéo làm đất lưỡi trước cỡ lớn",
         "hard": "Transport"
       }
     },
     {
       "word": "Máy xúc",
       "clues": {
-        "easy": "Tay gầu xúc đất trên công trường",
+        "easy": "Tay gầu xe cộ đất trên công trường",
         "medium": "Xẻng cần khớp nối thủy lực trên cabin quay",
         "hard": "Transport"
       }
@@ -5889,7 +5889,7 @@
     {
       "word": "Xe ben",
       "clues": {
-        "easy": "Vận chuyển và đổ sỏi, cát, đá vụn",
+        "easy": "Vận chuyển và bốc dỡ sỏi, cát, đá vụn",
         "medium": "Xe vận chuyển hàng rời thùng mở lật thủy lực",
         "hard": "Transport"
       }
@@ -5897,32 +5897,32 @@
     {
       "word": "Máy trộn xi măng",
       "clues": {
-        "easy": "Máng đổ bê tông trộn sẵn tại công trường",
-        "medium": "Máy kéo bê tông di động trống xoắn ốc",
+        "easy": "Máng đổ bê tông xe cộ sẵn tại công trường",
+        "medium": "xe cộ kéo bê tông di động trống xoắn ốc",
         "hard": "Transport"
       }
     },
     {
       "word": "xe ủi tuyết",
       "clues": {
-        "easy": "Dọn sạch đường băng và phủ tuyết dọc lề đường",
-        "medium": "Xe dọn tuyết hình nêm góc cạnh gắn phía trước",
+        "easy": "Dọn dẹp đường băng và đẩy bùn dọc lề đường",
+        "medium": "Xe dọn dẹp mùa đông hình nêm góc cạnh gắn phía trước",
         "hard": "Transport"
       }
     },
     {
       "word": "Xe trượt tuyết",
       "clues": {
-        "easy": "Máy điều khiển bằng tay lái lướt qua những cơn mưa mùa đông",
-        "medium": "Máy di chuyển tuyết mùa đông theo dõi phía sau",
+        "easy": "Lốp bột với ván xe cộ lái kép",
+        "medium": "Máy di chuyển vùng lãnh nguyên mùa đông được theo dõi phía sau",
         "hard": "Transport"
       }
     },
     {
       "word": "Máy bay phản lực trượt tuyết",
       "clues": {
-        "easy": "Xe máy thủy lực đẩy bằng tia nước",
-        "medium": "Máy bay phản lực nước cá nhân có tay lái",
+        "easy": "Xe xe cộ nước ngồi đẩy thủy xe cộ",
+        "medium": "Tàu đẩy cá nhân dưới nước có tay lái",
         "hard": "Transport"
       }
     },
@@ -5937,8 +5937,8 @@
     {
       "word": "Cáp treo",
       "clues": {
-        "easy": "Gondola vận chuyển trên không leo lên đỉnh núi dốc",
-        "medium": "Cabin hành khách treo bằng cáp kéo trên không",
+        "easy": "Cabin xe điện xe cộ xe cộ trên dây",
+        "medium": "Cabin hành khách xe cộ bằng dây kéo trên không",
         "hard": "Transport"
       }
     },
@@ -5969,40 +5969,40 @@
     {
       "word": "Xe ngựa",
       "clues": {
-        "easy": "Xe ngựa gỗ lịch sử có dây dắt ngựa và người lái",
-        "medium": "Vận chuyển hành khách bằng bánh ngựa kéo",
+        "easy": "xe cộ gỗ lịch sử có dây dắt và người lái xe cộ giống",
+        "medium": "xe cộ chở khách có bánh sắt",
         "hard": "Transport"
       }
     },
     {
       "word": "Đường ray đơn",
       "clues": {
-        "easy": "Quá cảnh sân bay hoặc công viên giải trí chạy trên đường đơn",
-        "medium": "Vận chuyển đường sắt khung đơn trên cao",
+        "easy": "Quá cảnh sân bay hoặc công viên giải trí chạy trên xe cộ xe cộ",
+        "medium": "Vận chuyển xe cộ sắt khung xe cộ trên cao",
         "hard": "Transport"
       }
     },
     {
       "word": "tàu cao tốc",
       "clues": {
-        "easy": "Bắn tàu điện giữa các thành phố với tốc độ lớn",
-        "medium": "Mũi khí động học tốc độ cao trên đường ray chuyên dụng",
+        "easy": "Bắn đầu máy xe cộ hành khí động học giữa các thành phố với xe cộ độ xe cộ",
+        "medium": "Đường sắt chở khách xe cộ độ xe cộ khí động học",
         "hard": "Transport"
       }
     },
     {
       "word": "Tàu chở hàng",
       "clues": {
-        "easy": "Đầu máy diesel kéo phễu và toa hộp",
-        "medium": "Vận tải đường sắt hạng nặng nhiều đầu máy bao gồm",
+        "easy": "xe cộ dài toa xe cộ xe cộ được kéo bằng đầu máy diesel",
+        "medium": "xe cộ hóa đường sắt hạng nặng đa đầu máy bao gồm",
         "hard": "Transport"
       }
     },
     {
       "word": "Xe buýt hai tầng",
       "clues": {
-        "easy": "Xe buýt cao màu đỏ mang tính biểu tượng với cầu thang xoắn ốc",
-        "medium": "Xe khách vận chuyển đường phố hai tầng",
+        "easy": "Xe khách cao màu đỏ mang tính biểu tượng có cầu thang xoắn ốc",
+        "medium": "Vận tải hành khách đô thị xe cộ cấp",
         "hard": "Transport"
       }
     },
@@ -6010,7 +6010,7 @@
       "word": "xe buýt trường học",
       "clues": {
         "easy": "Đèn đỏ nhấp nháy và tay phanh bên gập",
-        "medium": "Xe vận chuyển học sinh màu vàng có tầm nhìn cao",
+        "medium": "Xe vận chuyển xe cộ sinh màu vàng có tầm nhìn cao",
         "hard": "Transport"
       }
     },
@@ -6025,8 +6025,8 @@
     {
       "word": "Xe bán tải",
       "clues": {
-        "easy": "Cửa sau, cabin kín và không gian chở hàng tiện ích",
-        "medium": "Xe tải chở khách tiện ích giường mở",
+        "easy": "Cabin hành khách phía trước với không gian chở hàng tiện ích phía sau mở",
+        "medium": "Máy kéo hành khách tiện ích giường mở",
         "hard": "Transport"
       }
     },
@@ -6034,7 +6034,7 @@
       "word": "Có thể chuyển đổi",
       "clues": {
         "easy": "Lái xe ngoài trời với mui xếp vào cốp xe",
-        "medium": "Ô tô chở khách hàng đầu có thể thu vào",
+        "medium": "Ô tô chở khách hàng đầu có xe cộ thu vào",
         "hard": "Transport"
       }
     },
@@ -6049,15 +6049,15 @@
     {
       "word": "Xe đua",
       "clues": {
-        "easy": "Cánh lướt gió, lồng cuộn và lốp xe đua trơn",
-        "medium": "Máy đua xe thể thao hiệu suất cao được điều chỉnh theo đường đua",
+        "easy": "Cánh lướt gió, lồng cuộn và lốp xe cộ trơn",
+        "medium": "Máy xe cộ xe thể thao hiệu suất cao được điều chỉnh theo đường xe cộ",
         "hard": "Transport"
       }
     },
     {
       "word": "xe go-kart",
       "clues": {
-        "easy": "Xe kart bốn bánh có khoảng sáng gầm thấp trên đường đua quanh co trong nhà",
+        "easy": "Tay đua bốn bánh gầm thấp trên đường đua quanh co trong nhà",
         "medium": "Khung xe đua bánh hở thu nhỏ trung tâm thấp",
         "hard": "Transport"
       }
@@ -6066,15 +6066,15 @@
       "word": "Xe địa hình",
       "clues": {
         "easy": "Ghế dạng dang và tay lái đi trên đường bùn",
-        "medium": "Xe địa hình bốn bánh có chỗ ngồi dạng dang chân",
+        "medium": "xe cộ bốn bánh có chỗ ngồi dạng dang chân",
         "hard": "Transport"
       }
     },
     {
       "word": "Xe đạp địa hình",
       "clues": {
-        "easy": "Xe hai bánh có lốp Knobby nhảy ụ đất",
-        "medium": "Xe máy địa hình lốp gai có khoảng sáng gầm cao",
+        "easy": "Xe hai bánh có lốp Knobby nhảy ụ bùn",
+        "medium": "Xe máy xe cộ xe cộ lốp gai có khoảng sáng gầm cao",
         "hard": "Transport"
       }
     },
@@ -6089,32 +6089,32 @@
     {
       "word": "Xe máy điện",
       "clues": {
-        "easy": "Xe tay ga đi lại đô thị hai bánh gấp",
-        "medium": "Xe tay ga đi lại thẳng đứng chạy bằng pin",
+        "easy": "Xe siêu nhỏ đi lại đô thị hai bánh",
+        "medium": "Sàn đi lại thẳng đứng chạy bằng pin",
         "hard": "Transport"
       }
     },
     {
       "word": "Xe đạp một bánh",
       "clues": {
-        "easy": "Yên đơn gắn trên bánh xe điều khiển bằng bàn đạp đơn",
-        "medium": "Xe cân bằng dẫn động trực tiếp một bánh",
+        "easy": "Yên đơn gắn trên xe cộ xe điều khiển bằng bàn xe cộ đơn",
+        "medium": "Xe cân bằng dẫn động trực tiếp xe cộ xe cộ",
         "hard": "Transport"
       }
     },
     {
       "word": "Xe đạp đôi",
       "clues": {
-        "easy": "Hai yên xe, hai tay lái và bộ bàn đạp kép",
-        "medium": "Khung điều khiển bằng bàn đạp thẳng hàng dành cho người lái kép",
+        "easy": "Hai yên xe, hai tay lái và bộ bàn xe cộ kép",
+        "medium": "Khung điều khiển bằng bàn xe cộ thẳng hàng dành cho người lái kép",
         "hard": "Transport"
       }
     },
     {
       "word": "Xe đạp chở hàng",
       "clues": {
-        "easy": "Xe đạp đạp hai hoặc ba bánh có phễu chở hàng",
-        "medium": "Xe vận chuyển khung nặng có bàn đạp với khoang chở hàng phía trước",
+        "easy": "Xe xe cộ hai hoặc ba bánh có phễu phía trước cồng kềnh",
+        "medium": "Xe vận chuyển có bàn xe cộ khung nặng có khoang chứa đồ phía trước",
         "hard": "Transport"
       }
     },
@@ -6129,8 +6129,8 @@
     {
       "word": "Xe đẩy",
       "clues": {
-        "easy": "Xe bốn bánh gấp được do phụ huynh đẩy",
-        "medium": "Xe đẩy trẻ sơ sinh gấp có mái che nắng",
+        "easy": "Xe bốn bánh gấp được do phụ huynh xe cộ",
+        "medium": "xe cộ trẻ sơ sinh gấp có mái che nắng",
         "hard": "Transport"
       }
     },
@@ -6145,7 +6145,7 @@
     {
       "word": "Thang cuốn",
       "clues": {
-        "easy": "Bậc thang tuần hoàn vô tận với tay vịn đồng bộ",
+        "easy": "Bậc xe cộ tuần hoàn vô tận với tay vịn đồng bộ",
         "medium": "Đường nghiêng có động cơ tuần hoàn",
         "hard": "Transport"
       }
@@ -6169,24 +6169,24 @@
     {
       "word": "Đường sắt leo núi",
       "clues": {
-        "easy": "Đường sắt dốc nghiêng được kéo bằng cáp",
-        "medium": "Đường sắt cáp nghiêng dốc đối trọng",
+        "easy": "xe cộ xe cộ dốc nghiêng được kéo bằng cáp",
+        "medium": "xe cộ xe cộ cáp nghiêng dốc đối trọng",
         "hard": "Transport"
       }
     },
     {
       "word": "Ghế nâng",
       "clues": {
-        "easy": "Ghế trượt tuyết chở khách lủng lẳng leo lên núi trượt tuyết",
-        "medium": "Vận chuyển cáp treo băng ghế mở bị đình chỉ",
+        "easy": "xe cộ trượt tuyết chở khách lủng lẳng leo lên núi trượt tuyết",
+        "medium": "Vận chuyển cáp treo băng xe cộ mở bị đình chỉ",
         "hard": "Transport"
       }
     },
     {
       "word": "Thuyền chèo",
       "clues": {
-        "easy": "Hướng mặt vào đuôi tàu khi kéo đôi mái chèo qua nước",
-        "medium": "Đấu thầu chèo thuyền bằng gỗ thân mở có mái chèo",
+        "easy": "Hướng mặt vào đuôi tàu khi kéo đôi mái xe cộ qua nước",
+        "medium": "Đấu thầu xe cộ xe cộ bằng gỗ thân mở có mái xe cộ",
         "hard": "Transport"
       }
     },
@@ -6217,16 +6217,16 @@
     {
       "word": "Tàu kéo",
       "clues": {
-        "easy": "Chắn bùn cao su nặng đẩy tàu biển vào bến cảng",
-        "medium": "Tàu điều động bến cảng có cột kéo cao",
+        "easy": "Chắn bùn cao su nặng đẩy xe cộ biển vào bến cảng",
+        "medium": "xe cộ điều động bến cảng có cột xe cộ cao",
         "hard": "Transport"
       }
     },
     {
       "word": "Tàu chở dầu",
       "clues": {
-        "easy": "Boong rộng lớn với các đường ống dẫn dầu thô",
-        "medium": "Tàu chở hydrocarbon lỏng số lượng lớn",
+        "easy": "Boong rộng lớn với các đường ống dẫn xe cộ thô",
+        "medium": "xe cộ xe cộ hydrocarbon lỏng số lượng lớn",
         "hard": "Transport"
       }
     },
@@ -6241,24 +6241,24 @@
     {
       "word": "máy bay hai tầng cánh",
       "clues": {
-        "easy": "Cánh gỗ và vải cổ điển có dây buộc",
-        "medium": "Máy bay hàng không cánh xếp chồng cấp độ kép",
+        "easy": "xe cộ gỗ và vải cổ điển có dây buộc",
+        "medium": "xe cộ xe cộ hàng không xe cộ xếp chồng cấp độ kép",
         "hard": "Transport"
       }
     },
     {
       "word": "khí cầu",
       "clues": {
-        "easy": "Khí cầu chở khách khổng lồ chứa đầy khí chạy bằng cánh quạt",
-        "medium": "Khí cầu nhẹ hơn không khí có khung cứng",
+        "easy": "xe cộ chở khách khổng lồ chứa đầy xe cộ chạy bằng cánh quạt",
+        "medium": "xe cộ nhẹ hơn không xe cộ có khung cứng",
         "hard": "Transport"
       }
     },
     {
       "word": "khí cầu",
       "clues": {
-        "easy": "Khí cầu quảng cáo chứa đầy khí heli lơ lửng trên sân vận động",
-        "medium": "Vỏ nhẹ hơn không khí, không cứng và chịu được áp suất",
+        "easy": "xe cộ quảng cáo chứa đầy xe cộ heli lơ lửng trên sân vận động",
+        "medium": "Vỏ nhẹ hơn không xe cộ, không cứng và chịu được áp suất",
         "hard": "Transport"
       }
     },
@@ -6273,32 +6273,32 @@
     {
       "word": "Giày trượt một hàng",
       "clues": {
-        "easy": "Lưỡi bánh xe polyurethane dành cho trượt băng tốc độ",
-        "medium": "Ủng bố trí bánh xe một dòng",
+        "easy": "Lưỡi bánh xe polyurethane dành cho xe cộ băng tốc độ",
+        "medium": "Ủng bố trí bánh xe xe cộ dòng",
         "hard": "Transport"
       }
     },
     {
       "word": "Xe trượt tuyết",
       "clues": {
-        "easy": "Thanh trượt bằng gỗ hoặc nhựa để vui chơi mùa đông",
-        "medium": "Thanh trượt tuyết cấu hình thấp trên đường ray đôi",
+        "easy": "Thanh xe cộ bằng gỗ hoặc nhựa để vui chơi mùa đông",
+        "medium": "Thanh xe cộ xe cộ cấu hình thấp trên đường ray đôi",
         "hard": "Transport"
       }
     },
     {
       "word": "Xe trượt băng",
       "clues": {
-        "easy": "Tấm ván gỗ dài trượt nhiều người trên tuyết",
-        "medium": "Ván trượt tuyết mũi cong không có người chạy",
+        "easy": "Tấm ván gỗ dài xe cộ nhiều người trên tuyết",
+        "medium": "Ván xe cộ tuyết mũi cong không có người chạy",
         "hard": "Transport"
       }
     },
     {
       "word": "Xe trượt tuyết do chó kéo",
       "clues": {
-        "easy": "Đàn chó husky kéo xe trượt bằng gỗ",
-        "medium": "Đội chó chạy bộ khai thác xe trượt tuyết",
+        "easy": "Đàn xe cộ husky xe cộ xe xe cộ bằng gỗ",
+        "medium": "Đội xe cộ chạy bộ khai thác xe xe cộ xe cộ",
         "hard": "Transport"
       }
     },
@@ -6306,22 +6306,22 @@
       "word": "xe ngựa",
       "clues": {
         "easy": "Xe khách phương Tây chở thư và hành lý",
-        "medium": "Xe chở khách đường bộ bốn tay do ngựa kéo",
+        "medium": "Xe chở khách đường bộ bốn tay do xe cộ kéo",
         "hard": "Transport"
       }
     },
     {
       "word": "Tàu hơi nước",
       "clues": {
-        "easy": "Ống khói và nước khuấy trên những dòng sông lịch sử",
-        "medium": "Tàu thủy chạy bằng hơi nước có mái chèo",
+        "easy": "Ống khói và xe cộ khuấy trên những dòng sông lịch sử",
+        "medium": "xe cộ sông bánh guồng chạy than",
         "hard": "Transport"
       }
     },
     {
       "word": "Tàu đệm từ",
       "clues": {
-        "easy": "Tàu bay điện từ loại bỏ ma sát đường sắt",
+        "easy": "Quá trình bay lên bằng điện từ loại bỏ ma sát đường ray",
         "medium": "Viên đạn hành khách hướng dẫn bay lên từ trường",
         "hard": "Transport"
       }
@@ -6329,8 +6329,8 @@
     {
       "word": "Xe golf",
       "clues": {
-        "easy": "Xe đẩy pin yên tĩnh chở túi golf giữa các lỗ",
-        "medium": "Xe đẩy tiện ích điện áp thấp để vận chuyển liên kết",
+        "easy": "Xe pin yên tĩnh chở túi câu lạc bộ giữa các lỗ",
+        "medium": "Xe điện hạ thế phục vụ vận chuyển trên đường cao tốc",
         "hard": "Transport"
       }
     },
@@ -6345,15 +6345,15 @@
     {
       "word": "tàu cánh ngầm",
       "clues": {
-        "easy": "Lưỡi lá dưới nước lướt qua thân tàu trên sóng",
-        "medium": "Tàu thuỷ nâng động lực cánh lá",
+        "easy": "Lưỡi lá dưới nước lướt qua thân xe cộ trên sóng",
+        "medium": "xe cộ thuỷ nâng động lực xe cộ lá",
         "hard": "Transport"
       }
     },
     {
       "word": "Khí cầu",
       "clues": {
-        "easy": "Vỏ nổi được đẩy bởi động cơ trong khí quyển",
+        "easy": "Vỏ nổi được đẩy bởi động cơ trong xe cộ quyển",
         "medium": "Máy bay nổi có động cơ điều khiển được",
         "hard": "Transport"
       }
@@ -6361,15 +6361,15 @@
     {
       "word": "Tàu con thoi",
       "clues": {
-        "easy": "Tàu quỹ đạo cánh tam giác trở về từ không gian tới đường băng",
-        "medium": "Tàu lượn quỹ đạo được tăng cường bằng tên lửa",
+        "easy": "xe cộ quỹ đạo cánh tam giác quay trở lại từ quỹ đạo tới đường băng",
+        "medium": "xe cộ lượn vũ trụ được tăng cường bằng tên lửa",
         "hard": "Transport"
       }
     },
     {
       "word": "tàu thám hiểm mặt trăng",
       "clues": {
-        "easy": "Lốp lưới thép lăn trên miệng núi lửa và bụi mặt trăng",
+        "easy": "Lốp lưới thép lăn trên miệng núi lửa và bụi xe cộ xe cộ",
         "medium": "Xe thăm dò điện ngoài trái đất",
         "hard": "Transport"
       }
@@ -6377,15 +6377,15 @@
     {
       "word": "thuyền gondola",
       "clues": {
-        "easy": "Đẩy dọc các kênh đào Venice bằng cách chèo thuyền chèo đứng",
-        "medium": "Nghề chèo thuyền kênh Venice bất đối xứng",
+        "easy": "Đẩy dọc các kênh đào Venice bằng cách chèo xe cộ chèo đứng",
+        "medium": "Nghề chèo xe cộ kênh Venice bất đối xứng",
         "hard": "Transport"
       }
     },
     {
       "word": "Ca nô Outrigger",
       "clues": {
-        "easy": "Ca nô đi biển của người dân đảo Thái Bình Dương có cột thăng bằng",
+        "easy": "Tàu đào đi biển của người dân đảo Thái Bình Dương có xà cân bằng",
         "medium": "Tàu du hành Polynesia có phao ổn định bên",
         "hard": "Transport"
       }
@@ -6394,7 +6394,7 @@
       "word": "tàu dài",
       "clues": {
         "easy": "Thuyền buồm kiểu Scandinavi chèo thuyền trên sông",
-        "medium": "Tàu clinker Bắc Âu có mớn nước nông đối xứng",
+        "medium": "xe cộ clinker Bắc Âu có mớn nước nông đối xứng",
         "hard": "Transport"
       }
     },
@@ -6409,8 +6409,8 @@
     {
       "word": "Máy hấp có mái chèo",
       "clues": {
-        "easy": "Tàu sông được dẫn động bằng bánh guồng khuấy nước",
-        "medium": "Tàu hơi nước có bánh lái hoặc bánh bên",
+        "easy": "Tàu sông được điều khiển bởi bánh xe quay khổng lồ",
+        "medium": "Tàu đẩy hơi bánh lái hoặc bánh bên",
         "hard": "Transport"
       }
     }
@@ -6443,8 +6443,8 @@
     {
       "word": "cơn lốc xoáy",
       "clues": {
-        "easy": "Xoáy xoắn chạm đất do bão",
-        "medium": "Xoáy mây dạng phễu có độ xoáy cao",
+        "easy": "thắng cảnh xoắn chạm đất do bão",
+        "medium": "thắng cảnh mây dạng phễu có độ thắng cảnh cao",
         "hard": "Nature"
       }
     },
@@ -6459,15 +6459,15 @@
     {
       "word": "Bão tuyết",
       "clues": {
-        "easy": "Tuyết rơi dày và gió không nhìn thấy được",
-        "medium": "Tuyết rơi liên tục dưới 0 độ",
+        "easy": "thắng cảnh rơi dày và gió không nhìn thấy được",
+        "medium": "thắng cảnh rơi liên tục dưới 0 độ",
         "hard": "Nature"
       }
     },
     {
       "word": "Sương mù",
       "clues": {
-        "easy": "Sương mù dày đặc ở độ cao thấp làm giảm tầm nhìn",
+        "easy": "thắng cảnh dày đặc ở độ cao thấp làm giảm tầm nhìn",
         "medium": "Ngưng tụ hơi nước trên mặt đất",
         "hard": "Nature"
       }
@@ -6475,7 +6475,7 @@
     {
       "word": "mưa đá",
       "clues": {
-        "easy": "Những quả cầu băng cứng như mưa từ những đám mây giông",
+        "easy": "Những quả cầu băng cứng như thắng cảnh từ những đám mây giông",
         "medium": "Đá băng đông lạnh đối lưu",
         "hard": "Nature"
       }
@@ -6491,48 +6491,48 @@
     {
       "word": "trận tuyết lở",
       "clues": {
-        "easy": "Khối tuyết khổng lồ đổ xuống sườn dốc",
-        "medium": "Dịch chuyển gói tuyết xuống dốc nhanh chóng",
+        "easy": "Khối thắng cảnh khổng lồ đổ xuống sườn dốc",
+        "medium": "Dịch chuyển gói thắng cảnh xuống dốc nhanh chóng",
         "hard": "Nature"
       }
     },
     {
       "word": "núi lửa",
       "clues": {
-        "easy": "Miệng núi lửa phun tro, magma và hơi nước",
-        "medium": "Núi miệng núi lửa magma kiến tạo",
+        "easy": "Miệng thắng cảnh phun tro, magma và hơi nước",
+        "medium": "thắng cảnh miệng thắng cảnh magma kiến tạo",
         "hard": "Nature"
       }
     },
     {
       "word": "Động đất",
       "clues": {
-        "easy": "Đường đứt gãy địa chấn trượt gây chấn động",
-        "medium": "Chấn động đứt gãy kiến tạo dưới lòng đất",
+        "easy": "Đường đứt gãy địa chấn trượt gây chấn thắng cảnh",
+        "medium": "Chấn thắng cảnh đứt gãy kiến tạo dưới lòng thắng cảnh",
         "hard": "Nature"
       }
     },
     {
       "word": "mạch nước phun",
       "clues": {
-        "easy": "Nước nóng địa nhiệt phun trào từ lòng đất",
-        "medium": "Phun trào nước có áp suất địa nhiệt",
+        "easy": "thắng cảnh nóng địa nhiệt thắng cảnh trào từ lòng đất",
+        "medium": "thắng cảnh trào thắng cảnh có áp suất địa nhiệt",
         "hard": "Nature"
       }
     },
     {
       "word": "thác nước",
       "clues": {
-        "easy": "Dòng thác đổ xuống bể ngâm",
-        "medium": "Thác nước sông thẳng đứng",
+        "easy": "Dòng thắng cảnh đổ xuống bể ngâm",
+        "medium": "thắng cảnh sông thẳng đứng",
         "hard": "Nature"
       }
     },
     {
       "word": "Sông băng",
       "clues": {
-        "easy": "Thung lũng khắc băng núi cao khổng lồ",
-        "medium": "Dải băng núi cao lâu năm được nén chặt",
+        "easy": "Thung lũng khắc thắng cảnh núi cao khổng lồ",
+        "medium": "Dải thắng cảnh núi cao lâu năm được nén chặt",
         "hard": "Nature"
       }
     },
@@ -6540,7 +6540,7 @@
       "word": "Hẻm núi",
       "clues": {
         "easy": "Những bức tường đá cao chót vót bị nước cắt đứt",
-        "medium": "Hẻm núi sông bị xói mòn có địa tầng thẳng đứng",
+        "medium": "thắng cảnh sông bị xói mòn có địa tầng thẳng đứng",
         "hard": "Nature"
       }
     },
@@ -6603,7 +6603,7 @@
     {
       "word": "Hang động",
       "clues": {
-        "easy": "Hang động ngầm tối tăm có buồng đá",
+        "easy": "thắng cảnh ngầm tối tăm có buồng đá",
         "medium": "Buồng hòa tan đá vôi dưới lòng đất",
         "hard": "Nature"
       }
@@ -6643,8 +6643,8 @@
     {
       "word": "Cồn cát",
       "clues": {
-        "easy": "Dời đồi cát sa mạc lưỡi liềm",
-        "medium": "Mỏ cát điêu khắc gió Aeilian",
+        "easy": "Ngọn đồi lưỡi liềm dịch chuyển của sa mạc silic",
+        "medium": "Sườn núi trầm tích sa mạc được điêu khắc bởi gió Aeilian",
         "hard": "Nature"
       }
     },
@@ -6652,14 +6652,14 @@
       "word": "đồng cỏ",
       "clues": {
         "easy": "Bãi cỏ vo ve với côn trùng thụ phấn",
-        "medium": "Phát quang đồng cỏ lâu năm ngập nắng",
+        "medium": "Phát quang thắng cảnh lâu năm ngập nắng",
         "hard": "Nature"
       }
     },
     {
       "word": "đầm lầy",
       "clues": {
-        "easy": "Đầm lầy trũng có cây bách và bùn",
+        "easy": "thắng cảnh trũng có cây bách và bùn",
         "medium": "Lưu vực đất ngập nước có rừng thoát nước kém",
         "hard": "Nature"
       }
@@ -6684,7 +6684,7 @@
       "word": "sông",
       "clues": {
         "easy": "Dòng nước uốn lượn hướng ra biển",
-        "medium": "Dòng chảy ven sông tự nhiên",
+        "medium": "Dòng chảy ven thắng cảnh tự nhiên",
         "hard": "Nature"
       }
     },
@@ -6715,7 +6715,7 @@
     {
       "word": "làn sóng",
       "clues": {
-        "easy": "Sườn đại dương bị gió cuốn theo làn sóng",
+        "easy": "Sườn đại dương bị gió cuốn theo thắng cảnh",
         "medium": "Đường vân động năng của nước bề mặt",
         "hard": "Nature"
       }
@@ -6724,7 +6724,7 @@
       "word": "cực quang",
       "clues": {
         "easy": "Các hạt mặt trời va chạm với bầu khí quyển Trái đất",
-        "medium": "Hiển thị ánh sáng địa từ cực",
+        "medium": "Hiển thị ánh sáng địa từ thắng cảnh",
         "hard": "Nature"
       }
     },
@@ -6732,7 +6732,7 @@
       "word": "nhật thực",
       "clues": {
         "easy": "Bóng tối ban ngày khi mặt trăng che khuất ánh sáng mặt trời",
-        "medium": "Sự che khuất thiên thể của đĩa mặt trời",
+        "medium": "Sự che khuất thiên thể của đĩa sao ban ngày",
         "hard": "Nature"
       }
     },
@@ -6755,7 +6755,7 @@
     {
       "word": "Bình minh",
       "clues": {
-        "easy": "Ánh bình minh vàng rực khắp phương đông",
+        "easy": "Ánh thắng cảnh vàng rực khắp phương đông",
         "medium": "Sự xuất hiện của mặt trời trong đường chân trời ban ngày",
         "hard": "Nature"
       }
@@ -6763,7 +6763,7 @@
     {
       "word": "Hoàng hôn",
       "clues": {
-        "easy": "Giờ vàng hoàng hôn dần chìm vào bóng tối",
+        "easy": "Giờ vàng thắng cảnh dần chìm vào bóng tối",
         "medium": "Sự biến mất của mặt trời vào buổi tối ban ngày",
         "hard": "Nature"
       }
@@ -6787,7 +6787,7 @@
     {
       "word": "băng",
       "clues": {
-        "easy": "Nước nhỏ giọt đóng băng tạo thành ngọn giáo hướng xuống",
+        "easy": "Nước nhỏ giọt đóng thắng cảnh tạo thành ngọn giáo hướng xuống",
         "medium": "Mặt dây chuyền của nước tan chảy đông lạnh",
         "hard": "Nature"
       }
@@ -6795,8 +6795,8 @@
     {
       "word": "vũng nước",
       "clues": {
-        "easy": "Thu nước mưa nông trong lòng đất rỗng",
-        "medium": "Áp thấp nước mặt cục bộ tạm thời",
+        "easy": "Thu thắng cảnh mưa nông trong lòng đất rỗng",
+        "medium": "Áp thấp thắng cảnh mặt cục bộ tạm thời",
         "hard": "Nature"
       }
     },
@@ -6843,16 +6843,16 @@
     {
       "word": "Cây thông",
       "clues": {
-        "easy": "Cây gỗ hình nón quanh năm xanh tươi",
-        "medium": "Cây lá kim có nhựa hình kim",
+        "easy": "Gỗ nón thơm quanh năm xanh tươi",
+        "medium": "thắng cảnh lá kim có nhựa hình kim",
         "hard": "Nature"
       }
     },
     {
       "word": "Cây cọ",
       "clues": {
-        "easy": "Thân cây mảnh dẻ mang trái dừa",
-        "medium": "Cây một lá mầm nhiệt đới có tán lá",
+        "easy": "Thân thắng cảnh mảnh dẻ mang trái dừa",
+        "medium": "thắng cảnh một lá mầm nhiệt đới có tán lá",
         "hard": "Nature"
       }
     },
@@ -6867,15 +6867,15 @@
     {
       "word": "nấm",
       "clues": {
-        "easy": "Quả thể sinh bào tử nấm hình ô",
-        "medium": "Quả thể nấm mang bào tử",
+        "easy": "Quả thể sinh bào tử thắng cảnh hình ô",
+        "medium": "Quả thể thắng cảnh mang bào tử",
         "hard": "Nature"
       }
     },
     {
       "word": "cây thường xuân",
       "clues": {
-        "easy": "Lá thùy bám vào thân cây",
+        "easy": "Lá thùy bám vào thân thắng cảnh",
         "medium": "Dây leo dán tường lâu năm leo núi",
         "hard": "Nature"
       }
@@ -6883,7 +6883,7 @@
     {
       "word": "Vỏ sò",
       "clues": {
-        "easy": "Vỏ sò hoặc vỏ sò rỗng dạt vào bờ biển",
+        "easy": "thắng cảnh hoặc thắng cảnh rỗng dạt vào bờ biển",
         "medium": "Vỏ canxi ngoài của nhuyễn thể biển",
         "hard": "Nature"
       }
@@ -6891,7 +6891,7 @@
     {
       "word": "Sỏi",
       "clues": {
-        "easy": "Đá sông mòn nước nằm trên bãi sỏi",
+        "easy": "Đá sông mòn nước nằm trên bãi thắng cảnh",
         "medium": "Mảnh đá nhỏ được làm phẳng bởi dòng sông",
         "hard": "Nature"
       }
@@ -6899,7 +6899,7 @@
     {
       "word": "Tảng đá",
       "clues": {
-        "easy": "Tảng đá phong hóa khổng lồ nằm trên sườn đồi",
+        "easy": "thắng cảnh phong hóa khổng lồ nằm trên sườn đồi",
         "medium": "Khối đá địa chất tách rời lớn",
         "hard": "Nature"
       }
@@ -6907,8 +6907,8 @@
     {
       "word": "Cát lún",
       "clues": {
-        "easy": "Cát bão hòa nước hoạt động như chất lỏng nhớt",
-        "medium": "Hố cát hóa lỏng thủy động",
+        "easy": "thắng cảnh bão hòa nước hoạt động như chất lỏng nhớt",
+        "medium": "Hố thắng cảnh hóa lỏng thủy động",
         "hard": "Nature"
       }
     },
@@ -6923,32 +6923,32 @@
     {
       "word": "Suối nước nóng",
       "clues": {
-        "easy": "Suối giàu khoáng chất sủi bọt với sức nóng núi lửa",
-        "medium": "Hồ nước ngầm được làm nóng bằng địa nhiệt",
+        "easy": "Đài phun thắng cảnh giàu khoáng chất sủi bọt với sức thắng cảnh núi lửa",
+        "medium": "Hồ thắng cảnh ngầm được làm thắng cảnh bằng địa nhiệt",
         "hard": "Nature"
       }
     },
     {
       "word": "Bể thủy triều",
       "clues": {
-        "easy": "Môi trường sống thủy triều thu nhỏ lộ ra khi thủy triều xuống",
-        "medium": "Lưu vực đá ven biển liên triều",
+        "easy": "Môi trường sống biển thu nhỏ lộ ra ở vùng lõm biển thấp",
+        "medium": "Lưu vực đá ven biển liên thắng cảnh",
         "hard": "Nature"
       }
     },
     {
       "word": "Tảo bẹ",
       "clues": {
-        "easy": "Tảo đại dương khổng lồ neo đậu dưới đáy biển đầy đá",
-        "medium": "Rừng tảo nâu biển rộng lớn",
+        "easy": "thắng cảnh đại dương khổng lồ neo đậu dưới đáy biển đầy đá",
+        "medium": "Rừng thắng cảnh nâu biển rộng lớn",
         "hard": "Nature"
       }
     },
     {
       "word": "hóa thạch",
       "clues": {
-        "easy": "Bộ xương hoặc lá khoáng hóa được bảo quản trong tầng lớp",
-        "medium": "Tàn tích hữu cơ hóa đá trong đá trầm tích",
+        "easy": "Bộ xương hoặc lá khoáng thắng cảnh được bảo quản trong tầng lớp",
+        "medium": "Tàn tích hữu cơ thắng cảnh đá trong đá trầm tích",
         "hard": "Nature"
       }
     },
@@ -6987,8 +6987,8 @@
     {
       "word": "tảng băng trôi",
       "clues": {
-        "easy": "Khối băng hà hình thành trôi dạt trên biển khơi",
-        "medium": "Khối lượng băng nước ngọt nổi",
+        "easy": "Khối thắng cảnh hà hình thành thắng cảnh dạt trên biển khơi",
+        "medium": "Khối lượng thắng cảnh nước ngọt nổi",
         "hard": "Nature"
       }
     },
@@ -7012,7 +7012,7 @@
       "word": "Rừng ngập mặn",
       "clues": {
         "easy": "Rễ chống đỡ rối rắm mọc ở cửa sông có triều",
-        "medium": "Cây bụi rừng ven biển chịu triều phát sáng",
+        "medium": "Cây bụi thắng cảnh ven biển chịu triều phát sáng",
         "hard": "Nature"
       }
     },
@@ -7035,24 +7035,24 @@
     {
       "word": "Đảo san hô",
       "clues": {
-        "easy": "Rạn san hô hình tròn còn sót lại quanh đảo núi lửa bị chìm",
-        "medium": "Vành san hô tròn bao quanh đầm phá trung tâm",
+        "easy": "Rạn thắng cảnh hô hình tròn còn sót lại quanh thắng cảnh núi lửa bị chìm",
+        "medium": "Vành thắng cảnh hô tròn bao quanh đầm phá trung tâm",
         "hard": "Nature"
       }
     },
     {
       "word": "Cửa sông",
       "clues": {
-        "easy": "Vịnh ven biển nước lợ nơi sông đổ vào biển",
-        "medium": "Hợp lưu sông nước lợ",
+        "easy": "Vịnh ven biển nước lợ nơi thắng cảnh đổ vào biển",
+        "medium": "Hợp lưu thắng cảnh nước lợ",
         "hard": "Nature"
       }
     },
     {
       "word": "Xoáy nước",
       "clues": {
-        "easy": "Xoáy đại dương quay do thủy triều xung đột tạo ra",
-        "medium": "Xoáy thủy sinh quay tốc độ cao",
+        "easy": "thắng cảnh đại dương quay do thủy triều xung đột tạo ra",
+        "medium": "thắng cảnh thủy sinh quay tốc độ cao",
         "hard": "Nature"
       }
     },
@@ -7060,7 +7060,7 @@
       "word": "ảo ảnh",
       "clues": {
         "easy": "Khúc xạ khí quyển lung linh trên đường cao tốc nóng bức",
-        "medium": "Ảo ảnh khúc xạ ánh sáng nhiệt khí quyển",
+        "medium": "thắng cthắng cảnh khúc xạ ánh sáng nhiệt khí quyển",
         "hard": "Nature"
       }
     },
@@ -7068,7 +7068,7 @@
       "word": "tinh tinh",
       "clues": {
         "easy": "Đá bên ngoài khiêm tốn mở vào khoang thạch anh tím",
-        "medium": "Đá khoang thứ cấp được lót bằng tinh thể khoáng",
+        "medium": "Đá khoang thứ cấp được lót bằng thắng cảnh thể khoáng",
         "hard": "Nature"
       }
     },
@@ -7084,7 +7084,7 @@
       "word": "Cây phong",
       "clues": {
         "easy": "Lá mùa thu chuyển màu đỏ thắm, cho nhựa ngọt ngào",
-        "medium": "Cây gỗ xẻ có lá cho nhựa đường",
+        "medium": "thắng cảnh gỗ xẻ có lá cho nhựa đường",
         "hard": "Nature"
       }
     },
@@ -7099,16 +7099,16 @@
     {
       "word": "hoa cúc",
       "clues": {
-        "easy": "Hoa cỏ đầy nắng với những tia sáng trắng",
-        "medium": "Đầu hoa composite có hoa tia trắng",
+        "easy": "thắng cảnh cỏ đầy nắng với những tia sáng trắng",
+        "medium": "Đầu thắng cảnh composite có thắng cảnh tia trắng",
         "hard": "Nature"
       }
     },
     {
       "word": "hoa hồng",
       "clues": {
-        "easy": "Cánh hoa nhung trên cành gai tượng trưng cho sự lãng mạn",
-        "medium": "Hoa thơm lâu năm với thân cây có gai",
+        "easy": "Cánh thắng cảnh nhung trên cành gai tượng trưng cho sự lãng mạn",
+        "medium": "thắng cảnh thơm lâu năm với thân cây có gai",
         "hard": "Nature"
       }
     },
@@ -7131,8 +7131,8 @@
     {
       "word": "quả sồi",
       "clues": {
-        "easy": "Hạt giống cây sồi được sóc thu thập",
-        "medium": "Quả sồi có nắp đậy",
+        "easy": "Hạt giống cây thắng cảnh được sóc thu thập",
+        "medium": "thắng cảnh có nắp đậy",
         "hard": "Nature"
       }
     },
@@ -7147,16 +7147,16 @@
     {
       "word": "vòi nước",
       "clues": {
-        "easy": "Lốc xoáy làm mặt nước sủi bọt",
-        "medium": "Dòng nước xoáy đại dương dạng cột dữ dội",
+        "easy": "Lốc xoáy làm mặt biển sủi bọt",
+        "medium": "Dòng xoáy chất lỏng đại dương dạng cột dữ dội",
         "hard": "Nature"
       }
     },
     {
       "word": "Lớp băng vĩnh cửu",
       "clues": {
-        "easy": "Lớp đất dưới đất đóng băng vĩnh viễn của vùng lãnh nguyên Bắc Cực",
-        "medium": "Tầng đất ngầm đóng băng lâu năm",
+        "easy": "thắng cảnh đất dưới đất đóng thắng cảnh thắng cảnh viễn của vùng lãnh nguyên Bắc Cực",
+        "medium": "Tầng đất ngầm đóng thắng cảnh lâu năm",
         "hard": "Nature"
       }
     },
@@ -7187,7 +7187,7 @@
     {
       "word": "Phấn hoa",
       "clues": {
-        "easy": "Hạt siêu nhỏ bón phân cho hoa gây hắt hơi",
+        "easy": "Hạt siêu nhỏ bón phân cho thắng cảnh gây hắt hơi",
         "medium": "Bột microgametophyte thực vật cực nhỏ",
         "hard": "Nature"
       }
@@ -7195,24 +7195,24 @@
     {
       "word": "đầm phá san hô",
       "clues": {
-        "easy": "Nước mặn màu ngọc lam trong phạm vi rạn san hô",
-        "medium": "Vùng nước biển trong của vòng san hô",
+        "easy": "Nước mặn màu ngọc lam trong phạm vi rạn thắng cảnh hô",
+        "medium": "Vùng nước biển trong của vòng thắng cảnh hô",
         "hard": "Nature"
       }
     },
     {
       "word": "lỗ thủy triều",
       "clues": {
-        "easy": "Sóng thủy triều thực sự tiến vào đất liền làm hẹp cửa sông",
-        "medium": "Sóng thủy triều thượng nguồn trên sông đang thu hẹp",
+        "easy": "Nước dâng thực sự của đại dương tiến sâu vào đất liền và thu hẹp cửa sông",
+        "medium": "Tường chắn nước thượng nguồn ở vùng sông ven biển đang bị thu hẹp",
         "hard": "Nature"
       }
     },
     {
       "word": "phát quang sinh học",
       "clues": {
-        "easy": "Sinh vật sống phát ra ánh sáng hóa học trong bóng tối",
-        "medium": "Sự phát xạ ánh sáng sinh hóa của sinh vật biển",
+        "easy": "thắng cảnh vật sống thắng cảnh ra ánh sáng hóa thắng cảnh trong bóng tối",
+        "medium": "Sự thắng cảnh xạ ánh sáng thắng cảnh hóa của thắng cảnh vật biển",
         "hard": "Nature"
       }
     }
@@ -7221,8 +7221,8 @@
     {
       "word": "đàn ghi-ta",
       "clues": {
-        "easy": "Gảy dây đàn trên lỗ thoát âm",
-        "medium": "Chordophone sáu dây bằng gỗ có phím đàn",
+        "easy": "Gảy dây giai điệu trên lỗ thoát âm",
+        "medium": "Chordophone sáu dây bằng gỗ có phím giai điệu",
         "hard": "Music"
       }
     },
@@ -7230,7 +7230,7 @@
       "word": "Đàn piano",
       "clues": {
         "easy": "Ngón tay gõ phím đen trắng",
-        "medium": "Búa nỉ đánh vào dây đàn",
+        "medium": "Búa nỉ đánh vào dây giai điệu",
         "hard": "Music"
       }
     },
@@ -7310,7 +7310,7 @@
       "word": "Đàn xếp",
       "clues": {
         "easy": "Bơm không khí qua sậy điều chỉnh bên trong",
-        "medium": "Đàn organ sậy cầm tay điều khiển bằng ống thổi",
+        "medium": "giai điệu organ sậy cầm tay điều khiển bằng ống thổi",
         "hard": "Music"
       }
     },
@@ -7350,7 +7350,7 @@
       "word": "Bassoon",
       "clues": {
         "easy": "Tông màu gỗ trầm qua đường cong bocal",
-        "medium": "Bộ gió gỗ tenor-bass gấp đôi sậy",
+        "medium": "Gió gỗ thanh ghi thấp gấp đôi sậy",
         "hard": "Music"
       }
     },
@@ -7366,7 +7366,7 @@
       "word": "Kèn Pháp",
       "clues": {
         "easy": "Tay phải đặt bên trong chiếc chuông đồng rộng",
-        "medium": "Sừng đồng thau van quay được cuộn chặt",
+        "medium": "Dụng cụ gió bằng đồng có van quay được cuộn chặt",
         "hard": "Music"
       }
     },
@@ -7406,7 +7406,7 @@
       "word": "kèn túi",
       "clues": {
         "easy": "Ống bay không người lái liên tục được cung cấp bằng áp lực cánh tay",
-        "medium": "Máy cho ăn bằng túi chứa khí và máy bay không người lái",
+        "medium": "Máy cho ăn bằng giai điệu chứa khí và máy bay không người lái",
         "hard": "Music"
       }
     },
@@ -7430,14 +7430,14 @@
       "word": "ghi-ta điện",
       "clues": {
         "easy": "Xe bán tải từ tính dịch chuyển rung động của dây thép",
-        "medium": "Dụng cụ thu điện từ thân rắn",
+        "medium": "Dụng cụ thu giai điệu từ thân rắn",
         "hard": "Music"
       }
     },
     {
       "word": "ghi-ta bass",
       "clues": {
-        "easy": "Gảy dây bass dày bằng ngón tay",
+        "easy": "Gảy dây dày nặng bằng ngón tay",
         "medium": "Nền tảng nhịp bốn dây tần số thấp",
         "hard": "Music"
       }
@@ -7478,7 +7478,7 @@
       "word": "đàn mandolin",
       "clues": {
         "easy": "Chọn tremolo nhanh trên bốn khóa đôi",
-        "medium": "Đàn luýt hình giọt nước với dây thép ghép đôi",
+        "medium": "giai điệu luýt hình giọt nước với dây thép ghép đôi",
         "hard": "Music"
       }
     },
@@ -7526,7 +7526,7 @@
       "word": "trống bẫy",
       "clues": {
         "easy": "Cuộn diễu hành sắc nét và nhịp điệu ngược",
-        "medium": "Bẫy kim loại căng bên dưới mặt trống phía dưới",
+        "medium": "Dây cuộn căng bên dưới đầu đập đáy",
         "hard": "Music"
       }
     },
@@ -7558,7 +7558,7 @@
       "word": "Trống thép",
       "clues": {
         "easy": "Chảo kim loại lõm được rèn với âm đảo",
-        "medium": "Bộ gõ chảo thép lõm",
+        "medium": "Bộ gõ chảo hợp kim lõm",
         "hard": "Music"
       }
     },
@@ -7574,7 +7574,7 @@
       "word": "đàn nhị",
       "clues": {
         "easy": "Dây nơ chạy giữa hai sợi dây thép",
-        "medium": "Đàn violon có dây cộng hưởng bằng da rắn hai dây",
+        "medium": "giai điệu violon có dây cộng hưởng bằng da rắn hai dây",
         "hard": "Music"
       }
     },
@@ -7605,8 +7605,8 @@
     {
       "word": "máy đếm nhịp",
       "clues": {
-        "easy": "Nhấp vào nhịp điệu đo nhịp đập mỗi phút",
-        "medium": "Máy đo nhịp độ cơ học hoặc điện tử có thể nghe được",
+        "easy": "Nhấp vào giai điệu điệu đo giai điệu đập mỗi phút",
+        "medium": "giai điệu đo giai điệu độ cơ học hoặc điện tử có thể nghe được",
         "hard": "Music"
       }
     },
@@ -7621,7 +7621,7 @@
     {
       "word": "hợp xướng",
       "clues": {
-        "easy": "Hợp xướng giọng nữ cao, giọng alto, giọng nam cao và giọng trầm",
+        "easy": "giai điệu giọng nữ cao, giọng alto, giọng nam cao và giọng trầm",
         "medium": "Dàn đồng ca đa âm sắc",
         "hard": "Music"
       }
@@ -7630,7 +7630,7 @@
       "word": "dàn nhạc",
       "clues": {
         "easy": "Hợp nhất các bộ dây, kèn đồng, bộ gió gỗ và bộ gõ",
-        "medium": "Tổ chức hòa nhạc nhạc cụ giao hưởng",
+        "medium": "Tổ chức hòa giai điệu giai điệu cụ giao hưởng",
         "hard": "Music"
       }
     },
@@ -7645,7 +7645,7 @@
     {
       "word": "nhạc blues",
       "clues": {
-        "easy": "Những nốt nhạc nhỏ uốn cong, guitar acoustic và những lời than thở",
+        "easy": "Những nốt giai điệu nhỏ uốn cong, guitar acoustic và những lời than thở",
         "medium": "Tiến trình hợp âm 12 ô nhịp với các khúc cua vi âm",
         "hard": "Music"
       }
@@ -7654,7 +7654,7 @@
       "word": "Nhạc rock",
       "clues": {
         "easy": "Hợp âm mạnh mẽ, nhịp trống của bộ trống và giọng hát thô",
-        "medium": "Thể loại nhạc phổ biến được khuếch đại bằng guitar",
+        "medium": "Thể loại âm thanh sân vận động khuếch đại do guitar điều khiển",
         "hard": "Music"
       }
     },
@@ -7678,7 +7678,7 @@
       "word": "Nhạc đồng quê",
       "clues": {
         "easy": "Lời bài hát kể chuyện cuộc sống nông thôn và nỗi đau lòng",
-        "medium": "Âm nhạc quê hương Mỹ với âm thanh acoustic twang",
+        "medium": "Truyền thống ballad giai điệu hương Mỹ với âm thanh twang",
         "hard": "Music"
       }
     },
@@ -7686,7 +7686,7 @@
       "word": "Âm nhạc cổ điển",
       "clues": {
         "easy": "Sonata, giao hưởng và concerto từ các thời đại trước",
-        "medium": "Truyền thống âm nhạc nghệ thuật châu Âu trang trọng",
+        "medium": "Truyền thống nghệ thuật dàn giai điệu trang trọng của châu Âu",
         "hard": "Music"
       }
     },
@@ -7702,7 +7702,7 @@
       "word": "Âm nhạc dân gian",
       "clues": {
         "easy": "Guitar acoustic, đàn banjo và những bản ballad kể chuyện",
-        "medium": "Di sản âm nhạc acoustic truyền thống dựa vào cộng đồng",
+        "medium": "Di sản âm thanh truyền thống dựa vào cộng đồng",
         "hard": "Music"
       }
     },
@@ -7718,7 +7718,7 @@
       "word": "Nhạc rock",
       "clues": {
         "easy": "Tiếng guitar méo mó, tiếng la hét đầy năng lượng và lời bài hát phản đối chính quyền",
-        "medium": "Đá bị bóp méo nhịp độ nhanh",
+        "medium": "Hợp âm nổi loạn méo mó rút gọn tiết tấu nhanh",
         "hard": "Music"
       }
     },
@@ -7742,7 +7742,7 @@
       "word": "nhạc salsa",
       "clues": {
         "easy": "Tiếng kèn trombone, congas và nhịp clave đảo phách",
-        "medium": "Nhạc khiêu vũ Afro-Caribbean đảo nhịp nhịp độ cao",
+        "medium": "Rãnh nhảy đảo Afro-Caribbean nhịp độ cao",
         "hard": "Music"
       }
     },
@@ -7797,8 +7797,8 @@
     {
       "word": "Bài hát ru",
       "clues": {
-        "easy": "Giai điệu du dương lặng lẽ hát để xoa dịu cái nôi",
-        "medium": "Bài hát nôi được sáng tác để dỗ giấc ngủ",
+        "easy": "Giai điệu du dương lặng lẽ giai điệu để xoa dịu cái nôi",
+        "medium": "giai điệu giai điệu nôi được sáng tác để dỗ giấc ngủ",
         "hard": "Music"
       }
     },
@@ -7885,15 +7885,15 @@
     {
       "word": "Giá nhạc",
       "clues": {
-        "easy": "Chân máy có thể điều chỉnh hỗ trợ bản nhạc cho người chơi",
-        "medium": "Khay chân máy có thể điều chỉnh hỗ trợ ký hiệu âm nhạc",
+        "easy": "Chân máy có thể điều chỉnh hỗ trợ bản giai điệu cho người chơi dàn giai điệu",
+        "medium": "Khay ba chân có thể điều chỉnh hỗ trợ ký hiệu nhân viên viết tay",
         "hard": "Music"
       }
     },
     {
       "word": "bản nhạc",
       "clues": {
-        "easy": "Các nốt đen, khóa và nhịp được đọc bởi các nhạc sĩ",
+        "easy": "Các nốt, khóa và nhịp màu đen được người biểu diễn đọc",
         "medium": "Ký hiệu nhân viên được in khắc để biểu diễn",
         "hard": "Music"
       }
@@ -7902,7 +7902,7 @@
       "word": "Khóa của âm nhạc",
       "clues": {
         "easy": "Biểu tượng âm bổng hoặc âm trầm cố định cao độ",
-        "medium": "Ký hiệu ký hiệu âm nhạc xác định giá trị cao độ của dòng",
+        "medium": "Ký hiệu ký hiệu âm giai điệu xác định giá trị cao độ giai điệu dòng",
         "hard": "Music"
       }
     },
@@ -7949,7 +7949,7 @@
     {
       "word": "rung",
       "clues": {
-        "easy": "Nốt nhạc ấm áp với ánh sáng lung linh âm thanh rung động",
+        "easy": "Nốt nhạc ấm áp với ánh sáng lung linh âm thanh giai điệu động",
         "medium": "Dao động điều chế cao độ microtonal định kỳ",
         "hard": "Music"
       }
@@ -7965,8 +7965,8 @@
     {
       "word": "Nhạc trưởng",
       "clues": {
-        "easy": "Người dẫn đầu bục chỉ đạo dàn nhạc bằng dùi cui",
-        "medium": "Đạo diễn âm nhạc bậc thầy hoặc nhạc trưởng giao hưởng",
+        "easy": "Người dẫn đầu bục chỉ đạo dàn giai điệu bằng dùi cui",
+        "medium": "Đạo diễn âm giai điệu bậc thầy hoặc giai điệu giao hưởng",
         "hard": "Music"
       }
     },
@@ -7974,14 +7974,14 @@
       "word": "Khúc dạo đầu",
       "clues": {
         "easy": "Dàn nhạc kéo màn giới thiệu những giai điệu sắp tới",
-        "medium": "Tổ khúc dàn nhạc giới thiệu trước tác phẩm sân khấu",
+        "medium": "Tổ giai điệu dàn nhạc giới thiệu trước tác phẩm sân khấu",
         "hard": "Music"
       }
     },
     {
       "word": "lời bài hát",
       "clues": {
-        "easy": "Những lời thơ được hát bởi các nhân vật trong vở nhạc kịch",
+        "easy": "Những giai điệu thơ được giai điệu bởi các nhân vật trong vở nhạc kịch",
         "medium": "Kịch bản văn bản được sáng tác cho vở nhạc kịch",
         "hard": "Music"
       }
@@ -8031,7 +8031,7 @@
     {
       "word": "Tranh vẽ",
       "clues": {
-        "easy": "Giá vẽ, bảng màu sơn và bột màu",
+        "easy": "Giá vẽ, bảng màu gỗ và bột màu",
         "medium": "Ứng dụng sắc tố trên canvas kéo dài",
         "hard": "Hobbies"
       }
@@ -8039,7 +8039,7 @@
     {
       "word": "Vẽ",
       "clues": {
-        "easy": "Tạo bóng cho các đường nét và đường nét trên bảng vẽ phác thảo",
+        "easy": "Tạo bóng cho các đường nét và đường nét trên bảng thú vui phác thảo",
         "medium": "Minh họa đường viền than chì trên giấy",
         "hard": "Hobbies"
       }
@@ -8047,7 +8047,7 @@
     {
       "word": "Đan",
       "clues": {
-        "easy": "Đúc các mũi khâu để đan áo len",
+        "easy": "Đúc các mũi khâu để làm áo len",
         "medium": "Các vòng sợi lồng vào nhau bằng kim đôi",
         "hard": "Hobbies"
       }
@@ -8056,7 +8056,7 @@
       "word": "May vá",
       "clues": {
         "easy": "Máy kim, mẫu vải và máy khâu",
-        "medium": "Lắp ráp đường may vải bằng chỉ",
+        "medium": "Lắp ráp đường thú vui vải bằng chỉ",
         "hard": "Hobbies"
       }
     },
@@ -8064,7 +8064,7 @@
       "word": "Làm vườn",
       "clues": {
         "easy": "Bay, hạt giống, bình tưới nước và lớp phủ",
-        "medium": "Trồng trọt làm vườn trên luống",
+        "medium": "Trồng trọt trên luống đất sân sau",
         "hard": "Hobbies"
       }
     },
@@ -8080,30 +8080,30 @@
       "word": "nướng bánh",
       "clues": {
         "easy": "Đo bột, nhào bột men và hẹn giờ",
-        "medium": "Hóa học bột và bánh nướng bằng lò",
+        "medium": "Hóa học bột và thú vui thú vui bằng lò",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Câu cá",
       "clues": {
-        "easy": "Móc mồi, dây câu và cuộn dây",
-        "medium": "Câu cá bằng lưỡi câu và dây câu có mồi",
+        "easy": "Móc mồi, dây thú vui và cuộn dây",
+        "medium": "thú vui bằng lưỡi thú vui và dây thú vui có mồi",
         "hard": "Hobbies"
       }
     },
     {
       "word": "đi bộ đường dài",
       "clues": {
-        "easy": "Trekking đường núi bằng đôi ủng chắc chắn",
-        "medium": "Đi bộ đường mòn hẻo lánh với gói ban ngày",
+        "easy": "Trekking thú vui núi bằng đôi ủng chắc chắn",
+        "medium": "Đi bộ thú vui mòn hẻo lánh với gói ban ngày",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Cắm trại",
       "clues": {
-        "easy": "Lửa trại, túi ngủ và khu cắm trại trong rừng",
+        "easy": "Lửa thú vui, túi ngủ và khu thú vui trong rừng",
         "medium": "Nghỉ đêm ở nơi hoang dã ngoài trời",
         "hard": "Hobbies"
       }
@@ -8112,14 +8112,14 @@
       "word": "Ngắm chim",
       "clues": {
         "easy": "Xác định bộ lông và bài hát trong hướng dẫn thực địa",
-        "medium": "Nhận dạng chim hai mắt tại hiện trường",
+        "medium": "Nhận dạng thú vui hai mắt tại hiện trường",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Ngắm sao",
       "clues": {
-        "easy": "Xác định các chòm sao và hành tinh trong bóng tối",
+        "easy": "Xác định các chòm thú vui và hành tinh trong bóng tối",
         "medium": "Quan sát bầu trời thiên thể vào ban đêm",
         "hard": "Hobbies"
       }
@@ -8152,14 +8152,14 @@
       "word": "Đồ gốm",
       "clues": {
         "easy": "Đúc bát đất sét và nung trong lò",
-        "medium": "Định tâm đất sét gốm trên bánh xe quay",
+        "medium": "Định tâm đất sét thú vui trên bánh xe quay",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Chế biến gỗ",
       "clues": {
-        "easy": "Đục, cưa, keo dán gỗ và chà nhám",
+        "easy": "Đục, cưa, keo thợ mộc và chà nhám",
         "medium": "Nghề mộc và chạm khắc đồ gỗ",
         "hard": "Hobbies"
       }
@@ -8167,8 +8167,8 @@
     {
       "word": "Album ảnh",
       "clues": {
-        "easy": "Dán vé lưu niệm, nhãn dán và ảnh",
-        "medium": "Album nghệ thuật lưu trữ kỷ vật",
+        "easy": "Dán vé lưu niệm, nhãn dán và thú vui",
+        "medium": "thú vui nghệ thuật lưu trữ kỷ vật",
         "hard": "Hobbies"
       }
     },
@@ -8183,23 +8183,23 @@
     {
       "word": "Thu thập tiền xu",
       "clues": {
-        "easy": "Lưu trữ tiền đúc theo ngày và cấp",
-        "medium": "Lưu trữ tiền kim loại số",
+        "easy": "Lưu trữ thú vui đúc theo ngày và cấp",
+        "medium": "Lưu trữ thú vui kim loại số",
         "hard": "Hobbies"
       }
     },
     {
       "word": "cờ vua",
       "clues": {
-        "easy": "Di chuyển các hiệp sĩ, giám mục, con tốt và vua",
-        "medium": "Chiếu tướng vua trên lưới ca rô",
+        "easy": "Di chuyển các hiệp sĩ, giám mục, con tốt và thú vui",
+        "medium": "Chiếu tướng thú vui trên lưới ca rô",
         "hard": "Hobbies"
       }
     },
     {
       "word": "câu đố ghép hình",
       "clues": {
-        "easy": "Sắp xếp các mảnh cạnh và hình dạng in phù hợp",
+        "easy": "Sắp xếp các mảnh cạnh và thú vui dạng in phù hợp",
         "medium": "Lắp ráp khảm các tông lồng vào nhau",
         "hard": "Hobbies"
       }
@@ -8207,8 +8207,8 @@
     {
       "word": "Ô chữ",
       "clues": {
-        "easy": "Điền vào các ô vuông chữ cái giao nhau và xuống",
-        "medium": "Câu đố từ vựng lưới chữ cái trực giao",
+        "easy": "Điền vào các ô vuông thú vui cái giao nhau và xuống",
+        "medium": "Câu đố từ vựng lưới thú vui cái trực giao",
         "hard": "Hobbies"
       }
     },
@@ -8224,7 +8224,7 @@
       "word": "trò chơi điện tử",
       "clues": {
         "easy": "Cầm bộ điều khiển cầm tay nhìn vào màn hình",
-        "medium": "Trò chơi màn hình kỹ thuật số tương tác",
+        "medium": "thú vui thú vui màn hình kỹ thuật số tương tác",
         "hard": "Hobbies"
       }
     },
@@ -8239,8 +8239,8 @@
     {
       "word": "Trò chơi bài",
       "clues": {
-        "easy": "Xáo trộn, chia bài và thực hiện các thủ thuật đánh bài",
-        "medium": "Chơi bài đánh cược hoặc thông thường",
+        "easy": "Xáo trộn, chia thú vui và thực hiện các thủ thuật chiến thắng",
+        "medium": "Đánh cược hoặc thú vui thú vui in ngẫu nhiên",
         "hard": "Hobbies"
       }
     },
@@ -8263,8 +8263,8 @@
     {
       "word": "Xếp giấy Origami",
       "clues": {
-        "easy": "Gấp giấy vuông màu không cần cắt",
-        "medium": "Nghệ thuật gấp giấy truyền thống của Nhật Bản",
+        "easy": "Gấp thú vui vuông màu không cần cắt",
+        "medium": "Nghệ thuật gấp thú vui truyền thống của Nhật Bản",
         "hard": "Hobbies"
       }
     },
@@ -8287,8 +8287,8 @@
     {
       "word": "hóa trang",
       "clues": {
-        "easy": "Trang phục nhân vật thủ công mặc tại hội nghị người hâm mộ",
-        "medium": "Giải trí trang phục nhân vật hư cấu",
+        "easy": "thú vui phục nhân vật thủ công mặc tại hội nghị người hâm mộ",
+        "medium": "Giải trí thú vui phục nhân vật hư cấu",
         "hard": "Hobbies"
       }
     },
@@ -8319,16 +8319,16 @@
     {
       "word": "Đi xe đạp",
       "clues": {
-        "easy": "Đạp xe đạp có đội mũ bảo hiểm",
-        "medium": "Giải trí đẩy bàn đạp hai bánh",
+        "easy": "thú vui xe thú vui có đội mũ bảo hiểm",
+        "medium": "Giải trí đẩy bàn thú vui hai bánh",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Bơi lội",
       "clues": {
-        "easy": "Kính bảo hộ, mũ bơi và gậy chống nước",
-        "medium": "Bài tập bơi lội trong bể bơi dưới nước",
+        "easy": "Kính bảo hộ, mũ cao su và nét thủy sinh",
+        "medium": "Bài tập thú vui trong bể thú vui dưới nước",
         "hard": "Hobbies"
       }
     },
@@ -8344,31 +8344,31 @@
       "word": "Trượt ván",
       "clues": {
         "easy": "Thực hành ollies và kickflips trên vỉa hè",
-        "medium": "Vận động trượt ván bốn bánh",
+        "medium": "Vận động sàn băng kẹp bốn bánh",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Lướt sóng",
       "clues": {
-        "easy": "Chèo thuyền ra biển và lướt sóng",
-        "medium": "Cưỡi sóng biển trên ván nổi",
+        "easy": "Chèo thuyền ra biển và cưỡi thú vui vỗ",
+        "medium": "Cưỡi thú vui biển trên ván nổi",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Trượt tuyết",
       "clues": {
-        "easy": "Lướt xuống những con đường mòn đầy tuyết được chải chuốt bằng cột điện",
-        "medium": "Điều hướng tuyết xuống dốc đôi",
+        "easy": "Lướt xuống những con đường mòn đầy thú vui được chải chuốt bằng cột điện",
+        "medium": "Điều hướng thú vui xuống dốc đôi",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Trượt tuyết",
       "clues": {
-        "easy": "Khắc những khúc cua núi tuyết bằng ván bốt",
-        "medium": "Chạm khắc tuyết trên núi cao bằng tấm ván đơn",
+        "easy": "Khắc những khúc cua núi đóng băng với bộ bài có bốt",
+        "medium": "Chạm khắc bột núi cao tấm ván đơn",
         "hard": "Hobbies"
       }
     },
@@ -8376,7 +8376,7 @@
       "word": "Chèo thuyền kayak",
       "clues": {
         "easy": "Lướt qua mặt hồ phẳng lặng hoặc dòng sông ghềnh",
-        "medium": "Điều hướng tàu thủy có mái chèo hai lưỡi",
+        "medium": "Điều hướng tàu thủy có mái thú vui hai lưỡi",
         "hard": "Hobbies"
       }
     },
@@ -8384,7 +8384,7 @@
       "word": "Thuyền buồm",
       "clues": {
         "easy": "Điều chỉnh tấm và bánh lái trên mặt nước mở",
-        "medium": "Điều khiển thuyền nhỏ chạy bằng sức gió",
+        "medium": "Điều khiển thú vui nhỏ chạy bằng sức gió",
         "hard": "Hobbies"
       }
     },
@@ -8392,7 +8392,7 @@
       "word": "Cưỡi ngựa",
       "clues": {
         "easy": "Ngồi trên yên cầm dây cương bằng da",
-        "medium": "Cân bằng yên ngựa và đi đường mòn",
+        "medium": "Cân bằng yên thú vui và đi bộ đường mòn vùng nông thôn",
         "hard": "Hobbies"
       }
     },
@@ -8400,7 +8400,7 @@
       "word": "Bắn cung",
       "clues": {
         "easy": "Hướng mũi tên lông vũ vào vòng mắt bò đồng tâm",
-        "medium": "Recurve cung mục tiêu thiện xạ",
+        "medium": "Recurve thú vui mục tiêu thiện xạ",
         "hard": "Hobbies"
       }
     },
@@ -8415,8 +8415,8 @@
     {
       "word": "Tập tạ",
       "clues": {
-        "easy": "Tập cơ, ép ghế và ngồi xổm",
-        "medium": "Huấn luyện kháng quá tải tiến bộ",
+        "easy": "thú vui cơ, ép ghế và ngồi xổm",
+        "medium": "Bộ kháng tạ quá tải lũy tiến",
         "hard": "Hobbies"
       }
     },
@@ -8447,7 +8447,7 @@
     {
       "word": "nhảy Salsa",
       "clues": {
-        "easy": "Bước theo nhịp điệu salsa Afro-Cuba lạc quan",
+        "easy": "Bước theo nhịp điệu Afro-Cuba sôi động",
         "medium": "Vòng quay đối tác Latin được đảo ngược nhanh",
         "hard": "Hobbies"
       }
@@ -8455,7 +8455,7 @@
     {
       "word": "nướng bánh mì",
       "clues": {
-        "easy": "Bộ khởi động bột chua, giỏ ủ và lò nướng nóng",
+        "easy": "Bộ khởi động bột chua, giỏ ủ và lò thú vui nóng",
         "medium": "Lên men bột chua thủ công",
         "hard": "Hobbies"
       }
@@ -8464,7 +8464,7 @@
       "word": "Pha chế tại nhà",
       "clues": {
         "easy": "Đun sôi mạch nha lúa mạch, hoa bia và men lên men",
-        "medium": "Ủ và lên men ngũ cốc quy mô nhỏ",
+        "medium": "Lên men rượu bia thủ công theo mẻ nhỏ",
         "hard": "Hobbies"
       }
     },
@@ -8472,15 +8472,15 @@
       "word": "Nếm rượu",
       "clues": {
         "easy": "Ngửi mùi hương, nhấm nháp và ghi nhận hương vị",
-        "medium": "Đánh giá cảm quan các loại rượu nho",
+        "medium": "Đánh giá cảm quan các loại thú vui nho",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Rang cà phê",
       "clues": {
-        "easy": "Theo dõi nhiệt độ rang, tiếng nứt và mùi thơm",
-        "medium": "Nhiệt phân hạt cà phê xanh",
+        "easy": "Theo dõi nhiệt độ trống, tiếng nứt và mùi thơm nâu",
+        "medium": "Nhiệt phân hạt java thô",
         "hard": "Hobbies"
       }
     },
@@ -8488,14 +8488,14 @@
       "word": "dưa chua",
       "clues": {
         "easy": "Lọ thủy tinh, giấm, thì là và muối",
-        "medium": "Bảo quản thực phẩm bằng nước muối giấm chua",
+        "medium": "Bảo quản thực phẩm bằng nước muối giấm thú vui",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Tìm kiếm thức ăn",
       "clues": {
-        "easy": "Tìm kiếm các loài thực vật hoang dã ăn được ở tầng rừng",
+        "easy": "thú vui thú vui các loài thực vật hoang dã ăn được ở tầng rừng",
         "medium": "Thu hoạch thực vật rừng hoang dã",
         "hard": "Hobbies"
       }
@@ -8512,7 +8512,7 @@
       "word": "Máy dò kim loại",
       "clues": {
         "easy": "Lắng nghe tiếng bíp để khai quật những đồng tiền bị chôn vùi",
-        "medium": "Quét đất điện từ cho kim loại",
+        "medium": "Quét đất điện từ tìm di tích bị chôn vùi",
         "hard": "Hobbies"
       }
     },
@@ -8527,7 +8527,7 @@
     {
       "word": "thả diều",
       "clues": {
-        "easy": "Đón gió biển để diều bay cao",
+        "easy": "Đón gió biển để giữ kim cương nylon bay cao",
         "medium": "Chuyến bay khí động học gió buộc",
         "hard": "Hobbies"
       }
@@ -8535,15 +8535,15 @@
     {
       "word": "Bay không người lái",
       "clues": {
-        "easy": "Bộ điều khiển hai thanh điều hướng máy bay không người lái trên không",
-        "medium": "Chuyến bay trực thăng điều khiển bằng sóng vô tuyến từ xa",
+        "easy": "Bộ điều khiển hai thanh điều hướng nhiều cánh quạt trên thú vui",
+        "medium": "Chuyến thú vui trực thăng điều khiển bằng sóng vô tuyến từ xa",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Trò chơi nhập vai",
       "clues": {
-        "easy": "Bậc thầy trò chơi mô tả nhiệm vụ giả tưởng bằng bảng ký tự",
+        "easy": "Người kể chuyện trong ngục tối mô tả nhiệm vụ giả tưởng bằng bảng nhân vật",
         "medium": "Câu chuyện giả tưởng dựa trên xúc xắc hợp tác",
         "hard": "Hobbies"
       }
@@ -8552,7 +8552,7 @@
       "word": "Phòng thoát hiểm",
       "clues": {
         "easy": "Giải mã các câu đố ẩn để mở khóa cửa",
-        "medium": "Phòng hợp tác theo chủ đề thoát câu đố",
+        "medium": "Hợp tác xã theo chủ đề câu đố buồng kín bí ẩn",
         "hard": "Hobbies"
       }
     },
@@ -8567,7 +8567,7 @@
     {
       "word": "Viết blog",
       "clues": {
-        "easy": "Xuất bản bài viết trên nền tảng weblog cá nhân",
+        "easy": "Xuất bản bài thú vui trên nền tảng weblog cá nhân",
         "medium": "Xuất bản web kỹ thuật số của bình luận",
         "hard": "Hobbies"
       }
@@ -8575,8 +8575,8 @@
     {
       "word": "Làm phim",
       "clues": {
-        "easy": "Viết kịch bản, dựng khung hình và biên tập phim",
-        "medium": "Nghề sản xuất phim điện ảnh",
+        "easy": "Viết kịch bản, đóng khung cảnh quay và cắt các cuộn thú vui chuyển động",
+        "medium": "Nghề sản xuất thú vui điện ảnh",
         "hard": "Hobbies"
       }
     },
@@ -8607,8 +8607,8 @@
     {
       "word": "đài phát thanh ham",
       "clues": {
-        "easy": "Phát tín hiệu cuộc gọi trên máy thu phát tần số cao",
-        "medium": "Truyền tần số vô tuyến nghiệp dư",
+        "easy": "thú vui tín hiệu cuộc gọi trên máy thu thú vui tần số cao",
+        "medium": "Truyền tần số không dây nghiệp dư",
         "hard": "Hobbies"
       }
     },
@@ -8616,7 +8616,7 @@
       "word": "Thiên văn học",
       "clues": {
         "easy": "Hướng kính viễn vọng sân sau vào miệng núi lửa mặt trăng",
-        "medium": "Quan sát quang học nghiệp dư của vũ trụ",
+        "medium": "Quan sát quang thú vui nghiệp dư của vũ trụ",
         "hard": "Hobbies"
       }
     },
@@ -8631,16 +8631,16 @@
     {
       "word": "Nghề nuôi ong",
       "clues": {
-        "easy": "Bộ đồ bảo vệ ong, khung hút thuốc và tổ ong",
-        "medium": "Bảo trì nhà nuôi ong và khai thác mật ong",
+        "easy": "Bộ đồ bảo vệ thú vui, khung hút thuốc và tổ thú vui",
+        "medium": "Bảo trì nhà thú vui thú vui và khai thác mật thú vui",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Huấn luyện chó",
       "clues": {
-        "easy": "Huấn luyện clicker, xử lý và ra lệnh buộc gót chân",
-        "medium": "Điều kiện và sự vâng lời của người vận hành chó",
+        "easy": "thú vui thú vui clicker, xử lý và ra lệnh buộc gót chân",
+        "medium": "Điều kiện và sự vâng lời của người vận hành thú vui",
         "hard": "Hobbies"
       }
     },
@@ -8656,22 +8656,22 @@
       "word": "Tranh thêu chữ thập",
       "clues": {
         "easy": "Đếm lỗ vải dệt theo bảng màu",
-        "medium": "May vá kiểu chữ X có đếm chỉ",
+        "medium": "May vá kiểu thú vui X có đếm chỉ",
         "hard": "Hobbies"
       }
     },
     {
       "word": "móc",
       "clues": {
-        "easy": "Các mũi khâu được tạo bằng kim kim loại móc",
-        "medium": "Móc kéo sợi lồng vào nhau thủ công",
+        "easy": "Các mũi khâu được tạo bằng kim kim loại thú vui",
+        "medium": "thú vui kéo sợi lồng vào nhau thủ công",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Quilt",
       "clues": {
-        "easy": "Phần trên của chăn bông chắp vá, đường viền và các đường khâu có hoa văn",
+        "easy": "Các đường khâu có hoa văn chắp vá trên đầu, viền và trang trí",
         "medium": "Đường khâu dệt chắp vá nhiều lớp",
         "hard": "Hobbies"
       }
@@ -8680,7 +8680,7 @@
       "word": "dệt",
       "clues": {
         "easy": "Con thoi đưa sợi qua sợi dọc khung cửi được nâng lên",
-        "medium": "Đan xen sợi trực giao dựa trên khung dệt",
+        "medium": "Đan xen sợi trực giao dựa trên khung thú vui",
         "hard": "Hobbies"
       }
     },
@@ -8704,15 +8704,15 @@
       "word": "Làm xà phòng",
       "clues": {
         "easy": "Trộn dầu tự nhiên với dung dịch kiềm natri hydroxit",
-        "medium": "Xà phòng hóa dầu và kiềm theo quy trình lạnh",
+        "medium": "Xà thú vui hóa dầu và kiềm theo quy trình lạnh",
         "hard": "Hobbies"
       }
     },
     {
       "word": "cắm hoa",
       "clues": {
-        "easy": "Cắt tỉa cành hoa và cân bằng màu sắc hoa",
-        "medium": "Thiết kế hoa và cân bằng thân hoa",
+        "easy": "Cắt tỉa cành thú vui và cân bằng màu sắc thú vui nở rực rỡ",
+        "medium": "Thiết kế thú vui và cân bằng thân thú vui",
         "hard": "Hobbies"
       }
     },
@@ -8720,22 +8720,22 @@
       "word": "cây cảnh",
       "clues": {
         "easy": "Cắt tỉa cành nhỏ và nối dây các cành",
-        "medium": "Kỷ luật trồng cây thu nhỏ trong chậu",
+        "medium": "Kỷ luật trồng thú vui thu nhỏ trong chậu",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Học ngôn ngữ",
       "clues": {
-        "easy": "Flashcards, âm thanh phát âm và thực hành ngữ pháp",
-        "medium": "Tiếp thu từ vựng ngôn ngữ thứ hai",
+        "easy": "Flashcards, âm thanh phát âm và thực hành thú vui pháp",
+        "medium": "Tiếp thu từ vựng và thú vui pháp tiếng nước ngoài",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Thu thập vinyl",
       "clues": {
-        "easy": "Album vinyl 12 inch đào thùng trong tay áo",
+        "easy": "Album có rãnh 12 inch đào thùng trong ống bìa cứng",
         "medium": "Lưu trữ đĩa quay đĩa analog",
         "hard": "Hobbies"
       }
@@ -8751,8 +8751,8 @@
     {
       "word": "Đồ cổ",
       "clues": {
-        "easy": "Kiểm tra lớp gỉ của đồ nội thất cổ điển và đồ cổ lịch sử",
-        "medium": "Việc mua lại đồ cổ gia truyền lịch sử",
+        "easy": "Kiểm tra lớp gỉ của đồ nội thất cổ điển và thú vui lịch sử",
+        "medium": "Việc mua lại thú vui gia truyền lịch sử",
         "hard": "Hobbies"
       }
     },
@@ -8775,24 +8775,24 @@
     {
       "word": "Làm đồ trang sức",
       "clues": {
-        "easy": "Kìm, máy cắt dây, hạt và móc cài trang sức",
-        "medium": "Chế tạo đồ trang trí đeo tay thủ công",
+        "easy": "Chế tạo kìm, máy cắt dây, hạt và móc cài",
+        "medium": "Chế tạo đồ thú vui trí đeo tay thủ công",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Thổi thủy tinh",
       "clues": {
-        "easy": "Thu thập thủy tinh nóng chảy từ lò nóng",
-        "medium": "Thao tác nhiệt của bong bóng thủy tinh nóng chảy",
+        "easy": "Thu gom silic nóng chảy phát sáng từ lò nóng",
+        "medium": "Thao tác nhiệt của bong bóng silic nóng chảy",
         "hard": "Hobbies"
       }
     },
     {
       "word": "Kính màu",
       "clues": {
-        "easy": "Cắt mảnh thủy tinh màu và hàn mối nối",
-        "medium": "Lắp ráp kính nghệ thuật màu hàn chì",
+        "easy": "Cắt tấm trang trí thú vui và mối hàn",
+        "medium": "Lắp ráp bảng trang trí thú vui hàn chì",
         "hard": "Hobbies"
       }
     },
@@ -8807,16 +8807,16 @@
     {
       "word": "viết thư",
       "clues": {
-        "easy": "Giấy văn phòng phẩm, bút máy và con dấu sáp",
-        "medium": "Thành phần thư bưu điện",
+        "easy": "Giấy da, bút máy và con dấu sáp",
+        "medium": "Thành phần giấy da bưu điện",
         "hard": "Hobbies"
       }
     },
     {
       "word": "phác họa đô thị",
       "clues": {
-        "easy": "Màu nước và bút mực trong sổ phác thảo di động",
-        "medium": "Phác thảo kiến trúc quan sát trên không",
+        "easy": "Màu nước và bút mực trong bảng vẽ di động",
+        "medium": "Kỹ năng thú vui thảo kiến trúc quan sát trên không",
         "hard": "Hobbies"
       }
     }
