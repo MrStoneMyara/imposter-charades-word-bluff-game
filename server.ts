@@ -20,7 +20,7 @@ interface Lobby {
   code: string;
   hostId: string;
   language: string;
-  category: string;
+  category: string | string[];
   imposterCount: number;
   state: 'LOBBY' | 'PLAYING' | 'VOTING' | 'IMPOSTER_GUESS' | 'REVEAL';
   round: number;
@@ -149,7 +149,7 @@ function sanitizeLobbyForPlayer(lobby: Lobby, playerId?: string) {
       name: p.name,
       isHost: p.isHost,
       score: p.score,
-      votedForId: isReveal || isHost ? p.votedForId : (p.votedForId ? 'VOTED' : undefined),
+      votedForId: isReveal || isHost || p.id === playerId ? p.votedForId : (p.votedForId ? 'VOTED' : undefined),
     })),
     guessedWord: lobby.guessedWord,
     guessCorrect: lobby.guessCorrect,
@@ -272,7 +272,7 @@ async function startServer() {
 
   app.post('/api/lobby/:code/start', (req: Request, res: Response) => {
     const code = req.params.code.toUpperCase();
-    const { playerId, clueDifficulty, enableClues, giveHardClueIfFirst } = req.body;
+    const { playerId, clueDifficulty, enableClues, giveHardClueIfFirst, imposterCount, category } = req.body;
     const lobby = lobbies.get(code);
 
     if (!lobby || lobby.hostId !== playerId) {
@@ -283,8 +283,13 @@ async function startServer() {
       return res.status(400).json({ error: 'Need at least 3 players to start' });
     }
 
-    const { category, word, clues } = pickRandomWord(lobby.language, lobby.category);
-    lobby.secretCategory = category;
+    if (typeof imposterCount === 'number') {
+      lobby.imposterCount = Math.max(1, Math.min(3, imposterCount));
+    }
+    if (category) lobby.category = category;
+
+    const { category: chosenCategory, word, clues } = pickRandomWord(lobby.language, lobby.category);
+    lobby.secretCategory = chosenCategory;
     lobby.secretWord = word;
     lobby.secretClues = clues;
     lobby.enableClues = enableClues !== false;
@@ -295,7 +300,10 @@ async function startServer() {
 
     // Pick imposter(s)
     const shuffledPlayerIds = [...lobby.players.map((p) => p.id)].sort(() => Math.random() - 0.5);
-    const count = Math.min(lobby.imposterCount, Math.floor(lobby.players.length / 2));
+    const count = Math.min(
+      lobby.imposterCount,
+      Math.max(1, Math.floor((lobby.players.length - 1) / 2)),
+    );
     lobby.imposterIds = shuffledPlayerIds.slice(0, count);
 
     // Pick starting speaker
@@ -323,6 +331,10 @@ async function startServer() {
     const lobby = lobbies.get(code);
 
     if (!lobby) return res.status(404).json({ error: 'Lobby not found' });
+    if (lobby.hostId !== playerId) {
+      return res.status(403).json({ error: 'Only host can start voting phase' });
+    }
+
     lobby.state = 'VOTING';
     lobby.updatedAt = Date.now();
 
@@ -365,17 +377,18 @@ async function startServer() {
       const isImposterCaught = lobby.imposterIds.includes(accusedId);
 
       if (isImposterCaught) {
-        // Imposter gets one last guess chance
-        lobby.state = 'IMPOSTER_GUESS';
-      } else {
-        // Innocents voted wrong person! Imposter escapes
-        lobby.winner = 'IMPOSTERS';
-        lobby.state = 'REVEAL';
-        // Imposters get point
+        lobby.winner = 'INNOCENTS';
         lobby.players.forEach((p) => {
-          if (lobby.imposterIds.includes(p.id)) p.score += 1;
+          if (!lobby.imposterIds.includes(p.id)) p.score += 1;
+        });
+      } else {
+        // Innocents voted for wrong person or tie! Imposter escapes
+        lobby.winner = 'IMPOSTERS';
+        lobby.players.forEach((p) => {
+          if (lobby.imposterIds.includes(p.id)) p.score += 2;
         });
       }
+      lobby.state = 'REVEAL';
     }
 
     lobby.updatedAt = Date.now();

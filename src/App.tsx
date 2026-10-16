@@ -13,9 +13,11 @@ import {
 import { LanguageDropdown } from './components/LanguageDropdown.tsx';
 import { CategoryMultiSelectDropdown } from './components/CategoryMultiSelectDropdown.tsx';
 import { PlayerRoster } from './components/PlayerRoster.tsx';
-import { GameOptionsCard, ClueDifficulty } from './components/GameOptionsCard.tsx';
+import { GameOptionsCard, ImposterCountCard, ClueOptionsCard, ClueDifficulty } from './components/GameOptionsCard.tsx';
 import { RulesModal } from './components/RulesModal.tsx';
 import { PassAndPlayGame } from './components/PassAndPlayGame.tsx';
+import { VotingView } from './components/VotingView.tsx';
+import { RevealView } from './components/RevealView.tsx';
 import { SeoFooter } from './components/SeoFooter.tsx';
 import { SeoArticleView } from './components/SeoArticleView.tsx';
 import { LocalizedHowToPlayView } from './components/LocalizedHowToPlayView.tsx';
@@ -133,10 +135,10 @@ export default function App() {
   // Enforce non-majority rule: imposters must be less than half of players
   const maxAllowedImposters = Math.max(1, Math.floor((players.length - 1) / 2));
   useEffect(() => {
-    if (imposterCount > maxAllowedImposters) {
+    if (playMode !== 'PLAY_ONLINE' && imposterCount > maxAllowedImposters) {
       setImposterCount(maxAllowedImposters);
     }
-  }, [players.length, maxAllowedImposters, imposterCount]);
+  }, [playMode, players.length, maxAllowedImposters, imposterCount]);
 
   // Online Multiplayer State
   const [onlineScreen, setOnlineScreen] = useState<'CHOICE' | 'LOBBY' | 'GAME' | 'VOTING' | 'REVEAL'>('CHOICE');
@@ -158,6 +160,15 @@ export default function App() {
   const [lobbyCode, setLobbyCode] = useState('');
   const [currentPlayer, setCurrentPlayer] = useState<{ id: string; name: string; isHost: boolean } | null>(null);
   const [lobbyState, setLobbyState] = useState<any>(null);
+  useEffect(() => {
+    if (playMode !== 'PLAY_ONLINE' || !lobbyState?.players) return;
+    const joined = lobbyState.players.length;
+    if (joined < 3) return;
+    const maxForLobby = Math.max(1, Math.floor((joined - 1) / 2));
+    if (imposterCount > maxForLobby) {
+      setImposterCount(maxForLobby);
+    }
+  }, [playMode, lobbyState, imposterCount]);
   const [copiedCode, setCopiedCode] = useState(false);
   const [sharedLink, setSharedLink] = useState(false);
   const [isOnlineRevealed, setIsOnlineRevealed] = useState(false);
@@ -233,10 +244,21 @@ export default function App() {
         const data = await res.json();
         setLobbyState(data);
 
-        if (data.state === 'LOBBY') setOnlineScreen('LOBBY');
-        else if (data.state === 'PLAYING') setOnlineScreen('GAME');
-        else if (data.state === 'VOTING') setOnlineScreen('VOTING');
-        else if (data.state === 'IMPOSTER_GUESS' || data.state === 'REVEAL') setOnlineScreen('REVEAL');
+        if (data.state === 'LOBBY') {
+          setOnlineScreen('LOBBY');
+          setSelectedSuspectId('');
+        } else if (data.state === 'PLAYING') {
+          setOnlineScreen('GAME');
+          setSelectedSuspectId('');
+        } else if (data.state === 'VOTING') {
+          setOnlineScreen('VOTING');
+          const myVote = data.players?.find((p: any) => p.id === currentPlayer.id)?.votedForId;
+          if (myVote && myVote !== 'VOTED') {
+            setSelectedSuspectId(myVote);
+          }
+        } else if (data.state === 'IMPOSTER_GUESS' || data.state === 'REVEAL') {
+          setOnlineScreen('REVEAL');
+        }
       } catch {
         // network glitch
       }
@@ -267,7 +289,7 @@ export default function App() {
           hostName: trimmedHost,
           language: currentLangCode,
           category: selectedCategories.length === CATEGORY_KEYS.length ? 'all' : selectedCategories[0],
-          imposterCount: 1,
+          imposterCount,
         }),
       });
       const data = await res.json();
@@ -416,6 +438,8 @@ export default function App() {
           clueDifficulty,
           enableClues,
           giveHardClueIfFirst,
+          imposterCount,
+          category: selectedCategories.length === CATEGORY_KEYS.length ? 'all' : selectedCategories,
         }),
       });
       const data = await res.json();
@@ -725,15 +749,6 @@ export default function App() {
                     }`}
                   />
 
-                  {/* Category dropdown for online host */}
-                  <CategoryMultiSelectDropdown
-                    selectedCategories={selectedCategories}
-                    onChange={setSelectedCategories}
-                    lang={lang}
-                    isDark={isDark}
-                    soundEnabled={soundEnabled}
-                  />
-
                   <button
                     type="button"
                     onClick={handleCreateOnlineLobby}
@@ -917,20 +932,53 @@ export default function App() {
                 </div>
 
                 {currentPlayer.isHost ? (
-                  <button
-                    type="button"
-                    disabled={lobbyState.players.length < 3}
-                    onClick={handleStartOnlineGame}
-                    className={`w-full py-4 px-6 rounded-2xl font-extrabold text-base transition-all cursor-pointer ${
-                      lobbyState.players.length >= 3
-                        ? isDark
-                          ? 'bg-slate-100 hover:bg-white text-slate-950 shadow-lg'
-                          : 'bg-slate-950 hover:bg-slate-800 text-white shadow-lg'
-                        : 'bg-slate-200 dark:bg-slate-800 text-slate-400 cursor-not-allowed'
-                    }`}
-                  >
-                    {lang.strings.startGame} ({lobbyState.players.length}/3+)
-                  </button>
+                  <div className="space-y-3 pt-2">
+                    <CategoryMultiSelectDropdown
+                      selectedCategories={selectedCategories}
+                      onChange={setSelectedCategories}
+                      lang={lang}
+                      isDark={isDark}
+                      soundEnabled={soundEnabled}
+                    />
+
+                    <ImposterCountCard
+                      playerCount={lobbyState.players.length}
+                      imposterCount={imposterCount}
+                      onChangeImposterCount={setImposterCount}
+                      lang={lang}
+                      isDark={isDark}
+                      soundEnabled={soundEnabled}
+                      embedded={true}
+                    />
+
+                    <ClueOptionsCard
+                      enableClues={enableClues}
+                      onToggleEnableClues={setEnableClues}
+                      clueDifficulty={clueDifficulty}
+                      onChangeDifficulty={setClueDifficulty}
+                      giveHardClueIfFirst={giveHardClueIfFirst}
+                      onToggleHardClueIfFirst={setGiveHardClueIfFirst}
+                      lang={lang}
+                      isDark={isDark}
+                      soundEnabled={soundEnabled}
+                      embedded={true}
+                    />
+
+                    <button
+                      type="button"
+                      disabled={lobbyState.players.length < 3}
+                      onClick={handleStartOnlineGame}
+                      className={`w-full py-4 px-6 rounded-2xl font-extrabold text-base transition-all cursor-pointer ${
+                        lobbyState.players.length >= 3
+                          ? isDark
+                            ? 'bg-slate-100 hover:bg-white text-slate-950 shadow-lg'
+                            : 'bg-slate-950 hover:bg-slate-800 text-white shadow-lg'
+                          : 'bg-slate-200 dark:bg-slate-800 text-slate-400 cursor-not-allowed'
+                      }`}
+                    >
+                      {lang.strings.startGame} ({lobbyState.players.length}/3+)
+                    </button>
+                  </div>
                 ) : (
                   <div className="p-3 bg-slate-50 dark:bg-slate-950 rounded-2xl text-xs text-slate-500 font-medium">
                     {lang.strings.waitingForHost}
@@ -1015,112 +1063,95 @@ export default function App() {
                   )}
                 </button>
 
-                <button
-                  type="button"
-                  onClick={async () => {
-                    await fetch(`/api/lobby/${lobbyCode}/vote-phase`, {
-                      method: 'POST',
-                      headers: { 'Content-Type': 'application/json' },
-                      body: JSON.stringify({ playerId: currentPlayer.id }),
-                    });
-                  }}
-                  className={`w-full py-4 font-extrabold rounded-2xl shadow-md cursor-pointer ${
-                    isDark ? 'bg-slate-100 text-slate-950 hover:bg-white' : 'bg-slate-950 text-white hover:bg-slate-800'
-                  }`}
-                >
-                  {lang.strings.readyToVote}
-                </button>
-              </div>
-            )}
-
-            {/* Online Voting */}
-            {onlineScreen === 'VOTING' && lobbyState && currentPlayer && (
-              <div
-                className={`p-6 border rounded-3xl space-y-4 ${
-                  isDark ? 'bg-slate-900 border-slate-800' : 'bg-white border-slate-200'
-                }`}
-              >
-                <h3 className={`font-extrabold text-base text-center ${isDark ? 'text-white' : 'text-slate-900'}`}>
-                  {lang.strings.votingTitle}
-                </h3>
-                <div className="space-y-2">
-                  {lobbyState.players.map((p: any) => (
-                    <button
-                      key={p.id}
-                      type="button"
-                      onClick={() => setSelectedSuspectId(p.id)}
-                      className={`w-full p-3.5 rounded-2xl border ${dir === 'rtl' ? 'text-right' : 'text-left'} font-bold text-sm transition-all cursor-pointer ${
-                        selectedSuspectId === p.id
-                          ? isDark
-                            ? 'bg-slate-100 text-slate-900 border-white'
-                            : 'bg-slate-900 text-white border-slate-900'
-                          : isDark
-                          ? 'bg-slate-950 text-slate-100 border-slate-800 hover:bg-slate-800'
-                          : 'bg-slate-50 text-slate-900 border-slate-200 hover:bg-slate-100'
-                      }`}
-                    >
-                      {p.name} {p.id === currentPlayer.id && ` ${lang.strings.youSuffix}`}
-                    </button>
-                  ))}
-                </div>
-
-                <button
-                  type="button"
-                  disabled={!selectedSuspectId}
-                  onClick={async () => {
-                    await fetch(`/api/lobby/${lobbyCode}/vote`, {
-                      method: 'POST',
-                      headers: { 'Content-Type': 'application/json' },
-                      body: JSON.stringify({ playerId: currentPlayer.id, suspectId: selectedSuspectId }),
-                    });
-                  }}
-                  className={`w-full py-3.5 rounded-2xl font-extrabold text-sm transition-all cursor-pointer ${
-                    selectedSuspectId
-                      ? isDark
-                        ? 'bg-slate-100 text-slate-950'
-                        : 'bg-slate-950 text-white'
-                      : 'bg-slate-200 dark:bg-slate-800 text-slate-400 cursor-not-allowed'
-                  }`}
-                >
-                  {lang.strings.voteBtn}
-                </button>
-              </div>
-            )}
-
-            {/* Online Reveal */}
-            {onlineScreen === 'REVEAL' && lobbyState && currentPlayer && (
-              <div
-                className={`p-6 border rounded-3xl space-y-4 text-center ${
-                  isDark ? 'bg-slate-900 border-slate-800' : 'bg-white border-slate-200'
-                }`}
-              >
-                <h3 className={`font-black text-2xl ${isDark ? 'text-white' : 'text-slate-900'}`}>
-                  {lobbyState.winner === 'INNOCENTS' ? lang.strings.innocentsWin : lang.strings.impostersWin}
-                </h3>
-                <div className={`p-4 rounded-2xl ${isDark ? 'bg-slate-950' : 'bg-slate-50'}`}>
-                  <span className="text-xs text-slate-400 block">{lang.strings.secretWord}</span>
-                  <span className={`text-2xl font-black ${isDark ? 'text-white' : 'text-slate-900'}`}>
-                    {lobbyState.secretWord}
-                  </span>
-                </div>
-                {currentPlayer.isHost && (
+                {currentPlayer.isHost ? (
                   <button
                     type="button"
                     onClick={async () => {
-                      await fetch(`/api/lobby/${lobbyCode}/next-round`, {
+                      await fetch(`/api/lobby/${lobbyCode}/vote-phase`, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ playerId: currentPlayer.id }),
                       });
                     }}
-                    className={`w-full py-4 font-extrabold rounded-2xl cursor-pointer ${
-                      isDark ? 'bg-slate-100 text-slate-950' : 'bg-slate-950 text-white'
+                    className={`w-full py-4 font-extrabold rounded-2xl shadow-md cursor-pointer ${
+                      isDark ? 'bg-slate-100 text-slate-950 hover:bg-white' : 'bg-slate-950 text-white hover:bg-slate-800'
                     }`}
                   >
-                    {lang.strings.nextRound}
+                    {lang.strings.readyToVote}
                   </button>
+                ) : (
+                  <div
+                    className={`p-4 rounded-2xl border text-center space-y-1 ${
+                      isDark
+                        ? 'bg-slate-900/60 border-slate-800 text-slate-400'
+                        : 'bg-slate-50 border-slate-200 text-slate-600'
+                    }`}
+                  >
+                    <span className="text-xs font-medium">
+                      {lang.strings.waitingForHost}
+                    </span>
+                  </div>
                 )}
               </div>
+            )}
+
+            {/* Online Voting */}
+            {onlineScreen === 'VOTING' && lobbyState && currentPlayer && (
+              <VotingView
+                players={lobbyState.players}
+                currentPlayerId={currentPlayer.id}
+                lang={lang}
+                hasVoted={Boolean(lobbyState.players.find((p: any) => p.id === currentPlayer.id)?.votedForId)}
+                selectedSuspectId={selectedSuspectId}
+                onCastVote={async (suspectId: string) => {
+                  setSelectedSuspectId(suspectId);
+                  try {
+                    const res = await fetch(`/api/lobby/${lobbyCode}/vote`, {
+                      method: 'POST',
+                      headers: { 'Content-Type': 'application/json' },
+                      body: JSON.stringify({ playerId: currentPlayer.id, suspectId }),
+                    });
+                    if (res.ok) {
+                      const updated = await res.json();
+                      setLobbyState(updated);
+                    }
+                  } catch {
+                    // network glitch
+                  }
+                }}
+                soundEnabled={soundEnabled}
+                isDark={isDark}
+                dir={dir}
+              />
+            )}
+
+            {/* Online Reveal */}
+            {onlineScreen === 'REVEAL' && lobbyState && currentPlayer && (
+              <RevealView
+                lobby={lobbyState}
+                currentPlayerId={currentPlayer.id}
+                lang={lang}
+                onNextRound={async () => {
+                  try {
+                    const res = await fetch(`/api/lobby/${lobbyCode}/next-round`, {
+                      method: 'POST',
+                      headers: { 'Content-Type': 'application/json' },
+                      body: JSON.stringify({ playerId: currentPlayer.id }),
+                    });
+                    if (res.ok) {
+                      const updated = await res.json();
+                      setLobbyState(updated);
+                      setSelectedSuspectId('');
+                    }
+                  } catch {
+                    // network glitch
+                  }
+                }}
+                soundEnabled={soundEnabled}
+                isHost={currentPlayer.isHost}
+                isDark={isDark}
+                dir={dir}
+              />
             )}
           </div>
         )}

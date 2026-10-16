@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { GripVertical, ChevronUp, ChevronDown, X, Plus, Users } from 'lucide-react';
 import { LanguageData } from '../data/languages.ts';
 import { playSound } from '../utils/audio.ts';
+import { haptic } from '../utils/haptics.ts';
 
 interface PlayerRosterProps {
   players: string[];
@@ -100,6 +101,7 @@ export const PlayerRoster: React.FC<PlayerRosterProps> = ({
     updated.splice(finalIndex, 0, movedItem);
     onChange(updated);
     if (soundEnabled) playSound('tap');
+    haptic('move');
   };
 
   const handleDragEnd = () => {
@@ -171,6 +173,7 @@ export const PlayerRoster: React.FC<PlayerRosterProps> = ({
                     <button
                       type="button"
                       disabled={idx === 0}
+                      data-haptic="move"
                       onClick={() => handleMoveUp(idx)}
                       className={`p-0.5 rounded transition-colors cursor-pointer ${
                         idx === 0 ? 'opacity-20 cursor-not-allowed' : 'hover:text-slate-600 dark:hover:text-slate-400'
@@ -182,6 +185,7 @@ export const PlayerRoster: React.FC<PlayerRosterProps> = ({
                     <button
                       type="button"
                       disabled={idx === players.length - 1}
+                      data-haptic="move"
                       onClick={() => handleMoveDown(idx)}
                       className={`p-0.5 rounded transition-colors cursor-pointer ${
                         idx === players.length - 1 ? 'opacity-20 cursor-not-allowed' : 'hover:text-slate-600 dark:hover:text-slate-400'

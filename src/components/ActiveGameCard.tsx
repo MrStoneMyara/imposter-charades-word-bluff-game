@@ -13,6 +13,7 @@ interface ActiveGameCardProps {
   onProceedToVote: () => void;
   soundEnabled: boolean;
   roundNumber: number;
+  isHost?: boolean;
 }
 
 export const ActiveGameCard: React.FC<ActiveGameCardProps> = ({
@@ -25,6 +26,7 @@ export const ActiveGameCard: React.FC<ActiveGameCardProps> = ({
   onProceedToVote,
   soundEnabled,
   roundNumber,
+  isHost = true,
 }) => {
   const [isRevealed, setIsRevealed] = useState(false);
 
@@ -184,14 +186,20 @@ export const ActiveGameCard: React.FC<ActiveGameCardProps> = ({
 
       {/* Proceed to Voting Button */}
       <div>
-        <button
-          type="button"
-          onClick={onProceedToVote}
-          className="w-full py-3.5 px-6 rounded-xl font-bold text-base flex items-center justify-center gap-2 bg-rose-600 hover:bg-rose-500 active:scale-[0.98] text-white shadow-xl shadow-rose-900/30 transition-all cursor-pointer"
-        >
-          <span>{lang.strings.readyToVote}</span>
-          <ArrowRight className="w-5 h-5" />
-        </button>
+        {isHost ? (
+          <button
+            type="button"
+            onClick={onProceedToVote}
+            className="w-full py-3.5 px-6 rounded-xl font-bold text-base flex items-center justify-center gap-2 bg-rose-600 hover:bg-rose-500 active:scale-[0.98] text-white shadow-xl shadow-rose-900/30 transition-all cursor-pointer"
+          >
+            <span>{lang.strings.readyToVote}</span>
+            <ArrowRight className="w-5 h-5" />
+          </button>
+        ) : (
+          <div className="p-4 bg-slate-900/60 border border-slate-800 rounded-xl text-center text-xs text-slate-400 font-medium">
+            {lang.strings.waitingForHost}
+          </div>
+        )}
       </div>
     </div>
   );

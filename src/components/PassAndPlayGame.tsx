@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Eye, ArrowRight, RotateCcw, Target, Trophy, HelpCircle, Zap, ArrowLeft } from 'lucide-react';
 import { LanguageData, WordItem } from '../data/languages.ts';
 import { playSound } from '../utils/audio.ts';
+import { fireConfetti } from '../utils/confetti.ts';
 import { ClueDifficulty } from './GameOptionsCard.tsx';
 
 interface PassAndPlayGameProps {
@@ -98,6 +99,13 @@ export const PassAndPlayGame: React.FC<PassAndPlayGameProps> = ({
   const [imposterGuess, setImposterGuess] = useState('');
   const [guessCorrect, setGuessCorrect] = useState(false);
   const [winner, setWinner] = useState<'INNOCENTS' | 'IMPOSTERS'>('INNOCENTS');
+
+  // Trigger confetti when imposter wins in Pass & Play
+  useEffect(() => {
+    if (gameState === 'RESULTS' && winner === 'IMPOSTERS') {
+      fireConfetti({ count: 180, duration: 4000 });
+    }
+  }, [gameState, winner]);
 
   const dir = lang.dir;
 
